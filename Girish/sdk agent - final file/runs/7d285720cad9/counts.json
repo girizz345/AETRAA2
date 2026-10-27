@@ -1,0 +1,796 @@
+{
+ "by_sheet": [
+  {
+   "discipline": "A",
+   "doc_id": "Architecture/A1/A-03-001TOA-03-004 AREA CALCULATION-A-00-001.pdf",
+   "occurrences": 0,
+   "tags": 0
+  },
+  {
+   "discipline": "A",
+   "doc_id": "Architecture/A1/A-06-001 SETTINGOUT LAYOUT-A-100 SETTING OUT PLAN.pdf",
+   "occurrences": 0,
+   "tags": 0
+  },
+  {
+   "discipline": "A",
+   "doc_id": "Architecture/A1/A-07-001 UNDER GROUND WATER TANK & PUMP ROOM.pdf",
+   "door_window_tags": {
+    "D1": 1
+   },
+   "floors": [
+    "UG"
+   ],
+   "multiplier": 1,
+   "occurrences": 0,
+   "tags": 0
+  },
+  {
+   "discipline": "A",
+   "doc_id": "Architecture/A1/A-07-003 GROUND FLOOR PLAN.pdf",
+   "door_window_tags": {
+    "D1": 4,
+    "D3": 1,
+    "D4": 1,
+    "DW1": 1,
+    "DW18": 1,
+    "DW19": 1,
+    "LD1": 1,
+    "LW1": 1,
+    "LW2": 1,
+    "SD1": 1,
+    "SD2": 2,
+    "SD3": 1
+   },
+   "floors": [
+    "GF"
+   ],
+   "multiplier": 1,
+   "occurrences": 0,
+   "tags": 0
+  },
+  {
+   "discipline": "A",
+   "doc_id": "Architecture/A1/A-07-004 FIRST FLOOR PLAN.pdf",
+   "door_window_tags": {
+    "D1": 3,
+    "D2": 33,
+    "D3": 7,
+    "D4": 37,
+    "D5": 5,
+    "D6": 2,
+    "DW1": 1,
+    "DW17": 2,
+    "DW3": 28,
+    "DW4": 4,
+    "DW5": 1,
+    "DW7": 2
+   },
+   "floors": [
+    "1F"
+   ],
+   "multiplier": 1,
+   "occurrences": 0,
+   "tags": 0
+  },
+  {
+   "discipline": "A",
+   "doc_id": "Architecture/A1/A-07-005 2ND FLOOR PLAN.pdf",
+   "door_window_tags": {
+    "D1": 2,
+    "D2": 38,
+    "D3": 4,
+    "D4": 42,
+    "D5": 5,
+    "DW3": 31,
+    "DW4": 4,
+    "DW5": 1,
+    "DW6": 2,
+    "DW8": 2,
+    "DW9": 2
+   },
+   "floors": [
+    "2F"
+   ],
+   "multiplier": 1,
+   "occurrences": 0,
+   "tags": 0
+  },
+  {
+   "discipline": "A",
+   "doc_id": "Architecture/A1/A-07-006 3RD FLOOR PLAN.pdf",
+   "door_window_tags": {
+    "D1": 2,
+    "D2": 38,
+    "D3": 4,
+    "D4": 42,
+    "D5": 5,
+    "DW3": 31,
+    "DW4": 4,
+    "DW5": 1,
+    "DW6": 2,
+    "DW8": 2,
+    "DW9": 2
+   },
+   "floors": [
+    "3F"
+   ],
+   "multiplier": 1,
+   "occurrences": 0,
+   "tags": 0
+  },
+  {
+   "discipline": "A",
+   "doc_id": "Architecture/A1/A-07-007 TYP ( 4 - 5 ) FLOOR PLAN.pdf",
+   "door_window_tags": {
+    "D1": 2,
+    "D2": 38,
+    "D3": 4,
+    "D4": 42,
+    "D5": 5,
+    "DW3": 31,
+    "DW4": 4,
+    "DW5": 1,
+    "DW6": 2,
+    "DW8": 2,
+    "DW9": 2
+   },
+   "floors": [
+    "4F",
+    "5F"
+   ],
+   "multiplier": 2,
+   "occurrences": 0,
+   "tags": 0
+  },
+  {
+   "discipline": "A",
+   "doc_id": "Architecture/A1/A-07-008 LOWER ROOF PLAN.pdf",
+   "door_window_tags": {
+    "D1": 2,
+    "D3": 4,
+    "D5": 3,
+    "D6": 3,
+    "DW10": 2,
+    "DW11": 4,
+    "DW12": 2,
+    "DW13": 1,
+    "DW14": 1,
+    "DW15": 1,
+    "DW16": 1,
+    "SD2": 1
+   },
+   "floors": [
+    "LOWER ROOF"
+   ],
+   "multiplier": 1,
+   "occurrences": 0,
+   "tags": 0
+  },
+  {
+   "discipline": "A",
+   "doc_id": "Architecture/A1/A-07-009 UPPER ROOF PLAN.pdf",
+   "door_window_tags": {
+    "D1": 1,
+    "DW10": 1,
+    "DW11": 4,
+    "DW12": 2,
+    "DW13": 1,
+    "DW14": 1,
+    "DW15": 1,
+    "DW16": 1
+   },
+   "floors": [
+    "UPPER ROOF"
+   ],
+   "multiplier": 1,
+   "occurrences": 0,
+   "tags": 0
+  },
+  {
+   "discipline": "A",
+   "doc_id": "Architecture/A1/A-07-010 TOPROOFPLAN.pdf",
+   "door_window_tags": {
+    "DW10": 1,
+    "DW11": 4,
+    "DW12": 1
+   },
+   "floors": [
+    "TOP ROOF"
+   ],
+   "multiplier": 1,
+   "occurrences": 0,
+   "tags": 0
+  },
+  {
+   "discipline": "A",
+   "doc_id": "Architecture/A1/A-08-001 ELEVATION -1.pdf",
+   "occurrences": 0,
+   "tags": 0
+  },
+  {
+   "discipline": "A",
+   "doc_id": "Architecture/A1/A-08-002 ELEVATION -2.pdf",
+   "occurrences": 0,
+   "tags": 0
+  },
+  {
+   "discipline": "A",
+   "doc_id": "Architecture/A2/A-08-003 ELEVATION-3.pdf",
+   "occurrences": 0,
+   "tags": 0
+  },
+  {
+   "discipline": "A",
+   "doc_id": "Architecture/A2/A-08-004 ELEVATION-4.pdf",
+   "occurrences": 0,
+   "tags": 0
+  },
+  {
+   "discipline": "A",
+   "doc_id": "Architecture/A2/A-09-001 SECTION -AA.pdf",
+   "occurrences": 0,
+   "tags": 0
+  },
+  {
+   "discipline": "A",
+   "doc_id": "Architecture/A2/A-09-002 SECTION -BB.pdf",
+   "occurrences": 0,
+   "tags": 0
+  },
+  {
+   "discipline": "A",
+   "doc_id": "Architecture/A2/A-09-003 WALL SECTION - W1 TO W3.pdf",
+   "occurrences": 0,
+   "tags": 0
+  },
+  {
+   "discipline": "A",
+   "doc_id": "Architecture/A2/A-09-004 WALL SECTION - W4 TO W5.pdf",
+   "occurrences": 0,
+   "tags": 0
+  },
+  {
+   "discipline": "A",
+   "doc_id": "Architecture/A2/A-12-001 STAIRCASE DETAIL-1.pdf",
+   "occurrences": 0,
+   "tags": 0
+  },
+  {
+   "discipline": "A",
+   "doc_id": "Architecture/A2/A-12-002 STAIRCASE DETAIL-2.pdf",
+   "occurrences": 0,
+   "tags": 0
+  },
+  {
+   "discipline": "A",
+   "doc_id": "Architecture/A2/A-12-003 LIFT DETAILS.pdf",
+   "occurrences": 0,
+   "tags": 0
+  },
+  {
+   "discipline": "A",
+   "doc_id": "Architecture/A2/A-12-004 SUBSTATION & LV ROOM DETAILS.pdf",
+   "occurrences": 0,
+   "tags": 0
+  },
+  {
+   "discipline": "A",
+   "doc_id": "Architecture/A2/A-12-005 GARBAGE ROOM DETAILS.pdf",
+   "occurrences": 0,
+   "tags": 0
+  },
+  {
+   "discipline": "A",
+   "doc_id": "Architecture/A2/A-12-006 TANK&PUMP ROOM DETAILS.pdf",
+   "occurrences": 0,
+   "tags": 0
+  },
+  {
+   "discipline": "A",
+   "doc_id": "Architecture/A2/A-12-007 SWIMMING POOL DETAILS.pdf",
+   "occurrences": 0,
+   "tags": 0
+  },
+  {
+   "discipline": "A",
+   "doc_id": "Architecture/A2/A-12-008 RAMP DETAILS.pdf",
+   "occurrences": 0,
+   "tags": 0
+  },
+  {
+   "discipline": "A",
+   "doc_id": "Architecture/A2/A-12-012 WATERPROOFING DETAILS.pdf",
+   "occurrences": 0,
+   "tags": 0
+  },
+  {
+   "discipline": "A",
+   "doc_id": "Architecture/A2/A-12-013 TYPICAL DETAILS.pdf",
+   "occurrences": 0,
+   "tags": 0
+  },
+  {
+   "discipline": "A",
+   "doc_id": "Architecture/A2/A-12-014 SIGNAGE SIGNAGEDETAILS DETAILS DETAILS DETAILS.pdf",
+   "occurrences": 0,
+   "tags": 0
+  },
+  {
+   "discipline": "L",
+   "doc_id": "Structure/STRUCTURE Sheet 10.pdf",
+   "occurrences": 0,
+   "tags": 0
+  },
+  {
+   "discipline": "L",
+   "doc_id": "Structure/STRUCTURE Sheet 02.pdf",
+   "occurrences": 0,
+   "tags": 0
+  },
+  {
+   "discipline": "L",
+   "doc_id": "Structure/STRUCTURE Sheet 03.pdf",
+   "occurrences": 0,
+   "tags": 0
+  },
+  {
+   "discipline": "L",
+   "doc_id": "Structure/STRUCTURE Sheet 04.pdf",
+   "occurrences": 0,
+   "tags": 0
+  },
+  {
+   "discipline": "L",
+   "doc_id": "Structure/STRUCTURE Sheet 05.pdf",
+   "occurrences": 0,
+   "tags": 0
+  },
+  {
+   "discipline": "L",
+   "doc_id": "Structure/STRUCTURE Sheet 06.pdf",
+   "occurrences": 0,
+   "tags": 0
+  },
+  {
+   "discipline": "L",
+   "doc_id": "Structure/STRUCTURE Sheet 07.pdf",
+   "occurrences": 0,
+   "tags": 0
+  },
+  {
+   "discipline": "L",
+   "doc_id": "Structure/STRUCTURE Sheet 08.pdf",
+   "occurrences": 0,
+   "tags": 0
+  },
+  {
+   "discipline": "L",
+   "doc_id": "Structure/STRUCTURE Sheet 09.pdf",
+   "occurrences": 0,
+   "tags": 0
+  },
+  {
+   "discipline": "S",
+   "doc_id": "Structure/STRUCTURE Sheet 13.pdf",
+   "occurrences": 0,
+   "tags": 0
+  },
+  {
+   "discipline": "S",
+   "doc_id": "Structure/STRUCTURE Sheet 14.pdf",
+   "occurrences": 0,
+   "tags": 0
+  },
+  {
+   "discipline": "S",
+   "doc_id": "Structure/STRUCTURE Sheet 15.pdf",
+   "occurrences": 0,
+   "tags": 0
+  },
+  {
+   "discipline": "S",
+   "doc_id": "Structure/STRUCTURE Sheet 16.pdf",
+   "occurrences": 0,
+   "tags": 0
+  },
+  {
+   "discipline": "S",
+   "doc_id": "Structure/STRUCTURE Sheet 17.pdf",
+   "occurrences": 10,
+   "tags": 2
+  },
+  {
+   "discipline": "S",
+   "doc_id": "Structure/STRUCTURE Sheet 18.pdf",
+   "occurrences": 0,
+   "tags": 0
+  },
+  {
+   "discipline": "S",
+   "doc_id": "Structure/STRUCTURE Sheet 19.pdf",
+   "occurrences": 8,
+   "tags": 3
+  },
+  {
+   "discipline": "S",
+   "doc_id": "Structure/STRUCTURE Sheet 20.pdf",
+   "occurrences": 0,
+   "tags": 0
+  },
+  {
+   "discipline": "S",
+   "doc_id": "Structure/STRUCTURE Sheet 21.pdf",
+   "occurrences": 76,
+   "tags": 3
+  },
+  {
+   "discipline": "S",
+   "doc_id": "Structure/STRUCTURE Sheet 22.pdf",
+   "occurrences": 0,
+   "tags": 0
+  },
+  {
+   "discipline": "S",
+   "doc_id": "Structure/STRUCTURE Sheet 23.pdf",
+   "occurrences": 0,
+   "tags": 0
+  },
+  {
+   "discipline": "S",
+   "doc_id": "Structure/STRUCTURE Sheet 24.pdf",
+   "occurrences": 0,
+   "tags": 0
+  },
+  {
+   "discipline": "S",
+   "doc_id": "Structure/STRUCTURE Sheet 25.pdf",
+   "occurrences": 0,
+   "tags": 0
+  },
+  {
+   "discipline": "S",
+   "doc_id": "Structure/STRUCTURE Sheet 26.pdf",
+   "occurrences": 0,
+   "tags": 0
+  },
+  {
+   "discipline": "S",
+   "doc_id": "Structure/STRUCTURE Sheet 28.pdf",
+   "occurrences": 0,
+   "tags": 0
+  },
+  {
+   "discipline": "S",
+   "doc_id": "Structure/STRUCTURE Sheet 29.pdf",
+   "occurrences": 27,
+   "tags": 3
+  },
+  {
+   "discipline": "S",
+   "doc_id": "Structure/STRUCTURE Sheet 30.pdf",
+   "occurrences": 0,
+   "tags": 0
+  },
+  {
+   "discipline": "S",
+   "doc_id": "Structure/STRUCTURE Sheet 31.pdf",
+   "occurrences": 7,
+   "tags": 2
+  },
+  {
+   "discipline": "S",
+   "doc_id": "Structure/STRUCTURE Sheet 32.pdf",
+   "occurrences": 8,
+   "tags": 2
+  },
+  {
+   "discipline": "S",
+   "doc_id": "Structure/STRUCTURE Sheet 33.pdf",
+   "occurrences": 8,
+   "tags": 2
+  },
+  {
+   "discipline": "S",
+   "doc_id": "Structure/STRUCTURE Sheet 34.pdf",
+   "occurrences": 8,
+   "tags": 2
+  },
+  {
+   "discipline": "S",
+   "doc_id": "Structure/STRUCTURE Sheet 35.pdf",
+   "occurrences": 10,
+   "tags": 2
+  },
+  {
+   "discipline": "S",
+   "doc_id": "Structure/STRUCTURE Sheet 36.pdf",
+   "occurrences": 0,
+   "tags": 0
+  },
+  {
+   "discipline": "S",
+   "doc_id": "Structure/STRUCTURE Sheet 37.pdf",
+   "occurrences": 0,
+   "tags": 0
+  },
+  {
+   "discipline": "S",
+   "doc_id": "Structure/STRUCTURE Sheet 38.pdf",
+   "occurrences": 0,
+   "tags": 0
+  },
+  {
+   "discipline": "S",
+   "doc_id": "Structure/STRUCTURE Sheet 47.pdf",
+   "occurrences": 0,
+   "tags": 0
+  },
+  {
+   "discipline": "S",
+   "doc_id": "Structure/STRUCTURE Sheet 48.pdf",
+   "occurrences": 0,
+   "tags": 0
+  },
+  {
+   "discipline": "S",
+   "doc_id": "Structure/STRUCTURE Sheet 39.pdf",
+   "occurrences": 0,
+   "tags": 0
+  },
+  {
+   "discipline": "S",
+   "doc_id": "Structure/STRUCTURE Sheet 40.pdf",
+   "occurrences": 13,
+   "tags": 4
+  },
+  {
+   "discipline": "S",
+   "doc_id": "Structure/STRUCTURE Sheet 41.pdf",
+   "occurrences": 0,
+   "tags": 0
+  },
+  {
+   "discipline": "S",
+   "doc_id": "Structure/STRUCTURE Sheet 42.pdf",
+   "occurrences": 0,
+   "tags": 0
+  },
+  {
+   "discipline": "S",
+   "doc_id": "Structure/STRUCTURE Sheet 43.pdf",
+   "occurrences": 0,
+   "tags": 0
+  },
+  {
+   "discipline": "S",
+   "doc_id": "Structure/STRUCTURE Sheet 44.pdf",
+   "occurrences": 0,
+   "tags": 0
+  },
+  {
+   "discipline": "S",
+   "doc_id": "Structure/STRUCTURE Sheet 45.pdf",
+   "occurrences": 0,
+   "tags": 0
+  },
+  {
+   "discipline": "S",
+   "doc_id": "Structure/STRUCTURE Sheet 46.pdf",
+   "occurrences": 0,
+   "tags": 0
+  },
+  {
+   "discipline": "S",
+   "doc_id": "Structure/STRUCTURE Sheet 49.pdf",
+   "occurrences": 0,
+   "tags": 0
+  },
+  {
+   "discipline": "S",
+   "doc_id": "Structure/STRUCTURE Sheet 50.pdf",
+   "occurrences": 0,
+   "tags": 0
+  },
+  {
+   "discipline": "P",
+   "doc_id": "PLUMBING/WS-00 SETTING OUTPLAN WATER SUPPLY LAYOUT.pdf",
+   "occurrences": 0,
+   "tags": 0
+  },
+  {
+   "discipline": "P",
+   "doc_id": "PLUMBING/WS-01 UNDERGROUND PUMP ROOM WATER SUPPLY LAYOUT.pdf",
+   "occurrences": 0,
+   "tags": 0
+  },
+  {
+   "discipline": "P",
+   "doc_id": "PLUMBING/WS-02 BASEMENT FLOOR PLAN WATER SUPPLY LAYOUT.pdf",
+   "occurrences": 0,
+   "tags": 0
+  },
+  {
+   "discipline": "P",
+   "doc_id": "PLUMBING/WS-03 GROUND FLOOR PLAN WATER SUPPLY LAYOUT.pdf",
+   "occurrences": 0,
+   "tags": 0
+  },
+  {
+   "discipline": "P",
+   "doc_id": "PLUMBING/WS-04 FIRST FLOOR PLAN WATER SUPPLY LAYOUT.pdf",
+   "occurrences": 0,
+   "tags": 0
+  },
+  {
+   "discipline": "P",
+   "doc_id": "PLUMBING/WS-05 2NDFLOORPLAN WATER SUPPLY LAYOUT.pdf",
+   "occurrences": 0,
+   "tags": 0
+  },
+  {
+   "discipline": "P",
+   "doc_id": "PLUMBING/WS-06 TYPICAL(3RD&5TH)FLOORPLAN WATER SUPPLY LAYOUT.pdf",
+   "occurrences": 0,
+   "tags": 0
+  },
+  {
+   "discipline": "P",
+   "doc_id": "PLUMBING/WS-07 4TH&6THFLOORPLAN WATER SUPPLY LAYOUT.pdf",
+   "occurrences": 0,
+   "tags": 0
+  },
+  {
+   "discipline": "P",
+   "doc_id": "PLUMBING/WS-08 LOWER ROOF FLOOR PLAN WATER SUPPLY LAYOUT.pdf",
+   "occurrences": 0,
+   "tags": 0
+  },
+  {
+   "discipline": "P",
+   "doc_id": "PLUMBING/WS-09 UPPER ROOF FLOOR PLAN WATER SUPPLY LAYOUT.pdf",
+   "occurrences": 0,
+   "tags": 0
+  },
+  {
+   "discipline": "P",
+   "doc_id": "PLUMBING/WS-10 SCHEMATIC DIAGRAM WATER SUPPLY LAYOUT.pdf",
+   "occurrences": 0,
+   "tags": 0
+  },
+  {
+   "discipline": "P",
+   "doc_id": "PLUMBING/WS-11 TYPICAL DETAILS WATER SUPPLY LAYOUT.pdf",
+   "occurrences": 0,
+   "tags": 0
+  }
+ ],
+ "by_value": {
+  "B1": 64,
+  "B2": 72,
+  "B3": 21,
+  "B4": 5,
+  "D1": 19,
+  "D2": 185,
+  "D3": 28,
+  "D4": 206,
+  "D5": 28,
+  "D6": 5,
+  "DW1": 2,
+  "DW10": 4,
+  "DW11": 12,
+  "DW12": 5,
+  "DW13": 2,
+  "DW14": 2,
+  "DW15": 2,
+  "DW16": 2,
+  "DW17": 2,
+  "DW18": 1,
+  "DW19": 1,
+  "DW3": 152,
+  "DW4": 20,
+  "DW5": 5,
+  "DW6": 8,
+  "DW7": 2,
+  "DW8": 8,
+  "DW9": 8,
+  "LD1": 1,
+  "LW1": 1,
+  "LW2": 1,
+  "SD1": 1,
+  "SD2": 3,
+  "SD3": 1,
+  "W1": 4,
+  "W2": 4,
+  "W3": 3,
+  "W4": 2
+ },
+ "distinct_tag_values": 38,
+ "floor_plans_counted": [
+  {
+   "drawing_no": "A-07-001",
+   "floors": [
+    "UG"
+   ],
+   "mm_per_pt": 44.09722222222222,
+   "multiplier": 1,
+   "title": "UNDER GROUND WATER TANK & PUMP ROOM"
+  },
+  {
+   "drawing_no": "A-07-003",
+   "floors": [
+    "GF"
+   ],
+   "mm_per_pt": 55.49589711650878,
+   "multiplier": 1,
+   "title": "GROUND FLOOR PLAN"
+  },
+  {
+   "drawing_no": "A-07-004",
+   "floors": [
+    "1F"
+   ],
+   "mm_per_pt": 53.7634232179627,
+   "multiplier": 1,
+   "title": "FIRST FLOOR PLAN"
+  },
+  {
+   "drawing_no": "A-07-005",
+   "floors": [
+    "2F"
+   ],
+   "mm_per_pt": 53.7634232179627,
+   "multiplier": 1,
+   "title": "2ND FLOOR PLAN"
+  },
+  {
+   "drawing_no": "A-07-006",
+   "floors": [
+    "3F"
+   ],
+   "mm_per_pt": 53.7634232179627,
+   "multiplier": 1,
+   "title": "3RD FLOOR PLAN"
+  },
+  {
+   "drawing_no": "A-07-007",
+   "floors": [
+    "4F",
+    "5F"
+   ],
+   "mm_per_pt": 53.7634232179627,
+   "multiplier": 2,
+   "title": "TYP ( 4 - 5 ) FLOOR PLAN"
+  },
+  {
+   "drawing_no": "A-07-008",
+   "floors": [
+    "LOWER ROOF"
+   ],
+   "mm_per_pt": 53.7634232179627,
+   "multiplier": 1,
+   "title": "LOWER ROOF PLAN"
+  },
+  {
+   "drawing_no": "A-07-009",
+   "floors": [
+    "UPPER ROOF"
+   ],
+   "mm_per_pt": null,
+   "multiplier": 1,
+   "title": "UPPER ROOF PLAN"
+  },
+  {
+   "drawing_no": "A-07-010",
+   "floors": [
+    "TOP ROOF"
+   ],
+   "mm_per_pt": null,
+   "multiplier": 1,
+   "title": "TOP ROOF PLAN"
+  }
+ ],
+ "sheets_examined": 88,
+ "symbol_clustering": "not implemented",
+ "total_occurrences": 892
+}

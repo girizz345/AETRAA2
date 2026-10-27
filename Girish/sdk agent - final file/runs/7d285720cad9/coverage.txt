@@ -1,0 +1,41 @@
+COVERAGE - READ THIS BEFORE THE BILL
+====================================
+
+THIS BILL IS PARTIAL. It covers the sections below and NOT the ones
+listed after them. Do not issue it for tender as a complete bill.
+
+Sections billed:
+  D  3 line(s)
+  G  2 line(s)
+  H  34 line(s)
+  J  8 line(s)
+
+Required by the drawings but NOT in this bill:
+  Q      EVIDENCE PRESENT, NOTHING BILLED: 212 wet_room in the drawings, no rows in section Q
+
+How to close each kind:
+  SCHEDULE NOT READ - answer its request in readings/ (or run with the model
+    available) and run again.
+  EVIDENCE PRESENT, NOTHING BILLED - see 'Questions and gaps.txt' for why.
+  NOT MEASURED FROM THE PLANS IN THIS RUN - the gaps say what was missing: a
+    verified scale, a wall layer in the PDF, a storey height or the slab
+    thickness. Supply it (drawings, or BOQ_DECISIONS.json) and run again.
+  NOT YET MEASURED BY THIS VERSION - measure these by hand (the platform's
+    Measure tab) until the agent measures them itself.
+
+A FAIL can also be closed by a written justification in
+AN_RECONCILIATION.json beside the drawings.
+
+Cross-checks (G+.30 mass balance):
+   1. PASS    sum of floor finish areas in J vs sum of room.area_m2 x floor_count - expected 7282.98, got 7282.98 (0.0%)
+   2. NOT RUN RC slab area in C vs sum of geometry.floor_areas GFA [slab area is not measured from the plans by this version]
+   3. PASS    blockwork m2 vs (sum of wall lengths once x average height - openings) - expected 15598.3690, got 16394.1735 (5.1%) [expected: wall lengths once x clear height, before openings; the variance is the openings' net effect]
+   4. PASS    sum of door rows in H vs sum of schedules.doors counts, after the R36 guard - expected 480, got 480 (0.0%)
+   5. PASS    sum of window rows in H vs sum of schedules.windows - expected 199, got 199 (0.0%)
+   6. NOT RUN sanitary fixture count vs wet room count [no sanitary fixture schedule was read]
+   7. PASS    plaster/paint m2 <= 2 x blockwork m2 + external wall inner faces - expected <= 32788.3470, got 26076.0895 [external wall inner faces are not added to the bound]
+   8. FLAG    skirting lm vs sum of (room.perimeter - door widths) x floor count - expected 7851.05, got 7061.68 (10.1%) [expected: room perimeters before door widths]
+   9. NOT RUN total BOQ slab area vs the measured built-up area [slab area is not measured from the plans by this version]
+  10. NOT RUN any material or system appearing in more than one section - insulation, waterproofing, paint [no register of systems across sections is kept by this version]
+  11. NOT RUN CAD blocks representing double-faced or paired devices - EXIT-DOUBLE, EM-DOUBLE [CAD blocks are not counted by this version]
+  12. NOT RUN a fixture count exactly equal to the count of another building element [no fixture count to compare]

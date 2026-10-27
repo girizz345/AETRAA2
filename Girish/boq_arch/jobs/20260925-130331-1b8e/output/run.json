@@ -1,0 +1,96 @@
+{
+ "project": "5310319 PROPOSED RESIDENTIAL BUILDING (B+G+5+ROOF)",
+ "identity": {
+  "owner": "G F S REAL ESTATE L.L.C",
+  "job_title": "PROPOSED RESIDENTIAL BUILDING (B+G+5+ROOF)",
+  "plot": "5310319",
+  "community": "SAIH SHUAIB 2",
+  "consultant": "EMSQUARE ENGINEERING CONSULTANTS"
+ },
+ "rev": "00",
+ "seconds": 30,
+ "drawings_folder": "D:\\Girish\\AETRAA\\Girish\\boq_arch\\jobs\\20260925-130331-1b8e\\drawings",
+ "sections": {
+  "G": [
+   {
+    "code": "G-A",
+    "description": "Horizontal surfaces",
+    "unit": "m2",
+    "quantity": 2.22,
+    "bill_quantity": 2,
+    "origins": "MEASURED",
+    "clause": "G2.1"
+   }
+  ],
+  "J": [
+   {
+    "code": "J-A",
+    "description": "To floors, bathrooms and toilets, ground floor",
+    "unit": "m2",
+    "quantity": 2.22,
+    "bill_quantity": 2,
+    "origins": "MEASURED",
+    "clause": "J3.1.1"
+   },
+   {
+    "code": "J-B",
+    "description": "To floors, service rooms, ground floor",
+    "unit": "m2",
+    "quantity": 92.26,
+    "bill_quantity": 92,
+    "origins": "MEASURED",
+    "clause": "J3.1.1"
+   },
+   {
+    "code": "J-C",
+    "description": "To ceilings, bathrooms and toilets",
+    "unit": "m2",
+    "quantity": 2.22,
+    "bill_quantity": 2,
+    "origins": "MEASURED",
+    "clause": "J3.1.3"
+   },
+   {
+    "code": "J-D",
+    "description": "To ceilings, service rooms",
+    "unit": "m2",
+    "quantity": 92.26,
+    "bill_quantity": 92,
+    "origins": "MEASURED",
+    "clause": "J3.1.3"
+   }
+  ]
+ },
+ "storeys": {},
+ "gaps": 10,
+ "gaps_by_section": {
+  "(all)": 3,
+  "D": 2,
+  "E": 1,
+  "H": 2,
+  "J": 2
+ },
+ "drawings": {
+  "A-07-003": "GROUND FLOOR PLAN"
+ },
+ "section_titles": {
+  "G": "THERMAL & MOISTURE PROTECTION",
+  "J": "FINISHES"
+ },
+ "pending_readings": [
+  "A-07-005.grid_dims.request",
+  "A-09-004.notes.request",
+  "file-0772d13ef917.title_block.request",
+  "file-714fd2b309b1.title_block.request",
+  "file-71f609df4c8b.title_block.request",
+  "file-c78dec475e9d.title_block.request"
+ ],
+ "readings_used": {},
+ "files": [
+  "D:\\Girish\\AETRAA\\Girish\\boq_arch\\jobs\\20260925-130331-1b8e\\output\\5310319 PROPOSED RESIDENTIAL BUILDING (B+G+5+ROOF) - Take-off - Rev 00.xlsx",
+  "D:\\Girish\\AETRAA\\Girish\\boq_arch\\jobs\\20260925-130331-1b8e\\output\\5310319 PROPOSED RESIDENTIAL BUILDING (B+G+5+ROOF) - BOQ Unpriced - Bill No.1 - Rev 00.xlsx",
+  "D:\\Girish\\AETRAA\\Girish\\boq_arch\\jobs\\20260925-130331-1b8e\\output\\5310319 PROPOSED RESIDENTIAL BUILDING (B+G+5+ROOF) - GAPS - Rev 00.xlsx",
+  "D:\\Girish\\AETRAA\\Girish\\boq_arch\\jobs\\20260925-130331-1b8e\\output\\5310319 PROPOSED RESIDENTIAL BUILDING (B+G+5+ROOF) - Revision Changes - Rev 00 to 00.xlsx",
+  "D:\\Girish\\AETRAA\\Girish\\boq_arch\\jobs\\20260925-130331-1b8e\\output\\overlays\\A-07-003 marked up.pdf"
+ ]
+}

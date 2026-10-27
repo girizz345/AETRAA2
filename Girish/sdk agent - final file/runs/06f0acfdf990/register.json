@@ -1,0 +1,51 @@
+{
+ "project_identity": {
+  "dissent": {},
+  "heading": {
+   "basis": "folder name",
+   "building": "",
+   "client": "",
+   "label": "tinyset",
+   "package": "",
+   "project": "tinyset"
+  },
+  "refused": {
+   "job_title": "1 different values on 1 sheets, the commonest on 1",
+   "owner": "1 different values on 1 sheets, the commonest on 1",
+   "plot": "1 different values on 1 sheets, the commonest on 1"
+  },
+  "support": {
+   "job_title": [
+    1,
+    1
+   ],
+   "owner": [
+    1,
+    1
+   ],
+   "plot": [
+    1,
+    1
+   ]
+  }
+ },
+ "schema": "register/1",
+ "sheets": [
+  {
+   "discipline": "Architectural",
+   "doc_id": "A-07-003 GROUND FLOOR PLAN.pdf",
+   "drawing_no": "A-07-003",
+   "file_sha256": "",
+   "revision": null,
+   "scale": "1:150",
+   "scale_verified": false,
+   "section": "D, F, G, H, J, K, M",
+   "sheet_kind": null,
+   "subtitle": null,
+   "superseded_by": null,
+   "tier": "T2",
+   "title": "GROUND FLOOR PLAN"
+  }
+ ],
+ "transcribed_title_blocks": []
+}

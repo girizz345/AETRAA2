@@ -1,0 +1,21 @@
+{
+ "schema": "evidence/1",
+ "rev": "00",
+ "project": {
+  "plot": "5310319",
+  "job_title": "PROPOSED RESIDENTIAL BUILDING (B+G+5+ROOF)",
+  "owner": "G F S REAL ESTATE L.L.C"
+ },
+ "sheets": {
+  "A-07-005": {
+   "title": "2ND FLOOR PLAN",
+   "sha1": "fb8e768502763c91687caaff322c2bbc23bca8ab",
+   "file": "A-07-005 2ND FLOOR PLAN.pdf"
+  }
+ },
+ "schedule": {},
+ "tags": {
+  "A-07-005": []
+ },
+ "items": {}
+}

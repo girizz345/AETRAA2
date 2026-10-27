@@ -1,0 +1,14 @@
+{
+ "ambiguous": 0,
+ "resolved": 1,
+ "resolved_by_file_name": 0,
+ "resolved_by_model": 0,
+ "sheets": [
+  {
+   "basis": "title block",
+   "doc_id": "A-07-003 GROUND FLOOR PLAN.pdf",
+   "drawing_no": "A-07-003",
+   "kind": "plan"
+  }
+ ]
+}

@@ -1,0 +1,768 @@
+{
+ "schema": "disciplines/2",
+ "provenance": "reference/discipline-matrix.md (UAE prefix conventions, title keywords, equipment tag patterns) merged with the ten discipline folders observed in the development package",
+ "routing_note": "the section here is a ROUTING HINT, not the billing decision. What section a line is billed under is fixed by its clause. This matrix answers which drawings feed which section, which is what the completeness gate needs to notice that a section has nothing behind it.",
+ "corrections_applied": [
+  {
+   "correction": "section S removed",
+   "detail": "reference/discipline-matrix.md states in its own header that there is no POMI section S - communications and ELV are ELECTRICAL work, billed inside R as their own item groups - and then its prefix table still routes F/FA, V/ELV, MD/MEP and LS/LSF to S, and its cross-discipline note still says fire alarm devices are 'measured in S (ELV) only'. The reference contradicts itself. Every S in this file is R.",
+   "authority": "DECISIONS.md - the section-letter decision",
+   "affected_prefixes": [
+    "FA",
+    "F",
+    "V",
+    "ELV",
+    "MD",
+    "MEP",
+    "LSF",
+    "LF"
+   ]
+  },
+  {
+   "correction": "furnishings N to M, K is Accessories",
+   "detail": "carried from the same header. N is Special Construction; K is Accessories, not Specialties.",
+   "authority": "reference/determinism.md 4.11a crosswalk"
+  }
+ ],
+ "disciplines": [
+  {
+   "prefix": "AR-SD",
+   "discipline": "Architectural Schedules",
+   "sections": [
+    "H",
+    "J",
+    "K"
+   ]
+  },
+  {
+   "prefix": "AR",
+   "discipline": "Architectural",
+   "sections": [
+    "D",
+    "F",
+    "G",
+    "H",
+    "J",
+    "K",
+    "M"
+   ]
+  },
+  {
+   "prefix": "INT",
+   "discipline": "Interior",
+   "sections": [
+    "D",
+    "G",
+    "H",
+    "J",
+    "K",
+    "M"
+   ]
+  },
+  {
+   "prefix": "IN",
+   "discipline": "Interior",
+   "sections": [
+    "J",
+    "K",
+    "L",
+    "M"
+   ]
+  },
+  {
+   "prefix": "ID",
+   "discipline": "Interior",
+   "sections": [
+    "J",
+    "K",
+    "L",
+    "M"
+   ]
+  },
+  {
+   "prefix": "A",
+   "discipline": "Architectural",
+   "sections": [
+    "D",
+    "F",
+    "G",
+    "H",
+    "J",
+    "K",
+    "M"
+   ]
+  },
+  {
+   "prefix": "ST",
+   "discipline": "Structural",
+   "sections": [
+    "B",
+    "C",
+    "E"
+   ]
+  },
+  {
+   "prefix": "S",
+   "discipline": "Structural",
+   "sections": [
+    "B",
+    "C",
+    "E"
+   ]
+  },
+  {
+   "prefix": "CIV",
+   "discipline": "Civil",
+   "sections": [
+    "B"
+   ]
+  },
+  {
+   "prefix": "CI",
+   "discipline": "Civil",
+   "sections": [
+    "B"
+   ]
+  },
+  {
+   "prefix": "CV",
+   "discipline": "Civil",
+   "sections": [
+    "B"
+   ]
+  },
+  {
+   "prefix": "C",
+   "discipline": "Civil",
+   "sections": [
+    "B"
+   ],
+   "caution": "single letter C is Civil by UAE convention but C is also the POMI concrete section letter and a structural column tag. Longest-prefix matching puts CIV, CI and CV ahead of it."
+  },
+  {
+   "prefix": "MEP",
+   "discipline": "Combined MEP",
+   "sections": [
+    "Q",
+    "R"
+   ]
+  },
+  {
+   "prefix": "MD",
+   "discipline": "Combined MEP",
+   "sections": [
+    "Q",
+    "R"
+   ]
+  },
+  {
+   "prefix": "ME",
+   "discipline": "Mechanical",
+   "sections": [
+    "Q"
+   ]
+  },
+  {
+   "prefix": "MH",
+   "discipline": "HVAC",
+   "sections": [
+    "Q"
+   ]
+  },
+  {
+   "prefix": "M",
+   "discipline": "Mechanical (HVAC)",
+   "sections": [
+    "Q"
+   ]
+  },
+  {
+   "prefix": "PL",
+   "discipline": "Plumbing",
+   "sections": [
+    "Q"
+   ]
+  },
+  {
+   "prefix": "PB",
+   "discipline": "Plumbing",
+   "sections": [
+    "Q"
+   ]
+  },
+  {
+   "prefix": "P",
+   "discipline": "Plumbing",
+   "sections": [
+    "Q"
+   ],
+   "caution": "P is also the POMI conveying section letter and a pump tag"
+  },
+  {
+   "prefix": "DR",
+   "discipline": "Drainage",
+   "sections": [
+    "Q",
+    "B"
+   ],
+   "note": "B carries the external runs"
+  },
+  {
+   "prefix": "D",
+   "discipline": "Drainage",
+   "sections": [
+    "Q",
+    "B"
+   ],
+   "caution": "D is also the POMI masonry section letter and a door tag"
+  },
+  {
+   "prefix": "FF",
+   "discipline": "Fire Fighting",
+   "sections": [
+    "Q"
+   ]
+  },
+  {
+   "prefix": "FA",
+   "discipline": "Fire Alarm",
+   "sections": [
+    "R"
+   ],
+   "was": "S"
+  },
+  {
+   "prefix": "F",
+   "discipline": "Fire (alarm + fighting)",
+   "sections": [
+    "Q",
+    "R"
+   ],
+   "was": "Q + S"
+  },
+  {
+   "prefix": "ELV",
+   "discipline": "Extra-low voltage",
+   "sections": [
+    "R"
+   ],
+   "was": "S"
+  },
+  {
+   "prefix": "EL",
+   "discipline": "Electrical",
+   "sections": [
+    "R"
+   ]
+  },
+  {
+   "prefix": "E",
+   "discipline": "Electrical",
+   "sections": [
+    "R"
+   ]
+  },
+  {
+   "prefix": "LV",
+   "discipline": "ELV",
+   "sections": [
+    "R"
+   ]
+  },
+  {
+   "prefix": "V",
+   "discipline": "Extra-low voltage",
+   "sections": [
+    "R"
+   ],
+   "was": "S"
+  },
+  {
+   "prefix": "LSF",
+   "discipline": "Life safety / fire egress",
+   "sections": [
+    "R"
+   ],
+   "was": "S"
+  },
+  {
+   "prefix": "LF",
+   "discipline": "Life safety / fire egress",
+   "sections": [
+    "R"
+   ],
+   "was": "S"
+  },
+  {
+   "prefix": "LA",
+   "discipline": "Landscape",
+   "sections": [
+    "B"
+   ]
+  },
+  {
+   "prefix": "LS",
+   "discipline": "Landscape",
+   "sections": [
+    "B",
+    "N"
+   ],
+   "collision": "LS"
+  },
+  {
+   "prefix": "L",
+   "discipline": "Landscape",
+   "sections": [
+    "B"
+   ],
+   "caution": "L is also the POMI equipment section letter and a light tag"
+  }
+ ],
+ "collisions": [
+  {
+   "token": "LS",
+   "readings": [
+    {
+     "discipline": "Landscape",
+     "sections": [
+      "B",
+      "N"
+     ],
+     "evidence": "observed as a discipline folder in the development package"
+    },
+    {
+     "discipline": "Life safety / fire egress",
+     "sections": [
+      "R"
+     ],
+     "evidence": "reference/discipline-matrix.md prefix table"
+    }
+   ],
+   "resolution": "Landscape holds the bare LS because it is the reading observed in a real package. Life safety is reachable as LSF and LF. A project that uses LS for life safety must override this row, and a run that routes an LS sheet records the reading it used so the choice is visible rather than assumed."
+  }
+ ],
+ "title_keywords": {
+  "B": [
+   "BACKFILL",
+   "EARTHWORKS",
+   "EXCAVATION",
+   "FENCING",
+   "GRADING",
+   "IRRIGATION",
+   "KERB",
+   "LANDSCAPING",
+   "PAVING",
+   "ROAD"
+  ],
+  "C": [
+   "BEAM",
+   "COLUMN",
+   "FOUNDATION",
+   "GROUND SLAB",
+   "PILE CAP",
+   "POST-TENSIONING",
+   "RAFT",
+   "REINFORCEMENT",
+   "SLAB",
+   "STAIR",
+   "STARTER",
+   "TIE BEAM",
+   "TRANSFER SLAB",
+   "WALL"
+  ],
+  "D": [
+   "BLOCK",
+   "BLOCKWORK",
+   "HOLLOW BLOCK",
+   "MASONRY",
+   "PARTITION",
+   "SOLID BLOCK",
+   "WALL"
+  ],
+  "E": [
+   "BALUSTRADE",
+   "CHANNEL",
+   "HANDRAIL",
+   "LADDER",
+   "PURLIN",
+   "STAIR",
+   "STEEL FRAME",
+   "STRUCTURAL STEEL"
+  ],
+  "F": [
+   "BUILT-IN",
+   "CABINETRY",
+   "JOINERY",
+   "MILLWORK",
+   "WARDROBE"
+  ],
+  "G": [
+   "BITUMINOUS",
+   "DPC",
+   "DPM",
+   "FLASHING",
+   "INSULATION",
+   "MEMBRANE",
+   "WATERPROOFING"
+  ],
+  "H": [
+   "ALUMINIUM SECTION",
+   "DOOR LAYOUT",
+   "DOOR SCHEDULE",
+   "GLAZING",
+   "IRONMONGERY",
+   "STOREFRONT",
+   "WINDOW SCHEDULE"
+  ],
+  "J": [
+   "CEILING",
+   "FINISH SCHEDULE",
+   "FLOOR FINISH",
+   "PAINTING SCHEDULE",
+   "RCP",
+   "REFLECTED CEILING PLAN",
+   "TILE LAYOUT",
+   "WALL FINISH"
+  ],
+  "K": [
+   "FIRE EXTINGUISHER LAYOUT",
+   "SIGNAGE",
+   "TOILET ACCESSORIES",
+   "WAYFINDING"
+  ],
+  "N": [
+   "AMENITY",
+   "POOL",
+   "SAUNA",
+   "SPA",
+   "WATER FEATURE"
+  ],
+  "P": [
+   "DUMBWAITER",
+   "ELEVATOR",
+   "ESCALATOR",
+   "LIFT"
+  ],
+  "Q": [
+   "AHU",
+   "CHILLED WATER",
+   "DRAINAGE",
+   "DUCT",
+   "FAHU",
+   "FCU",
+   "FIRE FIGHTING",
+   "GREASE TRAP",
+   "HOT WATER",
+   "HVAC",
+   "PLUMBING",
+   "SPRINKLER",
+   "VRF",
+   "WASTE",
+   "WATER SUPPLY"
+  ],
+  "R": [
+   "ACCESS CONTROL",
+   "AV",
+   "BMS",
+   "BUILDING MANAGEMENT SYSTEM",
+   "CABLE TRAY",
+   "CCTV",
+   "DATA",
+   "DISTRIBUTION BOARD",
+   "EARTHING",
+   "EMERGENCY LIGHTING",
+   "FIRE ALARM",
+   "LIGHTING LAYOUT",
+   "LIGHTNING PROTECTION",
+   "PA",
+   "POWER LAYOUT",
+   "SINGLE LINE",
+   "SLD",
+   "SWITCHBOARD",
+   "TRANSFORMER"
+  ]
+ },
+ "ambiguous_keywords": [
+  {
+   "keyword": "WALL",
+   "readings": [
+    "C where reinforced concrete",
+    "D where blockwork"
+   ],
+   "resolution": "the drawing's discipline prefix decides: a structural sheet's wall is C, an architectural sheet's is D. A bare WALL on an unprefixed sheet routes to neither and is a gap."
+  },
+  {
+   "keyword": "STAIR",
+   "readings": [
+    "C where reinforced concrete",
+    "E where steel"
+   ],
+   "resolution": "the drawing's discipline prefix decides. Where the sheet is unprefixed the material must be read off the drawing before the section is fixed."
+  }
+ ],
+ "equipment_patterns": [
+  {
+   "family": "doors_windows",
+   "scope": [
+    "A",
+    "AR",
+    "INT",
+    "ID"
+   ],
+   "patterns": [
+    {
+     "tag": "door",
+     "regex": "D-?\\d+"
+    },
+    {
+     "tag": "door_window_combined",
+     "regex": "DW-?\\d+"
+    },
+    {
+     "tag": "window",
+     "regex": "W-?\\d+"
+    },
+    {
+     "tag": "fire_door",
+     "regex": "FD-?\\d+"
+    },
+    {
+     "tag": "louvre_door",
+     "regex": "LD-?\\d+"
+    },
+    {
+     "tag": "sliding_door",
+     "regex": "SD-?\\d+"
+    },
+    {
+     "tag": "louvre_window",
+     "regex": "LW-?\\d+"
+    }
+   ],
+   "reconcile_on": {
+    "sheet_kinds": ["plan"],
+    "not_titles": ["SETTING OUT", "SITE PLAN", "KEY PLAN", "CEILING", "FURNITURE", "AREA", "LANDSCAPE", "ENLARGED"],
+    "why": "a door is tagged on its floor plan and again on elevations, sections, enlarged details and a setting-out plan; counted on all of them it came out several times over (D-1: 35 tags for 20 doors)"
+   }
+  },
+  {
+   "family": "lights",
+   "scope": [
+    "E",
+    "EL"
+   ],
+   "patterns": [
+    {
+     "tag": "light",
+     "regex": "L\\d+\\w*"
+    },
+    {
+     "tag": "downlight",
+     "regex": "DL-?\\d+"
+    },
+    {
+     "tag": "panel_light",
+     "regex": "PL-?\\d+"
+    },
+    {
+     "tag": "spotlight",
+     "regex": "SP-?\\d+"
+    },
+    {
+     "tag": "emergency_light",
+     "regex": "EM-?\\d+"
+    },
+    {
+     "tag": "exit_sign",
+     "regex": "EX-?\\d+"
+    }
+   ]
+  },
+  {
+   "family": "electrical_equipment",
+   "scope": [
+    "E",
+    "EL",
+    "ELV",
+    "LV"
+   ],
+   "patterns": [
+    {
+     "tag": "distribution_board",
+     "regex": "DB-?\\d+"
+    },
+    {
+     "tag": "main_switchboard",
+     "regex": "MSB"
+    },
+    {
+     "tag": "sub_distribution_board",
+     "regex": "SDB"
+    },
+    {
+     "tag": "transformer",
+     "regex": "TX-?\\d+"
+    },
+    {
+     "tag": "generator",
+     "regex": "GEN-?\\d+"
+    },
+    {
+     "tag": "ups",
+     "regex": "UPS-?\\d+"
+    }
+   ]
+  },
+  {
+   "family": "mechanical_equipment",
+   "scope": [
+    "M",
+    "ME",
+    "MH",
+    "MEP",
+    "MD"
+   ],
+   "patterns": [
+    {
+     "tag": "fan_coil_unit",
+     "regex": "FCU-?\\d+"
+    },
+    {
+     "tag": "fresh_air_handling_unit",
+     "regex": "FAHU-?\\d+"
+    },
+    {
+     "tag": "air_handling_unit",
+     "regex": "AHU-?\\d+"
+    },
+    {
+     "tag": "vrf_outdoor",
+     "regex": "VRF-?\\d+"
+    },
+    {
+     "tag": "cooling_tower",
+     "regex": "CT-?\\d+"
+    },
+    {
+     "tag": "pump",
+     "regex": "P-?\\d+",
+     "only_in_scope": true
+    },
+    {
+     "tag": "chiller",
+     "regex": "CH-?\\d+"
+    },
+    {
+     "tag": "exhaust_fan",
+     "regex": "EF-?\\d+"
+    },
+    {
+     "tag": "supply_fan",
+     "regex": "SF-?\\d+"
+    }
+   ]
+  },
+  {
+   "family": "structural",
+   "scope": [
+    "S",
+    "ST"
+   ],
+   "patterns": [
+    {
+     "tag": "column",
+     "regex": "C\\d+"
+    },
+    {
+     "tag": "shear_wall",
+     "regex": "W\\d+"
+    },
+    {
+     "tag": "beam",
+     "regex": "B\\d+"
+    },
+    {
+     "tag": "pile_cap",
+     "regex": "PC\\d+"
+    },
+    {
+     "tag": "foundation_tie_beam",
+     "regex": "FB\\d+"
+    },
+    {
+     "tag": "shear_column",
+     "regex": "SC\\d+"
+    },
+    {
+     "tag": "post_tension_item",
+     "regex": "PT\\d+"
+    }
+   ]
+  }
+ ],
+ "equipment_pattern_rule": "a tag pattern is applied ONLY on sheets whose discipline is in its scope. W\\d+ is a shear wall on a structural sheet and a window on an architectural one, and a pattern applied outside its scope is how one becomes the other.",
+ "cross_discipline": [
+  {
+   "item": "floor drainage",
+   "appears_on": [
+    "architectural plans for tile setting",
+    "plumbing and drainage"
+   ],
+   "measure_in": "Q",
+   "note": "architectural is referenced for location only"
+  },
+  {
+   "item": "roof penetrations",
+   "appears_on": [
+    "architectural roof plan",
+    "mechanical and electrical roof plan"
+   ],
+   "measure_in": "the discipline that owns the penetration"
+  },
+  {
+   "item": "recessed ceiling lights",
+   "appears_on": [
+    "reflected ceiling plan",
+    "lighting layout"
+   ],
+   "measure_in": "R",
+   "note": "the ceiling type is measured in J; the fitting in R"
+  },
+  {
+   "item": "fire alarm devices",
+   "appears_on": [
+    "architectural reflected ceiling",
+    "fire alarm drawing"
+   ],
+   "measure_in": "R",
+   "was": "S",
+   "note": "the reference said S. There is no section S - the devices are an ELV item group inside R."
+  }
+ ],
+ "tie_break": "the discipline that designed the item owns the measurement",
+ "folder_disciplines": {
+  "note": "Used only when the drawing number declares no discipline (no prefix, or no number at all - 'STRUCTURE Sheet 05.pdf'). A package folder named for its discipline is the consultant's own filing; the drawing number's prefix, where there is one, always wins.",
+  "folders": {
+   "ARCHITECTURE": "A",
+   "ARCHITECTURAL": "A",
+   "ARCH": "A",
+   "STRUCTURE": "S",
+   "STRUCTURAL": "S",
+   "STRUCT": "S",
+   "PLUMBING": "P",
+   "DRAINAGE": "D",
+   "ELECTRICAL": "E",
+   "MECHANICAL": "M",
+   "HVAC": "M",
+   "MEP": "MEP",
+   "FIRE FIGHTING": "FF",
+   "FIREFIGHTING": "FF",
+   "FIRE ALARM": "FA",
+   "LANDSCAPE": "L",
+   "CIVIL": "C",
+   "INTERIOR": "ID",
+   "INTERIORS": "ID",
+   "INTERIOR DESIGN": "ID"
+  }
+ }
+}

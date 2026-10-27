@@ -1,0 +1,9 @@
+{
+ "by_hand": 0,
+ "by_tier": {
+  "T2": 1
+ },
+ "measurable": 1,
+ "sheets": 1,
+ "statement": "Of 1 sheets, 1 can be measured directly. 0 require measurement by hand."
+}

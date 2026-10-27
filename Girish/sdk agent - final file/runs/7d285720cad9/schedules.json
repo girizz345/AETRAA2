@@ -1,0 +1,718 @@
+{
+ "blank_marks": 0,
+ "read": 3,
+ "rows_total": 34,
+ "schedules": [
+  {
+   "bands": 3,
+   "basis": "title block",
+   "columns": 0,
+   "doc_id": "Architecture/A2/A-13-001 SCHEDULE OF DOORS.pdf",
+   "drawing_no": "A-13-001",
+   "graphic": true,
+   "heading": "EMSQUARE m2 ALL APARTMENT BALCONY DOORS WINDOWS AND MAIN LEADING NOTE.: TIMBER/WOOD",
+   "mark_basis": "transcribed",
+   "marks": [
+    "D-1",
+    "D-2",
+    "D-3",
+    "D-4",
+    "D-5",
+    "D-6",
+    "LD-1",
+    "LD-2",
+    "LD-3",
+    "SD-1",
+    "SD-2",
+    "SD-3"
+   ],
+   "origin": "transcribed",
+   "roles": [
+    "count",
+    "height",
+    "location",
+    "mark",
+    "remarks",
+    "type",
+    "width"
+   ],
+   "rows": [
+    {
+     "mark": "D-1",
+     "row_index": 0,
+     "values": {
+      "count": "20",
+      "height": "2200",
+      "location": "STAIRCASE",
+      "mark": "D-1",
+      "remarks": "5CM THICK SOLID PANEL DOOR ON A 5 X 23 CM SOLID WOODEN FRAME COLOUR & DESIGN AS PER CONSULTANTS APPROVAL * FIRE RATED AS PER CIVIL DEFENCE REQUIREMENTS * DOOR SHALL HAVE PUSH PLATES ON EGRESS SIDE AND DOOR KNOB ON THE OTHER SIDE. * DOOR SHALL HAVE LABEL AND SELF DOOR CLOSER",
+      "type": "HINGED DOOR",
+      "width": "1200"
+     }
+    },
+    {
+     "mark": "D-2",
+     "row_index": 1,
+     "values": {
+      "count": "185",
+      "height": "2200",
+      "location": "APARTMENT ENTRANCE (1ST TO 5TH FLOOR)",
+      "mark": "D-2",
+      "remarks": "5CM THICK SOLID PANEL DOOR ON A 5 X 23 CM SOLID WOODEN FRAME COLOUR & DESIGN AS PER CONSULTANTS APPROVAL * FIRE RATED AS PER CIVIL DEFENCE REQUIREMENTS *SHALL BE PROVIDED WITH WEATHER STRIPS",
+      "type": "HINGED DOOR",
+      "width": "1100"
+     }
+    },
+    {
+     "mark": "D-3",
+     "row_index": 2,
+     "values": {
+      "count": "28",
+      "height": "2200",
+      "location": "UTILITY ENTRANCE (1ST FLR ,LOWER FLOOR) BEDROOM,WATCHMAN RM (GF,1ST TO 5TH)",
+      "mark": "D-3",
+      "remarks": "5CM THICK SOLID PANEL DOOR ON A 5 X 23 CM SOLID WOODEN FRAME COLOUR & DESIGN AS PER CONSULTANTS APPROVAL",
+      "type": "HINGED DOOR",
+      "width": "1015"
+     }
+    },
+    {
+     "mark": "D-4",
+     "row_index": 3,
+     "values": {
+      "count": "206",
+      "height": "2200",
+      "location": "TOILET, BATH ROOM (GF,1ST TO 5TH FLOOR)",
+      "mark": "D-4",
+      "remarks": "5CM THICK SOLID PANEL DOOR ON A 5 X 23 CM SOLID WOODEN FRAME COLOUR & DESIGN AS PER CONSULTANTS APPROVAL",
+      "type": "HINGED DOOR",
+      "width": "915"
+     }
+    },
+    {
+     "mark": "D-5",
+     "row_index": 4,
+     "values": {
+      "count": "28",
+      "height": "2200",
+      "location": "WATER METER RM.,TELE.RM., GARBAGE RM.,ELECT. RM. (1ST TO 5TH FLOOR,LOWER RF)",
+      "mark": "D-5",
+      "remarks": "5CM THICK SOLID PANEL DOOR ON A 5 X 23 CM SOLID WOODEN FRAME COLOUR & DESIGN AS PER CONSULTANTS APPROVAL * DOOR SHALL HAVE LABEL * FIRE RATED AS PER CIVIL DEFENSE REQUIREMENTS",
+      "type": "HINGED DOOR",
+      "width": "1015"
+     }
+    },
+    {
+     "mark": "D-6",
+     "row_index": 5,
+     "values": {
+      "count": "5",
+      "height": "2200",
+      "location": "GYM,OUTDOOR DECK,SER.RF (1ST FLR,LOWER FLOOR)",
+      "mark": "D-6",
+      "remarks": "POWDER COATED ALUMINIUM FRAMED DOOR WINDOW (THERMAL BREAK) WITH 6MM REFLECTIVE BELGIUM HEAT STRENGTHENED GLASS+12MM AIR GAP+ 6MM TEMPERED CLEAR GLASS. GLASS PERFOMANCE (U VALUE& SHADING COEFFICIENT) SHALL BE AS PER GREEN BUILDING REQUIREMENTS. *SHALL BE PROVIDED WITH WEATHER STRIPS",
+      "type": "SWING DOOR",
+      "width": "1200"
+     }
+    },
+    {
+     "mark": "LD-1",
+     "row_index": 6,
+     "values": {
+      "count": "1",
+      "height": "2750",
+      "location": "SUBSTATION",
+      "mark": "LD-1",
+      "remarks": "POWDER COATED ALUMINIUM LOUVERED DOOR WITH STAINLESS STEEL MESH FROM INSIDE AS PER D E W A REQUIREMENTS & SPECIFICATIONS * DOOR SHALL HAVE LABEL * FIRE RATED AS PER CIVIL DEFENSE REQUIREMENTS",
+      "type": "HINGED",
+      "width": "3050"
+     }
+    },
+    {
+     "mark": "LD-2",
+     "row_index": 7,
+     "values": {
+      "count": "1",
+      "height": "2200",
+      "location": "GENERATOR ROOM (BASEMENT)",
+      "mark": "LD-2",
+      "remarks": "POWDER COATED ALUMINIUM LOUVERED DOOR WITH STAINLESS STEEL MESH FROM INSIDE * FIRE RATED AS PER CIVIL DEFENSE REQUIREMENTS * DOOR SHALL HAVE LABEL",
+      "type": "HINGED",
+      "width": "1800"
+     }
+    },
+    {
+     "mark": "LD-3",
+     "row_index": 8,
+     "values": {
+      "count": "1",
+      "height": "2750",
+      "location": "ELEC. ELEC. CABIN (BASEMENT)",
+      "mark": "LD-3",
+      "remarks": "POWDER COATED ALUMINIUM LOUVERED DOOR WITH STAINLESS STEEL MESH FROM INSIDE * DOOR SHALL HAVE LABEL",
+      "type": "HINGED",
+      "width": "3500"
+     }
+    },
+    {
+     "mark": "SD-1",
+     "row_index": 9,
+     "values": {
+      "count": "1",
+      "height": "2200",
+      "location": "LV ROOM,",
+      "mark": "SD-1",
+      "remarks": "POWDER COATED STEEL DOOR * FIRE RATED AS PER CIVIL DEFENSE REQUIREMENTS * DOOR SHALL HAVE LABEL",
+      "type": "HINGED",
+      "width": "1500"
+     }
+    },
+    {
+     "mark": "SD-2",
+     "row_index": 10,
+     "values": {
+      "count": "3",
+      "height": "2200",
+      "location": "TELE.ROOM,GSM RM,POOL PUMP (GF,LOWER ROOF)",
+      "mark": "SD-2",
+      "remarks": "POWDER COATED STEEL DOOR * FIRE RATED AS PER CIVIL DEFENSE REQUIREMENTS * DOOR SHALL HAVE LABEL",
+      "type": "HINGED",
+      "width": "1015"
+     }
+    },
+    {
+     "mark": "SD-3",
+     "row_index": 11,
+     "values": {
+      "count": "1",
+      "height": "2200",
+      "location": "GARBAGE ROOM (GROUND FLOOR)",
+      "mark": "SD-3",
+      "remarks": "POWDER COATED STEEL DOOR * FIRE RATED AS PER CIVIL DEFENSE REQUIREMENTS * DOOR SHALL HAVE LABEL",
+      "type": "HINGED",
+      "width": "1800"
+     }
+    }
+   ],
+   "sample": [
+    {
+     "count": "20",
+     "height": "2200",
+     "location": "STAIRCASE",
+     "mark": "D-1",
+     "remarks": "5CM THICK SOLID PANEL DOOR ON A 5 X 23 CM SOLID WOODEN FRAME COLOUR & DESIGN AS PER CONSULTANTS APPROVAL * FIRE RATED AS PER CIVIL DEFENCE REQUIREMENTS * DOOR SHALL HAVE PUSH PLATES ON EGRESS SIDE AND DOOR KNOB ON THE OTHER SIDE. * DOOR SHALL HAVE LABEL AND SELF DOOR CLOSER",
+     "type": "HINGED DOOR",
+     "width": "1200"
+    },
+    {
+     "count": "185",
+     "height": "2200",
+     "location": "APARTMENT ENTRANCE (1ST TO 5TH FLOOR)",
+     "mark": "D-2",
+     "remarks": "5CM THICK SOLID PANEL DOOR ON A 5 X 23 CM SOLID WOODEN FRAME COLOUR & DESIGN AS PER CONSULTANTS APPROVAL * FIRE RATED AS PER CIVIL DEFENCE REQUIREMENTS *SHALL BE PROVIDED WITH WEATHER STRIPS",
+     "type": "HINGED DOOR",
+     "width": "1100"
+    },
+    {
+     "count": "28",
+     "height": "2200",
+     "location": "UTILITY ENTRANCE (1ST FLR ,LOWER FLOOR) BEDROOM,WATCHMAN RM (GF,1ST TO 5TH)",
+     "mark": "D-3",
+     "remarks": "5CM THICK SOLID PANEL DOOR ON A 5 X 23 CM SOLID WOODEN FRAME COLOUR & DESIGN AS PER CONSULTANTS APPROVAL",
+     "type": "HINGED DOOR",
+     "width": "1015"
+    }
+   ],
+   "sheet_notes": [
+    "ALL TIMBER/WOOD TO BE CERTIFIED / ACCREDITED TIMBER AS PER CLAUSE 701.02/701.06/701.07/701.08/404.01 GBR SP-2",
+    "PROVIDE EXTERNAL THRESHOLD FOR TERRACES",
+    "ALL APARTMENT BALCONY DOORS WINDOWS AND MAIN DOORS LEADING TO CORRIDORS & COMMON AREAS HAS TO BE WETHER STRIPPED."
+   ],
+   "table_rows": 0,
+   "title": "SCHEDULE OF DOORS",
+   "title_block_edge": [
+    "x",
+    2089.320068359375
+   ],
+   "transcription": "saved reading (Claude Code (visual reading, this session) - via boq_arch/readings; A-13-001 SCHEDULE OF DOORS.schedule.json)",
+   "type_tags": []
+  },
+  {
+   "bands": 12,
+   "basis": "title block",
+   "columns": 3,
+   "doc_id": "Architecture/A2/A-13-002 SCHEDULE OF WINDOWS-01.pdf",
+   "drawing_no": "A-13-002",
+   "graphic": true,
+   "heading": "EMSQUARE m2 *U VALUE = 1.7 w/m2K *SHADING COEFFICIENT 0.20 ALL APPARTMENT BALCONY",
+   "mark_basis": "transcribed",
+   "marks": [
+    "DW 01",
+    "DW 02",
+    "DW 03",
+    "DW 04",
+    "DW 05",
+    "DW 06",
+    "DW 07",
+    "DW 08",
+    "DW 09",
+    "DW 10",
+    "DW 12"
+   ],
+   "origin": "transcribed",
+   "roles": [
+    "count",
+    "height",
+    "location",
+    "mark",
+    "remarks",
+    "type",
+    "width"
+   ],
+   "rows": [
+    {
+     "mark": "DW 01",
+     "row_index": 0,
+     "values": {
+      "count": "1",
+      "height": "8350",
+      "location": "MAIN ENTRANCE",
+      "mark": "DW 01",
+      "remarks": "POWDER COATED ALUMINUM FRAMED DOOR WINDOW (THERMAL BREAK) WITH 6MM REFLECTIVE BELGIUM HEAT STRENGTHENED GLASS+12MM AIR GAP+ 6MM TEMPERED CLEAR GLASS. GLASS PERFORMANCE (U VALUE& SHADING COEFFICIENT) SHALL BE AS PER GREEN BUILDING REQUIREMENTS. * SHALL BE PROVIDED WITH WEATHER STRIPS",
+      "type": "PARTLY FIXED PARTLY SLIDING DOOR",
+      "width": "15600"
+     }
+    },
+    {
+     "mark": "DW 02",
+     "row_index": 1,
+     "values": {
+      "count": "1",
+      "height": "2700",
+      "location": "LIFT LOBBY (BASEMENT FLOOR)",
+      "mark": "DW 02",
+      "remarks": "POWDER COATED ALUMINUM FRAMED DOOR WINDOW (THERMAL BREAK) WITH 6MM REFLECTIVE BELGIUM HEAT STRENGTHENED GLASS+12MM AIR GAP+ 6MM TEMPERED CLEAR GLASS. GLASS PERFORMANCE (U VALUE& SHADING COEFFICIENT) SHALL BE AS PER GREEN BUILDING REQUIREMENTS. * SHALL BE PROVIDED WITH WEATHER STRIPS",
+      "type": "PARTLY FIXED PARTLY SLIDING DOOR",
+      "width": "3700"
+     }
+    },
+    {
+     "mark": "DW 03",
+     "row_index": 2,
+     "values": {
+      "count": "152",
+      "height": "3200",
+      "location": "DINING / LIVING (1ST TO 5TH FLOOR)",
+      "mark": "DW 03",
+      "remarks": "POWDER COATED ALUMINUM FRAMED DOOR WINDOW (THERMAL BREAK) WITH 6MM REFLECTIVE BELGIUM HEAT STRENGTHENED GLASS+12MM AIR GAP+ 6MM TEMPERED CLEAR GLASS. GLASS PERFORMANCE (U VALUE& SHADING COEFFICIENT) SHALL BE AS PER GREEN BUILDING REQUIREMENTS. * SHALL BE PROVIDED WITH WEATHER STRIPS",
+      "type": "PARTLY FIXED PARTLY SLIDING DOOR",
+      "width": "3750"
+     }
+    },
+    {
+     "mark": "DW 04",
+     "row_index": 3,
+     "values": {
+      "count": "10",
+      "height": "3200",
+      "location": "DINING / LIVING,BEDRM (1ST TO 5TH FLOOR)",
+      "mark": "DW 04",
+      "remarks": "POWDER COATED ALUMINUM FRAMED DOOR WINDOW (THERMAL BREAK) WITH 6MM REFLECTIVE BELGIUM HEAT STRENGTHENED GLASS+12MM AIR GAP+ 6MM TEMPERED CLEAR GLASS. GLASS PERFORMANCE (U VALUE& SHADING COEFFICIENT) SHALL BE AS PER GREEN BUILDING REQUIREMENTS. * SHALL BE PROVIDED WITH WEATHER STRIPS",
+      "type": "PARTLY FIXED PARTLY SLIDING DOOR",
+      "width": "7300+2950"
+     }
+    },
+    {
+     "mark": "DW 05",
+     "row_index": 4,
+     "values": {
+      "count": "5",
+      "height": "3200",
+      "location": "DINING / LIVING (1ST TO 5TH FLOOR)",
+      "mark": "DW 05",
+      "remarks": "POWDER COATED ALUMINUM FRAMED DOOR WINDOW (THERMAL BREAK) WITH 6MM REFLECTIVE BELGIUM HEAT STRENGTHENED GLASS+12MM AIR GAP+ 6MM TEMPERED CLEAR GLASS. GLASS PERFORMANCE (U VALUE& SHADING COEFFICIENT) SHALL BE AS PER GREEN BUILDING REQUIREMENTS. * SHALL BE PROVIDED WITH WEATHER STRIPS",
+      "type": "PARTLY FIXED PARTLY SLIDING DOOR",
+      "width": "3300"
+     }
+    },
+    {
+     "mark": "DW 06",
+     "row_index": 5,
+     "values": {
+      "count": "4",
+      "height": "3200",
+      "location": "DINING / LIVING,BEDRM (2ND TO 5TH FLOOR)",
+      "mark": "DW 06",
+      "remarks": "POWDER COATED ALUMINUM FRAMED DOOR WINDOW (THERMAL BREAK) WITH 6MM REFLECTIVE BELGIUM HEAT STRENGTHENED GLASS+12MM AIR GAP+ 6MM TEMPERED CLEAR GLASS. GLASS PERFORMANCE (U VALUE& SHADING COEFFICIENT) SHALL BE AS PER GREEN BUILDING REQUIREMENTS. * SHALL BE PROVIDED WITH WEATHER STRIPS",
+      "type": "PARTLY FIXED PARTLY SLIDING DOOR",
+      "width": "7300+4000"
+     }
+    },
+    {
+     "mark": "DW 07",
+     "row_index": 6,
+     "values": {
+      "count": "1",
+      "height": "3200",
+      "location": "DINING / LIVING,BEDRM (1ST FLOOR)",
+      "mark": "DW 07",
+      "remarks": "POWDER COATED ALUMINUM FRAMED DOOR WINDOW (THERMAL BREAK) WITH 6MM REFLECTIVE BELGIUM HEAT STRENGTHENED GLASS+12MM AIR GAP+ 6MM TEMPERED CLEAR GLASS. GLASS PERFORMANCE (U VALUE& SHADING COEFFICIENT) SHALL BE AS PER GREEN BUILDING REQUIREMENTS. * SHALL BE PROVIDED WITH WEATHER STRIPS",
+      "type": "PARTLY FIXED PARTLY SLIDING DOOR",
+      "width": "4000+7300"
+     }
+    },
+    {
+     "mark": "DW 08",
+     "row_index": 7,
+     "values": {
+      "count": "8",
+      "height": "3200",
+      "location": "DINING / LIVING (2ND TO 5TH FLOOR)",
+      "mark": "DW 08",
+      "remarks": "POWDER COATED ALUMINUM FRAMED DOOR WINDOW (THERMAL BREAK) WITH 6MM REFLECTIVE BELGIUM HEAT STRENGTHENED GLASS+12MM AIR GAP+ 6MM TEMPERED CLEAR GLASS. GLASS PERFORMANCE (U VALUE& SHADING COEFFICIENT) SHALL BE AS PER GREEN BUILDING REQUIREMENTS. * SHALL BE PROVIDED WITH WEATHER STRIPS",
+      "type": "PARTLY FIXED PARTLY SLIDING DOOR",
+      "width": "3650"
+     }
+    },
+    {
+     "mark": "DW 09",
+     "row_index": 8,
+     "values": {
+      "count": "4",
+      "height": "3200",
+      "location": "DINING / LIVING,BEDRM (2ND TO 5TH FLOOR)",
+      "mark": "DW 09",
+      "remarks": "POWDER COATED ALUMINUM FRAMED DOOR WINDOW (THERMAL BREAK) WITH 6MM REFLECTIVE BELGIUM HEAT STRENGTHENED GLASS+12MM AIR GAP+ 6MM TEMPERED CLEAR GLASS. GLASS PERFORMANCE (U VALUE& SHADING COEFFICIENT) SHALL BE AS PER GREEN BUILDING REQUIREMENTS. * SHALL BE PROVIDED WITH WEATHER STRIPS",
+      "type": "PARTLY FIXED PARTLY SLIDING DOOR",
+      "width": "4000+7300"
+     }
+    },
+    {
+     "mark": "DW 10",
+     "row_index": 9,
+     "values": {
+      "count": "1",
+      "height": "3200",
+      "location": "GYMNASIUM (M) (LOWER ROOF)",
+      "mark": "DW 10",
+      "remarks": "POWDER COATED ALUMINUM FRAMED DOOR WINDOW (THERMAL BREAK) WITH 6MM REFLECTIVE BELGIUM HEAT STRENGTHENED GLASS+12MM AIR GAP+ 6MM TEMPERED CLEAR GLASS. GLASS PERFORMANCE (U VALUE& SHADING COEFFICIENT) SHALL BE AS PER GREEN BUILDING REQUIREMENTS. * SHALL BE PROVIDED WITH WEATHER STRIPS",
+      "type": "PARTLY FIXED PARTLY SLIDING DOOR",
+      "width": "5800+8000"
+     }
+    },
+    {
+     "mark": "DW 12",
+     "row_index": 10,
+     "values": {
+      "count": "1",
+      "height": "3200",
+      "location": "GYMNASIUM (F) (LOWER ROOF)",
+      "mark": "DW 12",
+      "remarks": "POWDER COATED ALUMINUM FRAMED DOOR WINDOW (THERMAL BREAK) WITH 6MM REFLECTIVE BELGIUM HEAT STRENGTHENED GLASS+12MM AIR GAP+ 6MM TEMPERED CLEAR GLASS. GLASS PERFORMANCE (U VALUE& SHADING COEFFICIENT) SHALL BE AS PER GREEN BUILDING REQUIREMENTS. * SHALL BE PROVIDED WITH WEATHER STRIPS",
+      "type": "PARTLY FIXED PARTLY SLIDING DOOR",
+      "width": "25400"
+     }
+    }
+   ],
+   "sample": [
+    {
+     "count": "1",
+     "height": "8350",
+     "location": "MAIN ENTRANCE",
+     "mark": "DW 01",
+     "remarks": "POWDER COATED ALUMINUM FRAMED DOOR WINDOW (THERMAL BREAK) WITH 6MM REFLECTIVE BELGIUM HEAT STRENGTHENED GLASS+12MM AIR GAP+ 6MM TEMPERED CLEAR GLASS. GLASS PERFORMANCE (U VALUE& SHADING COEFFICIENT) SHALL BE AS PER GREEN BUILDING REQUIREMENTS. * SHALL BE PROVIDED WITH WEATHER STRIPS",
+     "type": "PARTLY FIXED PARTLY SLIDING DOOR",
+     "width": "15600"
+    },
+    {
+     "count": "1",
+     "height": "2700",
+     "location": "LIFT LOBBY (BASEMENT FLOOR)",
+     "mark": "DW 02",
+     "remarks": "POWDER COATED ALUMINUM FRAMED DOOR WINDOW (THERMAL BREAK) WITH 6MM REFLECTIVE BELGIUM HEAT STRENGTHENED GLASS+12MM AIR GAP+ 6MM TEMPERED CLEAR GLASS. GLASS PERFORMANCE (U VALUE& SHADING COEFFICIENT) SHALL BE AS PER GREEN BUILDING REQUIREMENTS. * SHALL BE PROVIDED WITH WEATHER STRIPS",
+     "type": "PARTLY FIXED PARTLY SLIDING DOOR",
+     "width": "3700"
+    },
+    {
+     "count": "152",
+     "height": "3200",
+     "location": "DINING / LIVING (1ST TO 5TH FLOOR)",
+     "mark": "DW 03",
+     "remarks": "POWDER COATED ALUMINUM FRAMED DOOR WINDOW (THERMAL BREAK) WITH 6MM REFLECTIVE BELGIUM HEAT STRENGTHENED GLASS+12MM AIR GAP+ 6MM TEMPERED CLEAR GLASS. GLASS PERFORMANCE (U VALUE& SHADING COEFFICIENT) SHALL BE AS PER GREEN BUILDING REQUIREMENTS. * SHALL BE PROVIDED WITH WEATHER STRIPS",
+     "type": "PARTLY FIXED PARTLY SLIDING DOOR",
+     "width": "3750"
+    }
+   ],
+   "sheet_notes": [
+    "ALL TIMBER/WOOD TO BE CERTIFIED / ACCREDITED TIMBER AS PER CLAUSE 701.02/701.06/701.07/701.08/404.01 GBR SP-2",
+    "PROVIDE EXTERNAL THRESHOLD FOR TERRACES",
+    "*U VALUE = 1.7 w/m2K",
+    "ALL APPARTMENT BALCONY DOORS WINDOWS AND MAIN DOORS LEADING TO CORRIDORS HAS TO BE WETHER STRIPPED.",
+    "*SHADING COEFFICIENT = 0.20",
+    "* COLOUR & DESIGN AS PER CONSULTANTS APPROVAL"
+   ],
+   "table_rows": 11,
+   "title": "SCHEDULE OF WINDOWS-01",
+   "title_block_edge": [
+    "x",
+    2089.320068359375
+   ],
+   "transcription": "saved reading (Claude Code (visual reading, this session) - via boq_arch/readings; A-13-002 SCHEDULE OF WINDOWS-01.schedule.json)",
+   "type_tags": [
+    "DW 01",
+    "DW 02",
+    "DW 03",
+    "DW 04",
+    "DW 05",
+    "DW 06",
+    "DW 07",
+    "DW 08",
+    "DW 09",
+    "DW 10",
+    "DW 12"
+   ]
+  },
+  {
+   "bands": 12,
+   "basis": "title block",
+   "columns": 3,
+   "doc_id": "Architecture/A2/A-13-003 SCHEDULE OF WINDOWS-02.pdf",
+   "drawing_no": "A-13-003",
+   "graphic": true,
+   "heading": "EMSQUARE m2 *U VALUE = 1.7 w/m2K *SHADING COEFFICIENT 0.20 ALL APPARTMENT BALCONY",
+   "mark_basis": "transcribed",
+   "marks": [
+    "DW 11",
+    "DW 13",
+    "DW 14",
+    "DW 15",
+    "DW 16",
+    "DW 17",
+    "DW 18",
+    "DW 19",
+    "LW 01",
+    "LW 02",
+    "LW 03"
+   ],
+   "origin": "transcribed",
+   "roles": [
+    "count",
+    "height",
+    "location",
+    "mark",
+    "remarks",
+    "sill",
+    "type",
+    "width"
+   ],
+   "rows": [
+    {
+     "mark": "DW 11",
+     "row_index": 0,
+     "values": {
+      "count": "1",
+      "height": "3200",
+      "location": "GYMNASIUM (M,F) (LOWER ROOF)",
+      "mark": "DW 11",
+      "remarks": "POWDER COATED ALUMINUM FRAMED DOOR WINDOW (THERMAL BREAK) WITH 6MM REFLECTIVE BELGIUM HEAT STRENGTHENED GLASS+12MM AIR GAP+ 6MM TEMPERED CLEAR GLASS. GLASS PERFORMANCE (U VALUE& SHADING COEFFICIENT) SHALL BE AS PER GREEN BUILDING REQUIREMENTS. * SHALL BE PROVIDED WITH WEATHER STRIPS",
+      "type": "PARTLY FIXED PARTLY SLIDING DOOR",
+      "width": "28170+6300"
+     }
+    },
+    {
+     "mark": "DW 13",
+     "row_index": 1,
+     "values": {
+      "count": "1",
+      "height": "3200",
+      "location": "GYMNASIUM (F) (LOWER ROOF)",
+      "mark": "DW 13",
+      "remarks": "POWDER COATED ALUMINUM FRAMED DOOR WINDOW (THERMAL BREAK) WITH 6MM REFLECTIVE BELGIUM HEAT STRENGTHENED GLASS+12MM AIR GAP+ 6MM TEMPERED CLEAR GLASS. GLASS PERFORMANCE (U VALUE& SHADING COEFFICIENT) SHALL BE AS PER GREEN BUILDING REQUIREMENTS. * SHALL BE PROVIDED WITH WEATHER STRIPS",
+      "type": "PARTLY FIXED PARTLY HINGED DOOR",
+      "width": "10800"
+     }
+    },
+    {
+     "mark": "DW 14",
+     "row_index": 2,
+     "values": {
+      "count": "1",
+      "height": "3200",
+      "location": "GYMNASIUM (M) (LOWER ROOF)",
+      "mark": "DW 14",
+      "remarks": "POWDER COATED ALUMINUM FRAMED DOOR WINDOW (THERMAL BREAK) WITH 6MM REFLECTIVE BELGIUM HEAT STRENGTHENED GLASS+12MM AIR GAP+ 6MM TEMPERED CLEAR GLASS. GLASS PERFORMANCE (U VALUE& SHADING COEFFICIENT) SHALL BE AS PER GREEN BUILDING REQUIREMENTS. * SHALL BE PROVIDED WITH WEATHER STRIPS",
+      "type": "PARTLY FIXED PARTLY HINGED DOOR",
+      "width": "11400"
+     }
+    },
+    {
+     "mark": "DW 15",
+     "row_index": 3,
+     "values": {
+      "count": "1",
+      "height": "800+2400",
+      "location": "CORRIDOR (LOWER ROOF)",
+      "mark": "DW 15",
+      "remarks": "POWDER COATED ALUMINUM FRAMED DOOR WINDOW (THERMAL BREAK) WITH 6MM REFLECTIVE BELGIUM HEAT STRENGTHENED GLASS+12MM AIR GAP+ 6MM TEMPERED CLEAR GLASS. GLASS PERFORMANCE (U VALUE& SHADING COEFFICIENT) SHALL BE AS PER GREEN BUILDING REQUIREMENTS. * SHALL BE PROVIDED WITH WEATHER STRIPS",
+      "type": "PARTLY FIXED PARTLY HINGED DOOR",
+      "width": "11350"
+     }
+    },
+    {
+     "mark": "DW 16",
+     "row_index": 4,
+     "values": {
+      "count": "1",
+      "height": "3200",
+      "location": "CORRIDOR (LOWER ROOF)",
+      "mark": "DW 16",
+      "remarks": "POWDER COATED ALUMINUM FRAMED DOOR WINDOW (THERMAL BREAK) WITH 6MM REFLECTIVE BELGIUM HEAT STRENGTHENED GLASS+12MM AIR GAP+ 6MM TEMPERED CLEAR GLASS. GLASS PERFORMANCE (U VALUE& SHADING COEFFICIENT) SHALL BE AS PER GREEN BUILDING REQUIREMENTS. * SHALL BE PROVIDED WITH WEATHER STRIPS",
+      "type": "PARTLY FIXED PARTLY HINGED DOOR",
+      "width": "10800"
+     }
+    },
+    {
+     "mark": "DW 17",
+     "row_index": 5,
+     "values": {
+      "count": "1",
+      "height": "3200",
+      "location": "DINING / LIVING,BEDRM (1ST FLOOR)",
+      "mark": "DW 17",
+      "remarks": "POWDER COATED ALUMINUM FRAMED DOOR WINDOW (THERMAL BREAK) WITH 6MM REFLECTIVE BELGIUM HEAT STRENGTHENED GLASS+12MM AIR GAP+ 6MM TEMPERED CLEAR GLASS. GLASS PERFORMANCE (U VALUE& SHADING COEFFICIENT) SHALL BE AS PER GREEN BUILDING REQUIREMENTS. * SHALL BE PROVIDED WITH WEATHER STRIPS",
+      "type": "PARTLY FIXED PARTLY HINGED DOOR",
+      "width": "7300+4000"
+     }
+    },
+    {
+     "mark": "DW 18",
+     "row_index": 6,
+     "values": {
+      "count": "1",
+      "height": "1400",
+      "location": "WATCHMAN /CCTV (GROUND FLOOR)",
+      "mark": "DW 18",
+      "remarks": "POWDER COATED ALUMINUM FRAMED DOOR WINDOW (THERMAL BREAK) WITH 6MM REFLECTIVE BELGIUM HEAT STRENGTHENED GLASS+12MM AIR GAP+ 6MM TEMPERED CLEAR GLASS. GLASS PERFORMANCE (U VALUE& SHADING COEFFICIENT) SHALL BE AS PER GREEN BUILDING REQUIREMENTS. * SHALL BE PROVIDED WITH WEATHER STRIPS",
+      "sill": "1000",
+      "type": "HINGED WINDOW",
+      "width": "1200"
+     }
+    },
+    {
+     "mark": "DW 19",
+     "row_index": 7,
+     "values": {
+      "count": "1",
+      "height": "2400",
+      "location": "REAR ENT.LIFT LOBBY (GROUND FLOOR)",
+      "mark": "DW 19",
+      "remarks": "POWDER COATED ALUMINUM FRAMED DOOR WINDOW (THERMAL BREAK) WITH 6MM REFLECTIVE BELGIUM HEAT STRENGTHENED GLASS+12MM AIR GAP+ 6MM TEMPERED CLEAR GLASS. GLASS PERFORMANCE (U VALUE& SHADING COEFFICIENT) SHALL BE AS PER GREEN BUILDING REQUIREMENTS. * SHALL BE PROVIDED WITH WEATHER STRIPS",
+      "type": "SLIDING DOOR",
+      "width": "1200"
+     }
+    },
+    {
+     "mark": "LW 01",
+     "row_index": 8,
+     "values": {
+      "count": "1",
+      "height": "2000",
+      "location": "SUBSTATION (GROUND FLR.)",
+      "mark": "LW 01",
+      "remarks": "POWDER COATED ALUMINUM LOUVRE WINDOW AS PER CONSULTANT AND OWNER'S APPROVAL",
+      "sill": "750",
+      "type": "FIXED",
+      "width": "2900"
+     }
+    },
+    {
+     "mark": "LW 02",
+     "row_index": 9,
+     "values": {
+      "count": "1",
+      "height": "2000",
+      "location": "POOL PUMP (GROUND FLR.)",
+      "mark": "LW 02",
+      "remarks": "POWDER COATED ALUMINUM LOUVRE WINDOW AS PER CONSULTANT AND OWNER'S APPROVAL",
+      "sill": "750",
+      "type": "FIXED",
+      "width": "2400"
+     }
+    },
+    {
+     "mark": "LW 03",
+     "row_index": 10,
+     "values": {
+      "count": "1",
+      "height": "2000",
+      "location": "GENER.ROOM (BASEMENT FLR.)",
+      "mark": "LW 03",
+      "remarks": "POWDER COATED ALUMINUM LOUVRE WINDOW AS PER CONSULTANT AND OWNER'S APPROVAL",
+      "sill": "750",
+      "type": "FIXED",
+      "width": "2000"
+     }
+    }
+   ],
+   "sample": [
+    {
+     "count": "1",
+     "height": "3200",
+     "location": "GYMNASIUM (M,F) (LOWER ROOF)",
+     "mark": "DW 11",
+     "remarks": "POWDER COATED ALUMINUM FRAMED DOOR WINDOW (THERMAL BREAK) WITH 6MM REFLECTIVE BELGIUM HEAT STRENGTHENED GLASS+12MM AIR GAP+ 6MM TEMPERED CLEAR GLASS. GLASS PERFORMANCE (U VALUE& SHADING COEFFICIENT) SHALL BE AS PER GREEN BUILDING REQUIREMENTS. * SHALL BE PROVIDED WITH WEATHER STRIPS",
+     "type": "PARTLY FIXED PARTLY SLIDING DOOR",
+     "width": "28170+6300"
+    },
+    {
+     "count": "1",
+     "height": "3200",
+     "location": "GYMNASIUM (F) (LOWER ROOF)",
+     "mark": "DW 13",
+     "remarks": "POWDER COATED ALUMINUM FRAMED DOOR WINDOW (THERMAL BREAK) WITH 6MM REFLECTIVE BELGIUM HEAT STRENGTHENED GLASS+12MM AIR GAP+ 6MM TEMPERED CLEAR GLASS. GLASS PERFORMANCE (U VALUE& SHADING COEFFICIENT) SHALL BE AS PER GREEN BUILDING REQUIREMENTS. * SHALL BE PROVIDED WITH WEATHER STRIPS",
+     "type": "PARTLY FIXED PARTLY HINGED DOOR",
+     "width": "10800"
+    },
+    {
+     "count": "1",
+     "height": "3200",
+     "location": "GYMNASIUM (M) (LOWER ROOF)",
+     "mark": "DW 14",
+     "remarks": "POWDER COATED ALUMINUM FRAMED DOOR WINDOW (THERMAL BREAK) WITH 6MM REFLECTIVE BELGIUM HEAT STRENGTHENED GLASS+12MM AIR GAP+ 6MM TEMPERED CLEAR GLASS. GLASS PERFORMANCE (U VALUE& SHADING COEFFICIENT) SHALL BE AS PER GREEN BUILDING REQUIREMENTS. * SHALL BE PROVIDED WITH WEATHER STRIPS",
+     "type": "PARTLY FIXED PARTLY HINGED DOOR",
+     "width": "11400"
+    }
+   ],
+   "sheet_notes": [
+    "ALL TIMBER/WOOD TO BE CERTIFIED / ACCREDITED TIMBER AS PER CLAUSE 701.02/701.06/701.07/701.08/404.01 GBR SP-2",
+    "PROVIDE EXTERNAL THRESHOLD FOR TERRACES",
+    "*U VALUE = 1.7 w/m2K",
+    "ALL APPARTMENT BALCONY DOORS WINDOWS AND MAIN DOORS LEADING TO CORRIDORS HAS TO BE WETHER STRIPPED.",
+    "*SHADING COEFFICIENT = 0.20",
+    "* COLOUR & DESIGN AS PER CONSULTANTS APPROVAL"
+   ],
+   "table_rows": 9,
+   "title": "SCHEDULE OF WINDOWS-02",
+   "title_block_edge": [
+    "x",
+    2089.320068359375
+   ],
+   "transcription": "saved reading (Claude Code (visual reading, this session) - via boq_arch/readings; A-13-003 SCHEDULE OF WINDOWS-02.schedule.json)",
+   "type_tags": [
+    "DW 11",
+    "DW 13",
+    "DW 14",
+    "DW 15",
+    "DW 16",
+    "DW 17",
+    "DW 18",
+    "DW 19",
+    "LW 01",
+    "LW 02",
+    "LW 03"
+   ]
+  }
+ ],
+ "sheets_routed_as_schedule": 3,
+ "unread": []
+}

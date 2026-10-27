@@ -1,0 +1,327 @@
+{
+ "project": "XXXX",
+ "trade": "Enabling Package",
+ "section_letter": "B",
+ "section_title": "ENABLING WORKS",
+ "pomi_section_title": "SITE WORK",
+ "measurement": [
+  {
+   "kind": "heading",
+   "text": "SITE WORKS"
+  },
+  {
+   "kind": "element",
+   "text": "Site preparation"
+  },
+  {
+   "kind": "item",
+   "boq_page": "B/1",
+   "item_ref": "A",
+   "item_key": "site_clearance",
+   "description": "Site clearance; existing site area up to plot boundaries",
+   "unit": "m2",
+   "units": 1,
+   "area": 1152.03,
+   "dwg_ref": "S-02-002",
+   "markup": "1. Site Clearance.pdf"
+  },
+  {
+   "kind": "element",
+   "text": "Ground Improvement"
+  },
+  {
+   "kind": "item",
+   "boq_page": "B/1",
+   "item_ref": "B",
+   "item_key": "stone_columns",
+   "description": "Stone Columns (Vibro-replacement)",
+   "unit": "m2",
+   "units": 1,
+   "area": 1152.03,
+   "dwg_ref": "S-02-002",
+   "markup": "2. Ground Improvements.pdf"
+  },
+  {
+   "kind": "item",
+   "boq_page": "B/1",
+   "item_ref": "C",
+   "item_key": "vibro",
+   "description": "Vibro Compaction",
+   "unit": "m2",
+   "units": 1,
+   "area": 1152.03,
+   "dwg_ref": "S-02-002",
+   "markup": "2. Ground Improvements.pdf"
+  },
+  {
+   "kind": "element",
+   "text": "Excavation & Filling"
+  },
+  {
+   "kind": "item",
+   "boq_page": "B/1",
+   "item_ref": "D",
+   "item_key": "excavation",
+   "description": "Excavation (generally), complete all in accordance with Drawings and Specifications",
+   "unit": "m3",
+   "subs": [
+    {
+     "ref": "Depth is 9.20m",
+     "volume": 9897.79,
+     "dwg_ref": "S-02-002",
+     "markup": "3. Excavation.pdf"
+    },
+    {
+     "ref": "Depth is 9.70m",
+     "volume": 740.14,
+     "dwg_ref": "S-02-002",
+     "markup": "3. Excavation.pdf"
+    }
+   ]
+  },
+  {
+   "kind": "element",
+   "text": "Disposal"
+  },
+  {
+   "kind": "item",
+   "boq_page": "B/1",
+   "item_ref": "F",
+   "item_key": "disposal",
+   "description": "Disposal of material off site",
+   "unit": "m3",
+   "volume": 10638.0,
+   "dwg_ref": "S-02-002",
+   "markup": "3. Excavation.pdf"
+  },
+  {
+   "kind": "element",
+   "text": "Shoring"
+  },
+  {
+   "kind": "item",
+   "boq_page": "B/2",
+   "item_ref": "C",
+   "item_key": "shoring92",
+   "description": "Shoring system; as per illustrative detail (depth as per Contractor's Design) - (Depth=9.2m)",
+   "unit": "m",
+   "units": 1,
+   "length": 101.11,
+   "dwg_ref": "S-02-002",
+   "markup": "4. Shoring.pdf"
+  },
+  {
+   "kind": "item",
+   "boq_page": "B/2",
+   "item_ref": "D",
+   "item_key": "shoring97",
+   "description": "Shoring system; as per illustrative detail (depth as per Contractor's Design) - (Depth=9.7m)",
+   "unit": "m",
+   "units": 1,
+   "length": 35.44,
+   "dwg_ref": "S-02-002",
+   "markup": "4. Shoring.pdf"
+  },
+  {
+   "kind": "item",
+   "boq_page": "B/2",
+   "item_ref": "E",
+   "item_key": "capping",
+   "description": "Capping beam including design, concrete, reinforcement, shuttering and all necessary accessories",
+   "unit": "m",
+   "subs": [
+    {
+     "ref": "Depth is 9.20m",
+     "qty": 102.0,
+     "dwg_ref": "S-02-002",
+     "markup": "4. Shoring.pdf"
+    },
+    {
+     "ref": "Depth is 9.70m",
+     "qty": 36.0,
+     "dwg_ref": "S-02-002",
+     "markup": "4. Shoring.pdf"
+    }
+   ]
+  }
+ ],
+ "boq_pages": [
+  {
+   "entries": [
+    {
+     "kind": "heading",
+     "text": "Site preparation"
+    },
+    {
+     "kind": "item",
+     "item_key": "site_clearance",
+     "unit": "m2",
+     "description": "Site clearance, which shall include removing vegetation, undergrowth, bushes, hedges, trees or the like, break - up any existing concrete surfacing / structure, including footings and dispose to approved dump site, if required. The Contractor is advised to visit the Site and assess the current status and conditions"
+    },
+    {
+     "kind": "heading",
+     "text": "Ground Improvement"
+    },
+    {
+     "kind": "narrative",
+     "lines": [
+      "Carry out the design and execution of ground soil ",
+      "improvement to achieve the required bearing pressure of ",
+      "subsoil; including earthwork support where required, survey ",
+      "and setting out, laboratory soil tests, authority approvals and ",
+      "all incidental works to complete. "
+     ]
+    },
+    {
+     "kind": "narrative",
+     "lines": [
+      "The contractor shall also provide necessary specifications ",
+      "associated with the design to ensure full compliance with the ",
+      "performance criteria stipulated in the issued drawings and ",
+      "project requirements."
+     ]
+    },
+    {
+     "kind": "item",
+     "unit": "Item",
+     "qty": 1,
+     "description": "Stone Columns (Vibro-replacement) "
+    },
+    {
+     "kind": "item",
+     "unit": "Item",
+     "qty": 1,
+     "rate_only": true,
+     "description": "Vibro Compaction"
+    },
+    {
+     "kind": "heading",
+     "text": "Excavation & Filling"
+    },
+    {
+     "kind": "item",
+     "item_key": "excavation",
+     "unit": "m3",
+     "description": "Excavation (generally), complete all in accordance with Drawings and Specifications "
+    },
+    {
+     "kind": "item",
+     "unit": "m3",
+     "rate_only": true,
+     "description": "Filling to makeup levels with suitable engineered fill, as approved by the Engineer; complete, all in accordance with the Drawings and as Specification "
+    },
+    {
+     "kind": "item",
+     "item_key": "disposal",
+     "unit": "m3",
+     "description": "Disposal of material arising from excavations, off site, complete; all in accordance with the Drawings and as Specification "
+    }
+   ]
+  },
+  {
+   "entries": [
+    {
+     "kind": "heading",
+     "text": "Anti-Termite Treatment"
+    },
+    {
+     "kind": "narrative",
+     "lines": [
+      "Anti-termite treatment to excavated area, complete; all in ",
+      "accordance with the Drawings and as Specification "
+     ]
+    },
+    {
+     "kind": "item",
+     "unit": "m2",
+     "rate_only": true,
+     "description": "Anti-termite treatment, horizontally"
+    },
+    {
+     "kind": "item",
+     "unit": "m2",
+     "rate_only": true,
+     "description": "Anti-termite treatment, horizontally"
+    },
+    {
+     "kind": "heading",
+     "text": "Shoring"
+    },
+    {
+     "kind": "narrative",
+     "lines": [
+      "Secant pile shoring system, including design, mobilization, ",
+      "boring, disposal of excavated material, concreting, ",
+      "reinforcement, bracing, anchors, testing, demobilization and ",
+      "all other necessary accessories, designed to suit local ",
+      "conditions and approved by the Engineer, complete all in ",
+      "accordance with Drawings and Specifications"
+     ]
+    },
+    {
+     "kind": "item",
+     "item_key": "shoring92",
+     "unit": "m",
+     "description": "Shoring system; as per illustrative detail (depth as per Contractor's Design) - (Depth=9.2m)"
+    },
+    {
+     "kind": "item",
+     "item_key": "shoring97",
+     "unit": "m",
+     "description": "Shoring system; as per illustrative detail (depth as per Contractor's Design) - (Depth=9.7m)"
+    },
+    {
+     "kind": "item",
+     "item_key": "capping",
+     "unit": "m",
+     "description": "Capping beam including design, concrete, reinforcement, shuttering and all necessary accessories"
+    },
+    {
+     "kind": "item",
+     "unit": "m2",
+     "rate_only": true,
+     "description": "Guniting to shoring wall; including all necessary accessories (provisional)"
+    },
+    {
+     "kind": "item",
+     "unit": "m2",
+     "rate_only": true,
+     "description": "Waterproofing to shoring wall; including all necessary accessories (provisional)"
+    },
+    {
+     "kind": "heading",
+     "text": "Dewatering"
+    },
+    {
+     "kind": "narrative",
+     "lines": [
+      "Design, installation and maintaing of Dewatering System ",
+      "throughout the contract period and handing over to the main ",
+      "contractor in good working condition, designed to suit local ",
+      "conditions and approved by the Engineer, complete all in ",
+      "accordance with Drawings and Specifications"
+     ]
+    },
+    {
+     "kind": "item",
+     "unit": "Item",
+     "qty": 1,
+     "description": "Dewatering system - allow for design, mobilization and installation"
+    },
+    {
+     "kind": "item",
+     "unit": "Item",
+     "qty": 1,
+     "description": "Dewatering system - operating, monitoring and maintaining during enabling and piling works package and handing over to the main contractor at the end of enabling works."
+    }
+   ]
+  },
+  {
+   "entries": [
+    {
+     "kind": "generally"
+    }
+   ]
+  }
+ ]
+}

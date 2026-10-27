@@ -1,0 +1,43 @@
+[
+ {
+  "clause": "G2.1",
+  "unit": "m2",
+  "formula": "area",
+  "formula_text": "flat: A = L \u00d7 W",
+  "deduct": null,
+  "describe": [
+   "class: flat / sloping / vertical"
+  ],
+  "items": [
+   "G-A Horizontal surfaces"
+  ]
+ },
+ {
+  "clause": "J3.1.1",
+  "unit": "m2",
+  "formula": "area",
+  "formula_text": "A = \u03a3 (L \u00d7 H) \u2212 voids + reveals + columns",
+  "deduct": 1.0,
+  "describe": [
+   "class: floors"
+  ],
+  "items": [
+   "J-A To floors, bathrooms and toilets, ground floor",
+   "J-B To floors, service rooms, ground floor"
+  ]
+ },
+ {
+  "clause": "J3.1.3",
+  "unit": "m2",
+  "formula": "area",
+  "formula_text": "A = \u03a3 (L \u00d7 H) \u2212 voids + reveals + columns",
+  "deduct": 1.0,
+  "describe": [
+   "class: ceilings"
+  ],
+  "items": [
+   "J-C To ceilings, bathrooms and toilets",
+   "J-D To ceilings, service rooms"
+  ]
+ }
+]

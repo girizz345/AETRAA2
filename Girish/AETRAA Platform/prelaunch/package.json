@@ -1,0 +1,13 @@
+{
+  "name": "aetraa-prelaunch",
+  "private": true,
+  "type": "module",
+  "description": "Pre-launch end-to-end test of an AETRAA Platform release, run locally only.",
+  "scripts": { "test": "node run.mjs" },
+  "dependencies": {
+    "@electric-sql/pglite": "^0.5.8",
+    "@electric-sql/pglite-socket": "^0.2.11",
+    "fflate": "^0.8.3",
+    "playwright-core": "^1.63.0"
+  }
+}

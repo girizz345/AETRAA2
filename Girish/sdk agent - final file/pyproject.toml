@@ -1,0 +1,38 @@
+[project]
+name = "aetraa-boq"
+version = "0.1.0"
+description = "Drawings to a POMI bill of quantities: marked-up drawings, take-off workbook, priced bill."
+requires-python = ">=3.10"
+dependencies = [
+    "pymupdf==1.24.9",
+    "openpyxl==3.1.5",
+    "claude-agent-sdk>=0.1.0",     # the subscription layer, via core/ai.py
+]
+
+# core/ is AETRAA_SDK's shared framework, copied whole. The BOQ pipeline uses
+# only core.ai. The other modules are here as a library and carry their own
+# dependencies; install this group if you draw on them.
+[project.optional-dependencies]
+full-core = [
+    "Pillow>=10.0.0",          # markupbase — rasterise, 600 dpi greyscale
+    "pdfplumber>=0.11.0",      # PDF text and table read
+    "python-docx>=1.1.0",      # delivery — report and TQ documents
+    "ezdxf>=1.1",              # dxfbase — DXF tier
+    "shapely>=2.0",            # vectorbase — region assembly
+]
+
+[project.scripts]
+boq = "spine.cli:main"
+
+[tool.setuptools]
+packages = ["core","spine","ingest","readers","measure","measure.evaluators","takeoff","bill","render","model"]
+
+[tool.pylint.main]
+fail-under = 8.5
+max-line-length = 88
+
+[tool.pylint."messages control"]
+disable = ["too-few-public-methods", "duplicate-code"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

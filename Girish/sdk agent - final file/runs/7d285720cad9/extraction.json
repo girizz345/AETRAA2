@@ -1,0 +1,518 @@
+{
+ "frame": "page-display-topleft-pt",
+ "per_sheet": [
+  {
+   "doc_id": "Architecture/A1/A-00-001 COVERSHEET.pdf",
+   "drawing_no": "A-00-001",
+   "words": 279
+  },
+  {
+   "doc_id": "Architecture/A1/A-01-001 LIST OF DRAWINGS.pdf",
+   "drawing_no": "A-01-001",
+   "words": 359
+  },
+  {
+   "doc_id": "Architecture/A1/A-03-001.pdf",
+   "drawing_no": "A-03-001",
+   "words": 4486
+  },
+  {
+   "doc_id": "Architecture/A1/A-03-001TOA-03-004 AREA CALCULATION-A-00-001.pdf",
+   "drawing_no": "A-03-001TOA-03-004",
+   "words": 279
+  },
+  {
+   "doc_id": "Architecture/A1/A-03-002 AREACALCULATION-2.pdf",
+   "drawing_no": "A-03-002",
+   "words": 369
+  },
+  {
+   "doc_id": "Architecture/A1/A-03-003 22NOS AREACALCULATION-3.pdf",
+   "drawing_no": "A-03-003",
+   "words": 978
+  },
+  {
+   "doc_id": "Architecture/A1/A-03-001TOA-03-004 AREA CALCULATION-A-03-004.pdf",
+   "drawing_no": "A-03-004",
+   "words": 493
+  },
+  {
+   "doc_id": "Architecture/A1/A-06-001 SETTINGOUT LAYOUT-A-100 SETTING OUT PLAN.pdf",
+   "drawing_no": "A-06-001",
+   "words": 595
+  },
+  {
+   "doc_id": "Architecture/A1/A-07-001 UNDER GROUND WATER TANK & PUMP ROOM.pdf",
+   "drawing_no": "A-07-001",
+   "words": 281
+  },
+  {
+   "doc_id": "Architecture/A1/A-07-003 GROUND FLOOR PLAN.pdf",
+   "drawing_no": "A-07-003",
+   "words": 852
+  },
+  {
+   "doc_id": "Architecture/A1/A-07-004 FIRST FLOOR PLAN.pdf",
+   "drawing_no": "A-07-004",
+   "words": 1312
+  },
+  {
+   "doc_id": "Architecture/A1/A-07-005 2ND FLOOR PLAN.pdf",
+   "drawing_no": "A-07-005",
+   "words": 997
+  },
+  {
+   "doc_id": "Architecture/A1/A-07-006 3RD FLOOR PLAN.pdf",
+   "drawing_no": "A-07-006",
+   "words": 974
+  },
+  {
+   "doc_id": "Architecture/A1/A-07-007 TYP ( 4 - 5 ) FLOOR PLAN.pdf",
+   "drawing_no": "A-07-007",
+   "words": 1026
+  },
+  {
+   "doc_id": "Architecture/A1/A-07-008 LOWER ROOF PLAN.pdf",
+   "drawing_no": "A-07-008",
+   "words": 418
+  },
+  {
+   "doc_id": "Architecture/A1/A-07-009 UPPER ROOF PLAN.pdf",
+   "drawing_no": "A-07-009",
+   "words": 495
+  },
+  {
+   "doc_id": "Architecture/A1/A-07-010 TOPROOFPLAN.pdf",
+   "drawing_no": "A-07-010",
+   "words": 606
+  },
+  {
+   "doc_id": "Architecture/A1/A-08-001 ELEVATION -1.pdf",
+   "drawing_no": "A-08-001",
+   "words": 189
+  },
+  {
+   "doc_id": "Architecture/A1/A-08-002 ELEVATION -2.pdf",
+   "drawing_no": "A-08-002",
+   "words": 188
+  },
+  {
+   "doc_id": "Architecture/A2/A-08-003 ELEVATION-3.pdf",
+   "drawing_no": "A-08-003",
+   "words": 187
+  },
+  {
+   "doc_id": "Architecture/A2/A-08-004 ELEVATION-4.pdf",
+   "drawing_no": "A-08-004",
+   "words": 190
+  },
+  {
+   "doc_id": "Architecture/A2/A-09-001 SECTION -AA.pdf",
+   "drawing_no": "A-09-001",
+   "words": 465
+  },
+  {
+   "doc_id": "Architecture/A2/A-09-002 SECTION -BB.pdf",
+   "drawing_no": "A-09-002",
+   "words": 273
+  },
+  {
+   "doc_id": "Architecture/A2/A-09-003 WALL SECTION - W1 TO W3.pdf",
+   "drawing_no": "A-09-003",
+   "words": 250
+  },
+  {
+   "doc_id": "Architecture/A2/A-09-004 WALL SECTION - W4 TO W5.pdf",
+   "drawing_no": "A-09-004",
+   "words": 266
+  },
+  {
+   "doc_id": "Architecture/A2/A-12-001 STAIRCASE DETAIL-1.pdf",
+   "drawing_no": "A-12-001",
+   "words": 357
+  },
+  {
+   "doc_id": "Architecture/A2/A-12-002 STAIRCASE DETAIL-2.pdf",
+   "drawing_no": "A-12-002",
+   "words": 328
+  },
+  {
+   "doc_id": "Architecture/A2/A-12-003 LIFT DETAILS.pdf",
+   "drawing_no": "A-12-003",
+   "words": 363
+  },
+  {
+   "doc_id": "Architecture/A2/A-12-004 SUBSTATION & LV ROOM DETAILS.pdf",
+   "drawing_no": "A-12-004",
+   "words": 368
+  },
+  {
+   "doc_id": "Architecture/A2/A-12-005 GARBAGE ROOM DETAILS.pdf",
+   "drawing_no": "A-12-005",
+   "words": 530
+  },
+  {
+   "doc_id": "Architecture/A2/A-12-006 TANK&PUMP ROOM DETAILS.pdf",
+   "drawing_no": "A-12-006",
+   "words": 316
+  },
+  {
+   "doc_id": "Architecture/A2/A-12-007 SWIMMING POOL DETAILS.pdf",
+   "drawing_no": "A-12-007",
+   "words": 433
+  },
+  {
+   "doc_id": "Architecture/A2/A-12-008 RAMP DETAILS.pdf",
+   "drawing_no": "A-12-008",
+   "words": 350
+  },
+  {
+   "doc_id": "Architecture/A2/A-12-012 WATERPROOFING DETAILS.pdf",
+   "drawing_no": "A-12-012",
+   "words": 177
+  },
+  {
+   "doc_id": "Architecture/A2/A-12-013 TYPICAL DETAILS.pdf",
+   "drawing_no": "A-12-013",
+   "words": 154
+  },
+  {
+   "doc_id": "Architecture/A2/A-12-014 SIGNAGE SIGNAGEDETAILS DETAILS DETAILS DETAILS.pdf",
+   "drawing_no": "A-12-014",
+   "words": 447
+  },
+  {
+   "doc_id": "Architecture/A2/A-13-001 SCHEDULE OF DOORS.pdf",
+   "drawing_no": "A-13-001",
+   "words": 169
+  },
+  {
+   "doc_id": "Architecture/A2/A-13-002 SCHEDULE OF WINDOWS-01.pdf",
+   "drawing_no": "A-13-002",
+   "words": 205
+  },
+  {
+   "doc_id": "Architecture/A2/A-13-003 SCHEDULE OF WINDOWS-02.pdf",
+   "drawing_no": "A-13-003",
+   "words": 205
+  },
+  {
+   "doc_id": "Architecture/A1/A-02-001 PERSPECTIVES-G-102.pdf",
+   "drawing_no": "G-102",
+   "words": 126
+  },
+  {
+   "doc_id": "Structure/STRUCTURE Sheet 01.pdf",
+   "drawing_no": "L-01_1",
+   "words": 89
+  },
+  {
+   "doc_id": "Structure/STRUCTURE Sheet 10.pdf",
+   "drawing_no": "L-01_10",
+   "words": 252
+  },
+  {
+   "doc_id": "Structure/STRUCTURE Sheet 02.pdf",
+   "drawing_no": "L-01_2",
+   "words": 178
+  },
+  {
+   "doc_id": "Structure/STRUCTURE Sheet 03.pdf",
+   "drawing_no": "L-01_3",
+   "words": 316
+  },
+  {
+   "doc_id": "Structure/STRUCTURE Sheet 04.pdf",
+   "drawing_no": "L-01_4",
+   "words": 571
+  },
+  {
+   "doc_id": "Structure/STRUCTURE Sheet 05.pdf",
+   "drawing_no": "L-01_5",
+   "words": 492
+  },
+  {
+   "doc_id": "Structure/STRUCTURE Sheet 06.pdf",
+   "drawing_no": "L-01_6",
+   "words": 477
+  },
+  {
+   "doc_id": "Structure/STRUCTURE Sheet 07.pdf",
+   "drawing_no": "L-01_7",
+   "words": 483
+  },
+  {
+   "doc_id": "Structure/STRUCTURE Sheet 08.pdf",
+   "drawing_no": "L-01_8",
+   "words": 178
+  },
+  {
+   "doc_id": "Structure/STRUCTURE Sheet 09.pdf",
+   "drawing_no": "L-01_9",
+   "words": 219
+  },
+  {
+   "doc_id": "Structure/STRUCTURE Sheet 11.pdf",
+   "drawing_no": "S-001",
+   "words": 75
+  },
+  {
+   "doc_id": "Structure/STRUCTURE Sheet 12.pdf",
+   "drawing_no": "S-00_2",
+   "words": 78
+  },
+  {
+   "doc_id": "Structure/STRUCTURE Sheet 13.pdf",
+   "drawing_no": "S-01_1",
+   "words": 104
+  },
+  {
+   "doc_id": "Structure/STRUCTURE Sheet 14.pdf",
+   "drawing_no": "S-01_2",
+   "words": 74
+  },
+  {
+   "doc_id": "Structure/STRUCTURE Sheet 15.pdf",
+   "drawing_no": "S-01_3",
+   "words": 109
+  },
+  {
+   "doc_id": "Structure/STRUCTURE Sheet 16.pdf",
+   "drawing_no": "S-01_4",
+   "words": 119
+  },
+  {
+   "doc_id": "Structure/STRUCTURE Sheet 17.pdf",
+   "drawing_no": "S-01_5",
+   "words": 265
+  },
+  {
+   "doc_id": "Structure/STRUCTURE Sheet 18.pdf",
+   "drawing_no": "S-01_6",
+   "words": 75
+  },
+  {
+   "doc_id": "Structure/STRUCTURE Sheet 19.pdf",
+   "drawing_no": "S-02_1",
+   "words": 177
+  },
+  {
+   "doc_id": "Structure/STRUCTURE Sheet 20.pdf",
+   "drawing_no": "S-02_2",
+   "words": 82
+  },
+  {
+   "doc_id": "Structure/STRUCTURE Sheet 21.pdf",
+   "drawing_no": "S-02_3",
+   "words": 365
+  },
+  {
+   "doc_id": "Structure/STRUCTURE Sheet 22.pdf",
+   "drawing_no": "S-02_4",
+   "words": 87
+  },
+  {
+   "doc_id": "Structure/STRUCTURE Sheet 23.pdf",
+   "drawing_no": "S-02_4",
+   "words": 84
+  },
+  {
+   "doc_id": "Structure/STRUCTURE Sheet 24.pdf",
+   "drawing_no": "S-02_6",
+   "words": 233
+  },
+  {
+   "doc_id": "Structure/STRUCTURE Sheet 25.pdf",
+   "drawing_no": "S-02_7",
+   "words": 100
+  },
+  {
+   "doc_id": "Structure/STRUCTURE Sheet 26.pdf",
+   "drawing_no": "S-02_8",
+   "words": 154
+  },
+  {
+   "doc_id": "Structure/STRUCTURE Sheet 27.pdf",
+   "drawing_no": "S-02_9",
+   "words": 397
+  },
+  {
+   "doc_id": "Structure/STRUCTURE Sheet 28.pdf",
+   "drawing_no": "S-03_1",
+   "words": 270
+  },
+  {
+   "doc_id": "Structure/STRUCTURE Sheet 29.pdf",
+   "drawing_no": "S-03_2",
+   "words": 255
+  },
+  {
+   "doc_id": "Structure/STRUCTURE Sheet 30.pdf",
+   "drawing_no": "S-03_2A",
+   "words": 84
+  },
+  {
+   "doc_id": "Structure/STRUCTURE Sheet 31.pdf",
+   "drawing_no": "S-03_3",
+   "words": 145
+  },
+  {
+   "doc_id": "Structure/STRUCTURE Sheet 32.pdf",
+   "drawing_no": "S-03_4",
+   "words": 146
+  },
+  {
+   "doc_id": "Structure/STRUCTURE Sheet 33.pdf",
+   "drawing_no": "S-03_5",
+   "words": 146
+  },
+  {
+   "doc_id": "Structure/STRUCTURE Sheet 34.pdf",
+   "drawing_no": "S-03_6",
+   "words": 146
+  },
+  {
+   "doc_id": "Structure/STRUCTURE Sheet 35.pdf",
+   "drawing_no": "S-03_7",
+   "words": 131
+  },
+  {
+   "doc_id": "Structure/STRUCTURE Sheet 36.pdf",
+   "drawing_no": "S-03_8",
+   "words": 124
+  },
+  {
+   "doc_id": "Structure/STRUCTURE Sheet 37.pdf",
+   "drawing_no": "S-03_9",
+   "words": 90
+  },
+  {
+   "doc_id": "Structure/STRUCTURE Sheet 38.pdf",
+   "drawing_no": "S-04_1",
+   "words": 73
+  },
+  {
+   "doc_id": "Structure/STRUCTURE Sheet 47.pdf",
+   "drawing_no": "S-04_10",
+   "words": 85
+  },
+  {
+   "doc_id": "Structure/STRUCTURE Sheet 48.pdf",
+   "drawing_no": "S-04_11",
+   "words": 85
+  },
+  {
+   "doc_id": "Structure/STRUCTURE Sheet 39.pdf",
+   "drawing_no": "S-04_2",
+   "words": 73
+  },
+  {
+   "doc_id": "Structure/STRUCTURE Sheet 40.pdf",
+   "drawing_no": "S-04_3",
+   "words": 95
+  },
+  {
+   "doc_id": "Structure/STRUCTURE Sheet 41.pdf",
+   "drawing_no": "S-04_4",
+   "words": 85
+  },
+  {
+   "doc_id": "Structure/STRUCTURE Sheet 42.pdf",
+   "drawing_no": "S-04_5",
+   "words": 85
+  },
+  {
+   "doc_id": "Structure/STRUCTURE Sheet 43.pdf",
+   "drawing_no": "S-04_6",
+   "words": 85
+  },
+  {
+   "doc_id": "Structure/STRUCTURE Sheet 44.pdf",
+   "drawing_no": "S-04_7",
+   "words": 85
+  },
+  {
+   "doc_id": "Structure/STRUCTURE Sheet 45.pdf",
+   "drawing_no": "S-04_8",
+   "words": 85
+  },
+  {
+   "doc_id": "Structure/STRUCTURE Sheet 46.pdf",
+   "drawing_no": "S-04_9",
+   "words": 85
+  },
+  {
+   "doc_id": "Structure/STRUCTURE Sheet 49.pdf",
+   "drawing_no": "S-05_1",
+   "words": 132
+  },
+  {
+   "doc_id": "Structure/STRUCTURE Sheet 50.pdf",
+   "drawing_no": "S-05_2",
+   "words": 120
+  },
+  {
+   "doc_id": "PLUMBING/WS-00 SETTING OUTPLAN WATER SUPPLY LAYOUT.pdf",
+   "drawing_no": "WS-00",
+   "words": 501
+  },
+  {
+   "doc_id": "PLUMBING/WS-01 UNDERGROUND PUMP ROOM WATER SUPPLY LAYOUT.pdf",
+   "drawing_no": "WS-01",
+   "words": 625
+  },
+  {
+   "doc_id": "PLUMBING/WS-02 BASEMENT FLOOR PLAN WATER SUPPLY LAYOUT.pdf",
+   "drawing_no": "WS-02",
+   "words": 882
+  },
+  {
+   "doc_id": "PLUMBING/WS-03 GROUND FLOOR PLAN WATER SUPPLY LAYOUT.pdf",
+   "drawing_no": "WS-03",
+   "words": 1285
+  },
+  {
+   "doc_id": "PLUMBING/WS-04 FIRST FLOOR PLAN WATER SUPPLY LAYOUT.pdf",
+   "drawing_no": "WS-04",
+   "words": 3001
+  },
+  {
+   "doc_id": "PLUMBING/WS-05 2NDFLOORPLAN WATER SUPPLY LAYOUT.pdf",
+   "drawing_no": "WS-05",
+   "words": 2875
+  },
+  {
+   "doc_id": "PLUMBING/WS-06 TYPICAL(3RD&5TH)FLOORPLAN WATER SUPPLY LAYOUT.pdf",
+   "drawing_no": "WS-06",
+   "words": 2936
+  },
+  {
+   "doc_id": "PLUMBING/WS-07 4TH&6THFLOORPLAN WATER SUPPLY LAYOUT.pdf",
+   "drawing_no": "WS-07",
+   "words": 2905
+  },
+  {
+   "doc_id": "PLUMBING/WS-08 LOWER ROOF FLOOR PLAN WATER SUPPLY LAYOUT.pdf",
+   "drawing_no": "WS-08",
+   "words": 1014
+  },
+  {
+   "doc_id": "PLUMBING/WS-09 UPPER ROOF FLOOR PLAN WATER SUPPLY LAYOUT.pdf",
+   "drawing_no": "WS-09",
+   "words": 880
+  },
+  {
+   "doc_id": "PLUMBING/WS-10 SCHEMATIC DIAGRAM WATER SUPPLY LAYOUT.pdf",
+   "drawing_no": "WS-10",
+   "words": 7594
+  },
+  {
+   "doc_id": "PLUMBING/WS-11 TYPICAL DETAILS WATER SUPPLY LAYOUT.pdf",
+   "drawing_no": "WS-11",
+   "words": 281
+  }
+ ],
+ "sheets": 102,
+ "source": "counted during the stage 1 register pass, not re-read",
+ "words_total": 54657
+}

@@ -1,0 +1,1788 @@
+[
+ {
+  "who": "owner",
+  "method": "POST",
+  "path": "/api/login",
+  "status": 200
+ },
+ {
+  "who": "owner",
+  "method": "GET",
+  "path": "/api/storage",
+  "status": 200
+ },
+ {
+  "who": "seed",
+  "method": "POST",
+  "path": "/api/login",
+  "status": 200
+ },
+ {
+  "who": "seed",
+  "method": "POST",
+  "path": "/api/setup/onboard",
+  "status": 200
+ },
+ {
+  "who": "seed",
+  "method": "POST",
+  "path": "/api/person",
+  "status": 200
+ },
+ {
+  "who": "seed",
+  "method": "POST",
+  "path": "/api/person",
+  "status": 200
+ },
+ {
+  "who": "seed",
+  "method": "POST",
+  "path": "/api/person",
+  "status": 200
+ },
+ {
+  "who": "seed",
+  "method": "POST",
+  "path": "/api/person",
+  "status": 200
+ },
+ {
+  "who": "seed",
+  "method": "POST",
+  "path": "/api/person",
+  "status": 200
+ },
+ {
+  "who": "seed",
+  "method": "POST",
+  "path": "/api/person",
+  "status": 200
+ },
+ {
+  "who": "seed",
+  "method": "POST",
+  "path": "/api/person",
+  "status": 200
+ },
+ {
+  "who": "seed",
+  "method": "POST",
+  "path": "/api/person",
+  "status": 200
+ },
+ {
+  "who": "seed",
+  "method": "POST",
+  "path": "/api/person",
+  "status": 200
+ },
+ {
+  "who": "seed",
+  "method": "POST",
+  "path": "/api/person",
+  "status": 200
+ },
+ {
+  "who": "seed",
+  "method": "POST",
+  "path": "/api/import?p=residential-tower-g-2p-1",
+  "status": 200
+ },
+ {
+  "who": "seed",
+  "method": "POST",
+  "path": "/api/boq/import",
+  "status": 200
+ },
+ {
+  "who": "seed",
+  "method": "POST",
+  "path": "/api/bom/import",
+  "status": 200
+ },
+ {
+  "who": "seed",
+  "method": "POST",
+  "path": "/api/setup/authorities",
+  "status": 400,
+  "error": "choose at least one authority"
+ },
+ {
+  "who": "seed",
+  "method": "POST",
+  "path": "/api/login",
+  "status": 200
+ },
+ {
+  "who": "seed",
+  "method": "POST",
+  "path": "/api/update",
+  "status": 422,
+  "error": "A photograph is needed before an activity can be marked complete."
+ },
+ {
+  "who": "seed",
+  "method": "POST",
+  "path": "/api/update",
+  "status": 422,
+  "error": "A photograph is needed before an activity can be marked complete."
+ },
+ {
+  "who": "seed",
+  "method": "POST",
+  "path": "/api/update",
+  "status": 422,
+  "error": "A photograph is needed before an activity can be marked complete."
+ },
+ {
+  "who": "seed",
+  "method": "POST",
+  "path": "/api/update",
+  "status": 422,
+  "error": "A photograph is needed before an activity can be marked complete."
+ },
+ {
+  "who": "seed",
+  "method": "POST",
+  "path": "/api/update",
+  "status": 422,
+  "error": "A photograph is needed before an activity can be marked complete."
+ },
+ {
+  "who": "seed",
+  "method": "POST",
+  "path": "/api/update",
+  "status": 422,
+  "error": "A photograph is needed before an activity can be marked complete."
+ },
+ {
+  "who": "seed",
+  "method": "POST",
+  "path": "/api/update",
+  "status": 422,
+  "error": "A photograph is needed before an activity can be marked complete."
+ },
+ {
+  "who": "seed",
+  "method": "POST",
+  "path": "/api/update",
+  "status": 422,
+  "error": "A photograph is needed before an activity can be marked complete."
+ },
+ {
+  "who": "seed",
+  "method": "POST",
+  "path": "/api/update",
+  "status": 200
+ },
+ {
+  "who": "seed",
+  "method": "POST",
+  "path": "/api/update",
+  "status": 403,
+  "error": "outside your trades: A1090"
+ },
+ {
+  "who": "seed",
+  "method": "POST",
+  "path": "/api/update",
+  "status": 403,
+  "error": "outside your trades: A1100"
+ },
+ {
+  "who": "seed",
+  "method": "POST",
+  "path": "/api/update",
+  "status": 403,
+  "error": "outside your trades: A2000"
+ },
+ {
+  "who": "seed",
+  "method": "POST",
+  "path": "/api/update",
+  "status": 403,
+  "error": "outside your trades: A2010"
+ },
+ {
+  "who": "seed",
+  "method": "POST",
+  "path": "/api/update",
+  "status": 403,
+  "error": "outside your trades: A2020"
+ },
+ {
+  "who": "seed",
+  "method": "POST",
+  "path": "/api/update",
+  "status": 403,
+  "error": "outside your trades: A2030"
+ },
+ {
+  "who": "seed",
+  "method": "POST",
+  "path": "/api/update",
+  "status": 403,
+  "error": "outside your trades: A2050"
+ },
+ {
+  "who": "seed",
+  "method": "POST",
+  "path": "/api/login",
+  "status": 200
+ },
+ {
+  "who": "seed",
+  "method": "POST",
+  "path": "/api/update",
+  "status": 422,
+  "error": "A photograph is needed before an activity can be marked complete."
+ },
+ {
+  "who": "seed",
+  "method": "POST",
+  "path": "/api/update",
+  "status": 200
+ },
+ {
+  "who": "seed",
+  "method": "POST",
+  "path": "/api/update",
+  "status": 200
+ },
+ {
+  "who": "seed",
+  "method": "POST",
+  "path": "/api/update",
+  "status": 200
+ },
+ {
+  "who": "seed",
+  "method": "POST",
+  "path": "/api/update",
+  "status": 200
+ },
+ {
+  "who": "seed",
+  "method": "POST",
+  "path": "/api/login",
+  "status": 200
+ },
+ {
+  "who": "seed",
+  "method": "POST",
+  "path": "/api/records",
+  "status": 200
+ },
+ {
+  "who": "seed",
+  "method": "POST",
+  "path": "/api/records",
+  "status": 200
+ },
+ {
+  "who": "seed",
+  "method": "POST",
+  "path": "/api/records",
+  "status": 200
+ },
+ {
+  "who": "seed",
+  "method": "POST",
+  "path": "/api/records",
+  "status": 200
+ },
+ {
+  "who": "seed",
+  "method": "POST",
+  "path": "/api/records",
+  "status": 200
+ },
+ {
+  "who": "seed",
+  "method": "POST",
+  "path": "/api/records",
+  "status": 200
+ },
+ {
+  "who": "seed",
+  "method": "POST",
+  "path": "/api/records",
+  "status": 200
+ },
+ {
+  "who": "seed",
+  "method": "POST",
+  "path": "/api/login",
+  "status": 200
+ },
+ {
+  "who": "seed",
+  "method": "POST",
+  "path": "/api/records",
+  "status": 200
+ },
+ {
+  "who": "seed",
+  "method": "POST",
+  "path": "/api/records",
+  "status": 200
+ },
+ {
+  "who": "seed",
+  "method": "POST",
+  "path": "/api/records",
+  "status": 200
+ },
+ {
+  "who": "seed",
+  "method": "POST",
+  "path": "/api/records",
+  "status": 200
+ },
+ {
+  "who": "seed",
+  "method": "POST",
+  "path": "/api/records",
+  "status": 200
+ },
+ {
+  "who": "seed",
+  "method": "POST",
+  "path": "/api/login",
+  "status": 200
+ },
+ {
+  "who": "seed",
+  "method": "POST",
+  "path": "/api/records",
+  "status": 200
+ },
+ {
+  "who": "seed",
+  "method": "POST",
+  "path": "/api/records",
+  "status": 200
+ },
+ {
+  "who": "seed",
+  "method": "POST",
+  "path": "/api/records",
+  "status": 200
+ },
+ {
+  "who": "seed",
+  "method": "POST",
+  "path": "/api/records",
+  "status": 200
+ },
+ {
+  "who": "seed",
+  "method": "POST",
+  "path": "/api/records",
+  "status": 200
+ },
+ {
+  "who": "seed",
+  "method": "POST",
+  "path": "/api/records",
+  "status": 200
+ },
+ {
+  "who": "seed",
+  "method": "POST",
+  "path": "/api/records",
+  "status": 200
+ },
+ {
+  "who": "seed",
+  "method": "POST",
+  "path": "/api/records",
+  "status": 200
+ },
+ {
+  "who": "seed",
+  "method": "POST",
+  "path": "/api/login",
+  "status": 200
+ },
+ {
+  "who": "seed",
+  "method": "POST",
+  "path": "/api/records",
+  "status": 200
+ },
+ {
+  "who": "seed",
+  "method": "POST",
+  "path": "/api/records",
+  "status": 200
+ },
+ {
+  "who": "seed",
+  "method": "POST",
+  "path": "/api/records",
+  "status": 200
+ },
+ {
+  "who": "seed",
+  "method": "POST",
+  "path": "/api/records",
+  "status": 200
+ },
+ {
+  "who": "seed",
+  "method": "POST",
+  "path": "/api/login",
+  "status": 200
+ },
+ {
+  "who": "seed",
+  "method": "POST",
+  "path": "/api/records",
+  "status": 200
+ },
+ {
+  "who": "seed",
+  "method": "POST",
+  "path": "/api/records",
+  "status": 200
+ },
+ {
+  "who": "seed",
+  "method": "POST",
+  "path": "/api/login",
+  "status": 200
+ },
+ {
+  "who": "seed",
+  "method": "GET",
+  "path": "/api/records",
+  "status": 200
+ },
+ {
+  "who": "seed",
+  "method": "POST",
+  "path": "/api/record/advance",
+  "status": 200
+ },
+ {
+  "who": "seed",
+  "method": "POST",
+  "path": "/api/record/advance",
+  "status": 200
+ },
+ {
+  "who": "seed",
+  "method": "POST",
+  "path": "/api/record/advance",
+  "status": 200
+ },
+ {
+  "who": "seed",
+  "method": "POST",
+  "path": "/api/record/advance",
+  "status": 200
+ },
+ {
+  "who": "seed",
+  "method": "POST",
+  "path": "/api/record/advance",
+  "status": 200
+ },
+ {
+  "who": "seed",
+  "method": "POST",
+  "path": "/api/record/advance",
+  "status": 200
+ },
+ {
+  "who": "seed",
+  "method": "POST",
+  "path": "/api/record/advance",
+  "status": 200
+ },
+ {
+  "who": "seed",
+  "method": "POST",
+  "path": "/api/login",
+  "status": 200
+ },
+ {
+  "who": "seed",
+  "method": "POST",
+  "path": "/api/bom/order",
+  "status": 200
+ },
+ {
+  "who": "seed",
+  "method": "POST",
+  "path": "/api/bom/order",
+  "status": 200
+ },
+ {
+  "who": "seed",
+  "method": "POST",
+  "path": "/api/bom/order",
+  "status": 200
+ },
+ {
+  "who": "seed",
+  "method": "POST",
+  "path": "/api/bom/order",
+  "status": 200
+ },
+ {
+  "who": "seed",
+  "method": "POST",
+  "path": "/api/bom/grn",
+  "status": 200
+ },
+ {
+  "who": "seed",
+  "method": "POST",
+  "path": "/api/bom/grn",
+  "status": 200
+ },
+ {
+  "who": "seed",
+  "method": "POST",
+  "path": "/api/bom/grn",
+  "status": 200
+ },
+ {
+  "who": "seed",
+  "method": "POST",
+  "path": "/api/login",
+  "status": 200
+ },
+ {
+  "who": "seed",
+  "method": "POST",
+  "path": "/api/hse/log",
+  "status": 200
+ },
+ {
+  "who": "seed",
+  "method": "POST",
+  "path": "/api/hse/log",
+  "status": 200
+ },
+ {
+  "who": "seed",
+  "method": "POST",
+  "path": "/api/hse/log",
+  "status": 200
+ },
+ {
+  "who": "seed",
+  "method": "POST",
+  "path": "/api/hse/log",
+  "status": 200
+ },
+ {
+  "who": "seed",
+  "method": "POST",
+  "path": "/api/hse/log",
+  "status": 200
+ },
+ {
+  "who": "seed",
+  "method": "POST",
+  "path": "/api/hse/log",
+  "status": 200
+ },
+ {
+  "who": "seed",
+  "method": "POST",
+  "path": "/api/hse/log",
+  "status": 200
+ },
+ {
+  "who": "seed",
+  "method": "POST",
+  "path": "/api/login",
+  "status": 200
+ },
+ {
+  "who": "seed",
+  "method": "POST",
+  "path": "/api/ipc/propose",
+  "status": 200
+ },
+ {
+  "who": "seed",
+  "method": "POST",
+  "path": "/api/ipc",
+  "status": 200
+ },
+ {
+  "who": "seed",
+  "method": "POST",
+  "path": "/api/login",
+  "status": 200
+ },
+ {
+  "who": "seed",
+  "method": "POST",
+  "path": "/api/ipc/advance",
+  "status": 200
+ },
+ {
+  "who": "seed",
+  "method": "POST",
+  "path": "/api/login",
+  "status": 200
+ },
+ {
+  "who": "seed",
+  "method": "POST",
+  "path": "/api/ipc/advance",
+  "status": 200
+ },
+ {
+  "who": "seed",
+  "method": "POST",
+  "path": "/api/login",
+  "status": 200
+ },
+ {
+  "who": "seed",
+  "method": "POST",
+  "path": "/api/ipc/advance",
+  "status": 200
+ },
+ {
+  "who": "owner",
+  "method": "POST",
+  "path": "/api/login",
+  "status": 200
+ },
+ {
+  "who": "owner",
+  "method": "GET",
+  "path": "/api/people?org=org_41fb35c8d3c44180",
+  "status": 200
+ },
+ {
+  "who": "owner",
+  "method": "POST",
+  "path": "/api/person",
+  "status": 200
+ },
+ {
+  "who": "Principal",
+  "method": "POST",
+  "path": "/api/login",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "POST",
+  "path": "/api/login",
+  "status": 200
+ },
+ {
+  "who": "Planning Engineer",
+  "method": "POST",
+  "path": "/api/login",
+  "status": 200
+ },
+ {
+  "who": "Site Engineer — Civil",
+  "method": "POST",
+  "path": "/api/login",
+  "status": 200
+ },
+ {
+  "who": "Site Engineer — MEP",
+  "method": "POST",
+  "path": "/api/login",
+  "status": 200
+ },
+ {
+  "who": "Design Manager",
+  "method": "POST",
+  "path": "/api/login",
+  "status": 200
+ },
+ {
+  "who": "Document Controller",
+  "method": "POST",
+  "path": "/api/login",
+  "status": 200
+ },
+ {
+  "who": "QA/QC Engineer",
+  "method": "POST",
+  "path": "/api/login",
+  "status": 200
+ },
+ {
+  "who": "HSE Officer",
+  "method": "POST",
+  "path": "/api/login",
+  "status": 200
+ },
+ {
+  "who": "Quantity Surveyor",
+  "method": "POST",
+  "path": "/api/login",
+  "status": 200
+ },
+ {
+  "who": "Consultant (read-only)",
+  "method": "POST",
+  "path": "/api/login",
+  "status": 200
+ },
+ {
+  "who": "Principal",
+  "method": "GET",
+  "path": "/api/setup/companies",
+  "status": 401,
+  "error": "auth"
+ },
+ {
+  "who": "Project Manager",
+  "method": "GET",
+  "path": "/api/setup/companies",
+  "status": 401,
+  "error": "auth"
+ },
+ {
+  "who": "Consultant (read-only)",
+  "method": "GET",
+  "path": "/api/setup/companies",
+  "status": 401,
+  "error": "auth"
+ },
+ {
+  "who": "Project Manager",
+  "method": "POST",
+  "path": "/api/ai/report-narrative",
+  "status": 200,
+  "error": "AI drafting is not switched on for this deployment. Set an API key to enable it — until then, every register and report still works; only the AI drafts are unavailable."
+ },
+ {
+  "who": "Quantity Surveyor",
+  "method": "GET",
+  "path": "/api/ipc",
+  "status": 200
+ },
+ {
+  "who": "Quantity Surveyor",
+  "method": "POST",
+  "path": "/api/ipc/check",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "GET",
+  "path": "/api/records",
+  "status": 200
+ },
+ {
+  "who": "owner",
+  "method": "POST",
+  "path": "/api/setup/template",
+  "status": 200
+ },
+ {
+  "who": "owner",
+  "method": "POST",
+  "path": "/api/setup/template",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "GET",
+  "path": "/api/record/doc?ref=NCR-002",
+  "status": 404,
+  "error": "No template has been set up for NCR on this project."
+ },
+ {
+  "who": "owner",
+  "method": "POST",
+  "path": "/api/setup/rules?p=residential-tower-g-2p-1",
+  "status": 200
+ },
+ {
+  "who": "Design Manager",
+  "method": "POST",
+  "path": "/api/drawing",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "GET",
+  "path": "/api/drawings",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "POST",
+  "path": "/api/drawing/approve",
+  "status": 200
+ },
+ {
+  "who": "Document Controller",
+  "method": "POST",
+  "path": "/api/meeting",
+  "status": 200
+ },
+ {
+  "who": "Document Controller",
+  "method": "POST",
+  "path": "/api/meeting/issue",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "GET",
+  "path": "/api/actions?mine=1",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "POST",
+  "path": "/api/action",
+  "status": 200
+ },
+ {
+  "who": "Document Controller",
+  "method": "POST",
+  "path": "/api/records",
+  "status": 200
+ },
+ {
+  "who": "Quantity Surveyor",
+  "method": "POST",
+  "path": "/api/records",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "GET",
+  "path": "/api/record?ref=LTR-002",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "POST",
+  "path": "/api/record/advance",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "GET",
+  "path": "/api/record?ref=LTR-002",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "POST",
+  "path": "/api/record/advance",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "GET",
+  "path": "/api/record?ref=LTR-002",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "GET",
+  "path": "/api/record?ref=IN-001",
+  "status": 200
+ },
+ {
+  "who": "Site Engineer — Civil",
+  "method": "POST",
+  "path": "/api/diary",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "POST",
+  "path": "/api/diary",
+  "status": 200
+ },
+ {
+  "who": "Site Engineer — Civil",
+  "method": "POST",
+  "path": "/api/issue",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "POST",
+  "path": "/api/issue",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "GET",
+  "path": "/api/records",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "GET",
+  "path": "/api/record?ref=LTR-002",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "GET",
+  "path": "/api/record?ref=LTR-002",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "GET",
+  "path": "/api/record?ref=IN-001",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "GET",
+  "path": "/api/record?ref=IN-001",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "GET",
+  "path": "/api/record?ref=MR-002",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "POST",
+  "path": "/api/record/advance",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "GET",
+  "path": "/api/record?ref=MR-002",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "GET",
+  "path": "/api/record?ref=MR-002",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "POST",
+  "path": "/api/record/advance",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "GET",
+  "path": "/api/record?ref=MR-002",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "GET",
+  "path": "/api/record?ref=MR-002",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "GET",
+  "path": "/api/record?ref=MR-002",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "GET",
+  "path": "/api/record?ref=VO-03",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "POST",
+  "path": "/api/record/advance",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "GET",
+  "path": "/api/record?ref=VO-03",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "GET",
+  "path": "/api/record?ref=VO-03",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "POST",
+  "path": "/api/record/advance",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "GET",
+  "path": "/api/record?ref=VO-03",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "GET",
+  "path": "/api/record?ref=VO-03",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "POST",
+  "path": "/api/record/advance",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "GET",
+  "path": "/api/record?ref=VO-03",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "GET",
+  "path": "/api/record?ref=VO-03",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "GET",
+  "path": "/api/record?ref=VO-03",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "GET",
+  "path": "/api/record?ref=CERT-003",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "POST",
+  "path": "/api/record/advance",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "GET",
+  "path": "/api/record?ref=CERT-003",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "GET",
+  "path": "/api/record?ref=CERT-003",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "POST",
+  "path": "/api/record/advance",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "GET",
+  "path": "/api/record?ref=CERT-003",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "GET",
+  "path": "/api/record?ref=CERT-003",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "GET",
+  "path": "/api/record?ref=CERT-003",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "GET",
+  "path": "/api/record?ref=INC-001",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "POST",
+  "path": "/api/record/advance",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "GET",
+  "path": "/api/record?ref=INC-001",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "GET",
+  "path": "/api/record?ref=INC-001",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "POST",
+  "path": "/api/record/advance",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "GET",
+  "path": "/api/record?ref=INC-001",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "GET",
+  "path": "/api/record?ref=INC-001",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "POST",
+  "path": "/api/record/advance",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "GET",
+  "path": "/api/record?ref=INC-001",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "GET",
+  "path": "/api/record?ref=INC-001",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "GET",
+  "path": "/api/record?ref=INC-001",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "GET",
+  "path": "/api/record?ref=OBS-002",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "POST",
+  "path": "/api/record/advance",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "GET",
+  "path": "/api/record?ref=OBS-002",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "GET",
+  "path": "/api/record?ref=OBS-002",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "POST",
+  "path": "/api/record/advance",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "GET",
+  "path": "/api/record?ref=OBS-002",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "GET",
+  "path": "/api/record?ref=OBS-002",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "POST",
+  "path": "/api/record/advance",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "GET",
+  "path": "/api/record?ref=OBS-002",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "GET",
+  "path": "/api/record?ref=OBS-002",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "GET",
+  "path": "/api/record?ref=OBS-002",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "GET",
+  "path": "/api/record?ref=PTW-002",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "POST",
+  "path": "/api/record/advance",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "GET",
+  "path": "/api/record?ref=PTW-002",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "GET",
+  "path": "/api/record?ref=PTW-002",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "POST",
+  "path": "/api/record/advance",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "GET",
+  "path": "/api/record?ref=PTW-002",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "GET",
+  "path": "/api/record?ref=PTW-002",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "GET",
+  "path": "/api/record?ref=PTW-002",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "GET",
+  "path": "/api/record?ref=NCR-002",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "POST",
+  "path": "/api/record/advance",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "GET",
+  "path": "/api/record?ref=NCR-002",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "GET",
+  "path": "/api/record?ref=NCR-002",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "POST",
+  "path": "/api/record/advance",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "GET",
+  "path": "/api/record?ref=NCR-002",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "GET",
+  "path": "/api/record?ref=NCR-002",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "GET",
+  "path": "/api/record?ref=NCR-002",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "GET",
+  "path": "/api/record?ref=WIR-003",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "POST",
+  "path": "/api/record/advance",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "GET",
+  "path": "/api/record?ref=WIR-003",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "GET",
+  "path": "/api/record?ref=WIR-003",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "POST",
+  "path": "/api/record/advance",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "GET",
+  "path": "/api/record?ref=WIR-003",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "GET",
+  "path": "/api/record?ref=WIR-003",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "GET",
+  "path": "/api/record?ref=WIR-003",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "GET",
+  "path": "/api/record?ref=MAR-001",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "POST",
+  "path": "/api/record/advance",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "GET",
+  "path": "/api/record?ref=MAR-001",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "GET",
+  "path": "/api/record?ref=MAR-001",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "POST",
+  "path": "/api/record/advance",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "GET",
+  "path": "/api/record?ref=MAR-001",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "GET",
+  "path": "/api/record?ref=MAR-001",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "POST",
+  "path": "/api/record/advance",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "GET",
+  "path": "/api/record?ref=MAR-001",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "GET",
+  "path": "/api/record?ref=MAR-001",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "POST",
+  "path": "/api/record/advance",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "GET",
+  "path": "/api/record?ref=MAR-001",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "GET",
+  "path": "/api/record?ref=MAR-001",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "GET",
+  "path": "/api/record?ref=MAR-001",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "GET",
+  "path": "/api/record?ref=RFI-0003",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "POST",
+  "path": "/api/record/advance",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "GET",
+  "path": "/api/record?ref=RFI-0003",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "GET",
+  "path": "/api/record?ref=RFI-0003",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "POST",
+  "path": "/api/record/advance",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "GET",
+  "path": "/api/record?ref=RFI-0003",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "GET",
+  "path": "/api/record?ref=RFI-0003",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "POST",
+  "path": "/api/record/advance",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "GET",
+  "path": "/api/record?ref=RFI-0003",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "GET",
+  "path": "/api/record?ref=RFI-0003",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "GET",
+  "path": "/api/record?ref=RFI-0003",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "GET",
+  "path": "/api/record?ref=SUB-003",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "POST",
+  "path": "/api/record/advance",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "GET",
+  "path": "/api/record?ref=SUB-003",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "GET",
+  "path": "/api/record?ref=SUB-003",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "POST",
+  "path": "/api/record/advance",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "GET",
+  "path": "/api/record?ref=SUB-003",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "GET",
+  "path": "/api/record?ref=SUB-003",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "POST",
+  "path": "/api/record/advance",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "GET",
+  "path": "/api/record?ref=SUB-003",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "GET",
+  "path": "/api/record?ref=SUB-003",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "GET",
+  "path": "/api/record?ref=SUB-003",
+  "status": 200
+ },
+ {
+  "who": "Consultant (read-only)",
+  "method": "POST",
+  "path": "/api/records",
+  "status": 401,
+  "error": "auth"
+ },
+ {
+  "who": "Consultant (read-only)",
+  "method": "POST",
+  "path": "/api/ipc",
+  "status": 403,
+  "error": "payment is not part of your access"
+ },
+ {
+  "who": "Consultant (read-only)",
+  "method": "POST",
+  "path": "/api/drawing",
+  "status": 403,
+  "error": "Uploading drawings is for Design and Document Control."
+ },
+ {
+  "who": "Site Engineer — Civil",
+  "method": "POST",
+  "path": "/api/ipc/advance",
+  "status": 403,
+  "error": "payment is not part of your access"
+ },
+ {
+  "who": "Site Engineer — Civil",
+  "method": "POST",
+  "path": "/api/drawing/approve",
+  "status": 401,
+  "error": "auth"
+ },
+ {
+  "who": "owner",
+  "method": "GET",
+  "path": "/api/setup/modules?project=residential-tower-g-2p-1",
+  "status": 200
+ },
+ {
+  "who": "owner",
+  "method": "POST",
+  "path": "/api/setup/modules",
+  "status": 200
+ },
+ {
+  "who": "Quantity Surveyor",
+  "method": "GET",
+  "path": "/api/boq",
+  "status": 403,
+  "error": "The Contracts & commercial module is not switched on for this project."
+ },
+ {
+  "who": "owner",
+  "method": "POST",
+  "path": "/api/setup/modules",
+  "status": 200
+ },
+ {
+  "who": "Quantity Surveyor",
+  "method": "GET",
+  "path": "/api/boq",
+  "status": 200
+ },
+ {
+  "who": "owner",
+  "method": "POST",
+  "path": "/api/intake/batch",
+  "status": 200
+ },
+ {
+  "who": "owner",
+  "method": "POST",
+  "path": "/api/intake/scan",
+  "status": 200
+ },
+ {
+  "who": "owner",
+  "method": "POST",
+  "path": "/api/intake/scan",
+  "status": 200
+ },
+ {
+  "who": "owner",
+  "method": "GET",
+  "path": "/api/intake/batch?id=bat_muuyo0tvxijhyi",
+  "status": 200
+ },
+ {
+  "who": "Principal",
+  "method": "GET",
+  "path": "/api/attention",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "GET",
+  "path": "/api/attention",
+  "status": 200
+ },
+ {
+  "who": "Planning Engineer",
+  "method": "GET",
+  "path": "/api/attention",
+  "status": 200
+ },
+ {
+  "who": "Site Engineer — Civil",
+  "method": "GET",
+  "path": "/api/attention",
+  "status": 200
+ },
+ {
+  "who": "Site Engineer — MEP",
+  "method": "GET",
+  "path": "/api/attention",
+  "status": 200
+ },
+ {
+  "who": "Design Manager",
+  "method": "GET",
+  "path": "/api/attention",
+  "status": 200
+ },
+ {
+  "who": "Document Controller",
+  "method": "GET",
+  "path": "/api/attention",
+  "status": 200
+ },
+ {
+  "who": "QA/QC Engineer",
+  "method": "GET",
+  "path": "/api/attention",
+  "status": 200
+ },
+ {
+  "who": "HSE Officer",
+  "method": "GET",
+  "path": "/api/attention",
+  "status": 200
+ },
+ {
+  "who": "Quantity Surveyor",
+  "method": "GET",
+  "path": "/api/attention",
+  "status": 200
+ },
+ {
+  "who": "Consultant (read-only)",
+  "method": "GET",
+  "path": "/api/attention",
+  "status": 200
+ },
+ {
+  "who": "Document Controller",
+  "method": "POST",
+  "path": "/api/notify",
+  "status": 200
+ },
+ {
+  "who": "Project Manager",
+  "method": "GET",
+  "path": "/api/notifications",
+  "status": 200
+ },
+ {
+  "who": "owner",
+  "method": "POST",
+  "path": "/api/setup/golive",
+  "status": 200
+ },
+ {
+  "who": "owner",
+  "method": "GET",
+  "path": "/api/email-check",
+  "status": 200
+ }
+]

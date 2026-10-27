@@ -1,0 +1,22 @@
+{
+  "name": "aetraa-project-management-module",
+  "version": "1.0.0",
+  "description": "AETRAA — Project Management Module: post-contract construction management. Runs on Cloudflare (Worker + D1) or on any server with PostgreSQL (Oracle Cloud).",
+  "private": true,
+  "license": "ISC",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "node tools/run-all.mjs"
+  },
+  "dependencies": {
+    "@napi-rs/canvas": "^0.1.100",
+    "fflate": "^0.8.3",
+    "pdf-lib": "^1.17.1",
+    "pdfjs-dist": "^4.10.38",
+    "pg": "^8.23.0"
+  }
+}

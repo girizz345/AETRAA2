@@ -1,0 +1,108 @@
+{
+ "items": [
+  {
+   "bill": 1,
+   "clause_ref": "A1.1",
+   "priced_by": null,
+   "text": "Schedule of clause headings",
+   "unit": "item",
+   "value_is_commercial": false
+  },
+  {
+   "bill": 1,
+   "clause_ref": "A1.2",
+   "priced_by": null,
+   "text": "Schedule of appendix insertions",
+   "unit": "item",
+   "value_is_commercial": false
+  },
+  {
+   "bill": 1,
+   "clause_ref": "A2.1",
+   "priced_by": null,
+   "text": "Bill refers to the specification\u2019s General Requirements clauses",
+   "unit": "item",
+   "value_is_commercial": false
+  },
+  {
+   "bill": 1,
+   "clause_ref": "A3.1",
+   "priced_by": null,
+   "text": "PARTICULARS of RESTRICTIONS, SIX heads, all of them the employer\u2019s con-",
+   "unit": "item",
+   "value_is_commercial": false
+  },
+  {
+   "bill": 1,
+   "clause_ref": "A4.1",
+   "priced_by": null,
+   "text": "Contractor\u2019s administrative arrangements \u2014 site admin, supervision, security,",
+   "unit": "item",
+   "value_is_commercial": false
+  },
+  {
+   "bill": 1,
+   "clause_ref": "A5.1",
+   "priced_by": null,
+   "text": "Constructional plant \u2014 small plant, scaffolding, cranes, site transport, trade-",
+   "unit": "item",
+   "value_is_commercial": false
+  },
+  {
+   "bill": 1,
+   "clause_ref": "A6.1",
+   "priced_by": null,
+   "text": "PARTICULARS of the EMPLOYER\u2019S FACILITIES \u2014 what the contractor must",
+   "unit": "item",
+   "value_is_commercial": false
+  },
+  {
+   "bill": 1,
+   "clause_ref": "A7.1",
+   "priced_by": null,
+   "text": "ONE ITEM for the CONTRACTOR\u2019S OWN FACILITIES, SIX heads: 1 ACCOM-",
+   "unit": "item",
+   "value_is_commercial": false
+  },
+  {
+   "bill": 1,
+   "clause_ref": "A7.2",
+   "priced_by": null,
+   "text": "Particulars where the facilities are not at the contractor\u2019s discretion",
+   "unit": "item",
+   "value_is_commercial": false
+  },
+  {
+   "bill": 1,
+   "clause_ref": "A8.1",
+   "priced_by": null,
+   "text": "ONE ITEM for TEMPORARY WORKS, SEVEN heads: 1 TRAFFIC DIVERSION",
+   "unit": "item",
+   "value_is_commercial": false
+  },
+  {
+   "bill": 1,
+   "clause_ref": "A8.2",
+   "priced_by": null,
+   "text": "Particulars where not at the contractor\u2019s discretion",
+   "unit": "item",
+   "value_is_commercial": false
+  },
+  {
+   "bill": 1,
+   "clause_ref": "A9.1",
+   "priced_by": null,
+   "text": "ONE ITEM for SUNDRY ITEMS, NINE heads: 1 TESTING OF MATERIALS \u00b7 2",
+   "unit": "item",
+   "value_is_commercial": false
+  },
+  {
+   "bill": 1,
+   "clause_ref": "A9.2",
+   "priced_by": null,
+   "text": "Particulars where not at the contractor\u2019s discretion",
+   "unit": "item",
+   "value_is_commercial": false
+  }
+ ]
+}

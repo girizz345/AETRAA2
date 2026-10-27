@@ -1,0 +1,143 @@
+{
+ "_stamp": {
+  "sheet_sha1": "e4a7aa34680b0abdccda2005238a0faa98a0d685",
+  "task": "grid_dims",
+  "version": "1"
+ },
+ "_by": "Claude Code (visual reading, this session)",
+ "reading": {
+  "x_bays": [
+   {
+    "from": "1",
+    "to": "2",
+    "mm": 4300
+   },
+   {
+    "from": "2",
+    "to": "3",
+    "mm": 6000
+   },
+   {
+    "from": "3",
+    "to": "4",
+    "mm": 7700
+   },
+   {
+    "from": "4",
+    "to": "5",
+    "mm": 4800
+   },
+   {
+    "from": "5",
+    "to": "6",
+    "mm": 3100
+   },
+   {
+    "from": "6",
+    "to": "7",
+    "mm": 4800
+   },
+   {
+    "from": "7",
+    "to": "8",
+    "mm": 3100
+   },
+   {
+    "from": "8",
+    "to": "9",
+    "mm": 4800
+   },
+   {
+    "from": "9",
+    "to": "10",
+    "mm": 3100
+   },
+   {
+    "from": "10",
+    "to": "11",
+    "mm": 4800
+   },
+   {
+    "from": "11",
+    "to": "12",
+    "mm": 3100
+   },
+   {
+    "from": "12",
+    "to": "13",
+    "mm": 4800
+   },
+   {
+    "from": "13",
+    "to": "14",
+    "mm": 3100
+   },
+   {
+    "from": "14",
+    "to": "15",
+    "mm": 7900
+   },
+   {
+    "from": "15",
+    "to": "16",
+    "mm": 5450
+   },
+   {
+    "from": "16",
+    "to": "17",
+    "mm": 5450
+   }
+  ],
+  "y_bays": [
+   {
+    "from": "A",
+    "to": "B",
+    "mm": 7900
+   },
+   {
+    "from": "B",
+    "to": "C",
+    "mm": 7900
+   },
+   {
+    "from": "C",
+    "to": "D",
+    "mm": 3900
+   },
+   {
+    "from": "D",
+    "to": "E",
+    "mm": 4000
+   },
+   {
+    "from": "E",
+    "to": "F",
+    "mm": 4000
+   },
+   {
+    "from": "F",
+    "to": "G",
+    "mm": 3900
+   }
+  ],
+  "overall": [
+   {
+    "from": "1",
+    "to": "17",
+    "mm": 76300
+   },
+   {
+    "from": "A",
+    "to": "H",
+    "mm": 39500
+   }
+  ],
+  "illegible": [
+   {
+    "where": "left grid chain between G and H",
+    "field": "G-H",
+    "reason": "dimension string overdrawn by the 'PROPOSED GATE LEVEL' note"
+   }
+  ]
+ }
+}

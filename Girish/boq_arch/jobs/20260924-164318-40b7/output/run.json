@@ -1,0 +1,684 @@
+{
+ "project": "5310319 PROPOSED RESIDENTIAL BUILDING (B+G+5+ROOF)",
+ "identity": {
+  "owner": "G F S REAL ESTATE L.L.C",
+  "job_title": "PROPOSED RESIDENTIAL BUILDING (B+G+5+ROOF)",
+  "plot": "5310319",
+  "community": "SAIH SHUAIB 2",
+  "consultant": "EMSQUARE ENGINEERING CONSULTANTS"
+ },
+ "rev": "00",
+ "seconds": 73,
+ "sections": {
+  "D": [
+   {
+    "code": "D-A",
+    "description": "Walls, 150mm thick",
+    "unit": "m2",
+    "quantity": 294.32,
+    "bill_quantity": 294,
+    "origins": "MEASURED",
+    "clause": "D2.1"
+   },
+   {
+    "code": "D-B",
+    "description": "Walls, 200mm thick",
+    "unit": "m2",
+    "quantity": 10303.75,
+    "bill_quantity": 10304,
+    "origins": "DERIVED, MEASURED",
+    "clause": "D2.1"
+   },
+   {
+    "code": "D-C",
+    "description": "Walls, 200mm thick, balcony partition, 1.8m high",
+    "unit": "m2",
+    "quantity": 45.2,
+    "bill_quantity": 45,
+    "origins": "MEASURED",
+    "clause": "D2.1"
+   },
+   {
+    "code": "D-D",
+    "description": "Walls, 100mm thick",
+    "unit": "m2",
+    "quantity": 5446.8,
+    "bill_quantity": 5447,
+    "origins": "DERIVED, MEASURED",
+    "clause": "D2.1"
+   }
+  ],
+  "G": [
+   {
+    "code": "G-A",
+    "description": "To horizontal surfaces, roofs and terraces",
+    "unit": "m2",
+    "quantity": 2051.68,
+    "bill_quantity": 2052,
+    "origins": "MEASURED",
+    "clause": "G2.1"
+   },
+   {
+    "code": "G-B",
+    "description": "To horizontal surfaces, balconies",
+    "unit": "m2",
+    "quantity": 528.33,
+    "bill_quantity": 528,
+    "origins": "MEASURED",
+    "clause": "G2.1"
+   },
+   {
+    "code": "G-C",
+    "description": "To walls",
+    "unit": "m",
+    "quantity": 213.96,
+    "bill_quantity": 214,
+    "origins": "MEASURED",
+    "clause": "G3.1"
+   },
+   {
+    "code": "G-D",
+    "description": "Horizontal surfaces",
+    "unit": "m2",
+    "quantity": 716.2,
+    "bill_quantity": 716,
+    "origins": "MEASURED",
+    "clause": "G2.1"
+   }
+  ],
+  "H": [
+   {
+    "code": "H-A",
+    "description": "Swing door, size 1200mm x 2200mm, type D-6, with weather strips",
+    "unit": "nr",
+    "quantity": 5.0,
+    "bill_quantity": 5,
+    "origins": "COUNTED, READ (VISUAL)",
+    "clause": "H1.1"
+   },
+   {
+    "code": "H-B",
+    "description": "Hinged, size 3050mm x 2750mm, type LD-1",
+    "unit": "nr",
+    "quantity": 1.0,
+    "bill_quantity": 1,
+    "origins": "COUNTED, READ (VISUAL)",
+    "clause": "H1.1"
+   },
+   {
+    "code": "H-C",
+    "description": "Hinged, size 1800mm x 2200mm, type LD-2",
+    "unit": "nr",
+    "quantity": 1.0,
+    "bill_quantity": 1,
+    "origins": "COUNTED, READ (VISUAL)",
+    "clause": "H1.1"
+   },
+   {
+    "code": "H-D",
+    "description": "Hinged, size 3500mm x 2750mm, type LD-3, with label",
+    "unit": "nr",
+    "quantity": 1.0,
+    "bill_quantity": 1,
+    "origins": "COUNTED, READ (VISUAL)",
+    "clause": "H1.1"
+   },
+   {
+    "code": "H-E",
+    "description": "Hinged, size 1500mm x 2200mm, type SD-1",
+    "unit": "nr",
+    "quantity": 1.0,
+    "bill_quantity": 1,
+    "origins": "COUNTED, READ (VISUAL)",
+    "clause": "H1.1"
+   },
+   {
+    "code": "H-F",
+    "description": "Hinged, size 1015mm x 2200mm, type SD-2",
+    "unit": "nr",
+    "quantity": 3.0,
+    "bill_quantity": 3,
+    "origins": "COUNTED, READ (VISUAL)",
+    "clause": "H1.1"
+   },
+   {
+    "code": "H-G",
+    "description": "Hinged, size 1800mm x 2200mm, type SD-3",
+    "unit": "nr",
+    "quantity": 1.0,
+    "bill_quantity": 1,
+    "origins": "COUNTED, READ (VISUAL)",
+    "clause": "H1.1"
+   },
+   {
+    "code": "H-H",
+    "description": "Hinged door, size 1200mm x 2200mm, type D-1, with push plates on egress side and door knob on the other side, with self door closer",
+    "unit": "nr",
+    "quantity": 20.0,
+    "bill_quantity": 20,
+    "origins": "COUNTED, READ (VISUAL)",
+    "clause": "H1.1"
+   },
+   {
+    "code": "H-J",
+    "description": "Hinged door, size 1100mm x 2200mm, type D-2, with weather strips",
+    "unit": "nr",
+    "quantity": 185.0,
+    "bill_quantity": 185,
+    "origins": "COUNTED, READ (VISUAL)",
+    "clause": "H1.1"
+   },
+   {
+    "code": "H-K",
+    "description": "Hinged door, size 1015mm x 2200mm, type D-5",
+    "unit": "nr",
+    "quantity": 28.0,
+    "bill_quantity": 28,
+    "origins": "COUNTED, READ (VISUAL)",
+    "clause": "H1.1"
+   },
+   {
+    "code": "H-L",
+    "description": "Hinged door, size 1015mm x 2200mm, type D-3",
+    "unit": "nr",
+    "quantity": 28.0,
+    "bill_quantity": 28,
+    "origins": "COUNTED, READ (VISUAL)",
+    "clause": "H1.1"
+   },
+   {
+    "code": "H-M",
+    "description": "Hinged door, size 915mm x 2200mm, type D-4",
+    "unit": "nr",
+    "quantity": 206.0,
+    "bill_quantity": 206,
+    "origins": "COUNTED, READ (VISUAL)",
+    "clause": "H1.1"
+   },
+   {
+    "code": "H-N",
+    "description": "Partly fixed partly sliding door, size 15600mm x 8350mm, type DW 01, with weather strips",
+    "unit": "nr",
+    "quantity": 1.0,
+    "bill_quantity": 1,
+    "origins": "COUNTED, READ (VISUAL)",
+    "clause": "H1.1"
+   },
+   {
+    "code": "H-P",
+    "description": "Partly fixed partly sliding door, size 3700mm x 2700mm, type DW 02, with weather strips",
+    "unit": "nr",
+    "quantity": 1.0,
+    "bill_quantity": 1,
+    "origins": "COUNTED, READ (VISUAL)",
+    "clause": "H1.1"
+   },
+   {
+    "code": "H-Q",
+    "description": "Partly fixed partly sliding door, size 3750mm x 3200mm, type DW 03, with weather strips",
+    "unit": "nr",
+    "quantity": 152.0,
+    "bill_quantity": 152,
+    "origins": "COUNTED, READ (VISUAL)",
+    "clause": "H1.1"
+   },
+   {
+    "code": "H-R",
+    "description": "Partly fixed partly sliding door, size 7300mm + 2950mm x 3200mm, L-shaped, type DW 04, with weather strips",
+    "unit": "nr",
+    "quantity": 10.0,
+    "bill_quantity": 10,
+    "origins": "COUNTED, READ (VISUAL)",
+    "clause": "H1.1"
+   },
+   {
+    "code": "H-S",
+    "description": "Partly fixed partly sliding door, size 3300mm x 3200mm, type DW 05, with weather strips",
+    "unit": "nr",
+    "quantity": 5.0,
+    "bill_quantity": 5,
+    "origins": "COUNTED, READ (VISUAL)",
+    "clause": "H1.1"
+   },
+   {
+    "code": "H-T",
+    "description": "Partly fixed partly sliding door, size 7300mm + 4000mm x 3200mm, L-shaped, type DW 06, with weather strips",
+    "unit": "nr",
+    "quantity": 4.0,
+    "bill_quantity": 4,
+    "origins": "COUNTED, READ (VISUAL)",
+    "clause": "H1.1"
+   },
+   {
+    "code": "H-U",
+    "description": "Partly fixed partly sliding door, size 4000mm + 7300mm x 3200mm, L-shaped, type DW 07, with weather strips",
+    "unit": "nr",
+    "quantity": 1.0,
+    "bill_quantity": 1,
+    "origins": "COUNTED, READ (VISUAL)",
+    "clause": "H1.1"
+   },
+   {
+    "code": "H-V",
+    "description": "Partly fixed partly sliding door, size 3650mm x 3200mm, type DW 08, with weather strips",
+    "unit": "nr",
+    "quantity": 8.0,
+    "bill_quantity": 8,
+    "origins": "COUNTED, READ (VISUAL)",
+    "clause": "H1.1"
+   },
+   {
+    "code": "H-W",
+    "description": "Partly fixed partly sliding door, size 4000mm + 7300mm x 3200mm, L-shaped, type DW 09, with weather strips",
+    "unit": "nr",
+    "quantity": 4.0,
+    "bill_quantity": 4,
+    "origins": "COUNTED, READ (VISUAL)",
+    "clause": "H1.1"
+   },
+   {
+    "code": "H-X",
+    "description": "Partly fixed partly sliding door, size 5800mm + 8000mm x 3200mm, L-shaped, type DW 10, with weather strips",
+    "unit": "nr",
+    "quantity": 1.0,
+    "bill_quantity": 1,
+    "origins": "COUNTED, READ (VISUAL)",
+    "clause": "H1.1"
+   },
+   {
+    "code": "H-Y",
+    "description": "Partly fixed partly sliding door, size 28170mm + 6300mm x 3200mm, L-shaped, type DW 11, with weather strips",
+    "unit": "nr",
+    "quantity": 1.0,
+    "bill_quantity": 1,
+    "origins": "COUNTED, READ (VISUAL)",
+    "clause": "H1.1"
+   },
+   {
+    "code": "H-Z",
+    "description": "Partly fixed partly sliding door, size 25400mm x 3200mm, type DW 12, with weather strips",
+    "unit": "nr",
+    "quantity": 1.0,
+    "bill_quantity": 1,
+    "origins": "COUNTED, READ (VISUAL)",
+    "clause": "H1.1"
+   },
+   {
+    "code": "H-AA",
+    "description": "Partly fixed partly hinged door, size 10800mm x 3200mm, type DW 13, with weather strips",
+    "unit": "nr",
+    "quantity": 1.0,
+    "bill_quantity": 1,
+    "origins": "COUNTED, READ (VISUAL)",
+    "clause": "H1.1"
+   },
+   {
+    "code": "H-BB",
+    "description": "Partly fixed partly hinged door, size 11400mm x 3200mm, type DW 14, with weather strips",
+    "unit": "nr",
+    "quantity": 1.0,
+    "bill_quantity": 1,
+    "origins": "COUNTED, READ (VISUAL)",
+    "clause": "H1.1"
+   },
+   {
+    "code": "H-CC",
+    "description": "Partly fixed partly hinged door, size 11350mm x 3200mm, type DW 15, with weather strips",
+    "unit": "nr",
+    "quantity": 1.0,
+    "bill_quantity": 1,
+    "origins": "COUNTED, READ (VISUAL)",
+    "clause": "H1.1"
+   },
+   {
+    "code": "H-DD",
+    "description": "Partly fixed partly hinged door, size 10800mm x 3200mm, type DW 16, with weather strips",
+    "unit": "nr",
+    "quantity": 1.0,
+    "bill_quantity": 1,
+    "origins": "COUNTED, READ (VISUAL)",
+    "clause": "H1.1"
+   },
+   {
+    "code": "H-EE",
+    "description": "Partly fixed partly hinged door, size 7300mm + 4000mm x 3200mm, L-shaped, type DW 17, with weather strips",
+    "unit": "nr",
+    "quantity": 1.0,
+    "bill_quantity": 1,
+    "origins": "COUNTED, READ (VISUAL)",
+    "clause": "H1.1"
+   },
+   {
+    "code": "H-FF",
+    "description": "Hinged window, size 1200mm x 1400mm, type DW 18, with weather strips",
+    "unit": "nr",
+    "quantity": 1.0,
+    "bill_quantity": 1,
+    "origins": "COUNTED, READ (VISUAL)",
+    "clause": "H1.1"
+   },
+   {
+    "code": "H-GG",
+    "description": "Sliding door, size 1200mm x 2400mm, type DW 19, with weather strips",
+    "unit": "nr",
+    "quantity": 1.0,
+    "bill_quantity": 1,
+    "origins": "COUNTED, READ (VISUAL)",
+    "clause": "H1.1"
+   },
+   {
+    "code": "H-HH",
+    "description": "Fixed, size 2900mm x 2000mm, type LW 01",
+    "unit": "nr",
+    "quantity": 1.0,
+    "bill_quantity": 1,
+    "origins": "COUNTED, READ (VISUAL)",
+    "clause": "H2.1"
+   },
+   {
+    "code": "H-JJ",
+    "description": "Fixed, size 2400mm x 2000mm, type LW 02",
+    "unit": "nr",
+    "quantity": 1.0,
+    "bill_quantity": 1,
+    "origins": "COUNTED, READ (VISUAL)",
+    "clause": "H2.1"
+   },
+   {
+    "code": "H-KK",
+    "description": "Fixed, size 2000mm x 2000mm, type LW 03",
+    "unit": "nr",
+    "quantity": 1.0,
+    "bill_quantity": 1,
+    "origins": "COUNTED, READ (VISUAL)",
+    "clause": "H2.1"
+   }
+  ],
+  "J": [
+   {
+    "code": "J-A",
+    "description": "To floors, bathrooms and toilets, ground floor",
+    "unit": "m2",
+    "quantity": 2.22,
+    "bill_quantity": 2,
+    "origins": "MEASURED",
+    "clause": "J3.1.1"
+   },
+   {
+    "code": "J-B",
+    "description": "To floors, service rooms, ground floor",
+    "unit": "m2",
+    "quantity": 92.26,
+    "bill_quantity": 92,
+    "origins": "MEASURED",
+    "clause": "J3.1.1"
+   },
+   {
+    "code": "J-C",
+    "description": "To floors, bathrooms and toilets",
+    "unit": "m2",
+    "quantity": 713.98,
+    "bill_quantity": 714,
+    "origins": "MEASURED",
+    "clause": "J3.1.1"
+   },
+   {
+    "code": "J-D",
+    "description": "To floors, apartments",
+    "unit": "m2",
+    "quantity": 4471.96,
+    "bill_quantity": 4472,
+    "origins": "MEASURED",
+    "clause": "J3.1.1"
+   },
+   {
+    "code": "J-E",
+    "description": "To floors, corridors and lobbies",
+    "unit": "m2",
+    "quantity": 1316.13,
+    "bill_quantity": 1316,
+    "origins": "MEASURED",
+    "clause": "J3.1.1"
+   },
+   {
+    "code": "J-F",
+    "description": "To floors, service rooms",
+    "unit": "m2",
+    "quantity": 116.45,
+    "bill_quantity": 116,
+    "origins": "MEASURED",
+    "clause": "J3.1.1"
+   },
+   {
+    "code": "J-G",
+    "description": "To walls, bathrooms and toilets",
+    "unit": "m",
+    "quantity": 1785.45,
+    "bill_quantity": 1785,
+    "origins": "MEASURED",
+    "clause": "J3.2"
+   },
+   {
+    "code": "J-H",
+    "description": "To walls, apartments",
+    "unit": "m",
+    "quantity": 6074.34,
+    "bill_quantity": 6074,
+    "origins": "MEASURED",
+    "clause": "J3.2"
+   },
+   {
+    "code": "J-J",
+    "description": "To walls, corridors and lobbies",
+    "unit": "m",
+    "quantity": 1534.73,
+    "bill_quantity": 1535,
+    "origins": "MEASURED",
+    "clause": "J3.2"
+   },
+   {
+    "code": "J-K",
+    "description": "To walls, service rooms",
+    "unit": "m",
+    "quantity": 267.75,
+    "bill_quantity": 268,
+    "origins": "MEASURED",
+    "clause": "J3.2"
+   },
+   {
+    "code": "J-L",
+    "description": "To walls, bathrooms and toilets",
+    "unit": "m2",
+    "quantity": 6655.6,
+    "bill_quantity": 6656,
+    "origins": "DERIVED, MEASURED",
+    "clause": "J3.1.2"
+   },
+   {
+    "code": "J-M",
+    "description": "To walls, apartments",
+    "unit": "m2",
+    "quantity": 22112.28,
+    "bill_quantity": 22112,
+    "origins": "DERIVED, MEASURED",
+    "clause": "J3.1.2"
+   },
+   {
+    "code": "J-N",
+    "description": "To walls, corridors and lobbies",
+    "unit": "m2",
+    "quantity": 5505.37,
+    "bill_quantity": 5505,
+    "origins": "DERIVED, MEASURED",
+    "clause": "J3.1.2"
+   },
+   {
+    "code": "J-P",
+    "description": "To walls, service rooms",
+    "unit": "m2",
+    "quantity": 1095.29,
+    "bill_quantity": 1095,
+    "origins": "DERIVED, MEASURED",
+    "clause": "J3.1.2"
+   },
+   {
+    "code": "J-Q",
+    "description": "To ceilings, bathrooms and toilets",
+    "unit": "m2",
+    "quantity": 716.2,
+    "bill_quantity": 716,
+    "origins": "MEASURED",
+    "clause": "J3.1.3"
+   },
+   {
+    "code": "J-R",
+    "description": "To ceilings, apartments",
+    "unit": "m2",
+    "quantity": 4471.96,
+    "bill_quantity": 4472,
+    "origins": "MEASURED",
+    "clause": "J3.1.3"
+   },
+   {
+    "code": "J-S",
+    "description": "To ceilings, corridors and lobbies",
+    "unit": "m2",
+    "quantity": 1316.13,
+    "bill_quantity": 1316,
+    "origins": "MEASURED",
+    "clause": "J3.1.3"
+   },
+   {
+    "code": "J-T",
+    "description": "To ceilings, service rooms",
+    "unit": "m2",
+    "quantity": 208.71,
+    "bill_quantity": 209,
+    "origins": "MEASURED",
+    "clause": "J3.1.3"
+   }
+  ]
+ },
+ "storeys": {
+  "B1": {
+   "level": -3.5,
+   "height": 3.8,
+   "basis": "GF +0.30 less B1 -3.50 (A-09-003)"
+  },
+  "GF": {
+   "level": 0.3,
+   "height": 5.15,
+   "basis": "1F +5.45 less GF +0.30 (A-09-003); agrees with the 5150 mm dimension"
+  },
+  "1F": {
+   "level": 5.45,
+   "height": 3.7,
+   "basis": "2F +9.15 less 1F +5.45 (A-09-003); agrees with the 3700 mm dimension"
+  },
+  "2F": {
+   "level": 9.15,
+   "height": 3.7,
+   "basis": "3F +12.85 less 2F +9.15 (A-09-003); agrees with the 3700 mm dimension"
+  },
+  "3F": {
+   "level": 12.85,
+   "height": 3.7,
+   "basis": "4F +16.55 less 3F +12.85 (A-09-003); agrees with the 3700 mm dimension"
+  },
+  "4F": {
+   "level": 16.55,
+   "height": 3.7,
+   "basis": "5F +20.25 less 4F +16.55 (A-09-003); agrees with the 3700 mm dimension"
+  },
+  "5F": {
+   "level": 20.25,
+   "height": 3.7,
+   "basis": "LOWER ROOF +23.95 less 5F +20.25 (A-09-003); agrees with the 3700 mm dimension"
+  },
+  "LOWER ROOF": {
+   "level": 23.95,
+   "height": 3.5,
+   "basis": "UPPER ROOF +27.45 less LOWER ROOF +23.95 (A-09-003); agrees with the 3500 mm dimension"
+  },
+  "UPPER ROOF": {
+   "level": 27.45,
+   "height": null,
+   "basis": "top level read"
+  }
+ },
+ "gaps": 71,
+ "gaps_by_section": {
+  "(all)": 25,
+  "D": 20,
+  "E": 1,
+  "H": 16,
+  "J": 9
+ },
+ "drawings": {
+  "A-01-001": "LIST OF DRAWINGS",
+  "G-102": "PERSPECTIVES",
+  "A-03-002": "AREA CALCULATION-2",
+  "A-03-003": "AREA CALCULATION-3",
+  "A-07-001": "UNDER GROUND WATER TANK & PUMP ROOM",
+  "A-07-003": "GROUND FLOOR PLAN",
+  "A-07-004": "FIRST FLOOR PLAN",
+  "A-07-005": "2ND FLOOR PLAN",
+  "A-07-006": "3RD FLOOR PLAN",
+  "A-07-007": "TYP ( 4 - 5 ) FLOOR PLAN",
+  "A-07-008": "LOWER ROOF PLAN",
+  "A-07-009": "UPPER ROOF PLAN",
+  "A-07-010": "TOP ROOF PLAN",
+  "A-08-001": "ELEVATION",
+  "A-08-002": "ELEVATION",
+  "A-08-003": "ELEVATION",
+  "A-08-004": "ELEVATION",
+  "A-09-001": "SECTION -AA",
+  "A-09-002": "SECTION -BB",
+  "A-09-003": "WALL SECTION - W1 TO W3",
+  "A-09-004": "WALL SECTION - W4 TO W5",
+  "A-12-001": "STAIRCASE DETAIL-1",
+  "A-12-002": "STAIRCASE DETAIL-2",
+  "A-12-003": "LIFT DETAILS",
+  "A-12-004": "SUBSTATION & LV ROOM DETAILS",
+  "A-12-005": "GARBAGE ROOM DETAILS",
+  "A-12-006": "TANK&PUMP ROOM DETAILS",
+  "A-12-007": "SWIMMING POOL DETAILS",
+  "A-12-008": "RAMP DETAILS",
+  "A-12-012": "WATERPROOFING DETAILS",
+  "A-12-013": "TYPICAL DETAILS",
+  "A-12-014": "SIGNAGE SIGNAGE DETAILS DETAILS DETAILS DETAILS",
+  "A-13-001": "SCHEDULE OF DOORS",
+  "A-13-002": "SCHEDULE OF WINDOWS-01",
+  "A-13-003": "SCHEDULE OF WINDOWS-02"
+ },
+ "section_titles": {
+  "D": "MASONRY WORK",
+  "G": "THERMAL & MOISTURE PROTECTION",
+  "H": "DOORS AND WINDOWS",
+  "J": "FINISHES"
+ },
+ "pending_readings": [
+  "A-09-004.notes.request"
+ ],
+ "readings_used": {
+  "A-09-003.levels": "saved reading (Claude Code (visual reading, this session))",
+  "A-09-003.notes": "saved reading (Claude Code (visual reading, this session))",
+  "A-09-004.notes": "no provider configured",
+  "A-12-012.notes": "saved reading (Claude Code (visual reading, this session))",
+  "A-12-013.notes": "saved reading (Claude Code (visual reading, this session))",
+  "A-13-001.schedule": "saved reading (Claude Code (visual reading, this session))",
+  "A-13-002.schedule": "saved reading (Claude Code (visual reading, this session))",
+  "A-13-003.schedule": "saved reading (Claude Code (visual reading, this session))"
+ },
+ "files": [
+  "D:\\Girish\\AETRAA\\Girish\\boq_arch\\jobs\\20260924-164318-40b7\\output\\5310319 PROPOSED RESIDENTIAL BUILDING (B+G+5+ROOF) - Take-off - Rev 00.xlsx",
+  "D:\\Girish\\AETRAA\\Girish\\boq_arch\\jobs\\20260924-164318-40b7\\output\\5310319 PROPOSED RESIDENTIAL BUILDING (B+G+5+ROOF) - BOQ Unpriced - Bill No.1 - Rev 00.xlsx",
+  "D:\\Girish\\AETRAA\\Girish\\boq_arch\\jobs\\20260924-164318-40b7\\output\\5310319 PROPOSED RESIDENTIAL BUILDING (B+G+5+ROOF) - GAPS - Rev 00.xlsx",
+  "D:\\Girish\\AETRAA\\Girish\\boq_arch\\jobs\\20260924-164318-40b7\\output\\overlays\\A-07-003 measured.pdf",
+  "D:\\Girish\\AETRAA\\Girish\\boq_arch\\jobs\\20260924-164318-40b7\\output\\overlays\\A-07-004 measured.pdf",
+  "D:\\Girish\\AETRAA\\Girish\\boq_arch\\jobs\\20260924-164318-40b7\\output\\overlays\\A-07-005 measured.pdf",
+  "D:\\Girish\\AETRAA\\Girish\\boq_arch\\jobs\\20260924-164318-40b7\\output\\overlays\\A-07-006 measured.pdf",
+  "D:\\Girish\\AETRAA\\Girish\\boq_arch\\jobs\\20260924-164318-40b7\\output\\overlays\\A-07-007 measured.pdf",
+  "D:\\Girish\\AETRAA\\Girish\\boq_arch\\jobs\\20260924-164318-40b7\\output\\overlays\\A-07-008 measured.pdf"
+ ]
+}

@@ -1,0 +1,120 @@
+{
+ "_stamp": {
+  "sheet_sha1": "2d7e2782ad62241a8535cf9246497b3534421241",
+  "task": "levels",
+  "version": "1"
+ },
+ "_by": "Claude Code (visual reading, this session)",
+ "reading": {
+  "levels": [
+   {
+    "name": "BASEMENT LVL",
+    "value": "-3.50",
+    "datum": "FFL"
+   },
+   {
+    "name": "GROUND FLOOR LVL",
+    "value": "±0.00",
+    "datum": "LVL"
+   },
+   {
+    "name": "GROUND FLOOR LVL",
+    "value": "+0.30",
+    "datum": "FFL"
+   },
+   {
+    "name": "1ST FLOOR LVL",
+    "value": "+5.45",
+    "datum": "FFL"
+   },
+   {
+    "name": "2ND FLOOR LVL",
+    "value": "+9.15",
+    "datum": "FFL"
+   },
+   {
+    "name": "3RD FLOOR LVL",
+    "value": "+12.85",
+    "datum": "FFL"
+   },
+   {
+    "name": "4TH FLOOR LVL",
+    "value": "+16.55",
+    "datum": "FFL"
+   },
+   {
+    "name": "5TH FLOOR LVL",
+    "value": "+20.25",
+    "datum": "FFL"
+   },
+   {
+    "name": "LOWER ROOF LVL",
+    "value": "+23.95",
+    "datum": "FFL"
+   },
+   {
+    "name": "LOWER ROOF LVL",
+    "value": "+25.15",
+    "datum": "PARAPET"
+   },
+   {
+    "name": "UPPER RF LVL",
+    "value": "+27.45",
+    "datum": "SSL"
+   },
+   {
+    "name": "UPPER RF LVL",
+    "value": "+28.85",
+    "datum": "PARAPET"
+   }
+  ],
+  "chain": [
+   {
+    "from": "BASEMENT LVL",
+    "to": "±0.00 LVL",
+    "mm": 3500
+   },
+   {
+    "from": "±0.00 LVL",
+    "to": "GROUND FLOOR LVL",
+    "mm": 300
+   },
+   {
+    "from": "GROUND FLOOR LVL",
+    "to": "1ST FLOOR LVL",
+    "mm": 5150
+   },
+   {
+    "from": "1ST FLOOR LVL",
+    "to": "2ND FLOOR LVL",
+    "mm": 3700
+   },
+   {
+    "from": "2ND FLOOR LVL",
+    "to": "3RD FLOOR LVL",
+    "mm": 3700
+   },
+   {
+    "from": "3RD FLOOR LVL",
+    "to": "4TH FLOOR LVL",
+    "mm": 3700
+   },
+   {
+    "from": "4TH FLOOR LVL",
+    "to": "5TH FLOOR LVL",
+    "mm": 3700
+   },
+   {
+    "from": "5TH FLOOR LVL",
+    "to": "LOWER ROOF LVL",
+    "mm": 3700
+   },
+   {
+    "from": "LOWER ROOF LVL",
+    "to": "UPPER RF LVL",
+    "mm": 3500
+   }
+  ],
+  "illegible": []
+ }
+}

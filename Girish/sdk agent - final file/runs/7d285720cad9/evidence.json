@@ -1,0 +1,1277 @@
+{
+ "records": [
+  {
+   "doc_id": "Architecture/A2/A-13-001 SCHEDULE OF DOORS.pdf",
+   "id": "door:D-1:STAIRCASE:count",
+   "origin": "transcribed",
+   "region": null,
+   "unit": "nr",
+   "value": "20"
+  },
+  {
+   "doc_id": "Architecture/A2/A-13-001 SCHEDULE OF DOORS.pdf",
+   "id": "door:D-1:STAIRCASE:height",
+   "origin": "transcribed",
+   "region": null,
+   "unit": "m",
+   "value": "2.20"
+  },
+  {
+   "doc_id": "Architecture/A2/A-13-001 SCHEDULE OF DOORS.pdf",
+   "id": "door:D-1:STAIRCASE:width",
+   "origin": "transcribed",
+   "region": null,
+   "unit": "m",
+   "value": "1.20"
+  },
+  {
+   "doc_id": "Architecture/A2/A-13-001 SCHEDULE OF DOORS.pdf",
+   "id": "door:D-2:APARTMENT ENTRANCE (1ST TO 5TH FLOOR):count",
+   "origin": "transcribed",
+   "region": null,
+   "unit": "nr",
+   "value": "185"
+  },
+  {
+   "doc_id": "Architecture/A2/A-13-001 SCHEDULE OF DOORS.pdf",
+   "id": "door:D-2:APARTMENT ENTRANCE (1ST TO 5TH FLOOR):height",
+   "origin": "transcribed",
+   "region": null,
+   "unit": "m",
+   "value": "2.20"
+  },
+  {
+   "doc_id": "Architecture/A2/A-13-001 SCHEDULE OF DOORS.pdf",
+   "id": "door:D-2:APARTMENT ENTRANCE (1ST TO 5TH FLOOR):width",
+   "origin": "transcribed",
+   "region": null,
+   "unit": "m",
+   "value": "1.10"
+  },
+  {
+   "doc_id": "Architecture/A2/A-13-001 SCHEDULE OF DOORS.pdf",
+   "id": "door:D-3:UTILITY ENTRANCE (1ST FLR ,LOWER FLOOR) BEDROOM,WATCHMAN RM (GF,1ST TO 5TH):count",
+   "origin": "transcribed",
+   "region": null,
+   "unit": "nr",
+   "value": "28"
+  },
+  {
+   "doc_id": "Architecture/A2/A-13-001 SCHEDULE OF DOORS.pdf",
+   "id": "door:D-3:UTILITY ENTRANCE (1ST FLR ,LOWER FLOOR) BEDROOM,WATCHMAN RM (GF,1ST TO 5TH):height",
+   "origin": "transcribed",
+   "region": null,
+   "unit": "m",
+   "value": "2.20"
+  },
+  {
+   "doc_id": "Architecture/A2/A-13-001 SCHEDULE OF DOORS.pdf",
+   "id": "door:D-3:UTILITY ENTRANCE (1ST FLR ,LOWER FLOOR) BEDROOM,WATCHMAN RM (GF,1ST TO 5TH):width",
+   "origin": "transcribed",
+   "region": null,
+   "unit": "m",
+   "value": "1.02"
+  },
+  {
+   "doc_id": "Architecture/A2/A-13-001 SCHEDULE OF DOORS.pdf",
+   "id": "door:D-4:TOILET, BATH ROOM (GF,1ST TO 5TH FLOOR):count",
+   "origin": "transcribed",
+   "region": null,
+   "unit": "nr",
+   "value": "206"
+  },
+  {
+   "doc_id": "Architecture/A2/A-13-001 SCHEDULE OF DOORS.pdf",
+   "id": "door:D-4:TOILET, BATH ROOM (GF,1ST TO 5TH FLOOR):height",
+   "origin": "transcribed",
+   "region": null,
+   "unit": "m",
+   "value": "2.20"
+  },
+  {
+   "doc_id": "Architecture/A2/A-13-001 SCHEDULE OF DOORS.pdf",
+   "id": "door:D-4:TOILET, BATH ROOM (GF,1ST TO 5TH FLOOR):width",
+   "origin": "transcribed",
+   "region": null,
+   "unit": "m",
+   "value": "0.92"
+  },
+  {
+   "doc_id": "Architecture/A2/A-13-001 SCHEDULE OF DOORS.pdf",
+   "id": "door:D-5:WATER METER RM.,TELE.RM., GARBAGE RM.,ELECT. RM. (1ST TO 5TH FLOOR,LOWER RF):count",
+   "origin": "transcribed",
+   "region": null,
+   "unit": "nr",
+   "value": "28"
+  },
+  {
+   "doc_id": "Architecture/A2/A-13-001 SCHEDULE OF DOORS.pdf",
+   "id": "door:D-5:WATER METER RM.,TELE.RM., GARBAGE RM.,ELECT. RM. (1ST TO 5TH FLOOR,LOWER RF):height",
+   "origin": "transcribed",
+   "region": null,
+   "unit": "m",
+   "value": "2.20"
+  },
+  {
+   "doc_id": "Architecture/A2/A-13-001 SCHEDULE OF DOORS.pdf",
+   "id": "door:D-5:WATER METER RM.,TELE.RM., GARBAGE RM.,ELECT. RM. (1ST TO 5TH FLOOR,LOWER RF):width",
+   "origin": "transcribed",
+   "region": null,
+   "unit": "m",
+   "value": "1.02"
+  },
+  {
+   "doc_id": "Architecture/A2/A-13-001 SCHEDULE OF DOORS.pdf",
+   "id": "door:D-6:GYM,OUTDOOR DECK,SER.RF (1ST FLR,LOWER FLOOR):count",
+   "origin": "transcribed",
+   "region": null,
+   "unit": "nr",
+   "value": "5"
+  },
+  {
+   "doc_id": "Architecture/A2/A-13-001 SCHEDULE OF DOORS.pdf",
+   "id": "door:D-6:GYM,OUTDOOR DECK,SER.RF (1ST FLR,LOWER FLOOR):height",
+   "origin": "transcribed",
+   "region": null,
+   "unit": "m",
+   "value": "2.20"
+  },
+  {
+   "doc_id": "Architecture/A2/A-13-001 SCHEDULE OF DOORS.pdf",
+   "id": "door:D-6:GYM,OUTDOOR DECK,SER.RF (1ST FLR,LOWER FLOOR):width",
+   "origin": "transcribed",
+   "region": null,
+   "unit": "m",
+   "value": "1.20"
+  },
+  {
+   "doc_id": "Architecture/A2/A-13-001 SCHEDULE OF DOORS.pdf",
+   "id": "door:LD-1:SUBSTATION:count",
+   "origin": "transcribed",
+   "region": null,
+   "unit": "nr",
+   "value": "1"
+  },
+  {
+   "doc_id": "Architecture/A2/A-13-001 SCHEDULE OF DOORS.pdf",
+   "id": "door:LD-1:SUBSTATION:height",
+   "origin": "transcribed",
+   "region": null,
+   "unit": "m",
+   "value": "2.75"
+  },
+  {
+   "doc_id": "Architecture/A2/A-13-001 SCHEDULE OF DOORS.pdf",
+   "id": "door:LD-1:SUBSTATION:width",
+   "origin": "transcribed",
+   "region": null,
+   "unit": "m",
+   "value": "3.05"
+  },
+  {
+   "doc_id": "Architecture/A2/A-13-001 SCHEDULE OF DOORS.pdf",
+   "id": "door:LD-2:GENERATOR ROOM (BASEMENT):count",
+   "origin": "transcribed",
+   "region": null,
+   "unit": "nr",
+   "value": "1"
+  },
+  {
+   "doc_id": "Architecture/A2/A-13-001 SCHEDULE OF DOORS.pdf",
+   "id": "door:LD-2:GENERATOR ROOM (BASEMENT):height",
+   "origin": "transcribed",
+   "region": null,
+   "unit": "m",
+   "value": "2.20"
+  },
+  {
+   "doc_id": "Architecture/A2/A-13-001 SCHEDULE OF DOORS.pdf",
+   "id": "door:LD-2:GENERATOR ROOM (BASEMENT):width",
+   "origin": "transcribed",
+   "region": null,
+   "unit": "m",
+   "value": "1.80"
+  },
+  {
+   "doc_id": "Architecture/A2/A-13-001 SCHEDULE OF DOORS.pdf",
+   "id": "door:LD-3:ELEC. ELEC. CABIN (BASEMENT):count",
+   "origin": "transcribed",
+   "region": null,
+   "unit": "nr",
+   "value": "1"
+  },
+  {
+   "doc_id": "Architecture/A2/A-13-001 SCHEDULE OF DOORS.pdf",
+   "id": "door:LD-3:ELEC. ELEC. CABIN (BASEMENT):height",
+   "origin": "transcribed",
+   "region": null,
+   "unit": "m",
+   "value": "2.75"
+  },
+  {
+   "doc_id": "Architecture/A2/A-13-001 SCHEDULE OF DOORS.pdf",
+   "id": "door:LD-3:ELEC. ELEC. CABIN (BASEMENT):width",
+   "origin": "transcribed",
+   "region": null,
+   "unit": "m",
+   "value": "3.50"
+  },
+  {
+   "doc_id": "Architecture/A2/A-13-001 SCHEDULE OF DOORS.pdf",
+   "id": "door:SD-1:LV ROOM,:count",
+   "origin": "transcribed",
+   "region": null,
+   "unit": "nr",
+   "value": "1"
+  },
+  {
+   "doc_id": "Architecture/A2/A-13-001 SCHEDULE OF DOORS.pdf",
+   "id": "door:SD-1:LV ROOM,:height",
+   "origin": "transcribed",
+   "region": null,
+   "unit": "m",
+   "value": "2.20"
+  },
+  {
+   "doc_id": "Architecture/A2/A-13-001 SCHEDULE OF DOORS.pdf",
+   "id": "door:SD-1:LV ROOM,:width",
+   "origin": "transcribed",
+   "region": null,
+   "unit": "m",
+   "value": "1.50"
+  },
+  {
+   "doc_id": "Architecture/A2/A-13-001 SCHEDULE OF DOORS.pdf",
+   "id": "door:SD-2:TELE.ROOM,GSM RM,POOL PUMP (GF,LOWER ROOF):count",
+   "origin": "transcribed",
+   "region": null,
+   "unit": "nr",
+   "value": "3"
+  },
+  {
+   "doc_id": "Architecture/A2/A-13-001 SCHEDULE OF DOORS.pdf",
+   "id": "door:SD-2:TELE.ROOM,GSM RM,POOL PUMP (GF,LOWER ROOF):height",
+   "origin": "transcribed",
+   "region": null,
+   "unit": "m",
+   "value": "2.20"
+  },
+  {
+   "doc_id": "Architecture/A2/A-13-001 SCHEDULE OF DOORS.pdf",
+   "id": "door:SD-2:TELE.ROOM,GSM RM,POOL PUMP (GF,LOWER ROOF):width",
+   "origin": "transcribed",
+   "region": null,
+   "unit": "m",
+   "value": "1.02"
+  },
+  {
+   "doc_id": "Architecture/A2/A-13-001 SCHEDULE OF DOORS.pdf",
+   "id": "door:SD-3:GARBAGE ROOM (GROUND FLOOR):count",
+   "origin": "transcribed",
+   "region": null,
+   "unit": "nr",
+   "value": "1"
+  },
+  {
+   "doc_id": "Architecture/A2/A-13-001 SCHEDULE OF DOORS.pdf",
+   "id": "door:SD-3:GARBAGE ROOM (GROUND FLOOR):height",
+   "origin": "transcribed",
+   "region": null,
+   "unit": "m",
+   "value": "2.20"
+  },
+  {
+   "doc_id": "Architecture/A2/A-13-001 SCHEDULE OF DOORS.pdf",
+   "id": "door:SD-3:GARBAGE ROOM (GROUND FLOOR):width",
+   "origin": "transcribed",
+   "region": null,
+   "unit": "m",
+   "value": "1.80"
+  },
+  {
+   "doc_id": "Architecture/A1/A-07-003 GROUND FLOOR PLAN.pdf",
+   "id": "m00001:A-07-003:GF:H",
+   "origin": "derived",
+   "region": null,
+   "unit": "m",
+   "value": "5.00"
+  },
+  {
+   "doc_id": "Architecture/A1/A-07-003 GROUND FLOOR PLAN.pdf",
+   "id": "m00002:D:100:t",
+   "origin": "measured",
+   "region": null,
+   "unit": "m",
+   "value": "0.10"
+  },
+  {
+   "doc_id": "Architecture/A1/A-07-003 GROUND FLOOR PLAN.pdf",
+   "id": "m00003:A-07-003:GF:D100:L",
+   "origin": "measured",
+   "region": null,
+   "unit": "m",
+   "value": "19.48"
+  },
+  {
+   "doc_id": "Architecture/A1/A-07-003 GROUND FLOOR PLAN.pdf",
+   "id": "m00004:D:150:t",
+   "origin": "measured",
+   "region": null,
+   "unit": "m",
+   "value": "0.15"
+  },
+  {
+   "doc_id": "Architecture/A1/A-07-003 GROUND FLOOR PLAN.pdf",
+   "id": "m00005:A-07-003:GF:D150:L",
+   "origin": "measured",
+   "region": null,
+   "unit": "m",
+   "value": "1.73"
+  },
+  {
+   "doc_id": "Architecture/A1/A-07-003 GROUND FLOOR PLAN.pdf",
+   "id": "m00006:D:200:t",
+   "origin": "measured",
+   "region": null,
+   "unit": "m",
+   "value": "0.20"
+  },
+  {
+   "doc_id": "Architecture/A1/A-07-003 GROUND FLOOR PLAN.pdf",
+   "id": "m00007:A-07-003:GF:D200:L",
+   "origin": "measured",
+   "region": null,
+   "unit": "m",
+   "value": "199.18"
+  },
+  {
+   "doc_id": "Architecture/A1/A-07-003 GROUND FLOOR PLAN.pdf",
+   "id": "m00008:A-07-003:GF:dry:A",
+   "origin": "measured",
+   "region": null,
+   "unit": "m2",
+   "value": "94.60"
+  },
+  {
+   "doc_id": "Architecture/A1/A-07-003 GROUND FLOOR PLAN.pdf",
+   "id": "m00009:A-07-003:GF:dry:P",
+   "origin": "measured",
+   "region": null,
+   "unit": "m",
+   "value": "69.80"
+  },
+  {
+   "doc_id": "Architecture/A1/A-07-003 GROUND FLOOR PLAN.pdf",
+   "id": "m00010:A-07-003:GF:wet:A",
+   "origin": "measured",
+   "region": null,
+   "unit": "m2",
+   "value": "2.68"
+  },
+  {
+   "doc_id": "Architecture/A1/A-07-003 GROUND FLOOR PLAN.pdf",
+   "id": "m00011:A-07-003:GF:wet:P",
+   "origin": "measured",
+   "region": null,
+   "unit": "m",
+   "value": "6.51"
+  },
+  {
+   "doc_id": "Architecture/A1/A-07-004 FIRST FLOOR PLAN.pdf",
+   "id": "m00012:A-07-004:1F:H",
+   "origin": "derived",
+   "region": null,
+   "unit": "m",
+   "value": "3.55"
+  },
+  {
+   "doc_id": "Architecture/A1/A-07-004 FIRST FLOOR PLAN.pdf",
+   "id": "m00013:A-07-004:1F:D100:L",
+   "origin": "measured",
+   "region": null,
+   "unit": "m",
+   "value": "313.60"
+  },
+  {
+   "doc_id": "Architecture/A1/A-07-004 FIRST FLOOR PLAN.pdf",
+   "id": "m00014:A-07-004:1F:D150:L",
+   "origin": "measured",
+   "region": null,
+   "unit": "m",
+   "value": "48.68"
+  },
+  {
+   "doc_id": "Architecture/A1/A-07-004 FIRST FLOOR PLAN.pdf",
+   "id": "m00015:A-07-004:1F:D200:L",
+   "origin": "measured",
+   "region": null,
+   "unit": "m",
+   "value": "616.98"
+  },
+  {
+   "doc_id": "Architecture/A1/A-07-004 FIRST FLOOR PLAN.pdf",
+   "id": "m00016:A-07-004:1F:dry:A",
+   "origin": "measured",
+   "region": null,
+   "unit": "m2",
+   "value": "1077.31"
+  },
+  {
+   "doc_id": "Architecture/A1/A-07-004 FIRST FLOOR PLAN.pdf",
+   "id": "m00017:A-07-004:1F:dry:P",
+   "origin": "measured",
+   "region": null,
+   "unit": "m",
+   "value": "1076.64"
+  },
+  {
+   "doc_id": "Architecture/A1/A-07-004 FIRST FLOOR PLAN.pdf",
+   "id": "m00018:A-07-004:1F:ext:A",
+   "origin": "measured",
+   "region": null,
+   "unit": "m2",
+   "value": "1302.95"
+  },
+  {
+   "doc_id": "Architecture/A1/A-07-004 FIRST FLOOR PLAN.pdf",
+   "id": "m00019:A-07-004:1F:wet:A",
+   "origin": "measured",
+   "region": null,
+   "unit": "m2",
+   "value": "150.47"
+  },
+  {
+   "doc_id": "Architecture/A1/A-07-004 FIRST FLOOR PLAN.pdf",
+   "id": "m00020:A-07-004:1F:wet:P",
+   "origin": "measured",
+   "region": null,
+   "unit": "m",
+   "value": "322.00"
+  },
+  {
+   "doc_id": "Architecture/A1/A-07-005 2ND FLOOR PLAN.pdf",
+   "id": "m00021:A-07-005:2F:H",
+   "origin": "derived",
+   "region": null,
+   "unit": "m",
+   "value": "3.55"
+  },
+  {
+   "doc_id": "Architecture/A1/A-07-005 2ND FLOOR PLAN.pdf",
+   "id": "m00022:A-07-005:2F:D100:L",
+   "origin": "measured",
+   "region": null,
+   "unit": "m",
+   "value": "275.39"
+  },
+  {
+   "doc_id": "Architecture/A1/A-07-005 2ND FLOOR PLAN.pdf",
+   "id": "m00023:A-07-005:2F:D150:L",
+   "origin": "measured",
+   "region": null,
+   "unit": "m",
+   "value": "7.19"
+  },
+  {
+   "doc_id": "Architecture/A1/A-07-005 2ND FLOOR PLAN.pdf",
+   "id": "m00024:A-07-005:2F:D200:L",
+   "origin": "measured",
+   "region": null,
+   "unit": "m",
+   "value": "457.42"
+  },
+  {
+   "doc_id": "Architecture/A1/A-07-005 2ND FLOOR PLAN.pdf",
+   "id": "m00025:A-07-005:2F:dry:A",
+   "origin": "measured",
+   "region": null,
+   "unit": "m2",
+   "value": "1183.59"
+  },
+  {
+   "doc_id": "Architecture/A1/A-07-005 2ND FLOOR PLAN.pdf",
+   "id": "m00026:A-07-005:2F:dry:P",
+   "origin": "measured",
+   "region": null,
+   "unit": "m",
+   "value": "1171.40"
+  },
+  {
+   "doc_id": "Architecture/A1/A-07-005 2ND FLOOR PLAN.pdf",
+   "id": "m00027:A-07-005:2F:ext:A",
+   "origin": "measured",
+   "region": null,
+   "unit": "m2",
+   "value": "123.48"
+  },
+  {
+   "doc_id": "Architecture/A1/A-07-005 2ND FLOOR PLAN.pdf",
+   "id": "m00028:A-07-005:2F:wet:A",
+   "origin": "measured",
+   "region": null,
+   "unit": "m2",
+   "value": "166.13"
+  },
+  {
+   "doc_id": "Architecture/A1/A-07-005 2ND FLOOR PLAN.pdf",
+   "id": "m00029:A-07-005:2F:wet:P",
+   "origin": "measured",
+   "region": null,
+   "unit": "m",
+   "value": "344.28"
+  },
+  {
+   "doc_id": "Architecture/A1/A-07-006 3RD FLOOR PLAN.pdf",
+   "id": "m00030:A-07-006:3F:H",
+   "origin": "derived",
+   "region": null,
+   "unit": "m",
+   "value": "3.55"
+  },
+  {
+   "doc_id": "Architecture/A1/A-07-006 3RD FLOOR PLAN.pdf",
+   "id": "m00031:A-07-006:3F:D100:L",
+   "origin": "measured",
+   "region": null,
+   "unit": "m",
+   "value": "273.80"
+  },
+  {
+   "doc_id": "Architecture/A1/A-07-006 3RD FLOOR PLAN.pdf",
+   "id": "m00032:A-07-006:3F:D150:L",
+   "origin": "measured",
+   "region": null,
+   "unit": "m",
+   "value": "7.19"
+  },
+  {
+   "doc_id": "Architecture/A1/A-07-006 3RD FLOOR PLAN.pdf",
+   "id": "m00033:A-07-006:3F:D200:L",
+   "origin": "measured",
+   "region": null,
+   "unit": "m",
+   "value": "445.63"
+  },
+  {
+   "doc_id": "Architecture/A1/A-07-006 3RD FLOOR PLAN.pdf",
+   "id": "m00034:A-07-006:3F:dry:A",
+   "origin": "measured",
+   "region": null,
+   "unit": "m2",
+   "value": "1201.79"
+  },
+  {
+   "doc_id": "Architecture/A1/A-07-006 3RD FLOOR PLAN.pdf",
+   "id": "m00035:A-07-006:3F:dry:P",
+   "origin": "measured",
+   "region": null,
+   "unit": "m",
+   "value": "1198.32"
+  },
+  {
+   "doc_id": "Architecture/A1/A-07-006 3RD FLOOR PLAN.pdf",
+   "id": "m00036:A-07-006:3F:ext:A",
+   "origin": "measured",
+   "region": null,
+   "unit": "m2",
+   "value": "189.47"
+  },
+  {
+   "doc_id": "Architecture/A1/A-07-006 3RD FLOOR PLAN.pdf",
+   "id": "m00037:A-07-006:3F:wet:A",
+   "origin": "measured",
+   "region": null,
+   "unit": "m2",
+   "value": "166.13"
+  },
+  {
+   "doc_id": "Architecture/A1/A-07-006 3RD FLOOR PLAN.pdf",
+   "id": "m00038:A-07-006:3F:wet:P",
+   "origin": "measured",
+   "region": null,
+   "unit": "m",
+   "value": "344.28"
+  },
+  {
+   "doc_id": "Architecture/A1/A-07-007 TYP ( 4 - 5 ) FLOOR PLAN.pdf",
+   "id": "m00039:A-07-007:4F:H",
+   "origin": "derived",
+   "region": null,
+   "unit": "m",
+   "value": "3.55"
+  },
+  {
+   "doc_id": "Architecture/A1/A-07-007 TYP ( 4 - 5 ) FLOOR PLAN.pdf",
+   "id": "m00040:A-07-007:4F:D100:L",
+   "origin": "measured",
+   "region": null,
+   "unit": "m",
+   "value": "272.06"
+  },
+  {
+   "doc_id": "Architecture/A1/A-07-007 TYP ( 4 - 5 ) FLOOR PLAN.pdf",
+   "id": "m00041:A-07-007:4F:D150:L",
+   "origin": "measured",
+   "region": null,
+   "unit": "m",
+   "value": "6.85"
+  },
+  {
+   "doc_id": "Architecture/A1/A-07-007 TYP ( 4 - 5 ) FLOOR PLAN.pdf",
+   "id": "m00042:A-07-007:4F:D200:L",
+   "origin": "measured",
+   "region": null,
+   "unit": "m",
+   "value": "463.17"
+  },
+  {
+   "doc_id": "Architecture/A1/A-07-007 TYP ( 4 - 5 ) FLOOR PLAN.pdf",
+   "id": "m00043:A-07-007:4F:dry:A",
+   "origin": "measured",
+   "region": null,
+   "unit": "m2",
+   "value": "1183.07"
+  },
+  {
+   "doc_id": "Architecture/A1/A-07-007 TYP ( 4 - 5 ) FLOOR PLAN.pdf",
+   "id": "m00044:A-07-007:4F:dry:P",
+   "origin": "measured",
+   "region": null,
+   "unit": "m",
+   "value": "1182.04"
+  },
+  {
+   "doc_id": "Architecture/A1/A-07-007 TYP ( 4 - 5 ) FLOOR PLAN.pdf",
+   "id": "m00045:A-07-007:4F:ext:A",
+   "origin": "measured",
+   "region": null,
+   "unit": "m2",
+   "value": "115.93"
+  },
+  {
+   "doc_id": "Architecture/A1/A-07-007 TYP ( 4 - 5 ) FLOOR PLAN.pdf",
+   "id": "m00046:A-07-007:4F:wet:A",
+   "origin": "measured",
+   "region": null,
+   "unit": "m2",
+   "value": "166.26"
+  },
+  {
+   "doc_id": "Architecture/A1/A-07-007 TYP ( 4 - 5 ) FLOOR PLAN.pdf",
+   "id": "m00047:A-07-007:4F:wet:P",
+   "origin": "measured",
+   "region": null,
+   "unit": "m",
+   "value": "344.33"
+  },
+  {
+   "doc_id": "Architecture/A1/A-07-007 TYP ( 4 - 5 ) FLOOR PLAN.pdf",
+   "id": "m00048:A-07-007:5F:H",
+   "origin": "derived",
+   "region": null,
+   "unit": "m",
+   "value": "3.55"
+  },
+  {
+   "doc_id": "Architecture/A1/A-07-007 TYP ( 4 - 5 ) FLOOR PLAN.pdf",
+   "id": "m00049:A-07-007:5F:D100:L",
+   "origin": "measured",
+   "region": null,
+   "unit": "m",
+   "value": "272.06"
+  },
+  {
+   "doc_id": "Architecture/A1/A-07-007 TYP ( 4 - 5 ) FLOOR PLAN.pdf",
+   "id": "m00050:A-07-007:5F:D150:L",
+   "origin": "measured",
+   "region": null,
+   "unit": "m",
+   "value": "6.85"
+  },
+  {
+   "doc_id": "Architecture/A1/A-07-007 TYP ( 4 - 5 ) FLOOR PLAN.pdf",
+   "id": "m00051:A-07-007:5F:D200:L",
+   "origin": "measured",
+   "region": null,
+   "unit": "m",
+   "value": "463.17"
+  },
+  {
+   "doc_id": "Architecture/A1/A-07-007 TYP ( 4 - 5 ) FLOOR PLAN.pdf",
+   "id": "m00052:A-07-007:5F:dry:A",
+   "origin": "measured",
+   "region": null,
+   "unit": "m2",
+   "value": "1183.07"
+  },
+  {
+   "doc_id": "Architecture/A1/A-07-007 TYP ( 4 - 5 ) FLOOR PLAN.pdf",
+   "id": "m00053:A-07-007:5F:dry:P",
+   "origin": "measured",
+   "region": null,
+   "unit": "m",
+   "value": "1182.04"
+  },
+  {
+   "doc_id": "Architecture/A1/A-07-007 TYP ( 4 - 5 ) FLOOR PLAN.pdf",
+   "id": "m00054:A-07-007:5F:ext:A",
+   "origin": "measured",
+   "region": null,
+   "unit": "m2",
+   "value": "115.93"
+  },
+  {
+   "doc_id": "Architecture/A1/A-07-007 TYP ( 4 - 5 ) FLOOR PLAN.pdf",
+   "id": "m00055:A-07-007:5F:wet:A",
+   "origin": "measured",
+   "region": null,
+   "unit": "m2",
+   "value": "166.26"
+  },
+  {
+   "doc_id": "Architecture/A1/A-07-007 TYP ( 4 - 5 ) FLOOR PLAN.pdf",
+   "id": "m00056:A-07-007:5F:wet:P",
+   "origin": "measured",
+   "region": null,
+   "unit": "m",
+   "value": "344.33"
+  },
+  {
+   "doc_id": "Architecture/A1/A-07-008 LOWER ROOF PLAN.pdf",
+   "id": "m00057:A-07-008:LOWER ROOF:H",
+   "origin": "derived",
+   "region": null,
+   "unit": "m",
+   "value": "3.35"
+  },
+  {
+   "doc_id": "Architecture/A1/A-07-008 LOWER ROOF PLAN.pdf",
+   "id": "m00058:A-07-008:LOWER ROOF:D100:L",
+   "origin": "measured",
+   "region": null,
+   "unit": "m",
+   "value": "35.39"
+  },
+  {
+   "doc_id": "Architecture/A1/A-07-008 LOWER ROOF PLAN.pdf",
+   "id": "m00059:A-07-008:LOWER ROOF:D150:L",
+   "origin": "measured",
+   "region": null,
+   "unit": "m",
+   "value": "6.60"
+  },
+  {
+   "doc_id": "Architecture/A1/A-07-008 LOWER ROOF PLAN.pdf",
+   "id": "m00060:A-07-008:LOWER ROOF:D200:L",
+   "origin": "measured",
+   "region": null,
+   "unit": "m",
+   "value": "120.63"
+  },
+  {
+   "doc_id": "Architecture/A1/A-07-008 LOWER ROOF PLAN.pdf",
+   "id": "m00061:A-07-008:LOWER ROOF:dry:A",
+   "origin": "measured",
+   "region": null,
+   "unit": "m2",
+   "value": "518.77"
+  },
+  {
+   "doc_id": "Architecture/A1/A-07-008 LOWER ROOF PLAN.pdf",
+   "id": "m00062:A-07-008:LOWER ROOF:dry:P",
+   "origin": "measured",
+   "region": null,
+   "unit": "m",
+   "value": "237.65"
+  },
+  {
+   "doc_id": "Architecture/A1/A-07-008 LOWER ROOF PLAN.pdf",
+   "id": "m00063:A-07-008:LOWER ROOF:ext:A",
+   "origin": "measured",
+   "region": null,
+   "unit": "m2",
+   "value": "878.40"
+  },
+  {
+   "doc_id": "Architecture/A1/A-07-008 LOWER ROOF PLAN.pdf",
+   "id": "m00064:A-07-008:LOWER ROOF:wet:A",
+   "origin": "measured",
+   "region": null,
+   "unit": "m2",
+   "value": "22.85"
+  },
+  {
+   "doc_id": "Architecture/A1/A-07-008 LOWER ROOF PLAN.pdf",
+   "id": "m00065:A-07-008:LOWER ROOF:wet:P",
+   "origin": "measured",
+   "region": null,
+   "unit": "m",
+   "value": "27.43"
+  },
+  {
+   "doc_id": "Architecture/A2/A-13-002 SCHEDULE OF WINDOWS-01.pdf",
+   "id": "window:DW 01:MAIN ENTRANCE:count",
+   "origin": "transcribed",
+   "region": null,
+   "unit": "nr",
+   "value": "1"
+  },
+  {
+   "doc_id": "Architecture/A2/A-13-002 SCHEDULE OF WINDOWS-01.pdf",
+   "id": "window:DW 01:MAIN ENTRANCE:height",
+   "origin": "transcribed",
+   "region": null,
+   "unit": "m",
+   "value": "8.35"
+  },
+  {
+   "doc_id": "Architecture/A2/A-13-002 SCHEDULE OF WINDOWS-01.pdf",
+   "id": "window:DW 01:MAIN ENTRANCE:width",
+   "origin": "transcribed",
+   "region": null,
+   "unit": "m",
+   "value": "15.60"
+  },
+  {
+   "doc_id": "Architecture/A2/A-13-002 SCHEDULE OF WINDOWS-01.pdf",
+   "id": "window:DW 02:LIFT LOBBY (BASEMENT FLOOR):count",
+   "origin": "transcribed",
+   "region": null,
+   "unit": "nr",
+   "value": "1"
+  },
+  {
+   "doc_id": "Architecture/A2/A-13-002 SCHEDULE OF WINDOWS-01.pdf",
+   "id": "window:DW 02:LIFT LOBBY (BASEMENT FLOOR):height",
+   "origin": "transcribed",
+   "region": null,
+   "unit": "m",
+   "value": "2.70"
+  },
+  {
+   "doc_id": "Architecture/A2/A-13-002 SCHEDULE OF WINDOWS-01.pdf",
+   "id": "window:DW 02:LIFT LOBBY (BASEMENT FLOOR):width",
+   "origin": "transcribed",
+   "region": null,
+   "unit": "m",
+   "value": "3.70"
+  },
+  {
+   "doc_id": "Architecture/A2/A-13-002 SCHEDULE OF WINDOWS-01.pdf",
+   "id": "window:DW 03:DINING / LIVING (1ST TO 5TH FLOOR):count",
+   "origin": "transcribed",
+   "region": null,
+   "unit": "nr",
+   "value": "152"
+  },
+  {
+   "doc_id": "Architecture/A2/A-13-002 SCHEDULE OF WINDOWS-01.pdf",
+   "id": "window:DW 03:DINING / LIVING (1ST TO 5TH FLOOR):height",
+   "origin": "transcribed",
+   "region": null,
+   "unit": "m",
+   "value": "3.20"
+  },
+  {
+   "doc_id": "Architecture/A2/A-13-002 SCHEDULE OF WINDOWS-01.pdf",
+   "id": "window:DW 03:DINING / LIVING (1ST TO 5TH FLOOR):width",
+   "origin": "transcribed",
+   "region": null,
+   "unit": "m",
+   "value": "3.75"
+  },
+  {
+   "doc_id": "Architecture/A2/A-13-002 SCHEDULE OF WINDOWS-01.pdf",
+   "id": "window:DW 04:DINING / LIVING,BEDRM (1ST TO 5TH FLOOR):count",
+   "origin": "transcribed",
+   "region": null,
+   "unit": "nr",
+   "value": "10"
+  },
+  {
+   "doc_id": "Architecture/A2/A-13-002 SCHEDULE OF WINDOWS-01.pdf",
+   "id": "window:DW 04:DINING / LIVING,BEDRM (1ST TO 5TH FLOOR):height",
+   "origin": "transcribed",
+   "region": null,
+   "unit": "m",
+   "value": "3.20"
+  },
+  {
+   "doc_id": "Architecture/A2/A-13-002 SCHEDULE OF WINDOWS-01.pdf",
+   "id": "window:DW 05:DINING / LIVING (1ST TO 5TH FLOOR):count",
+   "origin": "transcribed",
+   "region": null,
+   "unit": "nr",
+   "value": "5"
+  },
+  {
+   "doc_id": "Architecture/A2/A-13-002 SCHEDULE OF WINDOWS-01.pdf",
+   "id": "window:DW 05:DINING / LIVING (1ST TO 5TH FLOOR):height",
+   "origin": "transcribed",
+   "region": null,
+   "unit": "m",
+   "value": "3.20"
+  },
+  {
+   "doc_id": "Architecture/A2/A-13-002 SCHEDULE OF WINDOWS-01.pdf",
+   "id": "window:DW 05:DINING / LIVING (1ST TO 5TH FLOOR):width",
+   "origin": "transcribed",
+   "region": null,
+   "unit": "m",
+   "value": "3.30"
+  },
+  {
+   "doc_id": "Architecture/A2/A-13-002 SCHEDULE OF WINDOWS-01.pdf",
+   "id": "window:DW 06:DINING / LIVING,BEDRM (2ND TO 5TH FLOOR):count",
+   "origin": "transcribed",
+   "region": null,
+   "unit": "nr",
+   "value": "4"
+  },
+  {
+   "doc_id": "Architecture/A2/A-13-002 SCHEDULE OF WINDOWS-01.pdf",
+   "id": "window:DW 06:DINING / LIVING,BEDRM (2ND TO 5TH FLOOR):height",
+   "origin": "transcribed",
+   "region": null,
+   "unit": "m",
+   "value": "3.20"
+  },
+  {
+   "doc_id": "Architecture/A2/A-13-002 SCHEDULE OF WINDOWS-01.pdf",
+   "id": "window:DW 07:DINING / LIVING,BEDRM (1ST FLOOR):count",
+   "origin": "transcribed",
+   "region": null,
+   "unit": "nr",
+   "value": "1"
+  },
+  {
+   "doc_id": "Architecture/A2/A-13-002 SCHEDULE OF WINDOWS-01.pdf",
+   "id": "window:DW 07:DINING / LIVING,BEDRM (1ST FLOOR):height",
+   "origin": "transcribed",
+   "region": null,
+   "unit": "m",
+   "value": "3.20"
+  },
+  {
+   "doc_id": "Architecture/A2/A-13-002 SCHEDULE OF WINDOWS-01.pdf",
+   "id": "window:DW 08:DINING / LIVING (2ND TO 5TH FLOOR):count",
+   "origin": "transcribed",
+   "region": null,
+   "unit": "nr",
+   "value": "8"
+  },
+  {
+   "doc_id": "Architecture/A2/A-13-002 SCHEDULE OF WINDOWS-01.pdf",
+   "id": "window:DW 08:DINING / LIVING (2ND TO 5TH FLOOR):height",
+   "origin": "transcribed",
+   "region": null,
+   "unit": "m",
+   "value": "3.20"
+  },
+  {
+   "doc_id": "Architecture/A2/A-13-002 SCHEDULE OF WINDOWS-01.pdf",
+   "id": "window:DW 08:DINING / LIVING (2ND TO 5TH FLOOR):width",
+   "origin": "transcribed",
+   "region": null,
+   "unit": "m",
+   "value": "3.65"
+  },
+  {
+   "doc_id": "Architecture/A2/A-13-002 SCHEDULE OF WINDOWS-01.pdf",
+   "id": "window:DW 09:DINING / LIVING,BEDRM (2ND TO 5TH FLOOR):count",
+   "origin": "transcribed",
+   "region": null,
+   "unit": "nr",
+   "value": "4"
+  },
+  {
+   "doc_id": "Architecture/A2/A-13-002 SCHEDULE OF WINDOWS-01.pdf",
+   "id": "window:DW 09:DINING / LIVING,BEDRM (2ND TO 5TH FLOOR):height",
+   "origin": "transcribed",
+   "region": null,
+   "unit": "m",
+   "value": "3.20"
+  },
+  {
+   "doc_id": "Architecture/A2/A-13-002 SCHEDULE OF WINDOWS-01.pdf",
+   "id": "window:DW 10:GYMNASIUM (M) (LOWER ROOF):count",
+   "origin": "transcribed",
+   "region": null,
+   "unit": "nr",
+   "value": "1"
+  },
+  {
+   "doc_id": "Architecture/A2/A-13-002 SCHEDULE OF WINDOWS-01.pdf",
+   "id": "window:DW 10:GYMNASIUM (M) (LOWER ROOF):height",
+   "origin": "transcribed",
+   "region": null,
+   "unit": "m",
+   "value": "3.20"
+  },
+  {
+   "doc_id": "Architecture/A2/A-13-003 SCHEDULE OF WINDOWS-02.pdf",
+   "id": "window:DW 11:GYMNASIUM (M,F) (LOWER ROOF):count",
+   "origin": "transcribed",
+   "region": null,
+   "unit": "nr",
+   "value": "1"
+  },
+  {
+   "doc_id": "Architecture/A2/A-13-003 SCHEDULE OF WINDOWS-02.pdf",
+   "id": "window:DW 11:GYMNASIUM (M,F) (LOWER ROOF):height",
+   "origin": "transcribed",
+   "region": null,
+   "unit": "m",
+   "value": "3.20"
+  },
+  {
+   "doc_id": "Architecture/A2/A-13-002 SCHEDULE OF WINDOWS-01.pdf",
+   "id": "window:DW 12:GYMNASIUM (F) (LOWER ROOF):count",
+   "origin": "transcribed",
+   "region": null,
+   "unit": "nr",
+   "value": "1"
+  },
+  {
+   "doc_id": "Architecture/A2/A-13-002 SCHEDULE OF WINDOWS-01.pdf",
+   "id": "window:DW 12:GYMNASIUM (F) (LOWER ROOF):height",
+   "origin": "transcribed",
+   "region": null,
+   "unit": "m",
+   "value": "3.20"
+  },
+  {
+   "doc_id": "Architecture/A2/A-13-002 SCHEDULE OF WINDOWS-01.pdf",
+   "id": "window:DW 12:GYMNASIUM (F) (LOWER ROOF):width",
+   "origin": "transcribed",
+   "region": null,
+   "unit": "m",
+   "value": "25.40"
+  },
+  {
+   "doc_id": "Architecture/A2/A-13-003 SCHEDULE OF WINDOWS-02.pdf",
+   "id": "window:DW 13:GYMNASIUM (F) (LOWER ROOF):count",
+   "origin": "transcribed",
+   "region": null,
+   "unit": "nr",
+   "value": "1"
+  },
+  {
+   "doc_id": "Architecture/A2/A-13-003 SCHEDULE OF WINDOWS-02.pdf",
+   "id": "window:DW 13:GYMNASIUM (F) (LOWER ROOF):height",
+   "origin": "transcribed",
+   "region": null,
+   "unit": "m",
+   "value": "3.20"
+  },
+  {
+   "doc_id": "Architecture/A2/A-13-003 SCHEDULE OF WINDOWS-02.pdf",
+   "id": "window:DW 13:GYMNASIUM (F) (LOWER ROOF):width",
+   "origin": "transcribed",
+   "region": null,
+   "unit": "m",
+   "value": "10.80"
+  },
+  {
+   "doc_id": "Architecture/A2/A-13-003 SCHEDULE OF WINDOWS-02.pdf",
+   "id": "window:DW 14:GYMNASIUM (M) (LOWER ROOF):count",
+   "origin": "transcribed",
+   "region": null,
+   "unit": "nr",
+   "value": "1"
+  },
+  {
+   "doc_id": "Architecture/A2/A-13-003 SCHEDULE OF WINDOWS-02.pdf",
+   "id": "window:DW 14:GYMNASIUM (M) (LOWER ROOF):height",
+   "origin": "transcribed",
+   "region": null,
+   "unit": "m",
+   "value": "3.20"
+  },
+  {
+   "doc_id": "Architecture/A2/A-13-003 SCHEDULE OF WINDOWS-02.pdf",
+   "id": "window:DW 14:GYMNASIUM (M) (LOWER ROOF):width",
+   "origin": "transcribed",
+   "region": null,
+   "unit": "m",
+   "value": "11.40"
+  },
+  {
+   "doc_id": "Architecture/A2/A-13-003 SCHEDULE OF WINDOWS-02.pdf",
+   "id": "window:DW 15:CORRIDOR (LOWER ROOF):count",
+   "origin": "transcribed",
+   "region": null,
+   "unit": "nr",
+   "value": "1"
+  },
+  {
+   "doc_id": "Architecture/A2/A-13-003 SCHEDULE OF WINDOWS-02.pdf",
+   "id": "window:DW 15:CORRIDOR (LOWER ROOF):width",
+   "origin": "transcribed",
+   "region": null,
+   "unit": "m",
+   "value": "11.35"
+  },
+  {
+   "doc_id": "Architecture/A2/A-13-003 SCHEDULE OF WINDOWS-02.pdf",
+   "id": "window:DW 16:CORRIDOR (LOWER ROOF):count",
+   "origin": "transcribed",
+   "region": null,
+   "unit": "nr",
+   "value": "1"
+  },
+  {
+   "doc_id": "Architecture/A2/A-13-003 SCHEDULE OF WINDOWS-02.pdf",
+   "id": "window:DW 16:CORRIDOR (LOWER ROOF):height",
+   "origin": "transcribed",
+   "region": null,
+   "unit": "m",
+   "value": "3.20"
+  },
+  {
+   "doc_id": "Architecture/A2/A-13-003 SCHEDULE OF WINDOWS-02.pdf",
+   "id": "window:DW 16:CORRIDOR (LOWER ROOF):width",
+   "origin": "transcribed",
+   "region": null,
+   "unit": "m",
+   "value": "10.80"
+  },
+  {
+   "doc_id": "Architecture/A2/A-13-003 SCHEDULE OF WINDOWS-02.pdf",
+   "id": "window:DW 17:DINING / LIVING,BEDRM (1ST FLOOR):count",
+   "origin": "transcribed",
+   "region": null,
+   "unit": "nr",
+   "value": "1"
+  },
+  {
+   "doc_id": "Architecture/A2/A-13-003 SCHEDULE OF WINDOWS-02.pdf",
+   "id": "window:DW 17:DINING / LIVING,BEDRM (1ST FLOOR):height",
+   "origin": "transcribed",
+   "region": null,
+   "unit": "m",
+   "value": "3.20"
+  },
+  {
+   "doc_id": "Architecture/A2/A-13-003 SCHEDULE OF WINDOWS-02.pdf",
+   "id": "window:DW 18:WATCHMAN /CCTV (GROUND FLOOR):count",
+   "origin": "transcribed",
+   "region": null,
+   "unit": "nr",
+   "value": "1"
+  },
+  {
+   "doc_id": "Architecture/A2/A-13-003 SCHEDULE OF WINDOWS-02.pdf",
+   "id": "window:DW 18:WATCHMAN /CCTV (GROUND FLOOR):height",
+   "origin": "transcribed",
+   "region": null,
+   "unit": "m",
+   "value": "1.40"
+  },
+  {
+   "doc_id": "Architecture/A2/A-13-003 SCHEDULE OF WINDOWS-02.pdf",
+   "id": "window:DW 18:WATCHMAN /CCTV (GROUND FLOOR):width",
+   "origin": "transcribed",
+   "region": null,
+   "unit": "m",
+   "value": "1.20"
+  },
+  {
+   "doc_id": "Architecture/A2/A-13-003 SCHEDULE OF WINDOWS-02.pdf",
+   "id": "window:DW 19:REAR ENT.LIFT LOBBY (GROUND FLOOR):count",
+   "origin": "transcribed",
+   "region": null,
+   "unit": "nr",
+   "value": "1"
+  },
+  {
+   "doc_id": "Architecture/A2/A-13-003 SCHEDULE OF WINDOWS-02.pdf",
+   "id": "window:DW 19:REAR ENT.LIFT LOBBY (GROUND FLOOR):height",
+   "origin": "transcribed",
+   "region": null,
+   "unit": "m",
+   "value": "2.40"
+  },
+  {
+   "doc_id": "Architecture/A2/A-13-003 SCHEDULE OF WINDOWS-02.pdf",
+   "id": "window:DW 19:REAR ENT.LIFT LOBBY (GROUND FLOOR):width",
+   "origin": "transcribed",
+   "region": null,
+   "unit": "m",
+   "value": "1.20"
+  },
+  {
+   "doc_id": "Architecture/A2/A-13-003 SCHEDULE OF WINDOWS-02.pdf",
+   "id": "window:LW 01:SUBSTATION (GROUND FLR.):count",
+   "origin": "transcribed",
+   "region": null,
+   "unit": "nr",
+   "value": "1"
+  },
+  {
+   "doc_id": "Architecture/A2/A-13-003 SCHEDULE OF WINDOWS-02.pdf",
+   "id": "window:LW 01:SUBSTATION (GROUND FLR.):height",
+   "origin": "transcribed",
+   "region": null,
+   "unit": "m",
+   "value": "2.00"
+  },
+  {
+   "doc_id": "Architecture/A2/A-13-003 SCHEDULE OF WINDOWS-02.pdf",
+   "id": "window:LW 01:SUBSTATION (GROUND FLR.):width",
+   "origin": "transcribed",
+   "region": null,
+   "unit": "m",
+   "value": "2.90"
+  },
+  {
+   "doc_id": "Architecture/A2/A-13-003 SCHEDULE OF WINDOWS-02.pdf",
+   "id": "window:LW 02:POOL PUMP (GROUND FLR.):count",
+   "origin": "transcribed",
+   "region": null,
+   "unit": "nr",
+   "value": "1"
+  },
+  {
+   "doc_id": "Architecture/A2/A-13-003 SCHEDULE OF WINDOWS-02.pdf",
+   "id": "window:LW 02:POOL PUMP (GROUND FLR.):height",
+   "origin": "transcribed",
+   "region": null,
+   "unit": "m",
+   "value": "2.00"
+  },
+  {
+   "doc_id": "Architecture/A2/A-13-003 SCHEDULE OF WINDOWS-02.pdf",
+   "id": "window:LW 02:POOL PUMP (GROUND FLR.):width",
+   "origin": "transcribed",
+   "region": null,
+   "unit": "m",
+   "value": "2.40"
+  },
+  {
+   "doc_id": "Architecture/A2/A-13-003 SCHEDULE OF WINDOWS-02.pdf",
+   "id": "window:LW 03:GENER.ROOM (BASEMENT FLR.):count",
+   "origin": "transcribed",
+   "region": null,
+   "unit": "nr",
+   "value": "1"
+  },
+  {
+   "doc_id": "Architecture/A2/A-13-003 SCHEDULE OF WINDOWS-02.pdf",
+   "id": "window:LW 03:GENER.ROOM (BASEMENT FLR.):height",
+   "origin": "transcribed",
+   "region": null,
+   "unit": "m",
+   "value": "2.00"
+  },
+  {
+   "doc_id": "Architecture/A2/A-13-003 SCHEDULE OF WINDOWS-02.pdf",
+   "id": "window:LW 03:GENER.ROOM (BASEMENT FLR.):width",
+   "origin": "transcribed",
+   "region": null,
+   "unit": "m",
+   "value": "2.00"
+  }
+ ],
+ "schema": "evidence/1"
+}

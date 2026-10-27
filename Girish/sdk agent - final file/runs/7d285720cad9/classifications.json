@@ -1,0 +1,313 @@
+{
+ "basis": "stated \u2014 the schedule names its subject and the clause enumerates it; modelled \u2014 the model chose the clause and bindings from labels, validated by code",
+ "classified": 47,
+ "modelled": 0,
+ "rows": [
+  {
+   "bindings": {},
+   "clause": "D2.1",
+   "mark": "Walls 100mm thick"
+  },
+  {
+   "bindings": {},
+   "clause": "D2.1",
+   "mark": "Walls 150mm thick"
+  },
+  {
+   "bindings": {},
+   "clause": "D2.1",
+   "mark": "Walls 200mm thick"
+  },
+  {
+   "bindings": {},
+   "clause": "G2.1",
+   "mark": "Floors of wet areas"
+  },
+  {
+   "bindings": {},
+   "clause": "G2.1",
+   "mark": "Roofs, terraces and balconies"
+  },
+  {
+   "bindings": {
+    "count": "door:D-1:STAIRCASE:count"
+   },
+   "clause": "H1.1",
+   "mark": "D-1 @ STAIRCASE"
+  },
+  {
+   "bindings": {
+    "count": "door:D-2:APARTMENT ENTRANCE (1ST TO 5TH FLOOR):count"
+   },
+   "clause": "H1.1",
+   "mark": "D-2 @ APARTMENT ENTRANCE (1ST TO 5TH FLOOR)"
+  },
+  {
+   "bindings": {
+    "count": "door:D-3:UTILITY ENTRANCE (1ST FLR ,LOWER FLOOR) BEDROOM,WATCHMAN RM (GF,1ST TO 5TH):count"
+   },
+   "clause": "H1.1",
+   "mark": "D-3 @ UTILITY ENTRANCE (1ST FLR ,LOWER FLOOR) BEDROOM,WATCHMAN RM (GF,1ST TO 5TH)"
+  },
+  {
+   "bindings": {
+    "count": "door:D-4:TOILET, BATH ROOM (GF,1ST TO 5TH FLOOR):count"
+   },
+   "clause": "H1.1",
+   "mark": "D-4 @ TOILET, BATH ROOM (GF,1ST TO 5TH FLOOR)"
+  },
+  {
+   "bindings": {
+    "count": "door:D-5:WATER METER RM.,TELE.RM., GARBAGE RM.,ELECT. RM. (1ST TO 5TH FLOOR,LOWER RF):count"
+   },
+   "clause": "H1.1",
+   "mark": "D-5 @ WATER METER RM.,TELE.RM., GARBAGE RM.,ELECT. RM. (1ST TO 5TH FLOOR,LOWER RF)"
+  },
+  {
+   "bindings": {
+    "count": "door:D-6:GYM,OUTDOOR DECK,SER.RF (1ST FLR,LOWER FLOOR):count"
+   },
+   "clause": "H1.1",
+   "mark": "D-6 @ GYM,OUTDOOR DECK,SER.RF (1ST FLR,LOWER FLOOR)"
+  },
+  {
+   "bindings": {
+    "count": "door:LD-1:SUBSTATION:count"
+   },
+   "clause": "H1.1",
+   "mark": "LD-1 @ SUBSTATION"
+  },
+  {
+   "bindings": {
+    "count": "door:LD-2:GENERATOR ROOM (BASEMENT):count"
+   },
+   "clause": "H1.1",
+   "mark": "LD-2 @ GENERATOR ROOM (BASEMENT)"
+  },
+  {
+   "bindings": {
+    "count": "door:LD-3:ELEC. ELEC. CABIN (BASEMENT):count"
+   },
+   "clause": "H1.1",
+   "mark": "LD-3 @ ELEC. ELEC. CABIN (BASEMENT)"
+  },
+  {
+   "bindings": {
+    "count": "door:SD-1:LV ROOM,:count"
+   },
+   "clause": "H1.1",
+   "mark": "SD-1 @ LV ROOM,"
+  },
+  {
+   "bindings": {
+    "count": "door:SD-2:TELE.ROOM,GSM RM,POOL PUMP (GF,LOWER ROOF):count"
+   },
+   "clause": "H1.1",
+   "mark": "SD-2 @ TELE.ROOM,GSM RM,POOL PUMP (GF,LOWER ROOF)"
+  },
+  {
+   "bindings": {
+    "count": "door:SD-3:GARBAGE ROOM (GROUND FLOOR):count"
+   },
+   "clause": "H1.1",
+   "mark": "SD-3 @ GARBAGE ROOM (GROUND FLOOR)"
+  },
+  {
+   "bindings": {
+    "count": "window:DW 01:MAIN ENTRANCE:count"
+   },
+   "clause": "H2.1",
+   "mark": "DW 01 @ MAIN ENTRANCE"
+  },
+  {
+   "bindings": {
+    "count": "window:DW 02:LIFT LOBBY (BASEMENT FLOOR):count"
+   },
+   "clause": "H2.1",
+   "mark": "DW 02 @ LIFT LOBBY (BASEMENT FLOOR)"
+  },
+  {
+   "bindings": {
+    "count": "window:DW 03:DINING / LIVING (1ST TO 5TH FLOOR):count"
+   },
+   "clause": "H2.1",
+   "mark": "DW 03 @ DINING / LIVING (1ST TO 5TH FLOOR)"
+  },
+  {
+   "bindings": {
+    "count": "window:DW 04:DINING / LIVING,BEDRM (1ST TO 5TH FLOOR):count"
+   },
+   "clause": "H2.1",
+   "mark": "DW 04 @ DINING / LIVING,BEDRM (1ST TO 5TH FLOOR)"
+  },
+  {
+   "bindings": {
+    "count": "window:DW 05:DINING / LIVING (1ST TO 5TH FLOOR):count"
+   },
+   "clause": "H2.1",
+   "mark": "DW 05 @ DINING / LIVING (1ST TO 5TH FLOOR)"
+  },
+  {
+   "bindings": {
+    "count": "window:DW 06:DINING / LIVING,BEDRM (2ND TO 5TH FLOOR):count"
+   },
+   "clause": "H2.1",
+   "mark": "DW 06 @ DINING / LIVING,BEDRM (2ND TO 5TH FLOOR)"
+  },
+  {
+   "bindings": {
+    "count": "window:DW 07:DINING / LIVING,BEDRM (1ST FLOOR):count"
+   },
+   "clause": "H2.1",
+   "mark": "DW 07 @ DINING / LIVING,BEDRM (1ST FLOOR)"
+  },
+  {
+   "bindings": {
+    "count": "window:DW 08:DINING / LIVING (2ND TO 5TH FLOOR):count"
+   },
+   "clause": "H2.1",
+   "mark": "DW 08 @ DINING / LIVING (2ND TO 5TH FLOOR)"
+  },
+  {
+   "bindings": {
+    "count": "window:DW 09:DINING / LIVING,BEDRM (2ND TO 5TH FLOOR):count"
+   },
+   "clause": "H2.1",
+   "mark": "DW 09 @ DINING / LIVING,BEDRM (2ND TO 5TH FLOOR)"
+  },
+  {
+   "bindings": {
+    "count": "window:DW 10:GYMNASIUM (M) (LOWER ROOF):count"
+   },
+   "clause": "H2.1",
+   "mark": "DW 10 @ GYMNASIUM (M) (LOWER ROOF)"
+  },
+  {
+   "bindings": {
+    "count": "window:DW 11:GYMNASIUM (M,F) (LOWER ROOF):count"
+   },
+   "clause": "H2.1",
+   "mark": "DW 11 @ GYMNASIUM (M,F) (LOWER ROOF)"
+  },
+  {
+   "bindings": {
+    "count": "window:DW 12:GYMNASIUM (F) (LOWER ROOF):count"
+   },
+   "clause": "H2.1",
+   "mark": "DW 12 @ GYMNASIUM (F) (LOWER ROOF)"
+  },
+  {
+   "bindings": {
+    "count": "window:DW 13:GYMNASIUM (F) (LOWER ROOF):count"
+   },
+   "clause": "H2.1",
+   "mark": "DW 13 @ GYMNASIUM (F) (LOWER ROOF)"
+  },
+  {
+   "bindings": {
+    "count": "window:DW 14:GYMNASIUM (M) (LOWER ROOF):count"
+   },
+   "clause": "H2.1",
+   "mark": "DW 14 @ GYMNASIUM (M) (LOWER ROOF)"
+  },
+  {
+   "bindings": {
+    "count": "window:DW 15:CORRIDOR (LOWER ROOF):count"
+   },
+   "clause": "H2.1",
+   "mark": "DW 15 @ CORRIDOR (LOWER ROOF)"
+  },
+  {
+   "bindings": {
+    "count": "window:DW 16:CORRIDOR (LOWER ROOF):count"
+   },
+   "clause": "H2.1",
+   "mark": "DW 16 @ CORRIDOR (LOWER ROOF)"
+  },
+  {
+   "bindings": {
+    "count": "window:DW 17:DINING / LIVING,BEDRM (1ST FLOOR):count"
+   },
+   "clause": "H2.1",
+   "mark": "DW 17 @ DINING / LIVING,BEDRM (1ST FLOOR)"
+  },
+  {
+   "bindings": {
+    "count": "window:DW 18:WATCHMAN /CCTV (GROUND FLOOR):count"
+   },
+   "clause": "H2.1",
+   "mark": "DW 18 @ WATCHMAN /CCTV (GROUND FLOOR)"
+  },
+  {
+   "bindings": {
+    "count": "window:DW 19:REAR ENT.LIFT LOBBY (GROUND FLOOR):count"
+   },
+   "clause": "H2.1",
+   "mark": "DW 19 @ REAR ENT.LIFT LOBBY (GROUND FLOOR)"
+  },
+  {
+   "bindings": {
+    "count": "window:LW 01:SUBSTATION (GROUND FLR.):count"
+   },
+   "clause": "H2.1",
+   "mark": "LW 01 @ SUBSTATION (GROUND FLR.)"
+  },
+  {
+   "bindings": {
+    "count": "window:LW 02:POOL PUMP (GROUND FLR.):count"
+   },
+   "clause": "H2.1",
+   "mark": "LW 02 @ POOL PUMP (GROUND FLR.)"
+  },
+  {
+   "bindings": {
+    "count": "window:LW 03:GENER.ROOM (BASEMENT FLR.):count"
+   },
+   "clause": "H2.1",
+   "mark": "LW 03 @ GENER.ROOM (BASEMENT FLR.)"
+  },
+  {
+   "bindings": {},
+   "clause": "J3.1",
+   "mark": "Ceilings, rooms"
+  },
+  {
+   "bindings": {},
+   "clause": "J3.1",
+   "mark": "Ceilings, wet areas"
+  },
+  {
+   "bindings": {},
+   "clause": "J3.1",
+   "mark": "Floors, rooms"
+  },
+  {
+   "bindings": {},
+   "clause": "J3.1",
+   "mark": "Floors, wet areas"
+  },
+  {
+   "bindings": {},
+   "clause": "J3.1",
+   "mark": "Walls, rooms"
+  },
+  {
+   "bindings": {},
+   "clause": "J3.1",
+   "mark": "Walls, wet areas"
+  },
+  {
+   "bindings": {},
+   "clause": "J3.2",
+   "mark": "Skirtings, rooms"
+  },
+  {
+   "bindings": {},
+   "clause": "J3.2",
+   "mark": "Skirtings, wet areas"
+  }
+ ],
+ "stated": 47,
+ "unclassified": 0,
+ "unclassified_reasons": {}
+}

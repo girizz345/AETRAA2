@@ -1,0 +1,19 @@
+
+──────────────────────────────────────────────────────────
+  AETRAA — running on this machine only
+──────────────────────────────────────────────────────────
+  open        http://127.0.0.1:57314/setup
+  intake      http://127.0.0.1:57314/intake
+
+  owner code  local-9ea9bd67ddb8
+  database    C:\Users\ADMINI~1\AppData\Local\Temp\aetraa-prelaunch-XtCDcW\sqlite-data\aetraa.db   (new)
+  email       off
+──────────────────────────────────────────────────────────
+  This is separate from your live platform. Nothing syncs.
+  Stop it with Ctrl+C.
+
+GET /api/ipc/pack failed: ReferenceError: enc is not defined
+    at buildIpcPack (file:///C:/Users/ADMINI%7E1/AppData/Local/Temp/aetraa-prelaunch-XtCDcW/app/src/ipc-pack.js:457:47)
+    at async Object.fetch (file:///C:/Users/ADMINI%7E1/AppData/Local/Temp/aetraa-prelaunch-XtCDcW/app/src/index.js:7107:24)
+    at async Object.fetch (file:///C:/Users/ADMINI%7E1/AppData/Local/Temp/aetraa-prelaunch-XtCDcW/app/src/index.js:8283:32)
+    at async Server.<anonymous> (file:///C:/Users/ADMINI%7E1/AppData/Local/Temp/aetraa-prelaunch-XtCDcW/app/local.mjs:176:17)

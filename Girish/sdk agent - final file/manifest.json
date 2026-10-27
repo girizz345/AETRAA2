@@ -1,0 +1,16 @@
+{
+  "id": "boq_pomi_v1",
+  "name": "BOQ POMI V1",
+  "entry": "agent.py",
+  "tag": "BOQ-POMI-V1",
+  "folder_rule": "Point the agent at the project folder. Drawings anywhere inside it, PDF only — this build does not read DXF and refuses raster sheets rather than guessing at them. All twenty-one stages are wired: the run reads the register, calibrates each sheet's grid and scale from its own dimension chain and builds the level table (S4), reads schedules and counts, classifies to POMI clauses, computes — schedule-stated sizes, stated level differences for storey heights, plan lengths measured to the calibrated scale — and produces the take-off, drawing markups and the house-format bill, or withholds the bill and says why.",
+  "outputs": "One zip in Reports/BOQ_POMI_V1/ inside the project: '<Project> - BOQ - Rev NN.zip' holding '<Project> - BOQ Priced - Rev NN.xlsx' and '<Project> - BOQ Unpriced - Rev NN.xlsx' (house format: Summary first, then one sheet per section; LibreOffice-recalculated), '<Project> - Take-off - Rev NN.xlsx' (INDEX + one dimension-paper tab per section, DWG Ref hyperlinks) and markup/<seq>. <drawing>.pdf + 00-LEGEND-INDEX.pdf. No zip is issued while the completeness gate withholds the bill. The working record — register, provenance, audit, revision changes, gaps.json, state and every stage's JSON — stays in the agent's runs/<run id>/. Nothing already in the project is read for writing or altered.",
+  "version": "1.0.0",
+  "perspective": "consultant",
+  "discipline": null,
+  "targeted_review": false,
+  "autonomous": true,
+  "team": [],
+  "starter_folders": [],
+  "notes": "Aaron's architecture: Python holds the 21-stage pipeline, the model is called for labels only (sheet kind, column map, clause + bindings) and never produces a number; a number in a reply halts the run. GP3.1 rounds dimensions at intake, never products. Every judgement the model does not settle is a gap in gaps.json, never a default. Run on the Claude subscription: unset ANTHROPIC_API_KEY."
+}

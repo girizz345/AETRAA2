@@ -1,0 +1,514 @@
+{
+ "project": "5310319 PROPOSED RESIDENTIAL BUILDING (B+G+5+ROOF)",
+ "identity": {
+  "owner": "G F S REAL ESTATE L.L.C",
+  "job_title": "PROPOSED RESIDENTIAL BUILDING (B+G+5+ROOF)",
+  "plot": "5310319",
+  "community": "SAIH SHUAIB 2",
+  "consultant": "EMSQUARE ENGINEERING CONSULTANTS"
+ },
+ "rev": "00",
+ "seconds": 76,
+ "sections": {
+  "D": [
+   {
+    "code": "D-A",
+    "description": "Walls, 100mm thick",
+    "unit": "m2",
+    "quantity": 5446.8,
+    "bill_quantity": 5447,
+    "origins": "DERIVED, MEASURED",
+    "clause": "D2.1"
+   },
+   {
+    "code": "D-B",
+    "description": "Walls, 150mm thick",
+    "unit": "m2",
+    "quantity": 294.32,
+    "bill_quantity": 294,
+    "origins": "MEASURED",
+    "clause": "D2.1"
+   },
+   {
+    "code": "D-C",
+    "description": "Walls, 200mm thick",
+    "unit": "m2",
+    "quantity": 10303.75,
+    "bill_quantity": 10304,
+    "origins": "DERIVED, MEASURED",
+    "clause": "D2.1"
+   },
+   {
+    "code": "D-D",
+    "description": "Walls, 200mm thick, low height balcony partition",
+    "unit": "m2",
+    "quantity": 45.2,
+    "bill_quantity": 45,
+    "origins": "MEASURED",
+    "clause": "D2.1"
+   }
+  ],
+  "G": [
+   {
+    "code": "G-A",
+    "description": "Roofs, terraces and balconies, flat",
+    "unit": "m2",
+    "quantity": 2580.01,
+    "bill_quantity": 2580,
+    "origins": "MEASURED",
+    "clause": "G2.1"
+   },
+   {
+    "code": "G-B",
+    "description": "Wet area floors, flat",
+    "unit": "m2",
+    "quantity": 716.2,
+    "bill_quantity": 716,
+    "origins": "MEASURED",
+    "clause": "G2.1"
+   },
+   {
+    "code": "G-C",
+    "description": "Damp proof course, to walls",
+    "unit": "m",
+    "quantity": 213.96,
+    "bill_quantity": 214,
+    "origins": "MEASURED",
+    "clause": "G3.1"
+   }
+  ],
+  "H": [
+   {
+    "code": "H-A",
+    "description": "Swing door, 1200 x 2200mm, type D-6; shall be provided with weather strips; location: Gym,outdoor deck,ser.rf (1st flr,lower floor)",
+    "unit": "nr",
+    "quantity": 5.0,
+    "bill_quantity": 5,
+    "origins": "COUNTED, READ (VISUAL)",
+    "clause": "H1.1"
+   },
+   {
+    "code": "H-B",
+    "description": "Partly fixed partly sliding door, 15600 x 8350mm, type DW 01; shall be provided with weather strips; location: Main entrance",
+    "unit": "nr",
+    "quantity": 1.0,
+    "bill_quantity": 1,
+    "origins": "COUNTED, READ (VISUAL)",
+    "clause": "H1.1"
+   },
+   {
+    "code": "H-C",
+    "description": "Partly fixed partly sliding door, 3700 x 2700mm, type DW 02; shall be provided with weather strips; location: Lift lobby (basement floor)",
+    "unit": "nr",
+    "quantity": 1.0,
+    "bill_quantity": 1,
+    "origins": "COUNTED, READ (VISUAL)",
+    "clause": "H1.1"
+   },
+   {
+    "code": "H-D",
+    "description": "Partly fixed partly sliding door, 3750 x 3200mm, type DW 03; shall be provided with weather strips; location: Dining / living (1st to 5th floor)",
+    "unit": "nr",
+    "quantity": 152.0,
+    "bill_quantity": 152,
+    "origins": "COUNTED, READ (VISUAL)",
+    "clause": "H1.1"
+   },
+   {
+    "code": "H-E",
+    "description": "Partly fixed partly sliding door, 7300 + 2950 x 3200mm (L-shaped on plan), type DW 04; shall be provided with weather strips; location: Dining / living,bedrm (1st to 5th floor)",
+    "unit": "nr",
+    "quantity": 10.0,
+    "bill_quantity": 10,
+    "origins": "COUNTED, READ (VISUAL)",
+    "clause": "H1.1"
+   },
+   {
+    "code": "H-F",
+    "description": "Partly fixed partly sliding door, 3300 x 3200mm, type DW 05; shall be provided with weather strips; location: Dining / living (1st to 5th floor)",
+    "unit": "nr",
+    "quantity": 5.0,
+    "bill_quantity": 5,
+    "origins": "COUNTED, READ (VISUAL)",
+    "clause": "H1.1"
+   },
+   {
+    "code": "H-G",
+    "description": "Partly fixed partly sliding door, 7300 + 4000 x 3200mm (L-shaped on plan), type DW 06; shall be provided with weather strips; location: Dining / living,bedrm (2nd to 5th floor)",
+    "unit": "nr",
+    "quantity": 4.0,
+    "bill_quantity": 4,
+    "origins": "COUNTED, READ (VISUAL)",
+    "clause": "H1.1"
+   },
+   {
+    "code": "H-H",
+    "description": "Partly fixed partly sliding door, 4000 + 7300 x 3200mm (L-shaped on plan), type DW 07; shall be provided with weather strips; location: Dining / living,bedrm (1st floor)",
+    "unit": "nr",
+    "quantity": 1.0,
+    "bill_quantity": 1,
+    "origins": "COUNTED, READ (VISUAL)",
+    "clause": "H1.1"
+   },
+   {
+    "code": "H-J",
+    "description": "Partly fixed partly sliding door, 3650 x 3200mm, type DW 08; shall be provided with weather strips; location: Dining / living (2nd to 5th floor)",
+    "unit": "nr",
+    "quantity": 8.0,
+    "bill_quantity": 8,
+    "origins": "COUNTED, READ (VISUAL)",
+    "clause": "H1.1"
+   },
+   {
+    "code": "H-K",
+    "description": "Partly fixed partly sliding door, 4000 + 7300 x 3200mm (L-shaped on plan), type DW 09; shall be provided with weather strips; location: Dining / living,bedrm (2nd to 5th floor)",
+    "unit": "nr",
+    "quantity": 4.0,
+    "bill_quantity": 4,
+    "origins": "COUNTED, READ (VISUAL)",
+    "clause": "H1.1"
+   },
+   {
+    "code": "H-L",
+    "description": "Partly fixed partly sliding door, 5800 + 8000 x 3200mm (L-shaped on plan), type DW 10; shall be provided with weather strips; location: Gymnasium (m) (lower roof)",
+    "unit": "nr",
+    "quantity": 1.0,
+    "bill_quantity": 1,
+    "origins": "COUNTED, READ (VISUAL)",
+    "clause": "H1.1"
+   },
+   {
+    "code": "H-M",
+    "description": "Partly fixed partly sliding door, 28170 + 6300 x 3200mm (L-shaped on plan), type DW 11; shall be provided with weather strips; location: Gymnasium (m,f) (lower roof)",
+    "unit": "nr",
+    "quantity": 1.0,
+    "bill_quantity": 1,
+    "origins": "COUNTED, READ (VISUAL)",
+    "clause": "H1.1"
+   },
+   {
+    "code": "H-N",
+    "description": "Partly fixed partly sliding door, 25400 x 3200mm, type DW 12; shall be provided with weather strips; location: Gymnasium (f) (lower roof)",
+    "unit": "nr",
+    "quantity": 1.0,
+    "bill_quantity": 1,
+    "origins": "COUNTED, READ (VISUAL)",
+    "clause": "H1.1"
+   },
+   {
+    "code": "H-P",
+    "description": "Partly fixed partly hinged door, 10800 x 3200mm, type DW 13; shall be provided with weather strips; location: Gymnasium (f) (lower roof)",
+    "unit": "nr",
+    "quantity": 1.0,
+    "bill_quantity": 1,
+    "origins": "COUNTED, READ (VISUAL)",
+    "clause": "H1.1"
+   },
+   {
+    "code": "H-Q",
+    "description": "Partly fixed partly hinged door, 11400 x 3200mm, type DW 14; shall be provided with weather strips; location: Gymnasium (m) (lower roof)",
+    "unit": "nr",
+    "quantity": 1.0,
+    "bill_quantity": 1,
+    "origins": "COUNTED, READ (VISUAL)",
+    "clause": "H1.1"
+   },
+   {
+    "code": "H-R",
+    "description": "Partly fixed partly hinged door, 11350 x 3200mm, type DW 15; shall be provided with weather strips; location: Corridor (lower roof)",
+    "unit": "nr",
+    "quantity": 1.0,
+    "bill_quantity": 1,
+    "origins": "COUNTED, READ (VISUAL)",
+    "clause": "H1.1"
+   },
+   {
+    "code": "H-S",
+    "description": "Partly fixed partly hinged door, 10800 x 3200mm, type DW 16; shall be provided with weather strips; location: Corridor (lower roof)",
+    "unit": "nr",
+    "quantity": 1.0,
+    "bill_quantity": 1,
+    "origins": "COUNTED, READ (VISUAL)",
+    "clause": "H1.1"
+   },
+   {
+    "code": "H-T",
+    "description": "Partly fixed partly hinged door, 7300 + 4000 x 3200mm (L-shaped on plan), type DW 17; shall be provided with weather strips; location: Dining / living,bedrm (1st floor)",
+    "unit": "nr",
+    "quantity": 1.0,
+    "bill_quantity": 1,
+    "origins": "COUNTED, READ (VISUAL)",
+    "clause": "H1.1"
+   },
+   {
+    "code": "H-U",
+    "description": "Hinged window, 1200 x 1400mm, type DW 18; shall be provided with weather strips; location: Watchman /cctv (ground floor)",
+    "unit": "nr",
+    "quantity": 1.0,
+    "bill_quantity": 1,
+    "origins": "COUNTED, READ (VISUAL)",
+    "clause": "H1.1"
+   },
+   {
+    "code": "H-V",
+    "description": "Sliding door, 1200 x 2400mm, type DW 19; shall be provided with weather strips; location: Rear ent.lift lobby (ground floor)",
+    "unit": "nr",
+    "quantity": 1.0,
+    "bill_quantity": 1,
+    "origins": "COUNTED, READ (VISUAL)",
+    "clause": "H1.1"
+   },
+   {
+    "code": "H-W",
+    "description": "Hinged, 3050 x 2750mm, type LD-1; door shall have label; fire rated as per Civil Defense requirements; location: Substation",
+    "unit": "nr",
+    "quantity": 1.0,
+    "bill_quantity": 1,
+    "origins": "COUNTED, READ (VISUAL)",
+    "clause": "H1.1"
+   },
+   {
+    "code": "H-X",
+    "description": "Hinged, 1800 x 2200mm, type LD-2; fire rated as per Civil Defense requirements; door shall have label; location: Generator room (basement)",
+    "unit": "nr",
+    "quantity": 1.0,
+    "bill_quantity": 1,
+    "origins": "COUNTED, READ (VISUAL)",
+    "clause": "H1.1"
+   },
+   {
+    "code": "H-Y",
+    "description": "Hinged, 3500 x 2750mm, type LD-3; door shall have label; location: Elec. Elec. cabin (basement)",
+    "unit": "nr",
+    "quantity": 1.0,
+    "bill_quantity": 1,
+    "origins": "COUNTED, READ (VISUAL)",
+    "clause": "H1.1"
+   },
+   {
+    "code": "H-Z",
+    "description": "Fixed, 2900 x 2000mm, type LW 01; location: Substation (ground flr.)",
+    "unit": "nr",
+    "quantity": 1.0,
+    "bill_quantity": 1,
+    "origins": "COUNTED, READ (VISUAL)",
+    "clause": "H2.1"
+   },
+   {
+    "code": "H-AA",
+    "description": "Fixed, 2400 x 2000mm, type LW 02; location: Pool pump (ground flr.)",
+    "unit": "nr",
+    "quantity": 1.0,
+    "bill_quantity": 1,
+    "origins": "COUNTED, READ (VISUAL)",
+    "clause": "H2.1"
+   },
+   {
+    "code": "H-BB",
+    "description": "Fixed, 2000 x 2000mm, type LW 03; location: Gener.room (basement flr.)",
+    "unit": "nr",
+    "quantity": 1.0,
+    "bill_quantity": 1,
+    "origins": "COUNTED, READ (VISUAL)",
+    "clause": "H2.1"
+   },
+   {
+    "code": "H-CC",
+    "description": "Hinged, 1500 x 2200mm, type SD-1; fire rated as per Civil Defense requirements; door shall have label; location: Lv room",
+    "unit": "nr",
+    "quantity": 1.0,
+    "bill_quantity": 1,
+    "origins": "COUNTED, READ (VISUAL)",
+    "clause": "H1.1"
+   },
+   {
+    "code": "H-DD",
+    "description": "Hinged, 1015 x 2200mm, type SD-2; fire rated as per Civil Defense requirements; door shall have label; location: Tele.room,gsm rm,pool pump (gf,lower roof)",
+    "unit": "nr",
+    "quantity": 3.0,
+    "bill_quantity": 3,
+    "origins": "COUNTED, READ (VISUAL)",
+    "clause": "H1.1"
+   },
+   {
+    "code": "H-EE",
+    "description": "Hinged, 1800 x 2200mm, type SD-3; fire rated as per Civil Defense requirements; door shall have label; location: Garbage room (ground floor)",
+    "unit": "nr",
+    "quantity": 1.0,
+    "bill_quantity": 1,
+    "origins": "COUNTED, READ (VISUAL)",
+    "clause": "H1.1"
+   },
+   {
+    "code": "H-FF",
+    "description": "Hinged door, 1200 x 2200mm, type D-1; fire rated as per Civil Defence requirements; door shall have push plates on egress side and door knob on the other side; door shall have label and self door closer; location: Staircase",
+    "unit": "nr",
+    "quantity": 20.0,
+    "bill_quantity": 20,
+    "origins": "COUNTED, READ (VISUAL)",
+    "clause": "H1.1"
+   },
+   {
+    "code": "H-GG",
+    "description": "Hinged door, 1100 x 2200mm, type D-2; fire rated as per Civil Defence requirements; shall be provided with weather strips; location: Apartment entrance (1st to 5th floor)",
+    "unit": "nr",
+    "quantity": 185.0,
+    "bill_quantity": 185,
+    "origins": "COUNTED, READ (VISUAL)",
+    "clause": "H1.1"
+   },
+   {
+    "code": "H-HH",
+    "description": "Hinged door, 1015 x 2200mm, type D-3; location: Utility entrance (1st flr ,lower floor) bedroom,watchman rm (gf,1st to 5th)",
+    "unit": "nr",
+    "quantity": 28.0,
+    "bill_quantity": 28,
+    "origins": "COUNTED, READ (VISUAL)",
+    "clause": "H1.1"
+   },
+   {
+    "code": "H-JJ",
+    "description": "Hinged door, 915 x 2200mm, type D-4; location: Toilet, bath room (gf,1st to 5th floor)",
+    "unit": "nr",
+    "quantity": 206.0,
+    "bill_quantity": 206,
+    "origins": "COUNTED, READ (VISUAL)",
+    "clause": "H1.1"
+   },
+   {
+    "code": "H-KK",
+    "description": "Hinged door, 1015 x 2200mm, type D-5; door shall have label; fire rated as per Civil Defense requirements; location: Water meter rm.,tele.rm., garbage rm.,elect. Rm. (1st to 5th floor,lower rf)",
+    "unit": "nr",
+    "quantity": 28.0,
+    "bill_quantity": 28,
+    "origins": "COUNTED, READ (VISUAL)",
+    "clause": "H1.1"
+   }
+  ],
+  "J": [
+   {
+    "code": "J-A",
+    "description": "Floors, ground floor",
+    "unit": "m2",
+    "quantity": 94.48,
+    "bill_quantity": 94,
+    "origins": "MEASURED",
+    "clause": "J3.1.1"
+   },
+   {
+    "code": "J-B",
+    "description": "Floors",
+    "unit": "m2",
+    "quantity": 6618.52,
+    "bill_quantity": 6619,
+    "origins": "MEASURED",
+    "clause": "J3.1.1"
+   },
+   {
+    "code": "J-C",
+    "description": "Skirtings",
+    "unit": "m",
+    "quantity": 9662.27,
+    "bill_quantity": 9662,
+    "origins": "MEASURED",
+    "clause": "J3.2"
+   },
+   {
+    "code": "J-D",
+    "description": "Walls, internal",
+    "unit": "m2",
+    "quantity": 35368.54,
+    "bill_quantity": 35369,
+    "origins": "DERIVED, MEASURED",
+    "clause": "J3.1.2"
+   },
+   {
+    "code": "J-E",
+    "description": "Ceilings",
+    "unit": "m2",
+    "quantity": 6713.0,
+    "bill_quantity": 6713,
+    "origins": "MEASURED",
+    "clause": "J3.1.3"
+   }
+  ]
+ },
+ "storeys": {
+  "B1": {
+   "level": -3.5,
+   "height": 3.8,
+   "basis": "GF +0.30 less B1 -3.50 (A-09-003)"
+  },
+  "GF": {
+   "level": 0.3,
+   "height": 5.15,
+   "basis": "1F +5.45 less GF +0.30 (A-09-003); agrees with the 5150 mm dimension"
+  },
+  "1F": {
+   "level": 5.45,
+   "height": 3.7,
+   "basis": "2F +9.15 less 1F +5.45 (A-09-003); agrees with the 3700 mm dimension"
+  },
+  "2F": {
+   "level": 9.15,
+   "height": 3.7,
+   "basis": "3F +12.85 less 2F +9.15 (A-09-003); agrees with the 3700 mm dimension"
+  },
+  "3F": {
+   "level": 12.85,
+   "height": 3.7,
+   "basis": "4F +16.55 less 3F +12.85 (A-09-003); agrees with the 3700 mm dimension"
+  },
+  "4F": {
+   "level": 16.55,
+   "height": 3.7,
+   "basis": "5F +20.25 less 4F +16.55 (A-09-003); agrees with the 3700 mm dimension"
+  },
+  "5F": {
+   "level": 20.25,
+   "height": 3.7,
+   "basis": "LOWER ROOF +23.95 less 5F +20.25 (A-09-003); agrees with the 3700 mm dimension"
+  },
+  "LOWER ROOF": {
+   "level": 23.95,
+   "height": 3.5,
+   "basis": "UPPER ROOF +27.45 less LOWER ROOF +23.95 (A-09-003); agrees with the 3500 mm dimension"
+  },
+  "UPPER ROOF": {
+   "level": 27.45,
+   "height": null,
+   "basis": "top level read"
+  }
+ },
+ "gaps": 70,
+ "pending_readings": [
+  "A-09-004.notes.request"
+ ],
+ "readings_used": {
+  "A-09-003.levels": "saved reading (Claude Code (visual reading, this session))",
+  "A-09-003.notes": "saved reading (Claude Code (visual reading, this session))",
+  "A-09-004.notes": "no provider configured",
+  "A-12-012.notes": "saved reading (Claude Code (visual reading, this session))",
+  "A-12-013.notes": "saved reading (Claude Code (visual reading, this session))",
+  "A-13-001.schedule": "saved reading (Claude Code (visual reading, this session))",
+  "A-13-002.schedule": "saved reading (Claude Code (visual reading, this session))",
+  "A-13-003.schedule": "saved reading (Claude Code (visual reading, this session))"
+ },
+ "files": [
+  "D:\\Girish\\AETRAA\\Girish\\boq_arch\\jobs\\20260924-123117-f202\\output\\5310319 PROPOSED RESIDENTIAL BUILDING (B+G+5+ROOF) - Take-off - Section D - Rev 00.xlsx",
+  "D:\\Girish\\AETRAA\\Girish\\boq_arch\\jobs\\20260924-123117-f202\\output\\5310319 PROPOSED RESIDENTIAL BUILDING (B+G+5+ROOF) - BOQ Unpriced - Section D - Rev 00.xlsx",
+  "D:\\Girish\\AETRAA\\Girish\\boq_arch\\jobs\\20260924-123117-f202\\output\\5310319 PROPOSED RESIDENTIAL BUILDING (B+G+5+ROOF) - Take-off - Section G - Rev 00.xlsx",
+  "D:\\Girish\\AETRAA\\Girish\\boq_arch\\jobs\\20260924-123117-f202\\output\\5310319 PROPOSED RESIDENTIAL BUILDING (B+G+5+ROOF) - BOQ Unpriced - Section G - Rev 00.xlsx",
+  "D:\\Girish\\AETRAA\\Girish\\boq_arch\\jobs\\20260924-123117-f202\\output\\5310319 PROPOSED RESIDENTIAL BUILDING (B+G+5+ROOF) - Take-off - Section H - Rev 00.xlsx",
+  "D:\\Girish\\AETRAA\\Girish\\boq_arch\\jobs\\20260924-123117-f202\\output\\5310319 PROPOSED RESIDENTIAL BUILDING (B+G+5+ROOF) - BOQ Unpriced - Section H - Rev 00.xlsx",
+  "D:\\Girish\\AETRAA\\Girish\\boq_arch\\jobs\\20260924-123117-f202\\output\\5310319 PROPOSED RESIDENTIAL BUILDING (B+G+5+ROOF) - Take-off - Section J - Rev 00.xlsx",
+  "D:\\Girish\\AETRAA\\Girish\\boq_arch\\jobs\\20260924-123117-f202\\output\\5310319 PROPOSED RESIDENTIAL BUILDING (B+G+5+ROOF) - BOQ Unpriced - Section J - Rev 00.xlsx",
+  "D:\\Girish\\AETRAA\\Girish\\boq_arch\\jobs\\20260924-123117-f202\\output\\5310319 PROPOSED RESIDENTIAL BUILDING (B+G+5+ROOF) - GAPS - Rev 00.xlsx",
+  "D:\\Girish\\AETRAA\\Girish\\boq_arch\\jobs\\20260924-123117-f202\\output\\overlays\\A-07-003 measured.pdf",
+  "D:\\Girish\\AETRAA\\Girish\\boq_arch\\jobs\\20260924-123117-f202\\output\\overlays\\A-07-004 measured.pdf",
+  "D:\\Girish\\AETRAA\\Girish\\boq_arch\\jobs\\20260924-123117-f202\\output\\overlays\\A-07-005 measured.pdf",
+  "D:\\Girish\\AETRAA\\Girish\\boq_arch\\jobs\\20260924-123117-f202\\output\\overlays\\A-07-006 measured.pdf",
+  "D:\\Girish\\AETRAA\\Girish\\boq_arch\\jobs\\20260924-123117-f202\\output\\overlays\\A-07-007 measured.pdf",
+  "D:\\Girish\\AETRAA\\Girish\\boq_arch\\jobs\\20260924-123117-f202\\output\\overlays\\A-07-008 measured.pdf"
+ ]
+}

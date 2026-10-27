@@ -1,0 +1,27 @@
+{
+ "blocked": false,
+ "gates": {
+  "markups": {
+   "derotated": [],
+   "items": 0,
+   "sheets": 0
+  },
+  "provenance": {
+   "rows": 0,
+   "untraced": 0
+  },
+  "takeoff": {
+   "audit_tabs": 0,
+   "items": 0,
+   "renamed_tabs": 0,
+   "rows": 0,
+   "sections": 0
+  }
+ },
+ "recalculated": false,
+ "written": [
+  "markup/00-LEGEND-INDEX.pdf",
+  "provenance.xlsx",
+  "takeoff.xlsx"
+ ]
+}

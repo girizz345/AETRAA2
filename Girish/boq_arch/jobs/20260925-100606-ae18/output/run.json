@@ -1,0 +1,40 @@
+{
+ "project": "5310319 PROPOSED RESIDENTIAL BUILDING (B+G+5+ROOF)",
+ "identity": {
+  "owner": "G F S REAL ESTATE L.L.C",
+  "job_title": "PROPOSED RESIDENTIAL BUILDING (B+G+5+ROOF)",
+  "plot": "5310319",
+  "community": "",
+  "consultant": ""
+ },
+ "rev": "00",
+ "seconds": 17,
+ "drawings_folder": "D:\\Girish\\AETRAA\\Girish\\boq_arch\\jobs\\20260925-100606-ae18\\drawings",
+ "sections": {},
+ "storeys": {},
+ "gaps": 8,
+ "gaps_by_section": {
+  "(all)": 3,
+  "D": 1,
+  "E": 1,
+  "H": 2,
+  "J": 1
+ },
+ "drawings": {
+  "A-03-001": "AREA CALCULATION-1"
+ },
+ "section_titles": {},
+ "pending_readings": [
+  "A-09-004.notes.request",
+  "file-0772d13ef917.title_block.request",
+  "file-714fd2b309b1.title_block.request",
+  "file-71f609df4c8b.title_block.request",
+  "file-c78dec475e9d.title_block.request"
+ ],
+ "readings_used": {},
+ "files": [
+  "D:\\Girish\\AETRAA\\Girish\\boq_arch\\jobs\\20260925-100606-ae18\\output\\5310319 PROPOSED RESIDENTIAL BUILDING (B+G+5+ROOF) - Take-off - Rev 00.xlsx",
+  "D:\\Girish\\AETRAA\\Girish\\boq_arch\\jobs\\20260925-100606-ae18\\output\\5310319 PROPOSED RESIDENTIAL BUILDING (B+G+5+ROOF) - BOQ Unpriced - Bill No.1 - Rev 00.xlsx",
+  "D:\\Girish\\AETRAA\\Girish\\boq_arch\\jobs\\20260925-100606-ae18\\output\\5310319 PROPOSED RESIDENTIAL BUILDING (B+G+5+ROOF) - GAPS - Rev 00.xlsx"
+ ]
+}

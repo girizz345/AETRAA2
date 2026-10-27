@@ -1,0 +1,116 @@
+{
+  "schema": "house_template/2",
+  "provenance": "reference/house-template.md v2.0 - measured across eight issued workbooks, 128 sheets, of which 59 carry the BILL OF QUANTITIES head band and are bill pages; 660 pages measured for the font reading; 341 pages for the 62-row rhythm",
+  "supersedes": "reference/takeoff-format.md (LEGACY v1 - A4 landscape, Calibri 8.9, six columns, fully ruled). A workbook built to the old format is not the issued house format.",
+  "sheet": {
+    "paper": "A4",
+    "paper_size_code": 9,
+    "orientation": "portrait",
+    "margins_in": {"left": 0.25, "right": 0.25, "top": 0.5, "bottom": 0.5, "header": 0.25, "footer": 0.25},
+    "excel_header_footer": null,
+    "print_title_rows": null,
+    "explicit_row_breaks": null,
+    "row_height": 12.75,
+    "font": "Arial",
+    "font_sizes": {
+      "project_band_lines": {"pt": 10, "bold": true},
+      "project_band_labels": {"pt": 8, "bold": false, "applies_to": ["BILL OF QUANTITIES", "BILL NO.", "PAGE NO."]},
+      "column_head_band": {"pt": 8, "bold": false},
+      "section_title_in_D": {"pt": 9, "bold": true},
+      "body": {"pt": 10, "bold": false},
+      "body_headings_and_totals": {"pt": 10, "bold": true}
+    },
+    "note": "the band is not one size. An earlier reading assumed 10 pt throughout and was wrong."
+  },
+  "columns": [
+    {"col": "A", "width": 4.711,  "carries": "item reference - one letter", "align": "center", "number_format": "General", "unanimous": true},
+    {"col": "B", "width": 1.711,  "carries": "spacer - no value, no vertical rule", "unanimous": true},
+    {"col": "C", "width": 31.711, "carries": "item description", "align": "left", "number_format": "General", "unanimous": true},
+    {"col": "D", "width": 15.711, "carries": "description overflow; the head band's BILL OF QUANTITIES and section title; To Collection", "unanimous": true},
+    {"col": "E", "width": 8.711,  "carries": "quantity", "align": "right", "number_format": "#,##0_);[Red](#,##0)", "format_basis": "bracketed-red, 1129 rows against 768 Accounting", "unanimous": true},
+    {"col": "F", "width": 5.711,  "carries": "unit", "align": "center", "number_format": "General", "unanimous": true},
+    {"col": "G", "width": 12.711, "carries": "unit rate", "number_format": "#,##0.00_);[Red](#,##0.00)", "format_basis": "bracketed-red, 1290 rows against 339 Accounting", "unanimous": true},
+    {"col": "H", "width": 14.711, "carries": "total price", "align": "right", "number_format": "_(* #,##0.00_);_(* (#,##0.00);_(* \"-\"??_);_(@_)", "format_basis": "Accounting, 1192 rows against 675 bracketed-red", "unanimous": false, "observed_widths": {"14.711": 23, "15.711": 8, "16.141": 5, "18.57": 3, "17.426": 3}, "gate_accepts": [14.5, 18.0], "note": "the house value is 14.711, the plurality. An earlier reading of the reference named 15.711 - the third most common - and was corrected against the workbooks."}
+  ],
+  "column_gate": "fail any deviation on A to G; accept 14.5 to 18.0 on H alone",
+  "cover_sheet_geometry": {"A": 9.711, "basis": "68 of the 69 non-bill sheets", "note": "a cover is not a bill page and is not held to the bill-page widths"},
+  "visual_note": "B, C and D are one visual cell - no vertical rule falls between them, so the reader sees six columns where the workbook has eight",
+  "page": {
+    "rows": 62,
+    "first_rows": [1, 63, 125, 187],
+    "body_rows": 46,
+    "basis": "holds on 341 of the issued pages; the drifts in the set are single-sheet lapses, not the format",
+    "offsets": [
+      {"offset": 0,  "kind": "project band 1", "cells": {"A": "client", "D": "BILL OF QUANTITIES", "G": "BILL NO.", "H": "PAGE NO."}},
+      {"offset": 1,  "kind": "project band 2", "cells": {"A": "project"}},
+      {"offset": 2,  "kind": "project band 3", "cells": {"A": "package", "D": "{SECTION TITLE}", "G": "{bill}/{section}", "H": "{bill}/{section}/{page}"}},
+      {"offset": 3,  "kind": "project band 4", "cells": {"A": "building or sub-package"}},
+      {"offset": 4,  "kind": "spacer", "cells": {"C": " ", "F": " "}},
+      {"offset": 5,  "kind": "column head 1", "cells": {"A": "ITEM", "C": "ITEM DESCRIPTION", "E": "QUANTITY", "F": "UNIT", "G": "UNIT", "H": "TOTAL PRICE"}},
+      {"offset": 6,  "kind": "column head 2", "cells": {"A": "REF.", "G": "RATE", "H": "AED"}},
+      {"offset": 7,  "kind": "blank"},
+      {"offset": 8,  "kind": "section heading", "first_page": "SECTION {L} - {TITLE}", "later_pages": "SECTION {L} - {TITLE} (CONT'D)"},
+      {"offset": [9, 54], "kind": "body", "contains": ["items", "element headings", "description continuation lines", "blank separators"]},
+      {"offset": [55, 59], "kind": "blank tail", "rows": 5},
+      {"offset": 60, "kind": "To Collection", "cells": {"D": "To Collection", "H": "=SUM(H{P+9}:H{P+54})"}},
+      {"offset": 61, "kind": "blank"}
+    ],
+    "overflow_rule": "an item that does not fit starts the next page. 46 is not a target."
+  },
+  "page_codes": {
+    "bill_no": "{bill}/{section}",
+    "page_no": "{bill}/{section}/{page}",
+    "page_restarts": "per section, not per bill",
+    "two_part_form": "{bill}/{page}",
+    "two_part_applies_to": "a bill with no POMI section of its own - Dayworks, which is [GP9]",
+    "counts": {"three_part": 286, "two_part": 17},
+    "note": "a builder that assumes three parts cannot produce a dayworks bill"
+  },
+  "body": {
+    "one_row_is_one_line": true,
+    "wrap_text": false,
+    "wrap_method": "the builder breaks description text across consecutive rows of column C at the measured wrap width",
+    "why": "a wrapped cell changes height, and a changed height breaks the 62-row page",
+    "figures_on": "the first row of an item only"
+  },
+  "continuation_strings": {
+    "section": "SECTION {L} - {TITLE} (CONT'D)",
+    "element": "{Element} (Cont'd)",
+    "counts": {"(CONT'D)": 155, "(Cont'd)": 87, "(CONT'D.)": 13, "(Cont'd.)": 10},
+    "note": "the trailing-period variants are a minority in the issued set and are not reproduced"
+  },
+  "money_column_words": {
+    "item": "in F - the unit for a lump-sum item",
+    "Included": "in H - priced within another item",
+    "N.A": "in H - not applicable to this project",
+    "By OSE": "in H - by others or owner-supplied"
+  },
+  "borders": {
+    "style": "thin black, VERTICAL RULES ONLY",
+    "horizontal": "band boundaries only",
+    "warning": "reproducing the page as a fully ruled grid is wrong"
+  },
+  "closing_pages": {
+    "list_any_additional_items": {
+      "position": "closes a section, on its own page, immediately after the column head band",
+      "lines": 5,
+      "column": "C",
+      "layout": "blank row between the heading and the paragraph, then two rule lines",
+      "trailing_space_on_lines": [2, 3, 4, 5],
+      "note": "the trailing single space on lines 2 to 5 is in the issued file - keep it"
+    },
+    "collection": {
+      "position": "last page of a section",
+      "head_band": "abbreviated - only C = ITEM DESCRIPTION and H = TOTAL PRICE / AED; no ITEM, QUANTITY, UNIT or RATE",
+      "rows": "one per page: 'Page {bill}/{section}/{n}' with H linking to that page's To Collection cell",
+      "total_line": "TOTAL FOR BILL NO. {bill}/{section}/{last page} - SECTION {L} - {TITLE}, / CARRIED TO SUMMARY  - {summary ref}",
+      "total_line_note": "the TOTAL FOR line ends with a comma and a trailing space and continues on the next row; CARRIED TO SUMMARY is followed by TWO spaces before the dash"
+    },
+    "bill_summary": {"D": "SUMMARY", "rows": "one per section - C the last page code, D the section title, H a link to that section sheet's TOTAL FOR cell", "closes_with": "TOTAL CARRIED TO FORM OF TENDER"},
+    "grand_summary": {"D": "GRAND SUMMARY", "H_page_code": "GS", "rows": "one per bill - C = BILL NO. {n}, D the bill title, H a link to that bill's summary total", "closes_with": ["TOTAL CARRIED TO FORM OF TENDER", "AMOUNT IN WORDS"]}
+  },
+  "item_lettering": {
+    "sequence": "A, B, C ... within the page",
+    "known_defects_in_issued_set": "nine pages break the rule - one uses I, one repeats A B A B, seven skip letters where a revision deleted an item and the sequence was never re-lettered. Those are defects in those pages, not in the rule."
+  }
+}

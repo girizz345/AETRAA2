@@ -1,0 +1,986 @@
+{
+ "count": 140,
+ "gaps": [
+  {
+   "detail": null,
+   "doc_id": "Architecture/A1/A-00-001 COVERSHEET.pdf",
+   "reason": "no title-block pattern matched; drawing number taken from the file name: A-00-001",
+   "stage": "S1",
+   "subject": "drawing number"
+  },
+  {
+   "detail": null,
+   "doc_id": "Architecture/A1/A-03-001TOA-03-004 AREA CALCULATION-A-00-001.pdf",
+   "reason": "no title-block pattern matched; drawing number taken from the file name: A-03-001TOA-03-004",
+   "stage": "S1",
+   "subject": "drawing number"
+  },
+  {
+   "detail": "are these sheets for this project? PLUMBING/WS-00 SETTING OUTPLAN WATER SUPPLY LAYOUT.pdf, PLUMBING/WS-01 UNDERGROUND PUMP ROOM WATER SUPPLY LAYOUT.pdf, PLUMBING/WS-02 BASEMENT FLOOR PLAN WATER SUPPLY LAYOUT.pdf, PLUMBING/WS-03 GROUND FLOOR PLAN WATER SUPPLY LAYOUT.pdf, PLUMBING/WS-04 FIRST FLOOR PLAN WATER SUPPLY LAYOUT.pdf, PLUMBING/WS-05 2NDFLOORPLAN WATER SUPPLY LAYOUT.pdf, PLUMBING/WS-06 TYPICAL(3RD&5TH)FLOORPLAN WATER SUPPLY LAYOUT.pdf, PLUMBING/WS-07 4TH&6THFLOORPLAN WATER SUPPLY LAYOUT.pdf, PLUMBING/WS-08 LOWER ROOF FLOOR PLAN WATER SUPPLY LAYOUT.pdf, PLUMBING/WS-10 SCHEMATIC DIAGRAM WATER SUPPLY LAYOUT.pdf, PLUMBING/WS-11 TYPICAL DETAILS WATER SUPPLY LAYOUT.pdf",
+   "doc_id": "PLUMBING/WS-00 SETTING OUTPLAN WATER SUPPLY LAYOUT.pdf",
+   "reason": "11 sheet(s) give the job title as 'PROPOSED RESIDENTIAL BUILDING (B+G+6+ROOF)', where the rest of the package says 'PROPOSED RESIDENTIAL BUILDING (B+G+5+ROOF)'",
+   "stage": "S1",
+   "subject": "project job title"
+  },
+  {
+   "detail": "are these sheets for this project? PLUMBING/WS-01 UNDERGROUND PUMP ROOM WATER SUPPLY LAYOUT.pdf, PLUMBING/WS-08 LOWER ROOF FLOOR PLAN WATER SUPPLY LAYOUT.pdf, PLUMBING/WS-09 UPPER ROOF FLOOR PLAN WATER SUPPLY LAYOUT.pdf, PLUMBING/WS-10 SCHEMATIC DIAGRAM WATER SUPPLY LAYOUT.pdf, PLUMBING/WS-11 TYPICAL DETAILS WATER SUPPLY LAYOUT.pdf",
+   "doc_id": "PLUMBING/WS-01 UNDERGROUND PUMP ROOM WATER SUPPLY LAYOUT.pdf",
+   "reason": "5 sheet(s) give the plot number as '5310301', where the rest of the package says '5310319'",
+   "stage": "S1",
+   "subject": "project plot number"
+  },
+  {
+   "detail": "Structure/STRUCTURE Sheet 22.pdf, Structure/STRUCTURE Sheet 23.pdf",
+   "doc_id": "Structure/STRUCTURE Sheet 22.pdf",
+   "reason": "2 files claim S-02_4 rev -",
+   "stage": "S1",
+   "subject": "S-02_4"
+  },
+  {
+   "detail": "not averaged - raise as a query",
+   "doc_id": null,
+   "reason": "schedule says 20, plan tags say 19 (A-07-001 1, A-07-003 4, A-07-004 3, A-07-005 2, A-07-006 2, A-07-007 4, A-07-008 2, A-07-009 1)",
+   "stage": "S10",
+   "subject": "D-1"
+  },
+  {
+   "detail": "not averaged - raise as a query",
+   "doc_id": null,
+   "reason": "schedule says 1, plan tags say 2 (A-07-003 1, A-07-004 1)",
+   "stage": "S10",
+   "subject": "DW 01"
+  },
+  {
+   "detail": "not averaged - raise as a query (its location is on B1, which has no plan in the set)",
+   "doc_id": null,
+   "reason": "schedule says 1, plan tags say 0 (no tag on any floor plan in the set)",
+   "stage": "S10",
+   "subject": "DW 02"
+  },
+  {
+   "detail": "not averaged - raise as a query (its location is on B1, which has no plan in the set)",
+   "doc_id": null,
+   "reason": "schedule says 1, plan tags say 0 (no tag on any floor plan in the set)",
+   "stage": "S10",
+   "subject": "LD-2"
+  },
+  {
+   "detail": "not averaged - raise as a query (its location is on B1, which has no plan in the set)",
+   "doc_id": null,
+   "reason": "schedule says 1, plan tags say 0 (no tag on any floor plan in the set)",
+   "stage": "S10",
+   "subject": "LD-3"
+  },
+  {
+   "detail": "not averaged - raise as a query (its location is on B1, which has no plan in the set)",
+   "doc_id": null,
+   "reason": "schedule says 1, plan tags say 0 (no tag on any floor plan in the set)",
+   "stage": "S10",
+   "subject": "LW 03"
+  },
+  {
+   "detail": "the break is a pagination decision \u2014 the bill restarts letters per page",
+   "doc_id": null,
+   "reason": "section H carries 34 items; the letter run holds 20, so codes continue in a second run with its ordinal",
+   "stage": "S13",
+   "subject": "H"
+  },
+  {
+   "detail": "the schedule was transcribed; check the legend against the cards",
+   "doc_id": "Architecture/A2/A-13-001 SCHEDULE OF DOORS.pdf",
+   "reason": "12 item(s) from this drawn schedule are listed in the sheet legend; its marks are drawn, not written, so none is boxed on the sheet",
+   "stage": "S14",
+   "subject": "H-A to H-M"
+  },
+  {
+   "detail": "the schedule was transcribed; check the legend against the cards",
+   "doc_id": "Architecture/A2/A-13-002 SCHEDULE OF WINDOWS-01.pdf",
+   "reason": "11 item(s) from this drawn schedule are listed in the sheet legend; its marks are drawn, not written, so none is boxed on the sheet",
+   "stage": "S14",
+   "subject": "H-2A to H-V"
+  },
+  {
+   "detail": "the schedule was transcribed; check the legend against the cards",
+   "doc_id": "Architecture/A2/A-13-003 SCHEDULE OF WINDOWS-02.pdf",
+   "reason": "11 item(s) from this drawn schedule are listed in the sheet legend; its marks are drawn, not written, so none is boxed on the sheet",
+   "stage": "S14",
+   "subject": "H-2C to H-2P"
+  },
+  {
+   "detail": "clause J3.1, element Ceilings, rooms",
+   "doc_id": null,
+   "reason": "description slot 'design_standard' has no evidenced value; left visible for review",
+   "stage": "S15",
+   "subject": "J-A"
+  },
+  {
+   "detail": "Finishings, to ceilings, rooms, in accordance with the {design_standard}, Specifications and Drawings",
+   "doc_id": null,
+   "reason": "hygiene: contains '{'",
+   "stage": "S15",
+   "subject": "J-A"
+  },
+  {
+   "detail": "Finishings, to ceilings, rooms, in accordance with the {design_standard}, Specifications and Drawings",
+   "doc_id": null,
+   "reason": "hygiene: contains '}'",
+   "stage": "S15",
+   "subject": "J-A"
+  },
+  {
+   "detail": "clause J3.2, element Skirtings, rooms",
+   "doc_id": null,
+   "reason": "description slot 'design_standard' has no evidenced value; left visible for review",
+   "stage": "S15",
+   "subject": "J-G"
+  },
+  {
+   "detail": "Skirtings, bands, strings, coverings to kerbs, mouldings, coves, channels, to walls, rooms, in accordance with the {design_standard}, Specifications and Drawing",
+   "doc_id": null,
+   "reason": "hygiene: contains '{'",
+   "stage": "S15",
+   "subject": "J-G"
+  },
+  {
+   "detail": "Skirtings, bands, strings, coverings to kerbs, mouldings, coves, channels, to walls, rooms, in accordance with the {design_standard}, Specifications and Drawing",
+   "doc_id": null,
+   "reason": "hygiene: contains '}'",
+   "stage": "S15",
+   "subject": "J-G"
+  },
+  {
+   "detail": "bill.xlsx is blocked until each FAIL is justified in AN_RECONCILIATION.json (\"<evidence_kind>|<section>\", or \"unread_schedule|<drawing no>\" for a schedule not read), or the schedule is read",
+   "doc_id": null,
+   "reason": "completeness gate FAILED \u2014 212 wet_room but no rows in section Q",
+   "stage": "S16",
+   "subject": "completeness gate"
+  },
+  {
+   "detail": null,
+   "doc_id": null,
+   "reason": "NO_RATE for class UNLISTED_CLASS:D.D2.1",
+   "stage": "S18",
+   "subject": "D-A"
+  },
+  {
+   "detail": null,
+   "doc_id": null,
+   "reason": "NO_RATE for class UNLISTED_CLASS:D.D2.1",
+   "stage": "S18",
+   "subject": "D-B"
+  },
+  {
+   "detail": null,
+   "doc_id": null,
+   "reason": "NO_RATE for class UNLISTED_CLASS:D.D2.1",
+   "stage": "S18",
+   "subject": "D-C"
+  },
+  {
+   "detail": null,
+   "doc_id": null,
+   "reason": "no listed rate class for the clause; UNLISTED_CLASS:D.D2.1 is searched on the clause title and flagged UNLISTED_CLASS",
+   "stage": "S18",
+   "subject": "D2.1"
+  },
+  {
+   "detail": null,
+   "doc_id": null,
+   "reason": "G+.31 item type 'floor_waterproofing' is not in the unit dictionary",
+   "stage": "S18",
+   "subject": "G-A"
+  },
+  {
+   "detail": null,
+   "doc_id": null,
+   "reason": "NO_RATE for class UNLISTED_CLASS:G.G2.1",
+   "stage": "S18",
+   "subject": "G-A"
+  },
+  {
+   "detail": null,
+   "doc_id": null,
+   "reason": "G+.31 item type 'roof_waterproofing' is not in the unit dictionary",
+   "stage": "S18",
+   "subject": "G-B"
+  },
+  {
+   "detail": null,
+   "doc_id": null,
+   "reason": "NO_RATE for class UNLISTED_CLASS:G.G2.1",
+   "stage": "S18",
+   "subject": "G-B"
+  },
+  {
+   "detail": null,
+   "doc_id": null,
+   "reason": "no listed rate class for the clause; UNLISTED_CLASS:G.G2.1 is searched on the clause title and flagged UNLISTED_CLASS",
+   "stage": "S18",
+   "subject": "G2.1"
+  },
+  {
+   "detail": null,
+   "doc_id": null,
+   "reason": "NO_RATE for class UNLISTED_CLASS:H.H2.1",
+   "stage": "S18",
+   "subject": "H-2A"
+  },
+  {
+   "detail": null,
+   "doc_id": null,
+   "reason": "NO_RATE for class UNLISTED_CLASS:H.H2.1",
+   "stage": "S18",
+   "subject": "H-2B"
+  },
+  {
+   "detail": null,
+   "doc_id": null,
+   "reason": "NO_RATE for class UNLISTED_CLASS:H.H2.1",
+   "stage": "S18",
+   "subject": "H-2C"
+  },
+  {
+   "detail": null,
+   "doc_id": null,
+   "reason": "NO_RATE for class UNLISTED_CLASS:H.H2.1",
+   "stage": "S18",
+   "subject": "H-2D"
+  },
+  {
+   "detail": null,
+   "doc_id": null,
+   "reason": "NO_RATE for class UNLISTED_CLASS:H.H2.1",
+   "stage": "S18",
+   "subject": "H-2E"
+  },
+  {
+   "detail": null,
+   "doc_id": null,
+   "reason": "NO_RATE for class UNLISTED_CLASS:H.H2.1",
+   "stage": "S18",
+   "subject": "H-2F"
+  },
+  {
+   "detail": null,
+   "doc_id": null,
+   "reason": "NO_RATE for class UNLISTED_CLASS:H.H2.1",
+   "stage": "S18",
+   "subject": "H-2G"
+  },
+  {
+   "detail": null,
+   "doc_id": null,
+   "reason": "NO_RATE for class UNLISTED_CLASS:H.H2.1",
+   "stage": "S18",
+   "subject": "H-2H"
+  },
+  {
+   "detail": null,
+   "doc_id": null,
+   "reason": "NO_RATE for class UNLISTED_CLASS:H.H2.1",
+   "stage": "S18",
+   "subject": "H-2J"
+  },
+  {
+   "detail": null,
+   "doc_id": null,
+   "reason": "NO_RATE for class UNLISTED_CLASS:H.H2.1",
+   "stage": "S18",
+   "subject": "H-2K"
+  },
+  {
+   "detail": null,
+   "doc_id": null,
+   "reason": "NO_RATE for class UNLISTED_CLASS:H.H2.1",
+   "stage": "S18",
+   "subject": "H-2L"
+  },
+  {
+   "detail": null,
+   "doc_id": null,
+   "reason": "NO_RATE for class UNLISTED_CLASS:H.H2.1",
+   "stage": "S18",
+   "subject": "H-2M"
+  },
+  {
+   "detail": null,
+   "doc_id": null,
+   "reason": "NO_RATE for class UNLISTED_CLASS:H.H2.1",
+   "stage": "S18",
+   "subject": "H-2N"
+  },
+  {
+   "detail": null,
+   "doc_id": null,
+   "reason": "NO_RATE for class UNLISTED_CLASS:H.H2.1",
+   "stage": "S18",
+   "subject": "H-2P"
+  },
+  {
+   "detail": null,
+   "doc_id": null,
+   "reason": "NO_RATE for class UNLISTED_CLASS:H.H1.1",
+   "stage": "S18",
+   "subject": "H-A"
+  },
+  {
+   "detail": null,
+   "doc_id": null,
+   "reason": "NO_RATE for class UNLISTED_CLASS:H.H1.1",
+   "stage": "S18",
+   "subject": "H-B"
+  },
+  {
+   "detail": null,
+   "doc_id": null,
+   "reason": "NO_RATE for class UNLISTED_CLASS:H.H1.1",
+   "stage": "S18",
+   "subject": "H-C"
+  },
+  {
+   "detail": null,
+   "doc_id": null,
+   "reason": "NO_RATE for class UNLISTED_CLASS:H.H1.1",
+   "stage": "S18",
+   "subject": "H-D"
+  },
+  {
+   "detail": null,
+   "doc_id": null,
+   "reason": "NO_RATE for class UNLISTED_CLASS:H.H1.1",
+   "stage": "S18",
+   "subject": "H-E"
+  },
+  {
+   "detail": null,
+   "doc_id": null,
+   "reason": "NO_RATE for class UNLISTED_CLASS:H.H1.1",
+   "stage": "S18",
+   "subject": "H-F"
+  },
+  {
+   "detail": null,
+   "doc_id": null,
+   "reason": "NO_RATE for class UNLISTED_CLASS:H.H1.1",
+   "stage": "S18",
+   "subject": "H-G"
+  },
+  {
+   "detail": null,
+   "doc_id": null,
+   "reason": "NO_RATE for class UNLISTED_CLASS:H.H1.1",
+   "stage": "S18",
+   "subject": "H-H"
+  },
+  {
+   "detail": null,
+   "doc_id": null,
+   "reason": "NO_RATE for class UNLISTED_CLASS:H.H1.1",
+   "stage": "S18",
+   "subject": "H-J"
+  },
+  {
+   "detail": null,
+   "doc_id": null,
+   "reason": "NO_RATE for class UNLISTED_CLASS:H.H1.1",
+   "stage": "S18",
+   "subject": "H-K"
+  },
+  {
+   "detail": null,
+   "doc_id": null,
+   "reason": "NO_RATE for class UNLISTED_CLASS:H.H1.1",
+   "stage": "S18",
+   "subject": "H-L"
+  },
+  {
+   "detail": null,
+   "doc_id": null,
+   "reason": "NO_RATE for class UNLISTED_CLASS:H.H1.1",
+   "stage": "S18",
+   "subject": "H-M"
+  },
+  {
+   "detail": null,
+   "doc_id": null,
+   "reason": "NO_RATE for class UNLISTED_CLASS:H.H2.1",
+   "stage": "S18",
+   "subject": "H-N"
+  },
+  {
+   "detail": null,
+   "doc_id": null,
+   "reason": "NO_RATE for class UNLISTED_CLASS:H.H2.1",
+   "stage": "S18",
+   "subject": "H-P"
+  },
+  {
+   "detail": null,
+   "doc_id": null,
+   "reason": "NO_RATE for class UNLISTED_CLASS:H.H2.1",
+   "stage": "S18",
+   "subject": "H-Q"
+  },
+  {
+   "detail": null,
+   "doc_id": null,
+   "reason": "NO_RATE for class UNLISTED_CLASS:H.H2.1",
+   "stage": "S18",
+   "subject": "H-R"
+  },
+  {
+   "detail": null,
+   "doc_id": null,
+   "reason": "NO_RATE for class UNLISTED_CLASS:H.H2.1",
+   "stage": "S18",
+   "subject": "H-S"
+  },
+  {
+   "detail": null,
+   "doc_id": null,
+   "reason": "NO_RATE for class UNLISTED_CLASS:H.H2.1",
+   "stage": "S18",
+   "subject": "H-T"
+  },
+  {
+   "detail": null,
+   "doc_id": null,
+   "reason": "NO_RATE for class UNLISTED_CLASS:H.H2.1",
+   "stage": "S18",
+   "subject": "H-U"
+  },
+  {
+   "detail": null,
+   "doc_id": null,
+   "reason": "NO_RATE for class UNLISTED_CLASS:H.H2.1",
+   "stage": "S18",
+   "subject": "H-V"
+  },
+  {
+   "detail": null,
+   "doc_id": null,
+   "reason": "no listed rate class for the clause; UNLISTED_CLASS:H.H1.1 is searched on the clause title and flagged UNLISTED_CLASS",
+   "stage": "S18",
+   "subject": "H1.1"
+  },
+  {
+   "detail": null,
+   "doc_id": null,
+   "reason": "no listed rate class for the clause; UNLISTED_CLASS:H.H2.1 is searched on the clause title and flagged UNLISTED_CLASS",
+   "stage": "S18",
+   "subject": "H2.1"
+  },
+  {
+   "detail": null,
+   "doc_id": null,
+   "reason": "G+.31 item type 'ceiling_finish' is not in the unit dictionary",
+   "stage": "S18",
+   "subject": "J-A"
+  },
+  {
+   "detail": null,
+   "doc_id": null,
+   "reason": "NO_RATE for class UNLISTED_CLASS:J.J3.1",
+   "stage": "S18",
+   "subject": "J-A"
+  },
+  {
+   "detail": null,
+   "doc_id": null,
+   "reason": "G+.31 item type 'ceiling_finish' is not in the unit dictionary",
+   "stage": "S18",
+   "subject": "J-B"
+  },
+  {
+   "detail": null,
+   "doc_id": null,
+   "reason": "NO_RATE for class UNLISTED_CLASS:J.J3.1",
+   "stage": "S18",
+   "subject": "J-B"
+  },
+  {
+   "detail": null,
+   "doc_id": null,
+   "reason": "G+.31 item type 'floor_finish' is not in the unit dictionary",
+   "stage": "S18",
+   "subject": "J-C"
+  },
+  {
+   "detail": null,
+   "doc_id": null,
+   "reason": "NO_RATE for class UNLISTED_CLASS:J.J3.1",
+   "stage": "S18",
+   "subject": "J-C"
+  },
+  {
+   "detail": null,
+   "doc_id": null,
+   "reason": "G+.31 item type 'floor_finish' is not in the unit dictionary",
+   "stage": "S18",
+   "subject": "J-D"
+  },
+  {
+   "detail": null,
+   "doc_id": null,
+   "reason": "NO_RATE for class UNLISTED_CLASS:J.J3.1",
+   "stage": "S18",
+   "subject": "J-D"
+  },
+  {
+   "detail": null,
+   "doc_id": null,
+   "reason": "G+.31 item type 'wall_finish' is not in the unit dictionary",
+   "stage": "S18",
+   "subject": "J-E"
+  },
+  {
+   "detail": null,
+   "doc_id": null,
+   "reason": "NO_RATE for class UNLISTED_CLASS:J.J3.1",
+   "stage": "S18",
+   "subject": "J-E"
+  },
+  {
+   "detail": null,
+   "doc_id": null,
+   "reason": "G+.31 item type 'wall_finish' is not in the unit dictionary",
+   "stage": "S18",
+   "subject": "J-F"
+  },
+  {
+   "detail": null,
+   "doc_id": null,
+   "reason": "NO_RATE for class UNLISTED_CLASS:J.J3.1",
+   "stage": "S18",
+   "subject": "J-F"
+  },
+  {
+   "detail": null,
+   "doc_id": null,
+   "reason": "NO_RATE for class UNLISTED_CLASS:J.J3.2",
+   "stage": "S18",
+   "subject": "J-G"
+  },
+  {
+   "detail": null,
+   "doc_id": null,
+   "reason": "NO_RATE for class UNLISTED_CLASS:J.J3.2",
+   "stage": "S18",
+   "subject": "J-H"
+  },
+  {
+   "detail": null,
+   "doc_id": null,
+   "reason": "no listed rate class for the clause; UNLISTED_CLASS:J.J3.1 is searched on the clause title and flagged UNLISTED_CLASS",
+   "stage": "S18",
+   "subject": "J3.1"
+  },
+  {
+   "detail": null,
+   "doc_id": null,
+   "reason": "no listed rate class for the clause; UNLISTED_CLASS:J.J3.2 is searched on the clause title and flagged UNLISTED_CLASS",
+   "stage": "S18",
+   "subject": "J3.2"
+  },
+  {
+   "detail": null,
+   "doc_id": null,
+   "reason": "NO_RATE \u2014 no search with --no-ai; the class is a gap, not a number",
+   "stage": "S18",
+   "subject": "UNLISTED_CLASS:D.D2.1"
+  },
+  {
+   "detail": null,
+   "doc_id": null,
+   "reason": "NO_RATE \u2014 no search with --no-ai; the class is a gap, not a number",
+   "stage": "S18",
+   "subject": "UNLISTED_CLASS:G.G2.1"
+  },
+  {
+   "detail": null,
+   "doc_id": null,
+   "reason": "NO_RATE \u2014 no search with --no-ai; the class is a gap, not a number",
+   "stage": "S18",
+   "subject": "UNLISTED_CLASS:H.H1.1"
+  },
+  {
+   "detail": null,
+   "doc_id": null,
+   "reason": "NO_RATE \u2014 no search with --no-ai; the class is a gap, not a number",
+   "stage": "S18",
+   "subject": "UNLISTED_CLASS:H.H2.1"
+  },
+  {
+   "detail": null,
+   "doc_id": null,
+   "reason": "NO_RATE \u2014 no search with --no-ai; the class is a gap, not a number",
+   "stage": "S18",
+   "subject": "UNLISTED_CLASS:J.J3.1"
+  },
+  {
+   "detail": null,
+   "doc_id": null,
+   "reason": "NO_RATE \u2014 no search with --no-ai; the class is a gap, not a number",
+   "stage": "S18",
+   "subject": "UNLISTED_CLASS:J.J3.2"
+  },
+  {
+   "detail": "Finishings, to ceilings, rooms, in accordance with the {design_standard}, Specifications and Drawings",
+   "doc_id": null,
+   "reason": "output hygiene: contains '{'; contains '}'",
+   "stage": "S20",
+   "subject": "J-A description"
+  },
+  {
+   "detail": "Skirtings, bands, strings, coverings to kerbs, mouldings, coves, channels, to walls, rooms, in accordance with the {design_standard}, Specifications and Drawings",
+   "doc_id": null,
+   "reason": "output hygiene: contains '{'; contains '}'",
+   "stage": "S20",
+   "subject": "J-G description"
+  },
+  {
+   "detail": null,
+   "doc_id": null,
+   "reason": "bill issued as PARTIAL: completeness gate FAILED \u2014 coverage.txt names every required section it lacks and why; justify in AN_RECONCILIATION.json or close the gaps for a complete bill",
+   "stage": "S20",
+   "subject": "bill.xlsx"
+  },
+  {
+   "detail": null,
+   "doc_id": null,
+   "reason": "bill.xlsx: draft \u2014 not recalculated, DO NOT ISSUE \u2014 LibreOffice (soffice) not found",
+   "stage": "S20",
+   "subject": "bill.xlsx gate"
+  },
+  {
+   "detail": null,
+   "doc_id": null,
+   "reason": "bill.xlsx: draft \u2014 not recalculated, DO NOT ISSUE \u2014 LibreOffice (soffice) not found",
+   "stage": "S20",
+   "subject": "bill_unpriced.xlsx gate"
+  },
+  {
+   "detail": "the {design_standard}, Specifications and",
+   "doc_id": null,
+   "reason": "output hygiene: contains '{'; contains '}'",
+   "stage": "S20",
+   "subject": "section J description"
+  },
+  {
+   "detail": "accordance with the {design_standard},",
+   "doc_id": null,
+   "reason": "output hygiene: contains '{'; contains '}'",
+   "stage": "S20",
+   "subject": "section J description"
+  },
+  {
+   "detail": null,
+   "doc_id": null,
+   "reason": "403 level figure(s) carry no storey name on their line (model call skipped: --no-ai)",
+   "stage": "S4",
+   "subject": "level names"
+  },
+  {
+   "detail": null,
+   "doc_id": "Structure/STRUCTURE Sheet 27.pdf",
+   "reason": "sheet kind not resolvable from the title or the file name (model call skipped: --no-ai)",
+   "stage": "S5",
+   "subject": "S-02_9"
+  },
+  {
+   "detail": "only tags in the text layer are counted; an element drawn without a tag is not seen here, so a schedule count is the stronger source",
+   "doc_id": null,
+   "reason": "unlabelled vector symbols are not counted",
+   "stage": "S7",
+   "subject": "symbol clustering"
+  },
+  {
+   "detail": "S4 calibrates a plan from its own grid chain or the set's grid; see grids.json for why each was not",
+   "doc_id": null,
+   "reason": "3 plan(s) have no verified scale, so nothing is measured from them: A-07-001, A-07-009, A-07-010",
+   "stage": "S8",
+   "subject": "plans not measured"
+  },
+  {
+   "detail": null,
+   "doc_id": "Architecture/A1/A-07-003 GROUND FLOOR PLAN.pdf",
+   "reason": "room not measured: ENTRANCE LOBBY / LIFT LOBBY / LOBBY / PARKING / RECEPTION / SWIM.POOL PUMP RM.: fill escapes to the sheet edge (an opening is not closed on plan) - not measured",
+   "stage": "S8",
+   "subject": "A-07-003"
+  },
+  {
+   "detail": null,
+   "doc_id": "Architecture/A1/A-07-004 FIRST FLOOR PLAN.pdf",
+   "reason": "room not measured: BALCONY / TERRACE: fill escapes to the sheet edge (an opening is not closed on plan) - not measured",
+   "stage": "S8",
+   "subject": "A-07-004"
+  },
+  {
+   "detail": null,
+   "doc_id": "Architecture/A1/A-07-005 2ND FLOOR PLAN.pdf",
+   "reason": "room not measured: BALCONY / STAIR: fill escapes to the sheet edge (an opening is not closed on plan) - not measured",
+   "stage": "S8",
+   "subject": "A-07-005"
+  },
+  {
+   "detail": null,
+   "doc_id": "Architecture/A1/A-07-005 2ND FLOOR PLAN.pdf",
+   "reason": "room not measured: BATH / BED ROOM: a wet and a dry room fill as one space (open doorway) - not measured",
+   "stage": "S8",
+   "subject": "A-07-005"
+  },
+  {
+   "detail": null,
+   "doc_id": "Architecture/A1/A-07-006 3RD FLOOR PLAN.pdf",
+   "reason": "room not measured: BALCONY: fill escapes to the sheet edge (an opening is not closed on plan) - not measured",
+   "stage": "S8",
+   "subject": "A-07-006"
+  },
+  {
+   "detail": null,
+   "doc_id": "Architecture/A1/A-07-007 TYP ( 4 - 5 ) FLOOR PLAN.pdf",
+   "reason": "room not measured: BALCONY: fill escapes to the sheet edge (an opening is not closed on plan) - not measured",
+   "stage": "S8",
+   "subject": "A-07-007"
+  },
+  {
+   "detail": null,
+   "doc_id": "Architecture/A1/A-07-007 TYP ( 4 - 5 ) FLOOR PLAN.pdf",
+   "reason": "room not measured: BATH / BED ROOM: a wet and a dry room fill as one space (open doorway) - not measured",
+   "stage": "S8",
+   "subject": "A-07-007"
+  },
+  {
+   "detail": null,
+   "doc_id": "Architecture/A2/A-09-003 WALL SECTION - W1 TO W3.pdf",
+   "reason": "storey UPPER ROOF: no level above it is read, so no height",
+   "stage": "S8",
+   "subject": "storey heights"
+  },
+  {
+   "detail": null,
+   "doc_id": "Architecture/A1/A-07-003 GROUND FLOOR PLAN.pdf",
+   "reason": "tags with no wall within reach, so their openings are neither added back nor deducted: LW 02 x1, SD-2 x1",
+   "stage": "S9",
+   "subject": "A-07-003"
+  },
+  {
+   "detail": null,
+   "doc_id": "Architecture/A1/A-07-003 GROUND FLOOR PLAN.pdf",
+   "reason": "9.20 m of wall lines 300mm thick - not a thickness the notes call blockwork (concrete, cladding or a drafting line); not billed in D",
+   "stage": "S9",
+   "subject": "A-07-003 GF"
+  },
+  {
+   "detail": null,
+   "doc_id": "Architecture/A1/A-07-004 FIRST FLOOR PLAN.pdf",
+   "reason": "tags with no wall within reach, so their openings are neither added back nor deducted: DW 01 x1, DW 03 x1",
+   "stage": "S9",
+   "subject": "A-07-004"
+  },
+  {
+   "detail": null,
+   "doc_id": "Architecture/A1/A-07-004 FIRST FLOOR PLAN.pdf",
+   "reason": "84.95 m of walls between external areas (balcony dividers, parapets) - their height is not stated, so they are not billed",
+   "stage": "S9",
+   "subject": "A-07-004 1F"
+  },
+  {
+   "detail": null,
+   "doc_id": "Architecture/A1/A-07-004 FIRST FLOOR PLAN.pdf",
+   "reason": "1.70 m of wall lines 250mm thick - not a thickness the notes call blockwork (concrete, cladding or a drafting line); not billed in D",
+   "stage": "S9",
+   "subject": "A-07-004 1F"
+  },
+  {
+   "detail": null,
+   "doc_id": "Architecture/A1/A-07-004 FIRST FLOOR PLAN.pdf",
+   "reason": "11.33 m of wall lines 300mm thick - not a thickness the notes call blockwork (concrete, cladding or a drafting line); not billed in D",
+   "stage": "S9",
+   "subject": "A-07-004 1F"
+  },
+  {
+   "detail": null,
+   "doc_id": "Architecture/A1/A-07-004 FIRST FLOOR PLAN.pdf",
+   "reason": "42.49 m of wall lines of unclassified thick - not a thickness the notes call blockwork (concrete, cladding or a drafting line); not billed in D",
+   "stage": "S9",
+   "subject": "A-07-004 1F"
+  },
+  {
+   "detail": null,
+   "doc_id": "Architecture/A1/A-07-005 2ND FLOOR PLAN.pdf",
+   "reason": "tags with no wall within reach, so their openings are neither added back nor deducted: DW 03 x2, DW 08 x2",
+   "stage": "S9",
+   "subject": "A-07-005"
+  },
+  {
+   "detail": null,
+   "doc_id": "Architecture/A1/A-07-005 2ND FLOOR PLAN.pdf",
+   "reason": "10.46 m of walls between external areas (balcony dividers, parapets) - their height is not stated, so they are not billed",
+   "stage": "S9",
+   "subject": "A-07-005 2F"
+  },
+  {
+   "detail": null,
+   "doc_id": "Architecture/A1/A-07-005 2ND FLOOR PLAN.pdf",
+   "reason": "1.60 m of wall lines 250mm thick - not a thickness the notes call blockwork (concrete, cladding or a drafting line); not billed in D",
+   "stage": "S9",
+   "subject": "A-07-005 2F"
+  },
+  {
+   "detail": null,
+   "doc_id": "Architecture/A1/A-07-005 2ND FLOOR PLAN.pdf",
+   "reason": "5.98 m of wall lines 300mm thick - not a thickness the notes call blockwork (concrete, cladding or a drafting line); not billed in D",
+   "stage": "S9",
+   "subject": "A-07-005 2F"
+  },
+  {
+   "detail": null,
+   "doc_id": "Architecture/A1/A-07-005 2ND FLOOR PLAN.pdf",
+   "reason": "49.05 m of wall lines of unclassified thick - not a thickness the notes call blockwork (concrete, cladding or a drafting line); not billed in D",
+   "stage": "S9",
+   "subject": "A-07-005 2F"
+  },
+  {
+   "detail": null,
+   "doc_id": "Architecture/A1/A-07-006 3RD FLOOR PLAN.pdf",
+   "reason": "tags with no wall within reach, so their openings are neither added back nor deducted: DW 03 x1, DW 08 x1",
+   "stage": "S9",
+   "subject": "A-07-006"
+  },
+  {
+   "detail": null,
+   "doc_id": "Architecture/A1/A-07-006 3RD FLOOR PLAN.pdf",
+   "reason": "35.92 m of walls between external areas (balcony dividers, parapets) - their height is not stated, so they are not billed",
+   "stage": "S9",
+   "subject": "A-07-006 3F"
+  },
+  {
+   "detail": null,
+   "doc_id": "Architecture/A1/A-07-006 3RD FLOOR PLAN.pdf",
+   "reason": "1.60 m of wall lines 250mm thick - not a thickness the notes call blockwork (concrete, cladding or a drafting line); not billed in D",
+   "stage": "S9",
+   "subject": "A-07-006 3F"
+  },
+  {
+   "detail": null,
+   "doc_id": "Architecture/A1/A-07-006 3RD FLOOR PLAN.pdf",
+   "reason": "5.98 m of wall lines 300mm thick - not a thickness the notes call blockwork (concrete, cladding or a drafting line); not billed in D",
+   "stage": "S9",
+   "subject": "A-07-006 3F"
+  },
+  {
+   "detail": null,
+   "doc_id": "Architecture/A1/A-07-006 3RD FLOOR PLAN.pdf",
+   "reason": "37.87 m of wall lines of unclassified thick - not a thickness the notes call blockwork (concrete, cladding or a drafting line); not billed in D",
+   "stage": "S9",
+   "subject": "A-07-006 3F"
+  },
+  {
+   "detail": null,
+   "doc_id": "Architecture/A1/A-07-007 TYP ( 4 - 5 ) FLOOR PLAN.pdf",
+   "reason": "tags with no wall within reach, so their openings are neither added back nor deducted: DW 03 x1, DW 08 x1",
+   "stage": "S9",
+   "subject": "A-07-007"
+  },
+  {
+   "detail": null,
+   "doc_id": "Architecture/A1/A-07-007 TYP ( 4 - 5 ) FLOOR PLAN.pdf",
+   "reason": "11.51 m of walls between external areas (balcony dividers, parapets) - their height is not stated, so they are not billed",
+   "stage": "S9",
+   "subject": "A-07-007 4F"
+  },
+  {
+   "detail": null,
+   "doc_id": "Architecture/A1/A-07-007 TYP ( 4 - 5 ) FLOOR PLAN.pdf",
+   "reason": "3.50 m of wall lines 250mm thick - not a thickness the notes call blockwork (concrete, cladding or a drafting line); not billed in D",
+   "stage": "S9",
+   "subject": "A-07-007 4F"
+  },
+  {
+   "detail": null,
+   "doc_id": "Architecture/A1/A-07-007 TYP ( 4 - 5 ) FLOOR PLAN.pdf",
+   "reason": "37.17 m of wall lines 300mm thick - not a thickness the notes call blockwork (concrete, cladding or a drafting line); not billed in D",
+   "stage": "S9",
+   "subject": "A-07-007 4F"
+  },
+  {
+   "detail": null,
+   "doc_id": "Architecture/A1/A-07-007 TYP ( 4 - 5 ) FLOOR PLAN.pdf",
+   "reason": "15.89 m of wall lines of unclassified thick - not a thickness the notes call blockwork (concrete, cladding or a drafting line); not billed in D",
+   "stage": "S9",
+   "subject": "A-07-007 4F"
+  },
+  {
+   "detail": null,
+   "doc_id": "Architecture/A1/A-07-007 TYP ( 4 - 5 ) FLOOR PLAN.pdf",
+   "reason": "11.51 m of walls between external areas (balcony dividers, parapets) - their height is not stated, so they are not billed",
+   "stage": "S9",
+   "subject": "A-07-007 5F"
+  },
+  {
+   "detail": null,
+   "doc_id": "Architecture/A1/A-07-007 TYP ( 4 - 5 ) FLOOR PLAN.pdf",
+   "reason": "3.50 m of wall lines 250mm thick - not a thickness the notes call blockwork (concrete, cladding or a drafting line); not billed in D",
+   "stage": "S9",
+   "subject": "A-07-007 5F"
+  },
+  {
+   "detail": null,
+   "doc_id": "Architecture/A1/A-07-007 TYP ( 4 - 5 ) FLOOR PLAN.pdf",
+   "reason": "37.17 m of wall lines 300mm thick - not a thickness the notes call blockwork (concrete, cladding or a drafting line); not billed in D",
+   "stage": "S9",
+   "subject": "A-07-007 5F"
+  },
+  {
+   "detail": null,
+   "doc_id": "Architecture/A1/A-07-007 TYP ( 4 - 5 ) FLOOR PLAN.pdf",
+   "reason": "15.89 m of wall lines of unclassified thick - not a thickness the notes call blockwork (concrete, cladding or a drafting line); not billed in D",
+   "stage": "S9",
+   "subject": "A-07-007 5F"
+  },
+  {
+   "detail": null,
+   "doc_id": "Architecture/A1/A-07-008 LOWER ROOF PLAN.pdf",
+   "reason": "tags with no wall within reach, so their openings are neither added back nor deducted: D-1 x1, DW 12 x2, DW 13 x1, DW 14 x1, DW 16 x1",
+   "stage": "S9",
+   "subject": "A-07-008"
+  },
+  {
+   "detail": null,
+   "doc_id": "Architecture/A1/A-07-008 LOWER ROOF PLAN.pdf",
+   "reason": "8.97 m of walls between external areas (balcony dividers, parapets) - their height is not stated, so they are not billed",
+   "stage": "S9",
+   "subject": "A-07-008 LOWER ROOF"
+  },
+  {
+   "detail": null,
+   "doc_id": "Architecture/A1/A-07-008 LOWER ROOF PLAN.pdf",
+   "reason": "3.90 m of wall lines 250mm thick - not a thickness the notes call blockwork (concrete, cladding or a drafting line); not billed in D",
+   "stage": "S9",
+   "subject": "A-07-008 LOWER ROOF"
+  },
+  {
+   "detail": null,
+   "doc_id": "Architecture/A1/A-07-008 LOWER ROOF PLAN.pdf",
+   "reason": "0.80 m of wall lines 300mm thick - not a thickness the notes call blockwork (concrete, cladding or a drafting line); not billed in D",
+   "stage": "S9",
+   "subject": "A-07-008 LOWER ROOF"
+  },
+  {
+   "detail": "e.g. DW 04='7300+2950', DW 06='7300+4000', DW 07='4000+7300' \u2026 \u2014 the items are enumerated and their descriptions state the size as printed; confirm the parts",
+   "doc_id": "Architecture/A2/A-13-002 SCHEDULE OF WINDOWS-01.pdf",
+   "reason": "5 unit(s) are sized in parts - an L-shaped unit's legs or a height in two parts (DW 04, DW 06, DW 07, DW 09, DW 10); no single width or height is taken from them",
+   "stage": "S9",
+   "subject": "stated sizes in parts"
+  },
+  {
+   "detail": "e.g. DW 11='28170+6300', DW 15='800+2400', DW 17='7300+4000' \u2014 the items are enumerated and their descriptions state the size as printed; confirm the parts",
+   "doc_id": "Architecture/A2/A-13-003 SCHEDULE OF WINDOWS-02.pdf",
+   "reason": "3 unit(s) are sized in parts - an L-shaped unit's legs or a height in two parts (DW 11, DW 15, DW 17); no single width or height is taken from them",
+   "stage": "S9",
+   "subject": "stated sizes in parts"
+  }
+ ],
+ "schema": "gaps/1"
+}

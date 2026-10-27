@@ -1,0 +1,24 @@
+{
+ "_stamp": {
+  "sheet_sha1": "ca600e0e8d3def84efe52b9ea7a38201c34d3973",
+  "task": "title_block",
+  "version": "1"
+ },
+ "_by": "Claude Code (visual reading, this session) - via boq_arch/readings",
+ "reading": {
+  "drawing_no": "",
+  "drawing_title": "",
+  "scale": "",
+  "plot": "5310319",
+  "job_title": "PROPOSED B+G+5+ROOF RESIDENTIAL BUILDING",
+  "owner": "G F S REAL ESTATE L.L.C",
+  "illegible": [
+   {
+    "where": "whole sheet (cover sheet, no title block panel)",
+    "field": "drawing_no",
+    "reason": "no drawing number is printed on the cover sheet"
+   }
+  ]
+ },
+ "_sheet": "A-00-001 COVERSHEET.pdf"
+}

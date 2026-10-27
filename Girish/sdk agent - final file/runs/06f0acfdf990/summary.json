@@ -1,0 +1,15 @@
+{
+ "agent": "BOQ POMI V1",
+ "deliverable": null,
+ "drawings": 1,
+ "gaps": 11,
+ "input_set_hash": "06f0acfdf990975a387dbb915759ebba30588a7a6bdfbfb68d13bf83cbad55e2",
+ "project": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\tinyset",
+ "resume_from": null,
+ "revision": "Rev 00",
+ "run_id": "06f0acfdf990",
+ "stages_not_implemented": 0,
+ "stages_ran": 21,
+ "stages_total": 21,
+ "utc": "2026-09-29T06:47:23+00:00"
+}

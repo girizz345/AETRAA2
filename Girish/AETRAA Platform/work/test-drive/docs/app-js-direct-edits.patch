@@ -1,0 +1,223 @@
+diff --git a/Girish/AETRAA Platform/work/test-drive/src/html/app.js b/Girish/AETRAA Platform/work/test-drive/src/html/app.js
+index 61d9d6b..f13af1a 100644
+--- a/Girish/AETRAA Platform/work/test-drive/src/html/app.js	
++++ b/Girish/AETRAA Platform/work/test-drive/src/html/app.js	
+@@ -422,14 +422,14 @@ function levelOf(views,r){for(var i=0;i<views.length;i++)if(views[i][0]===r)retu
+ var NAV = {
+   principal:[
+     ['PORTFOLIO',[['★','All projects','on'],['▦','Consolidated progress',''],['⚑','Decisions to me','4']]],
+-    ['MONEY',[['₳','Cashflow / IPC',''],['⚖','Claims & variations','']]],
++    ['MONEY',[['₳','Cashflow / IPC',''],['⚖','Claims & variations',''],['₳','Payment terms',''],['⚖','Contract obligations','']]],
+     ['ASSURANCE',[['✓','Quality (portfolio)',''],['◈','Safety (portfolio)','']]],
+     ['PEOPLE',[['⧉','Team & access',''],['▤','Reports',''],['▧','Templates','']]],
+   ],
+   pm:[
+-    ['MAIN',[['▦','Dashboard','on'],['▤','Programme',''],['◷','Look-ahead','']]],
++    ['MAIN',[['▦','Dashboard','on'],['▤','Programme',''],['◷','Look-ahead',''],['?','Ask the project','']]],
+     ['TECHNICAL',[['▥','Drawings',''],['✎','RFIs','7'],['⇪','Submittals','3'],['✓','Inspections','5'],['⚠','NCRs','2']]],
+-    ['CONTRACTUAL',[['✉','Letters',''],['☰','Minutes',''],['⚖','Variations','4'],['₳','IPC / payments','']]],
++    ['CONTRACTUAL',[['✉','Letters',''],['✎','Draft a letter',''],['☰','Minutes',''],['⚖','Variations','4'],['⚖','Delays & EOT',''],['⚖','Contract obligations',''],['₳','IPC / payments','']]],
+     ['SITE',[['◈','HSE',''],['⧉','Subcontractors','']]],
+     ['SETUP',[['▧','Templates','']]],
+   ],
+@@ -444,14 +444,14 @@ var NAV = {
+     ['MATERIAL',[['🛒','Material requests',''],['⇥','GRN — receive','']]],
+   ],
+   design:[
+-    ['REGISTERS',[['▥','Dashboard','on'],['▥','Drawing register',''],['⇪','Submittals','3'],['◮','Authority approvals','1']]],
++    ['REGISTERS',[['▥','Dashboard','on'],['▥','Drawing register',''],['⇪','Submittals','3'],['◮','Authority approvals','1'],['▤','Specification index',''],['▤','Knowledge base','']]],
+     ['DRAWINGS',[['▥','Tender',''],['▥','IFC — current',''],['▥','Shop drawings','2'],['◭','Tender ↔ IFC deviations','']]],
+-    ['OUTPUT',[['⏱','Generate schedule',''],['⇪','Transmittals','']]],
++    ['OUTPUT',[['⏱','Generate schedule',''],['⏱','Schedules',''],['⇪','Transmittals','']]],
+   ],
+   dc:[
+     ['MAIN',[['▤','Dashboard','on'],['✎','Correspondence diary','9']]],
+     ['REGISTERS',[['✉','Incoming / outgoing',''],['▥','Drawing register',''],['⇪','Submittal register','3'],['✎','RFI register','7'],['⚖','Variation register','']]],
+-    ['CONTROL',[['⇪','Transmittals',''],['◮','Distribution matrix',''],['▧','Templates','']]],
++    ['CONTROL',[['⇪','Transmittals',''],['◮','Distribution matrix',''],['▧','Templates',''],['⇩','Past registers','']]],
+   ],
+   qaqc:[
+     ['MAIN',[['✓','Dashboard','on'],['✓','Inspections (WIR/MIR)','5']]],
+@@ -466,7 +466,7 @@ var NAV = {
+   commercial:[
+     ['MAIN',[['₳','Dashboard','on']]],
+     ['COMMERCIAL',[['▤','BOQ / cost plan',''],['▤','Bill of Materials','1'],['₳','IPC / payments',''],['⚖','Variations','4']]],
+-    ['CONTRACT',[['✉','Contractual letters','3'],['⚖','Claims & EoT','2'],['◭','Cost value reconciliation',''],['⇥','Subcontractor valuations','2']]],
++    ['CONTRACT',[['✉','Contractual letters','3'],['✎','Draft a letter',''],['₳','Payment terms',''],['⚖','Contract obligations',''],['◭','Tender ↔ IFC deviations',''],['⚖','Claims & EoT','2'],['◭','Cost value reconciliation',''],['⇥','Subcontractor valuations','2']]],
+   ],
+   procurement:[
+     ['MAIN',[['🛒','Dashboard','on'],['▤','Bill of Materials','1'],['🛒','Material requests','5'],['⌸','Purchase orders (LPO)','']]],
+@@ -816,6 +816,11 @@ var FORMS = {
+     wf:['Drafted','PM / Director sign','Issued & logged'] },
+ };
+ function openNewForm(kind){
++  // K12 (v5 A7): a material submittal is prepared as a package — catalogue,
++  // spec section, compliance statement — on its own page.
++  if(kind==='material'){ location.href='/material'; return; }
++  // K13 (v5 A10): an RFI is prepared from a note and a photo on its own page.
++  if(kind==='rfi'){ location.href='/rfi'; return; }
+   var f=FORMS[kind]; if(!f) return;
+   var fields=f.fields.map(function(x){
+     var lbl=x[0], t=x[1], val=x[2], full=x[3];
+@@ -2180,7 +2185,8 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeDetail(
+       var NAV_MODULE={'Cashflow / IPC':'commercial','Claims & variations':'commercial','Quality (portfolio)':'qaqc',
+         'Safety (portfolio)':'hse','Look-ahead':'planning','Drawings':'dc','RFIs':'design','Submittals':'design',
+         'Inspections':'qaqc','NCRs':'qaqc','Variations':'commercial','IPC / payments':'commercial','HSE':'hse',
+-        'Subcontractors':'subcon','Letters':['design','commercial']};
++        'Subcontractors':'subcon','Letters':['design','commercial'],
++        'Payment terms':'commercial','Delays & EOT':'planning','Draft a letter':['design','commercial']};
+       var navOff=function(label){ var m=NAV_MODULE[label]; if(!m) return false;
+         return (typeof m==='string') ? !!OFF[m] : m.every(function(x){ return OFF[x]; }); };
+       ['principal','pm'].forEach(function(k){
+@@ -2416,6 +2422,11 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeDetail(
+       row.forloc=pick(d,'For (location)')||'—';
+     }
+     else { row.title=r.title; row.type=r.type.toUpperCase(); }
++    // K5: brought in from the old system. Never late, never ageing, and said so.
++    if(r.imported){
++      row.st='Imported — not raised on this platform'+(r.original_status?' · was “'+r.original_status+'”':'')+(r.continued_by?' · continues as '+r.continued_by:'');
++      row.cls=''; row.sub=r.original_date||r.sub; if(row.age!==undefined) row.age='—';
++    }
+     return row;
+   }
+   // Two registers the design never had, because the design never showed these
+@@ -2459,6 +2470,11 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeDetail(
+   }
+   function applyBoqRows(){
+     if (!BOQ || typeof REG === 'undefined' || !REG.boq) return;
++    // K1: where the bill stands, and the way to the check and the approval.
++    // The section rows carry their amount from the server, worked in fils.
++    REG.boq.note = 'The priced contract bill — value certified against each section. Feeds the IPC valuation and the cost-value reconciliation. '
++      + (BOQ.state === 'pending' ? '<b>Waiting for the PM’s approval</b> — no payment application is valued against it until then. ' : '')
++      + '<a href="/bills">Upload, check and approve the BOQ and BOM</a>';
+     REG.boq.rows = (BOQ.sections || BOQ.lines || []).map(function(l){
+       var billed = l.billed_pct != null ? l.billed_pct : 0;
+       return { ref: l.ref || l.section || '', title: l.section || l.description || '',
+@@ -2610,8 +2626,11 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeDetail(
+       if(!rtype){ return; }
+       var title=(f._titleLabel&&data[f._titleLabel])||data[f.fields[0][0]]||f.title;
+       var wf=f.wf||null;
+-      fetch('/api/records',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({type:rtype,title:title,data:data,workflow:wf})})
++      // K13 (v5 A10): an RFI that may already have been asked is named first;
++      // the engineer raises it anyway or not.
++      var sendRec=function(anyway){ return fetch('/api/records',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({type:rtype,title:title,data:data,workflow:wf,not_duplicate:anyway||undefined})})
+         .then(function(r){return r.json();}).then(function(res){
++          if(res&&res.duplicates&&!anyway){ if(confirm(res.error)) return sendRec(true); return; }
+           if(!(res&&res.ok)){ alert((res&&res.error)||'Could not save — check you are signed in.'); return; }
+           try{ localStorage.removeItem(draftKey(kind)); }catch(e){}
+           // The record exists and is numbered; now its files go against that number.
+@@ -2621,7 +2640,8 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeDetail(
+               showCreated(f,res.ref,up);
+             });
+           });
+-        }).catch(function(){ alert('Could not save.'); });
++        }).catch(function(){ alert('Could not save.'); }); };
++      sendRec(false);
+     };
+   }
+   function showCreated(f, ref, up){
+@@ -3366,11 +3386,31 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeDetail(
+           (lateDue ? 'Overdue — was due ' : 'Due ') + esc(rec.due) +
+           (rec.due_basis ? ' · ' + esc(rec.due_basis === 'entered' ? 'date entered when raised' : rec.due_basis) : '') + '</div>' + html;
+       }
++      // K5: a record from the old system — its facts, the way to continue it, and no form to generate.
++      if (rec.imported) {
++        var src = rec.imported_from, srcTxt = '';
++        if (src && typeof src === 'object') srcTxt = [src.file, src.sheet ? 'sheet ' + src.sheet : '', src.row ? 'row ' + src.row : ''].filter(Boolean).join(' · ');
++        else if (src) srcTxt = String(src);
++        links = '<div class="mini" style="margin:0 0 8px"><b>Imported — not raised on this platform.</b>' +
++          (rec.original_date ? ' Raised ' + esc(rec.original_date) + ' in the old system.' : '') +
++          (rec.original_status ? ' Its status there: “' + esc(rec.original_status) + '”.' : '') +
++          (srcTxt ? ' From ' + esc(srcTxt) + '.' : '') +
++          (rec.continued_by ? ' Continues as <a data-open="' + esc(rec.continued_by) + '" style="cursor:pointer;text-decoration:underline">' + esc(rec.continued_by) + '</a>.' : '') +
++          ' No clock runs on it.</div>' + links;
++        if (rec.may_take_over) html += '<button class="prim" id="recTakeOver">Take over as a new live record</button>';
++      } else if (rec.continues) {
++        links = '<div class="mini" style="margin:0 0 8px">Continues ' + '<a data-open="' + esc(rec.continues) + '" style="cursor:pointer;text-decoration:underline">' + esc(rec.continues) + '</a>, imported from the old system.</div>' + links;
++      }
++      // K7 (S0): issue by email, the reply and its comments live on the submittal desk.
++      if (!rec.imported && ['submittal', 'ms', 'material', 'rfi'].indexOf(rec.type) >= 0) {
++        links = '<div class="mini" style="margin:0 0 8px"><a href="/s0?ref=' + encodeURIComponent(rec.ref) + '" style="text-decoration:underline">Open the submittal desk</a> — issue it by email, record the reply, answer comments' + (rec.revision_of ? ' · follows ' + esc(rec.revision_of) : '') + '</div>' + links;
++      }
+       html = links + html;
+-      html += '<button id="recDoc">Generate document</button>' +
++      html += (rec.imported ? '' : '<button id="recDoc">Generate document</button>') +
+         (ME.mayNotify ? '<button id="recNotify">Notify team</button>' : '') + '</div>' +
+         '<div class="mini" id="recMsg" style="margin-top:8px">' +
+-        (closed ? 'This record is closed — ' + esc(rec.status || '') + '.'
++        (rec.imported ? (rec.may_take_over && !rec.continued_by ? 'Taking it over raises a new record on this project, linked to this one, with its clock starting today.' : '')
++          : closed ? 'This record is closed — ' + esc(rec.status || '') + '.'
+           : (mine
+              ? (rec.next_is_issue ? 'Issuing records it as sent to the consultant under your name. You can notify the team next.'
+                 : rec.next_is_reply ? 'Pick the status the consultant returned and attach their reply to this record.'
+@@ -3427,6 +3467,18 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeDetail(
+     });
+     var ap = document.getElementById('recApprove');
+     if (ap) ap.addEventListener('click', function(){ advance('advance', 'Signing'); });
++    // K5: Document Control continues an imported matter as a new live record.
++    var to = document.getElementById('recTakeOver');
++    if (to) to.addEventListener('click', function(){
++      if (!confirm('Take ' + ref + ' over? A new record is raised on this project, linked to ' + ref + ', with its clock starting today.')) return;
++      to.disabled = true; say('Taking it over…');
++      fetch('/api/records/take-over', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ ref: ref }) })
++        .then(function(r){ return r.json(); })
++        .then(function(d){
++          if (d && d.error) { say(d.error, true); to.disabled = false; return; }
++          return loadRecords().then(function(){ try { render(); } catch (e) {} openDetail(d.ref); });
++        }).catch(function(){ say('Could not reach the server.', true); to.disabled = false; });
++    });
+     var rp = document.getElementById('recReply');
+     if (rp) rp.addEventListener('click', function(){
+       var r0 = RECBYREF[ref] || {}, d0 = r0.data || {};
+@@ -4414,7 +4466,8 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeDetail(
+     'Quality audits': { reg: 'ncr' },
+     'Variations': { reg: 'variations' }, 'Variation register': { reg: 'variations' },
+     'Claims & variations': { reg: 'variations' }, 'Claims & EoT': { reg: 'variations' },
+-    'Delay & EoT': { reg: 'variations' },
++    // A13: the delay / EOT register, where Planning prepares the notice.
++    'Delay & EoT': { page: '/delays' }, 'Delays & EOT': { page: '/delays' },
+     'Letters': { reg: 'letters' }, 'Contractual letters': { reg: 'letters' },
+     'Correspondence diary': { reg: 'letters' }, 'Incoming / outgoing': { reg: 'letters' },
+     'Notices & obligations': { reg: 'letters' },
+@@ -4446,6 +4499,14 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeDetail(
+     'Programme': { prog: 'all' }, 'Baseline programme': { prog: 'all' },
+     'P6 update & export': { page: '/programme' },
+     'Minutes': { page: '/minutes' }, 'Action tracker': { page: '/minutes?tab=actions' },
++    // G1, G10, G11, G12, G14, A9: pages of their own.
++    'Payment terms': { page: '/terms' }, 'Specification index': { page: '/spec' },
++    'Knowledge base': { page: '/knowledge' }, 'Schedules': { page: '/schedules' },
++    'Ask the project': { page: '/ask' }, 'Draft a letter': { page: '/letters' },
++    // A4 (decision 1): the contract obligations register.
++    'Contract obligations': { page: '/obligations' },
++    // Decision 20: the Tender vs IFC deviations.
++    'Tender ↔ IFC deviations': { page: '/deviations' },
+     'Progress update': { dash: 'site' },
+     'Look-ahead': { prog: 'lookahead' }, '3-week look-ahead': { prog: 'lookahead' },
+     'Critical path': { prog: 'critical' },
+@@ -4476,7 +4537,6 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeDetail(
+     'Subcontractor valuations': 'Subcontractor accounts are not kept on this platform yet — there is no subcontract, no valuation and no payment record behind this.',
+     'Sub programme': 'Subcontractor programmes are not held separately — the project programme is the only one on this platform.',
+     'Contract documents': 'The contract document set has not been loaded for this project.',
+-    'Tender ↔ IFC deviations': 'The tender-to-IFC comparison is not set up on this project.',
+   };
+ 
+   function regExists(k){ return typeof REG !== 'undefined' && REG[k]; }
+@@ -4686,6 +4746,10 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeDetail(
+   function navGo(label){
+     // The consultant's forms are kept on their own page (src/html/templates.js).
+     if (label === 'Templates') { location.href = '/templates'; return; }
++    // K6 (v5 E12): the old system's logs, brought in by Document Control.
++    if (label === 'Past registers') { location.href = '/past-registers'; return; }
++    // K10 (v5 A2): incoming and outgoing letters in one register, overdue first.
++    if (label === 'Incoming / outgoing') { location.href = '/correspondence'; return; }
+     state.navLabel = label;
+     var t = NAV_TARGET[label];
+     if (!t) {
+@@ -5389,6 +5453,7 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeDetail(
+     return '<div class="card" id="incomingCard"><h2>Incoming — replies due' +
+       (open.length ? ' <span class="r"' + (late ? ' style="color:var(--bad)"' : '') + '>' + open.length + ' open' + (late ? ' · ' + late + ' overdue' : '') + '</span>' : '') + '</h2>' +
+       (canLog ? '<div class="actbar" style="margin-bottom:8px"><button class="prim" data-new="incoming">＋ Log incoming letter</button></div>' : '') +
++      '<div class="mini" style="margin-bottom:6px"><a href="/correspondence">Correspondence register — drop a letter to log it; every letter in and out, overdue first</a></div>' +
+       (open.length ? '<table><tr><th>Ref</th><th>From</th><th>Subject</th><th>With</th><th>Reply by</th></tr>' +
+         open.slice(0, 12).map(function(r){
+           var d = r.data || {}, isLate = r.due && r.due < today;

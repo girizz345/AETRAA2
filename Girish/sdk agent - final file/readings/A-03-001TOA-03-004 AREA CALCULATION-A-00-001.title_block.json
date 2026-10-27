@@ -1,0 +1,24 @@
+{
+ "_stamp": {
+  "sheet_sha1": "a85489ac1f215b7213328342fcad9fe4bb2dcf42",
+  "task": "title_block",
+  "version": "1"
+ },
+ "_by": "Claude Code (visual reading, this session) - via boq_arch/readings",
+ "reading": {
+  "drawing_no": "",
+  "drawing_title": "",
+  "scale": "",
+  "plot": "5310319",
+  "job_title": "PROPOSED B+G+5+ROOF RESIDENTIAL BUILDING",
+  "owner": "G F S REAL ESTATE L.L.C",
+  "illegible": [
+   {
+    "where": "whole sheet (cover sheet layout, no title block panel)",
+    "field": "drawing_no",
+    "reason": "no drawing number is printed on this sheet; it is a second copy of the cover sheet"
+   }
+  ]
+ },
+ "_sheet": "A-03-001TOA-03-004 AREA CALCULATION-A-00-001.pdf"
+}

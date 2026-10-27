@@ -1,0 +1,69 @@
+{
+ "_stamp": {
+  "sheet_sha1": "71f609df4c8bb363c84ce59f54fe34fcaae019b4",
+  "task": "title_block",
+  "version": "1"
+ },
+ "answer_to": "file-71f609df4c8b.title_block.json",
+ "prompt": "You are reading a construction drawing for a quantity surveyor. Report only what is printed. Copy numbers and text exactly as printed. Do not total, convert, round or infer anything. If a value cannot be read with certainty, leave it out of the rows and list it under 'illegible' with where it is and why. The images are tiles of one sheet with a small overlap - an item that appears in two tiles is ONE item; report it once.\n\nThis is a drawing's title block (or, for a cover sheet, the whole sheet). Copy the fields printed in it. Leave a field empty if it is not printed; never take a value from anywhere else.",
+ "schema": {
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+   "drawing_no",
+   "drawing_title",
+   "scale",
+   "plot",
+   "job_title",
+   "owner",
+   "illegible"
+  ],
+  "properties": {
+   "drawing_no": {
+    "type": "string"
+   },
+   "drawing_title": {
+    "type": "string"
+   },
+   "scale": {
+    "type": "string"
+   },
+   "plot": {
+    "type": "string"
+   },
+   "job_title": {
+    "type": "string"
+   },
+   "owner": {
+    "type": "string"
+   },
+   "illegible": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "additionalProperties": false,
+     "required": [
+      "where",
+      "field",
+      "reason"
+     ],
+     "properties": {
+      "where": {
+       "type": "string"
+      },
+      "field": {
+       "type": "string"
+      },
+      "reason": {
+       "type": "string"
+      }
+     }
+    }
+   }
+  }
+ },
+ "tiles": 1,
+ "providers_tried": [
+  "no Anthropic credentials"
+ ]
+}

@@ -1,0 +1,142 @@
+5310319 PROPOSED RESIDENTIAL BUILDING (B+G+5+ROOF) - Rev 00: 140 question(s) and gap(s) the run recorded.
+
+[S1] A-00-001 COVERSHEET.pdf: no title-block pattern matched; drawing number taken from the file name: A-00-001
+[S1] A-03-001TOA-03-004 AREA CALCULATION-A-00-001.pdf: no title-block pattern matched; drawing number taken from the file name: A-03-001TOA-03-004
+[S1] WS-00 SETTING OUTPLAN WATER SUPPLY LAYOUT.pdf: 11 sheet(s) give the job title as 'PROPOSED RESIDENTIAL BUILDING (B+G+6+ROOF)', where the rest of the package says 'PROPOSED RESIDENTIAL BUILDING (B+G+5+ROOF)'
+[S1] WS-01 UNDERGROUND PUMP ROOM WATER SUPPLY LAYOUT.pdf: 5 sheet(s) give the plot number as '5310301', where the rest of the package says '5310319'
+[S1] STRUCTURE Sheet 22.pdf: 2 files claim S-02_4 rev -
+[S10] schedule says 20, plan tags say 19 (A-07-001 1, A-07-003 4, A-07-004 3, A-07-005 2, A-07-006 2, A-07-007 4, A-07-008 2, A-07-009 1)
+[S10] schedule says 1, plan tags say 2 (A-07-003 1, A-07-004 1)
+[S10] schedule says 1, plan tags say 0 (no tag on any floor plan in the set)
+[S10] schedule says 1, plan tags say 0 (no tag on any floor plan in the set)
+[S10] schedule says 1, plan tags say 0 (no tag on any floor plan in the set)
+[S10] schedule says 1, plan tags say 0 (no tag on any floor plan in the set)
+[S13] section H carries 34 items; the letter run holds 20, so codes continue in a second run with its ordinal
+[S14] A-13-001 SCHEDULE OF DOORS.pdf: 12 item(s) from this drawn schedule are listed in the sheet legend; its marks are drawn, not written, so none is boxed on the sheet
+[S14] A-13-002 SCHEDULE OF WINDOWS-01.pdf: 11 item(s) from this drawn schedule are listed in the sheet legend; its marks are drawn, not written, so none is boxed on the sheet
+[S14] A-13-003 SCHEDULE OF WINDOWS-02.pdf: 11 item(s) from this drawn schedule are listed in the sheet legend; its marks are drawn, not written, so none is boxed on the sheet
+[S15] description slot 'design_standard' has no evidenced value; left visible for review
+[S15] hygiene: contains '{'
+[S15] hygiene: contains '}'
+[S15] description slot 'design_standard' has no evidenced value; left visible for review
+[S15] hygiene: contains '{'
+[S15] hygiene: contains '}'
+[S16] completeness gate FAILED — 212 wet_room but no rows in section Q
+[S18] NO_RATE for class UNLISTED_CLASS:D.D2.1
+[S18] NO_RATE for class UNLISTED_CLASS:D.D2.1
+[S18] NO_RATE for class UNLISTED_CLASS:D.D2.1
+[S18] no listed rate class for the clause; UNLISTED_CLASS:D.D2.1 is searched on the clause title and flagged UNLISTED_CLASS
+[S18] G+.31 item type 'floor_waterproofing' is not in the unit dictionary
+[S18] NO_RATE for class UNLISTED_CLASS:G.G2.1
+[S18] G+.31 item type 'roof_waterproofing' is not in the unit dictionary
+[S18] NO_RATE for class UNLISTED_CLASS:G.G2.1
+[S18] no listed rate class for the clause; UNLISTED_CLASS:G.G2.1 is searched on the clause title and flagged UNLISTED_CLASS
+[S18] NO_RATE for class UNLISTED_CLASS:H.H2.1
+[S18] NO_RATE for class UNLISTED_CLASS:H.H2.1
+[S18] NO_RATE for class UNLISTED_CLASS:H.H2.1
+[S18] NO_RATE for class UNLISTED_CLASS:H.H2.1
+[S18] NO_RATE for class UNLISTED_CLASS:H.H2.1
+[S18] NO_RATE for class UNLISTED_CLASS:H.H2.1
+[S18] NO_RATE for class UNLISTED_CLASS:H.H2.1
+[S18] NO_RATE for class UNLISTED_CLASS:H.H2.1
+[S18] NO_RATE for class UNLISTED_CLASS:H.H2.1
+[S18] NO_RATE for class UNLISTED_CLASS:H.H2.1
+[S18] NO_RATE for class UNLISTED_CLASS:H.H2.1
+[S18] NO_RATE for class UNLISTED_CLASS:H.H2.1
+[S18] NO_RATE for class UNLISTED_CLASS:H.H2.1
+[S18] NO_RATE for class UNLISTED_CLASS:H.H2.1
+[S18] NO_RATE for class UNLISTED_CLASS:H.H1.1
+[S18] NO_RATE for class UNLISTED_CLASS:H.H1.1
+[S18] NO_RATE for class UNLISTED_CLASS:H.H1.1
+[S18] NO_RATE for class UNLISTED_CLASS:H.H1.1
+[S18] NO_RATE for class UNLISTED_CLASS:H.H1.1
+[S18] NO_RATE for class UNLISTED_CLASS:H.H1.1
+[S18] NO_RATE for class UNLISTED_CLASS:H.H1.1
+[S18] NO_RATE for class UNLISTED_CLASS:H.H1.1
+[S18] NO_RATE for class UNLISTED_CLASS:H.H1.1
+[S18] NO_RATE for class UNLISTED_CLASS:H.H1.1
+[S18] NO_RATE for class UNLISTED_CLASS:H.H1.1
+[S18] NO_RATE for class UNLISTED_CLASS:H.H1.1
+[S18] NO_RATE for class UNLISTED_CLASS:H.H2.1
+[S18] NO_RATE for class UNLISTED_CLASS:H.H2.1
+[S18] NO_RATE for class UNLISTED_CLASS:H.H2.1
+[S18] NO_RATE for class UNLISTED_CLASS:H.H2.1
+[S18] NO_RATE for class UNLISTED_CLASS:H.H2.1
+[S18] NO_RATE for class UNLISTED_CLASS:H.H2.1
+[S18] NO_RATE for class UNLISTED_CLASS:H.H2.1
+[S18] NO_RATE for class UNLISTED_CLASS:H.H2.1
+[S18] no listed rate class for the clause; UNLISTED_CLASS:H.H1.1 is searched on the clause title and flagged UNLISTED_CLASS
+[S18] no listed rate class for the clause; UNLISTED_CLASS:H.H2.1 is searched on the clause title and flagged UNLISTED_CLASS
+[S18] G+.31 item type 'ceiling_finish' is not in the unit dictionary
+[S18] NO_RATE for class UNLISTED_CLASS:J.J3.1
+[S18] G+.31 item type 'ceiling_finish' is not in the unit dictionary
+[S18] NO_RATE for class UNLISTED_CLASS:J.J3.1
+[S18] G+.31 item type 'floor_finish' is not in the unit dictionary
+[S18] NO_RATE for class UNLISTED_CLASS:J.J3.1
+[S18] G+.31 item type 'floor_finish' is not in the unit dictionary
+[S18] NO_RATE for class UNLISTED_CLASS:J.J3.1
+[S18] G+.31 item type 'wall_finish' is not in the unit dictionary
+[S18] NO_RATE for class UNLISTED_CLASS:J.J3.1
+[S18] G+.31 item type 'wall_finish' is not in the unit dictionary
+[S18] NO_RATE for class UNLISTED_CLASS:J.J3.1
+[S18] NO_RATE for class UNLISTED_CLASS:J.J3.2
+[S18] NO_RATE for class UNLISTED_CLASS:J.J3.2
+[S18] no listed rate class for the clause; UNLISTED_CLASS:J.J3.1 is searched on the clause title and flagged UNLISTED_CLASS
+[S18] no listed rate class for the clause; UNLISTED_CLASS:J.J3.2 is searched on the clause title and flagged UNLISTED_CLASS
+[S18] NO_RATE — no search with --no-ai; the class is a gap, not a number
+[S18] NO_RATE — no search with --no-ai; the class is a gap, not a number
+[S18] NO_RATE — no search with --no-ai; the class is a gap, not a number
+[S18] NO_RATE — no search with --no-ai; the class is a gap, not a number
+[S18] NO_RATE — no search with --no-ai; the class is a gap, not a number
+[S18] NO_RATE — no search with --no-ai; the class is a gap, not a number
+[S20] output hygiene: contains '{'; contains '}'
+[S20] output hygiene: contains '{'; contains '}'
+[S20] bill issued as PARTIAL: completeness gate FAILED — coverage.txt names every required section it lacks and why; justify in AN_RECONCILIATION.json or close the gaps for a complete bill
+[S20] bill.xlsx: draft — not recalculated, DO NOT ISSUE — LibreOffice (soffice) not found
+[S20] bill.xlsx: draft — not recalculated, DO NOT ISSUE — LibreOffice (soffice) not found
+[S20] output hygiene: contains '{'; contains '}'
+[S20] output hygiene: contains '{'; contains '}'
+[S4] 403 level figure(s) carry no storey name on their line (model call skipped: --no-ai)
+[S5] STRUCTURE Sheet 27.pdf: sheet kind not resolvable from the title or the file name (model call skipped: --no-ai)
+[S7] unlabelled vector symbols are not counted
+[S8] 3 plan(s) have no verified scale, so nothing is measured from them: A-07-001, A-07-009, A-07-010
+[S8] A-07-003 GROUND FLOOR PLAN.pdf: room not measured: ENTRANCE LOBBY / LIFT LOBBY / LOBBY / PARKING / RECEPTION / SWIM.POOL PUMP RM.: fill escapes to the sheet edge (an opening is not closed on plan) - not measured
+[S8] A-07-004 FIRST FLOOR PLAN.pdf: room not measured: BALCONY / TERRACE: fill escapes to the sheet edge (an opening is not closed on plan) - not measured
+[S8] A-07-005 2ND FLOOR PLAN.pdf: room not measured: BALCONY / STAIR: fill escapes to the sheet edge (an opening is not closed on plan) - not measured
+[S8] A-07-005 2ND FLOOR PLAN.pdf: room not measured: BATH / BED ROOM: a wet and a dry room fill as one space (open doorway) - not measured
+[S8] A-07-006 3RD FLOOR PLAN.pdf: room not measured: BALCONY: fill escapes to the sheet edge (an opening is not closed on plan) - not measured
+[S8] A-07-007 TYP ( 4 - 5 ) FLOOR PLAN.pdf: room not measured: BALCONY: fill escapes to the sheet edge (an opening is not closed on plan) - not measured
+[S8] A-07-007 TYP ( 4 - 5 ) FLOOR PLAN.pdf: room not measured: BATH / BED ROOM: a wet and a dry room fill as one space (open doorway) - not measured
+[S8] A-09-003 WALL SECTION - W1 TO W3.pdf: storey UPPER ROOF: no level above it is read, so no height
+[S9] A-07-003 GROUND FLOOR PLAN.pdf: tags with no wall within reach, so their openings are neither added back nor deducted: LW 02 x1, SD-2 x1
+[S9] A-07-003 GROUND FLOOR PLAN.pdf: 9.20 m of wall lines 300mm thick - not a thickness the notes call blockwork (concrete, cladding or a drafting line); not billed in D
+[S9] A-07-004 FIRST FLOOR PLAN.pdf: tags with no wall within reach, so their openings are neither added back nor deducted: DW 01 x1, DW 03 x1
+[S9] A-07-004 FIRST FLOOR PLAN.pdf: 84.95 m of walls between external areas (balcony dividers, parapets) - their height is not stated, so they are not billed
+[S9] A-07-004 FIRST FLOOR PLAN.pdf: 1.70 m of wall lines 250mm thick - not a thickness the notes call blockwork (concrete, cladding or a drafting line); not billed in D
+[S9] A-07-004 FIRST FLOOR PLAN.pdf: 11.33 m of wall lines 300mm thick - not a thickness the notes call blockwork (concrete, cladding or a drafting line); not billed in D
+[S9] A-07-004 FIRST FLOOR PLAN.pdf: 42.49 m of wall lines of unclassified thick - not a thickness the notes call blockwork (concrete, cladding or a drafting line); not billed in D
+[S9] A-07-005 2ND FLOOR PLAN.pdf: tags with no wall within reach, so their openings are neither added back nor deducted: DW 03 x2, DW 08 x2
+[S9] A-07-005 2ND FLOOR PLAN.pdf: 10.46 m of walls between external areas (balcony dividers, parapets) - their height is not stated, so they are not billed
+[S9] A-07-005 2ND FLOOR PLAN.pdf: 1.60 m of wall lines 250mm thick - not a thickness the notes call blockwork (concrete, cladding or a drafting line); not billed in D
+[S9] A-07-005 2ND FLOOR PLAN.pdf: 5.98 m of wall lines 300mm thick - not a thickness the notes call blockwork (concrete, cladding or a drafting line); not billed in D
+[S9] A-07-005 2ND FLOOR PLAN.pdf: 49.05 m of wall lines of unclassified thick - not a thickness the notes call blockwork (concrete, cladding or a drafting line); not billed in D
+[S9] A-07-006 3RD FLOOR PLAN.pdf: tags with no wall within reach, so their openings are neither added back nor deducted: DW 03 x1, DW 08 x1
+[S9] A-07-006 3RD FLOOR PLAN.pdf: 35.92 m of walls between external areas (balcony dividers, parapets) - their height is not stated, so they are not billed
+[S9] A-07-006 3RD FLOOR PLAN.pdf: 1.60 m of wall lines 250mm thick - not a thickness the notes call blockwork (concrete, cladding or a drafting line); not billed in D
+[S9] A-07-006 3RD FLOOR PLAN.pdf: 5.98 m of wall lines 300mm thick - not a thickness the notes call blockwork (concrete, cladding or a drafting line); not billed in D
+[S9] A-07-006 3RD FLOOR PLAN.pdf: 37.87 m of wall lines of unclassified thick - not a thickness the notes call blockwork (concrete, cladding or a drafting line); not billed in D
+[S9] A-07-007 TYP ( 4 - 5 ) FLOOR PLAN.pdf: tags with no wall within reach, so their openings are neither added back nor deducted: DW 03 x1, DW 08 x1
+[S9] A-07-007 TYP ( 4 - 5 ) FLOOR PLAN.pdf: 11.51 m of walls between external areas (balcony dividers, parapets) - their height is not stated, so they are not billed
+[S9] A-07-007 TYP ( 4 - 5 ) FLOOR PLAN.pdf: 3.50 m of wall lines 250mm thick - not a thickness the notes call blockwork (concrete, cladding or a drafting line); not billed in D
+[S9] A-07-007 TYP ( 4 - 5 ) FLOOR PLAN.pdf: 37.17 m of wall lines 300mm thick - not a thickness the notes call blockwork (concrete, cladding or a drafting line); not billed in D
+[S9] A-07-007 TYP ( 4 - 5 ) FLOOR PLAN.pdf: 15.89 m of wall lines of unclassified thick - not a thickness the notes call blockwork (concrete, cladding or a drafting line); not billed in D
+[S9] A-07-007 TYP ( 4 - 5 ) FLOOR PLAN.pdf: 11.51 m of walls between external areas (balcony dividers, parapets) - their height is not stated, so they are not billed
+[S9] A-07-007 TYP ( 4 - 5 ) FLOOR PLAN.pdf: 3.50 m of wall lines 250mm thick - not a thickness the notes call blockwork (concrete, cladding or a drafting line); not billed in D
+[S9] A-07-007 TYP ( 4 - 5 ) FLOOR PLAN.pdf: 37.17 m of wall lines 300mm thick - not a thickness the notes call blockwork (concrete, cladding or a drafting line); not billed in D
+[S9] A-07-007 TYP ( 4 - 5 ) FLOOR PLAN.pdf: 15.89 m of wall lines of unclassified thick - not a thickness the notes call blockwork (concrete, cladding or a drafting line); not billed in D
+[S9] A-07-008 LOWER ROOF PLAN.pdf: tags with no wall within reach, so their openings are neither added back nor deducted: D-1 x1, DW 12 x2, DW 13 x1, DW 14 x1, DW 16 x1
+[S9] A-07-008 LOWER ROOF PLAN.pdf: 8.97 m of walls between external areas (balcony dividers, parapets) - their height is not stated, so they are not billed
+[S9] A-07-008 LOWER ROOF PLAN.pdf: 3.90 m of wall lines 250mm thick - not a thickness the notes call blockwork (concrete, cladding or a drafting line); not billed in D
+[S9] A-07-008 LOWER ROOF PLAN.pdf: 0.80 m of wall lines 300mm thick - not a thickness the notes call blockwork (concrete, cladding or a drafting line); not billed in D
+[S9] A-13-002 SCHEDULE OF WINDOWS-01.pdf: 5 unit(s) are sized in parts - an L-shaped unit's legs or a height in two parts (DW 04, DW 06, DW 07, DW 09, DW 10); no single width or height is taken from them
+[S9] A-13-003 SCHEDULE OF WINDOWS-02.pdf: 3 unit(s) are sized in parts - an L-shaped unit's legs or a height in two parts (DW 11, DW 15, DW 17); no single width or height is taken from them

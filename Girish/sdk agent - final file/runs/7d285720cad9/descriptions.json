@@ -1,0 +1,734 @@
+{
+ "items": [
+  {
+   "attributes": {
+    "thickness": "100mm thick"
+   },
+   "clause_id": "D2.1",
+   "description": "Walls and piers, 100mm thick, complete in accordance with the Specifications and Drawings",
+   "element_mark": "Walls 100mm thick",
+   "family": "family_1",
+   "is_variant_of": null,
+   "item_code": "D-A",
+   "section": "D",
+   "unevidenced": [],
+   "variant_text": null
+  },
+  {
+   "attributes": {
+    "thickness": "150mm thick"
+   },
+   "clause_id": "D2.1",
+   "description": "Ditto, 150mm thick",
+   "element_mark": "Walls 150mm thick",
+   "family": "family_1",
+   "is_variant_of": "D-A",
+   "item_code": "D-B",
+   "section": "D",
+   "unevidenced": [],
+   "variant_text": "Ditto, 150mm thick"
+  },
+  {
+   "attributes": {
+    "thickness": "200mm thick"
+   },
+   "clause_id": "D2.1",
+   "description": "Ditto, 200mm thick",
+   "element_mark": "Walls 200mm thick",
+   "family": "family_1",
+   "is_variant_of": "D-A",
+   "item_code": "D-C",
+   "section": "D",
+   "unevidenced": [],
+   "variant_text": "Ditto, 200mm thick"
+  },
+  {
+   "attributes": {
+    "type": "to floors of wet areas"
+   },
+   "clause_id": "G2.1",
+   "description": "Roofing, tanking, waterproof coverings and linings by area, to floors of wet areas, complete in accordance with the Specifications and Drawings",
+   "element_mark": "Floors of wet areas",
+   "family": "family_1",
+   "is_variant_of": null,
+   "item_code": "G-A",
+   "section": "G",
+   "unevidenced": [],
+   "variant_text": null
+  },
+  {
+   "attributes": {
+    "type": "to roofs, terraces and balconies"
+   },
+   "clause_id": "G2.1",
+   "description": "Ditto, to roofs, terraces and balconies",
+   "element_mark": "Roofs, terraces and balconies",
+   "family": "family_1",
+   "is_variant_of": "G-A",
+   "item_code": "G-B",
+   "section": "G",
+   "unevidenced": [],
+   "variant_text": "Ditto, to roofs, terraces and balconies"
+  },
+  {
+   "attributes": {
+    "kind": "hinged door",
+    "opening_size": "size 1200mm x 2200mm",
+    "type": "type D-1"
+   },
+   "clause_id": "H1.1",
+   "description": "Doors, hinged door, size 1200mm x 2200mm, type D-1, complete in accordance with the Specifications and Drawings",
+   "element_mark": "D-1 @ STAIRCASE",
+   "family": "family_1",
+   "is_variant_of": null,
+   "item_code": "H-A",
+   "section": "H",
+   "unevidenced": [],
+   "variant_text": null
+  },
+  {
+   "attributes": {
+    "kind": "hinged door",
+    "opening_size": "size 1100mm x 2200mm",
+    "type": "type D-2"
+   },
+   "clause_id": "H1.1",
+   "description": "Ditto, hinged door, size 1100mm x 2200mm, type D-2",
+   "element_mark": "D-2 @ APARTMENT ENTRANCE (1ST TO 5TH FLOOR)",
+   "family": "family_1",
+   "is_variant_of": "H-A",
+   "item_code": "H-B",
+   "section": "H",
+   "unevidenced": [],
+   "variant_text": "Ditto, hinged door, size 1100mm x 2200mm, type D-2"
+  },
+  {
+   "attributes": {
+    "kind": "hinged door",
+    "opening_size": "size 1020mm x 2200mm",
+    "type": "type D-3"
+   },
+   "clause_id": "H1.1",
+   "description": "Ditto, hinged door, size 1020mm x 2200mm, type D-3",
+   "element_mark": "D-3 @ UTILITY ENTRANCE (1ST FLR ,LOWER FLOOR) BEDROOM,WATCHMAN RM (GF,1ST TO 5TH)",
+   "family": "family_1",
+   "is_variant_of": "H-A",
+   "item_code": "H-C",
+   "section": "H",
+   "unevidenced": [],
+   "variant_text": "Ditto, hinged door, size 1020mm x 2200mm, type D-3"
+  },
+  {
+   "attributes": {
+    "kind": "hinged door",
+    "opening_size": "size 920mm x 2200mm",
+    "type": "type D-4"
+   },
+   "clause_id": "H1.1",
+   "description": "Ditto, hinged door, size 920mm x 2200mm, type D-4",
+   "element_mark": "D-4 @ TOILET, BATH ROOM (GF,1ST TO 5TH FLOOR)",
+   "family": "family_1",
+   "is_variant_of": "H-A",
+   "item_code": "H-D",
+   "section": "H",
+   "unevidenced": [],
+   "variant_text": "Ditto, hinged door, size 920mm x 2200mm, type D-4"
+  },
+  {
+   "attributes": {
+    "kind": "hinged door",
+    "opening_size": "size 1020mm x 2200mm",
+    "type": "type D-5"
+   },
+   "clause_id": "H1.1",
+   "description": "Ditto, hinged door, size 1020mm x 2200mm, type D-5",
+   "element_mark": "D-5 @ WATER METER RM.,TELE.RM., GARBAGE RM.,ELECT. RM. (1ST TO 5TH FLOOR,LOWER RF)",
+   "family": "family_1",
+   "is_variant_of": "H-A",
+   "item_code": "H-E",
+   "section": "H",
+   "unevidenced": [],
+   "variant_text": "Ditto, hinged door, size 1020mm x 2200mm, type D-5"
+  },
+  {
+   "attributes": {
+    "kind": "swing door",
+    "opening_size": "size 1200mm x 2200mm",
+    "type": "type D-6"
+   },
+   "clause_id": "H1.1",
+   "description": "Ditto, swing door, size 1200mm x 2200mm, type D-6",
+   "element_mark": "D-6 @ GYM,OUTDOOR DECK,SER.RF (1ST FLR,LOWER FLOOR)",
+   "family": "family_1",
+   "is_variant_of": "H-A",
+   "item_code": "H-F",
+   "section": "H",
+   "unevidenced": [],
+   "variant_text": "Ditto, swing door, size 1200mm x 2200mm, type D-6"
+  },
+  {
+   "attributes": {
+    "kind": "hinged",
+    "opening_size": "size 3050mm x 2750mm",
+    "type": "type LD-1"
+   },
+   "clause_id": "H1.1",
+   "description": "Ditto, hinged, size 3050mm x 2750mm, type LD-1",
+   "element_mark": "LD-1 @ SUBSTATION",
+   "family": "family_1",
+   "is_variant_of": "H-A",
+   "item_code": "H-G",
+   "section": "H",
+   "unevidenced": [],
+   "variant_text": "Ditto, hinged, size 3050mm x 2750mm, type LD-1"
+  },
+  {
+   "attributes": {
+    "kind": "hinged",
+    "opening_size": "size 1800mm x 2200mm",
+    "type": "type LD-2"
+   },
+   "clause_id": "H1.1",
+   "description": "Ditto, hinged, size 1800mm x 2200mm, type LD-2",
+   "element_mark": "LD-2 @ GENERATOR ROOM (BASEMENT)",
+   "family": "family_1",
+   "is_variant_of": "H-A",
+   "item_code": "H-H",
+   "section": "H",
+   "unevidenced": [],
+   "variant_text": "Ditto, hinged, size 1800mm x 2200mm, type LD-2"
+  },
+  {
+   "attributes": {
+    "kind": "hinged",
+    "opening_size": "size 3500mm x 2750mm",
+    "type": "type LD-3"
+   },
+   "clause_id": "H1.1",
+   "description": "Ditto, hinged, size 3500mm x 2750mm, type LD-3",
+   "element_mark": "LD-3 @ ELEC. ELEC. CABIN (BASEMENT)",
+   "family": "family_1",
+   "is_variant_of": "H-A",
+   "item_code": "H-J",
+   "section": "H",
+   "unevidenced": [],
+   "variant_text": "Ditto, hinged, size 3500mm x 2750mm, type LD-3"
+  },
+  {
+   "attributes": {
+    "kind": "hinged",
+    "opening_size": "size 1500mm x 2200mm",
+    "type": "type SD-1"
+   },
+   "clause_id": "H1.1",
+   "description": "Ditto, hinged, size 1500mm x 2200mm, type SD-1",
+   "element_mark": "SD-1 @ LV ROOM,",
+   "family": "family_1",
+   "is_variant_of": "H-A",
+   "item_code": "H-K",
+   "section": "H",
+   "unevidenced": [],
+   "variant_text": "Ditto, hinged, size 1500mm x 2200mm, type SD-1"
+  },
+  {
+   "attributes": {
+    "kind": "hinged",
+    "opening_size": "size 1020mm x 2200mm",
+    "type": "type SD-2"
+   },
+   "clause_id": "H1.1",
+   "description": "Ditto, hinged, size 1020mm x 2200mm, type SD-2",
+   "element_mark": "SD-2 @ TELE.ROOM,GSM RM,POOL PUMP (GF,LOWER ROOF)",
+   "family": "family_1",
+   "is_variant_of": "H-A",
+   "item_code": "H-L",
+   "section": "H",
+   "unevidenced": [],
+   "variant_text": "Ditto, hinged, size 1020mm x 2200mm, type SD-2"
+  },
+  {
+   "attributes": {
+    "kind": "hinged",
+    "opening_size": "size 1800mm x 2200mm",
+    "type": "type SD-3"
+   },
+   "clause_id": "H1.1",
+   "description": "Ditto, hinged, size 1800mm x 2200mm, type SD-3",
+   "element_mark": "SD-3 @ GARBAGE ROOM (GROUND FLOOR)",
+   "family": "family_1",
+   "is_variant_of": "H-A",
+   "item_code": "H-M",
+   "section": "H",
+   "unevidenced": [],
+   "variant_text": "Ditto, hinged, size 1800mm x 2200mm, type SD-3"
+  },
+  {
+   "attributes": {
+    "kind": "partly fixed partly sliding door",
+    "opening_size": "size 15600mm x 8350mm",
+    "type": "type DW 01"
+   },
+   "clause_id": "H2.1",
+   "description": "Windows and skylights, partly fixed partly sliding door, size 15600mm x 8350mm, type DW 01, complete in accordance with the Specifications and Drawings",
+   "element_mark": "DW 01 @ MAIN ENTRANCE",
+   "family": "family_1",
+   "is_variant_of": null,
+   "item_code": "H-N",
+   "section": "H",
+   "unevidenced": [],
+   "variant_text": null
+  },
+  {
+   "attributes": {
+    "kind": "partly fixed partly sliding door",
+    "opening_size": "size 3700mm x 2700mm",
+    "type": "type DW 02"
+   },
+   "clause_id": "H2.1",
+   "description": "Ditto, partly fixed partly sliding door, size 3700mm x 2700mm, type DW 02",
+   "element_mark": "DW 02 @ LIFT LOBBY (BASEMENT FLOOR)",
+   "family": "family_1",
+   "is_variant_of": "H-N",
+   "item_code": "H-P",
+   "section": "H",
+   "unevidenced": [],
+   "variant_text": "Ditto, partly fixed partly sliding door, size 3700mm x 2700mm, type DW 02"
+  },
+  {
+   "attributes": {
+    "kind": "partly fixed partly sliding door",
+    "opening_size": "size 3750mm x 3200mm",
+    "type": "type DW 03"
+   },
+   "clause_id": "H2.1",
+   "description": "Ditto, partly fixed partly sliding door, size 3750mm x 3200mm, type DW 03",
+   "element_mark": "DW 03 @ DINING / LIVING (1ST TO 5TH FLOOR)",
+   "family": "family_1",
+   "is_variant_of": "H-N",
+   "item_code": "H-Q",
+   "section": "H",
+   "unevidenced": [],
+   "variant_text": "Ditto, partly fixed partly sliding door, size 3750mm x 3200mm, type DW 03"
+  },
+  {
+   "attributes": {
+    "kind": "partly fixed partly sliding door",
+    "opening_size": "size (7300 + 2950)mm x 3200mm",
+    "type": "type DW 04"
+   },
+   "clause_id": "H2.1",
+   "description": "Ditto, partly fixed partly sliding door, size (7300 + 2950)mm x 3200mm, type DW 04",
+   "element_mark": "DW 04 @ DINING / LIVING,BEDRM (1ST TO 5TH FLOOR)",
+   "family": "family_1",
+   "is_variant_of": "H-N",
+   "item_code": "H-R",
+   "section": "H",
+   "unevidenced": [],
+   "variant_text": "Ditto, partly fixed partly sliding door, size (7300 + 2950)mm x 3200mm, type DW 04"
+  },
+  {
+   "attributes": {
+    "kind": "partly fixed partly sliding door",
+    "opening_size": "size 3300mm x 3200mm",
+    "type": "type DW 05"
+   },
+   "clause_id": "H2.1",
+   "description": "Ditto, partly fixed partly sliding door, size 3300mm x 3200mm, type DW 05",
+   "element_mark": "DW 05 @ DINING / LIVING (1ST TO 5TH FLOOR)",
+   "family": "family_1",
+   "is_variant_of": "H-N",
+   "item_code": "H-S",
+   "section": "H",
+   "unevidenced": [],
+   "variant_text": "Ditto, partly fixed partly sliding door, size 3300mm x 3200mm, type DW 05"
+  },
+  {
+   "attributes": {
+    "kind": "partly fixed partly sliding door",
+    "opening_size": "size (7300 + 4000)mm x 3200mm",
+    "type": "type DW 06"
+   },
+   "clause_id": "H2.1",
+   "description": "Ditto, partly fixed partly sliding door, size (7300 + 4000)mm x 3200mm, type DW 06",
+   "element_mark": "DW 06 @ DINING / LIVING,BEDRM (2ND TO 5TH FLOOR)",
+   "family": "family_1",
+   "is_variant_of": "H-N",
+   "item_code": "H-T",
+   "section": "H",
+   "unevidenced": [],
+   "variant_text": "Ditto, partly fixed partly sliding door, size (7300 + 4000)mm x 3200mm, type DW 06"
+  },
+  {
+   "attributes": {
+    "kind": "partly fixed partly sliding door",
+    "opening_size": "size (4000 + 7300)mm x 3200mm",
+    "type": "type DW 07"
+   },
+   "clause_id": "H2.1",
+   "description": "Ditto, partly fixed partly sliding door, size (4000 + 7300)mm x 3200mm, type DW 07",
+   "element_mark": "DW 07 @ DINING / LIVING,BEDRM (1ST FLOOR)",
+   "family": "family_1",
+   "is_variant_of": "H-N",
+   "item_code": "H-U",
+   "section": "H",
+   "unevidenced": [],
+   "variant_text": "Ditto, partly fixed partly sliding door, size (4000 + 7300)mm x 3200mm, type DW 07"
+  },
+  {
+   "attributes": {
+    "kind": "partly fixed partly sliding door",
+    "opening_size": "size 3650mm x 3200mm",
+    "type": "type DW 08"
+   },
+   "clause_id": "H2.1",
+   "description": "Ditto, partly fixed partly sliding door, size 3650mm x 3200mm, type DW 08",
+   "element_mark": "DW 08 @ DINING / LIVING (2ND TO 5TH FLOOR)",
+   "family": "family_1",
+   "is_variant_of": "H-N",
+   "item_code": "H-V",
+   "section": "H",
+   "unevidenced": [],
+   "variant_text": "Ditto, partly fixed partly sliding door, size 3650mm x 3200mm, type DW 08"
+  },
+  {
+   "attributes": {
+    "kind": "partly fixed partly sliding door",
+    "opening_size": "size (4000 + 7300)mm x 3200mm",
+    "type": "type DW 09"
+   },
+   "clause_id": "H2.1",
+   "description": "Ditto, partly fixed partly sliding door, size (4000 + 7300)mm x 3200mm, type DW 09",
+   "element_mark": "DW 09 @ DINING / LIVING,BEDRM (2ND TO 5TH FLOOR)",
+   "family": "family_1",
+   "is_variant_of": "H-N",
+   "item_code": "H-2A",
+   "section": "H",
+   "unevidenced": [],
+   "variant_text": "Ditto, partly fixed partly sliding door, size (4000 + 7300)mm x 3200mm, type DW 09"
+  },
+  {
+   "attributes": {
+    "kind": "partly fixed partly sliding door",
+    "opening_size": "size (5800 + 8000)mm x 3200mm",
+    "type": "type DW 10"
+   },
+   "clause_id": "H2.1",
+   "description": "Ditto, partly fixed partly sliding door, size (5800 + 8000)mm x 3200mm, type DW 10",
+   "element_mark": "DW 10 @ GYMNASIUM (M) (LOWER ROOF)",
+   "family": "family_1",
+   "is_variant_of": "H-N",
+   "item_code": "H-2B",
+   "section": "H",
+   "unevidenced": [],
+   "variant_text": "Ditto, partly fixed partly sliding door, size (5800 + 8000)mm x 3200mm, type DW 10"
+  },
+  {
+   "attributes": {
+    "kind": "partly fixed partly sliding door",
+    "opening_size": "size (28170 + 6300)mm x 3200mm",
+    "type": "type DW 11"
+   },
+   "clause_id": "H2.1",
+   "description": "Ditto, partly fixed partly sliding door, size (28170 + 6300)mm x 3200mm, type DW 11",
+   "element_mark": "DW 11 @ GYMNASIUM (M,F) (LOWER ROOF)",
+   "family": "family_1",
+   "is_variant_of": "H-N",
+   "item_code": "H-2C",
+   "section": "H",
+   "unevidenced": [],
+   "variant_text": "Ditto, partly fixed partly sliding door, size (28170 + 6300)mm x 3200mm, type DW 11"
+  },
+  {
+   "attributes": {
+    "kind": "partly fixed partly sliding door",
+    "opening_size": "size 25400mm x 3200mm",
+    "type": "type DW 12"
+   },
+   "clause_id": "H2.1",
+   "description": "Ditto, partly fixed partly sliding door, size 25400mm x 3200mm, type DW 12",
+   "element_mark": "DW 12 @ GYMNASIUM (F) (LOWER ROOF)",
+   "family": "family_1",
+   "is_variant_of": "H-N",
+   "item_code": "H-2D",
+   "section": "H",
+   "unevidenced": [],
+   "variant_text": "Ditto, partly fixed partly sliding door, size 25400mm x 3200mm, type DW 12"
+  },
+  {
+   "attributes": {
+    "kind": "partly fixed partly hinged door",
+    "opening_size": "size 10800mm x 3200mm",
+    "type": "type DW 13"
+   },
+   "clause_id": "H2.1",
+   "description": "Ditto, partly fixed partly hinged door, size 10800mm x 3200mm, type DW 13",
+   "element_mark": "DW 13 @ GYMNASIUM (F) (LOWER ROOF)",
+   "family": "family_1",
+   "is_variant_of": "H-N",
+   "item_code": "H-2E",
+   "section": "H",
+   "unevidenced": [],
+   "variant_text": "Ditto, partly fixed partly hinged door, size 10800mm x 3200mm, type DW 13"
+  },
+  {
+   "attributes": {
+    "kind": "partly fixed partly hinged door",
+    "opening_size": "size 11400mm x 3200mm",
+    "type": "type DW 14"
+   },
+   "clause_id": "H2.1",
+   "description": "Ditto, partly fixed partly hinged door, size 11400mm x 3200mm, type DW 14",
+   "element_mark": "DW 14 @ GYMNASIUM (M) (LOWER ROOF)",
+   "family": "family_1",
+   "is_variant_of": "H-N",
+   "item_code": "H-2F",
+   "section": "H",
+   "unevidenced": [],
+   "variant_text": "Ditto, partly fixed partly hinged door, size 11400mm x 3200mm, type DW 14"
+  },
+  {
+   "attributes": {
+    "kind": "partly fixed partly hinged door",
+    "opening_size": "size 11350mm x (800 + 2400)mm",
+    "type": "type DW 15"
+   },
+   "clause_id": "H2.1",
+   "description": "Ditto, partly fixed partly hinged door, size 11350mm x (800 + 2400)mm, type DW 15",
+   "element_mark": "DW 15 @ CORRIDOR (LOWER ROOF)",
+   "family": "family_1",
+   "is_variant_of": "H-N",
+   "item_code": "H-2G",
+   "section": "H",
+   "unevidenced": [],
+   "variant_text": "Ditto, partly fixed partly hinged door, size 11350mm x (800 + 2400)mm, type DW 15"
+  },
+  {
+   "attributes": {
+    "kind": "partly fixed partly hinged door",
+    "opening_size": "size 10800mm x 3200mm",
+    "type": "type DW 16"
+   },
+   "clause_id": "H2.1",
+   "description": "Ditto, partly fixed partly hinged door, size 10800mm x 3200mm, type DW 16",
+   "element_mark": "DW 16 @ CORRIDOR (LOWER ROOF)",
+   "family": "family_1",
+   "is_variant_of": "H-N",
+   "item_code": "H-2H",
+   "section": "H",
+   "unevidenced": [],
+   "variant_text": "Ditto, partly fixed partly hinged door, size 10800mm x 3200mm, type DW 16"
+  },
+  {
+   "attributes": {
+    "kind": "partly fixed partly hinged door",
+    "opening_size": "size (7300 + 4000)mm x 3200mm",
+    "type": "type DW 17"
+   },
+   "clause_id": "H2.1",
+   "description": "Ditto, partly fixed partly hinged door, size (7300 + 4000)mm x 3200mm, type DW 17",
+   "element_mark": "DW 17 @ DINING / LIVING,BEDRM (1ST FLOOR)",
+   "family": "family_1",
+   "is_variant_of": "H-N",
+   "item_code": "H-2J",
+   "section": "H",
+   "unevidenced": [],
+   "variant_text": "Ditto, partly fixed partly hinged door, size (7300 + 4000)mm x 3200mm, type DW 17"
+  },
+  {
+   "attributes": {
+    "kind": "hinged window",
+    "opening_size": "size 1200mm x 1400mm, sill 1000mm",
+    "type": "type DW 18"
+   },
+   "clause_id": "H2.1",
+   "description": "Ditto, hinged window, size 1200mm x 1400mm, sill 1000mm, type DW 18",
+   "element_mark": "DW 18 @ WATCHMAN /CCTV (GROUND FLOOR)",
+   "family": "family_1",
+   "is_variant_of": "H-N",
+   "item_code": "H-2K",
+   "section": "H",
+   "unevidenced": [],
+   "variant_text": "Ditto, hinged window, size 1200mm x 1400mm, sill 1000mm, type DW 18"
+  },
+  {
+   "attributes": {
+    "kind": "sliding door",
+    "opening_size": "size 1200mm x 2400mm",
+    "type": "type DW 19"
+   },
+   "clause_id": "H2.1",
+   "description": "Ditto, sliding door, size 1200mm x 2400mm, type DW 19",
+   "element_mark": "DW 19 @ REAR ENT.LIFT LOBBY (GROUND FLOOR)",
+   "family": "family_1",
+   "is_variant_of": "H-N",
+   "item_code": "H-2L",
+   "section": "H",
+   "unevidenced": [],
+   "variant_text": "Ditto, sliding door, size 1200mm x 2400mm, type DW 19"
+  },
+  {
+   "attributes": {
+    "kind": "fixed",
+    "opening_size": "size 2900mm x 2000mm, sill 750mm",
+    "type": "type LW 01"
+   },
+   "clause_id": "H2.1",
+   "description": "Ditto, fixed, size 2900mm x 2000mm, sill 750mm, type LW 01",
+   "element_mark": "LW 01 @ SUBSTATION (GROUND FLR.)",
+   "family": "family_1",
+   "is_variant_of": "H-N",
+   "item_code": "H-2M",
+   "section": "H",
+   "unevidenced": [],
+   "variant_text": "Ditto, fixed, size 2900mm x 2000mm, sill 750mm, type LW 01"
+  },
+  {
+   "attributes": {
+    "kind": "fixed",
+    "opening_size": "size 2400mm x 2000mm, sill 750mm",
+    "type": "type LW 02"
+   },
+   "clause_id": "H2.1",
+   "description": "Ditto, fixed, size 2400mm x 2000mm, sill 750mm, type LW 02",
+   "element_mark": "LW 02 @ POOL PUMP (GROUND FLR.)",
+   "family": "family_1",
+   "is_variant_of": "H-N",
+   "item_code": "H-2N",
+   "section": "H",
+   "unevidenced": [],
+   "variant_text": "Ditto, fixed, size 2400mm x 2000mm, sill 750mm, type LW 02"
+  },
+  {
+   "attributes": {
+    "kind": "fixed",
+    "opening_size": "size 2000mm x 2000mm, sill 750mm",
+    "type": "type LW 03"
+   },
+   "clause_id": "H2.1",
+   "description": "Ditto, fixed, size 2000mm x 2000mm, sill 750mm, type LW 03",
+   "element_mark": "LW 03 @ GENER.ROOM (BASEMENT FLR.)",
+   "family": "family_1",
+   "is_variant_of": "H-N",
+   "item_code": "H-2P",
+   "section": "H",
+   "unevidenced": [],
+   "variant_text": "Ditto, fixed, size 2000mm x 2000mm, sill 750mm, type LW 03"
+  },
+  {
+   "attributes": {
+    "type": "to ceilings, rooms"
+   },
+   "clause_id": "J3.1",
+   "description": "Finishings, to ceilings, rooms, in accordance with the {design_standard}, Specifications and Drawings",
+   "element_mark": "Ceilings, rooms",
+   "family": "family_2",
+   "is_variant_of": null,
+   "item_code": "J-A",
+   "section": "J",
+   "unevidenced": [
+    "design_standard"
+   ],
+   "variant_text": null
+  },
+  {
+   "attributes": {
+    "type": "to ceilings, wet areas"
+   },
+   "clause_id": "J3.1",
+   "description": "Ditto, to ceilings, wet areas",
+   "element_mark": "Ceilings, wet areas",
+   "family": "family_2",
+   "is_variant_of": "J-A",
+   "item_code": "J-B",
+   "section": "J",
+   "unevidenced": [],
+   "variant_text": "Ditto, to ceilings, wet areas"
+  },
+  {
+   "attributes": {
+    "type": "to floors, rooms"
+   },
+   "clause_id": "J3.1",
+   "description": "Ditto, to floors, rooms",
+   "element_mark": "Floors, rooms",
+   "family": "family_2",
+   "is_variant_of": "J-A",
+   "item_code": "J-C",
+   "section": "J",
+   "unevidenced": [],
+   "variant_text": "Ditto, to floors, rooms"
+  },
+  {
+   "attributes": {
+    "type": "to floors, wet areas"
+   },
+   "clause_id": "J3.1",
+   "description": "Ditto, to floors, wet areas",
+   "element_mark": "Floors, wet areas",
+   "family": "family_2",
+   "is_variant_of": "J-A",
+   "item_code": "J-D",
+   "section": "J",
+   "unevidenced": [],
+   "variant_text": "Ditto, to floors, wet areas"
+  },
+  {
+   "attributes": {
+    "type": "to walls, rooms"
+   },
+   "clause_id": "J3.1",
+   "description": "Ditto, to walls, rooms",
+   "element_mark": "Walls, rooms",
+   "family": "family_2",
+   "is_variant_of": "J-A",
+   "item_code": "J-E",
+   "section": "J",
+   "unevidenced": [],
+   "variant_text": "Ditto, to walls, rooms"
+  },
+  {
+   "attributes": {
+    "type": "to walls, wet areas"
+   },
+   "clause_id": "J3.1",
+   "description": "Ditto, to walls, wet areas",
+   "element_mark": "Walls, wet areas",
+   "family": "family_2",
+   "is_variant_of": "J-A",
+   "item_code": "J-F",
+   "section": "J",
+   "unevidenced": [],
+   "variant_text": "Ditto, to walls, wet areas"
+  },
+  {
+   "attributes": {
+    "type": "to walls, rooms"
+   },
+   "clause_id": "J3.2",
+   "description": "Skirtings, bands, strings, coverings to kerbs, mouldings, coves, channels, to walls, rooms, in accordance with the {design_standard}, Specifications and Drawings",
+   "element_mark": "Skirtings, rooms",
+   "family": "family_2",
+   "is_variant_of": null,
+   "item_code": "J-G",
+   "section": "J",
+   "unevidenced": [
+    "design_standard"
+   ],
+   "variant_text": null
+  },
+  {
+   "attributes": {
+    "type": "to walls, wet areas"
+   },
+   "clause_id": "J3.2",
+   "description": "Ditto, to walls, wet areas",
+   "element_mark": "Skirtings, wet areas",
+   "family": "family_2",
+   "is_variant_of": "J-G",
+   "item_code": "J-H",
+   "section": "J",
+   "unevidenced": [],
+   "variant_text": "Ditto, to walls, wet areas"
+  }
+ ]
+}

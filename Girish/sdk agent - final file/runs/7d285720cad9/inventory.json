@@ -1,0 +1,154 @@
+{
+ "agreed": [
+  "D-2",
+  "D-3",
+  "D-4",
+  "D-5",
+  "D-6",
+  "DW 03",
+  "DW 04",
+  "DW 05",
+  "DW 06",
+  "DW 07",
+  "DW 08",
+  "DW 09",
+  "DW 10",
+  "DW 11",
+  "DW 12",
+  "DW 13",
+  "DW 14",
+  "DW 15",
+  "DW 16",
+  "DW 17",
+  "DW 18",
+  "DW 19",
+  "LD-1",
+  "LW 01",
+  "LW 02",
+  "SD-1",
+  "SD-2",
+  "SD-3"
+ ],
+ "discrepancies": [
+  {
+   "mark": "D-1",
+   "missing_floors": [],
+   "outside": {},
+   "plan_tags": 19,
+   "plans": {
+    "A-07-001": 1,
+    "A-07-003": 4,
+    "A-07-004": 3,
+    "A-07-005": 2,
+    "A-07-006": 2,
+    "A-07-007": 4,
+    "A-07-008": 2,
+    "A-07-009": 1
+   },
+   "schedule": 20
+  },
+  {
+   "mark": "DW 01",
+   "missing_floors": [],
+   "outside": {},
+   "plan_tags": 2,
+   "plans": {
+    "A-07-003": 1,
+    "A-07-004": 1
+   },
+   "schedule": 1
+  },
+  {
+   "mark": "DW 02",
+   "missing_floors": [
+    "B1"
+   ],
+   "outside": {},
+   "plan_tags": 0,
+   "plans": {},
+   "schedule": 1
+  },
+  {
+   "mark": "LD-2",
+   "missing_floors": [
+    "B1"
+   ],
+   "outside": {},
+   "plan_tags": 0,
+   "plans": {},
+   "schedule": 1
+  },
+  {
+   "mark": "LD-3",
+   "missing_floors": [
+    "B1"
+   ],
+   "outside": {},
+   "plan_tags": 0,
+   "plans": {},
+   "schedule": 1
+  },
+  {
+   "mark": "LW 03",
+   "missing_floors": [
+    "B1"
+   ],
+   "outside": {},
+   "plan_tags": 0,
+   "plans": {},
+   "schedule": 1
+  }
+ ],
+ "elements": 47,
+ "marks": [
+  "Ceilings, rooms",
+  "Ceilings, wet areas",
+  "D-1",
+  "D-2",
+  "D-3",
+  "D-4",
+  "D-5",
+  "D-6",
+  "DW 01",
+  "DW 02",
+  "DW 03",
+  "DW 04",
+  "DW 05",
+  "DW 06",
+  "DW 07",
+  "DW 08",
+  "DW 09",
+  "DW 10",
+  "DW 11",
+  "DW 12",
+  "DW 13",
+  "DW 14",
+  "DW 15",
+  "DW 16",
+  "DW 17",
+  "DW 18",
+  "DW 19",
+  "Floors of wet areas",
+  "Floors, rooms",
+  "Floors, wet areas",
+  "LD-1",
+  "LD-2",
+  "LD-3",
+  "LW 01",
+  "LW 02",
+  "LW 03",
+  "Roofs, terraces and balconies",
+  "SD-1",
+  "SD-2",
+  "SD-3",
+  "Skirtings, rooms",
+  "Skirtings, wet areas",
+  "Walls 100mm thick",
+  "Walls 150mm thick",
+  "Walls 200mm thick",
+  "Walls, rooms",
+  "Walls, wet areas"
+ ],
+ "plan_tag_counts_available": true,
+ "total_counted": 692
+}

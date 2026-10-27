@@ -1,0 +1,674 @@
+import { THEME_CSS } from './theme.js';
+import { HEAD_LINKS, BRAND_CSS, BRAND_MARK } from './shared.js';
+import { AIREAD_JS } from './ai-read.js';
+
+// PROJECT INTAKE — the screen behind "drop a folder and the project sets
+// itself up".
+//
+// Four steps, and only the fourth writes anything. The design decision that
+// governs the whole page: THE REVIEW SCREEN SEPARATES WHAT A PERSON MUST DECIDE
+// FROM WHAT THEY NEED ONLY TO NOTICE. Five groups, in order of how much
+// attention each deserves:
+//
+//   Ready to file            scan the number, decide nothing
+//   Filed without verification   note what is being taken on trust
+//   Needs a decision         the only group that requires work
+//   Will be held             see what goes to the Admin, and why, BEFORE committing
+//   Not identified           say what these are, or leave them out
+//
+// Contract terms are not in those groups. They get their own panel, every term
+// unticked, because no contract figure is ever applied without a person saying
+// so — every payment certificate for the life of the job is computed from them.
+//
+// Progress is per file with the current filename, never a bare spinner: four
+// hundred files takes minutes, and a spinner with no count is indistinguishable
+// from a hang.
+export const intakeHTML = () => `<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AETRAA Admin · Project intake</title>
+${HEAD_LINKS}
+<style>${THEME_CSS}${BRAND_CSS}
+.wrap { max-width: 1100px; margin: 0 auto; padding: 18px 16px 60px; }
+.card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 18px 20px; box-shadow: var(--shadow); margin: 0 0 16px; }
+.card h2 { font-size: var(--fs-body); margin: 0 0 4px; }
+.card .sub { font-size: var(--fs-secondary); color: var(--muted); margin: 0 0 14px; line-height: 1.5; }
+label { font-size: var(--fs-secondary); color: var(--ink-2); display: block; margin-bottom: 4px; }
+select, input[type=text] { font: inherit; font-size: var(--fs-body); padding: 8px 10px; border: 1px solid var(--border); border-radius: 8px; background: var(--surface-2); color: var(--ink); min-width: 260px; }
+.btn { font: inherit; font-size: var(--fs-body); padding: 9px 16px; border-radius: 9px; border: 1px solid var(--border); background: var(--surface-2); color: var(--ink); cursor: pointer; text-decoration: none; display: inline-block; }
+.btn.prim { background: var(--series-1); border-color: var(--series-1); color: var(--on-accent); }
+.btn:disabled { opacity: .5; cursor: default; }
+.drop { border: 2px dashed var(--border); border-radius: 12px; padding: 34px 20px; text-align: center; background: var(--surface-2); cursor: pointer; transition: border-color .15s, background .15s; }
+.drop.over { border-color: var(--series-1); background: color-mix(in srgb, var(--series-1) 8%, transparent); }
+.drop b { display: block; font-size: var(--fs-body); margin-bottom: 6px; }
+.drop span { font-size: var(--fs-secondary); color: var(--muted); }
+.prog { display: none; margin-top: 14px; }
+.prog.on { display: block; }
+.bar { height: 6px; border-radius: 999px; background: var(--grid); overflow: hidden; }
+.bar i { display: block; height: 100%; background: var(--series-1); width: 0; transition: width .2s; }
+.progline { font-size: var(--fs-secondary); color: var(--muted); margin-top: 7px; font-variant-numeric: tabular-nums; }
+.sumline { font-size: var(--fs-body); line-height: 1.7; margin: 0 0 6px; }
+.sumline b { font-weight: 650; }
+.sumline .held { color: var(--critical); }
+.grp { border: 1px solid var(--border); border-radius: 10px; margin: 0 0 10px; overflow: hidden; }
+.grp > summary { list-style: none; cursor: pointer; padding: 11px 14px; background: var(--surface-2); font-size: var(--fs-secondary); display: flex; gap: 10px; align-items: center; }
+.grp > summary::-webkit-details-marker { display: none; }
+.grp > summary b { font-weight: 500; }
+.grp > summary .n { margin-left: auto; font-variant-numeric: tabular-nums; color: var(--muted); font-size: var(--fs-secondary); }
+.grp.warn > summary { background: color-mix(in srgb, var(--critical) 10%, transparent); }
+.grp .why { padding: 9px 14px 0; font-size: var(--fs-secondary); color: var(--muted); line-height: 1.5; }
+table { width: 100%; border-collapse: collapse; font-size: var(--fs-secondary); }
+th { text-align: left; font-size: var(--fs-label); text-transform: uppercase; letter-spacing: .04em; color: var(--muted); padding: 7px 10px; border-bottom: 1px solid var(--border); }
+td { padding: 8px 10px; border-bottom: 1px solid var(--grid); vertical-align: top; }
+td.f { font-family: var(--mono); font-size: var(--fs-secondary); word-break: break-all; }
+td .path { display: block; color: var(--muted); font-size: var(--fs-secondary); margin-top: 2px; }
+td .reason { color: var(--muted); font-size: var(--fs-secondary); line-height: 1.45; }
+select.sm { min-width: 0; font-size: var(--fs-secondary); padding: 4px 7px; }
+.terms { display: grid; gap: 10px; }
+.term { display: grid; grid-template-columns: 26px 1fr; gap: 10px; padding: 11px 13px; border: 1px solid var(--border); border-radius: 9px; background: var(--surface-2); }
+.term.conflict { border-color: var(--critical); }
+.term input[type=checkbox] { width: 16px; height: 16px; margin: 2px 0 0; }
+.term b { font-size: var(--fs-secondary); display: block; }
+.term .val { font-size: var(--fs-body); font-variant-numeric: tabular-nums; margin: 3px 0; }
+.term .cite { font-size: var(--fs-secondary); color: var(--muted); line-height: 1.5; font-style: italic; }
+.term .note { font-size: var(--fs-secondary); color: var(--critical); margin-top: 5px; line-height: 1.45; }
+.term .opt { display: block; font-size: var(--fs-secondary); margin: 4px 0; }
+.msg { padding: 10px 14px; border-radius: 9px; margin: 0 0 14px; font-size: var(--fs-secondary); display: none; }
+.msg.ok { background: color-mix(in srgb, var(--good-text) 14%, transparent); color: var(--good-text); display: block; }
+.msg.err { background: color-mix(in srgb, var(--critical) 14%, transparent); color: var(--critical); display: block; }
+.gatewarn { font-size: var(--fs-secondary); padding: 10px 13px; border: 1px dashed var(--critical); border-radius: 9px; color: var(--critical); margin-bottom: 14px; line-height: 1.5; display: none; }
+.gatewarn.on { display: block; }
+#reviewCard, #termsCard, #resultCard { display: none; }
+#reviewCard.on, #termsCard.on, #resultCard.on { display: block; }
+</style>
+</head>
+<body>
+<div class="topbar"><div class="topbar-in">
+  ${BRAND_MARK}
+  <div class="brand"><h1>AETRAA Admin</h1><div class="sub">project intake</div></div>
+  <div class="spacer"></div>
+  <a class="btn" href="/setup">Setup console</a>
+  <button class="btn" id="themeBtn" title="Light / dark">◐</button>
+  <a class="btn" href="/api/logout">Sign out</a>
+</div></div>
+
+<div class="wrap">
+  <div class="msg" id="msg"></div>
+
+  <div class="card">
+    <h2>1 &middot; Which project</h2>
+    <p class="sub">Everything attaches to a project, so pick it before dropping anything. A draft project is invisible to the customer until you take it live.</p>
+    <label for="proj">Project</label>
+    <select id="proj"><option value="">Loading&hellip;</option></select>
+    <div class="gatewarn" id="gateWarn"></div>
+  </div>
+
+  <div class="card">
+    <h2>2 &middot; Drop the folder</h2>
+    <p class="sub">The whole folder, sub-folders and all &mdash; nothing to zip, nothing to install. Sub-folder names are kept, because <code>/Tender Drawings/Structural/</code> is a hint a flat list would lose.</p>
+    <div class="drop" id="drop">
+      <b>Drop a folder here</b>
+      <span>or click to choose one</span>
+      <input type="file" id="picker" webkitdirectory directory multiple hidden>
+    </div>
+    <div class="prog" id="prog">
+      <div class="bar"><i id="barFill"></i></div>
+      <div class="progline" id="progLine"></div>
+    </div>
+  </div>
+
+  <div class="card" id="reviewCard">
+    <h2>3 &middot; Review</h2>
+    <p class="sub">Nothing has been written yet. Everything below is what the engine <em>proposes</em>.</p>
+    <p class="sumline" id="sumLine"></p>
+    <div id="groups"></div>
+    <div style="margin-top:16px">
+      <button class="btn" id="stampBtn" style="display:none;margin-right:8px">Read approval stamps (AI)</button>
+      <button class="btn prim" id="commitBtn">File everything confirmed</button>
+      <button class="btn" id="abandonBtn" style="margin-left:8px">Abandon this drop</button>
+      <span class="sub" id="commitHint" style="margin-left:10px"></span>
+      <div class="sub" id="reportLinks" style="margin-top:10px"></div>
+    </div>
+  </div>
+
+  <div class="card" id="termsCard">
+    <h2>Contract terms</h2>
+    <p class="sub"><b>Nothing here is ticked.</b> Every payment certificate, reply-by clock and overdue flag on this project is computed from these figures, so each one is a proposal you confirm &mdash; never something the engine applies for you.</p>
+    <div class="terms" id="terms"></div>
+    <div style="margin-top:14px">
+      <button class="btn" id="termsBtn">Apply the ticked terms</button>
+    </div>
+  </div>
+
+  <div class="card" id="resultCard">
+    <h2>Result</h2>
+    <div id="result"></div>
+  </div>
+</div>
+
+<script>
+var state = { pid: '', batch: null, items: [], terms: [] };
+// K9 (v5 A1): whether AI is on — the Read with AI button shows only then.
+var AI_ON = false;
+fetch('/api/ai/status', { cache: 'no-store' }).then(function (r) { return r.json(); }).then(function (d) { AI_ON = !!(d && d.enabled); }).catch(function () {});
+window.onAiSheetDone = function (j) { if (!(j && j.discarded)) say('Saved to the sheet. Filed, it waits for the PM\u2019s approval.'); loadReview(); };
+var $ = function (id) { return document.getElementById(id); };
+function esc(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) {
+  return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
+function say(t, bad) { var m = $('msg'); m.textContent = t; m.className = 'msg ' + (bad ? 'err' : 'ok'); }
+function clearSay() { $('msg').className = 'msg'; }
+
+$('themeBtn').addEventListener('click', function () {
+  var d = document.documentElement;
+  d.setAttribute('data-theme', d.getAttribute('data-theme') === 'light' ? 'dark' : 'light');
+});
+
+/* ---------------------------------------------------------------- projects */
+(async function () {
+  try {
+    var r = await fetch('/api/projects', { cache: 'no-store' });
+    var d = await r.json();
+    var list = d.projects || d || [];
+    $('proj').innerHTML = '<option value="">Choose a project\\u2026</option>' + list.map(function (p) {
+      return '<option value="' + esc(p.id) + '">' + esc(p.name || p.id) +
+             (p.ref ? ' \\u00B7 ' + esc(p.ref) : '') +
+             (p.setup_state === 'draft' ? ' (draft)' : '') + '</option>';
+    }).join('');
+  } catch (e) { $('proj').innerHTML = '<option value="">Could not load projects</option>'; }
+  // ?batch=<id> reopens an earlier drop: its review, the AI button and File.
+  var want = new URLSearchParams(location.search).get('batch');
+  if (want) {
+    try {
+      var b = await (await fetch('/api/intake/batch?id=' + encodeURIComponent(want), { cache: 'no-store' })).json();
+      if (b && b.project_id) {
+        state.pid = b.project_id; $('proj').value = b.project_id;
+        state.batch = want;
+        await loadReview();
+        say('Reopened the drop of ' + String(b.started_at || '').slice(0, 16).replace('T', ' ') + '.');
+      }
+    } catch (e) { say('That drop could not be reopened.', true); }
+  }
+})();
+
+$('proj').addEventListener('change', async function () {
+  state.pid = this.value;
+  $('gateWarn').className = 'gatewarn';
+  if (!state.pid) return;
+  // Say plainly when the gate is not configured. A gate nobody set up protects
+  // nothing and must not look as though it does.
+  try {
+    var r = await fetch('/api/setup/rules?project=' + encodeURIComponent(state.pid), { cache: 'no-store' });
+    var d = await r.json();
+    if (!d.configured) {
+      $('gateWarn').innerHTML = '<b>Drawing gate: not configured.</b> This project has no drawing ' +
+        'numbering set, so nothing will stop another project\\u2019s drawings being filed here. ' +
+        'Set it in the <a href="/setup">setup console</a> from the contractor\\u2019s drawing register.';
+      $('gateWarn').className = 'gatewarn on';
+    }
+  } catch (e) {}
+});
+
+/* ---------------------------------------------------------------- the drop */
+var drop = $('drop'), picker = $('picker');
+drop.addEventListener('click', function () { picker.click(); });
+['dragenter', 'dragover'].forEach(function (e) {
+  drop.addEventListener(e, function (ev) { ev.preventDefault(); drop.classList.add('over'); });
+});
+['dragleave', 'drop'].forEach(function (e) {
+  drop.addEventListener(e, function (ev) { ev.preventDefault(); drop.classList.remove('over'); });
+});
+picker.addEventListener('change', function () { start([].slice.call(this.files)); });
+drop.addEventListener('drop', async function (ev) {
+  var items = ev.dataTransfer && ev.dataTransfer.items;
+  if (items && items.length && items[0].webkitGetAsEntry) {
+    var entries = [];
+    for (var i = 0; i < items.length; i++) {
+      var e = items[i].webkitGetAsEntry();
+      if (e) entries.push(e);
+    }
+    var files = [];
+    for (var j = 0; j < entries.length; j++) await walk(entries[j], '', files);
+    start(files);
+  } else {
+    start([].slice.call(ev.dataTransfer.files));
+  }
+});
+
+// Sub-folder names are kept rather than flattened: the path is a hint the
+// classifier uses when it is decisive.
+function walk(entry, path, out) {
+  return new Promise(function (done) {
+    if (entry.isFile) {
+      entry.file(function (f) { f._path = path; out.push(f); done(); }, done);
+    } else if (entry.isDirectory) {
+      var rd = entry.createReader();
+      var all = [];
+      (function read() {
+        rd.readEntries(async function (batch) {
+          if (!batch.length) {
+            for (var i = 0; i < all.length; i++) await walk(all[i], path + '/' + entry.name, out);
+            return done();
+          }
+          all = all.concat([].slice.call(batch));
+          read();
+        }, done);
+      })();
+    } else done();
+  });
+}
+
+var MAX = 40 * 1024 * 1024;
+
+async function start(files) {
+  clearSay();
+  if (!state.pid) { say('Pick a project first.', true); return; }
+  files = files.filter(function (f) { return f && f.size >= 0 && !/^\\./.test(f.name); });
+  if (!files.length) { say('That folder had no files in it.', true); return; }
+  // A fixed order (spec §27): the full path, compared character by character,
+  // so the same folder gives the same batch whatever order the browser lists it in.
+  var full = function (f) { return (f._path || f.webkitRelativePath || '') + '/' + f.name; };
+  files.sort(function (a, b) { var x = full(a), y = full(b); return x < y ? -1 : x > y ? 1 : 0; });
+  var total = files.reduce(function (n, f) { return n + (f.size || 0); }, 0);
+
+  var r = await post('/api/intake/batch', { project_id: state.pid, expect_files: files.length, expect_bytes: total });
+  if (r && r.code === 'batch_open') {
+    say(r.error, true);
+    $('result').innerHTML = '<p class="sub"><a href="/intake?batch=' + encodeURIComponent(r.open_batch) + '">Continue that drop</a>' +
+      ' &middot; <a href="#" id="abandonOpen">Abandon it</a> (its unfiled files are deleted; anything filed stays).</p>';
+    $('resultCard').className = 'card on';
+    $('abandonOpen').addEventListener('click', async function (ev) {
+      ev.preventDefault();
+      var a = await post('/api/intake/abandon', { batch_id: r.open_batch });
+      say(a && a.error ? a.error : 'Abandoned. Drop the folder again.', !!(a && a.error));
+      $('resultCard').className = 'card';
+    });
+    return;
+  }
+  if (!r || r.error) { say((r && r.error) || 'Could not open a batch.', true); return; }
+  state.batch = r.id;
+  try { history.replaceState(null, '', '/intake?batch=' + encodeURIComponent(r.id)); } catch (e) { /* old browser */ }
+
+  $('prog').className = 'prog on';
+  var done = 0, skipped = 0, tooBig = 0;
+  for (var i = 0; i < files.length; i++) {
+    var f = files[i];
+    // Per file, with the name — never a bare spinner. Four hundred files takes
+    // minutes and a countless spinner is indistinguishable from a hang.
+    $('progLine').textContent = 'Reading ' + (i + 1) + ' of ' + files.length + ' \\u00B7 ' + f.name;
+    $('barFill').style.width = Math.round(((i + 1) / files.length) * 100) + '%';
+    if (f.size > MAX) { tooBig++; continue; }
+    try {
+      var body = {
+        batch_id: state.batch, project_id: state.pid,
+        filename: f.name, path: (f._path || f.webkitRelativePath || ''), mime: f.type,
+        data: await toB64(f),
+      };
+      var res = await post('/api/intake/scan', body);
+      // A limit stops the drop with its own message, never a truncated batch.
+      if (res && res.code === 'limit') { say(res.error, true); break; }
+      if (res && res.skipped) skipped++;
+      done++;
+    } catch (e) { /* a file that fails to read fails alone */ }
+  }
+  $('progLine').textContent = 'Read ' + done + ' of ' + files.length +
+    (tooBig ? ' \\u00B7 ' + tooBig + ' too large to store' : '') +
+    (skipped ? ' \\u00B7 ' + skipped + ' outside this batch' : '');
+  $('barFill').style.width = '100%';
+  await loadReview();
+}
+
+function toB64(file) {
+  return new Promise(function (ok, bad) {
+    var fr = new FileReader();
+    fr.onload = function () { ok(String(fr.result).split(',')[1] || ''); };
+    fr.onerror = bad;
+    fr.readAsDataURL(file);
+  });
+}
+
+async function post(path, body) {
+  var r = await fetch(path, { method: 'POST', headers: { 'Content-Type': 'application/json' },
+                              body: JSON.stringify(body) });
+  try { return await r.json(); } catch (e) { return null; }
+}
+
+/* ---------------------------------------------------------------- review */
+var GROUPS = [
+  ['ready', 'Ready to file', 'Nothing to decide here \\u2014 scan the number and move on.'],
+  ['unverified', 'Filed without verification', 'The engine had no evidence either way. These WILL be filed; this is what you are taking on trust.'],
+  ['decide', 'Needs a decision', 'The only group that needs work from you.'],
+  ['held', 'Will be held', 'These go to the held queue instead of being filed. You are seeing why BEFORE anything is committed.'],
+  ['unidentified', 'Not identified', 'Say what these are, or leave them out. Nothing is discarded and nothing is guessed at.'],
+  ['left_out', 'Left out', 'Files of a type the platform does not store (listed, never stored), and drafts or superseded copies, which are not filed unless you include one.'],
+  ['archived', 'Archived duplicates', 'The same file, or the same sheet in another file, is already on this project. Kept here for the record and not filed again.'],
+];
+
+var FAMILY_CHOICES = ['drawing', 'specification', 'contract', 'programme', 'commercial', 'payment',
+  'technical', 'quality', 'hse', 'authority', 'correspondence', 'minutes', 'site', 'handover',
+  'template', 'logo', 'unknown'];
+
+async function loadReview() {
+  var r = await fetch('/api/intake/batch?id=' + encodeURIComponent(state.batch), { cache: 'no-store' });
+  var d = await r.json();
+  state.items = d.items || [];
+  var c = d.counts || {};
+
+  // On a later drop the interesting numbers are not "380 ready" but "12
+  // revisions, 3 new, 38 already filed". Lead with what changed, or a DC who
+  // cannot see a drop is mostly revisions stops checking.
+  var line = '<b>' + c.total + ' files</b> \\u00B7 <b>' + c.ready + ' ready</b>' +
+    ' \\u00B7 ' + c.unverified + ' filed without verification' +
+    ' \\u00B7 ' + c.decide + ' need a decision' +
+    ' \\u00B7 <b class="held">' + c.held + ' will be held</b>' +
+    ' \\u00B7 ' + c.unidentified + ' not identified' +
+    (c.left_out ? ' \\u00B7 ' + c.left_out + ' left out' : '') +
+    (c.archived ? ' \\u00B7 ' + c.archived + ' duplicates archived' : '');
+  if (c.already_filed) line += '<br><span class="sub">' + c.already_filed +
+    ' already filed on this project \\u00B7 ' + c.fresh + ' new</span>';
+  $('sumLine').innerHTML = line;
+
+  $('groups').innerHTML = GROUPS.map(function (g) {
+    var rows = state.items.filter(function (i) { return i.group === g[0]; });
+    if (!rows.length) return '';
+    return '<details class="grp' + (g[0] === 'held' ? ' warn' : '') + '"' +
+      (g[0] === 'decide' || g[0] === 'held' ? ' open' : '') + '>' +
+      '<summary><b>' + esc(g[1]) + '</b><span class="n">' + rows.length + '</span></summary>' +
+      '<div class="why">' + esc(g[2]) + '</div>' +
+      '<table><thead><tr><th>File</th><th>What it is</th><th>Why</th></tr></thead><tbody>' +
+      rows.map(function (i) { return row(i, g[0]); }).join('') +
+      '</tbody></table></details>';
+  }).join('') || '<p class="sub">Nothing was read.</p>';
+
+  $('reviewCard').className = 'card on';
+  $('commitHint').textContent = c.held
+    ? c.held + ' item' + (c.held === 1 ? '' : 's') + ' will go to the held queue, not the register.'
+    : '';
+  bindRows(); showStampBtn(); showReportLinks();
+  $('abandonBtn').style.display = d.status === 'abandoned' || d.status === 'done' ? 'none' : '';
+  await loadTerms();
+}
+
+function row(i, group) {
+  var what = group === 'decide' || group === 'unidentified'
+    ? '<select class="sm famsel" data-id="' + esc(i.id) + '">' +
+      FAMILY_CHOICES.map(function (f) {
+        return '<option value="' + f + '"' + (f === i.family ? ' selected' : '') + '>' + esc(f) + '</option>';
+      }).join('') + '</select>'
+    : esc(i.family_label || i.family);
+  // A sheet with no readable number: type it here (A0-01, S1-01A).
+  if (i.family === 'drawing' && i.needs_number) {
+    what += '<br><input class="sm numin" data-id="' + esc(i.id) + '" placeholder="drawing number" style="margin-top:4px;width:140px">';
+  }
+  if (i.number && !i.needs_number) what += '<br><span class="path">' + esc(i.number) + '</span>';
+  // K9 (v5 A1): a scan — read its title-block corner with AI; what was confirmed, and by whom.
+  if (i.family === 'drawing' && i.ai_read && i.ai_read.fields) {
+    var byAi = Object.keys(i.ai_read.fields).filter(function (k) { return i.ai_read.fields[k] === 'ai'; });
+    what += '<br><span class="path">' + (byAi.length ? esc(byAi.join(', ')) + ' read by AI, ' : '') + 'confirmed by ' + esc(i.ai_read.confirmed_by || '') + '</span>';
+  } else if (i.family === 'drawing' && i.scanned && AI_ON && ['filed', 'held', 'archived', 'skipped', 'abandoned'].indexOf(i.state) < 0) {
+    what += '<br><button class="btn sm airead" data-id="' + esc(i.id) + '" data-name="' + esc(i.filename) + '" style="margin-top:4px">Read with AI</button>';
+  }
+  // An authority-approved sheet: who approved it, the approval number and date.
+  if (i.family === 'drawing' && i.kind === 'authority') {
+    what += '<br><span class="path"><b>Authority approved: ' + esc(i.authority || 'authority not read yet') + '</b>' +
+      (i.approval_no ? ' \\u00B7 approval ' + esc(i.approval_no) : '') +
+      (i.approval_date ? ' \\u00B7 ' + esc(i.approval_date) : '') +
+      (i.stamp && i.stamp.confidence ? ' \\u00B7 stamp read by AI (' + esc(i.stamp.confidence) + ')' : (i.needs_stamp ? ' \\u00B7 stamp not read yet' : '')) +
+      '</span>';
+  }
+  // The AI's stamp reading waits for a person: confirm it, correct it, or say it is wrong.
+  if (i.family === 'drawing' && i.stamp_pending && i.stamp) {
+    var s = i.stamp;
+    what += '<div class="stampbox" data-id="' + esc(i.id) + '" style="margin-top:6px;padding:6px;border:1px dashed var(--line,var(--line-strong));border-radius:6px">' +
+      '<span class="path"><b>Read by AI (' + esc(s.confidence || 'low') + '), not applied until you confirm:</b> ' +
+      (s.approved ? 'approved stamp' : 'no authority stamp found') + (s.where ? ' · ' + esc(s.where) : '') +
+      (s.date_as_printed ? ' · date as printed “' + esc(s.date_as_printed) + '”' : '') + '</span><br>' +
+      (s.approved ? '<input class="sm sa" placeholder="authority" value="' + esc(s.authority || '') + '" style="width:90px"> ' +
+        '<input class="sm sn" placeholder="approval no." value="' + esc(s.approval_no || '') + '" style="width:120px"> ' +
+        '<input class="sm sd" type="date" value="' + esc(s.approval_date || '') + '"> ' : '') +
+      (i.needs_number && s.drawing_number ? '<input class="sm snum" placeholder="drawing number" value="' + esc(s.drawing_number) + '" style="width:120px"> ' : '') +
+      '<button class="btn sm stok">Confirm</button> <button class="btn sm stno">Not right</button></div>';
+  }
+  // Include a draft someone does mean to file; leave out one of two programmes.
+  if (group === 'left_out' && i.draft && !i.unsupported) {
+    what += '<br><button class="btn sm inc" data-id="' + esc(i.id) + '" style="margin-top:4px">Include it</button>';
+  }
+  if (group === 'decide' || (i.choose_programme && group !== 'left_out')) {
+    what += '<br><button class="btn sm out" data-id="' + esc(i.id) + '" style="margin-top:4px">Leave it out</button>';
+  }
+  return '<tr><td class="f">' + esc(i.filename) +
+    (i.from_set ? '<span class="path">sheet ' + esc(i.from_set.page) + ' of ' + esc(i.from_set.of) + ' in ' + esc(i.from_set.filename) + '</span>' : '') +
+    (i.path ? '<span class="path">' + esc(i.path) + '</span>' : '') +
+    (i.already_filed ? '<span class="path">already filed on this project</span>' : '') +
+    '</td><td>' + what + '</td><td><span class="reason">' + esc(i.reason) + '</span></td></tr>';
+}
+
+function bindRows() {
+  [].forEach.call(document.querySelectorAll('button.airead'), function (b) {
+    b.addEventListener('click', function () { readSheetAI({ item_id: b.dataset.id }, b.dataset.name); });
+  });
+  [].forEach.call(document.querySelectorAll('.numin'), function (inp) {
+    inp.addEventListener('change', async function () {
+      var r = await post('/api/intake/confirm', { batch_id: state.batch,
+        items: [{ id: this.dataset.id, extracted: { number: this.value } }] });
+      if (r && r.errors && r.errors.length) { this.style.borderColor = 'var(--bad-ink)'; this.title = r.errors[0].error; }
+      else { this.style.borderColor = 'var(--good-ink)'; }
+    });
+  });
+  [].forEach.call(document.querySelectorAll('.famsel'), function (sel) {
+    sel.addEventListener('change', async function () {
+      await post('/api/intake/confirm', { batch_id: state.batch,
+        items: [{ id: this.dataset.id, family: this.value }] });
+    });
+  });
+  [].forEach.call(document.querySelectorAll('.stampbox button'), function (b) {
+    b.addEventListener('click', async function () {
+      var box = b.closest('.stampbox'), v = function (c) { var x = box.querySelector(c); return x ? x.value : undefined; };
+      var it = { id: box.dataset.id, accept: b.classList.contains('stok') };
+      if (it.accept) { it.authority = v('.sa'); it.approval_no = v('.sn'); it.approval_date = v('.sd'); it.number = v('.snum'); }
+      var r = await post('/api/intake/stamps/confirm', { batch_id: state.batch, items: [it] });
+      if (!r || r.error || (r.errors && r.errors.length)) { say((r && (r.error || r.errors[0].error)) || 'Not saved.', true); return; }
+      await loadReview();
+    });
+  });
+  [].forEach.call(document.querySelectorAll('button.inc, button.out'), function (b) {
+    b.addEventListener('click', async function () {
+      var r = await post('/api/intake/confirm', { batch_id: state.batch,
+        items: [{ id: this.dataset.id, state: this.classList.contains('out') ? 'skipped' : 'confirmed' }] });
+      if (r && r.errors && r.errors.length) say(r.errors[0].error, true);
+      await loadReview();
+    });
+  });
+}
+
+/* ---------------------------------------------------------------- approval stamps */
+// Shown when sheets are waiting for their stamp to be read. A few at a time,
+// so progress shows and one slow sheet never holds the page.
+function showStampBtn() {
+  var waiting = state.items.filter(stampWaiting).length;
+  var b = $('stampBtn');
+  // K9: with AI off the button is not offered (the sheets stay waiting for it).
+  b.style.display = waiting && AI_ON ? '' : 'none';
+  b.textContent = 'Read approval stamps and missing numbers (AI) \\u00B7 ' + waiting + ' sheets';
+}
+// A sheet waiting for the AI: its stamp unread, or (after a failed filing) its number.
+function stampWaiting(i) {
+  return i.needs_stamp || (i.state === 'failed' && i.needs_number && !(i.extracted && i.extracted.number_by_ai_tried));
+}
+$('stampBtn').addEventListener('click', async function () {
+  var btn = this; btn.disabled = true; clearSay();
+  // Filing waits while the stamps are read, so nothing is filed half-read.
+  $('commitBtn').disabled = true;
+  $('prog').className = 'prog on';
+  var start = state.items.filter(stampWaiting).length, left = start, stuck = 0;
+  while (left > 0 && stuck < 3) {
+    var r = await post('/api/intake/stamps', { batch_id: state.batch, limit: 3 });
+    if (!r || r.error) { say((r && r.error) || 'The stamps could not be read.'); break; }
+    if (r.remaining >= left) stuck++; else stuck = 0;
+    left = r.remaining;
+    $('progLine').textContent = 'Reading approval stamps: ' + (start - left) + ' of ' + start;
+    $('barFill').style.width = Math.round(((start - left) / Math.max(1, start)) * 100) + '%';
+  }
+  btn.disabled = false;
+  $('commitBtn').disabled = false;
+  await loadReview();
+});
+
+/* ---------------------------------------------------------------- commit */
+$('commitBtn').addEventListener('click', async function () {
+  var btn = this;
+  btn.disabled = true;
+  clearSay();
+  var ids = state.items.filter(function (i) { return i.state !== 'filed' && i.state !== 'skipped' && i.state !== 'archived'; })
+                       .map(function (i) { return i.id; });
+  if (!ids.length) { say('Nothing left to file.'); btn.disabled = false; return; }
+
+  // Per item, in chunks. Four hundred drawings in one request would exhaust the
+  // server, and a commit that stops at item 300 must leave the first 299 filed.
+  var filed = 0, held = 0, failed = [], stoppedAt = 0;
+  $('prog').className = 'prog on';
+  // Chunks of 25, one after another (spec §20).
+  for (var i = 0; i < ids.length; i += 25) {
+    var chunk = ids.slice(i, i + 25);
+    $('progLine').textContent = 'Filing ' + Math.min(i + chunk.length, ids.length) + ' of ' + ids.length;
+    $('barFill').style.width = Math.round(((i + chunk.length) / ids.length) * 100) + '%';
+    var r = null;
+    try { r = await post('/api/intake/commit', { batch_id: state.batch, ids: chunk }); } catch (e) { r = null; }
+    // The connection dropped (spec §21 "Interrupted"): stop, say what was
+    // filed, and offer to continue. Whoever ran it is also emailed if nobody does.
+    if (!r || !r.results) { stoppedAt = i + 1; break; }
+    r.results.forEach(function (x) {
+      if (x.held) held++;
+      else if (x.ok && x.state === 'filed') filed++;
+      else if (!x.ok) failed.push(x);
+    });
+  }
+  if (stoppedAt) {
+    $('progLine').textContent = 'Stopped at item ' + stoppedAt + ' of ' + ids.length + ' — the connection dropped. The first ' + (stoppedAt - 1) +
+      ' are filed. Continue where it stopped?';
+    $('result').innerHTML = '<p class="sumline"><b>Stopped at item ' + stoppedAt + ' of ' + ids.length + '</b> — the first ' + (stoppedAt - 1) + ' are filed.</p>' +
+      '<p><button class="btn" id="contBtn">Continue where it stopped</button></p>';
+    $('resultCard').className = 'card on';
+    btn.disabled = false;
+    $('contBtn').addEventListener('click', async function () { try { await loadReview(); } catch (e) {} $('commitBtn').click(); });
+    return;
+  }
+  $('progLine').textContent = 'Done.';
+  $('result').innerHTML = '<p class="sumline"><b>' + filed + ' filed</b>' +
+    (held ? ' \\u00B7 <b class="held">' + held + ' held</b>' : '') +
+    (failed.length ? ' \\u00B7 ' + failed.length + ' failed' : '') + '</p>' +
+    (held ? '<p class="sub">Held items are in the <a href="/held">held list</a> with their reason. ' +
+            'Only AETRAA can release them.</p>' : '') +
+    (failed.length ? '<table><thead><tr><th>Item</th><th>Why it failed</th></tr></thead><tbody>' +
+      failed.map(function (f) { return '<tr><td class="f">' + esc(f.id) + '</td><td>' + esc(f.error) + '</td></tr>'; }).join('') +
+      '</tbody></table><p class="sub">A failure is recorded on the item. Re-dropping the same folder retries only what did not land.</p>' : '');
+  $('resultCard').className = 'card on';
+  btn.disabled = false;
+  await loadReview();
+  await offerFolders();
+});
+
+/* ---------------------------------------------------------------- report, folders, abandon */
+function showReportLinks() {
+  if (!state.batch) return;
+  var q = '/api/intake/report?batch=' + encodeURIComponent(state.batch);
+  $('reportLinks').innerHTML = 'Intake report: <a href="' + q + '&format=pdf">PDF</a> &middot; ' +
+    '<a href="' + q + '&format=xlsx">Excel</a> &middot; <a href="/intake-history">every drop on this project</a>';
+}
+
+// Spec §4: folders that held three or more files of one kind are offered to be
+// remembered for this company. Nothing is remembered until it is ticked.
+async function offerFolders() {
+  try {
+    var r = await (await fetch('/api/intake/folders?batch=' + encodeURIComponent(state.batch), { cache: 'no-store' })).json();
+    var props = (r && r.proposals) || [];
+    if (!props.length) return;
+    state.folders = props;
+    $('result').insertAdjacentHTML('beforeend', '<h3 style="margin-top:14px">Remember these folders for this company?</h3>' +
+      '<p class="sub">The next project from this company then files them without asking. Nothing is remembered unless ticked.</p>' +
+      props.map(function (f, n) {
+        return '<label class="opt"><input type="checkbox" data-f="' + n + '"> "' + esc(f.pattern) + '" is ' +
+          esc(f.family_label || f.family) + ' (' + esc(f.times_seen) + ' files)</label>';
+      }).join('') + '<div style="margin-top:8px"><button class="btn" id="rememberBtn">Remember the ticked folders</button></div>');
+    $('rememberBtn').addEventListener('click', async function () {
+      var picks = [];
+      [].forEach.call(document.querySelectorAll('input[data-f]'), function (cb) { if (cb.checked) picks.push(state.folders[Number(cb.dataset.f)]); });
+      if (!picks.length) { say('Nothing ticked, so nothing was remembered.', true); return; }
+      var s = await post('/api/intake/folder-map', { project_id: state.pid, entries: picks });
+      say(s && s.error ? s.error : picks.length + ' folder' + (picks.length === 1 ? '' : 's') + ' remembered for this company.', !!(s && s.error));
+    });
+  } catch (e) { /* the offer is a convenience */ }
+}
+
+$('abandonBtn').addEventListener('click', async function () {
+  if (!state.batch) return;
+  if (!confirm('Abandon this drop? Files not yet filed are deleted from the platform. Anything already filed or held stays.')) return;
+  var r = await post('/api/intake/abandon', { batch_id: state.batch });
+  if (r && r.error) { say(r.error, true); return; }
+  say('Abandoned: ' + r.items + ' unfiled item' + (r.items === 1 ? '' : 's') + ' left out and ' + r.files_deleted + ' stored file' + (r.files_deleted === 1 ? '' : 's') + ' deleted.');
+  await loadReview();
+});
+
+/* ---------------------------------------------------------------- terms */
+async function loadTerms() {
+  var contract = state.items.filter(function (i) { return i.family === 'contract'; });
+  if (!contract.length) { $('termsCard').className = 'card'; return; }
+  var r = await fetch('/api/intake/terms?batch=' + encodeURIComponent(state.batch), { cache: 'no-store' });
+  if (!r.ok) { $('termsCard').className = 'card'; return; }
+  var d = await r.json();
+  state.terms = d.terms || [];
+  if (!state.terms.length) { $('termsCard').className = 'card'; return; }
+
+  $('terms').innerHTML = state.terms.map(function (t, n) {
+    if (t.state === 'not_found') {
+      return '<div class="term"><span></span><div><b>' + esc(t.label) + '</b>' +
+        '<div class="cite">' + esc(t.note || 'not found') + '</div></div></div>';
+    }
+    var body = '<b>' + esc(t.label) + '</b>';
+    if (t.state === 'conflict') {
+      body += '<div class="note">' + esc(t.note) + '</div>' +
+        t.options.map(function (o, k) {
+          return '<label class="opt"><input type="radio" name="t' + n + '" value="' + esc(o.value) + '"> ' +
+            esc(o.value) + (t.unit ? ' ' + esc(t.unit) : '') +
+            ' <span class="cite">&mdash; ' + (o.clause ? esc(o.clause) + ', ' : '') + 'p' + esc(o.page || '?') + ': &ldquo;' + esc(o.sentence) + '&rdquo;</span></label>';
+        }).join('');
+    } else {
+      body += '<div class="val">' + esc(t.value) + (t.unit ? ' ' + esc(t.unit) : '') + '</div>' +
+        (t.sentence ? '<div class="cite">' + (t.clause ? esc(t.clause) + ', ' : '') + 'p' + esc(t.page || '?') + ': &ldquo;' + esc(t.sentence) + '&rdquo;</div>' : '') +
+        (t.note ? '<div class="note">' + esc(t.note) + '</div>' : '');
+    }
+    return '<div class="term' + (t.state === 'conflict' ? ' conflict' : '') + '">' +
+      '<input type="checkbox" data-key="' + esc(t.key) + '" data-n="' + n + '">' +
+      '<div>' + body + '</div></div>';
+  }).join('');
+  $('termsCard').className = 'card on';
+}
+
+$('termsBtn').addEventListener('click', async function () {
+  clearSay();
+  var picks = [], all = [];
+  state.terms.forEach(function (t, n) { all[n] = Object.assign({}, t, { accepted: false }); });
+  [].forEach.call(document.querySelectorAll('#terms input[type=checkbox]'), function (cb) {
+    if (!cb.checked) return;
+    var t = state.terms[Number(cb.dataset.n)];
+    var value = t.value;
+    if (t.state === 'conflict') {
+      var chosen = document.querySelector('input[name=t' + cb.dataset.n + ']:checked');
+      if (!chosen) return;                 // ticked but nothing chosen: not applied
+      value = chosen.value;
+    }
+    picks.push({ key: t.key, value: value, accepted: true });
+    all[Number(cb.dataset.n)] = Object.assign({}, t, { value: value, accepted: true });
+  });
+  // Every proposal goes to the server, ticked or not, so the refused ones are
+  // kept as evidence too (spec §14). Only the ticked ones are applied.
+  var r = await post('/api/intake/terms', { batch_id: state.batch, project_id: state.pid, terms: all });
+  if (!picks.length) { say('Nothing ticked, so nothing was changed.', true); return; }
+  if (r && r.error) { say(r.error, true); return; }
+  say(picks.length + ' term' + (picks.length === 1 ? '' : 's') + ' applied to the project.');
+});
+</script>
+<script>${AIREAD_JS}</script>
+</body>
+</html>`;

@@ -1,0 +1,201 @@
+{
+ "created_utc": "2026-09-29T06:19:07+00:00",
+ "input_set_hash": "7d285720cad9ecea49499f64280257247fa6596ff19c08fc7da28acc0c86ce86",
+ "schema": "run_state/1",
+ "stages": {
+  "S0": {
+   "artefacts": [
+    "ingest.json"
+   ],
+   "entered_utc": "2026-09-30T12:02:21+00:00",
+   "exit": 0,
+   "exited_utc": "2026-09-30T12:02:21+00:00"
+  },
+  "S1": {
+   "artefacts": [
+    "register.json",
+    "register.xlsx"
+   ],
+   "entered_utc": "2026-09-30T12:02:21+00:00",
+   "exit": 0,
+   "exited_utc": "2026-09-30T12:04:56+00:00"
+  },
+  "S10": {
+   "artefacts": [
+    "inventory.json"
+   ],
+   "entered_utc": "2026-09-30T12:06:20+00:00",
+   "exit": 0,
+   "exited_utc": "2026-09-30T12:06:20+00:00"
+  },
+  "S11": {
+   "artefacts": [
+    "classifications.json"
+   ],
+   "entered_utc": "2026-09-30T12:06:20+00:00",
+   "exit": 0,
+   "exited_utc": "2026-09-30T12:06:20+00:00"
+  },
+  "S12": {
+   "artefacts": [
+    "quantities.json"
+   ],
+   "entered_utc": "2026-09-30T12:06:20+00:00",
+   "exit": 0,
+   "exited_utc": "2026-09-30T12:06:20+00:00"
+  },
+  "S13": {
+   "artefacts": [
+    "audit.json",
+    "house_measurement.json",
+    "takeoff.json"
+   ],
+   "entered_utc": "2026-09-30T12:06:20+00:00",
+   "exit": 0,
+   "exited_utc": "2026-09-30T12:06:20+00:00"
+  },
+  "S14": {
+   "artefacts": [
+    "markup_instructions.json",
+    "markup_spec.json"
+   ],
+   "entered_utc": "2026-09-30T12:06:20+00:00",
+   "exit": 0,
+   "exited_utc": "2026-09-30T12:06:21+00:00"
+  },
+  "S15": {
+   "artefacts": [
+    "descriptions.json"
+   ],
+   "entered_utc": "2026-09-30T12:06:21+00:00",
+   "exit": 0,
+   "exited_utc": "2026-09-30T12:06:21+00:00"
+  },
+  "S16": {
+   "artefacts": [
+    "completeness.json"
+   ],
+   "entered_utc": "2026-09-30T12:06:21+00:00",
+   "exit": 0,
+   "exited_utc": "2026-09-30T12:06:21+00:00"
+  },
+  "S17": {
+   "artefacts": [
+    "nonmeasured.json"
+   ],
+   "entered_utc": "2026-09-30T12:06:21+00:00",
+   "exit": 0,
+   "exited_utc": "2026-09-30T12:06:21+00:00"
+  },
+  "S18": {
+   "artefacts": [
+    "priced.json"
+   ],
+   "entered_utc": "2026-09-30T12:06:21+00:00",
+   "exit": 0,
+   "exited_utc": "2026-09-30T12:06:21+00:00"
+  },
+  "S19": {
+   "artefacts": [
+    "bill.json"
+   ],
+   "entered_utc": "2026-09-30T12:06:21+00:00",
+   "exit": 0,
+   "exited_utc": "2026-09-30T12:06:21+00:00"
+  },
+  "S2": {
+   "artefacts": [
+    "readiness.json"
+   ],
+   "entered_utc": "2026-09-30T12:04:56+00:00",
+   "exit": 0,
+   "exited_utc": "2026-09-30T12:04:56+00:00"
+  },
+  "S20": {
+   "artefacts": [
+    "bill.xlsx",
+    "bill_unpriced.xlsx",
+    "coverage.txt",
+    "markup/00-LEGEND-INDEX.pdf",
+    "markup/1. A-07-003.pdf",
+    "markup/2. A-07-004.pdf",
+    "markup/3. A-07-005.pdf",
+    "markup/4. A-07-006.pdf",
+    "markup/5. A-07-007.pdf",
+    "markup/6. A-07-008.pdf",
+    "provenance.xlsx",
+    "render.json",
+    "takeoff.xlsx"
+   ],
+   "entered_utc": "2026-09-30T12:06:21+00:00",
+   "exit": 0,
+   "exited_utc": "2026-09-30T12:15:18+00:00"
+  },
+  "S21": {
+   "artefacts": [
+    "revision_changes.json"
+   ],
+   "entered_utc": "2026-09-30T12:15:18+00:00",
+   "exit": 0,
+   "exited_utc": "2026-09-30T12:15:18+00:00"
+  },
+  "S3": {
+   "artefacts": [
+    "extraction.json"
+   ],
+   "entered_utc": "2026-09-30T12:04:56+00:00",
+   "exit": 0,
+   "exited_utc": "2026-09-30T12:04:56+00:00"
+  },
+  "S4": {
+   "artefacts": [
+    "grids.json",
+    "levels.json"
+   ],
+   "entered_utc": "2026-09-30T12:04:56+00:00",
+   "exit": 0,
+   "exited_utc": "2026-09-30T12:05:08+00:00"
+  },
+  "S5": {
+   "artefacts": [
+    "routing.json"
+   ],
+   "entered_utc": "2026-09-30T12:05:08+00:00",
+   "exit": 0,
+   "exited_utc": "2026-09-30T12:05:08+00:00"
+  },
+  "S6": {
+   "artefacts": [
+    "schedules.json"
+   ],
+   "entered_utc": "2026-09-30T12:05:08+00:00",
+   "exit": 0,
+   "exited_utc": "2026-09-30T12:05:12+00:00"
+  },
+  "S7": {
+   "artefacts": [
+    "counts.json"
+   ],
+   "entered_utc": "2026-09-30T12:05:12+00:00",
+   "exit": 0,
+   "exited_utc": "2026-09-30T12:05:32+00:00"
+  },
+  "S8": {
+   "artefacts": [
+    "measured.json"
+   ],
+   "entered_utc": "2026-09-30T12:05:32+00:00",
+   "exit": 0,
+   "exited_utc": "2026-09-30T12:06:18+00:00"
+  },
+  "S9": {
+   "artefacts": [
+    "elements.json",
+    "evidence.json"
+   ],
+   "entered_utc": "2026-09-30T12:06:18+00:00",
+   "exit": 0,
+   "exited_utc": "2026-09-30T12:06:20+00:00"
+  }
+ }
+}

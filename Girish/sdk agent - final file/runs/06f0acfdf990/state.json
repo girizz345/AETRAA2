@@ -1,0 +1,184 @@
+{
+ "created_utc": "2026-09-29T06:45:13+00:00",
+ "input_set_hash": "06f0acfdf990975a387dbb915759ebba30588a7a6bdfbfb68d13bf83cbad55e2",
+ "schema": "run_state/1",
+ "stages": {
+  "S0": {
+   "artefacts": [
+    "ingest.json"
+   ],
+   "entered_utc": "2026-09-29T06:47:21+00:00",
+   "exit": 0,
+   "exited_utc": "2026-09-29T06:47:21+00:00"
+  },
+  "S1": {
+   "artefacts": [
+    "register.json",
+    "register.xlsx"
+   ],
+   "entered_utc": "2026-09-29T06:47:21+00:00",
+   "exit": 0,
+   "exited_utc": "2026-09-29T06:47:22+00:00"
+  },
+  "S10": {
+   "artefacts": [
+    "inventory.json"
+   ],
+   "entered_utc": "2026-09-29T06:47:23+00:00",
+   "exit": 0,
+   "exited_utc": "2026-09-29T06:47:23+00:00"
+  },
+  "S11": {
+   "artefacts": [
+    "classifications.json"
+   ],
+   "entered_utc": "2026-09-29T06:47:23+00:00",
+   "exit": 0,
+   "exited_utc": "2026-09-29T06:47:23+00:00"
+  },
+  "S12": {
+   "artefacts": [
+    "quantities.json"
+   ],
+   "entered_utc": "2026-09-29T06:47:23+00:00",
+   "exit": 0,
+   "exited_utc": "2026-09-29T06:47:23+00:00"
+  },
+  "S13": {
+   "artefacts": [
+    "audit.json",
+    "house_measurement.json",
+    "takeoff.json"
+   ],
+   "entered_utc": "2026-09-29T06:47:23+00:00",
+   "exit": 0,
+   "exited_utc": "2026-09-29T06:47:23+00:00"
+  },
+  "S14": {
+   "artefacts": [
+    "markup_instructions.json",
+    "markup_spec.json"
+   ],
+   "entered_utc": "2026-09-29T06:47:23+00:00",
+   "exit": 0,
+   "exited_utc": "2026-09-29T06:47:23+00:00"
+  },
+  "S15": {
+   "artefacts": [
+    "descriptions.json"
+   ],
+   "entered_utc": "2026-09-29T06:47:23+00:00",
+   "exit": 0,
+   "exited_utc": "2026-09-29T06:47:23+00:00"
+  },
+  "S16": {
+   "artefacts": [
+    "completeness.json"
+   ],
+   "entered_utc": "2026-09-29T06:47:23+00:00",
+   "exit": 0,
+   "exited_utc": "2026-09-29T06:47:23+00:00"
+  },
+  "S17": {
+   "artefacts": [
+    "nonmeasured.json"
+   ],
+   "entered_utc": "2026-09-29T06:47:23+00:00",
+   "exit": 0,
+   "exited_utc": "2026-09-29T06:47:23+00:00"
+  },
+  "S18": {
+   "artefacts": [
+    "priced.json"
+   ],
+   "entered_utc": "2026-09-29T06:47:23+00:00",
+   "exit": 0,
+   "exited_utc": "2026-09-29T06:47:23+00:00"
+  },
+  "S19": {
+   "artefacts": [
+    "bill.json"
+   ],
+   "entered_utc": "2026-09-29T06:47:23+00:00",
+   "exit": 0,
+   "exited_utc": "2026-09-29T06:47:23+00:00"
+  },
+  "S2": {
+   "artefacts": [
+    "readiness.json"
+   ],
+   "entered_utc": "2026-09-29T06:47:22+00:00",
+   "exit": 0,
+   "exited_utc": "2026-09-29T06:47:22+00:00"
+  },
+  "S20": {
+   "artefacts": [
+    "markup/00-LEGEND-INDEX.pdf",
+    "provenance.xlsx",
+    "render.json",
+    "takeoff.xlsx"
+   ],
+   "entered_utc": "2026-09-29T06:47:23+00:00",
+   "exit": 0,
+   "exited_utc": "2026-09-29T06:47:23+00:00"
+  },
+  "S21": {
+   "artefacts": [
+    "revision_changes.json"
+   ],
+   "entered_utc": "2026-09-29T06:47:23+00:00",
+   "exit": 0,
+   "exited_utc": "2026-09-29T06:47:23+00:00"
+  },
+  "S3": {
+   "artefacts": [
+    "extraction.json"
+   ],
+   "entered_utc": "2026-09-29T06:47:22+00:00",
+   "exit": 0,
+   "exited_utc": "2026-09-29T06:47:22+00:00"
+  },
+  "S4": {
+   "artefacts": [
+    "grids.json",
+    "levels.json"
+   ],
+   "entered_utc": "2026-09-29T06:47:22+00:00",
+   "exit": 0,
+   "exited_utc": "2026-09-29T06:47:22+00:00"
+  },
+  "S5": {
+   "artefacts": [
+    "routing.json"
+   ],
+   "entered_utc": "2026-09-29T06:47:22+00:00",
+   "exit": 0,
+   "exited_utc": "2026-09-29T06:47:22+00:00"
+  },
+  "S6": {
+   "artefacts": [
+    "schedules.json"
+   ],
+   "entered_utc": "2026-09-29T06:47:22+00:00",
+   "exit": 0,
+   "exited_utc": "2026-09-29T06:47:22+00:00"
+  },
+  "S7": {
+   "artefacts": [
+    "counts.json"
+   ],
+   "entered_utc": "2026-09-29T06:47:22+00:00",
+   "exit": 0,
+   "exited_utc": "2026-09-29T06:47:23+00:00"
+  },
+  "S9": {
+   "artefacts": [
+    "elements.json",
+    "evidence.json"
+   ],
+   "entered_utc": "2026-09-29T06:47:23+00:00",
+   "exit": 0,
+   "exited_utc": "2026-09-29T06:47:23+00:00"
+  }
+ }
+}

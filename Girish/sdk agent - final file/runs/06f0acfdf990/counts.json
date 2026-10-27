@@ -1,0 +1,57 @@
+{
+ "by_sheet": [
+  {
+   "discipline": "A",
+   "doc_id": "A-07-003 GROUND FLOOR PLAN.pdf",
+   "door_window_tags": {
+    "D1": 4,
+    "D3": 1,
+    "D4": 1,
+    "DW1": 1,
+    "DW18": 1,
+    "DW19": 1,
+    "LD1": 1,
+    "LW1": 1,
+    "LW2": 1,
+    "SD1": 1,
+    "SD2": 2,
+    "SD3": 1
+   },
+   "floors": [
+    "GF"
+   ],
+   "multiplier": 1,
+   "occurrences": 0,
+   "tags": 0
+  }
+ ],
+ "by_value": {
+  "D1": 4,
+  "D3": 1,
+  "D4": 1,
+  "DW1": 1,
+  "DW18": 1,
+  "DW19": 1,
+  "LD1": 1,
+  "LW1": 1,
+  "LW2": 1,
+  "SD1": 1,
+  "SD2": 2,
+  "SD3": 1
+ },
+ "distinct_tag_values": 12,
+ "floor_plans_counted": [
+  {
+   "drawing_no": "A-07-003",
+   "floors": [
+    "GF"
+   ],
+   "mm_per_pt": 52.916666666666664,
+   "multiplier": 1,
+   "title": "GROUND FLOOR PLAN"
+  }
+ ],
+ "sheets_examined": 1,
+ "symbol_clustering": "not implemented",
+ "total_occurrences": 16
+}

@@ -1,0 +1,358 @@
+{
+ "AN.COVERAGE": [
+  [
+   "H",
+   "door_schedule",
+   12,
+   34,
+   "PASS"
+  ],
+  [
+   "H",
+   "window_schedule",
+   22,
+   34,
+   "PASS"
+  ]
+ ],
+ "AN.RECONCILIATION": [
+  [
+   "D-1",
+   "schedule count",
+   "20",
+   "plan tag count",
+   "19",
+   null,
+   null
+  ],
+  [
+   "DW 01",
+   "schedule count",
+   "1",
+   "plan tag count",
+   "2",
+   null,
+   null
+  ],
+  [
+   "DW 02",
+   "schedule count",
+   "1",
+   "plan tag count",
+   "0",
+   null,
+   null
+  ],
+  [
+   "LD-2",
+   "schedule count",
+   "1",
+   "plan tag count",
+   "0",
+   null,
+   null
+  ],
+  [
+   "LD-3",
+   "schedule count",
+   "1",
+   "plan tag count",
+   "0",
+   null,
+   null
+  ],
+  [
+   "LW 03",
+   "schedule count",
+   "1",
+   "plan tag count",
+   "0",
+   null,
+   null
+  ]
+ ],
+ "AN.SUBSTANTIVE": [
+  [
+   "D-A",
+   "clause D2.1 applied to Walls 100mm thick",
+   "stated \u2014 the schedule names its subject and the clause enumerates it; modelled \u2014 the model chose the clause and bindings from labels, validated by code",
+   null
+  ],
+  [
+   "D-B",
+   "clause D2.1 applied to Walls 150mm thick",
+   "stated \u2014 the schedule names its subject and the clause enumerates it; modelled \u2014 the model chose the clause and bindings from labels, validated by code",
+   null
+  ],
+  [
+   "D-C",
+   "clause D2.1 applied to Walls 200mm thick",
+   "stated \u2014 the schedule names its subject and the clause enumerates it; modelled \u2014 the model chose the clause and bindings from labels, validated by code",
+   null
+  ],
+  [
+   "G-A",
+   "clause G2.1 applied to Floors of wet areas",
+   "stated \u2014 the schedule names its subject and the clause enumerates it; modelled \u2014 the model chose the clause and bindings from labels, validated by code",
+   null
+  ],
+  [
+   "G-B",
+   "clause G2.1 applied to Roofs, terraces and balconies",
+   "stated \u2014 the schedule names its subject and the clause enumerates it; modelled \u2014 the model chose the clause and bindings from labels, validated by code",
+   null
+  ],
+  [
+   "H-2A",
+   "clause H2.1 applied to DW 09 @ DINING / LIVING,BEDRM (2ND TO 5TH FLOOR)",
+   "stated \u2014 the schedule names its subject and the clause enumerates it; modelled \u2014 the model chose the clause and bindings from labels, validated by code",
+   null
+  ],
+  [
+   "H-2B",
+   "clause H2.1 applied to DW 10 @ GYMNASIUM (M) (LOWER ROOF)",
+   "stated \u2014 the schedule names its subject and the clause enumerates it; modelled \u2014 the model chose the clause and bindings from labels, validated by code",
+   null
+  ],
+  [
+   "H-2C",
+   "clause H2.1 applied to DW 11 @ GYMNASIUM (M,F) (LOWER ROOF)",
+   "stated \u2014 the schedule names its subject and the clause enumerates it; modelled \u2014 the model chose the clause and bindings from labels, validated by code",
+   null
+  ],
+  [
+   "H-2D",
+   "clause H2.1 applied to DW 12 @ GYMNASIUM (F) (LOWER ROOF)",
+   "stated \u2014 the schedule names its subject and the clause enumerates it; modelled \u2014 the model chose the clause and bindings from labels, validated by code",
+   null
+  ],
+  [
+   "H-2E",
+   "clause H2.1 applied to DW 13 @ GYMNASIUM (F) (LOWER ROOF)",
+   "stated \u2014 the schedule names its subject and the clause enumerates it; modelled \u2014 the model chose the clause and bindings from labels, validated by code",
+   null
+  ],
+  [
+   "H-2F",
+   "clause H2.1 applied to DW 14 @ GYMNASIUM (M) (LOWER ROOF)",
+   "stated \u2014 the schedule names its subject and the clause enumerates it; modelled \u2014 the model chose the clause and bindings from labels, validated by code",
+   null
+  ],
+  [
+   "H-2G",
+   "clause H2.1 applied to DW 15 @ CORRIDOR (LOWER ROOF)",
+   "stated \u2014 the schedule names its subject and the clause enumerates it; modelled \u2014 the model chose the clause and bindings from labels, validated by code",
+   null
+  ],
+  [
+   "H-2H",
+   "clause H2.1 applied to DW 16 @ CORRIDOR (LOWER ROOF)",
+   "stated \u2014 the schedule names its subject and the clause enumerates it; modelled \u2014 the model chose the clause and bindings from labels, validated by code",
+   null
+  ],
+  [
+   "H-2J",
+   "clause H2.1 applied to DW 17 @ DINING / LIVING,BEDRM (1ST FLOOR)",
+   "stated \u2014 the schedule names its subject and the clause enumerates it; modelled \u2014 the model chose the clause and bindings from labels, validated by code",
+   null
+  ],
+  [
+   "H-2K",
+   "clause H2.1 applied to DW 18 @ WATCHMAN /CCTV (GROUND FLOOR)",
+   "stated \u2014 the schedule names its subject and the clause enumerates it; modelled \u2014 the model chose the clause and bindings from labels, validated by code",
+   null
+  ],
+  [
+   "H-2L",
+   "clause H2.1 applied to DW 19 @ REAR ENT.LIFT LOBBY (GROUND FLOOR)",
+   "stated \u2014 the schedule names its subject and the clause enumerates it; modelled \u2014 the model chose the clause and bindings from labels, validated by code",
+   null
+  ],
+  [
+   "H-2M",
+   "clause H2.1 applied to LW 01 @ SUBSTATION (GROUND FLR.)",
+   "stated \u2014 the schedule names its subject and the clause enumerates it; modelled \u2014 the model chose the clause and bindings from labels, validated by code",
+   null
+  ],
+  [
+   "H-2N",
+   "clause H2.1 applied to LW 02 @ POOL PUMP (GROUND FLR.)",
+   "stated \u2014 the schedule names its subject and the clause enumerates it; modelled \u2014 the model chose the clause and bindings from labels, validated by code",
+   null
+  ],
+  [
+   "H-2P",
+   "clause H2.1 applied to LW 03 @ GENER.ROOM (BASEMENT FLR.)",
+   "stated \u2014 the schedule names its subject and the clause enumerates it; modelled \u2014 the model chose the clause and bindings from labels, validated by code",
+   null
+  ],
+  [
+   "H-A",
+   "clause H1.1 applied to D-1 @ STAIRCASE",
+   "stated \u2014 the schedule names its subject and the clause enumerates it; modelled \u2014 the model chose the clause and bindings from labels, validated by code",
+   null
+  ],
+  [
+   "H-B",
+   "clause H1.1 applied to D-2 @ APARTMENT ENTRANCE (1ST TO 5TH FLOOR)",
+   "stated \u2014 the schedule names its subject and the clause enumerates it; modelled \u2014 the model chose the clause and bindings from labels, validated by code",
+   null
+  ],
+  [
+   "H-C",
+   "clause H1.1 applied to D-3 @ UTILITY ENTRANCE (1ST FLR ,LOWER FLOOR) BEDROOM,WATCHMAN RM (GF,1ST TO 5TH)",
+   "stated \u2014 the schedule names its subject and the clause enumerates it; modelled \u2014 the model chose the clause and bindings from labels, validated by code",
+   null
+  ],
+  [
+   "H-D",
+   "clause H1.1 applied to D-4 @ TOILET, BATH ROOM (GF,1ST TO 5TH FLOOR)",
+   "stated \u2014 the schedule names its subject and the clause enumerates it; modelled \u2014 the model chose the clause and bindings from labels, validated by code",
+   null
+  ],
+  [
+   "H-E",
+   "clause H1.1 applied to D-5 @ WATER METER RM.,TELE.RM., GARBAGE RM.,ELECT. RM. (1ST TO 5TH FLOOR,LOWER RF)",
+   "stated \u2014 the schedule names its subject and the clause enumerates it; modelled \u2014 the model chose the clause and bindings from labels, validated by code",
+   null
+  ],
+  [
+   "H-F",
+   "clause H1.1 applied to D-6 @ GYM,OUTDOOR DECK,SER.RF (1ST FLR,LOWER FLOOR)",
+   "stated \u2014 the schedule names its subject and the clause enumerates it; modelled \u2014 the model chose the clause and bindings from labels, validated by code",
+   null
+  ],
+  [
+   "H-G",
+   "clause H1.1 applied to LD-1 @ SUBSTATION",
+   "stated \u2014 the schedule names its subject and the clause enumerates it; modelled \u2014 the model chose the clause and bindings from labels, validated by code",
+   null
+  ],
+  [
+   "H-H",
+   "clause H1.1 applied to LD-2 @ GENERATOR ROOM (BASEMENT)",
+   "stated \u2014 the schedule names its subject and the clause enumerates it; modelled \u2014 the model chose the clause and bindings from labels, validated by code",
+   null
+  ],
+  [
+   "H-J",
+   "clause H1.1 applied to LD-3 @ ELEC. ELEC. CABIN (BASEMENT)",
+   "stated \u2014 the schedule names its subject and the clause enumerates it; modelled \u2014 the model chose the clause and bindings from labels, validated by code",
+   null
+  ],
+  [
+   "H-K",
+   "clause H1.1 applied to SD-1 @ LV ROOM,",
+   "stated \u2014 the schedule names its subject and the clause enumerates it; modelled \u2014 the model chose the clause and bindings from labels, validated by code",
+   null
+  ],
+  [
+   "H-L",
+   "clause H1.1 applied to SD-2 @ TELE.ROOM,GSM RM,POOL PUMP (GF,LOWER ROOF)",
+   "stated \u2014 the schedule names its subject and the clause enumerates it; modelled \u2014 the model chose the clause and bindings from labels, validated by code",
+   null
+  ],
+  [
+   "H-M",
+   "clause H1.1 applied to SD-3 @ GARBAGE ROOM (GROUND FLOOR)",
+   "stated \u2014 the schedule names its subject and the clause enumerates it; modelled \u2014 the model chose the clause and bindings from labels, validated by code",
+   null
+  ],
+  [
+   "H-N",
+   "clause H2.1 applied to DW 01 @ MAIN ENTRANCE",
+   "stated \u2014 the schedule names its subject and the clause enumerates it; modelled \u2014 the model chose the clause and bindings from labels, validated by code",
+   null
+  ],
+  [
+   "H-P",
+   "clause H2.1 applied to DW 02 @ LIFT LOBBY (BASEMENT FLOOR)",
+   "stated \u2014 the schedule names its subject and the clause enumerates it; modelled \u2014 the model chose the clause and bindings from labels, validated by code",
+   null
+  ],
+  [
+   "H-Q",
+   "clause H2.1 applied to DW 03 @ DINING / LIVING (1ST TO 5TH FLOOR)",
+   "stated \u2014 the schedule names its subject and the clause enumerates it; modelled \u2014 the model chose the clause and bindings from labels, validated by code",
+   null
+  ],
+  [
+   "H-R",
+   "clause H2.1 applied to DW 04 @ DINING / LIVING,BEDRM (1ST TO 5TH FLOOR)",
+   "stated \u2014 the schedule names its subject and the clause enumerates it; modelled \u2014 the model chose the clause and bindings from labels, validated by code",
+   null
+  ],
+  [
+   "H-S",
+   "clause H2.1 applied to DW 05 @ DINING / LIVING (1ST TO 5TH FLOOR)",
+   "stated \u2014 the schedule names its subject and the clause enumerates it; modelled \u2014 the model chose the clause and bindings from labels, validated by code",
+   null
+  ],
+  [
+   "H-T",
+   "clause H2.1 applied to DW 06 @ DINING / LIVING,BEDRM (2ND TO 5TH FLOOR)",
+   "stated \u2014 the schedule names its subject and the clause enumerates it; modelled \u2014 the model chose the clause and bindings from labels, validated by code",
+   null
+  ],
+  [
+   "H-U",
+   "clause H2.1 applied to DW 07 @ DINING / LIVING,BEDRM (1ST FLOOR)",
+   "stated \u2014 the schedule names its subject and the clause enumerates it; modelled \u2014 the model chose the clause and bindings from labels, validated by code",
+   null
+  ],
+  [
+   "H-V",
+   "clause H2.1 applied to DW 08 @ DINING / LIVING (2ND TO 5TH FLOOR)",
+   "stated \u2014 the schedule names its subject and the clause enumerates it; modelled \u2014 the model chose the clause and bindings from labels, validated by code",
+   null
+  ],
+  [
+   "J-A",
+   "clause J3.1 applied to Ceilings, rooms",
+   "stated \u2014 the schedule names its subject and the clause enumerates it; modelled \u2014 the model chose the clause and bindings from labels, validated by code",
+   null
+  ],
+  [
+   "J-B",
+   "clause J3.1 applied to Ceilings, wet areas",
+   "stated \u2014 the schedule names its subject and the clause enumerates it; modelled \u2014 the model chose the clause and bindings from labels, validated by code",
+   null
+  ],
+  [
+   "J-C",
+   "clause J3.1 applied to Floors, rooms",
+   "stated \u2014 the schedule names its subject and the clause enumerates it; modelled \u2014 the model chose the clause and bindings from labels, validated by code",
+   null
+  ],
+  [
+   "J-D",
+   "clause J3.1 applied to Floors, wet areas",
+   "stated \u2014 the schedule names its subject and the clause enumerates it; modelled \u2014 the model chose the clause and bindings from labels, validated by code",
+   null
+  ],
+  [
+   "J-E",
+   "clause J3.1 applied to Walls, rooms",
+   "stated \u2014 the schedule names its subject and the clause enumerates it; modelled \u2014 the model chose the clause and bindings from labels, validated by code",
+   null
+  ],
+  [
+   "J-F",
+   "clause J3.1 applied to Walls, wet areas",
+   "stated \u2014 the schedule names its subject and the clause enumerates it; modelled \u2014 the model chose the clause and bindings from labels, validated by code",
+   null
+  ],
+  [
+   "J-G",
+   "clause J3.2 applied to Skirtings, rooms",
+   "stated \u2014 the schedule names its subject and the clause enumerates it; modelled \u2014 the model chose the clause and bindings from labels, validated by code",
+   null
+  ],
+  [
+   "J-H",
+   "clause J3.2 applied to Skirtings, wet areas",
+   "stated \u2014 the schedule names its subject and the clause enumerates it; modelled \u2014 the model chose the clause and bindings from labels, validated by code",
+   null
+  ]
+ ]
+}

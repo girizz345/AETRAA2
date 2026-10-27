@@ -1,0 +1,3993 @@
+{
+ "Architecture/A1/A-00-001 COVERSHEET.pdf": {
+  "H": 1684.0,
+  "W": 2384.0,
+  "basis": "NONE - no candidate passed all five guards; nearest run (3 labels, band LEFT) failed density; rotation 270.",
+  "chain": [],
+  "confidence": null,
+  "doc_id": "Architecture/A1/A-00-001 COVERSHEET.pdf",
+  "letters": [],
+  "letters_axis": null,
+  "mm_per_pt": null,
+  "numbers": [],
+  "numbers_axis": null,
+  "rotation": 270,
+  "scale_basis": "none",
+  "status": "NONE"
+ },
+ "Architecture/A1/A-01-001 LIST OF DRAWINGS.pdf": {
+  "H": 1684.0,
+  "W": 2384.0,
+  "basis": "NONE - no candidate passed all five guards; nearest run (19 labels, band BOTTOM) failed monotonic; rotation 270.",
+  "chain": [],
+  "confidence": null,
+  "doc_id": "Architecture/A1/A-01-001 LIST OF DRAWINGS.pdf",
+  "letters": [],
+  "letters_axis": null,
+  "mm_per_pt": null,
+  "numbers": [],
+  "numbers_axis": null,
+  "rotation": 270,
+  "scale_basis": "none",
+  "status": "NONE"
+ },
+ "Architecture/A1/A-02-001 PERSPECTIVES-G-102.pdf": {
+  "H": 1684.0,
+  "W": 2384.0,
+  "basis": "NONE - no candidate passed all five guards; nearest run (19 labels, band BOTTOM) failed monotonic; rotation 270.",
+  "chain": [],
+  "confidence": null,
+  "doc_id": "Architecture/A1/A-02-001 PERSPECTIVES-G-102.pdf",
+  "letters": [],
+  "letters_axis": null,
+  "mm_per_pt": null,
+  "numbers": [],
+  "numbers_axis": null,
+  "rotation": 270,
+  "scale_basis": "none",
+  "status": "NONE"
+ },
+ "Architecture/A1/A-03-001.pdf": {
+  "H": 1684.0,
+  "W": 2384.0,
+  "basis": "46 numbers (23\u201385) at pitch 12 pt along TOP; not scale-verified: 0 of 1 chain bays agree; none; rotation 270.",
+  "chain": [
+   4500,
+   4500,
+   4500,
+   4500,
+   4500,
+   4500
+  ],
+  "confidence": null,
+  "doc_id": "Architecture/A1/A-03-001.pdf",
+  "letters": [],
+  "letters_axis": null,
+  "mm_per_pt": null,
+  "numbers": [
+   [
+    "23",
+    882.6903076171875
+   ],
+   [
+    "24",
+    894.4503173828125
+   ],
+   [
+    "25",
+    908.0103759765625
+   ],
+   [
+    "26",
+    919.650390625
+   ],
+   [
+    "27",
+    931.410400390625
+   ],
+   [
+    "28",
+    944.9703369140625
+   ],
+   [
+    "29",
+    956.7303466796875
+   ],
+   [
+    "30",
+    968.370361328125
+   ],
+   [
+    "31",
+    981.9303588867188
+   ],
+   [
+    "32",
+    993.6903076171875
+   ],
+   [
+    "33",
+    1005.330322265625
+   ],
+   [
+    "34",
+    1018.890380859375
+   ],
+   [
+    "35",
+    1030.650390625
+   ],
+   [
+    "36",
+    1042.2903442382812
+   ],
+   [
+    "37",
+    1055.850341796875
+   ],
+   [
+    "38",
+    1067.6103515625
+   ],
+   [
+    "39",
+    1079.2503662109375
+   ],
+   [
+    "40",
+    1092.9303588867188
+   ],
+   [
+    "41",
+    1104.5703125
+   ],
+   [
+    "42",
+    1116.330322265625
+   ],
+   [
+    "43",
+    1129.890380859375
+   ],
+   [
+    "44",
+    1141.5303955078125
+   ],
+   [
+    "45",
+    1153.2903442382812
+   ],
+   [
+    "63",
+    1601.2503051757812
+   ],
+   [
+    "64",
+    1612.890380859375
+   ],
+   [
+    "65",
+    1624.650390625
+   ],
+   [
+    "66",
+    1638.2103271484375
+   ],
+   [
+    "67",
+    1649.850341796875
+   ],
+   [
+    "68",
+    1661.6103515625
+   ],
+   [
+    "69",
+    1675.17041015625
+   ],
+   [
+    "70",
+    1686.810302734375
+   ],
+   [
+    "71",
+    1698.5703125
+   ],
+   [
+    "72",
+    1712.13037109375
+   ],
+   [
+    "73",
+    1723.770263671875
+   ],
+   [
+    "74",
+    1735.5302734375
+   ],
+   [
+    "75",
+    1749.09033203125
+   ],
+   [
+    "76",
+    1760.850341796875
+   ],
+   [
+    "77",
+    1772.4903564453125
+   ],
+   [
+    "78",
+    1786.05029296875
+   ],
+   [
+    "79",
+    1797.810302734375
+   ],
+   [
+    "80",
+    1809.4503173828125
+   ],
+   [
+    "81",
+    1829.13037109375
+   ],
+   [
+    "82",
+    1848.5703125
+   ],
+   [
+    "83",
+    1860.2103271484375
+   ],
+   [
+    "84",
+    1871.9703369140625
+   ],
+   [
+    "85",
+    1883.6103515625
+   ]
+  ],
+  "numbers_axis": "X",
+  "rotation": 270,
+  "scale_basis": "none",
+  "status": "PARTIAL"
+ },
+ "Architecture/A1/A-03-001TOA-03-004 AREA CALCULATION-A-00-001.pdf": {
+  "H": 1684.0,
+  "W": 2384.0,
+  "basis": "NONE - no candidate passed all five guards; nearest run (3 labels, band LEFT) failed density; rotation 270.",
+  "chain": [],
+  "confidence": null,
+  "doc_id": "Architecture/A1/A-03-001TOA-03-004 AREA CALCULATION-A-00-001.pdf",
+  "letters": [],
+  "letters_axis": null,
+  "mm_per_pt": null,
+  "numbers": [],
+  "numbers_axis": null,
+  "rotation": 270,
+  "scale_basis": "none",
+  "status": "NONE"
+ },
+ "Architecture/A1/A-03-001TOA-03-004 AREA CALCULATION-A-03-004.pdf": {
+  "H": 1684.0,
+  "W": 2384.0,
+  "basis": "3 numbers (0\u20132) at pitch 78 pt along TOP (printed descending); not scale-verified: no dimension chain between the bubbles; none; rotation 270.",
+  "chain": [
+   4500,
+   4500
+  ],
+  "confidence": null,
+  "doc_id": "Architecture/A1/A-03-001TOA-03-004 AREA CALCULATION-A-03-004.pdf",
+  "letters": [],
+  "letters_axis": null,
+  "mm_per_pt": null,
+  "numbers": [
+   [
+    "2",
+    1891.7177734375
+   ],
+   [
+    "1",
+    2023.3013916015625
+   ],
+   [
+    "0",
+    2048.4884643554688
+   ]
+  ],
+  "numbers_axis": "X",
+  "rotation": 270,
+  "scale_basis": "none",
+  "status": "PARTIAL"
+ },
+ "Architecture/A1/A-03-002 AREACALCULATION-2.pdf": {
+  "H": 1684.0,
+  "W": 2384.0,
+  "basis": "4 letters (A\u2013D) at pitch 169 pt along TOP; not scale-verified: no dimension chain between the bubbles; none; rotation 270.",
+  "chain": [],
+  "confidence": null,
+  "doc_id": "Architecture/A1/A-03-002 AREACALCULATION-2.pdf",
+  "letters": [
+   [
+    "A",
+    779.5799560546875
+   ],
+   [
+    "B",
+    952.739990234375
+   ],
+   [
+    "C",
+    1121.699951171875
+   ],
+   [
+    "D",
+    1285.02001953125
+   ]
+  ],
+  "letters_axis": "X",
+  "mm_per_pt": null,
+  "numbers": [],
+  "numbers_axis": null,
+  "rotation": 270,
+  "scale_basis": "none",
+  "status": "PARTIAL"
+ },
+ "Architecture/A1/A-03-003 22NOS AREACALCULATION-3.pdf": {
+  "H": 1684.0,
+  "W": 2384.0,
+  "basis": "NONE - no candidate passed all five guards; nearest run (19 labels, band BOTTOM) failed monotonic; rotation 270.",
+  "chain": [
+   4500,
+   4500
+  ],
+  "confidence": null,
+  "doc_id": "Architecture/A1/A-03-003 22NOS AREACALCULATION-3.pdf",
+  "letters": [],
+  "letters_axis": null,
+  "mm_per_pt": null,
+  "numbers": [],
+  "numbers_axis": null,
+  "rotation": 270,
+  "scale_basis": "none",
+  "status": "NONE"
+ },
+ "Architecture/A1/A-06-001 SETTINGOUT LAYOUT-A-100 SETTING OUT PLAN.pdf": {
+  "H": 1684.0,
+  "W": 2384.0,
+  "basis": "4 numbers (32\u201335) at pitch 45 pt along LEFT; not scale-verified: no dimension chain between the bubbles; title block 1:100 on A1 (unverified); rotation 270.",
+  "chain": [
+   4500,
+   4500,
+   4500,
+   4500
+  ],
+  "confidence": "LOW",
+  "doc_id": "Architecture/A1/A-06-001 SETTINGOUT LAYOUT-A-100 SETTING OUT PLAN.pdf",
+  "letters": [],
+  "letters_axis": null,
+  "mm_per_pt": "35.27777777777777777777777778",
+  "numbers": [
+   [
+    "32",
+    263.3890380859375
+   ],
+   [
+    "33",
+    308.3890380859375
+   ],
+   [
+    "34",
+    353.5091552734375
+   ],
+   [
+    "35",
+    405.34912109375
+   ]
+  ],
+  "numbers_axis": "Y",
+  "rotation": 270,
+  "scale_basis": "title block 1:100 on A1 (unverified)",
+  "status": "PARTIAL"
+ },
+ "Architecture/A1/A-07-001 UNDER GROUND WATER TANK & PUMP ROOM.pdf": {
+  "H": 1684.0,
+  "W": 2384.0,
+  "basis": "8 letters (A\u2013H) at pitch 74 pt along LEFT, 17 numbers (1\u201317) at pitch 89 pt along TOP; not scale-verified: no dimension chain between the bubbles; title block 1:125 on A1 (unverified); rotation 270.",
+  "chain": [
+   4500,
+   4500
+  ],
+  "confidence": "LOW",
+  "doc_id": "Architecture/A1/A-07-001 UNDER GROUND WATER TANK & PUMP ROOM.pdf",
+  "letters": [
+   [
+    "A",
+    462.38775634765625
+   ],
+   [
+    "B",
+    609.3276977539062
+   ],
+   [
+    "C",
+    756.2676391601562
+   ],
+   [
+    "D",
+    828.8076171875
+   ],
+   [
+    "E",
+    903.2076416015625
+   ],
+   [
+    "F",
+    977.607666015625
+   ],
+   [
+    "G",
+    1050.1476440429688
+   ],
+   [
+    "H",
+    1197.087646484375
+   ]
+  ],
+  "letters_axis": "Y",
+  "mm_per_pt": "44.09722222222222222222222222",
+  "numbers": [
+   [
+    "1",
+    205.05307006835938
+   ],
+   [
+    "2",
+    285.0330505371094
+   ],
+   [
+    "3",
+    396.6331481933594
+   ],
+   [
+    "4",
+    539.8531188964844
+   ],
+   [
+    "5",
+    629.1331481933594
+   ],
+   [
+    "6",
+    686.7931823730469
+   ],
+   [
+    "7",
+    776.0730895996094
+   ],
+   [
+    "8",
+    833.7331237792969
+   ],
+   [
+    "9",
+    923.0131530761719
+   ],
+   [
+    "10",
+    980.6862487792969
+   ],
+   [
+    "11",
+    1069.96630859375
+   ],
+   [
+    "12",
+    1127.6262817382812
+   ],
+   [
+    "13",
+    1216.90625
+   ],
+   [
+    "14",
+    1274.5662841796875
+   ],
+   [
+    "15",
+    1421.5062866210938
+   ],
+   [
+    "16",
+    1522.84619140625
+   ],
+   [
+    "17",
+    1624.2462768554688
+   ]
+  ],
+  "numbers_axis": "X",
+  "rotation": 270,
+  "scale_basis": "title block 1:125 on A1 (unverified)",
+  "status": "PARTIAL"
+ },
+ "Architecture/A1/A-07-003 GROUND FLOOR PLAN.pdf": {
+  "H": 1684.0,
+  "W": 2384.0,
+  "basis": "17 numbers (1\u201317) at pitch 86 pt along TOP; grid dimensions transcribed (saved reading (Claude Code (visual reading, this session); A-07-003.grid_dims.json)): 16 of 16 bays agree with the sheet's own bubbles within 0.1%; 55.4959 mm/pt = 1:157; rotation 270.",
+  "chain": [
+   4300,
+   6000,
+   7700,
+   4800,
+   3100,
+   4800,
+   3100,
+   4800,
+   3100,
+   4800,
+   3100,
+   4800,
+   3100,
+   7900,
+   5450,
+   5450
+  ],
+  "confidence": "MED",
+  "doc_id": "Architecture/A1/A-07-003 GROUND FLOOR PLAN.pdf",
+  "letters": [],
+  "letters_axis": null,
+  "mm_per_pt": "55.49589711650878",
+  "numbers": [
+   [
+    "1",
+    269.2975311279297
+   ],
+   [
+    "2",
+    346.7574920654297
+   ],
+   [
+    "3",
+    454.8774871826172
+   ],
+   [
+    "4",
+    593.5974731445312
+   ],
+   [
+    "5",
+    680.1174926757812
+   ],
+   [
+    "6",
+    735.9774780273438
+   ],
+   [
+    "7",
+    822.4374389648438
+   ],
+   [
+    "8",
+    878.2974243164062
+   ],
+   [
+    "9",
+    964.8174438476562
+   ],
+   [
+    "10",
+    1020.6148681640625
+   ],
+   [
+    "11",
+    1107.1348876953125
+   ],
+   [
+    "12",
+    1162.994873046875
+   ],
+   [
+    "13",
+    1249.4548950195312
+   ],
+   [
+    "14",
+    1305.3148803710938
+   ],
+   [
+    "15",
+    1447.6349487304688
+   ],
+   [
+    "16",
+    1545.8549194335938
+   ],
+   [
+    "17",
+    1644.0748901367188
+   ]
+  ],
+  "numbers_axis": "X",
+  "rotation": 270,
+  "scale_basis": "grid dimensions transcribed (saved reading (Claude Code (visual reading, this session); A-07-003.grid_dims.json)): 16 of 16 bays agree with the sheet's own bubbles within 0.1%",
+  "status": "CALIBRATED"
+ },
+ "Architecture/A1/A-07-004 FIRST FLOOR PLAN.pdf": {
+  "H": 1684.0,
+  "W": 2384.0,
+  "basis": "8 letters (A\u2013H) at pitch 74 pt along LEFT, 17 numbers (1\u201317) at pitch 89 pt along TOP; the set's grid table (read from A-07-003): 16 of 16 bays agree within 0.0% (1-2, 10-11, 11-12, 12-13, 13-14, 14-15, 15-16, 16-17 ...); 53.7634 mm/pt = 1:152; rotation 270.",
+  "chain": [
+   4500,
+   1000,
+   1200,
+   1500,
+   1200,
+   1500,
+   11700,
+   4000,
+   1200,
+   1500,
+   11700,
+   1200,
+   1500,
+   1200,
+   1500,
+   4500
+  ],
+  "confidence": "MED",
+  "doc_id": "Architecture/A1/A-07-004 FIRST FLOOR PLAN.pdf",
+  "letters": [
+   [
+    "A",
+    462.38775634765625
+   ],
+   [
+    "B",
+    609.3276977539062
+   ],
+   [
+    "C",
+    756.2676391601562
+   ],
+   [
+    "D",
+    828.8076171875
+   ],
+   [
+    "E",
+    903.2076416015625
+   ],
+   [
+    "F",
+    977.607666015625
+   ],
+   [
+    "G",
+    1050.1476440429688
+   ],
+   [
+    "H",
+    1197.087646484375
+   ]
+  ],
+  "letters_axis": "Y",
+  "mm_per_pt": "53.7634232179627",
+  "numbers": [
+   [
+    "1",
+    205.05307006835938
+   ],
+   [
+    "2",
+    285.0330505371094
+   ],
+   [
+    "3",
+    396.6331481933594
+   ],
+   [
+    "4",
+    539.8531188964844
+   ],
+   [
+    "5",
+    629.1331481933594
+   ],
+   [
+    "6",
+    686.7931823730469
+   ],
+   [
+    "7",
+    776.0730895996094
+   ],
+   [
+    "8",
+    833.7331237792969
+   ],
+   [
+    "9",
+    923.0131530761719
+   ],
+   [
+    "10",
+    980.6862487792969
+   ],
+   [
+    "11",
+    1069.96630859375
+   ],
+   [
+    "12",
+    1127.6262817382812
+   ],
+   [
+    "13",
+    1216.90625
+   ],
+   [
+    "14",
+    1274.5662841796875
+   ],
+   [
+    "15",
+    1421.5062866210938
+   ],
+   [
+    "16",
+    1522.84619140625
+   ],
+   [
+    "17",
+    1624.2462768554688
+   ]
+  ],
+  "numbers_axis": "X",
+  "rotation": 270,
+  "scale_basis": "the set's grid table (read from A-07-003): 16 of 16 bays agree within 0.0%",
+  "status": "CALIBRATED"
+ },
+ "Architecture/A1/A-07-005 2ND FLOOR PLAN.pdf": {
+  "H": 1684.0,
+  "W": 2384.0,
+  "basis": "8 letters (A\u2013H) at pitch 74 pt along LEFT, 17 numbers (1\u201317) at pitch 89 pt along TOP; the set's grid table (read from A-07-003): 16 of 16 bays agree within 0.0% (1-2, 10-11, 11-12, 12-13, 13-14, 14-15, 15-16, 16-17 ...); 53.7634 mm/pt = 1:152; rotation 270.",
+  "chain": [
+   4500,
+   4500
+  ],
+  "confidence": "MED",
+  "doc_id": "Architecture/A1/A-07-005 2ND FLOOR PLAN.pdf",
+  "letters": [
+   [
+    "A",
+    462.38775634765625
+   ],
+   [
+    "B",
+    609.3276977539062
+   ],
+   [
+    "C",
+    756.2676391601562
+   ],
+   [
+    "D",
+    828.8076171875
+   ],
+   [
+    "E",
+    903.2076416015625
+   ],
+   [
+    "F",
+    977.607666015625
+   ],
+   [
+    "G",
+    1050.1476440429688
+   ],
+   [
+    "H",
+    1197.087646484375
+   ]
+  ],
+  "letters_axis": "Y",
+  "mm_per_pt": "53.7634232179627",
+  "numbers": [
+   [
+    "1",
+    205.05307006835938
+   ],
+   [
+    "2",
+    285.0330505371094
+   ],
+   [
+    "3",
+    396.6331481933594
+   ],
+   [
+    "4",
+    539.8531188964844
+   ],
+   [
+    "5",
+    629.1331481933594
+   ],
+   [
+    "6",
+    686.7931823730469
+   ],
+   [
+    "7",
+    776.0730895996094
+   ],
+   [
+    "8",
+    833.7331237792969
+   ],
+   [
+    "9",
+    923.0131530761719
+   ],
+   [
+    "10",
+    980.6862487792969
+   ],
+   [
+    "11",
+    1069.96630859375
+   ],
+   [
+    "12",
+    1127.6262817382812
+   ],
+   [
+    "13",
+    1216.90625
+   ],
+   [
+    "14",
+    1274.5662841796875
+   ],
+   [
+    "15",
+    1421.5062866210938
+   ],
+   [
+    "16",
+    1522.84619140625
+   ],
+   [
+    "17",
+    1624.2462768554688
+   ]
+  ],
+  "numbers_axis": "X",
+  "rotation": 270,
+  "scale_basis": "the set's grid table (read from A-07-003): 16 of 16 bays agree within 0.0%",
+  "status": "CALIBRATED"
+ },
+ "Architecture/A1/A-07-006 3RD FLOOR PLAN.pdf": {
+  "H": 1684.0,
+  "W": 2384.0,
+  "basis": "8 letters (A\u2013H) at pitch 74 pt along LEFT, 17 numbers (1\u201317) at pitch 89 pt along TOP; the set's grid table (read from A-07-003): 16 of 16 bays agree within 0.0% (1-2, 10-11, 11-12, 12-13, 13-14, 14-15, 15-16, 16-17 ...); 53.7634 mm/pt = 1:152; rotation 270.",
+  "chain": [
+   4500,
+   4500
+  ],
+  "confidence": "MED",
+  "doc_id": "Architecture/A1/A-07-006 3RD FLOOR PLAN.pdf",
+  "letters": [
+   [
+    "A",
+    462.38775634765625
+   ],
+   [
+    "B",
+    609.3276977539062
+   ],
+   [
+    "C",
+    756.2676391601562
+   ],
+   [
+    "D",
+    828.8076171875
+   ],
+   [
+    "E",
+    903.2076416015625
+   ],
+   [
+    "F",
+    977.607666015625
+   ],
+   [
+    "G",
+    1050.1476440429688
+   ],
+   [
+    "H",
+    1197.087646484375
+   ]
+  ],
+  "letters_axis": "Y",
+  "mm_per_pt": "53.7634232179627",
+  "numbers": [
+   [
+    "1",
+    205.05307006835938
+   ],
+   [
+    "2",
+    285.0330505371094
+   ],
+   [
+    "3",
+    396.6331481933594
+   ],
+   [
+    "4",
+    539.8531188964844
+   ],
+   [
+    "5",
+    629.1331481933594
+   ],
+   [
+    "6",
+    686.7931823730469
+   ],
+   [
+    "7",
+    776.0730895996094
+   ],
+   [
+    "8",
+    833.7331237792969
+   ],
+   [
+    "9",
+    923.0131530761719
+   ],
+   [
+    "10",
+    980.6862487792969
+   ],
+   [
+    "11",
+    1069.96630859375
+   ],
+   [
+    "12",
+    1127.6262817382812
+   ],
+   [
+    "13",
+    1216.90625
+   ],
+   [
+    "14",
+    1274.5662841796875
+   ],
+   [
+    "15",
+    1421.5062866210938
+   ],
+   [
+    "16",
+    1522.84619140625
+   ],
+   [
+    "17",
+    1624.2462768554688
+   ]
+  ],
+  "numbers_axis": "X",
+  "rotation": 270,
+  "scale_basis": "the set's grid table (read from A-07-003): 16 of 16 bays agree within 0.0%",
+  "status": "CALIBRATED"
+ },
+ "Architecture/A1/A-07-007 TYP ( 4 - 5 ) FLOOR PLAN.pdf": {
+  "H": 1684.0,
+  "W": 2384.0,
+  "basis": "8 letters (A\u2013H) at pitch 74 pt along LEFT, 17 numbers (1\u201317) at pitch 89 pt along TOP; the set's grid table (read from A-07-003): 16 of 16 bays agree within 0.0% (1-2, 10-11, 11-12, 12-13, 13-14, 14-15, 15-16, 16-17 ...); 53.7634 mm/pt = 1:152; rotation 270.",
+  "chain": [
+   4500,
+   4500
+  ],
+  "confidence": "MED",
+  "doc_id": "Architecture/A1/A-07-007 TYP ( 4 - 5 ) FLOOR PLAN.pdf",
+  "letters": [
+   [
+    "A",
+    462.38775634765625
+   ],
+   [
+    "B",
+    609.3276977539062
+   ],
+   [
+    "C",
+    756.2676391601562
+   ],
+   [
+    "D",
+    828.8076171875
+   ],
+   [
+    "E",
+    903.2076416015625
+   ],
+   [
+    "F",
+    977.607666015625
+   ],
+   [
+    "G",
+    1050.1476440429688
+   ],
+   [
+    "H",
+    1197.087646484375
+   ]
+  ],
+  "letters_axis": "Y",
+  "mm_per_pt": "53.7634232179627",
+  "numbers": [
+   [
+    "1",
+    205.05307006835938
+   ],
+   [
+    "2",
+    285.0330505371094
+   ],
+   [
+    "3",
+    396.6331481933594
+   ],
+   [
+    "4",
+    539.8531188964844
+   ],
+   [
+    "5",
+    629.1331481933594
+   ],
+   [
+    "6",
+    686.7931823730469
+   ],
+   [
+    "7",
+    776.0730895996094
+   ],
+   [
+    "8",
+    833.7331237792969
+   ],
+   [
+    "9",
+    923.0131530761719
+   ],
+   [
+    "10",
+    980.6862487792969
+   ],
+   [
+    "11",
+    1069.96630859375
+   ],
+   [
+    "12",
+    1127.6262817382812
+   ],
+   [
+    "13",
+    1216.90625
+   ],
+   [
+    "14",
+    1274.5662841796875
+   ],
+   [
+    "15",
+    1421.5062866210938
+   ],
+   [
+    "16",
+    1522.84619140625
+   ],
+   [
+    "17",
+    1624.2462768554688
+   ]
+  ],
+  "numbers_axis": "X",
+  "rotation": 270,
+  "scale_basis": "the set's grid table (read from A-07-003): 16 of 16 bays agree within 0.0%",
+  "status": "CALIBRATED"
+ },
+ "Architecture/A1/A-07-008 LOWER ROOF PLAN.pdf": {
+  "H": 1684.0,
+  "W": 2384.0,
+  "basis": "8 letters (A\u2013H) at pitch 74 pt along LEFT, 17 numbers (1\u201317) at pitch 89 pt along TOP; the set's grid table (read from A-07-003): 16 of 16 bays agree within 0.0% (1-2, 10-11, 11-12, 12-13, 13-14, 14-15, 15-16, 16-17 ...); 53.7634 mm/pt = 1:152; rotation 270.",
+  "chain": [
+   4500,
+   1100,
+   1100,
+   1500,
+   1500,
+   1500,
+   5800,
+   15200,
+   1500,
+   1500,
+   1500,
+   1500,
+   1500,
+   4500
+  ],
+  "confidence": "MED",
+  "doc_id": "Architecture/A1/A-07-008 LOWER ROOF PLAN.pdf",
+  "letters": [
+   [
+    "A",
+    462.38775634765625
+   ],
+   [
+    "B",
+    609.3276977539062
+   ],
+   [
+    "C",
+    756.2676391601562
+   ],
+   [
+    "D",
+    828.8076171875
+   ],
+   [
+    "E",
+    903.2076416015625
+   ],
+   [
+    "F",
+    977.607666015625
+   ],
+   [
+    "G",
+    1050.1476440429688
+   ],
+   [
+    "H",
+    1197.087646484375
+   ]
+  ],
+  "letters_axis": "Y",
+  "mm_per_pt": "53.7634232179627",
+  "numbers": [
+   [
+    "1",
+    205.05307006835938
+   ],
+   [
+    "2",
+    285.0330505371094
+   ],
+   [
+    "3",
+    396.6331481933594
+   ],
+   [
+    "4",
+    539.8531188964844
+   ],
+   [
+    "5",
+    629.1331481933594
+   ],
+   [
+    "6",
+    686.7931823730469
+   ],
+   [
+    "7",
+    776.0730895996094
+   ],
+   [
+    "8",
+    833.7331237792969
+   ],
+   [
+    "9",
+    923.0131530761719
+   ],
+   [
+    "10",
+    980.6862487792969
+   ],
+   [
+    "11",
+    1069.96630859375
+   ],
+   [
+    "12",
+    1127.6262817382812
+   ],
+   [
+    "13",
+    1216.90625
+   ],
+   [
+    "14",
+    1274.5662841796875
+   ],
+   [
+    "15",
+    1421.5062866210938
+   ],
+   [
+    "16",
+    1522.84619140625
+   ],
+   [
+    "17",
+    1624.2462768554688
+   ]
+  ],
+  "numbers_axis": "X",
+  "rotation": 270,
+  "scale_basis": "the set's grid table (read from A-07-003): 16 of 16 bays agree within 0.0%",
+  "status": "CALIBRATED"
+ },
+ "Architecture/A1/A-07-009 UPPER ROOF PLAN.pdf": {
+  "H": 1684.0,
+  "W": 2384.0,
+  "basis": "NONE - no candidate passed all five guards; nearest run (34 labels, band TOP) failed monotonic; rotation 270.",
+  "chain": [
+   4500,
+   4500,
+   4500,
+   4500
+  ],
+  "confidence": null,
+  "doc_id": "Architecture/A1/A-07-009 UPPER ROOF PLAN.pdf",
+  "letters": [],
+  "letters_axis": null,
+  "mm_per_pt": null,
+  "numbers": [],
+  "numbers_axis": null,
+  "rotation": 270,
+  "scale_basis": "none",
+  "status": "NONE"
+ },
+ "Architecture/A1/A-07-010 TOPROOFPLAN.pdf": {
+  "H": 1684.0,
+  "W": 2384.0,
+  "basis": "NONE - no candidate passed all five guards; nearest run (51 labels, band TOP) failed monotonic; rotation 270.",
+  "chain": [
+   4500,
+   4500,
+   4500,
+   4500,
+   4500,
+   4500
+  ],
+  "confidence": null,
+  "doc_id": "Architecture/A1/A-07-010 TOPROOFPLAN.pdf",
+  "letters": [],
+  "letters_axis": null,
+  "mm_per_pt": null,
+  "numbers": [],
+  "numbers_axis": null,
+  "rotation": 270,
+  "scale_basis": "none",
+  "status": "NONE"
+ },
+ "Architecture/A1/A-08-001 ELEVATION -1.pdf": {
+  "H": 1684.0,
+  "W": 2384.0,
+  "basis": "8 letters (A\u2013H) at pitch 87 pt along TOP; not scale-verified: no dimension chain between the bubbles; title block 1:125 on A1 (unverified); rotation 0.",
+  "chain": [],
+  "confidence": "LOW",
+  "doc_id": "Architecture/A1/A-08-001 ELEVATION -1.pdf",
+  "letters": [
+   [
+    "A",
+    630.5138854980469
+   ],
+   [
+    "B",
+    802.8338928222656
+   ],
+   [
+    "C",
+    975.1163330078125
+   ],
+   [
+    "D",
+    1060.1362915039062
+   ],
+   [
+    "E",
+    1147.3538818359375
+   ],
+   [
+    "F",
+    1234.562255859375
+   ],
+   [
+    "G",
+    1319.6080322265625
+   ],
+   [
+    "H",
+    1491.8963012695312
+   ]
+  ],
+  "letters_axis": "X",
+  "mm_per_pt": "44.09722222222222222222222222",
+  "numbers": [],
+  "numbers_axis": null,
+  "rotation": 0,
+  "scale_basis": "title block 1:125 on A1 (unverified)",
+  "status": "PARTIAL"
+ },
+ "Architecture/A1/A-08-002 ELEVATION -2.pdf": {
+  "H": 1684.0,
+  "W": 2384.0,
+  "basis": "17 numbers (1\u201317) at pitch 105 pt along TOP; the set's grid table (read from A-07-003): 16 of 16 bays agree within 0.1% (1-2, 10-11, 11-12, 12-13, 13-14, 14-15, 15-16, 16-17 ...); 45.8552 mm/pt = 1:130; rotation 0.",
+  "chain": [
+   3300,
+   1400,
+   3500,
+   1200,
+   3700,
+   3700,
+   3700,
+   3700,
+   3700,
+   5150
+  ],
+  "confidence": "MED",
+  "doc_id": "Architecture/A1/A-08-002 ELEVATION -2.pdf",
+  "letters": [],
+  "letters_axis": null,
+  "mm_per_pt": "45.855229933322626",
+  "numbers": [
+   [
+    "1",
+    139.71975708007812
+   ],
+   [
+    "2",
+    233.499755859375
+   ],
+   [
+    "3",
+    364.2997589111328
+   ],
+   [
+    "4",
+    532.1797180175781
+   ],
+   [
+    "5",
+    636.8797302246094
+   ],
+   [
+    "6",
+    704.4397277832031
+   ],
+   [
+    "7",
+    809.1397399902344
+   ],
+   [
+    "8",
+    876.6997375488281
+   ],
+   [
+    "9",
+    981.3997497558594
+   ],
+   [
+    "10",
+    1048.9994506835938
+   ],
+   [
+    "11",
+    1153.6394653320312
+   ],
+   [
+    "12",
+    1221.2594604492188
+   ],
+   [
+    "13",
+    1325.8994750976562
+   ],
+   [
+    "14",
+    1393.5194702148438
+   ],
+   [
+    "15",
+    1565.7194213867188
+   ],
+   [
+    "16",
+    1684.5794677734375
+   ],
+   [
+    "17",
+    1803.439453125
+   ]
+  ],
+  "numbers_axis": "X",
+  "rotation": 0,
+  "scale_basis": "the set's grid table (read from A-07-003): 16 of 16 bays agree within 0.1%",
+  "status": "CALIBRATED"
+ },
+ "Architecture/A2/A-08-003 ELEVATION-3.pdf": {
+  "H": 1684.0,
+  "W": 2384.0,
+  "basis": "8 letters (A\u2013H) at pitch 89 pt along TOP (printed descending); not scale-verified: no dimension chain between the bubbles; title block 1:125 on A1 (unverified); rotation 270.",
+  "chain": [],
+  "confidence": "LOW",
+  "doc_id": "Architecture/A2/A-08-003 ELEVATION-3.pdf",
+  "letters": [
+   [
+    "H",
+    589.2682800292969
+   ],
+   [
+    "G",
+    764.508544921875
+   ],
+   [
+    "F",
+    851.0368957519531
+   ],
+   [
+    "E",
+    939.6372680664062
+   ],
+   [
+    "D",
+    1028.3482055664062
+   ],
+   [
+    "C",
+    1114.8682250976562
+   ],
+   [
+    "B",
+    1290.0371704101562
+   ],
+   [
+    "A",
+    1465.2372436523438
+   ]
+  ],
+  "letters_axis": "X",
+  "mm_per_pt": "44.09722222222222222222222222",
+  "numbers": [],
+  "numbers_axis": null,
+  "rotation": 270,
+  "scale_basis": "title block 1:125 on A1 (unverified)",
+  "status": "PARTIAL"
+ },
+ "Architecture/A2/A-08-004 ELEVATION-4.pdf": {
+  "H": 1684.0,
+  "W": 2384.0,
+  "basis": "NONE - no candidate passed all five guards; nearest run (19 labels, band BOTTOM) failed monotonic; rotation 270.",
+  "chain": [
+   3300,
+   1400,
+   3500,
+   1200,
+   3700,
+   3700,
+   3700,
+   3700,
+   3700,
+   5150
+  ],
+  "confidence": null,
+  "doc_id": "Architecture/A2/A-08-004 ELEVATION-4.pdf",
+  "letters": [],
+  "letters_axis": null,
+  "mm_per_pt": null,
+  "numbers": [],
+  "numbers_axis": null,
+  "rotation": 270,
+  "scale_basis": "none",
+  "status": "NONE"
+ },
+ "Architecture/A2/A-09-001 SECTION -AA.pdf": {
+  "H": 1684.0,
+  "W": 2384.0,
+  "basis": "17 numbers (1\u201317) at pitch 109 pt along TOP; the set's grid table (read from A-07-003): 16 of 16 bays agree within 0.0% (1-2, 10-11, 11-12, 12-13, 13-14, 14-15, 15-16, 16-17 ...); 44.0977 mm/pt = 1:125; rotation 0.",
+  "chain": [
+   3300,
+   1400,
+   3500,
+   1200,
+   3700,
+   3700,
+   3700,
+   3700,
+   3700,
+   5150,
+   3500
+  ],
+  "confidence": "MED",
+  "doc_id": "Architecture/A2/A-09-001 SECTION -AA.pdf",
+  "letters": [],
+  "letters_axis": null,
+  "mm_per_pt": "44.09773178727171",
+  "numbers": [
+   [
+    "1",
+    115.32305526733398
+   ],
+   [
+    "2",
+    212.82305145263672
+   ],
+   [
+    "3",
+    348.9030456542969
+   ],
+   [
+    "4",
+    523.5030212402344
+   ],
+   [
+    "5",
+    632.3430480957031
+   ],
+   [
+    "6",
+    702.6630554199219
+   ],
+   [
+    "7",
+    811.5030212402344
+   ],
+   [
+    "8",
+    881.8230285644531
+   ],
+   [
+    "9",
+    990.6630554199219
+   ],
+   [
+    "10",
+    1060.986083984375
+   ],
+   [
+    "11",
+    1169.8261108398438
+   ],
+   [
+    "12",
+    1240.1461181640625
+   ],
+   [
+    "13",
+    1348.986083984375
+   ],
+   [
+    "14",
+    1419.3060913085938
+   ],
+   [
+    "15",
+    1598.4661254882812
+   ],
+   [
+    "16",
+    1722.006103515625
+   ],
+   [
+    "17",
+    1845.6060791015625
+   ]
+  ],
+  "numbers_axis": "X",
+  "rotation": 0,
+  "scale_basis": "the set's grid table (read from A-07-003): 16 of 16 bays agree within 0.0%",
+  "status": "CALIBRATED"
+ },
+ "Architecture/A2/A-09-002 SECTION -BB.pdf": {
+  "H": 1684.0,
+  "W": 2384.0,
+  "basis": "8 letters (A\u2013H) at pitch 91 pt along TOP (printed descending); not scale-verified: no dimension chain between the bubbles; title block 1:125 on A1 (unverified); rotation 0.",
+  "chain": [
+   3500,
+   2500,
+   2800
+  ],
+  "confidence": "LOW",
+  "doc_id": "Architecture/A2/A-09-002 SECTION -BB.pdf",
+  "letters": [
+   [
+    "H",
+    544.2803649902344
+   ],
+   [
+    "G",
+    723.4324645996094
+   ],
+   [
+    "F",
+    811.9056396484375
+   ],
+   [
+    "E",
+    902.5577392578125
+   ],
+   [
+    "D",
+    993.3203430175781
+   ],
+   [
+    "C",
+    1081.7603759765625
+   ],
+   [
+    "B",
+    1260.877685546875
+   ],
+   [
+    "A",
+    1440.0377197265625
+   ]
+  ],
+  "letters_axis": "X",
+  "mm_per_pt": "44.09722222222222222222222222",
+  "numbers": [],
+  "numbers_axis": null,
+  "rotation": 0,
+  "scale_basis": "title block 1:125 on A1 (unverified)",
+  "status": "PARTIAL"
+ },
+ "Architecture/A2/A-09-003 WALL SECTION - W1 TO W3.pdf": {
+  "H": 1684.0,
+  "W": 2384.0,
+  "basis": "NONE - no candidate passed all five guards; nearest run (19 labels, band BOTTOM) failed monotonic; rotation 0.",
+  "chain": [
+   3300,
+   1200,
+   3700,
+   1400,
+   3500,
+   5150
+  ],
+  "confidence": null,
+  "doc_id": "Architecture/A2/A-09-003 WALL SECTION - W1 TO W3.pdf",
+  "letters": [],
+  "letters_axis": null,
+  "mm_per_pt": null,
+  "numbers": [],
+  "numbers_axis": null,
+  "rotation": 0,
+  "scale_basis": "none",
+  "status": "NONE"
+ },
+ "Architecture/A2/A-09-004 WALL SECTION - W4 TO W5.pdf": {
+  "H": 1684.0,
+  "W": 2384.0,
+  "basis": "NONE - no candidate passed all five guards; nearest run (19 labels, band BOTTOM) failed monotonic; rotation 0.",
+  "chain": [
+   3300,
+   3700,
+   1200,
+   1400,
+   3500,
+   3300,
+   1200,
+   3700,
+   1400,
+   3500
+  ],
+  "confidence": null,
+  "doc_id": "Architecture/A2/A-09-004 WALL SECTION - W4 TO W5.pdf",
+  "letters": [],
+  "letters_axis": null,
+  "mm_per_pt": null,
+  "numbers": [],
+  "numbers_axis": null,
+  "rotation": 0,
+  "scale_basis": "none",
+  "status": "NONE"
+ },
+ "Architecture/A2/A-12-001 STAIRCASE DETAIL-1.pdf": {
+  "H": 1684.0,
+  "W": 2384.0,
+  "basis": "NONE - no candidate passed all five guards; nearest run (19 labels, band BOTTOM) failed monotonic; rotation 0.",
+  "chain": [
+   3300,
+   1400,
+   3500,
+   1200,
+   3700,
+   3700,
+   3700,
+   3700,
+   3700,
+   5150,
+   3500,
+   2800,
+   2500
+  ],
+  "confidence": null,
+  "doc_id": "Architecture/A2/A-12-001 STAIRCASE DETAIL-1.pdf",
+  "letters": [],
+  "letters_axis": null,
+  "mm_per_pt": null,
+  "numbers": [],
+  "numbers_axis": null,
+  "rotation": 0,
+  "scale_basis": "none",
+  "status": "NONE"
+ },
+ "Architecture/A2/A-12-002 STAIRCASE DETAIL-2.pdf": {
+  "H": 1684.0,
+  "W": 2384.0,
+  "basis": "NONE - no candidate passed all five guards; nearest run (20 labels, band BOTTOM) failed monotonic; rotation 0.",
+  "chain": [
+   3300,
+   1400,
+   3500,
+   1200,
+   3700,
+   3700,
+   3700,
+   3700,
+   3700,
+   5150,
+   3500
+  ],
+  "confidence": null,
+  "doc_id": "Architecture/A2/A-12-002 STAIRCASE DETAIL-2.pdf",
+  "letters": [],
+  "letters_axis": null,
+  "mm_per_pt": null,
+  "numbers": [],
+  "numbers_axis": null,
+  "rotation": 0,
+  "scale_basis": "none",
+  "status": "NONE"
+ },
+ "Architecture/A2/A-12-003 LIFT DETAILS.pdf": {
+  "H": 1684.0,
+  "W": 2384.0,
+  "basis": "NONE - no candidate passed all five guards; nearest run (19 labels, band BOTTOM) failed monotonic; rotation 0.",
+  "chain": [
+   3300,
+   1400,
+   3500,
+   1200,
+   3700,
+   3700,
+   3700,
+   3700,
+   3700,
+   5150,
+   3500
+  ],
+  "confidence": null,
+  "doc_id": "Architecture/A2/A-12-003 LIFT DETAILS.pdf",
+  "letters": [],
+  "letters_axis": null,
+  "mm_per_pt": null,
+  "numbers": [],
+  "numbers_axis": null,
+  "rotation": 0,
+  "scale_basis": "none",
+  "status": "NONE"
+ },
+ "Architecture/A2/A-12-004 SUBSTATION & LV ROOM DETAILS.pdf": {
+  "H": 1684.0,
+  "W": 2384.0,
+  "basis": "NONE - no candidate passed all five guards; nearest run (19 labels, band BOTTOM) failed monotonic; rotation 0.",
+  "chain": [
+   3500,
+   5150
+  ],
+  "confidence": null,
+  "doc_id": "Architecture/A2/A-12-004 SUBSTATION & LV ROOM DETAILS.pdf",
+  "letters": [],
+  "letters_axis": null,
+  "mm_per_pt": null,
+  "numbers": [],
+  "numbers_axis": null,
+  "rotation": 0,
+  "scale_basis": "none",
+  "status": "NONE"
+ },
+ "Architecture/A2/A-12-005 GARBAGE ROOM DETAILS.pdf": {
+  "H": 1684.0,
+  "W": 2384.0,
+  "basis": "3 numbers (2\u20134) at pitch 467 pt along TOP; not scale-verified: no dimension chain between the bubbles; title block 1:125 on A1 (unverified); rotation 0.",
+  "chain": [
+   3300,
+   1400,
+   3500,
+   1200,
+   3700,
+   3700,
+   3700,
+   3700,
+   3700,
+   5150
+  ],
+  "confidence": "LOW",
+  "doc_id": "Architecture/A2/A-12-005 GARBAGE ROOM DETAILS.pdf",
+  "letters": [],
+  "letters_axis": null,
+  "mm_per_pt": "44.09722222222222222222222222",
+  "numbers": [
+   [
+    "2",
+    1066.789306640625
+   ],
+   [
+    "3",
+    1449.769287109375
+   ],
+   [
+    "4",
+    2000.2093505859375
+   ]
+  ],
+  "numbers_axis": "X",
+  "rotation": 0,
+  "scale_basis": "title block 1:125 on A1 (unverified)",
+  "status": "PARTIAL"
+ },
+ "Architecture/A2/A-12-006 TANK&PUMP ROOM DETAILS.pdf": {
+  "H": 1684.0,
+  "W": 2384.0,
+  "basis": "NONE - no candidate passed all five guards; nearest run (19 labels, band BOTTOM) failed monotonic; rotation 0.",
+  "chain": [
+   3500,
+   2500,
+   6400,
+   3500,
+   2500,
+   6400
+  ],
+  "confidence": null,
+  "doc_id": "Architecture/A2/A-12-006 TANK&PUMP ROOM DETAILS.pdf",
+  "letters": [],
+  "letters_axis": null,
+  "mm_per_pt": null,
+  "numbers": [],
+  "numbers_axis": null,
+  "rotation": 0,
+  "scale_basis": "none",
+  "status": "NONE"
+ },
+ "Architecture/A2/A-12-007 SWIMMING POOL DETAILS.pdf": {
+  "H": 1684.0,
+  "W": 2384.0,
+  "basis": "NONE - no candidate passed all five guards; nearest run (19 labels, band BOTTOM) failed monotonic; rotation 0.",
+  "chain": [
+   3700,
+   5150,
+   5200,
+   6000
+  ],
+  "confidence": null,
+  "doc_id": "Architecture/A2/A-12-007 SWIMMING POOL DETAILS.pdf",
+  "letters": [],
+  "letters_axis": null,
+  "mm_per_pt": null,
+  "numbers": [],
+  "numbers_axis": null,
+  "rotation": 0,
+  "scale_basis": "none",
+  "status": "NONE"
+ },
+ "Architecture/A2/A-12-008 RAMP DETAILS.pdf": {
+  "H": 1684.0,
+  "W": 2384.0,
+  "basis": "14 numbers (77\u201390) at pitch 85 pt along BOTTOM (printed descending); not scale-verified: no dimension chain between the bubbles; title block 1:125 on A1 (unverified); rotation 0.",
+  "chain": [
+   5500,
+   5500,
+   3000,
+   3000,
+   6300,
+   6300,
+   3000,
+   3000
+  ],
+  "confidence": "LOW",
+  "doc_id": "Architecture/A2/A-12-008 RAMP DETAILS.pdf",
+  "letters": [],
+  "letters_axis": null,
+  "mm_per_pt": "44.09722222222222222222222222",
+  "numbers": [
+   [
+    "90",
+    380.37208557128906
+   ],
+   [
+    "89",
+    477.63209533691406
+   ],
+   [
+    "88",
+    563.0120849609375
+   ],
+   [
+    "87",
+    648.3320922851562
+   ],
+   [
+    "86",
+    745.5920715332031
+   ],
+   [
+    "85",
+    830.9720764160156
+   ],
+   [
+    "84",
+    916.2920837402344
+   ],
+   [
+    "83",
+    1013.5520629882812
+   ],
+   [
+    "82",
+    1098.93212890625
+   ],
+   [
+    "81",
+    1184.2520751953125
+   ],
+   [
+    "80",
+    1281.5120849609375
+   ],
+   [
+    "79",
+    1366.89208984375
+   ],
+   [
+    "78",
+    1452.2120971679688
+   ],
+   [
+    "77",
+    1549.4721069335938
+   ]
+  ],
+  "numbers_axis": "X",
+  "rotation": 0,
+  "scale_basis": "title block 1:125 on A1 (unverified)",
+  "status": "PARTIAL"
+ },
+ "Architecture/A2/A-12-012 WATERPROOFING DETAILS.pdf": {
+  "H": 1684.0,
+  "W": 2384.0,
+  "basis": "NONE - no candidate passed all five guards; nearest run (19 labels, band BOTTOM) failed monotonic; rotation 0.",
+  "chain": [],
+  "confidence": null,
+  "doc_id": "Architecture/A2/A-12-012 WATERPROOFING DETAILS.pdf",
+  "letters": [],
+  "letters_axis": null,
+  "mm_per_pt": null,
+  "numbers": [],
+  "numbers_axis": null,
+  "rotation": 0,
+  "scale_basis": "none",
+  "status": "NONE"
+ },
+ "Architecture/A2/A-12-013 TYPICAL DETAILS.pdf": {
+  "H": 1684.0,
+  "W": 2384.0,
+  "basis": "NONE - no candidate passed all five guards; nearest run (19 labels, band BOTTOM) failed monotonic; rotation 0.",
+  "chain": [],
+  "confidence": null,
+  "doc_id": "Architecture/A2/A-12-013 TYPICAL DETAILS.pdf",
+  "letters": [],
+  "letters_axis": null,
+  "mm_per_pt": null,
+  "numbers": [],
+  "numbers_axis": null,
+  "rotation": 0,
+  "scale_basis": "none",
+  "status": "NONE"
+ },
+ "Architecture/A2/A-12-014 SIGNAGE SIGNAGEDETAILS DETAILS DETAILS DETAILS.pdf": {
+  "H": 1684.0,
+  "W": 2384.0,
+  "basis": "NONE - no candidate passed all five guards; nearest run (19 labels, band BOTTOM) failed monotonic; rotation 0.",
+  "chain": [],
+  "confidence": null,
+  "doc_id": "Architecture/A2/A-12-014 SIGNAGE SIGNAGEDETAILS DETAILS DETAILS DETAILS.pdf",
+  "letters": [],
+  "letters_axis": null,
+  "mm_per_pt": null,
+  "numbers": [],
+  "numbers_axis": null,
+  "rotation": 0,
+  "scale_basis": "none",
+  "status": "NONE"
+ },
+ "Architecture/A2/A-13-001 SCHEDULE OF DOORS.pdf": {
+  "H": 1684.0,
+  "W": 2384.0,
+  "basis": "NONE - no candidate passed all five guards; nearest run (19 labels, band BOTTOM) failed monotonic; rotation 0.",
+  "chain": [],
+  "confidence": null,
+  "doc_id": "Architecture/A2/A-13-001 SCHEDULE OF DOORS.pdf",
+  "letters": [],
+  "letters_axis": null,
+  "mm_per_pt": null,
+  "numbers": [],
+  "numbers_axis": null,
+  "rotation": 0,
+  "scale_basis": "none",
+  "status": "NONE"
+ },
+ "Architecture/A2/A-13-002 SCHEDULE OF WINDOWS-01.pdf": {
+  "H": 1684.0,
+  "W": 2384.0,
+  "basis": "3 numbers (01\u201303) at pitch 596 pt along TOP; not scale-verified: no dimension chain between the bubbles; title block 1:125 on A1 (unverified); rotation 0.",
+  "chain": [],
+  "confidence": "LOW",
+  "doc_id": "Architecture/A2/A-13-002 SCHEDULE OF WINDOWS-01.pdf",
+  "letters": [],
+  "letters_axis": null,
+  "mm_per_pt": "44.09722222222222222222222222",
+  "numbers": [
+   [
+    "01",
+    660.3061828613281
+   ],
+   [
+    "02",
+    1271.5861206054688
+   ],
+   [
+    "03",
+    1852.6261596679688
+   ]
+  ],
+  "numbers_axis": "X",
+  "rotation": 0,
+  "scale_basis": "title block 1:125 on A1 (unverified)",
+  "status": "PARTIAL"
+ },
+ "Architecture/A2/A-13-003 SCHEDULE OF WINDOWS-02.pdf": {
+  "H": 1684.0,
+  "W": 2384.0,
+  "basis": "NONE - no candidate passed all five guards; nearest run (19 labels, band BOTTOM) failed monotonic; rotation 0.",
+  "chain": [],
+  "confidence": null,
+  "doc_id": "Architecture/A2/A-13-003 SCHEDULE OF WINDOWS-02.pdf",
+  "letters": [],
+  "letters_axis": null,
+  "mm_per_pt": null,
+  "numbers": [],
+  "numbers_axis": null,
+  "rotation": 0,
+  "scale_basis": "none",
+  "status": "NONE"
+ },
+ "PLUMBING/WS-00 SETTING OUTPLAN WATER SUPPLY LAYOUT.pdf": {
+  "H": 1684.0,
+  "W": 2384.0,
+  "basis": "NONE - no candidate passed all five guards; nearest run (16 labels, band BOTTOM) failed monotonic; rotation 0.",
+  "chain": [
+   5250,
+   5250,
+   5250
+  ],
+  "confidence": null,
+  "doc_id": "PLUMBING/WS-00 SETTING OUTPLAN WATER SUPPLY LAYOUT.pdf",
+  "letters": [],
+  "letters_axis": null,
+  "mm_per_pt": null,
+  "numbers": [],
+  "numbers_axis": null,
+  "rotation": 0,
+  "scale_basis": "none",
+  "status": "NONE"
+ },
+ "PLUMBING/WS-01 UNDERGROUND PUMP ROOM WATER SUPPLY LAYOUT.pdf": {
+  "H": 1684.0,
+  "W": 2384.0,
+  "basis": "10 letters (A\u2013K) at pitch 99 pt along LEFT, 14 numbers (1\u201314) at pitch 149 pt along TOP; chain 1103 4295 7395 2609 2048 5927 7900 7900 7900 7900 7900 7900 ... matches 20 of 22 bays; 52.9147 mm/pt = 1:150; title block 1:150 agrees; rotation 0.",
+  "chain": [
+   1103,
+   4295,
+   7395,
+   2609,
+   2048,
+   5927,
+   7900,
+   7900,
+   7900,
+   7900,
+   7900,
+   7900,
+   6326,
+   8150,
+   10392,
+   10392,
+   6675,
+   5230,
+   6925,
+   7900,
+   3598,
+   4377,
+   1074,
+   7275,
+   4474
+  ],
+  "confidence": "HIGH",
+  "doc_id": "PLUMBING/WS-01 UNDERGROUND PUMP ROOM WATER SUPPLY LAYOUT.pdf",
+  "letters": [
+   [
+    "A",
+    411.62034606933594
+   ],
+   [
+    "B",
+    537.8003845214844
+   ],
+   [
+    "C",
+    636.6203308105469
+   ],
+   [
+    "D",
+    767.4803161621094
+   ],
+   [
+    "E",
+    916.7603454589844
+   ],
+   [
+    "F",
+    984.8003234863281
+   ],
+   [
+    "G",
+    1046.6002807617188
+   ],
+   [
+    "H",
+    1087.7603149414062
+   ],
+   [
+    "J",
+    1225.2803344726562
+   ],
+   [
+    "K",
+    1309.8203735351562
+   ]
+  ],
+  "letters_axis": "Y",
+  "mm_per_pt": "52.914670771800594",
+  "numbers": [
+   [
+    "1",
+    239.21502685546875
+   ],
+   [
+    "2",
+    320.39501953125
+   ],
+   [
+    "3",
+    460.135009765625
+   ],
+   [
+    "4",
+    509.4550323486328
+   ],
+   [
+    "5",
+    548.1549987792969
+   ],
+   [
+    "6",
+    660.1750183105469
+   ],
+   [
+    "7",
+    809.5149841308594
+   ],
+   [
+    "8",
+    958.7950134277344
+   ],
+   [
+    "9",
+    1108.0750732421875
+   ],
+   [
+    "10",
+    1257.4100341796875
+   ],
+   [
+    "11",
+    1406.6900634765625
+   ],
+   [
+    "12",
+    1556.030029296875
+   ],
+   [
+    "13",
+    1675.550048828125
+   ],
+   [
+    "14",
+    1829.6300659179688
+   ]
+  ],
+  "numbers_axis": "X",
+  "rotation": 0,
+  "scale_basis": "dimension chain: 20 bays agree within 0%",
+  "status": "CALIBRATED"
+ },
+ "PLUMBING/WS-02 BASEMENT FLOOR PLAN WATER SUPPLY LAYOUT.pdf": {
+  "H": 1684.0,
+  "W": 2384.0,
+  "basis": "10 letters (A\u2013K) at pitch 99 pt along LEFT, 14 numbers (1\u201314) at pitch 149 pt along TOP; chain 1103 4295 7395 2609 2048 5927 7900 7900 7900 7900 7900 7900 ... matches 20 of 22 bays; 52.9194 mm/pt = 1:150; title block 1:150 agrees; rotation 0.",
+  "chain": [
+   1103,
+   4295,
+   7395,
+   2609,
+   2048,
+   5927,
+   7900,
+   7900,
+   7900,
+   7900,
+   7900,
+   7900,
+   6326,
+   8150,
+   10392,
+   10392,
+   6675,
+   5230,
+   6925,
+   7900,
+   3598,
+   4377,
+   1074,
+   7275,
+   4474
+  ],
+  "confidence": "HIGH",
+  "doc_id": "PLUMBING/WS-02 BASEMENT FLOOR PLAN WATER SUPPLY LAYOUT.pdf",
+  "letters": [
+   [
+    "A",
+    447.86033630371094
+   ],
+   [
+    "B",
+    573.9803161621094
+   ],
+   [
+    "C",
+    672.8603210449219
+   ],
+   [
+    "D",
+    803.7203674316406
+   ],
+   [
+    "E",
+    953.0003356933594
+   ],
+   [
+    "F",
+    1020.9803161621094
+   ],
+   [
+    "G",
+    1082.8403930664062
+   ],
+   [
+    "H",
+    1124.0003051757812
+   ],
+   [
+    "J",
+    1261.5203247070312
+   ],
+   [
+    "K",
+    1346.0603637695312
+   ]
+  ],
+  "letters_axis": "Y",
+  "mm_per_pt": "52.91942160289402",
+  "numbers": [
+   [
+    "1",
+    202.49502563476562
+   ],
+   [
+    "2",
+    283.6750183105469
+   ],
+   [
+    "3",
+    423.4150085449219
+   ],
+   [
+    "4",
+    472.7350158691406
+   ],
+   [
+    "5",
+    511.4350280761719
+   ],
+   [
+    "6",
+    623.4549865722656
+   ],
+   [
+    "7",
+    772.7350158691406
+   ],
+   [
+    "8",
+    922.0749816894531
+   ],
+   [
+    "9",
+    1071.35498046875
+   ],
+   [
+    "10",
+    1220.6900634765625
+   ],
+   [
+    "11",
+    1369.9700317382812
+   ],
+   [
+    "12",
+    1519.2500610351562
+   ],
+   [
+    "13",
+    1638.8300170898438
+   ],
+   [
+    "14",
+    1792.8500366210938
+   ]
+  ],
+  "numbers_axis": "X",
+  "rotation": 0,
+  "scale_basis": "dimension chain: 20 bays agree within 0%",
+  "status": "CALIBRATED"
+ },
+ "PLUMBING/WS-03 GROUND FLOOR PLAN WATER SUPPLY LAYOUT.pdf": {
+  "H": 1684.0,
+  "W": 2384.0,
+  "basis": "10 letters (A\u2013K) at pitch 99 pt along LEFT, 14 numbers (1\u201314) at pitch 149 pt along TOP; chain 1103 4295 7395 2609 2048 5927 7900 7900 7900 7900 7900 7900 ... matches 20 of 22 bays; 52.9172 mm/pt = 1:150; title block 1:150 agrees; rotation 0.",
+  "chain": [
+   1103,
+   4295,
+   7395,
+   2609,
+   2048,
+   5927,
+   7900,
+   7900,
+   7900,
+   7900,
+   7900,
+   7900,
+   6326,
+   8150,
+   10392,
+   10392,
+   6675,
+   5230,
+   6925,
+   7900,
+   3598,
+   4377,
+   1074,
+   7275,
+   4474
+  ],
+  "confidence": "HIGH",
+  "doc_id": "PLUMBING/WS-03 GROUND FLOOR PLAN WATER SUPPLY LAYOUT.pdf",
+  "letters": [
+   [
+    "A",
+    322.88035583496094
+   ],
+   [
+    "B",
+    449.06040954589844
+   ],
+   [
+    "C",
+    547.8803405761719
+   ],
+   [
+    "D",
+    678.7403259277344
+   ],
+   [
+    "E",
+    828.0203552246094
+   ],
+   [
+    "F",
+    896.0603332519531
+   ],
+   [
+    "G",
+    957.8603210449219
+   ],
+   [
+    "H",
+    999.0803527832031
+   ],
+   [
+    "J",
+    1136.5403442382812
+   ],
+   [
+    "K",
+    1221.0802612304688
+   ]
+  ],
+  "letters_axis": "Y",
+  "mm_per_pt": "52.91718811859496",
+  "numbers": [
+   [
+    "1",
+    246.53501892089844
+   ],
+   [
+    "2",
+    327.71502685546875
+   ],
+   [
+    "3",
+    467.45501708984375
+   ],
+   [
+    "4",
+    516.7749938964844
+   ],
+   [
+    "5",
+    555.4750061035156
+   ],
+   [
+    "6",
+    667.4950256347656
+   ],
+   [
+    "7",
+    816.8349914550781
+   ],
+   [
+    "8",
+    966.1150207519531
+   ],
+   [
+    "9",
+    1115.455078125
+   ],
+   [
+    "10",
+    1264.7300415039062
+   ],
+   [
+    "11",
+    1414.0100708007812
+   ],
+   [
+    "12",
+    1563.3500366210938
+   ],
+   [
+    "13",
+    1682.9300537109375
+   ],
+   [
+    "14",
+    1836.9500122070312
+   ]
+  ],
+  "numbers_axis": "X",
+  "rotation": 0,
+  "scale_basis": "dimension chain: 20 bays agree within 0%",
+  "status": "CALIBRATED"
+ },
+ "PLUMBING/WS-04 FIRST FLOOR PLAN WATER SUPPLY LAYOUT.pdf": {
+  "H": 1684.0,
+  "W": 2384.0,
+  "basis": "10 letters (A\u2013K) at pitch 99 pt along LEFT; chain 6675 5230 6925 7900 3598 4377 1074 7275 4474 matches 7 of 9 bays; 52.9245 mm/pt = 1:150; title block 1:150 agrees; rotation 0.",
+  "chain": [
+   6675,
+   5230,
+   6925,
+   7900,
+   3598,
+   4377,
+   1074,
+   7275,
+   4474
+  ],
+  "confidence": "HIGH",
+  "doc_id": "PLUMBING/WS-04 FIRST FLOOR PLAN WATER SUPPLY LAYOUT.pdf",
+  "letters": [
+   [
+    "A",
+    188.90039825439453
+   ],
+   [
+    "B",
+    315.02040100097656
+   ],
+   [
+    "C",
+    413.84034729003906
+   ],
+   [
+    "D",
+    544.7603759765625
+   ],
+   [
+    "E",
+    694.0404052734375
+   ],
+   [
+    "F",
+    762.0203857421875
+   ],
+   [
+    "G",
+    823.8203735351562
+   ],
+   [
+    "H",
+    865.0403442382812
+   ],
+   [
+    "J",
+    1002.5003662109375
+   ],
+   [
+    "K",
+    1087.100341796875
+   ]
+  ],
+  "letters_axis": "Y",
+  "mm_per_pt": "52.924478663673966",
+  "numbers": [],
+  "numbers_axis": null,
+  "rotation": 0,
+  "scale_basis": "dimension chain: 7 bays agree within 0%",
+  "status": "CALIBRATED"
+ },
+ "PLUMBING/WS-05 2NDFLOORPLAN WATER SUPPLY LAYOUT.pdf": {
+  "H": 1684.0,
+  "W": 2384.0,
+  "basis": "10 letters (A\u2013K) at pitch 99 pt along LEFT, 14 numbers (1\u201314) at pitch 149 pt along BOTTOM; chain 6675 5230 6925 7900 3598 4377 1074 7275 4474 matches 7 of 9 bays; 52.9245 mm/pt = 1:150; title block 1:150 agrees; rotation 0.",
+  "chain": [
+   6675,
+   5230,
+   6925,
+   7900,
+   3598,
+   4377,
+   1074,
+   7275,
+   4474
+  ],
+  "confidence": "HIGH",
+  "doc_id": "PLUMBING/WS-05 2NDFLOORPLAN WATER SUPPLY LAYOUT.pdf",
+  "letters": [
+   [
+    "A",
+    177.6203842163086
+   ],
+   [
+    "B",
+    303.7403869628906
+   ],
+   [
+    "C",
+    402.5604553222656
+   ],
+   [
+    "D",
+    533.4204406738281
+   ],
+   [
+    "E",
+    682.7604064941406
+   ],
+   [
+    "F",
+    750.7403869628906
+   ],
+   [
+    "G",
+    812.5404357910156
+   ],
+   [
+    "H",
+    853.7604064941406
+   ],
+   [
+    "J",
+    991.2204284667969
+   ],
+   [
+    "K",
+    1075.7604370117188
+   ]
+  ],
+  "letters_axis": "Y",
+  "mm_per_pt": "52.92447259781553",
+  "numbers": [
+   [
+    "1",
+    180.9549789428711
+   ],
+   [
+    "2",
+    262.1349792480469
+   ],
+   [
+    "3",
+    401.875
+   ],
+   [
+    "4",
+    451.1949768066406
+   ],
+   [
+    "5",
+    489.8949890136719
+   ],
+   [
+    "6",
+    601.9149780273438
+   ],
+   [
+    "7",
+    751.1950073242188
+   ],
+   [
+    "8",
+    900.5349731445312
+   ],
+   [
+    "9",
+    1049.8150024414062
+   ],
+   [
+    "10",
+    1199.1499633789062
+   ],
+   [
+    "11",
+    1348.429931640625
+   ],
+   [
+    "12",
+    1497.7098999023438
+   ],
+   [
+    "13",
+    1617.2899169921875
+   ],
+   [
+    "14",
+    1771.3099365234375
+   ]
+  ],
+  "numbers_axis": "X",
+  "rotation": 0,
+  "scale_basis": "dimension chain: 7 bays agree within 0%",
+  "status": "CALIBRATED"
+ },
+ "PLUMBING/WS-06 TYPICAL(3RD&5TH)FLOORPLAN WATER SUPPLY LAYOUT.pdf": {
+  "H": 1684.0,
+  "W": 2384.0,
+  "basis": "10 letters (A\u2013K) at pitch 99 pt along LEFT; chain 6675 5230 6925 7900 3598 4377 1074 7275 4474 matches 7 of 9 bays; 52.9207 mm/pt = 1:150; title block 1:150 agrees; rotation 0.",
+  "chain": [
+   6675,
+   5230,
+   6925,
+   7900,
+   3598,
+   4377,
+   1074,
+   7275,
+   4474
+  ],
+  "confidence": "HIGH",
+  "doc_id": "PLUMBING/WS-06 TYPICAL(3RD&5TH)FLOORPLAN WATER SUPPLY LAYOUT.pdf",
+  "letters": [
+   [
+    "A",
+    177.2603988647461
+   ],
+   [
+    "B",
+    303.3804016113281
+   ],
+   [
+    "C",
+    402.2604064941406
+   ],
+   [
+    "D",
+    533.1203918457031
+   ],
+   [
+    "E",
+    682.4004211425781
+   ],
+   [
+    "F",
+    750.3804016113281
+   ],
+   [
+    "G",
+    812.2403869628906
+   ],
+   [
+    "H",
+    853.4004211425781
+   ],
+   [
+    "J",
+    990.9203796386719
+   ],
+   [
+    "K",
+    1075.4603881835938
+   ]
+  ],
+  "letters_axis": "Y",
+  "mm_per_pt": "52.92067557334929",
+  "numbers": [],
+  "numbers_axis": null,
+  "rotation": 0,
+  "scale_basis": "dimension chain: 7 bays agree within 0%",
+  "status": "CALIBRATED"
+ },
+ "PLUMBING/WS-07 4TH&6THFLOORPLAN WATER SUPPLY LAYOUT.pdf": {
+  "H": 1684.0,
+  "W": 2384.0,
+  "basis": "10 letters (A\u2013K) at pitch 99 pt along LEFT; chain 6675 5230 6925 7900 3598 4377 1074 7275 4474 matches 7 of 9 bays; 52.9207 mm/pt = 1:150; title block 1:150 agrees; rotation 0.",
+  "chain": [
+   6675,
+   5230,
+   6925,
+   7900,
+   3598,
+   4377,
+   1074,
+   7275,
+   4474
+  ],
+  "confidence": "HIGH",
+  "doc_id": "PLUMBING/WS-07 4TH&6THFLOORPLAN WATER SUPPLY LAYOUT.pdf",
+  "letters": [
+   [
+    "A",
+    179.3004379272461
+   ],
+   [
+    "B",
+    305.4204406738281
+   ],
+   [
+    "C",
+    404.3004455566406
+   ],
+   [
+    "D",
+    535.1604309082031
+   ],
+   [
+    "E",
+    684.4403991699219
+   ],
+   [
+    "F",
+    752.4203796386719
+   ],
+   [
+    "G",
+    814.2204284667969
+   ],
+   [
+    "H",
+    855.4403991699219
+   ],
+   [
+    "J",
+    992.9004211425781
+   ],
+   [
+    "K",
+    1077.5004272460938
+   ]
+  ],
+  "letters_axis": "Y",
+  "mm_per_pt": "52.92069721069113",
+  "numbers": [],
+  "numbers_axis": null,
+  "rotation": 0,
+  "scale_basis": "dimension chain: 7 bays agree within 0%",
+  "status": "CALIBRATED"
+ },
+ "PLUMBING/WS-08 LOWER ROOF FLOOR PLAN WATER SUPPLY LAYOUT.pdf": {
+  "H": 1684.0,
+  "W": 2384.0,
+  "basis": "10 letters (A\u2013K) at pitch 99 pt along LEFT, 14 numbers (1\u201314) at pitch 149 pt along TOP; chain 1103 4295 7395 2609 2048 5927 7900 7900 7900 7900 7900 7900 ... matches 20 of 22 bays; 52.9203 mm/pt = 1:150; title block 1:150 agrees; rotation 0.",
+  "chain": [
+   1103,
+   4295,
+   7395,
+   2609,
+   2048,
+   5927,
+   7900,
+   7900,
+   7900,
+   7900,
+   7900,
+   7900,
+   6326,
+   8150,
+   10392,
+   10392,
+   6675,
+   5230,
+   6925,
+   7900,
+   3598,
+   4377,
+   1074,
+   7275,
+   4474
+  ],
+  "confidence": "HIGH",
+  "doc_id": "PLUMBING/WS-08 LOWER ROOF FLOOR PLAN WATER SUPPLY LAYOUT.pdf",
+  "letters": [
+   [
+    "A",
+    355.58042907714844
+   ],
+   [
+    "B",
+    481.70042419433594
+   ],
+   [
+    "C",
+    580.5203552246094
+   ],
+   [
+    "D",
+    711.4403381347656
+   ],
+   [
+    "E",
+    860.7203674316406
+   ],
+   [
+    "F",
+    928.7003479003906
+   ],
+   [
+    "G",
+    990.5003356933594
+   ],
+   [
+    "H",
+    1031.7202758789062
+   ],
+   [
+    "J",
+    1169.1802368164062
+   ],
+   [
+    "K",
+    1253.7803344726562
+   ]
+  ],
+  "letters_axis": "Y",
+  "mm_per_pt": "52.92029321704156",
+  "numbers": [
+   [
+    "1",
+    206.21502685546875
+   ],
+   [
+    "2",
+    287.33502197265625
+   ],
+   [
+    "3",
+    427.135009765625
+   ],
+   [
+    "4",
+    476.45501708984375
+   ],
+   [
+    "5",
+    515.1549987792969
+   ],
+   [
+    "6",
+    627.1750183105469
+   ],
+   [
+    "7",
+    776.4549865722656
+   ],
+   [
+    "8",
+    925.7950134277344
+   ],
+   [
+    "9",
+    1075.0750732421875
+   ],
+   [
+    "10",
+    1224.3500366210938
+   ],
+   [
+    "11",
+    1373.6900634765625
+   ],
+   [
+    "12",
+    1522.9700317382812
+   ],
+   [
+    "13",
+    1642.550048828125
+   ],
+   [
+    "14",
+    1796.5700073242188
+   ]
+  ],
+  "numbers_axis": "X",
+  "rotation": 0,
+  "scale_basis": "dimension chain: 20 bays agree within 0%",
+  "status": "CALIBRATED"
+ },
+ "PLUMBING/WS-09 UPPER ROOF FLOOR PLAN WATER SUPPLY LAYOUT.pdf": {
+  "H": 1684.0,
+  "W": 2384.0,
+  "basis": "10 letters (A\u2013K) at pitch 99 pt along LEFT, 14 numbers (1\u201314) at pitch 149 pt along TOP; chain 1103 4295 7395 2609 2048 5927 7900 7900 7900 7900 7900 7900 ... matches 20 of 22 bays; 52.9198 mm/pt = 1:150; title block 1:150 agrees; rotation 0.",
+  "chain": [
+   1103,
+   4295,
+   7395,
+   2609,
+   2048,
+   5927,
+   7900,
+   7900,
+   7900,
+   7900,
+   7900,
+   7900,
+   6326,
+   8150,
+   10392,
+   10392,
+   6675,
+   5230,
+   6925,
+   7900,
+   3598,
+   4377,
+   1074,
+   7275,
+   4474
+  ],
+  "confidence": "HIGH",
+  "doc_id": "PLUMBING/WS-09 UPPER ROOF FLOOR PLAN WATER SUPPLY LAYOUT.pdf",
+  "letters": [
+   [
+    "A",
+    355.58042907714844
+   ],
+   [
+    "B",
+    481.70042419433594
+   ],
+   [
+    "C",
+    580.5203552246094
+   ],
+   [
+    "D",
+    711.4403381347656
+   ],
+   [
+    "E",
+    860.7203674316406
+   ],
+   [
+    "F",
+    928.7003479003906
+   ],
+   [
+    "G",
+    990.5003356933594
+   ],
+   [
+    "H",
+    1031.7202758789062
+   ],
+   [
+    "J",
+    1169.1802368164062
+   ],
+   [
+    "K",
+    1253.7803344726562
+   ]
+  ],
+  "letters_axis": "Y",
+  "mm_per_pt": "52.9197796267114",
+  "numbers": [
+   [
+    "1",
+    204.89501953125
+   ],
+   [
+    "2",
+    286.07501220703125
+   ],
+   [
+    "3",
+    425.8150329589844
+   ],
+   [
+    "4",
+    475.135009765625
+   ],
+   [
+    "5",
+    513.8350372314453
+   ],
+   [
+    "6",
+    625.8550109863281
+   ],
+   [
+    "7",
+    775.1350402832031
+   ],
+   [
+    "8",
+    924.4750061035156
+   ],
+   [
+    "9",
+    1073.7550048828125
+   ],
+   [
+    "10",
+    1223.0900268554688
+   ],
+   [
+    "11",
+    1372.3700561523438
+   ],
+   [
+    "12",
+    1521.7100219726562
+   ],
+   [
+    "13",
+    1641.2300415039062
+   ],
+   [
+    "14",
+    1795.2500610351562
+   ]
+  ],
+  "numbers_axis": "X",
+  "rotation": 0,
+  "scale_basis": "dimension chain: 20 bays agree within 0%",
+  "status": "CALIBRATED"
+ },
+ "PLUMBING/WS-10 SCHEMATIC DIAGRAM WATER SUPPLY LAYOUT.pdf": {
+  "H": 1684.0,
+  "W": 2384.0,
+  "basis": "NONE - no candidate passed all five guards; nearest run (16 labels, band BOTTOM) failed monotonic; rotation 0.",
+  "chain": [],
+  "confidence": null,
+  "doc_id": "PLUMBING/WS-10 SCHEMATIC DIAGRAM WATER SUPPLY LAYOUT.pdf",
+  "letters": [],
+  "letters_axis": null,
+  "mm_per_pt": null,
+  "numbers": [],
+  "numbers_axis": null,
+  "rotation": 0,
+  "scale_basis": "none",
+  "status": "NONE"
+ },
+ "PLUMBING/WS-11 TYPICAL DETAILS WATER SUPPLY LAYOUT.pdf": {
+  "H": 1684.0,
+  "W": 2384.0,
+  "basis": "NONE - no candidate passed all five guards; nearest run (16 labels, band BOTTOM) failed monotonic; rotation 0.",
+  "chain": [],
+  "confidence": null,
+  "doc_id": "PLUMBING/WS-11 TYPICAL DETAILS WATER SUPPLY LAYOUT.pdf",
+  "letters": [],
+  "letters_axis": null,
+  "mm_per_pt": null,
+  "numbers": [],
+  "numbers_axis": null,
+  "rotation": 0,
+  "scale_basis": "none",
+  "status": "NONE"
+ },
+ "Structure/STRUCTURE Sheet 01.pdf": {
+  "H": 1191.0,
+  "W": 1684.0,
+  "basis": "NONE - no candidate passed all five guards; nearest run (3 labels, band BOTTOM) failed density; rotation 90.",
+  "chain": [],
+  "confidence": null,
+  "doc_id": "Structure/STRUCTURE Sheet 01.pdf",
+  "letters": [],
+  "letters_axis": null,
+  "mm_per_pt": null,
+  "numbers": [],
+  "numbers_axis": null,
+  "rotation": 90,
+  "scale_basis": "none",
+  "status": "NONE"
+ },
+ "Structure/STRUCTURE Sheet 02.pdf": {
+  "H": 1191.0,
+  "W": 1684.0,
+  "basis": "NONE - no candidate passed all five guards; nearest run (4 labels, band TOP) failed density; rotation 90.",
+  "chain": [],
+  "confidence": null,
+  "doc_id": "Structure/STRUCTURE Sheet 02.pdf",
+  "letters": [],
+  "letters_axis": null,
+  "mm_per_pt": null,
+  "numbers": [],
+  "numbers_axis": null,
+  "rotation": 90,
+  "scale_basis": "none",
+  "status": "NONE"
+ },
+ "Structure/STRUCTURE Sheet 03.pdf": {
+  "H": 1191.0,
+  "W": 1684.0,
+  "basis": "NONE - no candidate passed all five guards; nearest run (4 labels, band LEFT) failed density; rotation 90.",
+  "chain": [],
+  "confidence": null,
+  "doc_id": "Structure/STRUCTURE Sheet 03.pdf",
+  "letters": [],
+  "letters_axis": null,
+  "mm_per_pt": null,
+  "numbers": [],
+  "numbers_axis": null,
+  "rotation": 90,
+  "scale_basis": "none",
+  "status": "NONE"
+ },
+ "Structure/STRUCTURE Sheet 04.pdf": {
+  "H": 1191.0,
+  "W": 1684.0,
+  "basis": "NONE - no candidate passed all five guards; nearest run (4 labels, band LEFT) failed density; rotation 90.",
+  "chain": [],
+  "confidence": null,
+  "doc_id": "Structure/STRUCTURE Sheet 04.pdf",
+  "letters": [],
+  "letters_axis": null,
+  "mm_per_pt": null,
+  "numbers": [],
+  "numbers_axis": null,
+  "rotation": 90,
+  "scale_basis": "none",
+  "status": "NONE"
+ },
+ "Structure/STRUCTURE Sheet 05.pdf": {
+  "H": 1191.0,
+  "W": 1684.0,
+  "basis": "NONE - no candidate passed all five guards; nearest run (4 labels, band LEFT) failed density; rotation 90.",
+  "chain": [],
+  "confidence": null,
+  "doc_id": "Structure/STRUCTURE Sheet 05.pdf",
+  "letters": [],
+  "letters_axis": null,
+  "mm_per_pt": null,
+  "numbers": [],
+  "numbers_axis": null,
+  "rotation": 90,
+  "scale_basis": "none",
+  "status": "NONE"
+ },
+ "Structure/STRUCTURE Sheet 06.pdf": {
+  "H": 1191.0,
+  "W": 1684.0,
+  "basis": "NONE - no candidate passed all five guards; nearest run (4 labels, band LEFT) failed density; rotation 90.",
+  "chain": [],
+  "confidence": null,
+  "doc_id": "Structure/STRUCTURE Sheet 06.pdf",
+  "letters": [],
+  "letters_axis": null,
+  "mm_per_pt": null,
+  "numbers": [],
+  "numbers_axis": null,
+  "rotation": 90,
+  "scale_basis": "none",
+  "status": "NONE"
+ },
+ "Structure/STRUCTURE Sheet 07.pdf": {
+  "H": 1191.0,
+  "W": 1684.0,
+  "basis": "NONE - no candidate passed all five guards; nearest run (4 labels, band LEFT) failed density; rotation 90.",
+  "chain": [],
+  "confidence": null,
+  "doc_id": "Structure/STRUCTURE Sheet 07.pdf",
+  "letters": [],
+  "letters_axis": null,
+  "mm_per_pt": null,
+  "numbers": [],
+  "numbers_axis": null,
+  "rotation": 90,
+  "scale_basis": "none",
+  "status": "NONE"
+ },
+ "Structure/STRUCTURE Sheet 08.pdf": {
+  "H": 1191.0,
+  "W": 1684.0,
+  "basis": "NONE - no candidate passed all five guards; nearest run (4 labels, band LEFT) failed density; rotation 90.",
+  "chain": [],
+  "confidence": null,
+  "doc_id": "Structure/STRUCTURE Sheet 08.pdf",
+  "letters": [],
+  "letters_axis": null,
+  "mm_per_pt": null,
+  "numbers": [],
+  "numbers_axis": null,
+  "rotation": 90,
+  "scale_basis": "none",
+  "status": "NONE"
+ },
+ "Structure/STRUCTURE Sheet 09.pdf": {
+  "H": 1191.0,
+  "W": 1684.0,
+  "basis": "NONE - no candidate passed all five guards; nearest run (8 labels, band LEFT) failed density; rotation 90.",
+  "chain": [],
+  "confidence": null,
+  "doc_id": "Structure/STRUCTURE Sheet 09.pdf",
+  "letters": [],
+  "letters_axis": null,
+  "mm_per_pt": null,
+  "numbers": [],
+  "numbers_axis": null,
+  "rotation": 90,
+  "scale_basis": "none",
+  "status": "NONE"
+ },
+ "Structure/STRUCTURE Sheet 10.pdf": {
+  "H": 1191.0,
+  "W": 1684.0,
+  "basis": "NONE - no candidate passed all five guards; nearest run (12 labels, band LEFT) failed monotonic; rotation 90.",
+  "chain": [],
+  "confidence": null,
+  "doc_id": "Structure/STRUCTURE Sheet 10.pdf",
+  "letters": [],
+  "letters_axis": null,
+  "mm_per_pt": null,
+  "numbers": [],
+  "numbers_axis": null,
+  "rotation": 90,
+  "scale_basis": "none",
+  "status": "NONE"
+ },
+ "Structure/STRUCTURE Sheet 11.pdf": {
+  "H": 1191.0,
+  "W": 1684.0,
+  "basis": "NONE - no candidate passed all five guards; nearest run (3 labels, band BOTTOM) failed density; rotation 90.",
+  "chain": [],
+  "confidence": null,
+  "doc_id": "Structure/STRUCTURE Sheet 11.pdf",
+  "letters": [],
+  "letters_axis": null,
+  "mm_per_pt": null,
+  "numbers": [],
+  "numbers_axis": null,
+  "rotation": 90,
+  "scale_basis": "none",
+  "status": "NONE"
+ },
+ "Structure/STRUCTURE Sheet 12.pdf": {
+  "H": 1191.0,
+  "W": 1684.0,
+  "basis": "NONE - no candidate passed all five guards; nearest run (3 labels, band BOTTOM) failed density; rotation 90.",
+  "chain": [],
+  "confidence": null,
+  "doc_id": "Structure/STRUCTURE Sheet 12.pdf",
+  "letters": [],
+  "letters_axis": null,
+  "mm_per_pt": null,
+  "numbers": [],
+  "numbers_axis": null,
+  "rotation": 90,
+  "scale_basis": "none",
+  "status": "NONE"
+ },
+ "Structure/STRUCTURE Sheet 13.pdf": {
+  "H": 1191.0,
+  "W": 1684.0,
+  "basis": "NONE - no candidate passed all five guards; nearest run (3 labels, band BOTTOM) failed density; rotation 90.",
+  "chain": [],
+  "confidence": null,
+  "doc_id": "Structure/STRUCTURE Sheet 13.pdf",
+  "letters": [],
+  "letters_axis": null,
+  "mm_per_pt": null,
+  "numbers": [],
+  "numbers_axis": null,
+  "rotation": 90,
+  "scale_basis": "none",
+  "status": "NONE"
+ },
+ "Structure/STRUCTURE Sheet 14.pdf": {
+  "H": 1191.0,
+  "W": 1684.0,
+  "basis": "NONE - no candidate passed all five guards; nearest run (3 labels, band BOTTOM) failed density; rotation 90.",
+  "chain": [],
+  "confidence": null,
+  "doc_id": "Structure/STRUCTURE Sheet 14.pdf",
+  "letters": [],
+  "letters_axis": null,
+  "mm_per_pt": null,
+  "numbers": [],
+  "numbers_axis": null,
+  "rotation": 90,
+  "scale_basis": "none",
+  "status": "NONE"
+ },
+ "Structure/STRUCTURE Sheet 15.pdf": {
+  "H": 1191.0,
+  "W": 1684.0,
+  "basis": "NONE - no candidate passed all five guards; nearest run (3 labels, band BOTTOM) failed density; rotation 90.",
+  "chain": [],
+  "confidence": null,
+  "doc_id": "Structure/STRUCTURE Sheet 15.pdf",
+  "letters": [],
+  "letters_axis": null,
+  "mm_per_pt": null,
+  "numbers": [],
+  "numbers_axis": null,
+  "rotation": 90,
+  "scale_basis": "none",
+  "status": "NONE"
+ },
+ "Structure/STRUCTURE Sheet 16.pdf": {
+  "H": 1191.0,
+  "W": 1684.0,
+  "basis": "NONE - no candidate passed all five guards; nearest run (3 labels, band BOTTOM) failed density; rotation 90.",
+  "chain": [],
+  "confidence": null,
+  "doc_id": "Structure/STRUCTURE Sheet 16.pdf",
+  "letters": [],
+  "letters_axis": null,
+  "mm_per_pt": null,
+  "numbers": [],
+  "numbers_axis": null,
+  "rotation": 90,
+  "scale_basis": "none",
+  "status": "NONE"
+ },
+ "Structure/STRUCTURE Sheet 17.pdf": {
+  "H": 1191.0,
+  "W": 1684.0,
+  "basis": "8 letters (A\u2013H) at pitch 20 pt along LEFT (printed descending); not scale-verified: no dimension chain between the bubbles; none; rotation 90.",
+  "chain": [],
+  "confidence": null,
+  "doc_id": "Structure/STRUCTURE Sheet 17.pdf",
+  "letters": [
+   [
+    "H",
+    57.54230308532715
+   ],
+   [
+    "G",
+    77.58192443847656
+   ],
+   [
+    "F",
+    102.06192016601562
+   ],
+   [
+    "E",
+    302.5218048095703
+   ],
+   [
+    "D",
+    313.8022003173828
+   ],
+   [
+    "C",
+    322.6219024658203
+   ],
+   [
+    "B",
+    344.88182067871094
+   ],
+   [
+    "A",
+    356.88182067871094
+   ]
+  ],
+  "letters_axis": "Y",
+  "mm_per_pt": null,
+  "numbers": [],
+  "numbers_axis": null,
+  "rotation": 90,
+  "scale_basis": "none",
+  "status": "PARTIAL"
+ },
+ "Structure/STRUCTURE Sheet 18.pdf": {
+  "H": 1191.0,
+  "W": 1684.0,
+  "basis": "NONE - no candidate passed all five guards; nearest run (3 labels, band BOTTOM) failed density; rotation 90.",
+  "chain": [],
+  "confidence": null,
+  "doc_id": "Structure/STRUCTURE Sheet 18.pdf",
+  "letters": [],
+  "letters_axis": null,
+  "mm_per_pt": null,
+  "numbers": [],
+  "numbers_axis": null,
+  "rotation": 90,
+  "scale_basis": "none",
+  "status": "NONE"
+ },
+ "Structure/STRUCTURE Sheet 19.pdf": {
+  "H": 1191.0,
+  "W": 1684.0,
+  "basis": "NONE - no candidate passed all five guards; nearest run (3 labels, band BOTTOM) failed density; rotation 90.",
+  "chain": [],
+  "confidence": null,
+  "doc_id": "Structure/STRUCTURE Sheet 19.pdf",
+  "letters": [],
+  "letters_axis": null,
+  "mm_per_pt": null,
+  "numbers": [],
+  "numbers_axis": null,
+  "rotation": 90,
+  "scale_basis": "none",
+  "status": "NONE"
+ },
+ "Structure/STRUCTURE Sheet 20.pdf": {
+  "H": 1191.0,
+  "W": 1684.0,
+  "basis": "NONE - no candidate passed all five guards; nearest run (3 labels, band BOTTOM) failed density; rotation 90.",
+  "chain": [],
+  "confidence": null,
+  "doc_id": "Structure/STRUCTURE Sheet 20.pdf",
+  "letters": [],
+  "letters_axis": null,
+  "mm_per_pt": null,
+  "numbers": [],
+  "numbers_axis": null,
+  "rotation": 90,
+  "scale_basis": "none",
+  "status": "NONE"
+ },
+ "Structure/STRUCTURE Sheet 21.pdf": {
+  "H": 1191.0,
+  "W": 1684.0,
+  "basis": "NONE - no candidate passed all five guards; nearest run (7 labels, band BOTTOM) failed monotonic; rotation 90.",
+  "chain": [],
+  "confidence": null,
+  "doc_id": "Structure/STRUCTURE Sheet 21.pdf",
+  "letters": [],
+  "letters_axis": null,
+  "mm_per_pt": null,
+  "numbers": [],
+  "numbers_axis": null,
+  "rotation": 90,
+  "scale_basis": "none",
+  "status": "NONE"
+ },
+ "Structure/STRUCTURE Sheet 23.pdf": {
+  "H": 1191.0,
+  "W": 1684.0,
+  "basis": "NONE - no candidate passed all five guards; nearest run (3 labels, band BOTTOM) failed density; rotation 90.",
+  "chain": [],
+  "confidence": null,
+  "doc_id": "Structure/STRUCTURE Sheet 23.pdf",
+  "letters": [],
+  "letters_axis": null,
+  "mm_per_pt": null,
+  "numbers": [],
+  "numbers_axis": null,
+  "rotation": 90,
+  "scale_basis": "none",
+  "status": "NONE"
+ },
+ "Structure/STRUCTURE Sheet 24.pdf": {
+  "H": 1191.0,
+  "W": 1684.0,
+  "basis": "NONE - no candidate passed all five guards; nearest run (3 labels, band BOTTOM) failed density; rotation 90.",
+  "chain": [],
+  "confidence": null,
+  "doc_id": "Structure/STRUCTURE Sheet 24.pdf",
+  "letters": [],
+  "letters_axis": null,
+  "mm_per_pt": null,
+  "numbers": [],
+  "numbers_axis": null,
+  "rotation": 90,
+  "scale_basis": "none",
+  "status": "NONE"
+ },
+ "Structure/STRUCTURE Sheet 25.pdf": {
+  "H": 1191.0,
+  "W": 1684.0,
+  "basis": "NONE - no candidate passed all five guards; nearest run (3 labels, band BOTTOM) failed density; rotation 90.",
+  "chain": [],
+  "confidence": null,
+  "doc_id": "Structure/STRUCTURE Sheet 25.pdf",
+  "letters": [],
+  "letters_axis": null,
+  "mm_per_pt": null,
+  "numbers": [],
+  "numbers_axis": null,
+  "rotation": 90,
+  "scale_basis": "none",
+  "status": "NONE"
+ },
+ "Structure/STRUCTURE Sheet 26.pdf": {
+  "H": 842.0,
+  "W": 1191.0,
+  "basis": "NONE - no candidate passed all five guards; nearest run (3 labels, band BOTTOM) failed density; rotation 90.",
+  "chain": [],
+  "confidence": null,
+  "doc_id": "Structure/STRUCTURE Sheet 26.pdf",
+  "letters": [],
+  "letters_axis": null,
+  "mm_per_pt": null,
+  "numbers": [],
+  "numbers_axis": null,
+  "rotation": 90,
+  "scale_basis": "none",
+  "status": "NONE"
+ },
+ "Structure/STRUCTURE Sheet 27.pdf": {
+  "H": 842.0,
+  "W": 1191.0,
+  "basis": "NONE - no candidate passed all five guards; nearest run (3 labels, band BOTTOM) failed density; rotation 90.",
+  "chain": [
+   1324,
+   1175,
+   969
+  ],
+  "confidence": null,
+  "doc_id": "Structure/STRUCTURE Sheet 27.pdf",
+  "letters": [],
+  "letters_axis": null,
+  "mm_per_pt": null,
+  "numbers": [],
+  "numbers_axis": null,
+  "rotation": 90,
+  "scale_basis": "none",
+  "status": "NONE"
+ },
+ "Structure/STRUCTURE Sheet 28.pdf": {
+  "H": 1191.0,
+  "W": 1684.0,
+  "basis": "NONE - no candidate passed all five guards; nearest run (3 labels, band BOTTOM) failed density; rotation 90.",
+  "chain": [],
+  "confidence": null,
+  "doc_id": "Structure/STRUCTURE Sheet 28.pdf",
+  "letters": [],
+  "letters_axis": null,
+  "mm_per_pt": null,
+  "numbers": [],
+  "numbers_axis": null,
+  "rotation": 90,
+  "scale_basis": "none",
+  "status": "NONE"
+ },
+ "Structure/STRUCTURE Sheet 29.pdf": {
+  "H": 1191.0,
+  "W": 1684.0,
+  "basis": "NONE - no candidate passed all five guards; nearest run (3 labels, band BOTTOM) failed density; rotation 90.",
+  "chain": [],
+  "confidence": null,
+  "doc_id": "Structure/STRUCTURE Sheet 29.pdf",
+  "letters": [],
+  "letters_axis": null,
+  "mm_per_pt": null,
+  "numbers": [],
+  "numbers_axis": null,
+  "rotation": 90,
+  "scale_basis": "none",
+  "status": "NONE"
+ },
+ "Structure/STRUCTURE Sheet 30.pdf": {
+  "H": 1191.0,
+  "W": 1684.0,
+  "basis": "NONE - no candidate passed all five guards; nearest run (3 labels, band BOTTOM) failed density; rotation 90.",
+  "chain": [],
+  "confidence": null,
+  "doc_id": "Structure/STRUCTURE Sheet 30.pdf",
+  "letters": [],
+  "letters_axis": null,
+  "mm_per_pt": null,
+  "numbers": [],
+  "numbers_axis": null,
+  "rotation": 90,
+  "scale_basis": "none",
+  "status": "NONE"
+ },
+ "Structure/STRUCTURE Sheet 31.pdf": {
+  "H": 1191.0,
+  "W": 1684.0,
+  "basis": "NONE - no candidate passed all five guards; nearest run (3 labels, band BOTTOM) failed density; rotation 90.",
+  "chain": [],
+  "confidence": null,
+  "doc_id": "Structure/STRUCTURE Sheet 31.pdf",
+  "letters": [],
+  "letters_axis": null,
+  "mm_per_pt": null,
+  "numbers": [],
+  "numbers_axis": null,
+  "rotation": 90,
+  "scale_basis": "none",
+  "status": "NONE"
+ },
+ "Structure/STRUCTURE Sheet 32.pdf": {
+  "H": 1191.0,
+  "W": 1684.0,
+  "basis": "NONE - no candidate passed all five guards; nearest run (3 labels, band BOTTOM) failed density; rotation 90.",
+  "chain": [],
+  "confidence": null,
+  "doc_id": "Structure/STRUCTURE Sheet 32.pdf",
+  "letters": [],
+  "letters_axis": null,
+  "mm_per_pt": null,
+  "numbers": [],
+  "numbers_axis": null,
+  "rotation": 90,
+  "scale_basis": "none",
+  "status": "NONE"
+ },
+ "Structure/STRUCTURE Sheet 33.pdf": {
+  "H": 1191.0,
+  "W": 1684.0,
+  "basis": "NONE - no candidate passed all five guards; nearest run (3 labels, band BOTTOM) failed density; rotation 90.",
+  "chain": [],
+  "confidence": null,
+  "doc_id": "Structure/STRUCTURE Sheet 33.pdf",
+  "letters": [],
+  "letters_axis": null,
+  "mm_per_pt": null,
+  "numbers": [],
+  "numbers_axis": null,
+  "rotation": 90,
+  "scale_basis": "none",
+  "status": "NONE"
+ },
+ "Structure/STRUCTURE Sheet 34.pdf": {
+  "H": 1191.0,
+  "W": 1684.0,
+  "basis": "NONE - no candidate passed all five guards; nearest run (3 labels, band BOTTOM) failed density; rotation 90.",
+  "chain": [],
+  "confidence": null,
+  "doc_id": "Structure/STRUCTURE Sheet 34.pdf",
+  "letters": [],
+  "letters_axis": null,
+  "mm_per_pt": null,
+  "numbers": [],
+  "numbers_axis": null,
+  "rotation": 90,
+  "scale_basis": "none",
+  "status": "NONE"
+ },
+ "Structure/STRUCTURE Sheet 35.pdf": {
+  "H": 1191.0,
+  "W": 1684.0,
+  "basis": "NONE - no candidate passed all five guards; nearest run (3 labels, band BOTTOM) failed density; rotation 90.",
+  "chain": [],
+  "confidence": null,
+  "doc_id": "Structure/STRUCTURE Sheet 35.pdf",
+  "letters": [],
+  "letters_axis": null,
+  "mm_per_pt": null,
+  "numbers": [],
+  "numbers_axis": null,
+  "rotation": 90,
+  "scale_basis": "none",
+  "status": "NONE"
+ },
+ "Structure/STRUCTURE Sheet 36.pdf": {
+  "H": 1191.0,
+  "W": 1684.0,
+  "basis": "NONE - no candidate passed all five guards; nearest run (3 labels, band BOTTOM) failed density; rotation 90.",
+  "chain": [],
+  "confidence": null,
+  "doc_id": "Structure/STRUCTURE Sheet 36.pdf",
+  "letters": [],
+  "letters_axis": null,
+  "mm_per_pt": null,
+  "numbers": [],
+  "numbers_axis": null,
+  "rotation": 90,
+  "scale_basis": "none",
+  "status": "NONE"
+ },
+ "Structure/STRUCTURE Sheet 37.pdf": {
+  "H": 1191.0,
+  "W": 1684.0,
+  "basis": "NONE - no candidate passed all five guards; nearest run (3 labels, band BOTTOM) failed density; rotation 90.",
+  "chain": [],
+  "confidence": null,
+  "doc_id": "Structure/STRUCTURE Sheet 37.pdf",
+  "letters": [],
+  "letters_axis": null,
+  "mm_per_pt": null,
+  "numbers": [],
+  "numbers_axis": null,
+  "rotation": 90,
+  "scale_basis": "none",
+  "status": "NONE"
+ },
+ "Structure/STRUCTURE Sheet 38.pdf": {
+  "H": 1191.0,
+  "W": 1684.0,
+  "basis": "NONE - no candidate passed all five guards; nearest run (3 labels, band BOTTOM) failed density; rotation 90.",
+  "chain": [],
+  "confidence": null,
+  "doc_id": "Structure/STRUCTURE Sheet 38.pdf",
+  "letters": [],
+  "letters_axis": null,
+  "mm_per_pt": null,
+  "numbers": [],
+  "numbers_axis": null,
+  "rotation": 90,
+  "scale_basis": "none",
+  "status": "NONE"
+ },
+ "Structure/STRUCTURE Sheet 39.pdf": {
+  "H": 1191.0,
+  "W": 1684.0,
+  "basis": "NONE - no candidate passed all five guards; nearest run (3 labels, band BOTTOM) failed density; rotation 90.",
+  "chain": [],
+  "confidence": null,
+  "doc_id": "Structure/STRUCTURE Sheet 39.pdf",
+  "letters": [],
+  "letters_axis": null,
+  "mm_per_pt": null,
+  "numbers": [],
+  "numbers_axis": null,
+  "rotation": 90,
+  "scale_basis": "none",
+  "status": "NONE"
+ },
+ "Structure/STRUCTURE Sheet 40.pdf": {
+  "H": 1191.0,
+  "W": 1684.0,
+  "basis": "NONE - no candidate passed all five guards; nearest run (6 labels, band TOP) failed monotonic; rotation 90.",
+  "chain": [],
+  "confidence": null,
+  "doc_id": "Structure/STRUCTURE Sheet 40.pdf",
+  "letters": [],
+  "letters_axis": null,
+  "mm_per_pt": null,
+  "numbers": [],
+  "numbers_axis": null,
+  "rotation": 90,
+  "scale_basis": "none",
+  "status": "NONE"
+ },
+ "Structure/STRUCTURE Sheet 41.pdf": {
+  "H": 1191.0,
+  "W": 1684.0,
+  "basis": "NONE - no candidate passed all five guards; nearest run (3 labels, band BOTTOM) failed density; rotation 90.",
+  "chain": [],
+  "confidence": null,
+  "doc_id": "Structure/STRUCTURE Sheet 41.pdf",
+  "letters": [],
+  "letters_axis": null,
+  "mm_per_pt": null,
+  "numbers": [],
+  "numbers_axis": null,
+  "rotation": 90,
+  "scale_basis": "none",
+  "status": "NONE"
+ },
+ "Structure/STRUCTURE Sheet 42.pdf": {
+  "H": 1191.0,
+  "W": 1684.0,
+  "basis": "NONE - no candidate passed all five guards; nearest run (3 labels, band BOTTOM) failed density; rotation 90.",
+  "chain": [],
+  "confidence": null,
+  "doc_id": "Structure/STRUCTURE Sheet 42.pdf",
+  "letters": [],
+  "letters_axis": null,
+  "mm_per_pt": null,
+  "numbers": [],
+  "numbers_axis": null,
+  "rotation": 90,
+  "scale_basis": "none",
+  "status": "NONE"
+ },
+ "Structure/STRUCTURE Sheet 43.pdf": {
+  "H": 1191.0,
+  "W": 1684.0,
+  "basis": "NONE - no candidate passed all five guards; nearest run (3 labels, band BOTTOM) failed density; rotation 90.",
+  "chain": [],
+  "confidence": null,
+  "doc_id": "Structure/STRUCTURE Sheet 43.pdf",
+  "letters": [],
+  "letters_axis": null,
+  "mm_per_pt": null,
+  "numbers": [],
+  "numbers_axis": null,
+  "rotation": 90,
+  "scale_basis": "none",
+  "status": "NONE"
+ },
+ "Structure/STRUCTURE Sheet 44.pdf": {
+  "H": 1191.0,
+  "W": 1684.0,
+  "basis": "NONE - no candidate passed all five guards; nearest run (3 labels, band BOTTOM) failed density; rotation 90.",
+  "chain": [],
+  "confidence": null,
+  "doc_id": "Structure/STRUCTURE Sheet 44.pdf",
+  "letters": [],
+  "letters_axis": null,
+  "mm_per_pt": null,
+  "numbers": [],
+  "numbers_axis": null,
+  "rotation": 90,
+  "scale_basis": "none",
+  "status": "NONE"
+ },
+ "Structure/STRUCTURE Sheet 45.pdf": {
+  "H": 1191.0,
+  "W": 1684.0,
+  "basis": "NONE - no candidate passed all five guards; nearest run (3 labels, band BOTTOM) failed density; rotation 90.",
+  "chain": [],
+  "confidence": null,
+  "doc_id": "Structure/STRUCTURE Sheet 45.pdf",
+  "letters": [],
+  "letters_axis": null,
+  "mm_per_pt": null,
+  "numbers": [],
+  "numbers_axis": null,
+  "rotation": 90,
+  "scale_basis": "none",
+  "status": "NONE"
+ },
+ "Structure/STRUCTURE Sheet 46.pdf": {
+  "H": 1191.0,
+  "W": 1684.0,
+  "basis": "NONE - no candidate passed all five guards; nearest run (3 labels, band BOTTOM) failed density; rotation 90.",
+  "chain": [],
+  "confidence": null,
+  "doc_id": "Structure/STRUCTURE Sheet 46.pdf",
+  "letters": [],
+  "letters_axis": null,
+  "mm_per_pt": null,
+  "numbers": [],
+  "numbers_axis": null,
+  "rotation": 90,
+  "scale_basis": "none",
+  "status": "NONE"
+ },
+ "Structure/STRUCTURE Sheet 47.pdf": {
+  "H": 1191.0,
+  "W": 1684.0,
+  "basis": "NONE - no candidate passed all five guards; nearest run (3 labels, band BOTTOM) failed density; rotation 90.",
+  "chain": [],
+  "confidence": null,
+  "doc_id": "Structure/STRUCTURE Sheet 47.pdf",
+  "letters": [],
+  "letters_axis": null,
+  "mm_per_pt": null,
+  "numbers": [],
+  "numbers_axis": null,
+  "rotation": 90,
+  "scale_basis": "none",
+  "status": "NONE"
+ },
+ "Structure/STRUCTURE Sheet 48.pdf": {
+  "H": 1191.0,
+  "W": 1684.0,
+  "basis": "NONE - no candidate passed all five guards; nearest run (3 labels, band BOTTOM) failed density; rotation 90.",
+  "chain": [],
+  "confidence": null,
+  "doc_id": "Structure/STRUCTURE Sheet 48.pdf",
+  "letters": [],
+  "letters_axis": null,
+  "mm_per_pt": null,
+  "numbers": [],
+  "numbers_axis": null,
+  "rotation": 90,
+  "scale_basis": "none",
+  "status": "NONE"
+ },
+ "Structure/STRUCTURE Sheet 49.pdf": {
+  "H": 1191.0,
+  "W": 1684.0,
+  "basis": "NONE - no candidate passed all five guards; nearest run (4 labels, band BOTTOM) failed density; rotation 90.",
+  "chain": [],
+  "confidence": null,
+  "doc_id": "Structure/STRUCTURE Sheet 49.pdf",
+  "letters": [],
+  "letters_axis": null,
+  "mm_per_pt": null,
+  "numbers": [],
+  "numbers_axis": null,
+  "rotation": 90,
+  "scale_basis": "none",
+  "status": "NONE"
+ },
+ "Structure/STRUCTURE Sheet 50.pdf": {
+  "H": 1191.0,
+  "W": 1684.0,
+  "basis": "NONE - no candidate passed all five guards; nearest run (6 labels, band BOTTOM) failed density; rotation 90.",
+  "chain": [],
+  "confidence": null,
+  "doc_id": "Structure/STRUCTURE Sheet 50.pdf",
+  "letters": [],
+  "letters_axis": null,
+  "mm_per_pt": null,
+  "numbers": [],
+  "numbers_axis": null,
+  "rotation": 90,
+  "scale_basis": "none",
+  "status": "NONE"
+ }
+}

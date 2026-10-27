@@ -1,0 +1,483 @@
+{
+ "changes": [
+  {
+   "bill_ref": "D-A",
+   "current": "5719.6265",
+   "description": "Walls and piers, 100mm thick, complete in accordance with the Specifications and Drawings",
+   "difference": null,
+   "item": "A",
+   "previous": null,
+   "status": "ADDED",
+   "unit": "m2"
+  },
+  {
+   "bill_ref": "D-B",
+   "current": "303.2580",
+   "description": "Ditto, 150mm thick",
+   "difference": null,
+   "item": "B",
+   "previous": null,
+   "status": "ADDED",
+   "unit": "m2"
+  },
+  {
+   "bill_ref": "D-C",
+   "current": "10371.2890",
+   "description": "Ditto, 200mm thick",
+   "difference": null,
+   "item": "C",
+   "previous": null,
+   "status": "ADDED",
+   "unit": "m2"
+  },
+  {
+   "bill_ref": "G-A",
+   "current": "840.78",
+   "description": "Roofing, tanking, waterproof coverings and linings by area, to floors of wet areas, complete in accordance with the Specifications and Drawings",
+   "difference": null,
+   "item": "A",
+   "previous": null,
+   "status": "ADDED",
+   "unit": "m2"
+  },
+  {
+   "bill_ref": "G-B",
+   "current": "2726.16",
+   "description": "Ditto, to roofs, terraces and balconies",
+   "difference": null,
+   "item": "B",
+   "previous": null,
+   "status": "ADDED",
+   "unit": "m2"
+  },
+  {
+   "bill_ref": "H-2A",
+   "current": "4",
+   "description": "Ditto, partly fixed partly sliding door, size (4000 + 7300)mm x 3200mm, type DW 09",
+   "difference": null,
+   "item": "J",
+   "previous": null,
+   "status": "ADDED",
+   "unit": "nr"
+  },
+  {
+   "bill_ref": "H-2B",
+   "current": "1",
+   "description": "Ditto, partly fixed partly sliding door, size (5800 + 8000)mm x 3200mm, type DW 10",
+   "difference": null,
+   "item": "K",
+   "previous": null,
+   "status": "ADDED",
+   "unit": "nr"
+  },
+  {
+   "bill_ref": "H-2C",
+   "current": "1",
+   "description": "Ditto, partly fixed partly sliding door, size (28170 + 6300)mm x 3200mm, type DW 11",
+   "difference": null,
+   "item": "L",
+   "previous": null,
+   "status": "ADDED",
+   "unit": "nr"
+  },
+  {
+   "bill_ref": "H-2D",
+   "current": "1",
+   "description": "Ditto, partly fixed partly sliding door, size 25400mm x 3200mm, type DW 12",
+   "difference": null,
+   "item": "M",
+   "previous": null,
+   "status": "ADDED",
+   "unit": "nr"
+  },
+  {
+   "bill_ref": "H-2E",
+   "current": "1",
+   "description": "Ditto, partly fixed partly hinged door, size 10800mm x 3200mm, type DW 13",
+   "difference": null,
+   "item": "A",
+   "previous": null,
+   "status": "ADDED",
+   "unit": "nr"
+  },
+  {
+   "bill_ref": "H-2F",
+   "current": "1",
+   "description": "Ditto, partly fixed partly hinged door, size 11400mm x 3200mm, type DW 14",
+   "difference": null,
+   "item": "B",
+   "previous": null,
+   "status": "ADDED",
+   "unit": "nr"
+  },
+  {
+   "bill_ref": "H-2G",
+   "current": "1",
+   "description": "Ditto, partly fixed partly hinged door, size 11350mm x (800 + 2400)mm, type DW 15",
+   "difference": null,
+   "item": "C",
+   "previous": null,
+   "status": "ADDED",
+   "unit": "nr"
+  },
+  {
+   "bill_ref": "H-2H",
+   "current": "1",
+   "description": "Ditto, partly fixed partly hinged door, size 10800mm x 3200mm, type DW 16",
+   "difference": null,
+   "item": "D",
+   "previous": null,
+   "status": "ADDED",
+   "unit": "nr"
+  },
+  {
+   "bill_ref": "H-2J",
+   "current": "1",
+   "description": "Ditto, partly fixed partly hinged door, size (7300 + 4000)mm x 3200mm, type DW 17",
+   "difference": null,
+   "item": "E",
+   "previous": null,
+   "status": "ADDED",
+   "unit": "nr"
+  },
+  {
+   "bill_ref": "H-2K",
+   "current": "1",
+   "description": "Ditto, hinged window, size 1200mm x 1400mm, sill 1000mm, type DW 18",
+   "difference": null,
+   "item": "F",
+   "previous": null,
+   "status": "ADDED",
+   "unit": "nr"
+  },
+  {
+   "bill_ref": "H-2L",
+   "current": "1",
+   "description": "Ditto, sliding door, size 1200mm x 2400mm, type DW 19",
+   "difference": null,
+   "item": "G",
+   "previous": null,
+   "status": "ADDED",
+   "unit": "nr"
+  },
+  {
+   "bill_ref": "H-2M",
+   "current": "1",
+   "description": "Ditto, fixed, size 2900mm x 2000mm, sill 750mm, type LW 01",
+   "difference": null,
+   "item": "H",
+   "previous": null,
+   "status": "ADDED",
+   "unit": "nr"
+  },
+  {
+   "bill_ref": "H-2N",
+   "current": "1",
+   "description": "Ditto, fixed, size 2400mm x 2000mm, sill 750mm, type LW 02",
+   "difference": null,
+   "item": "J",
+   "previous": null,
+   "status": "ADDED",
+   "unit": "nr"
+  },
+  {
+   "bill_ref": "H-2P",
+   "current": "1",
+   "description": "Ditto, fixed, size 2000mm x 2000mm, sill 750mm, type LW 03",
+   "difference": null,
+   "item": "K",
+   "previous": null,
+   "status": "ADDED",
+   "unit": "nr"
+  },
+  {
+   "bill_ref": "H-A",
+   "current": "20",
+   "description": "Doors, hinged door, size 1200mm x 2200mm, type D-1, complete in accordance with the Specifications and Drawings",
+   "difference": null,
+   "item": "A",
+   "previous": null,
+   "status": "ADDED",
+   "unit": "nr"
+  },
+  {
+   "bill_ref": "H-B",
+   "current": "185",
+   "description": "Ditto, hinged door, size 1100mm x 2200mm, type D-2",
+   "difference": null,
+   "item": "B",
+   "previous": null,
+   "status": "ADDED",
+   "unit": "nr"
+  },
+  {
+   "bill_ref": "H-C",
+   "current": "28",
+   "description": "Ditto, hinged door, size 1020mm x 2200mm, type D-3",
+   "difference": null,
+   "item": "C",
+   "previous": null,
+   "status": "ADDED",
+   "unit": "nr"
+  },
+  {
+   "bill_ref": "H-D",
+   "current": "206",
+   "description": "Ditto, hinged door, size 920mm x 2200mm, type D-4",
+   "difference": null,
+   "item": "D",
+   "previous": null,
+   "status": "ADDED",
+   "unit": "nr"
+  },
+  {
+   "bill_ref": "H-E",
+   "current": "28",
+   "description": "Ditto, hinged door, size 1020mm x 2200mm, type D-5",
+   "difference": null,
+   "item": "E",
+   "previous": null,
+   "status": "ADDED",
+   "unit": "nr"
+  },
+  {
+   "bill_ref": "H-F",
+   "current": "5",
+   "description": "Ditto, swing door, size 1200mm x 2200mm, type D-6",
+   "difference": null,
+   "item": "F",
+   "previous": null,
+   "status": "ADDED",
+   "unit": "nr"
+  },
+  {
+   "bill_ref": "H-G",
+   "current": "1",
+   "description": "Ditto, hinged, size 3050mm x 2750mm, type LD-1",
+   "difference": null,
+   "item": "G",
+   "previous": null,
+   "status": "ADDED",
+   "unit": "nr"
+  },
+  {
+   "bill_ref": "H-H",
+   "current": "1",
+   "description": "Ditto, hinged, size 1800mm x 2200mm, type LD-2",
+   "difference": null,
+   "item": "H",
+   "previous": null,
+   "status": "ADDED",
+   "unit": "nr"
+  },
+  {
+   "bill_ref": "H-J",
+   "current": "1",
+   "description": "Ditto, hinged, size 3500mm x 2750mm, type LD-3",
+   "difference": null,
+   "item": "J",
+   "previous": null,
+   "status": "ADDED",
+   "unit": "nr"
+  },
+  {
+   "bill_ref": "H-K",
+   "current": "1",
+   "description": "Ditto, hinged, size 1500mm x 2200mm, type SD-1",
+   "difference": null,
+   "item": "K",
+   "previous": null,
+   "status": "ADDED",
+   "unit": "nr"
+  },
+  {
+   "bill_ref": "H-L",
+   "current": "3",
+   "description": "Ditto, hinged, size 1020mm x 2200mm, type SD-2",
+   "difference": null,
+   "item": "L",
+   "previous": null,
+   "status": "ADDED",
+   "unit": "nr"
+  },
+  {
+   "bill_ref": "H-M",
+   "current": "1",
+   "description": "Ditto, hinged, size 1800mm x 2200mm, type SD-3",
+   "difference": null,
+   "item": "M",
+   "previous": null,
+   "status": "ADDED",
+   "unit": "nr"
+  },
+  {
+   "bill_ref": "H-N",
+   "current": "1",
+   "description": "Windows and skylights, partly fixed partly sliding door, size 15600mm x 8350mm, type DW 01, complete in accordance with the Specifications and Drawings",
+   "difference": null,
+   "item": "A",
+   "previous": null,
+   "status": "ADDED",
+   "unit": "nr"
+  },
+  {
+   "bill_ref": "H-P",
+   "current": "1",
+   "description": "Ditto, partly fixed partly sliding door, size 3700mm x 2700mm, type DW 02",
+   "difference": null,
+   "item": "B",
+   "previous": null,
+   "status": "ADDED",
+   "unit": "nr"
+  },
+  {
+   "bill_ref": "H-Q",
+   "current": "152",
+   "description": "Ditto, partly fixed partly sliding door, size 3750mm x 3200mm, type DW 03",
+   "difference": null,
+   "item": "C",
+   "previous": null,
+   "status": "ADDED",
+   "unit": "nr"
+  },
+  {
+   "bill_ref": "H-R",
+   "current": "10",
+   "description": "Ditto, partly fixed partly sliding door, size (7300 + 2950)mm x 3200mm, type DW 04",
+   "difference": null,
+   "item": "D",
+   "previous": null,
+   "status": "ADDED",
+   "unit": "nr"
+  },
+  {
+   "bill_ref": "H-S",
+   "current": "5",
+   "description": "Ditto, partly fixed partly sliding door, size 3300mm x 3200mm, type DW 05",
+   "difference": null,
+   "item": "E",
+   "previous": null,
+   "status": "ADDED",
+   "unit": "nr"
+  },
+  {
+   "bill_ref": "H-T",
+   "current": "4",
+   "description": "Ditto, partly fixed partly sliding door, size (7300 + 4000)mm x 3200mm, type DW 06",
+   "difference": null,
+   "item": "F",
+   "previous": null,
+   "status": "ADDED",
+   "unit": "nr"
+  },
+  {
+   "bill_ref": "H-U",
+   "current": "1",
+   "description": "Ditto, partly fixed partly sliding door, size (4000 + 7300)mm x 3200mm, type DW 07",
+   "difference": null,
+   "item": "G",
+   "previous": null,
+   "status": "ADDED",
+   "unit": "nr"
+  },
+  {
+   "bill_ref": "H-V",
+   "current": "8",
+   "description": "Ditto, partly fixed partly sliding door, size 3650mm x 3200mm, type DW 08",
+   "difference": null,
+   "item": "H",
+   "previous": null,
+   "status": "ADDED",
+   "unit": "nr"
+  },
+  {
+   "bill_ref": "J-A",
+   "current": "6442.20",
+   "description": "Finishings, to ceilings, rooms, in accordance with the {design_standard}, Specifications and Drawings",
+   "difference": null,
+   "item": "A",
+   "previous": null,
+   "status": "ADDED",
+   "unit": "m2"
+  },
+  {
+   "bill_ref": "J-B",
+   "current": "840.78",
+   "description": "Ditto, to ceilings, wet areas",
+   "difference": null,
+   "item": "B",
+   "previous": null,
+   "status": "ADDED",
+   "unit": "m2"
+  },
+  {
+   "bill_ref": "J-C",
+   "current": "6442.20",
+   "description": "Ditto, to floors, rooms",
+   "difference": null,
+   "item": "C",
+   "previous": null,
+   "status": "ADDED",
+   "unit": "m2"
+  },
+  {
+   "bill_ref": "J-D",
+   "current": "840.78",
+   "description": "Ditto, to floors, wet areas",
+   "difference": null,
+   "item": "D",
+   "previous": null,
+   "status": "ADDED",
+   "unit": "m2"
+  },
+  {
+   "bill_ref": "J-E",
+   "current": "20430.0820",
+   "description": "Ditto, to walls, rooms",
+   "difference": null,
+   "item": "E",
+   "previous": null,
+   "status": "ADDED",
+   "unit": "m2"
+  },
+  {
+   "bill_ref": "J-F",
+   "current": "5646.0075",
+   "description": "Ditto, to walls, wet areas",
+   "difference": null,
+   "item": "F",
+   "previous": null,
+   "status": "ADDED",
+   "unit": "m2"
+  },
+  {
+   "bill_ref": "J-G",
+   "current": "5560.64",
+   "description": "Skirtings, bands, strings, coverings to kerbs, mouldings, coves, channels, to walls, rooms, in accordance with the {design_standard}, Specifications and Drawings",
+   "difference": null,
+   "item": "G",
+   "previous": null,
+   "status": "ADDED",
+   "unit": "m"
+  },
+  {
+   "bill_ref": "J-H",
+   "current": "1501.04",
+   "description": "Ditto, to walls, wet areas",
+   "difference": null,
+   "item": "H",
+   "previous": null,
+   "status": "ADDED",
+   "unit": "m"
+  }
+ ],
+ "first_issue": true,
+ "note": "First issue \u2014 no previous revision of this project was found; every line is ADDED.",
+ "previous_run": null,
+ "summary": {
+  "ADDED": 47,
+  "CHANGED": 0,
+  "OMITTED": 0,
+  "UNCHANGED": 0
+ }
+}

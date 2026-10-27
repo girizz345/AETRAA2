@@ -1,0 +1,796 @@
+{
+ "elements": [
+  {
+   "bay": null,
+   "count": 20,
+   "element_type": "door",
+   "location": "STAIRCASE",
+   "mark": "D-1",
+   "multiplier": 1,
+   "roles": [
+    "count",
+    "height",
+    "width"
+   ],
+   "sheets": [
+    "Architecture/A2/A-13-001 SCHEDULE OF DOORS.pdf"
+   ]
+  },
+  {
+   "bay": null,
+   "count": 185,
+   "element_type": "door",
+   "location": "APARTMENT ENTRANCE (1ST TO 5TH FLOOR)",
+   "mark": "D-2",
+   "multiplier": 1,
+   "roles": [
+    "count",
+    "height",
+    "width"
+   ],
+   "sheets": [
+    "Architecture/A2/A-13-001 SCHEDULE OF DOORS.pdf"
+   ]
+  },
+  {
+   "bay": null,
+   "count": 28,
+   "element_type": "door",
+   "location": "UTILITY ENTRANCE (1ST FLR ,LOWER FLOOR) BEDROOM,WATCHMAN RM (GF,1ST TO 5TH)",
+   "mark": "D-3",
+   "multiplier": 1,
+   "roles": [
+    "count",
+    "height",
+    "width"
+   ],
+   "sheets": [
+    "Architecture/A2/A-13-001 SCHEDULE OF DOORS.pdf"
+   ]
+  },
+  {
+   "bay": null,
+   "count": 206,
+   "element_type": "door",
+   "location": "TOILET, BATH ROOM (GF,1ST TO 5TH FLOOR)",
+   "mark": "D-4",
+   "multiplier": 1,
+   "roles": [
+    "count",
+    "height",
+    "width"
+   ],
+   "sheets": [
+    "Architecture/A2/A-13-001 SCHEDULE OF DOORS.pdf"
+   ]
+  },
+  {
+   "bay": null,
+   "count": 28,
+   "element_type": "door",
+   "location": "WATER METER RM.,TELE.RM., GARBAGE RM.,ELECT. RM. (1ST TO 5TH FLOOR,LOWER RF)",
+   "mark": "D-5",
+   "multiplier": 1,
+   "roles": [
+    "count",
+    "height",
+    "width"
+   ],
+   "sheets": [
+    "Architecture/A2/A-13-001 SCHEDULE OF DOORS.pdf"
+   ]
+  },
+  {
+   "bay": null,
+   "count": 5,
+   "element_type": "door",
+   "location": "GYM,OUTDOOR DECK,SER.RF (1ST FLR,LOWER FLOOR)",
+   "mark": "D-6",
+   "multiplier": 1,
+   "roles": [
+    "count",
+    "height",
+    "width"
+   ],
+   "sheets": [
+    "Architecture/A2/A-13-001 SCHEDULE OF DOORS.pdf"
+   ]
+  },
+  {
+   "bay": null,
+   "count": 1,
+   "element_type": "door",
+   "location": "SUBSTATION",
+   "mark": "LD-1",
+   "multiplier": 1,
+   "roles": [
+    "count",
+    "height",
+    "width"
+   ],
+   "sheets": [
+    "Architecture/A2/A-13-001 SCHEDULE OF DOORS.pdf"
+   ]
+  },
+  {
+   "bay": null,
+   "count": 1,
+   "element_type": "door",
+   "location": "GENERATOR ROOM (BASEMENT)",
+   "mark": "LD-2",
+   "multiplier": 1,
+   "roles": [
+    "count",
+    "height",
+    "width"
+   ],
+   "sheets": [
+    "Architecture/A2/A-13-001 SCHEDULE OF DOORS.pdf"
+   ]
+  },
+  {
+   "bay": null,
+   "count": 1,
+   "element_type": "door",
+   "location": "ELEC. ELEC. CABIN (BASEMENT)",
+   "mark": "LD-3",
+   "multiplier": 1,
+   "roles": [
+    "count",
+    "height",
+    "width"
+   ],
+   "sheets": [
+    "Architecture/A2/A-13-001 SCHEDULE OF DOORS.pdf"
+   ]
+  },
+  {
+   "bay": null,
+   "count": 1,
+   "element_type": "door",
+   "location": "LV ROOM,",
+   "mark": "SD-1",
+   "multiplier": 1,
+   "roles": [
+    "count",
+    "height",
+    "width"
+   ],
+   "sheets": [
+    "Architecture/A2/A-13-001 SCHEDULE OF DOORS.pdf"
+   ]
+  },
+  {
+   "bay": null,
+   "count": 3,
+   "element_type": "door",
+   "location": "TELE.ROOM,GSM RM,POOL PUMP (GF,LOWER ROOF)",
+   "mark": "SD-2",
+   "multiplier": 1,
+   "roles": [
+    "count",
+    "height",
+    "width"
+   ],
+   "sheets": [
+    "Architecture/A2/A-13-001 SCHEDULE OF DOORS.pdf"
+   ]
+  },
+  {
+   "bay": null,
+   "count": 1,
+   "element_type": "door",
+   "location": "GARBAGE ROOM (GROUND FLOOR)",
+   "mark": "SD-3",
+   "multiplier": 1,
+   "roles": [
+    "count",
+    "height",
+    "width"
+   ],
+   "sheets": [
+    "Architecture/A2/A-13-001 SCHEDULE OF DOORS.pdf"
+   ]
+  },
+  {
+   "bay": null,
+   "count": 1,
+   "element_type": "window",
+   "location": "MAIN ENTRANCE",
+   "mark": "DW 01",
+   "multiplier": 1,
+   "roles": [
+    "count",
+    "height",
+    "width"
+   ],
+   "sheets": [
+    "Architecture/A2/A-13-002 SCHEDULE OF WINDOWS-01.pdf"
+   ]
+  },
+  {
+   "bay": null,
+   "count": 1,
+   "element_type": "window",
+   "location": "LIFT LOBBY (BASEMENT FLOOR)",
+   "mark": "DW 02",
+   "multiplier": 1,
+   "roles": [
+    "count",
+    "height",
+    "width"
+   ],
+   "sheets": [
+    "Architecture/A2/A-13-002 SCHEDULE OF WINDOWS-01.pdf"
+   ]
+  },
+  {
+   "bay": null,
+   "count": 152,
+   "element_type": "window",
+   "location": "DINING / LIVING (1ST TO 5TH FLOOR)",
+   "mark": "DW 03",
+   "multiplier": 1,
+   "roles": [
+    "count",
+    "height",
+    "width"
+   ],
+   "sheets": [
+    "Architecture/A2/A-13-002 SCHEDULE OF WINDOWS-01.pdf"
+   ]
+  },
+  {
+   "bay": null,
+   "count": 10,
+   "element_type": "window",
+   "location": "DINING / LIVING,BEDRM (1ST TO 5TH FLOOR)",
+   "mark": "DW 04",
+   "multiplier": 1,
+   "roles": [
+    "count",
+    "height"
+   ],
+   "sheets": [
+    "Architecture/A2/A-13-002 SCHEDULE OF WINDOWS-01.pdf"
+   ]
+  },
+  {
+   "bay": null,
+   "count": 5,
+   "element_type": "window",
+   "location": "DINING / LIVING (1ST TO 5TH FLOOR)",
+   "mark": "DW 05",
+   "multiplier": 1,
+   "roles": [
+    "count",
+    "height",
+    "width"
+   ],
+   "sheets": [
+    "Architecture/A2/A-13-002 SCHEDULE OF WINDOWS-01.pdf"
+   ]
+  },
+  {
+   "bay": null,
+   "count": 4,
+   "element_type": "window",
+   "location": "DINING / LIVING,BEDRM (2ND TO 5TH FLOOR)",
+   "mark": "DW 06",
+   "multiplier": 1,
+   "roles": [
+    "count",
+    "height"
+   ],
+   "sheets": [
+    "Architecture/A2/A-13-002 SCHEDULE OF WINDOWS-01.pdf"
+   ]
+  },
+  {
+   "bay": null,
+   "count": 1,
+   "element_type": "window",
+   "location": "DINING / LIVING,BEDRM (1ST FLOOR)",
+   "mark": "DW 07",
+   "multiplier": 1,
+   "roles": [
+    "count",
+    "height"
+   ],
+   "sheets": [
+    "Architecture/A2/A-13-002 SCHEDULE OF WINDOWS-01.pdf"
+   ]
+  },
+  {
+   "bay": null,
+   "count": 8,
+   "element_type": "window",
+   "location": "DINING / LIVING (2ND TO 5TH FLOOR)",
+   "mark": "DW 08",
+   "multiplier": 1,
+   "roles": [
+    "count",
+    "height",
+    "width"
+   ],
+   "sheets": [
+    "Architecture/A2/A-13-002 SCHEDULE OF WINDOWS-01.pdf"
+   ]
+  },
+  {
+   "bay": null,
+   "count": 4,
+   "element_type": "window",
+   "location": "DINING / LIVING,BEDRM (2ND TO 5TH FLOOR)",
+   "mark": "DW 09",
+   "multiplier": 1,
+   "roles": [
+    "count",
+    "height"
+   ],
+   "sheets": [
+    "Architecture/A2/A-13-002 SCHEDULE OF WINDOWS-01.pdf"
+   ]
+  },
+  {
+   "bay": null,
+   "count": 1,
+   "element_type": "window",
+   "location": "GYMNASIUM (M) (LOWER ROOF)",
+   "mark": "DW 10",
+   "multiplier": 1,
+   "roles": [
+    "count",
+    "height"
+   ],
+   "sheets": [
+    "Architecture/A2/A-13-002 SCHEDULE OF WINDOWS-01.pdf"
+   ]
+  },
+  {
+   "bay": null,
+   "count": 1,
+   "element_type": "window",
+   "location": "GYMNASIUM (F) (LOWER ROOF)",
+   "mark": "DW 12",
+   "multiplier": 1,
+   "roles": [
+    "count",
+    "height",
+    "width"
+   ],
+   "sheets": [
+    "Architecture/A2/A-13-002 SCHEDULE OF WINDOWS-01.pdf"
+   ]
+  },
+  {
+   "bay": null,
+   "count": 1,
+   "element_type": "window",
+   "location": "GYMNASIUM (M,F) (LOWER ROOF)",
+   "mark": "DW 11",
+   "multiplier": 1,
+   "roles": [
+    "count",
+    "height"
+   ],
+   "sheets": [
+    "Architecture/A2/A-13-003 SCHEDULE OF WINDOWS-02.pdf"
+   ]
+  },
+  {
+   "bay": null,
+   "count": 1,
+   "element_type": "window",
+   "location": "GYMNASIUM (F) (LOWER ROOF)",
+   "mark": "DW 13",
+   "multiplier": 1,
+   "roles": [
+    "count",
+    "height",
+    "width"
+   ],
+   "sheets": [
+    "Architecture/A2/A-13-003 SCHEDULE OF WINDOWS-02.pdf"
+   ]
+  },
+  {
+   "bay": null,
+   "count": 1,
+   "element_type": "window",
+   "location": "GYMNASIUM (M) (LOWER ROOF)",
+   "mark": "DW 14",
+   "multiplier": 1,
+   "roles": [
+    "count",
+    "height",
+    "width"
+   ],
+   "sheets": [
+    "Architecture/A2/A-13-003 SCHEDULE OF WINDOWS-02.pdf"
+   ]
+  },
+  {
+   "bay": null,
+   "count": 1,
+   "element_type": "window",
+   "location": "CORRIDOR (LOWER ROOF)",
+   "mark": "DW 15",
+   "multiplier": 1,
+   "roles": [
+    "count",
+    "width"
+   ],
+   "sheets": [
+    "Architecture/A2/A-13-003 SCHEDULE OF WINDOWS-02.pdf"
+   ]
+  },
+  {
+   "bay": null,
+   "count": 1,
+   "element_type": "window",
+   "location": "CORRIDOR (LOWER ROOF)",
+   "mark": "DW 16",
+   "multiplier": 1,
+   "roles": [
+    "count",
+    "height",
+    "width"
+   ],
+   "sheets": [
+    "Architecture/A2/A-13-003 SCHEDULE OF WINDOWS-02.pdf"
+   ]
+  },
+  {
+   "bay": null,
+   "count": 1,
+   "element_type": "window",
+   "location": "DINING / LIVING,BEDRM (1ST FLOOR)",
+   "mark": "DW 17",
+   "multiplier": 1,
+   "roles": [
+    "count",
+    "height"
+   ],
+   "sheets": [
+    "Architecture/A2/A-13-003 SCHEDULE OF WINDOWS-02.pdf"
+   ]
+  },
+  {
+   "bay": null,
+   "count": 1,
+   "element_type": "window",
+   "location": "WATCHMAN /CCTV (GROUND FLOOR)",
+   "mark": "DW 18",
+   "multiplier": 1,
+   "roles": [
+    "count",
+    "height",
+    "width"
+   ],
+   "sheets": [
+    "Architecture/A2/A-13-003 SCHEDULE OF WINDOWS-02.pdf"
+   ]
+  },
+  {
+   "bay": null,
+   "count": 1,
+   "element_type": "window",
+   "location": "REAR ENT.LIFT LOBBY (GROUND FLOOR)",
+   "mark": "DW 19",
+   "multiplier": 1,
+   "roles": [
+    "count",
+    "height",
+    "width"
+   ],
+   "sheets": [
+    "Architecture/A2/A-13-003 SCHEDULE OF WINDOWS-02.pdf"
+   ]
+  },
+  {
+   "bay": null,
+   "count": 1,
+   "element_type": "window",
+   "location": "SUBSTATION (GROUND FLR.)",
+   "mark": "LW 01",
+   "multiplier": 1,
+   "roles": [
+    "count",
+    "height",
+    "width"
+   ],
+   "sheets": [
+    "Architecture/A2/A-13-003 SCHEDULE OF WINDOWS-02.pdf"
+   ]
+  },
+  {
+   "bay": null,
+   "count": 1,
+   "element_type": "window",
+   "location": "POOL PUMP (GROUND FLR.)",
+   "mark": "LW 02",
+   "multiplier": 1,
+   "roles": [
+    "count",
+    "height",
+    "width"
+   ],
+   "sheets": [
+    "Architecture/A2/A-13-003 SCHEDULE OF WINDOWS-02.pdf"
+   ]
+  },
+  {
+   "bay": null,
+   "count": 1,
+   "element_type": "window",
+   "location": "GENER.ROOM (BASEMENT FLR.)",
+   "mark": "LW 03",
+   "multiplier": 1,
+   "roles": [
+    "count",
+    "height",
+    "width"
+   ],
+   "sheets": [
+    "Architecture/A2/A-13-003 SCHEDULE OF WINDOWS-02.pdf"
+   ]
+  },
+  {
+   "bay": null,
+   "count": 1,
+   "element_type": "blockwork",
+   "location": null,
+   "mark": "Walls 100mm thick",
+   "multiplier": 1,
+   "roles": [
+    "thickness"
+   ],
+   "sheets": [
+    "Architecture/A1/A-07-003 GROUND FLOOR PLAN.pdf",
+    "Architecture/A1/A-07-004 FIRST FLOOR PLAN.pdf",
+    "Architecture/A1/A-07-005 2ND FLOOR PLAN.pdf",
+    "Architecture/A1/A-07-006 3RD FLOOR PLAN.pdf",
+    "Architecture/A1/A-07-007 TYP ( 4 - 5 ) FLOOR PLAN.pdf",
+    "Architecture/A1/A-07-008 LOWER ROOF PLAN.pdf"
+   ]
+  },
+  {
+   "bay": null,
+   "count": 1,
+   "element_type": "blockwork",
+   "location": null,
+   "mark": "Walls 150mm thick",
+   "multiplier": 1,
+   "roles": [
+    "thickness"
+   ],
+   "sheets": [
+    "Architecture/A1/A-07-003 GROUND FLOOR PLAN.pdf",
+    "Architecture/A1/A-07-004 FIRST FLOOR PLAN.pdf",
+    "Architecture/A1/A-07-005 2ND FLOOR PLAN.pdf",
+    "Architecture/A1/A-07-006 3RD FLOOR PLAN.pdf",
+    "Architecture/A1/A-07-007 TYP ( 4 - 5 ) FLOOR PLAN.pdf",
+    "Architecture/A1/A-07-008 LOWER ROOF PLAN.pdf"
+   ]
+  },
+  {
+   "bay": null,
+   "count": 1,
+   "element_type": "blockwork",
+   "location": null,
+   "mark": "Walls 200mm thick",
+   "multiplier": 1,
+   "roles": [
+    "thickness"
+   ],
+   "sheets": [
+    "Architecture/A1/A-07-003 GROUND FLOOR PLAN.pdf",
+    "Architecture/A1/A-07-004 FIRST FLOOR PLAN.pdf",
+    "Architecture/A1/A-07-005 2ND FLOOR PLAN.pdf",
+    "Architecture/A1/A-07-006 3RD FLOOR PLAN.pdf",
+    "Architecture/A1/A-07-007 TYP ( 4 - 5 ) FLOOR PLAN.pdf",
+    "Architecture/A1/A-07-008 LOWER ROOF PLAN.pdf"
+   ]
+  },
+  {
+   "bay": null,
+   "count": 1,
+   "element_type": "roof_waterproofing",
+   "location": null,
+   "mark": "Roofs, terraces and balconies",
+   "multiplier": 1,
+   "roles": [],
+   "sheets": [
+    "Architecture/A1/A-07-004 FIRST FLOOR PLAN.pdf",
+    "Architecture/A1/A-07-005 2ND FLOOR PLAN.pdf",
+    "Architecture/A1/A-07-006 3RD FLOOR PLAN.pdf",
+    "Architecture/A1/A-07-007 TYP ( 4 - 5 ) FLOOR PLAN.pdf",
+    "Architecture/A1/A-07-008 LOWER ROOF PLAN.pdf"
+   ]
+  },
+  {
+   "bay": null,
+   "count": 1,
+   "element_type": "floor_waterproofing",
+   "location": null,
+   "mark": "Floors of wet areas",
+   "multiplier": 1,
+   "roles": [],
+   "sheets": [
+    "Architecture/A1/A-07-003 GROUND FLOOR PLAN.pdf",
+    "Architecture/A1/A-07-004 FIRST FLOOR PLAN.pdf",
+    "Architecture/A1/A-07-005 2ND FLOOR PLAN.pdf",
+    "Architecture/A1/A-07-006 3RD FLOOR PLAN.pdf",
+    "Architecture/A1/A-07-007 TYP ( 4 - 5 ) FLOOR PLAN.pdf",
+    "Architecture/A1/A-07-008 LOWER ROOF PLAN.pdf"
+   ]
+  },
+  {
+   "bay": null,
+   "count": 1,
+   "element_type": "ceiling_finish",
+   "location": null,
+   "mark": "Ceilings, rooms",
+   "multiplier": 1,
+   "roles": [],
+   "sheets": [
+    "Architecture/A1/A-07-003 GROUND FLOOR PLAN.pdf",
+    "Architecture/A1/A-07-004 FIRST FLOOR PLAN.pdf",
+    "Architecture/A1/A-07-005 2ND FLOOR PLAN.pdf",
+    "Architecture/A1/A-07-006 3RD FLOOR PLAN.pdf",
+    "Architecture/A1/A-07-007 TYP ( 4 - 5 ) FLOOR PLAN.pdf",
+    "Architecture/A1/A-07-008 LOWER ROOF PLAN.pdf"
+   ]
+  },
+  {
+   "bay": null,
+   "count": 1,
+   "element_type": "ceiling_finish",
+   "location": null,
+   "mark": "Ceilings, wet areas",
+   "multiplier": 1,
+   "roles": [],
+   "sheets": [
+    "Architecture/A1/A-07-003 GROUND FLOOR PLAN.pdf",
+    "Architecture/A1/A-07-004 FIRST FLOOR PLAN.pdf",
+    "Architecture/A1/A-07-005 2ND FLOOR PLAN.pdf",
+    "Architecture/A1/A-07-006 3RD FLOOR PLAN.pdf",
+    "Architecture/A1/A-07-007 TYP ( 4 - 5 ) FLOOR PLAN.pdf",
+    "Architecture/A1/A-07-008 LOWER ROOF PLAN.pdf"
+   ]
+  },
+  {
+   "bay": null,
+   "count": 1,
+   "element_type": "floor_finish",
+   "location": null,
+   "mark": "Floors, rooms",
+   "multiplier": 1,
+   "roles": [],
+   "sheets": [
+    "Architecture/A1/A-07-003 GROUND FLOOR PLAN.pdf",
+    "Architecture/A1/A-07-004 FIRST FLOOR PLAN.pdf",
+    "Architecture/A1/A-07-005 2ND FLOOR PLAN.pdf",
+    "Architecture/A1/A-07-006 3RD FLOOR PLAN.pdf",
+    "Architecture/A1/A-07-007 TYP ( 4 - 5 ) FLOOR PLAN.pdf",
+    "Architecture/A1/A-07-008 LOWER ROOF PLAN.pdf"
+   ]
+  },
+  {
+   "bay": null,
+   "count": 1,
+   "element_type": "floor_finish",
+   "location": null,
+   "mark": "Floors, wet areas",
+   "multiplier": 1,
+   "roles": [],
+   "sheets": [
+    "Architecture/A1/A-07-003 GROUND FLOOR PLAN.pdf",
+    "Architecture/A1/A-07-004 FIRST FLOOR PLAN.pdf",
+    "Architecture/A1/A-07-005 2ND FLOOR PLAN.pdf",
+    "Architecture/A1/A-07-006 3RD FLOOR PLAN.pdf",
+    "Architecture/A1/A-07-007 TYP ( 4 - 5 ) FLOOR PLAN.pdf",
+    "Architecture/A1/A-07-008 LOWER ROOF PLAN.pdf"
+   ]
+  },
+  {
+   "bay": null,
+   "count": 1,
+   "element_type": "skirting",
+   "location": null,
+   "mark": "Skirtings, rooms",
+   "multiplier": 1,
+   "roles": [],
+   "sheets": [
+    "Architecture/A1/A-07-003 GROUND FLOOR PLAN.pdf",
+    "Architecture/A1/A-07-004 FIRST FLOOR PLAN.pdf",
+    "Architecture/A1/A-07-005 2ND FLOOR PLAN.pdf",
+    "Architecture/A1/A-07-006 3RD FLOOR PLAN.pdf",
+    "Architecture/A1/A-07-007 TYP ( 4 - 5 ) FLOOR PLAN.pdf",
+    "Architecture/A1/A-07-008 LOWER ROOF PLAN.pdf"
+   ]
+  },
+  {
+   "bay": null,
+   "count": 1,
+   "element_type": "skirting",
+   "location": null,
+   "mark": "Skirtings, wet areas",
+   "multiplier": 1,
+   "roles": [],
+   "sheets": [
+    "Architecture/A1/A-07-003 GROUND FLOOR PLAN.pdf",
+    "Architecture/A1/A-07-004 FIRST FLOOR PLAN.pdf",
+    "Architecture/A1/A-07-005 2ND FLOOR PLAN.pdf",
+    "Architecture/A1/A-07-006 3RD FLOOR PLAN.pdf",
+    "Architecture/A1/A-07-007 TYP ( 4 - 5 ) FLOOR PLAN.pdf",
+    "Architecture/A1/A-07-008 LOWER ROOF PLAN.pdf"
+   ]
+  },
+  {
+   "bay": null,
+   "count": 1,
+   "element_type": "wall_finish",
+   "location": null,
+   "mark": "Walls, rooms",
+   "multiplier": 1,
+   "roles": [],
+   "sheets": [
+    "Architecture/A1/A-07-003 GROUND FLOOR PLAN.pdf",
+    "Architecture/A1/A-07-004 FIRST FLOOR PLAN.pdf",
+    "Architecture/A1/A-07-005 2ND FLOOR PLAN.pdf",
+    "Architecture/A1/A-07-006 3RD FLOOR PLAN.pdf",
+    "Architecture/A1/A-07-007 TYP ( 4 - 5 ) FLOOR PLAN.pdf",
+    "Architecture/A1/A-07-008 LOWER ROOF PLAN.pdf"
+   ]
+  },
+  {
+   "bay": null,
+   "count": 1,
+   "element_type": "wall_finish",
+   "location": null,
+   "mark": "Walls, wet areas",
+   "multiplier": 1,
+   "roles": [],
+   "sheets": [
+    "Architecture/A1/A-07-003 GROUND FLOOR PLAN.pdf",
+    "Architecture/A1/A-07-004 FIRST FLOOR PLAN.pdf",
+    "Architecture/A1/A-07-005 2ND FLOOR PLAN.pdf",
+    "Architecture/A1/A-07-006 3RD FLOOR PLAN.pdf",
+    "Architecture/A1/A-07-007 TYP ( 4 - 5 ) FLOOR PLAN.pdf",
+    "Architecture/A1/A-07-008 LOWER ROOF PLAN.pdf"
+   ]
+  }
+ ],
+ "summary": {
+  "by_type": {
+   "blockwork": 3,
+   "ceiling_finish": 2,
+   "door": 480,
+   "floor_finish": 2,
+   "floor_waterproofing": 1,
+   "roof_waterproofing": 1,
+   "skirting": 2,
+   "wall_finish": 2,
+   "window": 199
+  },
+  "composition": {
+   "counted": 0,
+   "derived": 7,
+   "inferred": 0,
+   "measured": 58,
+   "stated": 0,
+   "transcribed": 94
+  },
+  "derived_heights": 0,
+  "elements": 47,
+  "measured_lengths": 0,
+  "records": 159,
+  "storeys": [
+   "BASEMENT 1",
+   "ROOF"
+  ],
+  "with_length": 0
+ }
+}

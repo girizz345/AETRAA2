@@ -1,0 +1,2831 @@
+{
+ "schema": "clauses/proto",
+ "clauses": [
+  {
+   "id": "GP1.1",
+   "section": "GP",
+   "group": "GP1",
+   "text": "These principles of measurement provide a uniform basis for measuring bills of quan- tities for works of construction. More detailed information than is required by this document may be given to define the precise nature of work or the circumstances under which it is to be carried out.",
+   "unit_raw": "\u2014 \u2014 no arithmetic \u2014 a descriptive, definitional or administrative rule",
+   "formula_raw": null,
+   "in_practice": "Scope. More detail than POMI requires MAY be given \u2014 this is the clause every"
+  },
+  {
+   "id": "GP1.2",
+   "section": "GP",
+   "group": "GP1",
+   "text": "Amendments to these principles of measurement for use in a particular locality or adopted for work not envisaged by this document shall be stated; an appendix is provided for such amendments to be recorded.",
+   "unit_raw": "\u2014 \u2014 no arithmetic \u2014 a descriptive, definitional or administrative rule",
+   "formula_raw": null,
+   "in_practice": "Local amendments SHALL BE STATED and recorded in POMI\u2019s own Appendix."
+  },
+  {
+   "id": "GP1.3",
+   "section": "GP",
+   "group": "GP1",
+   "text": "These principles of measurement may be applied equally to the measurement of proposed works and of completed works.",
+   "unit_raw": "\u2014 \u2014 no arithmetic \u2014 a descriptive, definitional or administrative rule",
+   "formula_raw": null,
+   "in_practice": "Applies equally to proposed and completed works \u2014 so the same formulae serve"
+  },
+  {
+   "id": "GP2.1",
+   "section": "GP",
+   "group": "GP2",
+   "text": "The objects of bills of quantities are: 1. To assist in the accurate preparation of tenders, by providing for measurement of quantities on a uniform basis 2. To provide a basis for the financial control of a project, in accordance with the conditions of contract.",
+   "unit_raw": "\u2014 \u2014 no arithmetic \u2014 a descriptive, definitional or administrative rule",
+   "formula_raw": null,
+   "in_practice": "The TWO stated objects of a bill of quantities: 1 TO ASSIST IN THE ACCURATE"
+  },
+  {
+   "id": "GP2.2",
+   "section": "GP",
+   "group": "GP2",
+   "text": "Bills of quantities shall describe and represent the works to be carried out; work which cannot be measured accurately shall be described as approximate or given in bills of approximate quantities.",
+   "unit_raw": "RULE \u2014 governs how OTHER quantities are calculated",
+   "formula_raw": null,
+   "in_practice": "THE PROVISIONAL RULE, and it is a DUTY, not a fallback. Bills shall DESCRIBE"
+  },
+  {
+   "id": "GP2.3",
+   "section": "GP",
+   "group": "GP2",
+   "text": "Conditions of contract, drawings and specifications shall be provided with the bills of quantities.",
+   "unit_raw": "\u2014 \u2014 no arithmetic \u2014 a descriptive, definitional or administrative rule",
+   "formula_raw": null,
+   "in_practice": "Conditions, drawings and specification issued with the bill."
+  },
+  {
+   "id": "GP2.4",
+   "section": "GP",
+   "group": "GP2",
+   "text": "The section headings and classifications do not impose restrictions upon the format and presentation of bills of quantities.",
+   "unit_raw": "\u2014 \u2014 no arithmetic \u2014 a descriptive, definitional or administrative rule",
+   "formula_raw": null,
+   "in_practice": "Section headings do not restrict format \u2014 which is why a commercial heading"
+  },
+  {
+   "id": "GP3.1",
+   "section": "GP",
+   "group": "GP3",
+   "text": "Work shall be measured net as fixed in position and each measurement shall be taken to the nearest 10 millimetres; this principle shall not apply to dimensions stated in descriptions.",
+   "unit_raw": "RULE \u2014 governs how OTHER quantities are calculated",
+   "formula_raw": "d = round(d_drawn / 0.01) \u00d7 0.01",
+   "in_practice": "NET as fixed in position, each dimension to the nearest 10 mm. Round each"
+  },
+  {
+   "id": "GP3.2",
+   "section": "GP",
+   "group": "GP3",
+   "text": "Unless otherwise stated, no deduction shall be made from items required to be mea- sured by area for voids of less than 1.00 m\u00b2.",
+   "unit_raw": "RULE \u2014 governs how OTHER quantities are calculated",
+   "formula_raw": "A_net = A_gross \u2212 \u03a3 A_void   for A_void \u2265 1.00 m\u00b2",
+   "in_practice": "The area deduction threshold. Applies to items measured BY AREA."
+  },
+  {
+   "id": "GP3.3",
+   "section": "GP",
+   "group": "GP3",
+   "text": "Minimum deductions of voids shall refer only to voids within the edges of measured areas; voids which are at the edges of measured areas shall always be deducted, irrespective of size.",
+   "unit_raw": "RULE \u2014 governs how OTHER quantities are calculated",
+   "formula_raw": "deduct ALL voids at an edge, any size",
+   "in_practice": "The exception to GP3.2, and the one most often missed. Interior voids under"
+  },
+  {
+   "id": "GP3.4",
+   "section": "GP",
+   "group": "GP3",
+   "text": "These principles of measurement may be used with other units of measurement but the particular amendments shall be stated.",
+   "unit_raw": "\u2014 \u2014 no arithmetic \u2014 a descriptive, definitional or administrative rule",
+   "formula_raw": null,
+   "in_practice": "Other units may be used if the amendment is stated."
+  },
+  {
+   "id": "GP3.5",
+   "section": "GP",
+   "group": "GP3",
+   "text": "Notwithstanding these principles of measurement, a separate minor building or structure may be enumerated.",
+   "unit_raw": "NR \u2014 enumerated \u2014 a count",
+   "formula_raw": "N = 1 per minor building",
+   "in_practice": "A separate minor building or structure MAY be enumerated whole instead of"
+  },
+  {
+   "id": "GP4.1",
+   "section": "GP",
+   "group": "GP4",
+   "text": "Unless otherwise stated, all items shall be fully inclusive of all that is necessary to fulfill the liabilities and obligations arising out of the contract and shall include: 1. Labour and all associated costs 2. Materials, goods and all associated costs 3. Provision of plant 4. Temporary works 5. Establishment charges, overheads and profit.",
+   "unit_raw": "\u2014 \u2014 no arithmetic \u2014 a descriptive, definitional or administrative rule",
+   "formula_raw": null,
+   "in_practice": "What EVERY rate is deemed to include, FIVE heads: 1 LABOUR AND ALL ASSO-"
+  },
+  {
+   "id": "GP5.1",
+   "section": "GP",
+   "group": "GP5",
+   "text": "Items which are required to be enumerated, or for which an item is required, shall be fully described.",
+   "unit_raw": "\u2014 \u2014 no arithmetic \u2014 a descriptive, definitional or administrative rule",
+   "formula_raw": null,
+   "in_practice": "Enumerated items and items must be FULLY DESCRIBED."
+  },
+  {
+   "id": "GP5.2",
+   "section": "GP",
+   "group": "GP5",
+   "text": "Items which are to be measured by length or depth shall state the cross-sectional size and shape, girth or ranges of girths or such other information as may be appropriate; for items of pipework it shall be stated whether the diameter is internal or external.",
+   "unit_raw": "RULE \u2014 governs how OTHER quantities are calculated",
+   "formula_raw": null,
+   "in_practice": "Length and depth items STATE the cross-sectional size and shape, girth or range"
+  },
+  {
+   "id": "GP5.3",
+   "section": "GP",
+   "group": "GP5",
+   "text": "Items which are to be measured by area shall state the thickness or such other information as may be appropriate.",
+   "unit_raw": "RULE \u2014 governs how OTHER quantities are calculated",
+   "formula_raw": null,
+   "in_practice": "Area items STATE the thickness."
+  },
+  {
+   "id": "GP5.4",
+   "section": "GP",
+   "group": "GP5",
+   "text": "Items which are to be measured by weight shall state the material thickness and unit weight if appropriate (for example, ductwork).",
+   "unit_raw": "RULE \u2014 governs how OTHER quantities are calculated",
+   "formula_raw": "W = A \u00d7 m_per_m2   or   L \u00d7 m_per_m   or   V \u00d7 \u03c1",
+   "in_practice": "Weight items STATE the material thickness and unit weight IF APPROPRIATE \u2014"
+  },
+  {
+   "id": "GP5.5",
+   "section": "GP",
+   "group": "GP5",
+   "text": "Notwithstanding these principles of measurement, proprietary items may be mea- sured in a manner appropriate to the manufacturer\u2019s tariff or customary practice.",
+   "unit_raw": "\u2014 \u2014 no arithmetic \u2014 a descriptive, definitional or administrative rule",
+   "formula_raw": null,
+   "in_practice": "Proprietary items may follow the manufacturer\u2019s tariff \u2014 a declared departure"
+  },
+  {
+   "id": "GP5.6",
+   "section": "GP",
+   "group": "GP5",
+   "text": "The description of items in bills of quantities may refer to other documents or draw- ings and any reference to such information shall be understood to fulfill any require- ment of these principles of measurement; alternatively, reference may be made to published information.",
+   "unit_raw": "\u2014 \u2014 no arithmetic \u2014 a descriptive, definitional or administrative rule",
+   "formula_raw": null,
+   "in_practice": "A description may refer to another document, and that reference satisfies POMI\u2019s"
+  },
+  {
+   "id": "GP6.1",
+   "section": "GP",
+   "group": "GP6",
+   "text": "Unless otherwise required by the conditions of contract, work which is required to be executed by a specialist nominated by the employer shall be given as a sum; such sum shall be exclusive of contractor\u2019s profit and in each case an item shall be given for the addition of profit.",
+   "unit_raw": "SUM \u2014 a SUM \u2014 a money figure, not a measured quantity",
+   "formula_raw": "Sum, exclusive of profit + separate profit item",
+   "in_practice": "Nominated specialist work."
+  },
+  {
+   "id": "GP6.2",
+   "section": "GP",
+   "group": "GP6",
+   "text": "An item shall be given in each case for assistance by the contractor, which shall include: 1. Use of contractor\u2019s administrative arrangements 2. Use of construc- tional plant 3. Use of contractor\u2019s facilities 4. Use of temporary works 5. Space for specialist\u2019s offices and stores 6. Clearing away rubbish 7. Scaffolding required by the specialist, giving particulars 8. Unloading, distributing, hoisting and placing in position items of plant, machinery or the like, giving particulars.",
+   "unit_raw": "ITEM \u2014 an ITEM \u2014 a lump, not a measured quantity",
+   "formula_raw": null,
+   "in_practice": "ONE ITEM for ATTENDANCE by the contractor on a nominated specialist, EIGHT"
+  },
+  {
+   "id": "GP7.1",
+   "section": "GP",
+   "group": "GP7",
+   "text": "Unless otherwise required by the conditions of contract, goods, materials or services which are required to be provided by a merchant or tradesman nominated by the employer shall be given as a sum; such sum shall be exclusive of contractor\u2019s profit and in each case an item shall be given for the addition of profit.",
+   "unit_raw": "SUM \u2014 a SUM \u2014 a money figure, not a measured quantity",
+   "formula_raw": "Sum, exclusive of profit + separate profit item",
+   "in_practice": "Nominated merchant goods, materials or services."
+  },
+  {
+   "id": "GP7.2",
+   "section": "GP",
+   "group": "GP7",
+   "text": "Fixing goods and materials shall be given in accordance with the relevant clauses in these principles of measurement; fixing shall be understood to include unload- ing, storing, distributing and hoisting the, goods and materials. Particulars shall be given of any requirements for the contractor to arrange for delivery or pay any costs of conveying goods or materials.",
+   "unit_raw": "\u2014 \u2014 no arithmetic \u2014 a descriptive, definitional or administrative rule",
+   "formula_raw": null,
+   "in_practice": "FIXING measured to the relevant clauses; fixing INCLUDES unloading, storing,"
+  },
+  {
+   "id": "GP8.1",
+   "section": "GP",
+   "group": "GP8",
+   "text": "Unless otherwise required by the conditions of contract, work which may only be carried out or by a government or public authority shall be given as a sum; such sum shall be exclusive of contractor\u2019s profit and in each case an item shall be given for the addition of profit.",
+   "unit_raw": "SUM \u2014 a SUM \u2014 a money figure, not a measured quantity",
+   "formula_raw": "Sum, exclusive of profit + separate profit item",
+   "in_practice": "Work only a government or public authority may do \u2014 DEWA, Etisalat, du."
+  },
+  {
+   "id": "GP8.2",
+   "section": "GP",
+   "group": "GP8",
+   "text": "An item shall be given in each case for assistance by the contractor as described in clause GP6.2.",
+   "unit_raw": "ITEM \u2014 an ITEM \u2014 a lump, not a measured quantity",
+   "formula_raw": null,
+   "in_practice": "Attendance, as GP6.2."
+  },
+  {
+   "id": "GP9.1",
+   "section": "GP",
+   "group": "GP9",
+   "text": "The cost of labour in dayworks shall be given as a sum; alternatively, a schedule of the different categories of labour may be given containing a provisional quantity of hours for each category.",
+   "unit_raw": "SCHEDULE",
+   "formula_raw": "one priced line per labour category \u00d7 PROVISIONAL hours",
+   "in_practice": "DAYWORK LABOUR. POMI permits A SUM or, expressly, A SCHEDULE OF"
+  },
+  {
+   "id": "GP9.2",
+   "section": "GP",
+   "group": "GP9",
+   "text": "The cost of labour included in a sum or schedule shall include wages, bonuses and all allowances paid to operatives directly engaged on dayworks (including those operat- ing mechanical plant and transport) in accordance with the appropriate employment agreement or, where no such agreement exists, the actual payments made to the work people concerned.",
+   "unit_raw": "\u2014 \u2014 no arithmetic \u2014 a descriptive, definitional or administrative rule",
+   "formula_raw": null,
+   "in_practice": "What daywork labour cost includes."
+  },
+  {
+   "id": "GP9.3",
+   "section": "GP",
+   "group": "GP9",
+   "text": "The cost of materials in dayworks shall be given as a sum; alternatively, a schedule may be given containing a provisional quantity of different materials.",
+   "unit_raw": "SCHEDULE",
+   "formula_raw": "one priced line per material \u00d7 PROVISIONAL quantity",
+   "in_practice": "DAYWORK MATERIALS, as a SCHEDULE with provisional quantities \u2014 same"
+  },
+  {
+   "id": "GP9.4",
+   "section": "GP",
+   "group": "GP9",
+   "text": "The cost of materials included in a sum or schedule shall be the net invoiced price, including delivery to site.",
+   "unit_raw": "\u2014 \u2014 no arithmetic \u2014 a descriptive, definitional or administrative rule",
+   "formula_raw": null,
+   "in_practice": "Daywork materials at NET INVOICED PRICE including delivery."
+  },
+  {
+   "id": "GP9.5",
+   "section": "GP",
+   "group": "GP9",
+   "text": "The cost of constructional plant employed exclusively in dayworks shall be given as a sum; alternatively, a schedule of the different categories of plant may be given containing a provisional quantity of hours, or such other period of time as may be appropriate, for each category.",
+   "unit_raw": "SCHEDULE",
+   "formula_raw": "one priced line per plant category \u00d7 PROVISIONAL hours",
+   "in_practice": "DAYWORK PLANT, as a SCHEDULE with provisional hours \u2014 same election as"
+  },
+  {
+   "id": "GP9.6",
+   "section": "GP",
+   "group": "GP9",
+   "text": "The cost of constructional plant included in a sum or schedule shall include fuel, consumable stores, repairs, maintenance and insurance of plant.",
+   "unit_raw": "\u2014 \u2014 no arithmetic \u2014 a descriptive, definitional or administrative rule",
+   "formula_raw": null,
+   "in_practice": "What daywork plant cost includes."
+  },
+  {
+   "id": "GP9.7",
+   "section": "GP",
+   "group": "GP9",
+   "text": "An item shall be given for the addition of establishment charges, overheads and profit to each of the sums or schedules of labour, materials or plant.",
+   "unit_raw": "ITEM \u00d73",
+   "formula_raw": "one addition item against EACH of the three schedules",
+   "in_practice": "An item for the addition of establishment charges, overheads and profit TO"
+  },
+  {
+   "id": "GP9.8",
+   "section": "GP",
+   "group": "GP9",
+   "text": "Establishment charges, overheads and profit shall include: 1. Costs related to the employment of labour 2. Costs related to the storage of materials, including han- dling and waste in storage 3. Contractor\u2019s administrative arrangements 4. Con- structional plant, except plant employed exclusively on dayworks 5. Contractor\u2019s facilities 6. Temporary works 7. Sundry items.",
+   "unit_raw": "\u2014 \u2014 no arithmetic \u2014 a descriptive, definitional or administrative rule",
+   "formula_raw": null,
+   "in_practice": "What ESTABLISHMENT CHARGES, OVERHEADS AND PROFIT comprise,"
+  },
+  {
+   "id": "GP10.1",
+   "section": "GP",
+   "group": "GP10",
+   "text": "Unless otherwise required by the conditions of contract, contingencies shall be given as a sum; no item shall be given for the addition of profit.",
+   "unit_raw": "SUM \u2014 a SUM \u2014 a money figure, not a measured quantity",
+   "formula_raw": null,
+   "in_practice": "Contingencies as a sum. NO profit item \u2014 the opposite of GP6/7/8/9.7."
+  },
+  {
+   "id": "A1.1",
+   "section": "A",
+   "group": "A1",
+   "text": "A schedule of the clause headings shall be set out in the bills of quantities.",
+   "unit_raw": "\u2014 \u2014 no arithmetic \u2014 a descriptive, definitional or administrative rule",
+   "formula_raw": null,
+   "in_practice": "Schedule of clause headings."
+  },
+  {
+   "id": "A1.2",
+   "section": "A",
+   "group": "A1",
+   "text": "Where there is an appendix to the conditions of contract requiring insertions to be made, a schedule of the insertions shall be set out in the bills of quantities.",
+   "unit_raw": "\u2014 \u2014 no arithmetic \u2014 a descriptive, definitional or administrative rule",
+   "formula_raw": null,
+   "in_practice": "Schedule of appendix insertions."
+  },
+  {
+   "id": "A2.1",
+   "section": "A",
+   "group": "A2",
+   "text": "Where the specification contains clauses related to any of the following General Re- quirements, the bills of quantities shall make reference to the appropriate clauses.",
+   "unit_raw": "\u2014 \u2014 no arithmetic \u2014 a descriptive, definitional or administrative rule",
+   "formula_raw": null,
+   "in_practice": "Bill refers to the specification\u2019s General Requirements clauses."
+  },
+  {
+   "id": "A3.1",
+   "section": "A",
+   "group": "A3",
+   "text": "Particulars shall be given of any restrictions, which shall include: 1. Access to and possession or use of the site 2. Limitations of working space 3. Limitations of work- ing hours 4. The maintenance of existing services on, under or over the site 5. The execution or completion of the work in any specific order, sections or phases 6. Items of a like nature.",
+   "unit_raw": "\u2014 \u2014 no arithmetic \u2014 a descriptive, definitional or administrative rule",
+   "formula_raw": null,
+   "in_practice": "PARTICULARS of RESTRICTIONS, SIX heads, all of them the employer\u2019s con-"
+  },
+  {
+   "id": "A4.1",
+   "section": "A",
+   "group": "A4",
+   "text": "An item shall be given for contractor\u2019s administrative arrangements, which shall include: 1. Site administration 2. Supervision 3. Security 4. Safety, health and welfare of workpeople 5. Transport of workpeople.",
+   "unit_raw": "ITEM \u2014 an ITEM \u2014 a lump, not a measured quantity",
+   "formula_raw": null,
+   "in_practice": "Contractor\u2019s administrative arrangements \u2014 site admin, supervision, security,"
+  },
+  {
+   "id": "A5.1",
+   "section": "A",
+   "group": "A5",
+   "text": "An item shall be given for constructional plant, which shall include: 1. Small plant and tools 2. Scaffolding 3. Cranes and lifting plant 4. Site transport 5. Plant required for specific trades.",
+   "unit_raw": "ITEM \u2014 an ITEM \u2014 a lump, not a measured quantity",
+   "formula_raw": null,
+   "in_practice": "Constructional plant \u2014 small plant, scaffolding, cranes, site transport, trade-"
+  },
+  {
+   "id": "A6.1",
+   "section": "A",
+   "group": "A6",
+   "text": "Particulars shall be given of any facilities required for the employer or the em- ployer\u2019s representatives, which shall include: 1. Temporary accommodation (for example, offices, laboratories, living accommodation), including heating, cooling, lighting, furnishing, attendance or related facilities 2. Telephones, including costs of calls; alternatively, the cost of calls may be given as a sum 3. Vehicles 4. At- tendance of staff (for example, drivers, laboratory assistants) 5. Equipment (for AETRAA POMI Take-off \u2014 the complete prompt set                                                200 example, surveyor laboratory equipment) 6. Special requirements for programmes or progress charts 7. Any other facilities (for example, progress photographs, sign- boards).",
+   "unit_raw": "\u2014 \u2014 no arithmetic \u2014 a descriptive, definitional or administrative rule",
+   "formula_raw": null,
+   "in_practice": "PARTICULARS of the EMPLOYER\u2019S FACILITIES \u2014 what the contractor must"
+  },
+  {
+   "id": "A7.1",
+   "section": "A",
+   "group": "A7",
+   "text": "An item shall be given for facilities required by the contractor, which shall include: 1. Accommodation and buildings, including offices, laboratories, compounds, stores, messrooms and living accommodation 2. Temporary fencing, including hoardings, screens, roofs and guardrails 3. Temporary roads, including hardstandings and crossings 4. Water for the works; particulars shall be given if water will be sup- plied to the contractor 5. Lighting and power for the works; particulars shall be given if current will be supplied to the contractor 6. Temporary telephones.",
+   "unit_raw": "ITEM \u2014 an ITEM \u2014 a lump, not a measured quantity",
+   "formula_raw": null,
+   "in_practice": "ONE ITEM for the CONTRACTOR\u2019S OWN FACILITIES, SIX heads: 1 ACCOM-"
+  },
+  {
+   "id": "A7.2",
+   "section": "A",
+   "group": "A7",
+   "text": "Particulars shall be given where the nature or extent of the facilities is not at the discretion of the contractor.",
+   "unit_raw": "\u2014 \u2014 no arithmetic \u2014 a descriptive, definitional or administrative rule",
+   "formula_raw": null,
+   "in_practice": "Particulars where the facilities are not at the contractor\u2019s discretion."
+  },
+  {
+   "id": "A8.1",
+   "section": "A",
+   "group": "A8",
+   "text": "An item shall be given for temporary works, which shall include: 1. Traffic diver- sion 2. Access roads 3. Bridges 4. Cofferdams 5. Pumping 6. De-watering 7. Compressed air for tunnelling.",
+   "unit_raw": "ITEM \u2014 an ITEM \u2014 a lump, not a measured quantity",
+   "formula_raw": null,
+   "in_practice": "ONE ITEM for TEMPORARY WORKS, SEVEN heads: 1 TRAFFIC DIVERSION"
+  },
+  {
+   "id": "A8.2",
+   "section": "A",
+   "group": "A8",
+   "text": "Particulars shall be given where the nature or extent of the temporary works is not at the discretion of the contractor.",
+   "unit_raw": "\u2014 \u2014 no arithmetic \u2014 a descriptive, definitional or administrative rule",
+   "formula_raw": null,
+   "in_practice": "Particulars where not at the contractor\u2019s discretion."
+  },
+  {
+   "id": "A9.1",
+   "section": "A",
+   "group": "A9",
+   "text": "An item shall be given for sundry items, which shall include: 1. Testing of materials 2. Testing of the works 3. Protecting the works from inclement weather 4. Removing rubbish, protective casings and coverings and cleaning the works at completion 5. Traffic regulations 6. Maintenance of public and private roads \u2019 7. Drying the works 8. Control of noise and pollution 9. All statutory obligations",
+   "unit_raw": "ITEM \u2014 an ITEM \u2014 a lump, not a measured quantity",
+   "formula_raw": null,
+   "in_practice": "ONE ITEM for SUNDRY ITEMS, NINE heads: 1 TESTING OF MATERIALS \u00b7 2"
+  },
+  {
+   "id": "A9.2",
+   "section": "A",
+   "group": "A9",
+   "text": "Particulars shall be given where the nature or extent of the sundry items is not at the discretion of the contractor.",
+   "unit_raw": "\u2014 \u2014 no arithmetic \u2014 a descriptive, definitional or administrative rule",
+   "formula_raw": null,
+   "in_practice": "Particulars where not at the contractor\u2019s discretion."
+  },
+  {
+   "id": "B1.1",
+   "section": "B",
+   "group": "B1",
+   "text": "Keeping records of site observations, site tests and laboratory tests shall be given as an item.",
+   "unit_raw": "ITEM \u2014 an ITEM \u2014 a lump, not a measured quantity",
+   "formula_raw": null,
+   "in_practice": "Keeping RECORDS of observations and tests."
+  },
+  {
+   "id": "B1.2",
+   "section": "B",
+   "group": "B1",
+   "text": "Samples, site observations, site tests, laboratory tests and analyses shall be given as an item,",
+   "unit_raw": "ITEM \u2014 an ITEM \u2014 a lump, not a measured quantity",
+   "formula_raw": null,
+   "in_practice": "Samples, observations, site tests, laboratory tests AND ANALYSES \u2014 the testing"
+  },
+  {
+   "id": "B1.3",
+   "section": "B",
+   "group": "B1",
+   "text": "Providing reports shall be given as an item.",
+   "unit_raw": "ITEM \u2014 an ITEM \u2014 a lump, not a measured quantity",
+   "formula_raw": null,
+   "in_practice": "Providing reports."
+  },
+  {
+   "id": "B2.1",
+   "section": "B",
+   "group": "B2",
+   "text": "Excavating trial holes shall be measured by depth, taken along the centre line, stat- ing the number and the maximum depth below commencing level.",
+   "unit_raw": "M (depth) \u2014 by depth, metres",
+   "formula_raw": "Depth = \u03a3 d(i) ; state N and d_max",
+   "in_practice": "Trial holes, along the CENTRE LINE. Depth from the COMMENCING LEVEL,"
+  },
+  {
+   "id": "B2.2",
+   "section": "B",
+   "group": "B2",
+   "text": "Earthwork support which is not at the discretion of the contractor shall be measured by depth.",
+   "unit_raw": "M (depth) \u2014 by depth, metres",
+   "formula_raw": "Depth = \u03a3 d(i)",
+   "in_practice": "Earthwork support to trial holes, ONLY where not at the contractor\u2019s discretion."
+  },
+  {
+   "id": "B3.1",
+   "section": "B",
+   "group": "B3",
+   "text": "Driving boreholes shall be measured by depth, taken along the centre line, stating the number and the maximum depth below commencing level; raking boreholes shall be so described.",
+   "unit_raw": "M (depth) \u2014 by depth, metres",
+   "formula_raw": "Depth = \u03a3 d(i) ; state N and d_max",
+   "in_practice": "Boreholes. Raking boreholes SO DESCRIBED."
+  },
+  {
+   "id": "B3.2",
+   "section": "B",
+   "group": "B3",
+   "text": "Lining which is not at the discretion of the contractor shall be measured by depth.",
+   "unit_raw": "M (depth) \u2014 by depth, metres",
+   "formula_raw": "Depth = \u03a3 d(i)",
+   "in_practice": "Borehole lining, only where not at the contractor\u2019s discretion."
+  },
+  {
+   "id": "B3.3",
+   "section": "B",
+   "group": "B3",
+   "text": "Cappings shall be enumerated.",
+   "unit_raw": "NR \u2014 enumerated \u2014 a count",
+   "formula_raw": "N = count",
+   "in_practice": "Cappings."
+  },
+  {
+   "id": "B4.1",
+   "section": "B",
+   "group": "B4",
+   "text": "Removing isolated trees shall be enumerated.",
+   "unit_raw": "NR \u2014 enumerated \u2014 a count",
+   "formula_raw": "N = count",
+   "in_practice": "Isolated trees, by girth band."
+  },
+  {
+   "id": "B4.2",
+   "section": "B",
+   "group": "B4",
+   "text": "Removing hedges shall be measured by length.",
+   "unit_raw": "M \u2014 by length, metres",
+   "formula_raw": "L = \u03a3 L(i)",
+   "in_practice": "Hedges."
+  },
+  {
+   "id": "B4.3",
+   "section": "B",
+   "group": "B4",
+   "text": "Site clearance, which shall include removing vegetation, undergrowth, bushes, hedges, trees or the like, shall be measured by area.",
+   "unit_raw": "M2 \u2014 by area, square metres",
+   "formula_raw": "A = L_site \u00d7 W_site \u2212 excluded areas",
+   "in_practice": "Site clearance \u2014 INCLUDES vegetation, undergrowth, bushes, hedges, trees"
+  },
+  {
+   "id": "B5.1",
+   "section": "B",
+   "group": "B5",
+   "text": "The location of each item shall be given. Unless otherwise stated, old materials shall be understood to become the property of the contractor and shall be cleared away; old materials required to remain the property of the employer shall be so described.",
+   "unit_raw": "\u2014 \u2014 no arithmetic \u2014 a descriptive, definitional or administrative rule",
+   "formula_raw": null,
+   "in_practice": "Location of each item given. Old materials become the contractor\u2019s unless"
+  },
+  {
+   "id": "B5.2",
+   "section": "B",
+   "group": "B5",
+   "text": "Removing individual fittings, fixtures, engineering installations or the like from an existing structure shall each be given as an item.",
+   "unit_raw": "ITEM \u2014 an ITEM \u2014 a lump, not a measured quantity",
+   "formula_raw": null,
+   "in_practice": "Removing individual fittings, fixtures or installations from an existing structure."
+  },
+  {
+   "id": "B5.3",
+   "section": "B",
+   "group": "B5",
+   "text": "Demolishing individual structures (or part thereof) shall each be given as an item; alternatively, demolishing all structures on a site may be given as an item.",
+   "unit_raw": "ITEM \u2014 an ITEM \u2014 a lump, not a measured quantity",
+   "formula_raw": null,
+   "in_practice": "Demolishing individual structures or parts."
+  },
+  {
+   "id": "B5.4",
+   "section": "B",
+   "group": "B5",
+   "text": "Cutting openings in existing structures and alterations to existing structures shall each be given as an item; making good all work damaged shall be understood to be included.",
+   "unit_raw": "ITEM \u2014 an ITEM \u2014 a lump, not a measured quantity",
+   "formula_raw": null,
+   "in_practice": "Cutting openings in, and alterations to, existing structures."
+  },
+  {
+   "id": "B5.5",
+   "section": "B",
+   "group": "B5",
+   "text": "Temporary screens and roofs shall be given as an item.",
+   "unit_raw": "ITEM \u2014 an ITEM \u2014 a lump, not a measured quantity",
+   "formula_raw": null,
+   "in_practice": "Temporary screens and roofs."
+  },
+  {
+   "id": "B6.1",
+   "section": "B",
+   "group": "B6",
+   "text": "Shoring incidental to demolitions and alterations, together with clearing away and making good all work damaged, shall be understood to be included.",
+   "unit_raw": "ITEM \u2014 an ITEM \u2014 a lump, not a measured quantity",
+   "formula_raw": null,
+   "in_practice": "Shoring INCIDENTAL to demolitions and alterations, with clearing away and"
+  },
+  {
+   "id": "B6.2",
+   "section": "B",
+   "group": "B6",
+   "text": "Shoring (other than that incidental to demolitions and alterations) shall be given as an item, stating the location; clearing away and making good all work damaged shall be understood to be included.",
+   "unit_raw": "ITEM \u2014 an ITEM \u2014 a lump, not a measured quantity",
+   "formula_raw": null,
+   "in_practice": "Other shoring, stating the type and what is supported."
+  },
+  {
+   "id": "B6.3",
+   "section": "B",
+   "group": "B6",
+   "text": "Particulars shall be given where the design of the shoring is not at the discretion of the contractor.",
+   "unit_raw": "\u2014 \u2014 no arithmetic \u2014 a descriptive, definitional or administrative rule",
+   "formula_raw": null,
+   "in_practice": "Particulars where the shoring design is not the contractor\u2019s."
+  },
+  {
+   "id": "B6.4",
+   "section": "B",
+   "group": "B6",
+   "text": "Shoring which is required by the specification to be left in position shall be so de- scribed.",
+   "unit_raw": "\u2014 \u2014 no arithmetic \u2014 a descriptive, definitional or administrative rule",
+   "formula_raw": null,
+   "in_practice": "Shoring left in position SO DESCRIBED."
+  },
+  {
+   "id": "B7.1",
+   "section": "B",
+   "group": "B7",
+   "text": "Work in underpinning shall be given under an appropriate heading, stating the loca- tion.",
+   "unit_raw": "\u2014 \u2014 no arithmetic \u2014 a descriptive, definitional or administrative rule",
+   "formula_raw": null,
+   "in_practice": "Underpinning under its own heading, stating the location."
+  },
+  {
+   "id": "B7.2",
+   "section": "B",
+   "group": "B7",
+   "text": "Unless otherwise stated, work shall be measured in accordance with the appropriate sections of this document.",
+   "unit_raw": "\u2014 \u2014 no arithmetic \u2014 a descriptive, definitional or administrative rule",
+   "formula_raw": null,
+   "in_practice": "Work in underpinning measured to the APPROPRIATE SECTIONS \u2014 excavation"
+  },
+  {
+   "id": "B7.3",
+   "section": "B",
+   "group": "B7",
+   "text": "Temporary support shall be given as an item; particulars shall be given where the design of the temporary support is not at the discretion of the contractor.",
+   "unit_raw": "ITEM \u2014 an ITEM \u2014 a lump, not a measured quantity",
+   "formula_raw": null,
+   "in_practice": "Temporary support to underpinning."
+  },
+  {
+   "id": "B7.4",
+   "section": "B",
+   "group": "B7",
+   "text": "Excavation shall be measured by volume, taken to the outside line of the projecting foundations or to the outside line of the new foundations (whichever is the greater), classified as follows: 1. Excavation in preliminary trenches down to the base of the existing foundations 2. Excavation below the base of the existing foundations.",
+   "unit_raw": "M3 \u2014 by volume, cubic metres",
+   "formula_raw": "V = L \u00d7 W_to_outside_of_projecting_foundation \u00d7 D",
+   "in_practice": "Underpinning excavation to the OUTSIDE LINE of the projecting foundation,"
+  },
+  {
+   "id": "B7.5",
+   "section": "B",
+   "group": "B7",
+   "text": "Cutting away projecting foundations shall be measured by length.",
+   "unit_raw": "M \u2014 by length, metres",
+   "formula_raw": "L = \u03a3 L(i)",
+   "in_practice": "Cutting away projecting foundations."
+  },
+  {
+   "id": "B8.1",
+   "section": "B",
+   "group": "B8",
+   "text": "Any information available concerning the nature of the ground and strata shall be provided with the bills of quantities.",
+   "unit_raw": "\u2014 \u2014 no arithmetic \u2014 a descriptive, definitional or administrative rule",
+   "formula_raw": null,
+   "in_practice": "Ground and strata information provided with the bill."
+  },
+  {
+   "id": "B8.2",
+   "section": "B",
+   "group": "B8",
+   "text": "The quantities for excavation, dredging or tunnelling shall be understood to be the bulk before excavation, and no allowance shall be made for any working space or subsequent variation in bulk; existing voids shall be deducted.",
+   "unit_raw": "RULE \u2014 governs how OTHER quantities are calculated",
+   "formula_raw": "V = V_designed_void \u2212 \u03a3 V_existing_voids",
+   "in_practice": "THE governing earthworks rule: quantities are the BULK BEFORE EXCAVATION."
+  },
+  {
+   "id": "B8.3",
+   "section": "B",
+   "group": "B8",
+   "text": "Multiple handling of materials and transporting about the site shall be understood to be included; multiple handling which is required by the specification shall be so described in the item of disposal.",
+   "unit_raw": "\u2014 \u2014 no arithmetic \u2014 a descriptive, definitional or administrative rule",
+   "formula_raw": null,
+   "in_practice": "Multiple handling and transporting about site DEEMED INCLUDED, unless the"
+  },
+  {
+   "id": "B8.4",
+   "section": "B",
+   "group": "B8",
+   "text": "Earthwork support shall be given as an item.",
+   "unit_raw": "ITEM \u2014 an ITEM \u2014 a lump, not a measured quantity",
+   "formula_raw": null,
+   "in_practice": "Earthwork support. An ITEM, never an area."
+  },
+  {
+   "id": "B8.5",
+   "section": "B",
+   "group": "B8",
+   "text": "Excavation in rock shall be so described; alternatively, it may be measured as extra over excavation (that is, the volume of rock shall be measured but no deduction shall be made from the volume of excavation in which the rock occurs).",
+   "unit_raw": "M3 \u2014 by volume, cubic metres",
+   "formula_raw": "ROUTE A   V_soil = V_total \u2212 V_rock   (two items, summing to the total)",
+   "in_practice": "Excavation in rock. POMI\u2019S PRIMARY LIMB IS \u2018SHALL BE SO DESCRIBED\u2019 \u2014"
+  },
+  {
+   "id": "B8.6",
+   "section": "B",
+   "group": "B8",
+   "text": "For the purposes of measurement rock is defined as any material met with which is of such size or position that, in the opinion of the employer\u2019s representative, it can only be removed by means of wedges, special plant or explosives.",
+   "unit_raw": "\u2014 \u2014 no arithmetic \u2014 a descriptive, definitional or administrative rule",
+   "formula_raw": null,
+   "in_practice": "Definition of rock: removable only by wedges, special plant or explosives, in the"
+  },
+  {
+   "id": "B9.1",
+   "section": "B",
+   "group": "B9",
+   "text": "Unless otherwise stated, excavation shall be measured by volume as the void which is to be occupied by the permanent construction, or vertically above any part of the permanent construction, classified as follows: 1. Oversite excavation to remove top soil, stating the average depth 2. Excavation to reduce levels 3. Excavation in cuttings 4. Basement excavation 5. Trench excavation to receive foundations, which shall include pile caps and ground beams 6. Pit excavation to receive foundation bases, stating the number 7. Excavation for diaphragm walls, stating the width of the permanent construction and the type of support fluid.",
+   "unit_raw": "M3 \u2014 by volume, cubic metres",
+   "formula_raw": "AETRAA POMI Take-off \u2014 the complete prompt set                                              207",
+   "in_practice": "Excavation as the VOID TO BE OCCUPIED by the permanent construction, or"
+  },
+  {
+   "id": "B9.2",
+   "section": "B",
+   "group": "B9",
+   "text": "Excavation of trenches for service pipes, drain pipes, cables or the like shall each be measured by length, stating the average depth; disposal and filling shall be un- derstood to be included.",
+   "unit_raw": "M \u2014 by length, metres",
+   "formula_raw": "Len = \u03a3 L, per trench type",
+   "in_practice": "Trenches for service pipes, drain pipes, cables or the like shall EACH be mea-"
+  },
+  {
+   "id": "B9.3",
+   "section": "B",
+   "group": "B9",
+   "text": "For excavation in tunnelling see clause B24.",
+   "unit_raw": "\u2014 \u2014 no arithmetic \u2014 a descriptive, definitional or administrative rule",
+   "formula_raw": null,
+   "in_practice": "Tunnel excavation is B24, not B9."
+  },
+  {
+   "id": "B10.1",
+   "section": "B",
+   "group": "B10",
+   "text": "Dredging shall be measured by volume, stating the location and limits; unless oth- erwise stated, measurement shall be understood to be taken from soundings.",
+   "unit_raw": "M3 \u2014 by volume, cubic metres",
+   "formula_raw": "V = \u03a3 V, from soundings",
+   "in_practice": "Dredging, stating location and limits."
+  },
+  {
+   "id": "B11.1",
+   "section": "B",
+   "group": "B11",
+   "text": "Disposal of material arising from excavation, dredging or tunnelling shall be mea- sured by volume as equal to the volume of excavation, dredging or tunnelling and each shall be classified as follows: 1. Backfilled into excavation 2. Backfilled in making up levels 3. Backfilled oversite to make up levels, giving details of special contouring, embankments or the like 4. Removed, which shall include providing a suitable tip.",
+   "unit_raw": "M3 \u2014 by volume, cubic metres",
+   "formula_raw": "V_disposal = V_excavation    (EXACTLY)",
+   "in_practice": "Disposal EQUALS the excavation, dredging or tunnelling volume EXACTLY \u2014"
+  },
+  {
+   "id": "B12.1",
+   "section": "B",
+   "group": "B12",
+   "text": "Filling material (other than that arising from excavation, dredging or tunnelling) shall be measured by volume as equal to the void to be filled, classified as follows: 1. Filled into excavation 2. Filled in making up levels 3. Filled oversite to make up levels, giving details of special contouring, embankments or the like.",
+   "unit_raw": "M3 \u2014 by volume, cubic metres",
+   "formula_raw": "V_fill = V_void_to_be_filled",
+   "in_practice": "Filling material OTHER THAN that arising from excavation, dredging or tun-"
+  },
+  {
+   "id": "B13.1",
+   "section": "B",
+   "group": "B13",
+   "text": "For the purposes of measurement, driven piling shall include timber, precast con- crete or metal piles.",
+   "unit_raw": "\u2014 \u2014 no arithmetic \u2014 a descriptive, definitional or administrative rule",
+   "formula_raw": null,
+   "in_practice": "Driven piling includes timber, precast concrete and metal piles."
+  },
+  {
+   "id": "B13.2",
+   "section": "B",
+   "group": "B13",
+   "text": "Other piling systems (for example, preformed casing with concrete filling) shall be measured in accordance with the principles for driven piling or bored piling as may be appropriate.",
+   "unit_raw": "\u2014 \u2014 no arithmetic \u2014 a descriptive, definitional or administrative rule",
+   "formula_raw": null,
+   "in_practice": "Other systems measured as driven or bored, whichever fits."
+  },
+  {
+   "id": "B13.3",
+   "section": "B",
+   "group": "B13",
+   "text": "Unless otherwise stated, reinforcement shall be measured in accordance with Sec- tion C.",
+   "unit_raw": "\u2014 \u2014 no arithmetic \u2014 a descriptive, definitional or administrative rule",
+   "formula_raw": null,
+   "in_practice": "Pile reinforcement to Section C."
+  },
+  {
+   "id": "B14.1",
+   "section": "B",
+   "group": "B14",
+   "text": "Supplying piles shall be measured by length, stating the number; reinforcement shall be given separately. AETRAA POMI Take-off \u2014 the complete prompt set                                              209",
+   "unit_raw": "M \u2014 by length, metres",
+   "formula_raw": "L = \u03a3 L_pile ; state N",
+   "in_practice": "SUPPLYING piles. Reinforcement given separately."
+  },
+  {
+   "id": "B14.2",
+   "section": "B",
+   "group": "B14",
+   "text": "Heads and shoes shall be enumerated.",
+   "unit_raw": "NR \u2014 enumerated \u2014 a count",
+   "formula_raw": "N = count",
+   "in_practice": "Heads and shoes."
+  },
+  {
+   "id": "B14.3",
+   "section": "B",
+   "group": "B14",
+   "text": "Driving piles shall be measured by length, taken from the pile point in contact with the ground when pitched to the pile point when driven, stating the number; driving piles on rake shall be so described.",
+   "unit_raw": "M \u2014 by length, metres",
+   "formula_raw": "L = \u03a3 (pitched point \u2192 driven point) ; state N",
+   "in_practice": "DRIVING piles \u2014 a different length from supply. Raking piles SO DESCRIBED."
+  },
+  {
+   "id": "B14.4",
+   "section": "B",
+   "group": "B14",
+   "text": "Cutting off tops of piles and connections for lengthening piles shall be enumerated.",
+   "unit_raw": "NR \u2014 enumerated \u2014 a count",
+   "formula_raw": "N = count",
+   "in_practice": "Cutting off tops; connections for lengthening."
+  },
+  {
+   "id": "B15.1",
+   "section": "B",
+   "group": "B15",
+   "text": "Boring for piles shall be measured by length, taken from the formation level of the ground to the bottom of the pile hole, stating the number; the measurement shall include for blind boring when the pile top is to be below the formation level of the ground.",
+   "unit_raw": "M \u2014 by length, metres",
+   "formula_raw": "L = formation level \u2192 bottom of hole ; state N",
+   "in_practice": "Boring. INCLUDES blind boring where the pile top is below formation level."
+  },
+  {
+   "id": "B15.2",
+   "section": "B",
+   "group": "B15",
+   "text": "Boring through rock shall be measured by length as extra over boring for piles (that is, the length of boring through rock shall be measured but no deduction shall be made from the total length of boring).",
+   "unit_raw": "M \u2014 by length, metres",
+   "formula_raw": "L_rock measured; L_boring UNCHANGED",
+   "in_practice": "Boring through rock, EXTRA OVER."
+  },
+  {
+   "id": "B15.3",
+   "section": "B",
+   "group": "B15",
+   "text": "Linings for piles shall be measured by length.",
+   "unit_raw": "M \u2014 by length, metres",
+   "formula_raw": "L = \u03a3 L_lining",
+   "in_practice": "Pile linings."
+  },
+  {
+   "id": "B15.4",
+   "section": "B",
+   "group": "B15",
+   "text": "Disposal of material arising from boring shall be measured in accordance with clause B11.",
+   "unit_raw": "M3 \u2014 by volume, cubic metres",
+   "formula_raw": "per B11",
+   "in_practice": "Disposal of boring arisings."
+  },
+  {
+   "id": "B15.5",
+   "section": "B",
+   "group": "B15",
+   "text": "Concrete filling shall be measured by volume.",
+   "unit_raw": "M3 \u2014 by volume, cubic metres",
+   "formula_raw": "V = \u03a3 (\u03c0/4) \u00d7 \u00d8\u00b2 \u00d7 L",
+   "in_practice": "Concrete filling to bored piles."
+  },
+  {
+   "id": "B15.6",
+   "section": "B",
+   "group": "B15",
+   "text": "Cutting off tops of piles and forming enlarged bases shall be enumerated.",
+   "unit_raw": "NR \u2014 enumerated \u2014 a count",
+   "formula_raw": "N = count",
+   "in_practice": "Cutting off tops; forming enlarged bases."
+  },
+  {
+   "id": "B16.1",
+   "section": "B",
+   "group": "B16",
+   "text": "The measurements for sheet piling shall be taken along the centre line.",
+   "unit_raw": "RULE \u2014 governs how OTHER quantities are calculated",
+   "formula_raw": null,
+   "in_practice": "ALL sheet piling measured along the CENTRE LINE."
+  },
+  {
+   "id": "B16.2",
+   "section": "B",
+   "group": "B16",
+   "text": "Supplying sheet piling shall be measured by area, taken as the area when in final position.",
+   "unit_raw": "M2 \u2014 by area, square metres",
+   "formula_raw": "A = area IN FINAL POSITION",
+   "in_practice": "Supplying sheet piling."
+  },
+  {
+   "id": "B16.3",
+   "section": "B",
+   "group": "B16",
+   "text": "Corner piles or the like shall be measured by length.",
+   "unit_raw": "M \u2014 by length, metres",
+   "formula_raw": "L = \u03a3 L",
+   "in_practice": "Corner piles."
+  },
+  {
+   "id": "B16.4",
+   "section": "B",
+   "group": "B16",
+   "text": "Driving sheet piling shall be measured by area, taken from the formation level of the ground to the bottom edge of the sheet piling when driven; strutting and waling and withdrawing sheet piling shall be understood to be included.",
+   "unit_raw": "M2 \u2014 by area, square metres",
+   "formula_raw": "A = L_centreline \u00d7 (formation level \u2192 bottom edge when driven)",
+   "in_practice": "Driving sheet piling BY AREA. The area is the CENTRE-LINE LENGTH (B16.1"
+  },
+  {
+   "id": "B16.5",
+   "section": "B",
+   "group": "B16",
+   "text": "Cutting sheet piling shall be measured by length.",
+   "unit_raw": "M \u2014 by length, metres",
+   "formula_raw": "L = \u03a3 L",
+   "in_practice": "Cutting sheet piling."
+  },
+  {
+   "id": "B16.6",
+   "section": "B",
+   "group": "B16",
+   "text": "Sheet piling which is required by the specification to be left in position shall be so described.",
+   "unit_raw": "\u2014 \u2014 no arithmetic \u2014 a descriptive, definitional or administrative rule",
+   "formula_raw": null,
+   "in_practice": "Sheet piling left in position SO DESCRIBED."
+  },
+  {
+   "id": "B17.1",
+   "section": "B",
+   "group": "B17",
+   "text": "Performance designed piles shall be enumerated; reinforcement and disposal of ma- terial arising from boring shall be understood to be included.",
+   "unit_raw": "NR \u2014 enumerated \u2014 a count",
+   "formula_raw": "N = count",
+   "in_practice": "Performance designed piles. REINFORCEMENT AND DISPOSAL DEEMED IN-"
+  },
+  {
+   "id": "B17.2",
+   "section": "B",
+   "group": "B17",
+   "text": "Details shall be given when the pile top is to be below the formation level of the ground.",
+   "unit_raw": "\u2014 \u2014 no arithmetic \u2014 a descriptive, definitional or administrative rule",
+   "formula_raw": null,
+   "in_practice": "Details where the pile top is below formation level."
+  },
+  {
+   "id": "B18.1",
+   "section": "B",
+   "group": "B18",
+   "text": "Testing piling, which shall include trial piles and testing working piles, shall be given as an item. AETRAA POMI Take-off \u2014 the complete prompt set                                                 212",
+   "unit_raw": "ITEM \u2014 an ITEM \u2014 a lump, not a measured quantity",
+   "formula_raw": null,
+   "in_practice": "Testing piling \u2014 INCLUDES trial piles and testing working piles."
+  },
+  {
+   "id": "B19.1",
+   "section": "B",
+   "group": "B19",
+   "text": "Drain pipes shall be measured by length, taken along the centre line over all fittings; drain pipes within inspection chambers or the like shall be so described and shall be understood to include fixings and supports.",
+   "unit_raw": "M \u2014 by length, metres",
+   "formula_raw": "L = \u03a3 L_centreline, OVER ALL FITTINGS",
+   "in_practice": "Drain pipes. Pipes within chambers SO DESCRIBED and INCLUDE fixings and"
+  },
+  {
+   "id": "B19.2",
+   "section": "B",
+   "group": "B19",
+   "text": "Drain fittings in the length (for example, bends, junctions) shall be enumerated, grouped together for each size of pipe and described as \u2018fittings\u2019.",
+   "unit_raw": "NR \u2014 enumerated \u2014 a count",
+   "formula_raw": "N = count, GROUPED per pipe size",
+   "in_practice": "Drain fittings in the length, described as \u2018fittings\u2019."
+  },
+  {
+   "id": "B19.3",
+   "section": "B",
+   "group": "B19",
+   "text": "Drain accessories (for example, gullies, traps) shall be enumerated; concrete sur- rounds and additional excavation shall be understood to be included.",
+   "unit_raw": "NR \u2014 enumerated \u2014 a count",
+   "formula_raw": "N = count",
+   "in_practice": "Drain accessories. CONCRETE SURROUNDS AND ADDITIONAL EXCAVATION"
+  },
+  {
+   "id": "B19.4",
+   "section": "B",
+   "group": "B19",
+   "text": "Concrete beds and coverings for drain pipes shall each be measured by length, stat- ing the diameter of the pipe; surrounds to vertical pipes shall be so described and shall be understood to include formwork.",
+   "unit_raw": "M \u2014 by length, metres",
+   "formula_raw": "Len = \u03a3 L, per class",
+   "in_practice": "Concrete beds and coverings for drain pipes shall EACH be measured BY"
+  },
+  {
+   "id": "B19.5",
+   "section": "B",
+   "group": "B19",
+   "text": "Inspection chambers or the like shall be enumerated; alternatively, they may be measured in accordance with the relevant sections of this document and given under an appropriate heading.",
+   "unit_raw": "NR \u2014 enumerated \u2014 a count",
+   "formula_raw": "N = count",
+   "in_practice": "Inspection chambers \u2014 or measured to the relevant sections under a heading."
+  },
+  {
+   "id": "B19.6",
+   "section": "B",
+   "group": "B19",
+   "text": "Connections to existing drains shall be enumerated, subject to clause GP8.",
+   "unit_raw": "NR \u2014 enumerated \u2014 a count",
+   "formula_raw": "N = count",
+   "in_practice": "Connections to existing drains, SUBJECT TO GP8."
+  },
+  {
+   "id": "B20.1",
+   "section": "B",
+   "group": "B20",
+   "text": "Paving and surfacing shall be measured by area.",
+   "unit_raw": "M2 \u2014 by area, square metres",
+   "formula_raw": "A = \u03a3 (L \u00d7 W) \u2212 voids per GP3.2/GP3.3",
+   "in_practice": "Paving and surfacing."
+  },
+  {
+   "id": "B20.2",
+   "section": "B",
+   "group": "B20",
+   "text": "Expansion joints and water stops shall be measured by length.",
+   "unit_raw": "M \u2014 by length, metres",
+   "formula_raw": "L = \u03a3 L",
+   "in_practice": "Expansion joints and water stops."
+  },
+  {
+   "id": "B20.3",
+   "section": "B",
+   "group": "B20",
+   "text": "Channels, curbs, edgings or the like shall be measured by length; curved work shall be so described.",
+   "unit_raw": "M \u2014 by length, metres",
+   "formula_raw": "L = \u03a3 L",
+   "in_practice": "Channels, curbs, edgings. CURVED WORK SO DESCRIBED."
+  },
+  {
+   "id": "B21.1",
+   "section": "B",
+   "group": "B21",
+   "text": "Fencing, which shall include posts and supports in the length, shall be measured by length; excavating pits, disposal and filling shall be understood to be included.",
+   "unit_raw": "M \u2014 by length, metres",
+   "formula_raw": "L = \u03a3 L",
+   "in_practice": "Fencing. POSTS AND SUPPORTS IN THE LENGTH. EXCAVATING PITS, DIS-"
+  },
+  {
+   "id": "B21.2",
+   "section": "B",
+   "group": "B21",
+   "text": "Special posts (for example, gate posts, straining posts) shall be enumerated; exca- vating pits, disposal and filling shall be understood to be included.",
+   "unit_raw": "NR \u2014 enumerated \u2014 a count",
+   "formula_raw": "N = count",
+   "in_practice": "Special posts \u2014 gate, straining. Same deemed inclusions."
+  },
+  {
+   "id": "B21.3",
+   "section": "B",
+   "group": "B21",
+   "text": "Gates, barriers or the like shall be enumerated.",
+   "unit_raw": "NR \u2014 enumerated \u2014 a count",
+   "formula_raw": "N = count",
+   "in_practice": "Gates, barriers."
+  },
+  {
+   "id": "B21.4",
+   "section": "B",
+   "group": "B21",
+   "text": "Finishes shall be measured in accordance with Section J.",
+   "unit_raw": "\u2014 \u2014 no arithmetic \u2014 a descriptive, definitional or administrative rule",
+   "formula_raw": null,
+   "in_practice": "Finishes to fencing measured to Section J."
+  },
+  {
+   "id": "B22.1",
+   "section": "B",
+   "group": "B22",
+   "text": "Cultivating and fertilising ground shall be measured by area.",
+   "unit_raw": "M2 \u2014 by area, square metres",
+   "formula_raw": "A = \u03a3 A",
+   "in_practice": "Cultivating and fertilising."
+  },
+  {
+   "id": "B22.2",
+   "section": "B",
+   "group": "B22",
+   "text": "Soiling, seeding and turfing shall be measured by area.",
+   "unit_raw": "M2 \u2014 by area, square metres",
+   "formula_raw": "A = \u03a3 A",
+   "in_practice": "Soiling, seeding, turfing."
+  },
+  {
+   "id": "B22.3",
+   "section": "B",
+   "group": "B22",
+   "text": "Hedges shall be measured by length.",
+   "unit_raw": "M \u2014 by length, metres",
+   "formula_raw": "L = \u03a3 L",
+   "in_practice": "Hedges."
+  },
+  {
+   "id": "B22.4",
+   "section": "B",
+   "group": "B22",
+   "text": "Trees and shrubs shall be enumerated.",
+   "unit_raw": "NR \u2014 enumerated \u2014 a count",
+   "formula_raw": "N = count",
+   "in_practice": "Trees and shrubs."
+  },
+  {
+   "id": "B23.1",
+   "section": "B",
+   "group": "B23",
+   "text": "Track, guard rails and conductor rails shall each be measured by length, taken along the centre line over all fittings; curved work shall be so described.",
+   "unit_raw": "M \u2014 by length, metres",
+   "formula_raw": "L = \u03a3 L_centreline",
+   "in_practice": "Track, guard rails, conductor rails."
+  },
+  {
+   "id": "B23.2",
+   "section": "B",
+   "group": "B23",
+   "text": "Sleepers and chairs shall be enumerated.",
+   "unit_raw": "NR \u2014 enumerated \u2014 a count",
+   "formula_raw": "N = count",
+   "in_practice": "Sleepers and chairs."
+  },
+  {
+   "id": "B23.3",
+   "section": "B",
+   "group": "B23",
+   "text": "Switches and crossings shall be enumerated, classified as follows: 1. Switches and turnouts 2. Diamond crossings 3. Single slip crossings 4. Double slip crossings 5. Other switches and crossings.",
+   "unit_raw": "NR \u2014 enumerated \u2014 a count",
+   "formula_raw": "N = count",
+   "in_practice": "Switches and crossings ENUMERATED, FIVE classes: 1 SWITCHES AND"
+  },
+  {
+   "id": "B23.4",
+   "section": "B",
+   "group": "B23",
+   "text": "Ballast shall be measured by volume, without deduction for track, classified as fol- lows: 1. Bottom ballast, placed before the track is laid 2. Top ballast, placed after the track is laid.",
+   "unit_raw": "M3 \u2014 by volume, cubic metres",
+   "formula_raw": "V = \u03a3 V, NO DEDUCTION FOR TRACK",
+   "in_practice": "Ballast by VOLUME, WITHOUT DEDUCTION FOR THE TRACK, TWO classes"
+  },
+  {
+   "id": "B23.5",
+   "section": "B",
+   "group": "B23",
+   "text": "Concrete track foundations shall be measured by length, except that overwidth foun- dations for switches and crossings shall be measured by area; reinforcement and shuttering shall be understood to be included.",
+   "unit_raw": "M \u2014 by length, metres",
+   "formula_raw": "L = \u03a3 L",
+   "in_practice": "Concrete track foundations; OVERWIDTH foundations by volume."
+  },
+  {
+   "id": "B23.6",
+   "section": "B",
+   "group": "B23",
+   "text": "Bitumen filler to complete rail assemblies shall be measured by length.",
+   "unit_raw": "M \u2014 by length, metres",
+   "formula_raw": "L = \u03a3 L",
+   "in_practice": "Bitumen filler to rail assemblies."
+  },
+  {
+   "id": "B23.7",
+   "section": "B",
+   "group": "B23",
+   "text": "Buffer stops, wheel stops or the like shall be enumerated.",
+   "unit_raw": "NR \u2014 enumerated \u2014 a count",
+   "formula_raw": "N = count",
+   "in_practice": "Buffer stops, wheel stops."
+  },
+  {
+   "id": "B23.8",
+   "section": "B",
+   "group": "B23",
+   "text": "Signalling installations shall be measured in accordance with Section L or Section R.",
+   "unit_raw": "\u2014 \u2014 no arithmetic \u2014 a descriptive, definitional or administrative rule",
+   "formula_raw": null,
+   "in_practice": "Signalling to Section L or Section R."
+  },
+  {
+   "id": "B24.1",
+   "section": "B",
+   "group": "B24",
+   "text": "Excavation shall be measured by volume as the void which is to be occupied, in- cluding the volume of permanent linings, grouped as may be appropriate to identify different lengths and classified as follows: 1. Straight tunnels 2. Straight shafts 3. Curved tunnels 4. Curved shafts 5. Tapered tunnels 6. Tapered shafts 7. Other cav- ities, which shall include transitions, breakaways and intersections between shafts and tunnels.",
+   "unit_raw": "M3 \u2014 by volume, cubic metres",
+   "formula_raw": "V = void to be occupied, INCLUDING the lining",
+   "in_practice": "Tunnel excavation, SEVEN classes: straight tunnels \u00b7 straight shafts \u00b7 curved"
+  },
+  {
+   "id": "B24.2",
+   "section": "B",
+   "group": "B24",
+   "text": "Forward probing shall be measured by length, stating the number of probes.",
+   "unit_raw": "M \u2014 by length, metres",
+   "formula_raw": "L = \u03a3 L ; state number of probes",
+   "in_practice": "Forward probing."
+  },
+  {
+   "id": "B24.3",
+   "section": "B",
+   "group": "B24",
+   "text": "For disposal see clause B11.",
+   "unit_raw": "\u2014 \u2014 no arithmetic \u2014 a descriptive, definitional or administrative rule",
+   "formula_raw": null,
+   "in_practice": "Tunnel disposal per B11."
+  },
+  {
+   "id": "B25.1",
+   "section": "B",
+   "group": "B25",
+   "text": "Poured concrete linings shall be measured by area, stating whether spray or cast concrete, classified as follows: 1. lining 2. Secondary lining.",
+   "unit_raw": "M2 \u2014 by area, square metres",
+   "formula_raw": "A = \u03a3 A",
+   "in_practice": "Poured concrete tunnel linings by AREA, STATING WHETHER SPRAY OR CAST"
+  },
+  {
+   "id": "B25.2",
+   "section": "B",
+   "group": "B25",
+   "text": "Preformed segmental tunnel linings shall be enumerated.",
+   "unit_raw": "NR \u2014 enumerated \u2014 a count",
+   "formula_raw": "N = count",
+   "in_practice": "Preformed segmental linings."
+  },
+  {
+   "id": "B26.1",
+   "section": "B",
+   "group": "B26",
+   "text": "Timber supports shall be measured by volume.",
+   "unit_raw": "M3 \u2014 by volume, cubic metres",
+   "formula_raw": "V = \u03a3 V",
+   "in_practice": "Timber tunnel supports."
+  },
+  {
+   "id": "B26.2",
+   "section": "B",
+   "group": "B26",
+   "text": "Sprayed concrete supports and reinforcement shall be measured by area.",
+   "unit_raw": "M2 \u2014 by area, square metres",
+   "formula_raw": "A = \u03a3 A",
+   "in_practice": "Sprayed concrete supports and reinforcement."
+  },
+  {
+   "id": "B26.3",
+   "section": "B",
+   "group": "B26",
+   "text": "Rock bolts shall be measured by length.",
+   "unit_raw": "M \u2014 by length, metres",
+   "formula_raw": "L = \u03a3 L",
+   "in_practice": "Rock bolts."
+  },
+  {
+   "id": "B26.4",
+   "section": "B",
+   "group": "B26",
+   "text": "Face packers shall be enumerated.",
+   "unit_raw": "NR \u2014 enumerated \u2014 a count",
+   "formula_raw": "N = count",
+   "in_practice": "Face packers."
+  },
+  {
+   "id": "B26.5",
+   "section": "B",
+   "group": "B26",
+   "text": "Metal arch supports shall be measured by weight.",
+   "unit_raw": "KG \u2014 by weight, kilogrammes",
+   "formula_raw": "W = \u03a3 L \u00d7 m_per_m",
+   "in_practice": "Metal arch supports."
+  },
+  {
+   "id": "B26.6",
+   "section": "B",
+   "group": "B26",
+   "text": "Injection of grout materials shall be measured by weight.",
+   "unit_raw": "KG \u2014 by weight, kilogrammes",
+   "formula_raw": "W = \u03a3 W_grout",
+   "in_practice": "Injection of grout materials."
+  },
+  {
+   "id": "C1.1",
+   "section": "C",
+   "group": "C1",
+   "text": "Reinforced poured concrete and plain poured concrete shall each be so described.",
+   "unit_raw": "\u2014 \u2014 no arithmetic \u2014 a descriptive, definitional or administrative rule",
+   "formula_raw": null,
+   "in_practice": "Reinforced and plain poured concrete EACH SO DESCRIBED."
+  },
+  {
+   "id": "C1.2",
+   "section": "C",
+   "group": "C1",
+   "text": "Poured concrete required by the specification to be placed, compacted, cured or otherwise treated in a particular manner shall be so described.",
+   "unit_raw": "\u2014 \u2014 no arithmetic \u2014 a descriptive, definitional or administrative rule",
+   "formula_raw": null,
+   "in_practice": "Special placing, compacting, curing or treatment SO DESCRIBED."
+  },
+  {
+   "id": "C1.3",
+   "section": "C",
+   "group": "C1",
+   "text": "No deduction shall be made for voids less than 1.00 m3, nor for the volume of any reinforcement or structural metal enclosed in the concrete, except that voids caused by boxed or tubular structural metalwork shall always be deducted.",
+   "unit_raw": "RULE \u2014 governs how OTHER quantities are calculated",
+   "formula_raw": "V_net = V_gross \u2212 \u03a3 V_void(\u22651.00 m\u00b3) \u2212 \u03a3 V_boxed_or_tubular_steel",
+   "in_practice": "The concrete deduction rule. NO deduction for rebar or for solid enclosed steel."
+  },
+  {
+   "id": "C1.4",
+   "section": "C",
+   "group": "C1",
+   "text": "Unless otherwise described, horizontal surfaces of concrete shall be understood to be tamped.",
+   "unit_raw": "\u2014 \u2014 no arithmetic \u2014 a descriptive, definitional or administrative rule",
+   "formula_raw": null,
+   "in_practice": "Horizontal concrete surfaces UNDERSTOOD TO BE TAMPED unless otherwise"
+  },
+  {
+   "id": "C2.1",
+   "section": "C",
+   "group": "C2",
+   "text": "Unless otherwise stated, poured concrete shall be measured by volume, classified as follows: 1. Foundations, which shall include combined or isolated bases 2. Pile caps, which shall include ground beams 3. Blinding 4. Beds, which shall include roads and footpaths, stating the thickness 5. Suspended slabs, which shall include floors, landings, roofs or the like, stating the thickness 6. Walls, which shall include attached columns, stating the thickness 7. Columns, which shall include casing to metal stancheons 8. Beams (measured below the slab), which shall include lintels and casing to metal beams 9. Staircases, which shall include steps and strings 10. Diaphragm walls 11. Other classifications (for example, tunnel linings, bridge abut- ments) as may be appropriate.",
+   "unit_raw": "M3 \u2014 by volume, cubic metres",
+   "formula_raw": "V = N \u00d7 L \u00d7 W \u00d7 T",
+   "in_practice": "Poured concrete by VOLUME, ELEVEN classes: 1 FOUNDATIONS, which IN-"
+  },
+  {
+   "id": "C2.2",
+   "section": "C",
+   "group": "C2",
+   "text": "Poured concrete suspended slabs of special construction, including floors, landings, roofs or the like, shall be measured by area; coffered and troughed slabs shall be so described, giving details of solid margins or the like.",
+   "unit_raw": "M2 \u2014 by area, square metres",
+   "formula_raw": "A = \u03a3 (L \u00d7 W) \u2212 voids",
+   "in_practice": "Suspended slabs of SPECIAL construction BY AREA, not volume. Coffered and"
+  },
+  {
+   "id": "C2.3",
+   "section": "C",
+   "group": "C2",
+   "text": "Where an item is required to be measured by volume and the thickness stated, then items of differing thickness may be grouped together, provided that the range of the different thicknesses is stated.",
+   "unit_raw": "\u2014 \u2014 no arithmetic \u2014 a descriptive, definitional or administrative rule",
+   "formula_raw": null,
+   "in_practice": "Differing thicknesses MAY be GROUPED provided the RANGE is stated. HOUSE"
+  },
+  {
+   "id": "C3.1",
+   "section": "C",
+   "group": "C3",
+   "text": "The weight of bar reinforcement shall be the net weight without addition for rolling margin, supports, spacers or tying wire.",
+   "unit_raw": "KG \u2014 by weight, kilogrammes",
+   "formula_raw": "W = \u03a3 (N_bars \u00d7 L_bar_INCLUDING_LAPS \u00d7 m_per_m(\u00d8))",
+   "in_practice": "THE NET WEIGHT RULE, and read its exclusion list EXACTLY: no addition for"
+  },
+  {
+   "id": "C3.2",
+   "section": "C",
+   "group": "C3",
+   "text": "Bar reinforcement shall be measured by weight, stating the diameter; bars of differ- ing diameters shall be given separately.",
+   "unit_raw": "KG \u2014 by weight, kilogrammes",
+   "formula_raw": "W = \u03a3 N_bars \u00d7 L_bar \u00d7 m_per_m(\u00d8)",
+   "in_practice": "Bar reinforcement, STATING THE DIAMETER. Differing diameters GIVEN SEP-"
+  },
+  {
+   "id": "C3.3",
+   "section": "C",
+   "group": "C3",
+   "text": "Fabric reinforcement shall be measured by area, without addition for laps.",
+   "unit_raw": "M2 \u2014 by area, square metres",
+   "formula_raw": "A = A_covered, NO addition for laps",
+   "in_practice": "Fabric reinforcement. A lap covers the same square metre twice."
+  },
+  {
+   "id": "C3.4",
+   "section": "C",
+   "group": "C3",
+   "text": "Reinforcement shall be given as an item where the detailed design work is the re- sponsibility of the contractor.",
+   "unit_raw": "ITEM \u2014 an ITEM \u2014 a lump, not a measured quantity",
+   "formula_raw": null,
+   "in_practice": "Reinforcement as an ITEM where the detailed design is the contractor\u2019s respon-"
+  },
+  {
+   "id": "C4.1",
+   "section": "C",
+   "group": "C4",
+   "text": "Unless otherwise stated, shuttering shall be measured by area, taken as the net area in contact with the finished face of concrete, classified as follows: 1. Soffits; shuttering to soffits of special construction shall be so described 2. Sloping soffits, which shall include soffits of staircases 3. Sloping upper surfaces, which shall in- clude surfaces more than 15\u00b0 from horizontal 4. Sides of foundations, which shall include bases, pile caps and ground beams 5. Sides of walls, which shall include attached columns 6. Returns to walls, which shall include ends, projections and reveals of openings or recesses 7. Sides and soffits of beams, which shall include lintels and breaks in soffits; isolated beams shall be so described 8. Sides and soffits of sloping beams, which shall include lintels and breaks in soffits; isolated beams shall be so described 9. Sides of columns 10. Staircases, which shall include treads, risers and strings but exclude soffits 11. Other classifications (for example, tunnel linings, bridges, bridge abutments) as may be appropriate.",
+   "unit_raw": "M2 \u2014 by area, square metres",
+   "formula_raw": "A = \u03a3 A_contact",
+   "in_practice": "Shuttering as the NET AREA IN CONTACT with the finished face of the concrete,"
+  },
+  {
+   "id": "C4.2",
+   "section": "C",
+   "group": "C4",
+   "text": "Shuttering to edges, which shall include face of curb or upstand or break in up- per surface of floor, shall be measured by length; items of differing height may be grouped together, provided that the range of different heights is stated.",
+   "unit_raw": "M \u2014 by length, metres",
+   "formula_raw": "L = \u03a3 L",
+   "in_practice": "Shuttering to EDGES \u2014 includes curb face, upstand, break in upper surface of"
+  },
+  {
+   "id": "C4.3",
+   "section": "C",
+   "group": "C4",
+   "text": "Grooves, which shall include throats, rebates, chamfers or the like, 2500 mm2 sec- tional area or over shall be measured by length; grooves less than 2500 mm2 sec- tional area shall be understood to be included.",
+   "unit_raw": "M \u2014 by length, metres",
+   "formula_raw": "if sectional area \u2265 2500 mm\u00b2 \u2192 Len = \u03a3 L",
+   "in_practice": "THE 2500 mm\u00b2 THRESHOLD. Grooves \u2014 which INCLUDE throats, rebates and"
+  },
+  {
+   "id": "C4.4",
+   "section": "C",
+   "group": "C4",
+   "text": "Shuttering may be enumerated where it is more appropriate to do so (for example, decorative features).",
+   "unit_raw": "NR \u2014 enumerated \u2014 a count",
+   "formula_raw": "N = count",
+   "in_practice": "Shuttering may be ENUMERATED where more appropriate \u2014 decorative fea-"
+  },
+  {
+   "id": "C4.5",
+   "section": "C",
+   "group": "C4",
+   "text": "Shuttering which is required by the specification to be left in position shall be so described.",
+   "unit_raw": "\u2014 \u2014 no arithmetic \u2014 a descriptive, definitional or administrative rule",
+   "formula_raw": null,
+   "in_practice": "Shuttering left in position SO DESCRIBED."
+  },
+  {
+   "id": "C4.6",
+   "section": "C",
+   "group": "C4",
+   "text": "Shuttering to curved, conical and spherical surfaces shall each be so described.",
+   "unit_raw": "\u2014 \u2014 no arithmetic \u2014 a descriptive, definitional or administrative rule",
+   "formula_raw": null,
+   "in_practice": "Curved, conical and spherical shuttering EACH SO DESCRIBED \u2014 described,"
+  },
+  {
+   "id": "C4.7",
+   "section": "C",
+   "group": "C4",
+   "text": "Shuttering to provide a special finish shall be so described.",
+   "unit_raw": "\u2014 \u2014 no arithmetic \u2014 a descriptive, definitional or administrative rule",
+   "formula_raw": null,
+   "in_practice": "Shuttering for a special finish SO DESCRIBED."
+  },
+  {
+   "id": "C4.8",
+   "section": "C",
+   "group": "C4",
+   "text": "Unless otherwise stated, if the volume of concrete has not been deducted, shuttering to the faces of a void shall be understood to be included.",
+   "unit_raw": "RULE \u2014 governs how OTHER quantities are calculated",
+   "formula_raw": "if V_concrete NOT deducted \u2192 shuttering to the void DEEMED INCLUDED",
+   "in_practice": "Pairs with C1.3. Deduct neither or both, never one."
+  },
+  {
+   "id": "C5.1",
+   "section": "C",
+   "group": "C5",
+   "text": "Moulds for precast units shall be understood to be included.",
+   "unit_raw": "\u2014 \u2014 no arithmetic \u2014 a descriptive, definitional or administrative rule",
+   "formula_raw": null,
+   "in_practice": "Moulds for precast units DEEMED INCLUDED. Never a separate item."
+  },
+  {
+   "id": "C5.2",
+   "section": "C",
+   "group": "C5",
+   "text": "Reinforcement shall be measured in accordance with clause C3 and given under an appropriate heading; alternatively, it may be described in the item.",
+   "unit_raw": "KG \u2014 by weight, kilogrammes",
+   "formula_raw": "per C3",
+   "in_practice": "Precast reinforcement under a heading, or described in the item."
+  },
+  {
+   "id": "C5.3",
+   "section": "C",
+   "group": "C5",
+   "text": "Floor slabs, partition slabs or the like shall be measured by area. .\u2019",
+   "unit_raw": "M2 \u2014 by area, square metres",
+   "formula_raw": "A = \u03a3 A",
+   "in_practice": "Precast floor slabs, partition slabs."
+  },
+  {
+   "id": "C5.4",
+   "section": "C",
+   "group": "C5",
+   "text": "Lintels, sills, duct covers or the like shall be measured by length; alternatively, duct covers may be measured by area.",
+   "unit_raw": "M \u2014 by length, metres",
+   "formula_raw": "L = \u03a3 L",
+   "in_practice": "Lintels, sills, duct covers. Duct covers ALTERNATIVELY by area."
+  },
+  {
+   "id": "C5.5",
+   "section": "C",
+   "group": "C5",
+   "text": "Structural units (for example, beams, stanchions, tunnel rings) shall be enumerated.",
+   "unit_raw": "NR \u2014 enumerated \u2014 a count",
+   "formula_raw": "N = count",
+   "in_practice": "Precast structural units \u2014 beams, stanchions, tunnel rings."
+  },
+  {
+   "id": "C5.6",
+   "section": "C",
+   "group": "C5",
+   "text": "Padstones, cappings or the like shall be enumerated.",
+   "unit_raw": "NR \u2014 enumerated \u2014 a count",
+   "formula_raw": "N = count",
+   "in_practice": "Padstones, cappings."
+  },
+  {
+   "id": "C6.1",
+   "section": "C",
+   "group": "C6",
+   "text": "Prestressed concrete work shall be given under an appropriate heading.",
+   "unit_raw": "\u2014 \u2014 no arithmetic \u2014 a descriptive, definitional or administrative rule",
+   "formula_raw": null,
+   "in_practice": "Prestressed work under its own heading."
+  },
+  {
+   "id": "C6.2",
+   "section": "C",
+   "group": "C6",
+   "text": "Prestressed concrete shall be measured by volume, classified in accordance with clause C2.",
+   "unit_raw": "M3 \u2014 by volume, cubic metres",
+   "formula_raw": "V per C2 classes",
+   "in_practice": "Prestressed concrete by volume."
+  },
+  {
+   "id": "C6.3",
+   "section": "C",
+   "group": "C6",
+   "text": "Reinforcement shall be measured in accordance with clause C3; supporting steel wires or cables shall be measured by weight.",
+   "unit_raw": "KG \u2014 by weight, kilogrammes",
+   "formula_raw": "per C3; supporting wires/cables BY WEIGHT",
+   "in_practice": "Prestressing reinforcement."
+  },
+  {
+   "id": "C6.4",
+   "section": "C",
+   "group": "C6",
+   "text": "Shuttering shall be measured in accordance with clause C4, stating whether to pre- tensioned or post-tensioned members.",
+   "unit_raw": "M2 \u2014 by area, square metres",
+   "formula_raw": "per C4",
+   "in_practice": "Prestressed shuttering, STATING pre-tensioned or post-tensioned."
+  },
+  {
+   "id": "C7.1",
+   "section": "C",
+   "group": "C7",
+   "text": "Surfaces finished to falls or cross-falls shall be measured by area.",
+   "unit_raw": "M2 \u2014 by area, square metres",
+   "formula_raw": "A = \u03a3 A",
+   "in_practice": "Surfaces finished to falls or cross-falls."
+  },
+  {
+   "id": "C7.2",
+   "section": "C",
+   "group": "C7",
+   "text": "Surface finishes shall be measured by area, except that tamped finishes shall be understood to be included.",
+   "unit_raw": "M2 \u2014 by area, square metres",
+   "formula_raw": "A = \u03a3 A",
+   "in_practice": "Surface finishes \u2014 EXCEPT tamped, which is deemed included per C1.4."
+  },
+  {
+   "id": "C7.3",
+   "section": "C",
+   "group": "C7",
+   "text": "Expansion material or the like shall be measured by area.",
+   "unit_raw": "M2 \u2014 by area, square metres",
+   "formula_raw": "A = \u03a3 A",
+   "in_practice": "Expansion material."
+  },
+  {
+   "id": "C7.4",
+   "section": "C",
+   "group": "C7",
+   "text": "Designed joints, water stops, cast-in channels or the like shall be measured by length.",
+   "unit_raw": "M \u2014 by length, metres",
+   "formula_raw": "L = \u03a3 L",
+   "in_practice": "Designed joints, water stops, cast-in channels."
+  },
+  {
+   "id": "C7.5",
+   "section": "C",
+   "group": "C7",
+   "text": "Forming sinkings, channels or the like shall be measured by length and, where ap- propriate, the item may include additional excavation, hardcore, shuttering and con- crete; alternatively, they may be enumerated.",
+   "unit_raw": "M / NR",
+   "formula_raw": "L = \u03a3 L, or N = count",
+   "in_practice": "Sinkings and channels. The item MAY include additional excavation, hardcore,"
+  },
+  {
+   "id": "C7.6",
+   "section": "C",
+   "group": "C7",
+   "text": "Fixings, ties, inserts or the like shall be enumerated; alternatively, they may be measured by area.",
+   "unit_raw": "NR / M2",
+   "formula_raw": "N = count, or A = \u03a3 A",
+   "in_practice": "Fixings, ties, inserts."
+  },
+  {
+   "id": "C7.7",
+   "section": "C",
+   "group": "C7",
+   "text": "Mortices, holes or the like shall be understood to be included.",
+   "unit_raw": "\u2014 \u2014 no arithmetic \u2014 a descriptive, definitional or administrative rule",
+   "formula_raw": null,
+   "in_practice": "Mortices and holes DEEMED INCLUDED. Measure nothing."
+  },
+  {
+   "id": "D1.1",
+   "section": "D",
+   "group": "D1",
+   "text": "Sloping, battering and curved work shall each be so described.",
+   "unit_raw": "\u2014 \u2014 no arithmetic \u2014 a descriptive, definitional or administrative rule",
+   "formula_raw": null,
+   "in_practice": "Sloping, battering and curved work EACH SO DESCRIBED."
+  },
+  {
+   "id": "D1.2",
+   "section": "D",
+   "group": "D1",
+   "text": "Reinforced masonry shall be so described.",
+   "unit_raw": "\u2014 \u2014 no arithmetic \u2014 a descriptive, definitional or administrative rule",
+   "formula_raw": null,
+   "in_practice": "Reinforced masonry SO DESCRIBED."
+  },
+  {
+   "id": "D2.1",
+   "section": "D",
+   "group": "D2",
+   "text": "Walls and piers shall be measured by area, classified as follows: 1. Walls; integral piers shall be measured as walls of combined pier and wall thickness 2. Walls built against other construction 3. Cavity walls measured as a composite item, including skins and cavity; alternatively, the skins and cavity may each be measured by area. Closing cavity walls at ends or around openings shall be understood to be included 4. Isolated piers.",
+   "unit_raw": "M2 \u2014 by area, square metres",
+   "formula_raw": "A = \u03a3 (L \u00d7 H) \u2212 voids per GP3.2/GP3.3",
+   "in_practice": "Walls and piers, FOUR classes. cl.1 INTEGRAL PIERS measured as WALLS at the"
+  },
+  {
+   "id": "D2.2",
+   "section": "D",
+   "group": "D2",
+   "text": "Faced or fair faced work shall each be so described; alternatively, it may be mea- sured as extra over walls, stating whether faced or fair faced on one or both sides (that is, the area of faced or fair faced work shall be measured but no deduction shall be made from the area of walling on which the faced or fair faced work occurs).",
+   "unit_raw": "M2 \u2014 by area, square metres",
+   "formula_raw": "A_wall = FULL area, UNCHANGED",
+   "in_practice": "Faced or fair faced work: POMI permits EITHER each SO DESCRIBED as its"
+  },
+  {
+   "id": "D3.1",
+   "section": "D",
+   "group": "D3",
+   "text": "AETRAA POMI Take-off \u2014 the complete prompt set                                             226 Sills, copings, oversailing or receding courses or the like shall be measured by length.",
+   "unit_raw": "M \u2014 by length, metres",
+   "formula_raw": "L = \u03a3 L",
+   "in_practice": "Sills, copings, oversailing or receding courses."
+  },
+  {
+   "id": "D3.2",
+   "section": "D",
+   "group": "D3",
+   "text": "Arches shall be measured by length.",
+   "unit_raw": "M \u2014 by length, metres",
+   "formula_raw": "Len = \u03a3 L",
+   "in_practice": "Arches BY LENGTH. THAT IS THE WHOLE CLAUSE \u2014 POMI states no basis"
+  },
+  {
+   "id": "D4.1",
+   "section": "D",
+   "group": "D4",
+   "text": "Reinforcement shall be measured in accordance with clause C3; alternatively, fabric reinforcement may be measured by length.",
+   "unit_raw": "KG / M2 / M",
+   "formula_raw": "bar: per C3 by weight",
+   "in_practice": "Reinforcement measured in accordance with Section C \u2014 so C3.1\u2019s net-weight"
+  },
+  {
+   "id": "D5.1",
+   "section": "D",
+   "group": "D5",
+   "text": "Concrete filling to cavities shall be measured by area.",
+   "unit_raw": "M2 \u2014 by area, square metres",
+   "formula_raw": "A = \u03a3 A",
+   "in_practice": "Concrete filling to cavities \u2014 BY AREA, thickness in the description per GP5.3."
+  },
+  {
+   "id": "D5.2",
+   "section": "D",
+   "group": "D5",
+   "text": "Expansion joints or the like shall be measured by length.",
+   "unit_raw": "M \u2014 by length, metres",
+   "formula_raw": "L = \u03a3 L",
+   "in_practice": "Expansion joints."
+  },
+  {
+   "id": "D5.3",
+   "section": "D",
+   "group": "D5",
+   "text": "Air bricks or the like shall be enumerated.",
+   "unit_raw": "NR \u2014 enumerated \u2014 a count",
+   "formula_raw": "N = count",
+   "in_practice": "Air bricks."
+  },
+  {
+   "id": "E1.1",
+   "section": "E",
+   "group": "E1",
+   "text": "The weight of metalwork shall be the net weight, without addition for rolling margin or welding material and without deduction for holes, splay cuts, notches or the like.",
+   "unit_raw": "KG \u2014 by weight, kilogrammes",
+   "formula_raw": "W = \u03a3 (N \u00d7 L_gross \u00d7 m_per_m(section))",
+   "in_practice": "THE NET WEIGHT RULE, and it cuts BOTH ways. NO ADDITION for rolling"
+  },
+  {
+   "id": "E1.2",
+   "section": "E",
+   "group": "E1",
+   "text": "Welded, riveted or bolted work shall each be so described.",
+   "unit_raw": "\u2014 \u2014 no arithmetic \u2014 a descriptive, definitional or administrative rule",
+   "formula_raw": null,
+   "in_practice": "Welded, riveted or bolted work EACH SO DESCRIBED."
+  },
+  {
+   "id": "E2.1",
+   "section": "E",
+   "group": "E2",
+   "text": "Unless otherwise stated, structural metalwork shall be measured by weight, clas- sified as follows: 1. Grillages 2. Beams 3. Stanchions 4. Portal frames, stating the number 5. Roof trusses, stating the number 6. Support steelwork, which shall include sheeting rails, braces, struts or the like 7. Other classifications, as may be appropriate.",
+   "unit_raw": "KG \u2014 by weight, kilogrammes",
+   "formula_raw": "W = \u03a3 N \u00d7 L \u00d7 m_per_m, per class",
+   "in_practice": "Structural metalwork by WEIGHT, SEVEN classes: 1 GRILLAGES \u00b7 2 BEAMS \u00b7 3"
+  },
+  {
+   "id": "E2.2",
+   "section": "E",
+   "group": "E2",
+   "text": "Fittings (for example, caps, brackets) shall be given as an item.",
+   "unit_raw": "ITEM \u2014 an ITEM \u2014 a lump, not a measured quantity",
+   "formula_raw": null,
+   "in_practice": "Fittings \u2014 caps, brackets. An ITEM, not weight."
+  },
+  {
+   "id": "E2.3",
+   "section": "E",
+   "group": "E2",
+   "text": "Fixings (for example, bolts, distance pieces, rivets) shall be given as an item.",
+   "unit_raw": "ITEM \u2014 an ITEM \u2014 a lump, not a measured quantity",
+   "formula_raw": null,
+   "in_practice": "Fixings \u2014 bolts, distance pieces, rivets. An ITEM, not weight."
+  },
+  {
+   "id": "E2.4",
+   "section": "E",
+   "group": "E2",
+   "text": "Wedging and grouting bases or the like shall be enumerated.",
+   "unit_raw": "NR \u2014 enumerated \u2014 a count",
+   "formula_raw": "N = count",
+   "in_practice": "Wedging and grouting bases."
+  },
+  {
+   "id": "E2.5",
+   "section": "E",
+   "group": "E2",
+   "text": "Holding down bolts or the like shall be enumerated; temporary boxes and grouting shall be understood to be included.",
+   "unit_raw": "NR \u2014 enumerated \u2014 a count",
+   "formula_raw": "N = count",
+   "in_practice": "Holding-down bolts.       TEMPORARY BOXES AND GROUTING DEEMED IN-"
+  },
+  {
+   "id": "E2.6",
+   "section": "E",
+   "group": "E2",
+   "text": "Protective treatment shall be given as an item.",
+   "unit_raw": "M2 \u2014 by area, square metres",
+   "formula_raw": "A = \u03a3 A_treated_surface",
+   "in_practice": "Protective treatment. POMI SAYS AN ITEM. HOUSE AMENDMENT, DECLARED"
+  },
+  {
+   "id": "E3.1",
+   "section": "E",
+   "group": "E3",
+   "text": "Floor plates, duct covers, sheet metal coverings and linings or the like shall be mea- sured by area.",
+   "unit_raw": "M2 \u2014 by area, square metres",
+   "formula_raw": "A = \u03a3 A",
+   "in_practice": "Floor plates, duct covers, sheet coverings and linings."
+  },
+  {
+   "id": "E3.2",
+   "section": "E",
+   "group": "E3",
+   "text": "Bearers, balustrades, handrails (except where included with a staircase), frames or the like shall be measured by length.",
+   "unit_raw": "M \u2014 by length, metres",
+   "formula_raw": "Len = \u03a3 L",
+   "in_practice": "Bearers, balustrades, handrails, frames BY LENGTH. POMI\u2019s exception reads"
+  },
+  {
+   "id": "E3.3",
+   "section": "E",
+   "group": "E3",
+   "text": "Matwell frames, cat ladders, gates, staircases or the like shall be enumerated.",
+   "unit_raw": "NR \u2014 enumerated \u2014 a count",
+   "formula_raw": "N = count",
+   "in_practice": "Matwell frames, cat ladders, gates and STAIRCASES ENUMERATED \u2014 never"
+  },
+  {
+   "id": "F1.1",
+   "section": "F",
+   "group": "F1",
+   "text": "Timber which is sawn (that is, not milled) and timber which is finished (that is, milled) shall each be so described.",
+   "unit_raw": "\u2014 \u2014 no arithmetic \u2014 a descriptive, definitional or administrative rule",
+   "formula_raw": null,
+   "in_practice": "SAWN (not milled) and FINISHED (milled) timber EACH SO DESCRIBED."
+  },
+  {
+   "id": "F1.2",
+   "section": "F",
+   "group": "F1",
+   "text": "Descriptions of timber members shall state whether the sizes are basic (that is, be- fore machining) or finished (that is, milled, within permitted deviations).",
+   "unit_raw": "RULE \u2014 governs how OTHER quantities are calculated",
+   "formula_raw": null,
+   "in_practice": "Descriptions SHALL STATE whether sizes are BASIC (before machining) or"
+  },
+  {
+   "id": "F2.1",
+   "section": "F",
+   "group": "F2",
+   "text": "AETRAA POMI Take-off \u2014 the complete prompt set                                                   230 Structural timbers shall be measured by length, classified as follows: 1. Floors and flat roofs 2. Pitched roofs 3. Walls 4. Kerbs, bearers or the like 5. Cleats, sprockets or the like.",
+   "unit_raw": "M \u2014 by length, metres",
+   "formula_raw": "L = \u03a3 N \u00d7 L, per class",
+   "in_practice": "Structural timbers by LENGTH, FIVE classes by WHERE THE TIMBER IS, not"
+  },
+  {
+   "id": "F2.2",
+   "section": "F",
+   "group": "F2",
+   "text": "Strutting and bridging between joists shall be measured by length, taken overall the joists.",
+   "unit_raw": "M \u2014 by length, metres",
+   "formula_raw": "Len = \u03a3 L, TAKEN OVERALL THE JOISTS",
+   "in_practice": "Strutting and bridging between joists BY LENGTH, TAKEN OVERALL THE"
+  },
+  {
+   "id": "F3.1",
+   "section": "F",
+   "group": "F3",
+   "text": "Unless otherwise stated, boarding and flooring shall be measured by area, with- out addition for joints or laps, classified as follows: 1. Floors, which shall include landings 2. Walls, which shall include returns, reveals of openings or recesses and attached and unattached columns 3. Ceilings, which shall include attached and unattached beams and soffits of staircases 4. Roofs, which shall include tops and cheeks of dormers and sides and bottoms of gutters, stating whether flat, sloping or vertical; firring pieces and bearers shall be understood to be included.",
+   "unit_raw": "M2 \u2014 by area, square metres",
+   "formula_raw": "A = \u03a3 (L \u00d7 W) \u2212 voids, NO laps or joints",
+   "in_practice": "Boarding and flooring, four classes. cl.2 walls INCLUDE returns, reveals and"
+  },
+  {
+   "id": "F3.2",
+   "section": "F",
+   "group": "F3",
+   "text": "Eaves and verge boards, which shall include fascias, barge boards or the like, shall be measured by length.",
+   "unit_raw": "M \u2014 by length, metres",
+   "formula_raw": "L = \u03a3 L",
+   "in_practice": "Eaves and verge boards \u2014 INCLUDE fascias and barge boards."
+  },
+  {
+   "id": "F3.3",
+   "section": "F",
+   "group": "F3",
+   "text": "Fillets and rolls shall be measured by length.",
+   "unit_raw": "M \u2014 by length, metres",
+   "formula_raw": "L = \u03a3 L",
+   "in_practice": "Fillets and rolls."
+  },
+  {
+   "id": "F4.1",
+   "section": "F",
+   "group": "F4",
+   "text": "Open-spaced grounds and battens shall be measured by area, taken overall.",
+   "unit_raw": "M2 \u2014 by area, square metres",
+   "formula_raw": "A = \u03a3 A, TAKEN OVERALL the surface covered",
+   "in_practice": "OPEN-SPACED grounds and battens BY AREA TAKEN OVERALL \u2014 not by the"
+  },
+  {
+   "id": "F4.2",
+   "section": "F",
+   "group": "F4",
+   "text": "Individual grounds and battens shall be measured by length.",
+   "unit_raw": "M \u2014 by length, metres",
+   "formula_raw": "L = \u03a3 L",
+   "in_practice": "INDIVIDUAL grounds and battens."
+  },
+  {
+   "id": "F5.1",
+   "section": "F",
+   "group": "F5",
+   "text": "Framework shall be measured by area, taken overall; alternatively, it may be mea- sured by length.",
+   "unit_raw": "M2 \u2014 by area, square metres",
+   "formula_raw": "A = \u03a3 A, TAKEN OVERALL",
+   "in_practice": "Framework. POMI permits AREA TAKEN OVERALL or, expressly, by LENGTH,"
+  },
+  {
+   "id": "F6.1",
+   "section": "F",
+   "group": "F6",
+   "text": "Finishings shall be measured by length, classified as follows: 1. Cover fillets, which shall include architraves, skirtings or the like 2. Beads, which shall include stops or the like 3. Edgings, which shall include window boards, nosings or the like.",
+   "unit_raw": "M \u2014 by length, metres",
+   "formula_raw": "L = \u03a3 L, per class",
+   "in_practice": "Finishings: 1 cover fillets (incl. architraves, skirtings) \u00b7 2 beads (incl. stops) \u00b7 3"
+  },
+  {
+   "id": "F6.2",
+   "section": "F",
+   "group": "F6",
+   "text": "Unless otherwise stated, fittings shall be measured by length, classified as follows: 1. Work tops, which shall include seats or the like 2. Handrails or balustrades.",
+   "unit_raw": "M \u2014 by length, metres",
+   "formula_raw": "L = \u03a3 L, per class",
+   "in_practice": "Fittings: 1 work tops (incl. seats) \u00b7 2 handrails/balustrades."
+  },
+  {
+   "id": "F6.3",
+   "section": "F",
+   "group": "F6",
+   "text": "Shelving shall be measured by area; alternatively, it may be measured by length.",
+   "unit_raw": "M \u2014 by length, metres",
+   "formula_raw": "Len = \u03a3 L",
+   "in_practice": "Shelving. POMI permits AREA or, expressly, LENGTH. HOUSE ELECTION: BY"
+  },
+  {
+   "id": "F6.4",
+   "section": "F",
+   "group": "F6",
+   "text": "Backboards or the like shall be enumerated.",
+   "unit_raw": "NR \u2014 enumerated \u2014 a count",
+   "formula_raw": "N = count",
+   "in_practice": "Backboards."
+  },
+  {
+   "id": "F6.5",
+   "section": "F",
+   "group": "F6",
+   "text": "Built-up members shall be so described.",
+   "unit_raw": "\u2014 \u2014 no arithmetic \u2014 a descriptive, definitional or administrative rule",
+   "formula_raw": null,
+   "in_practice": "Built-up members SO DESCRIBED."
+  },
+  {
+   "id": "F6.6",
+   "section": "F",
+   "group": "F6",
+   "text": "Plastic coverings or the like shall be described with the item on which they occur, stating whether on one or more faces; alternatively, they may be measured sepa- rately by area.",
+   "unit_raw": "\u2014 \u2014 no arithmetic \u2014 a descriptive, definitional or administrative rule",
+   "formula_raw": null,
+   "in_practice": "Plastic coverings. POMI\u2019s PRIMARY limb is DESCRIPTION \u2014 described WITH"
+  },
+  {
+   "id": "F6.7",
+   "section": "F",
+   "group": "F6",
+   "text": "Sheet linings shall be measured by area, classified as follows: 1. Walls, which shall include returns, reveals of openings or recesses and attached and unattached columns 2. Ceilings, which shall include attached and unattached beams and soffits of staircases.",
+   "unit_raw": "M2 \u2014 by area, square metres",
+   "formula_raw": "A = \u03a3 A, per class",
+   "in_practice": "Sheet linings: walls (incl. returns, reveals, columns) \u00b7 ceilings (incl. beams,"
+  },
+  {
+   "id": "F7.1",
+   "section": "F",
+   "group": "F7",
+   "text": "Unless otherwise stated, composite items (which shall mean items which might be fabricated off-site whether or not they are fabricated off-site) shall be enumerated; all metal work or the like shall be understood to be included.",
+   "unit_raw": "NR \u2014 enumerated \u2014 a count",
+   "formula_raw": "N = count",
+   "in_practice": "Composite items \u2014 those which MIGHT be fabricated off-site, whether or not"
+  },
+  {
+   "id": "F7.2",
+   "section": "F",
+   "group": "F7",
+   "text": "Any associated work (for example, decorations) shall be measured in accordance with the relevant sections of this document.",
+   "unit_raw": "\u2014 \u2014 no arithmetic \u2014 a descriptive, definitional or administrative rule",
+   "formula_raw": null,
+   "in_practice": "Associated work (e.g. decorations) to the relevant sections."
+  },
+  {
+   "id": "F8.1",
+   "section": "F",
+   "group": "F8",
+   "text": "Finished surfaces on sawn items shall be measured by length.",
+   "unit_raw": "M \u2014 by length, metres",
+   "formula_raw": "L = \u03a3 L",
+   "in_practice": "Finished surfaces on sawn items."
+  },
+  {
+   "id": "F9.1",
+   "section": "F",
+   "group": "F9",
+   "text": "Metalwork items associated with woodwork shall be enumerated; alternatively, wa- terbars or the like may be measured by length.",
+   "unit_raw": "NR / M",
+   "formula_raw": "N = count; waterbars may be L = \u03a3 L",
+   "in_practice": "Metalwork associated with woodwork."
+  },
+  {
+   "id": "F10.1",
+   "section": "F",
+   "group": "F10",
+   "text": "Units or sets of ironmongery shall be enumerated.",
+   "unit_raw": "NR \u2014 enumerated \u2014 a count",
+   "formula_raw": "N = count of SETS",
+   "in_practice": "Units or SETS of ironmongery ENUMERATED. WORD-FOR-WORD IDENTICAL"
+  },
+  {
+   "id": "G1.1",
+   "section": "G",
+   "group": "G1",
+   "text": "Work shall be measured flat without addition for laps or seams.",
+   "unit_raw": "RULE \u2014 governs how OTHER quantities are calculated",
+   "formula_raw": "A = A_covered, NO laps or seams",
+   "in_practice": "Measured FLAT. Lap material is a rate cost \u2014 typically +8 to +12% of a roof if"
+  },
+  {
+   "id": "G1.2",
+   "section": "G",
+   "group": "G1",
+   "text": "Curved, spherical and conical work shall each be so described.",
+   "unit_raw": "\u2014 \u2014 no arithmetic \u2014 a descriptive, definitional or administrative rule",
+   "formula_raw": null,
+   "in_practice": "Curved, spherical and conical EACH SO DESCRIBED \u2014 described, not uplifted."
+  },
+  {
+   "id": "G2.1",
+   "section": "G",
+   "group": "G2",
+   "text": "Unless otherwise stated, roofing, tanking, waterproof coverings, linings or the like shall be measured by area, classified as follows: 1. Flat coverings 2. Sloping cover- ings 3. Vertical coverings.",
+   "unit_raw": "M2 \u2014 by area, square metres",
+   "formula_raw": "flat: A = L \u00d7 W",
+   "in_practice": "Roofing, tanking, waterproof coverings and linings by AREA, THREE classes: 1"
+  },
+  {
+   "id": "G2.2",
+   "section": "G",
+   "group": "G2",
+   "text": "Eaves, ridges, skirtings, fascias, flashings, aprons or the like shall be measured by length; alternatively, skirtings, fascias or the like to composite roofing may be measured by area.",
+   "unit_raw": "M \u2014 by length, metres",
+   "formula_raw": "Len = \u03a3 L",
+   "in_practice": "Eaves, ridges, skirtings, fascias, flashings and aprons BY LENGTH. POMI\u2019s"
+  },
+  {
+   "id": "G2.3",
+   "section": "G",
+   "group": "G2",
+   "text": "Roof lights, ventilators, soaker collars, special roofing sheets or the like shall be enumerated; alternatively, special roofing sheets may be measured as extra over roofing (that is, the special roofing sheets shall be measured but no deduction shall be made from the roofing in which the special sheeting occurs).",
+   "unit_raw": "NR \u2014 enumerated \u2014 a count",
+   "formula_raw": "N = count",
+   "in_practice": "Roof lights, ventilators, soaker collars and special roofing sheets ALL ENUMER-"
+  },
+  {
+   "id": "G3.1",
+   "section": "G",
+   "group": "G3",
+   "text": "Damp-proof courses shall be measured by length; alternatively, they may be mea- sured by area.",
+   "unit_raw": "M \u2014 by length, metres",
+   "formula_raw": "Len = \u03a3 L",
+   "in_practice": "Damp-proof courses. POMI permits LENGTH or, expressly, AREA. HOUSE"
+  },
+  {
+   "id": "G4.1",
+   "section": "G",
+   "group": "G4",
+   "text": "Insulation shall be measured by area; alternatively, it may be described with items of composite roofing.",
+   "unit_raw": "M2 \u2014 by area, square metres",
+   "formula_raw": "A = \u03a3 A",
+   "in_practice": "Insulation. POMI permits a measured AREA or, expressly, DESCRIPTION"
+  },
+  {
+   "id": "H1.1",
+   "section": "H",
+   "group": "H1",
+   "text": "Doors shall be enumerated.",
+   "unit_raw": "NR \u2014 enumerated \u2014 a count",
+   "formula_raw": "N = count",
+   "in_practice": "Doors."
+  },
+  {
+   "id": "H1.2",
+   "section": "H",
+   "group": "H1",
+   "text": "Jambs, heads, sills, mullions, transomes or the like shall be measured by length; alternatively, frame and lining sets may be enumerated.",
+   "unit_raw": "NR \u2014 enumerated \u2014 a count",
+   "formula_raw": "N = count of frame/lining SETS",
+   "in_practice": "Jambs, heads, sills, mullions and transomes BY LENGTH; POMI\u2019s express alter-"
+  },
+  {
+   "id": "H2.1",
+   "section": "H",
+   "group": "H2",
+   "text": "Windows, skylights or the like, together with their frames, shall be enumerated; sub- frames of a different material shall be separately enumerated or may be measured by length.",
+   "unit_raw": "NR \u2014 enumerated \u2014 a count",
+   "formula_raw": "N = count (window INCLUDING its own frame)",
+   "in_practice": "Windows and skylights ENUMERATED TOGETHER WITH THEIR FRAMES \u2014"
+  },
+  {
+   "id": "H3.1",
+   "section": "H",
+   "group": "H3",
+   "text": "Screens, borrowed lights, curtain walling or the like shall be measured by area; alternatively, they may be enumerated.",
+   "unit_raw": "M2 \u2014 by area, square metres",
+   "formula_raw": "A = \u03a3 (W \u00d7 H)",
+   "in_practice": "Screens, borrowed lights and CURTAIN WALLING. POMI permits AREA or, ex-"
+  },
+  {
+   "id": "H3.2",
+   "section": "H",
+   "group": "H3",
+   "text": "Doors and frames within a screen shall be enumerated.",
+   "unit_raw": "NR \u2014 enumerated \u2014 a count",
+   "formula_raw": "N = count",
+   "in_practice": "Doors and frames WITHIN a screen."
+  },
+  {
+   "id": "H4.1",
+   "section": "H",
+   "group": "H4",
+   "text": "Units or sets of ironmongery shall be enumerated.",
+   "unit_raw": "NR \u2014 enumerated \u2014 a count",
+   "formula_raw": "N = count of SETS",
+   "in_practice": "Units or SETS of ironmongery ENUMERATED \u2014 sets, never pieces. A door\u2019s set"
+  },
+  {
+   "id": "H5.1",
+   "section": "H",
+   "group": "H5",
+   "text": "Unless otherwise stated, glass shall be measured by area; panes of irregular shape shall be measured as the smallest rectangle from which such irregular shape can be cut.",
+   "unit_raw": "M2 \u2014 by area, square metres",
+   "formula_raw": "regular: A = L \u00d7 W",
+   "in_practice": "Glass. An IRREGULAR pane is measured as THE SMALLEST RECTANGLE it"
+  },
+  {
+   "id": "H5.2",
+   "section": "H",
+   "group": "H5",
+   "text": "Sealed factory-glazed units shall be enumerated.",
+   "unit_raw": "NR \u2014 enumerated \u2014 a count",
+   "formula_raw": "N = count",
+   "in_practice": "Sealed factory-glazed units."
+  },
+  {
+   "id": "H5.3",
+   "section": "H",
+   "group": "H5",
+   "text": "Glass louvres shall be enumerated; alternatively, they may be measured by length, stating the number.",
+   "unit_raw": "NR \u2014 enumerated \u2014 a count",
+   "formula_raw": "N = count",
+   "in_practice": "Glass louvres. POMI permits ENUMERATION or, expressly, LENGTH STAT-"
+  },
+  {
+   "id": "H5.4",
+   "section": "H",
+   "group": "H5",
+   "text": "Glass panes of special shape or with decorative treatment shall be enumerated.",
+   "unit_raw": "NR \u2014 enumerated \u2014 a count",
+   "formula_raw": "N = count",
+   "in_practice": "Panes of special shape or with decorative treatment."
+  },
+  {
+   "id": "H6.1",
+   "section": "H",
+   "group": "H6",
+   "text": "Patent glazing shall be measured by area, classified as follows: 1. Roofs 2. Skylights, which shall include lantern lights 3. Vertical surfaces.",
+   "unit_raw": "M2 \u2014 by area, square metres",
+   "formula_raw": "A = \u03a3 A, per class",
+   "in_practice": "Patent glazing: roofs \u00b7 skylights (incl. lantern lights) \u00b7 vertical. Sloping measured"
+  },
+  {
+   "id": "H6.2",
+   "section": "H",
+   "group": "H6",
+   "text": "Opening portions shall be enumerated.",
+   "unit_raw": "NR \u2014 enumerated \u2014 a count",
+   "formula_raw": "N = count",
+   "in_practice": "Opening portions."
+  },
+  {
+   "id": "J1.1",
+   "section": "J",
+   "group": "J1",
+   "text": "Work shall be measured flat without addition for laps or seams; finishes on corru- gated or ornamental surfaces shall each be so described.",
+   "unit_raw": "RULE \u2014 governs how OTHER quantities are calculated",
+   "formula_raw": "A = A_covered, NO laps or seams",
+   "in_practice": "Measured FLAT. Corrugated and ornamental surfaces EACH SO DESCRIBED."
+  },
+  {
+   "id": "J1.2",
+   "section": "J",
+   "group": "J1",
+   "text": "Curved, spherical and conical work shall each be so described.",
+   "unit_raw": "\u2014 \u2014 no arithmetic \u2014 a descriptive, definitional or administrative rule",
+   "formula_raw": null,
+   "in_practice": "Curved, spherical and conical EACH SO DESCRIBED."
+  },
+  {
+   "id": "J1.3",
+   "section": "J",
+   "group": "J1",
+   "text": "Internal and external work shall each be so described.",
+   "unit_raw": "\u2014 \u2014 no arithmetic \u2014 a descriptive, definitional or administrative rule",
+   "formula_raw": null,
+   "in_practice": "Internal and external work EACH SO DESCRIBED."
+  },
+  {
+   "id": "J2.1",
+   "section": "J",
+   "group": "J2",
+   "text": "Backgrounds shall be measured by area; backgrounds for floor, wall or ceiling fin- ishes shall each be so described.",
+   "unit_raw": "M2 \u2014 by area, square metres",
+   "formula_raw": "A = \u03a3 A",
+   "in_practice": "Backgrounds BY AREA, with floor, wall and ceiling backgrounds EACH SO DE-"
+  },
+  {
+   "id": "J2.2",
+   "section": "J",
+   "group": "J2",
+   "text": "Poured backgrounds (for example, screeds) shall each be given separately, stating the surface finish.",
+   "unit_raw": "M2 \u2014 by area, square metres",
+   "formula_raw": "A = \u03a3 A",
+   "in_practice": "POURED backgrounds (screeds) each given separately, STATING THE SURFACE"
+  },
+  {
+   "id": "J2.3",
+   "section": "J",
+   "group": "J2",
+   "text": "Pre-formed backgrounds (for example, plasterboard, expanded metal lathing) shall each be given separately.",
+   "unit_raw": "M2 \u2014 by area, square metres",
+   "formula_raw": "A = \u03a3 A",
+   "in_practice": "PRE-FORMED backgrounds (plasterboard, EML) each given separately."
+  },
+  {
+   "id": "J3.1",
+   "section": "J",
+   "group": "J3",
+   "text": "Unless otherwise stated, finishing shall be measured by area, classified as follows: 1. Floors, which shall include landings 2. Walls, which shall include returns, reveals of openings or recesses and attached and unattached columns 3. Ceilings, which shall include attached and unattached beams and soffits of staircases 4. Staircases, which shall include treads, risers and edges of landings but exclude soffits.",
+   "unit_raw": "M2 \u2014 by area, square metres",
+   "formula_raw": "A = \u03a3 (L \u00d7 H) \u2212 voids + reveals + columns",
+   "in_practice": "Finishings, FOUR classes: 1 floors (incl. landings) \u00b7 2 walls, INCLUDING returns,"
+  },
+  {
+   "id": "J3.2",
+   "section": "J",
+   "group": "J3",
+   "text": "Skirtings, bands, strings, coverings to kerbs, mouldings, coves, channels or the like shall be measured by length.",
+   "unit_raw": "M \u2014 by length, metres",
+   "formula_raw": "L = \u03a3 L",
+   "in_practice": "Skirtings, bands, strings, coverings to kerbs, mouldings, coves, channels."
+  },
+  {
+   "id": "J4.1",
+   "section": "J",
+   "group": "J4",
+   "text": "Non-slip inserts, dividing strips, metal angle beads, lathing at junction of differing backgrounds or the like shall be measured by length; alternatively, they may be described with the items in which they occur.",
+   "unit_raw": "\u2014 \u2014 no arithmetic \u2014 a descriptive, definitional or administrative rule",
+   "formula_raw": null,
+   "in_practice": "Non-slip inserts, dividing strips, metal angle beads and lathing at junctions of dif-"
+  },
+  {
+   "id": "J5.1",
+   "section": "J",
+   "group": "J5",
+   "text": "Suspended ceilings shall be measured by area, classified as follows: 1. Ceilings stating the drop 2. Sides and soffits of beams or upstands.",
+   "unit_raw": "M2 \u2014 by area, square metres",
+   "formula_raw": "A = \u03a3 A, per class",
+   "in_practice": "Suspended ceilings: 1 ceilings STATING THE DROP \u00b7 2 sides and soffits of beams"
+  },
+  {
+   "id": "J6.1",
+   "section": "J",
+   "group": "J6",
+   "text": "Decorations on different surfaces shall each be given separately.",
+   "unit_raw": "\u2014 \u2014 no arithmetic \u2014 a descriptive, definitional or administrative rule",
+   "formula_raw": null,
+   "in_practice": "Decorations on DIFFERENT SURFACES each given separately."
+  },
+  {
+   "id": "J6.2",
+   "section": "J",
+   "group": "J6",
+   "text": "Details shall be given of any special method of application (for example, spraying).",
+   "unit_raw": "\u2014 \u2014 no arithmetic \u2014 a descriptive, definitional or administrative rule",
+   "formula_raw": null,
+   "in_practice": "Details of any special method of application, e.g. spraying."
+  },
+  {
+   "id": "J6.3",
+   "section": "J",
+   "group": "J6",
+   "text": "Unless otherwise stated, decorations shall be measured by area, classified as fol- lows: 1. Floors, which shall include landings 2. Walls, which shall include returns, reveals of openings or recesses and attached and unattached columns 3. Ceilings, which shall include attached and unattached beams and soffits of staircases 4. Stair- cases, which shall include treads, risers, strings and edges of landings but exclude soffits 5. Cornices 6. General surfaces, which shall include doors, close-type fencing or the like; glazed general surfaces (measured flat over glass) shall be so described 7. Isolated general surfaces, which shall include door frames, linings, sub-frames of a differing material to the window, skirtings, rails, architraves, bars, posts, balus- ters or the like 8. Windows (measured flat over glass, frames, mullions, transomes and architraves), which shall include glazed partitions or the like, but exclude sub- frames of a differing material to the window; edges of sashes shall be understood to be included 9. Radiators, measured over the area of heating surface 10. Gutters, measured inside and out 11. Large pipes (that is, pipes with an internal diameter ex- ceeding 60mm), including trunking or the like, unless measured as incidental work; hangers, supports or the like (except common supports to services) shall be under- stood to be included 12. Structural metalwork, which shall include roof trusses.",
+   "unit_raw": "M2 \u2014 by area, square metres",
+   "formula_raw": "A = \u03a3 A, per class",
+   "in_practice": "Decorations, TWELVE classes \u2014 THREE TIMES the four of J3.1: 1 floors"
+  },
+  {
+   "id": "J6.4",
+   "section": "J",
+   "group": "J6",
+   "text": "Decoration on small pipes (that is, pipes with an internal diameter of 60mm or less) unless measured as incidental work, shall be measured by length; hangers, supports or the like (except common supports to services) shall be understood to be included.",
+   "unit_raw": "M \u2014 by length, metres",
+   "formula_raw": "if \u00d8_internal \u2264 60 mm \u2192 L = \u03a3 L",
+   "in_practice": "Decoration on SMALL pipes by length. HANGERS AND SUPPORTS DEEMED"
+  },
+  {
+   "id": "J6.5",
+   "section": "J",
+   "group": "J6",
+   "text": "Decoration on gratings, rainwater heads or the like shall each be enumerated sepa- rately, irrespective of size.",
+   "unit_raw": "NR \u2014 enumerated \u2014 a count",
+   "formula_raw": "N = count",
+   "in_practice": "Decoration on gratings and rainwater heads \u2014 ENUMERATED SEPARATELY,"
+  },
+  {
+   "id": "J7.1",
+   "section": "J",
+   "group": "J7",
+   "text": "Signwriting letters or the like shall be enumerated.",
+   "unit_raw": "NR \u2014 enumerated \u2014 a count",
+   "formula_raw": "N = count",
+   "in_practice": "Signwriting letters."
+  },
+  {
+   "id": "K1.1",
+   "section": "K",
+   "group": "K1",
+   "text": "For the purposes of identification, accessories to be measured in accordance with the principles in this section shall be defined as those being specially manufactured or proprietary items not included in other sections.",
+   "unit_raw": "\u2014 \u2014 no arithmetic \u2014 a descriptive, definitional or administrative rule",
+   "formula_raw": null,
+   "in_practice": "THE DEFINITION, and it is a RESIDUAL: accessories are specially manufactured"
+  },
+  {
+   "id": "K1.2",
+   "section": "K",
+   "group": "K1",
+   "text": "Unless otherwise stated, accessories shall be enumerated.",
+   "unit_raw": "NR \u2014 enumerated \u2014 a count",
+   "formula_raw": "N = count",
+   "in_practice": "Unless otherwise stated, accessories ENUMERATED \u2014 the section\u2019s default, and"
+  },
+  {
+   "id": "K2.1",
+   "section": "K",
+   "group": "K2",
+   "text": "Partitions shall be measured by length, taken over all doors and glazed units.",
+   "unit_raw": "M \u2014 by length, metres",
+   "formula_raw": "L = \u03a3 L, TAKEN OVER ALL doors and glazed units",
+   "in_practice": "Partitions. NO deduction for the doors and glazed panels in them."
+  },
+  {
+   "id": "K2.2",
+   "section": "K",
+   "group": "K2",
+   "text": "Doors and glazed units shall be enumerated, stating the partition in which they occur.",
+   "unit_raw": "NR \u2014 enumerated \u2014 a count",
+   "formula_raw": "N = count",
+   "in_practice": "Doors and glazed units, STATING THE PARTITION they occur in."
+  },
+  {
+   "id": "K2.3",
+   "section": "K",
+   "group": "K2",
+   "text": "Cubicles or the like shall be enumerated.",
+   "unit_raw": "NR \u2014 enumerated \u2014 a count",
+   "formula_raw": "N = count",
+   "in_practice": "Cubicles."
+  },
+  {
+   "id": "L1.1",
+   "section": "L",
+   "group": "L1",
+   "text": "For the purposes of identification, equipment to be measured in accordance with the principles in this section shall be defined as specialist equipment related solely to the function of a building or department (for example, food preparation or service equipment, laboratory equipment, stage equipment).",
+   "unit_raw": "\u2014 \u2014 no arithmetic \u2014 a descriptive, definitional or administrative rule",
+   "formula_raw": null,
+   "in_practice": "Scope: equipment is specially manufactured or proprietary items not in other"
+  },
+  {
+   "id": "L1.2",
+   "section": "L",
+   "group": "L1",
+   "text": "Each category of equipment shall be given as an item; alternatively, individual items of equipment may be enumerated.",
+   "unit_raw": "NR \u2014 enumerated \u2014 a count",
+   "formula_raw": "N = count",
+   "in_practice": "POMI permits EACH CATEGORY AS AN ITEM or, expressly, INDIVIDUAL"
+  },
+  {
+   "id": "M1.1",
+   "section": "M",
+   "group": "M1",
+   "text": "For the purposes of identification, furnishings to be measured in accordance with the principles in this section shall be defined as loose furniture, fittings or the like related to the occupation and use of a building or department (for example, rugs, curtains, artwork, ashtrays, furnishing accessories).",
+   "unit_raw": "\u2014 \u2014 no arithmetic \u2014 a descriptive, definitional or administrative rule",
+   "formula_raw": null,
+   "in_practice": "Scope: furnishings \u2014 rugs, curtains, artwork, ashtrays, furnishing accessories."
+  },
+  {
+   "id": "M1.2",
+   "section": "M",
+   "group": "M1",
+   "text": "Each category of furnishing shall be given as an item; alternatively, individual items of furnishing may be enumerated or measured by length, as may be appropriate.",
+   "unit_raw": "NR / M",
+   "formula_raw": "N = count for discrete items",
+   "in_practice": "POMI permits EACH CATEGORY AS AN ITEM, or individual items ENUMER-"
+  },
+  {
+   "id": "M2.1",
+   "section": "M",
+   "group": "M2",
+   "text": "Curtain track shall be measured by length; hooks, gliders, stops or the like shall be understood to be included.",
+   "unit_raw": "M \u2014 by length, metres",
+   "formula_raw": "L = \u03a3 L",
+   "in_practice": "Curtain track. HOOKS, GLIDERS AND STOPS DEEMED INCLUDED."
+  },
+  {
+   "id": "N1.1",
+   "section": "N",
+   "group": "N1",
+   "text": "For the purposes of identification, special construction to be measured in accor- dance with the principles in this section shall be defined as either enclosures of a specialist construction (for example, air supported or geodetic structures, pre- fabricated buildings) or installations of a specialist nature (for example, radiation protection).",
+   "unit_raw": "\u2014 \u2014 no arithmetic \u2014 a descriptive, definitional or administrative rule",
+   "formula_raw": null,
+   "in_practice": "Scope: special construction \u2014 air-supported or geodetic structures, prefabri-"
+  },
+  {
+   "id": "N2.1",
+   "section": "N",
+   "group": "N2",
+   "text": "Enclosures shall be enumerated; work within the enclosure, not being part of the enclosure construction, shall be measured in accordance with the relevant sections of this document.",
+   "unit_raw": "NR \u2014 enumerated \u2014 a count",
+   "formula_raw": "N = count",
+   "in_practice": "Enclosures. Work WITHIN the enclosure that is not part of the enclosure con-"
+  },
+  {
+   "id": "N3.1",
+   "section": "N",
+   "group": "N3",
+   "text": "Installations shall each be given as an item; alternatively, they may be measured in accordance with the relevant sections of this document.",
+   "unit_raw": "\u2014 \u2014 no arithmetic \u2014 a descriptive, definitional or administrative rule",
+   "formula_raw": "measured to the RELEVANT SECTIONS",
+   "in_practice": "Installations of a specialist nature. POMI permits AN ITEM EACH or, expressly,"
+  },
+  {
+   "id": "P1.1",
+   "section": "P",
+   "group": "P1",
+   "text": "Lifts, hoists, conveyors, escalators or the like shall be enumerated.",
+   "unit_raw": "NR \u2014 enumerated \u2014 a count",
+   "formula_raw": "N = count",
+   "in_practice": "Lifts, hoists, conveyors, escalators."
+  },
+  {
+   "id": "P2.1",
+   "section": "P",
+   "group": "P2",
+   "text": "An item shall be given for each of the following: 1. Supports, which shall include fix- ings, anchors, insulating blocks and anti-vibration devices 2. Identification, which shall include plates, discs,labels, charts and colour coding 3. Testing and commis- sioning, which shall include operating completed installations and providing fuel and power 4. Tools and spares, which shall include loose keys and consumable stores 5. Documents, which shall include drawings, operating instructions and maintenance manuals.",
+   "unit_raw": "ITEM \u00d75",
+   "formula_raw": "five separate ITEMS",
+   "in_practice": "THE SUNDRIES LIST, used by P, Q and R: 1 supports (incl. fixings, anchors,"
+  },
+  {
+   "id": "P3.1",
+   "section": "P",
+   "group": "P3",
+   "text": "An item shall be given for incidental work, which shall include: 1. Co-ordination with other engineering installations 2. Cutting or forming holes, mortices, chases or the like and making good finishings 3. Building in or cutting and pinning brackets or the like and making good finishings.",
+   "unit_raw": "ITEM \u2014 an ITEM \u2014 a lump, not a measured quantity",
+   "formula_raw": "ITEM",
+   "in_practice": "Incidental work AS AN ITEM, three heads: 1 CO-ORDINATION with other en-"
+  },
+  {
+   "id": "P3.2",
+   "section": "P",
+   "group": "P3",
+   "text": "Protective painting and decorative painting shall each be given as an item for each system and shall include: 1. Removing protective coating or wrapping 2. Cleaning and polishing exposed surfaces.",
+   "unit_raw": "ITEM \u2014 an ITEM \u2014 a lump, not a measured quantity",
+   "formula_raw": "ITEM per system",
+   "in_practice": "Protective and decorative painting, AN ITEM FOR EACH SYSTEM, and it IN-"
+  },
+  {
+   "id": "P3.3",
+   "section": "P",
+   "group": "P3",
+   "text": "Other incidental work shall be measured in accordance with the relevant sections of this document and grouped under an appropriate heading. AETRAA POMI Take-off \u2014 the complete prompt set                                                  246",
+   "unit_raw": "\u2014 \u2014 no arithmetic \u2014 a descriptive, definitional or administrative rule",
+   "formula_raw": null,
+   "in_practice": "Other incidental work to the relevant sections, GROUPED under an appropriate"
+  },
+  {
+   "id": "Q1.1",
+   "section": "Q",
+   "group": "Q1",
+   "text": "Installations shall be classified by function and given separately under an appropri- ate heading.",
+   "unit_raw": "\u2014 \u2014 no arithmetic \u2014 a descriptive, definitional or administrative rule",
+   "formula_raw": null,
+   "in_practice": "Installations CLASSIFIED BY FUNCTION, each under its own heading."
+  },
+  {
+   "id": "Q1.2",
+   "section": "Q",
+   "group": "Q1",
+   "text": "Installations shall be measured in accordance with the relevant clauses in this sec- tion; alternatively, they may be enumerated on a locational basis (for example, cold water installation to ground floor).",
+   "unit_raw": "\u2014 \u2014 no arithmetic \u2014 a descriptive, definitional or administrative rule",
+   "formula_raw": "measured to the relevant clauses of this section",
+   "in_practice": "POMI permits MEASUREMENT to the clauses of this section or, expressly, ENU-"
+  },
+  {
+   "id": "Q2.1",
+   "section": "Q",
+   "group": "Q2",
+   "text": "Pipes and gutters shall be measured by length, taken along the centre line over all fittings.",
+   "unit_raw": "M \u2014 by length, metres",
+   "formula_raw": "L = \u03a3 L_centreline, OVER ALL FITTINGS",
+   "in_practice": "Pipes and gutters. State whether the diameter is internal or external per GP5.2."
+  },
+  {
+   "id": "Q2.2",
+   "section": "Q",
+   "group": "Q2",
+   "text": "Fittings to small pipes (that is, pipes with an internal diameter of 60mm or less) shall be understood to be included. Fittings (except joints in the running length) to large pipes (that is, pipes with an internal diameter exceeding 60mm) and to gutters shall be enumerated, grouped together for each size of pipe or gutter and described as \u2018fittings\u2019.",
+   "unit_raw": "NR / \u2014",
+   "formula_raw": "if \u00d8_internal \u2264 60 mm \u2192 fittings DEEMED INCLUDED",
+   "in_practice": "THE 60 mm RULE. Applies to fittings TO GUTTERS as well as to large pipes."
+  },
+  {
+   "id": "Q2.3",
+   "section": "Q",
+   "group": "Q2",
+   "text": "Valves, traps, expansion compensators or the like shall be enumerated; sleeves, cover-plates or the like shall be understood to be included.",
+   "unit_raw": "NR \u2014 enumerated \u2014 a count",
+   "formula_raw": "N = count",
+   "in_practice": "Valves, traps, expansion compensators.          SLEEVES AND COVER-PLATES"
+  },
+  {
+   "id": "Q3.1",
+   "section": "Q",
+   "group": "Q3",
+   "text": "Rectangular ductwork shall be measured by weight, based upon the area calculated as the length, taken along the centre line over all fittings, times the net girth of nominal dimensions. Blank ends shall be added to the area for weighting but no deduction shall be made for intersections or openings; extra weight for seams, stiff- eners, supports, fixings or the like shall be understood to be included.",
+   "unit_raw": "KG \u2014 by weight, kilogrammes",
+   "formula_raw": "girth = 2 \u00d7 (w + d)",
+   "in_practice": "RECTANGULAR ductwork BY WEIGHT, from an area built on NOMINAL dimen-"
+  },
+  {
+   "id": "Q3.2",
+   "section": "Q",
+   "group": "Q3",
+   "text": "Circular, oval and flexible ductwork shall be measured by length, taken along the centre line over all fittings.",
+   "unit_raw": "M \u2014 by length, metres",
+   "formula_raw": "L = \u03a3 L_centreline, over all fittings",
+   "in_practice": "Circular, oval and flexible ductwork BY LENGTH."
+  },
+  {
+   "id": "Q3.3",
+   "section": "Q",
+   "group": "Q3",
+   "text": "Fittings to rectangular ductwork shall be understood to be included; fittings to cir- cular and oval ductwork (excluding test holes and covers) shall be enumerated, grouped together for each size of duct and described as \u2018fittings\u2019.",
+   "unit_raw": "NR / \u2014",
+   "formula_raw": "rectangular fittings DEEMED INCLUDED",
+   "in_practice": "The asymmetry follows the unit: a weight item absorbs its fittings, a length item"
+  },
+  {
+   "id": "Q3.4",
+   "section": "Q",
+   "group": "Q3",
+   "text": "Dampers, grilles, flexible connectors or the like shall be enumerated.",
+   "unit_raw": "NR \u2014 enumerated \u2014 a count",
+   "formula_raw": "N = count",
+   "in_practice": "Dampers, grilles, flexible connectors."
+  },
+  {
+   "id": "Q4.1",
+   "section": "Q",
+   "group": "Q4",
+   "text": "Sanitary fittings, tanks, fans, pumps, hoods, air-handling units or the like shall be enumerated.",
+   "unit_raw": "NR \u2014 enumerated \u2014 a count",
+   "formula_raw": "N = count",
+   "in_practice": "Sanitary fittings, tanks, fans, pumps, hoods, air-handling units."
+  },
+  {
+   "id": "Q4.2",
+   "section": "Q",
+   "group": "Q4",
+   "text": "Continuous convectors or the like shall be measured by length.",
+   "unit_raw": "M \u2014 by length, metres",
+   "formula_raw": "L = \u03a3 L",
+   "in_practice": "Continuous convectors."
+  },
+  {
+   "id": "Q4.3",
+   "section": "Q",
+   "group": "Q4",
+   "text": "Heated or ventilated ceilings or the like shall be measured by area.",
+   "unit_raw": "M2 \u2014 by area, square metres",
+   "formula_raw": "A = \u03a3 A",
+   "in_practice": "Heated or ventilated ceilings."
+  },
+  {
+   "id": "Q5.1",
+   "section": "Q",
+   "group": "Q5",
+   "text": "Sensing or activating devices (for example, thermostats, humidistats, motorised valves), control panels, air compressors and receivers or the like shall be enumer- ated.",
+   "unit_raw": "NR \u2014 enumerated \u2014 a count",
+   "formula_raw": "N = count",
+   "in_practice": "Sensing and activating devices, control panels, air compressors, receivers."
+  },
+  {
+   "id": "Q5.2",
+   "section": "Q",
+   "group": "Q5",
+   "text": "Wiring, pneumatic tubing, isolators, starters, relays or the like associated with au- tomatic controls shall be understood to be included.",
+   "unit_raw": "\u2014 \u2014 no arithmetic \u2014 a descriptive, definitional or administrative rule",
+   "formula_raw": null,
+   "in_practice": "Wiring, pneumatic tubing, isolators, starters, relays for automatic controls"
+  },
+  {
+   "id": "Q5.3",
+   "section": "Q",
+   "group": "Q5",
+   "text": "Alternatively, automatic control systems shall be given as an item for each installa- tion but equipment common to more than one system shall be enumerated.",
+   "unit_raw": "ITEM \u2014 an ITEM \u2014 a lump, not a measured quantity",
+   "formula_raw": "ITEM per installation",
+   "in_practice": "POMI permits automatic controls to be MEASURED (Q5.1 device by device) or,"
+  },
+  {
+   "id": "Q6.1",
+   "section": "Q",
+   "group": "Q6",
+   "text": "Connections to supply mains shall be enumerated, subject to clause GP8.",
+   "unit_raw": "SUM \u2014 a SUM \u2014 a money figure, not a measured quantity",
+   "formula_raw": "GP8.1 sum, exclusive of profit",
+   "in_practice": "Connections to supply mains ENUMERATED, SUBJECT TO GP8. HOUSE ELEC-"
+  },
+  {
+   "id": "Q7.1",
+   "section": "Q",
+   "group": "Q7",
+   "text": "Insulation to pipework shall be measured by length, taken along the centre line over all fittings.",
+   "unit_raw": "M \u2014 by length, metres",
+   "formula_raw": "L = \u03a3 L_centreline, over all fittings",
+   "in_practice": "Insulation to PIPEWORK."
+  },
+  {
+   "id": "Q7.2",
+   "section": "Q",
+   "group": "Q7",
+   "text": "Insulation to rectangular ductwork shall be measured by area, calculated as de- scribed In clause Q3; additional insulation to flanges or the like shall be understood to be included.",
+   "unit_raw": "M2 \u2014 by area, square metres",
+   "formula_raw": "A = L_centreline \u00d7 girth   (girth per Q3.1)",
+   "in_practice": "Insulation to RECTANGULAR ductwork BY AREA \u2014 same geometry as Q3.1 but a"
+  },
+  {
+   "id": "Q7.3",
+   "section": "Q",
+   "group": "Q7",
+   "text": "Insulation to circular, oval and flexible ductwork shall be measured by length, taken along the centre line over all fittings.",
+   "unit_raw": "M \u2014 by length, metres",
+   "formula_raw": "L = \u03a3 L_centreline, over all fittings",
+   "in_practice": "Insulation to circular, oval and flexible ductwork."
+  },
+  {
+   "id": "Q7.4",
+   "section": "Q",
+   "group": "Q7",
+   "text": "Insulation boxes around accessories shall be enumerated.",
+   "unit_raw": "NR \u2014 enumerated \u2014 a count",
+   "formula_raw": "N = count",
+   "in_practice": "Insulation boxes around accessories."
+  },
+  {
+   "id": "Q7.5",
+   "section": "Q",
+   "group": "Q7",
+   "text": "Insulation to equipment shall be enumerated.",
+   "unit_raw": "NR \u2014 enumerated \u2014 a count",
+   "formula_raw": "N = count",
+   "in_practice": "Insulation to equipment."
+  },
+  {
+   "id": "Q8.1",
+   "section": "Q",
+   "group": "Q8",
+   "text": "Sundries shall be measured in accordance with clause P2.",
+   "unit_raw": "ITEM \u00d75",
+   "formula_raw": "per P2.1",
+   "in_practice": "Mechanical sundries."
+  },
+  {
+   "id": "Q9.1",
+   "section": "Q",
+   "group": "Q9",
+   "text": "Work incidental to mechanical engineering installations shall be measured in accor- dance with clause P3.",
+   "unit_raw": "ITEM \u2014 an ITEM \u2014 a lump, not a measured quantity",
+   "formula_raw": "per P3.1",
+   "in_practice": "Mechanical incidental work, including builder\u2019s work holes and making good."
+  },
+  {
+   "id": "R1.1",
+   "section": "R",
+   "group": "R1",
+   "text": "Installations and auxiliary installations shall be classified by function and given sep- arately under an appropriate heading.",
+   "unit_raw": "\u2014 \u2014 no arithmetic \u2014 a descriptive, definitional or administrative rule",
+   "formula_raw": null,
+   "in_practice": "Installations and auxiliary installations CLASSIFIED BY FUNCTION, each under"
+  },
+  {
+   "id": "R1.2",
+   "section": "R",
+   "group": "R1",
+   "text": "Installations shall be measured in accordance with the relevant clauses in this sec- tion; alternatively, they may be enumerated on a locational basis (for example, light- ing installation to ground floor).",
+   "unit_raw": "\u2014 \u2014 no arithmetic \u2014 a descriptive, definitional or administrative rule",
+   "formula_raw": "measured to the relevant clauses of this section",
+   "in_practice": "POMI permits MEASUREMENT to the clauses of this section or, expressly, ENU-"
+  },
+  {
+   "id": "R1.3",
+   "section": "R",
+   "group": "R1",
+   "text": "The references herein to \u2018cable\u2019 shall be understood to Include tape, bus-bar trunk- ing or the like.",
+   "unit_raw": "\u2014 \u2014 no arithmetic \u2014 a descriptive, definitional or administrative rule",
+   "formula_raw": null,
+   "in_practice": "\u2018CABLE\u2019 INCLUDES tape, bus-bar trunking or the like."
+  },
+  {
+   "id": "R1.4",
+   "section": "R",
+   "group": "R1",
+   "text": "The references herein to \u2018conduit\u2019 shall be understood to include trunking, cable tray, ducting or the like.",
+   "unit_raw": "\u2014 \u2014 no arithmetic \u2014 a descriptive, definitional or administrative rule",
+   "formula_raw": null,
+   "in_practice": "\u2018CONDUIT\u2019 INCLUDES trunking, CABLE TRAY, ducting or the like \u2014 so tray and"
+  },
+  {
+   "id": "R2.1",
+   "section": "R",
+   "group": "R2",
+   "text": "For the purposes of measurement, \u2018main\u2019 is defined as the \u2018incoming supply to the main distribution board within a building or complex\u2019.",
+   "unit_raw": "\u2014 \u2014 no arithmetic \u2014 a descriptive, definitional or administrative rule",
+   "formula_raw": null,
+   "in_practice": "\u2018MAIN\u2019 = the incoming supply to the main distribution board within a building"
+  },
+  {
+   "id": "R2.2",
+   "section": "R",
+   "group": "R2",
+   "text": "Cable shall be measured by length.",
+   "unit_raw": "M \u2014 by length, metres",
+   "formula_raw": "L = \u03a3 L_cable",
+   "in_practice": "Main cable BY LENGTH."
+  },
+  {
+   "id": "R2.3",
+   "section": "R",
+   "group": "R2",
+   "text": "Conduit shall be measured by length.",
+   "unit_raw": "M \u2014 by length, metres",
+   "formula_raw": "L = \u03a3 L_conduit",
+   "in_practice": "Main conduit BY LENGTH."
+  },
+  {
+   "id": "R3.1",
+   "section": "R",
+   "group": "R3",
+   "text": "For the purposes of measurement, \u2018sub-main\u2019 is defined as the \u2018supply from the main distribution board to a sub-main distribution board\u2019.",
+   "unit_raw": "\u2014 \u2014 no arithmetic \u2014 a descriptive, definitional or administrative rule",
+   "formula_raw": null,
+   "in_practice": "\u2018SUB-MAIN\u2019 = the supply from the main distribution board to a sub-main distri-"
+  },
+  {
+   "id": "R3.2",
+   "section": "R",
+   "group": "R3",
+   "text": "Cable and conduit to individual sub-main circuits shall be enumerated and sepa- rately identified as may be appropriate; alternatively, sub-main circuits may be mea- sured in accordance with clause R2.",
+   "unit_raw": "NR \u2014 enumerated \u2014 a count",
+   "formula_raw": "N = count of sub-main circuits, separately identified",
+   "in_practice": "Cable and conduit to individual SUB-MAIN circuits ENUMERATED and SEPA-"
+  },
+  {
+   "id": "R4.1",
+   "section": "R",
+   "group": "R4",
+   "text": "Cable and conduit to termination points shall be enumerated, classified as follows: 1. Lighting points 2. Lighting switch points, stating whether one-way, two-way or intermediate 3. General purpose socket outlets; multi-gang socket outlets or the like shall count as one point 4. Equipment points, stating type of equipment or the electrical rating; contactors, starters or the like shall be measured separately as equipment points 5. Auxiliary installation points (for example, bell push, telephone outlet).",
+   "unit_raw": "NR \u2014 enumerated \u2014 a count",
+   "formula_raw": "N = \u03a3 points, per class",
+   "in_practice": "CABLE AND CONDUIT to termination points ENUMERATED AS POINTS \u2014"
+  },
+  {
+   "id": "R5.1",
+   "section": "R",
+   "group": "R5",
+   "text": "Ceiling roses and pendants, lighting switches, socket outlets, bell pushes or the like shall be enumerated.",
+   "unit_raw": "NR \u2014 enumerated \u2014 a count",
+   "formula_raw": "N = count",
+   "in_practice": "Ceiling roses, pendants, lighting switches, socket outlets and bell pushes ENU-"
+  },
+  {
+   "id": "R6.1",
+   "section": "R",
+   "group": "R6",
+   "text": "Switchgear, distribution gear, contactors, starters, composite switchboards or the like shall be enumerated.",
+   "unit_raw": "NR \u2014 enumerated \u2014 a count",
+   "formula_raw": "N = count",
+   "in_practice": "Switchgear, distribution gear, CONTACTORS, STARTERS and composite switch-"
+  },
+  {
+   "id": "R7.1",
+   "section": "R",
+   "group": "R7",
+   "text": "Transformers, generators, standby power cubicles, luminaries, external lighting columns, clocks, loudspeakers, bells or the like shall be enumerated.",
+   "unit_raw": "NR \u2014 enumerated \u2014 a count",
+   "formula_raw": "N = count",
+   "in_practice": "Transformers, generators, standby cubicles, luminaires, external lighting"
+  },
+  {
+   "id": "R7.2",
+   "section": "R",
+   "group": "R7",
+   "text": "Controls, which shall include accessories and interconnecting cables, shall be mea- sured in accordance with the relevant clauses in this section; alternatively, they may be included with the items of equipment.",
+   "unit_raw": "\u2014 \u2014 no arithmetic \u2014 a descriptive, definitional or administrative rule",
+   "formula_raw": "included with the items of equipment",
+   "in_practice": "Controls \u2014 which INCLUDE ACCESSORIES AND INTERCONNECTING CABLES"
+  },
+  {
+   "id": "R8.1",
+   "section": "R",
+   "group": "R8",
+   "text": "Connections to supply mains shall be enumerated, subject to clause GP8.",
+   "unit_raw": "NR \u2014 enumerated \u2014 a count",
+   "formula_raw": "N = count",
+   "in_practice": "Connections to supply mains, SUBJECT TO GP8."
+  },
+  {
+   "id": "R9.1",
+   "section": "R",
+   "group": "R9",
+   "text": "Sundries shall be measured in accordance with clause P2.",
+   "unit_raw": "ITEM \u00d75",
+   "formula_raw": "per P2.1",
+   "in_practice": "Electrical sundries."
+  },
+  {
+   "id": "R10.1",
+   "section": "R",
+   "group": "R10",
+   "text": "Work incidental to electrical engineering installations shall be measured in accor- dance with clause P3.",
+   "unit_raw": "ITEM \u2014 an ITEM \u2014 a lump, not a measured quantity",
+   "formula_raw": "per P3.1",
+   "in_practice": "Electrical incidental work."
+  }
+ ]
+}

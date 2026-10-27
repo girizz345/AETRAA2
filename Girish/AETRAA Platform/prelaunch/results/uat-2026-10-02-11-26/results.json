@@ -1,0 +1,404 @@
+[
+ {
+  "flow": "1 Site progress → PM sees it",
+  "step": "site engineer sets Ground floor slab to 50% and presses Submit",
+  "status": "pass",
+  "detail": ""
+ },
+ {
+  "flow": "1 Site progress → PM sees it",
+  "step": "PM dashboard shows A130 at 50% from the site engineer",
+  "status": "pass",
+  "detail": ""
+ },
+ {
+  "flow": "1 Site progress → PM sees it",
+  "step": "site engineer cannot report an MEP activity (outside their trade)",
+  "status": "pass",
+  "detail": "refused"
+ },
+ {
+  "flow": "2 Completion → PM sign-off",
+  "step": "site engineer tries 100% with no photo and is stopped",
+  "status": "pass",
+  "detail": ""
+ },
+ {
+  "flow": "2 Completion → PM sign-off",
+  "step": "site engineer photographs the activity and sends 100%",
+  "status": "pass",
+  "detail": ""
+ },
+ {
+  "flow": "2 Completion → PM sign-off",
+  "step": "PM sees it waiting for sign-off and signs it off",
+  "status": "pass",
+  "detail": ""
+ },
+ {
+  "flow": "2 Completion → PM sign-off",
+  "step": "the \"awaiting sign-off\" tile agrees with the list",
+  "status": "fail",
+  "detail": "tile says 4, the list holds 3"
+ },
+ {
+  "flow": "2 Completion → PM sign-off",
+  "step": "site engineer sees \"Verified by\" on the activity",
+  "status": "pass",
+  "detail": ""
+ },
+ {
+  "flow": "3 PM queries a completion back",
+  "step": "site engineer photographs Ground floor slab and sends 100%",
+  "status": "pass",
+  "detail": ""
+ },
+ {
+  "flow": "3 PM queries a completion back",
+  "step": "PM presses Query on it and writes why",
+  "status": "pass",
+  "detail": ""
+ },
+ {
+  "flow": "3 PM queries a completion back",
+  "step": "site engineer sees \"Queried by\" with the PM's note",
+  "status": "pass",
+  "detail": ""
+ },
+ {
+  "flow": "4 RFI: Design → PM → DC → consultant answer",
+  "step": "Design fills the New RFI form and presses Generate & route",
+  "status": "pass",
+  "detail": "RFI-0001"
+ },
+ {
+  "flow": "4 RFI: Design → PM → DC → consultant answer",
+  "step": "Project Manager: opens RFI-0001, presses \"Approve & sign\"",
+  "status": "pass",
+  "detail": "Approve & sign → Issuing records it as sent to the consultant under your name. You can notify the"
+ },
+ {
+  "flow": "4 RFI: Design → PM → DC → consultant answer",
+  "step": "Document Controller: opens RFI-0001, presses \"Issue\"",
+  "status": "pass",
+  "detail": "Issue → Pick the status the consultant returned and attach their reply to this record."
+ },
+ {
+  "flow": "4 RFI: Design → PM → DC → consultant answer",
+  "step": "Document Controller: opens RFI-0001, presses \"Record consultant reply\"",
+  "status": "pass",
+  "detail": "Record consultant reply → This record is closed — Code A — Approved."
+ },
+ {
+  "flow": "4 RFI: Design → PM → DC → consultant answer",
+  "step": "the RFI ends closed / answered in the register",
+  "status": "pass",
+  "detail": "Code A — Approved"
+ },
+ {
+  "flow": "5 Submittal workflow",
+  "step": "Design Manager raises SUB-001",
+  "status": "pass",
+  "detail": ""
+ },
+ {
+  "flow": "5 Submittal workflow",
+  "step": "Project Manager: opens SUB-001, presses \"PM approves to submit\"",
+  "status": "pass",
+  "detail": "Approve & sign → Issuing records it as sent to the consultant under your name. You can notify the"
+ },
+ {
+  "flow": "5 Submittal workflow",
+  "step": "Document Controller: opens SUB-001, presses \"Document Control issues to consultant\"",
+  "status": "pass",
+  "detail": "Issue → Pick the status the consultant returned and attach their reply to this record."
+ },
+ {
+  "flow": "5 Submittal workflow",
+  "step": "Document Controller: opens SUB-001, presses \"Consultant status recorded (Code A/B/C)\"",
+  "status": "pass",
+  "detail": "Record consultant reply → This record is closed — Code A — Approved."
+ },
+ {
+  "flow": "5 Submittal workflow",
+  "step": "reaches the end: Code A — Approved",
+  "status": "pass",
+  "detail": ""
+ },
+ {
+  "flow": "5 Material approval workflow",
+  "step": "Design Manager raises MAR-001",
+  "status": "pass",
+  "detail": ""
+ },
+ {
+  "flow": "5 Material approval workflow",
+  "step": "QA/QC Engineer: opens MAR-001, presses \"QA/QC checks against spec\"",
+  "status": "pass",
+  "detail": "Approve & sign → Waiting on: PM approves to submit — Project Manager."
+ },
+ {
+  "flow": "5 Material approval workflow",
+  "step": "Project Manager: opens MAR-001, presses \"PM approves to submit\"",
+  "status": "pass",
+  "detail": "Approve & sign → Issuing records it as sent to the consultant under your name. You can notify the"
+ },
+ {
+  "flow": "5 Material approval workflow",
+  "step": "Document Controller: opens MAR-001, presses \"Document Control issues to consultant\"",
+  "status": "pass",
+  "detail": "Issue → Pick the status the consultant returned and attach their reply to this record."
+ },
+ {
+  "flow": "5 Material approval workflow",
+  "step": "Document Controller: opens MAR-001, presses \"Consultant approval recorded\"",
+  "status": "pass",
+  "detail": "Record consultant reply → This record is closed — Code A — Approved."
+ },
+ {
+  "flow": "5 Material approval workflow",
+  "step": "reaches the end: Code A — Approved",
+  "status": "pass",
+  "detail": ""
+ },
+ {
+  "flow": "5 Inspection request (WIR) workflow",
+  "step": "QA/QC Engineer raises WIR-001",
+  "status": "pass",
+  "detail": ""
+ },
+ {
+  "flow": "5 Inspection request (WIR) workflow",
+  "step": "QA/QC Engineer: opens WIR-001, presses \"QA/QC checks work ready\"",
+  "status": "pass",
+  "detail": "Approve & sign → Waiting on: Document Control issues to consultant — Document Control."
+ },
+ {
+  "flow": "5 Inspection request (WIR) workflow",
+  "step": "Document Controller: opens WIR-001, presses \"Document Control issues to consultant\"",
+  "status": "pass",
+  "detail": "Issue → Waiting on: Inspection result recorded — QA / QC."
+ },
+ {
+  "flow": "5 Inspection request (WIR) workflow",
+  "step": "QA/QC Engineer: opens WIR-001, presses \"Inspection result recorded\"",
+  "status": "pass",
+  "detail": "Approve & sign → This record is closed — Closed / approved."
+ },
+ {
+  "flow": "5 Inspection request (WIR) workflow",
+  "step": "reaches the end: Closed / approved",
+  "status": "pass",
+  "detail": ""
+ },
+ {
+  "flow": "5 NCR workflow",
+  "step": "QA/QC Engineer raises NCR-001",
+  "status": "pass",
+  "detail": ""
+ },
+ {
+  "flow": "5 NCR workflow",
+  "step": "Site Engineer — Civil: opens NCR-001, presses \"Site rectifies\"",
+  "status": "pass",
+  "detail": "Approve & sign → Waiting on: QA/QC verifies & closes — QA / QC."
+ },
+ {
+  "flow": "5 NCR workflow",
+  "step": "QA/QC Engineer: opens NCR-001, presses \"QA/QC verifies & closes\"",
+  "status": "pass",
+  "detail": "Approve & sign → This record is closed — Closed / approved."
+ },
+ {
+  "flow": "5 NCR workflow",
+  "step": "reaches the end: Closed / approved",
+  "status": "pass",
+  "detail": ""
+ },
+ {
+  "flow": "5 Permit to work workflow",
+  "step": "HSE Officer raises PTW-001",
+  "status": "pass",
+  "detail": ""
+ },
+ {
+  "flow": "5 Permit to work workflow",
+  "step": "HSE Officer: opens PTW-001, presses \"HSE review & sign\"",
+  "status": "pass",
+  "detail": "Approve & sign → Waiting on: Work proceeds — Site Engineer."
+ },
+ {
+  "flow": "5 Permit to work workflow",
+  "step": "Site Engineer — Civil: opens PTW-001, presses \"Work proceeds\"",
+  "status": "pass",
+  "detail": "Approve & sign → Waiting on: HSE closes out at end of shift — HSE."
+ },
+ {
+  "flow": "5 Permit to work workflow",
+  "step": "HSE Officer: opens PTW-001, presses \"HSE closes out at end of shift\"",
+  "status": "pass",
+  "detail": "Approve & sign → This record is closed — Closed / approved."
+ },
+ {
+  "flow": "5 Permit to work workflow",
+  "step": "reaches the end: Closed / approved",
+  "status": "pass",
+  "detail": ""
+ },
+ {
+  "flow": "5 Variation workflow",
+  "step": "Quantity Surveyor raises VO-01",
+  "status": "pass",
+  "detail": ""
+ },
+ {
+  "flow": "5 Variation workflow",
+  "step": "Project Manager: opens VO-01, presses \"PM review\"",
+  "status": "pass",
+  "detail": "Approve & sign → Approving moves it to the next step and records your name against it."
+ },
+ {
+  "flow": "5 Variation workflow",
+  "step": "Principal: opens VO-01, presses \"Director approval\"",
+  "status": "pass",
+  "detail": "Approve & sign → Issuing records it as sent to the consultant under your name. You can notify the"
+ },
+ {
+  "flow": "5 Variation workflow",
+  "step": "Document Controller: opens VO-01, presses \"Document Control issues to client\"",
+  "status": "pass",
+  "detail": "Issue → Approving moves it to the next step and records your name against it."
+ },
+ {
+  "flow": "5 Variation workflow",
+  "step": "Quantity Surveyor: opens VO-01, presses \"Client instruction recorded\"",
+  "status": "pass",
+  "detail": "Approve & sign → This record is closed — Closed / approved."
+ },
+ {
+  "flow": "5 Variation workflow",
+  "step": "reaches the end: Closed / approved",
+  "status": "pass",
+  "detail": ""
+ },
+ {
+  "flow": "5 Material request workflow",
+  "step": "Site Engineer — Civil raises MR-001",
+  "status": "pass",
+  "detail": ""
+ },
+ {
+  "flow": "5 Material request workflow",
+  "step": "Project Manager: opens MR-001, presses \"PM reviews (checks BOM)\"",
+  "status": "pass",
+  "detail": "Approve & sign → Approving moves it to the next step and records your name against it."
+ },
+ {
+  "flow": "5 Material request workflow",
+  "step": "Quantity Surveyor: opens MR-001, presses \"Procurement raises LPO\"",
+  "status": "pass",
+  "detail": "Approve & sign → This record is closed — Closed / approved."
+ },
+ {
+  "flow": "5 Material request workflow",
+  "step": "reaches the end: Closed / approved",
+  "status": "pass",
+  "detail": ""
+ },
+ {
+  "flow": "6 IPC: QS → PM → DC → certificate → paid",
+  "step": "QS prepares the application (valued from programme progress)",
+  "status": "pass",
+  "detail": "IPA-01 net 17085060"
+ },
+ {
+  "flow": "6 IPC: QS → PM → DC → certificate → paid",
+  "step": "Project Manager: presses approve on IPA-01",
+  "status": "pass",
+  "detail": "Approved — Document Control to issue"
+ },
+ {
+  "flow": "6 IPC: QS → PM → DC → certificate → paid",
+  "step": "Document Controller: presses issue on IPA-01",
+  "status": "pass",
+  "detail": "Issued — awaiting the Engineer’s certificate"
+ },
+ {
+  "flow": "6 IPC: QS → PM → DC → certificate → paid",
+  "step": "Quantity Surveyor: presses certify on IPA-01",
+  "status": "pass",
+  "detail": "Certified — client to pay"
+ },
+ {
+  "flow": "6 IPC: QS → PM → DC → certificate → paid",
+  "step": "Quantity Surveyor: presses pay on IPA-01",
+  "status": "pass",
+  "detail": "Part paid"
+ },
+ {
+  "flow": "7 Every dashboard after the run",
+  "step": "Principal — dashboard opens with no script errors",
+  "status": "pass",
+  "detail": ""
+ },
+ {
+  "flow": "7 Every dashboard after the run",
+  "step": "Project Manager — dashboard opens with no script errors",
+  "status": "pass",
+  "detail": ""
+ },
+ {
+  "flow": "7 Every dashboard after the run",
+  "step": "Planning Engineer — dashboard opens with no script errors",
+  "status": "pass",
+  "detail": ""
+ },
+ {
+  "flow": "7 Every dashboard after the run",
+  "step": "Site Engineer — Civil — dashboard opens with no script errors",
+  "status": "pass",
+  "detail": ""
+ },
+ {
+  "flow": "7 Every dashboard after the run",
+  "step": "Site Engineer — MEP — dashboard opens with no script errors",
+  "status": "pass",
+  "detail": ""
+ },
+ {
+  "flow": "7 Every dashboard after the run",
+  "step": "Design Manager — dashboard opens with no script errors",
+  "status": "pass",
+  "detail": ""
+ },
+ {
+  "flow": "7 Every dashboard after the run",
+  "step": "Document Controller — dashboard opens with no script errors",
+  "status": "pass",
+  "detail": ""
+ },
+ {
+  "flow": "7 Every dashboard after the run",
+  "step": "QA/QC Engineer — dashboard opens with no script errors",
+  "status": "pass",
+  "detail": ""
+ },
+ {
+  "flow": "7 Every dashboard after the run",
+  "step": "HSE Officer — dashboard opens with no script errors",
+  "status": "pass",
+  "detail": ""
+ },
+ {
+  "flow": "7 Every dashboard after the run",
+  "step": "Quantity Surveyor — dashboard opens with no script errors",
+  "status": "pass",
+  "detail": ""
+ },
+ {
+  "flow": "7 Every dashboard after the run",
+  "step": "Consultant (read-only) — dashboard opens with no script errors",
+  "status": "pass",
+  "detail": ""
+ }
+]

@@ -1,0 +1,19 @@
+No email is configured: nothing will be sent — sign-in codes and reports included.
+schema: created
+AETRAA listening on 58473
+  database : postgres://postgres:***@127.0.0.1:58474/postgres
+  files    : the database
+POST /api/testdrive/end failed after 5ms: Error: read ECONNRESET
+    at /private/var/folders/8x/yh6lkx8x2sb44f9q0bkv97qr0000gn/T/aetraa-td-q790mt/app/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.all (file:///private/var/folders/8x/yh6lkx8x2sb44f9q0bkv97qr0000gn/T/aetraa-td-q790mt/app/src/db-postgres.js:107:21)
+    at async projectTables (file:///private/var/folders/8x/yh6lkx8x2sb44f9q0bkv97qr0000gn/T/aetraa-td-q790mt/app/src/testdrive.js:83:29)
+    at async dropCopy (file:///private/var/folders/8x/yh6lkx8x2sb44f9q0bkv97qr0000gn/T/aetraa-td-q790mt/app/src/testdrive.js:255:19)
+    at async endTest (file:///private/var/folders/8x/yh6lkx8x2sb44f9q0bkv97qr0000gn/T/aetraa-td-q790mt/app/src/testdrive.js:279:13)
+    at async Object.fetch (file:///private/var/folders/8x/yh6lkx8x2sb44f9q0bkv97qr0000gn/T/aetraa-td-q790mt/app/src/index.js:2452:17)
+    at async Object.fetch (file:///private/var/folders/8x/yh6lkx8x2sb44f9q0bkv97qr0000gn/T/aetraa-td-q790mt/app/src/index.js:5436:32)
+    at async Server.<anonymous> (file:///private/var/folders/8x/yh6lkx8x2sb44f9q0bkv97qr0000gn/T/aetraa-td-q790mt/app/server.js:207:17) {
+  errno: -54,
+  code: 'ECONNRESET',
+  syscall: 'read'
+}

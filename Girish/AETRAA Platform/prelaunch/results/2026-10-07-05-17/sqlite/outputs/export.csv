@@ -1,0 +1,32 @@
+id,wbs,name,level,planned_start,planned_finish,trade,trade_group,floor,discipline,phase,responsible,target_finish,target_group,report_date,pct,actual_start,actual_finish,status,delay_reason,remarks,submitted_by
+A1000,Preliminaries,Site establishment & hoarding,1,2026-01-05,2026-01-23,,Civil,,,,,,,,,,,,,,
+A1010,Substructure,Shoring & dewatering,1,2026-01-26,2026-03-06,,Civil,,,,,,,,,,,,,,
+A1020,Substructure,Excavation to formation,1,2026-03-09,2026-04-03,,Civil,,,,,,,,,,,,,,
+A1030,Substructure,Raft foundation — rebar & pour,1,2026-04-06,2026-05-15,,Civil,,,,,,,,,,,,,,
+A1040,Substructure,Basement 2 slab & columns,1,2026-05-18,2026-06-19,,Civil,,,,,,,,,,,,,,
+A1050,Substructure,Basement 1 slab & columns,1,2026-06-22,2026-07-24,,Civil,,,,,,,,,,,,,,
+A1060,Superstructure,Ground floor slab,1,2026-07-27,2026-08-21,,Civil,,,,,,,,,,,,,,
+A1070,Superstructure,Podium level 1 — slab & columns,1,2026-08-24,2026-09-18,,Civil,,,,,,,,,,,,,,
+A1080,Superstructure,Podium level 2 — slab & columns,1,2026-09-21,2026-10-16,,Civil,,,,,,,2026-10-07,92,,,,,,Site Engineer — Civil
+A1090,formwork & pour,L1 slab — rebar,1,,2026-10-19,,2026-11-06,,,,,,,,,,,,,,
+A1100,formwork & pour,L2 slab — rebar,1,,2026-11-09,,2026-11-27,,,,,,,,,,,,,,
+A1110,formwork & pour,L3 slab — rebar,1,,2026-11-30,,2026-12-18,,,,,,,,,,,,,,
+A1120,formwork & pour,L4 slab — rebar,1,,2026-12-21,,2027-01-15,,,,,,,,,,,,,,
+A2000,Architecture,Blockwork — basement & podium,1,2026-08-03,2026-10-30,,Architecture,,,,,,,,,,,,,,
+A2010,Architecture,Blockwork — L1 to L4,1,2026-11-02,2027-01-29,,Architecture,,,,,,,,,,,,,,
+A2020,Architecture,Internal plaster — podium,1,2026-10-05,2026-12-11,,Architecture,,,,,,,,,,,,,,
+A2030,Facade,Facade — mock-up & approval,1,2026-09-07,2026-10-16,,Architecture,,,,,,,,,,,,,,
+A2040,Facade,Facade — unitised install L1 to L4,1,2026-12-07,2027-03-26,,Architecture,,,,,,,,,,,,,,
+A2050,Architecture,Waterproofing — podium roof,1,2026-10-19,2026-11-20,,Architecture,,,,,,,,,,,,,,
+A3000,MEP,MEP — underground services,1,2026-04-06,2026-06-05,,MEP,,,,,,,,,,,,,,
+A3010,MEP,MEP 1st fix — basement,1,2026-06-08,2026-08-28,,MEP,,,,,,,2026-10-07,88,,,,,,Site Engineer — MEP
+A3020,MEP,MEP 1st fix — podium,1,2026-09-07,2026-11-27,,MEP,,,,,,,2026-10-07,45,,,,,,Site Engineer — MEP
+A3030,MEP,MEP 1st fix — L1 to L4,1,2026-11-30,2027-02-26,,MEP,,,,,,,,,,,,,,
+A3040,MEP,Chiller plant — install & align,1,2026-11-02,2026-12-25,,MEP,,,,,,,,,,,,,,
+A3050,MEP,LV room & main switchgear,1,2026-10-05,2026-11-27,,MEP,,,,,,,2026-10-07,30,,,,,,Site Engineer — MEP
+A3060,MEP,Fire fighting — risers & pumps,1,2026-11-09,2027-01-15,,MEP,,,,,,,,,,,,,,
+A3070,MEP,Substation — build & handover,1,2026-08-03,2026-11-27,,MEP,,,,,,,2026-10-07,62,,,at_risk,,,Site Engineer — MEP
+A4000,Vertical transport,Lift installation — cars 1 & 2,1,2027-01-04,2027-04-02,,MEP,,,,,,,,,,,,,,
+A4010,Commissioning,Testing & commissioning — MEP,1,2027-03-01,2027-05-28,,MEP,,,,,,,,,,,,,,
+A4020,Handover,Snagging & de-snagging,1,2027-05-03,2027-06-25,,Architecture,,,,,,,,,,,,,,
+A4030,Handover,Authority inspections & completion,1,2027-06-01,2027-07-30,,Civil,,,,,,,,,,,,,,

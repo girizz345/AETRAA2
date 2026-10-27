@@ -1,0 +1,467 @@
+{
+ "schema": "rooms/1",
+ "note": "The room names a plan's labels are read by, for the measured sections (measure/plan_measure.py). Each name: [class, largest plausible area m2]. The class decides the measurement: 'wet' rooms take floor waterproofing (G2.1) as well as finishes (J3.1); 'dry' rooms take finishes; 'ext' areas (balconies, terraces, roofs) take roof waterproofing (G2.1) and no internal finishes; 'skip' areas (stairs, lifts, shafts, voids) are not measured for finishes here - a staircase is its own J3.1 class and is a gap. The area limit catches a fill that leaked through an open doorway into the next room: such a region is a gap, never billed. A label is matched as the longest listed phrase on its line. Extend this list for a project's own room names; the platform's list (boq_arch/rooms.py) is always included.",
+ "rooms": {
+  "TOILET": [
+   "wet",
+   30
+  ],
+  "TOILETS": [
+   "wet",
+   80
+  ],
+  "TOI.": [
+   "wet",
+   10
+  ],
+  "WC": [
+   "wet",
+   10
+  ],
+  "W.C.": [
+   "wet",
+   10
+  ],
+  "W.C": [
+   "wet",
+   10
+  ],
+  "BATH": [
+   "wet",
+   20
+  ],
+  "BATHROOM": [
+   "wet",
+   25
+  ],
+  "MASTER BATH": [
+   "wet",
+   30
+  ],
+  "ENSUITE": [
+   "wet",
+   20
+  ],
+  "EN-SUITE": [
+   "wet",
+   20
+  ],
+  "SHOWER": [
+   "wet",
+   12
+  ],
+  "POWDER": [
+   "wet",
+   8
+  ],
+  "POWDER ROOM": [
+   "wet",
+   8
+  ],
+  "KITCHEN": [
+   "wet",
+   40
+  ],
+  "LAUNDRY": [
+   "wet",
+   20
+  ],
+  "ABLUTION": [
+   "wet",
+   60
+  ],
+  "WUDU": [
+   "wet",
+   60
+  ],
+  "JANITOR": [
+   "wet",
+   10
+  ],
+  "JAN.": [
+   "wet",
+   10
+  ],
+  "BEDROOM": [
+   "dry",
+   50
+  ],
+  "BED ROOM": [
+   "dry",
+   50
+  ],
+  "MASTER BEDROOM": [
+   "dry",
+   70
+  ],
+  "MASTER BED ROOM": [
+   "dry",
+   70
+  ],
+  "GUEST BEDROOM": [
+   "dry",
+   50
+  ],
+  "MAID": [
+   "dry",
+   15
+  ],
+  "MAID ROOM": [
+   "dry",
+   15
+  ],
+  "MAID'S ROOM": [
+   "dry",
+   15
+  ],
+  "DRIVER": [
+   "dry",
+   20
+  ],
+  "DRIVER ROOM": [
+   "dry",
+   20
+  ],
+  "LIVING": [
+   "dry",
+   120
+  ],
+  "LIVING ROOM": [
+   "dry",
+   120
+  ],
+  "LIVING/DINING": [
+   "dry",
+   120
+  ],
+  "DINING": [
+   "dry",
+   80
+  ],
+  "FAMILY": [
+   "dry",
+   100
+  ],
+  "FAMILY HALL": [
+   "dry",
+   120
+  ],
+  "MAJLIS": [
+   "dry",
+   150
+  ],
+  "HALL": [
+   "dry",
+   300
+  ],
+  "FOYER": [
+   "dry",
+   120
+  ],
+  "ENTRANCE": [
+   "dry",
+   120
+  ],
+  "CORRIDOR": [
+   "dry",
+   600
+  ],
+  "PASSAGE": [
+   "dry",
+   150
+  ],
+  "LOBBY": [
+   "dry",
+   300
+  ],
+  "LIFT LOBBY": [
+   "dry",
+   200
+  ],
+  "RECEPTION": [
+   "dry",
+   200
+  ],
+  "OFFICE": [
+   "dry",
+   300
+  ],
+  "MEETING": [
+   "dry",
+   150
+  ],
+  "MEETING ROOM": [
+   "dry",
+   150
+  ],
+  "CONFERENCE": [
+   "dry",
+   250
+  ],
+  "BOARD ROOM": [
+   "dry",
+   200
+  ],
+  "STUDY": [
+   "dry",
+   40
+  ],
+  "LIBRARY": [
+   "dry",
+   400
+  ],
+  "STORE": [
+   "dry",
+   60
+  ],
+  "STORAGE": [
+   "dry",
+   100
+  ],
+  "DRESS": [
+   "dry",
+   25
+  ],
+  "DRESSING": [
+   "dry",
+   25
+  ],
+  "WALK-IN": [
+   "dry",
+   25
+  ],
+  "CLOSET": [
+   "dry",
+   15
+  ],
+  "PRAYER": [
+   "dry",
+   120
+  ],
+  "PRAYER ROOM": [
+   "dry",
+   120
+  ],
+  "GYM": [
+   "dry",
+   400
+  ],
+  "GYMNASIUM": [
+   "dry",
+   400
+  ],
+  "SHOP": [
+   "dry",
+   600
+  ],
+  "RETAIL": [
+   "dry",
+   1500
+  ],
+  "CLASSROOM": [
+   "dry",
+   150
+  ],
+  "CLASS ROOM": [
+   "dry",
+   150
+  ],
+  "LAB": [
+   "dry",
+   200
+  ],
+  "LABORATORY": [
+   "dry",
+   200
+  ],
+  "CAFETERIA": [
+   "dry",
+   500
+  ],
+  "CANTEEN": [
+   "dry",
+   500
+  ],
+  "RESTAURANT": [
+   "dry",
+   800
+  ],
+  "CLINIC": [
+   "dry",
+   200
+  ],
+  "WAITING": [
+   "dry",
+   150
+  ],
+  "SECURITY": [
+   "dry",
+   40
+  ],
+  "GUARD": [
+   "dry",
+   25
+  ],
+  "GUARD ROOM": [
+   "dry",
+   25
+  ],
+  "WATCHMAN": [
+   "dry",
+   30
+  ],
+  "PLANT ROOM": [
+   "dry",
+   300
+  ],
+  "PUMP ROOM": [
+   "dry",
+   200
+  ],
+  "ELECTRICAL ROOM": [
+   "dry",
+   100
+  ],
+  "ELEC. ROOM": [
+   "dry",
+   100
+  ],
+  "ELEC RM": [
+   "dry",
+   30
+  ],
+  "MDB ROOM": [
+   "dry",
+   80
+  ],
+  "TELECOM ROOM": [
+   "dry",
+   40
+  ],
+  "GARBAGE ROOM": [
+   "dry",
+   60
+  ],
+  "GARBAGE": [
+   "dry",
+   60
+  ],
+  "UTILITY": [
+   "dry",
+   30
+  ],
+  "CAR PARK": [
+   "dry",
+   8000
+  ],
+  "PARKING": [
+   "dry",
+   8000
+  ],
+  "BALCONY": [
+   "ext",
+   40
+  ],
+  "TERRACE": [
+   "ext",
+   400
+  ],
+  "ROOF TERRACE": [
+   "ext",
+   600
+  ],
+  "ROOF DECK": [
+   "ext",
+   400
+  ],
+  "VERANDA": [
+   "ext",
+   120
+  ],
+  "VERANDAH": [
+   "ext",
+   120
+  ],
+  "PATIO": [
+   "ext",
+   200
+  ],
+  "COURTYARD": [
+   "ext",
+   800
+  ],
+  "SIT OUT": [
+   "ext",
+   60
+  ],
+  "SIT-OUT": [
+   "ext",
+   60
+  ],
+  "DECK": [
+   "ext",
+   300
+  ],
+  "STAIR": [
+   "skip",
+   80
+  ],
+  "STAIRCASE": [
+   "skip",
+   80
+  ],
+  "STAIRS": [
+   "skip",
+   80
+  ],
+  "LIFT": [
+   "skip",
+   20
+  ],
+  "ELEVATOR": [
+   "skip",
+   20
+  ],
+  "SHAFT": [
+   "skip",
+   20
+  ],
+  "DUCT": [
+   "skip",
+   10
+  ],
+  "VOID": [
+   "skip",
+   1000
+  ]
+ },
+ "barrier_layer_words": [
+  "GLAZ",
+  "COLS",
+  "STRS",
+  "CURTWALL",
+  "CURTAIN",
+  "WINDOW",
+  "PARTITION",
+  "RAIL"
+ ],
+ "note_barrier": "Layer-name words (added to the platform's WALL, COLUMN, DOOR, JAMB, GLASS, WIN, RAILING, FLOOR LINE, LIFT, STAIR) whose lines bound a room: the AIA names A-GLAZ, A-COLS, A-STRS and curtain-wall layers are otherwise not seen as boundaries.",
+ "weak": [
+  "SHOWER",
+  "DECK",
+  "POWDER",
+  "POWDER ROOM",
+  "DRESS",
+  "DRESSING",
+  "WALK-IN",
+  "CLOSET",
+  "ENTRANCE",
+  "WAITING",
+  "HALL",
+  "UTILITY",
+  "STORE",
+  "STORAGE",
+  "LAB"
+ ],
+ "note_weak": "Names that often label PART of a larger space (a shower on a pool terrace, a deck, a dressing area off a bedroom). They seed a room only on a sheet where the other names find fewer than 3 rooms - an office whose names this list does not know - so they never split a space the known names already measure."
+}

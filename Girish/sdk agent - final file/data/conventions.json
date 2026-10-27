@@ -1,0 +1,96 @@
+{
+  "schema": "conventions/1",
+  "provenance": {
+    "descriptions": "reference/description-conventions.md (11 issued workbooks, 31 bill sheets, 3,605 priced items) + reference/POMI-COMPLETE-PROCESS.md per-section 'How this section is BILLED' tables",
+    "markup_hue": "reference/determinism.md 4.10 MARKUP COLOUR [class D - K46] - declared closed and constant",
+    "markup_primitive": "reference/POMI-COMPLETE-PROCESS.md per-section 'How this section is MARKED UP' tables",
+    "conflict": "POMI-COMPLETE-PROCESS.md names a trade colour per section in words; determinism.md 4.10 gives a hex per section. They disagree for B, C, E, G, H, K, L, N and Q. determinism.md governs: it is hex-exact and declares the table closed. Recorded in DECISIONS.md as decision 8."
+  },
+  "closing_formulas": {
+    "family_1": {
+      "sections": ["B", "C", "D", "E", "G"],
+      "text": "complete in accordance with the Specifications and Drawings",
+      "variant": "complete in accordance with the Specifications, Drawings and the {approving_party} approval",
+      "uses_measured": 143,
+      "slots": []
+    },
+    "family_2": {
+      "sections": ["F", "J", "K"],
+      "text": "in accordance with the {design_standard}, Specifications and Drawings",
+      "uses_measured": 334,
+      "slots": ["design_standard"],
+      "note": "{design_standard} is named from the project's own documents. Never carried across from another job. Absent from the project documents it is a gap, not a default."
+    },
+    "family_3": {
+      "sections": ["Q", "R"],
+      "text": "Supply and install all {system} as shown on the drawings and/or as specified including but not limited to {deemed_included} and any other items required for a complete installation as indicated.",
+      "slots": ["system", "deemed_included"],
+      "note": "{deemed_included} is written from the POMI deemed-included list for the clause being billed (reference/pomi-verbatim.md), never from memory. The issued Electrical bills close eight descriptions 'a indicated' for 'as indicated' - a typo. Do not reproduce it."
+    },
+    "none": {
+      "sections": ["GP", "A", "L", "M", "N", "P"],
+      "text": null,
+      "note": "these sections bill items, sums or particulars, not measured work"
+    }
+  },
+  "descriptions": [
+    {"section": "A", "template": null,            "varies_by": ["type"],                      "required_slots": []},
+    {"section": "B", "template": "family_1",      "varies_by": ["type"],                      "required_slots": []},
+    {"section": "C", "template": "family_1",      "varies_by": ["thickness"],                 "required_slots": ["thickness"]},
+    {"section": "D", "template": "family_1",      "varies_by": ["thickness"],                 "required_slots": ["thickness"]},
+    {"section": "E", "template": "family_1",      "varies_by": ["type"],                      "required_slots": ["unit_weight"]},
+    {"section": "F", "template": "family_2",      "varies_by": ["type"],                      "required_slots": ["cross_section", "design_standard"]},
+    {"section": "G", "template": "family_1",      "varies_by": ["type",
+    "thickness"],                 "required_slots": []},
+    {"section": "H", "template": "family_1",      "varies_by": ["kind", "opening_size", "type"], "required_slots": ["type_reference", "opening_size"],
+     "note": "POMI H1.1 / H2.1: enumerated, stating size and type. The house bills write the unit, its size, then its type: 'Single leaf, swing type, hollow metal door, size 1100mm x 2200mm, type S1.2'."},
+    {"section": "J", "template": "family_2",      "varies_by": ["width", "type"],             "required_slots": ["design_standard"]},
+    {"section": "K", "template": "family_2",      "varies_by": ["width", "type"],             "required_slots": ["design_standard"]},
+    {"section": "L", "template": null,            "varies_by": ["named_type", "schedule_ref"],"required_slots": ["type_reference"]},
+    {"section": "M", "template": null,            "varies_by": ["named_type", "schedule_ref"],"required_slots": ["type_reference"]},
+    {"section": "N", "template": null,            "varies_by": ["type"],                      "required_slots": []},
+    {"section": "P", "template": null,            "varies_by": ["type"],                      "required_slots": ["capacity", "stops"]},
+    {"section": "Q", "template": "family_3",      "varies_by": ["size"],                      "required_slots": ["system", "deemed_included"]},
+    {"section": "R", "template": "family_3",      "varies_by": ["size"],                      "required_slots": ["system", "deemed_included"]}
+  ],
+  "description_layout": {
+    "block_column": "C",
+    "block_carries": "no item reference, no quantity, no rate",
+    "after_block": "one blank row",
+    "variant_rows": "each variant on its own row, one blank row between",
+    "optional_subheading": "a single line may sit between the block and the variants",
+    "atomic": true,
+    "note": "the whole group never splits across a page. A run of sized variants with no description block above it is a gate failure.",
+    "ditto": "Ditto"
+  },
+  "markup": [
+    {"trade": "A", "rgb": [127, 127, 127], "hex": "7F7F7F", "primitive": "listed", "primitive_rule": "LISTED, not spotted - legend entry with no dot", "tag": "listed in the sheet legend only"},
+    {"trade": "B", "rgb": [74, 144, 217],  "hex": "4A90D9", "primitive": "by_unit", "primitive_rule": "AREA for excavation, fill and paving; LINEAR for trenches, kerbs and fencing; TAG for trial holes, boreholes, trees, piles and drainage accessories", "tag": "B-{serial}  {qty} {unit}; extra-over items read EO"},
+    {"trade": "C", "rgb": [140, 107, 177], "hex": "8C6BB1", "primitive": "by_unit", "primitive_rule": "AREA for slabs, beds and walls in elevation; TAG for columns and isolated bases", "tag": "C-{serial}  {qty} m3 - the label states the thickness"},
+    {"trade": "D", "rgb": [192, 112, 58],  "hex": "C0703A", "primitive": "area", "primitive_rule": "AREA - walls marked in ELEVATION, not in plan", "tag": "D-{serial}  {qty} m2, thickness stated"},
+    {"trade": "E", "rgb": [79, 111, 168],  "hex": "4F6FA8", "primitive": "by_unit", "primitive_rule": "LINEAR along each member; TAG for trusses, portal frames and isolated units", "tag": "E-{serial}  {qty} kg - with the unit weight in the label, per GP5.4"},
+    {"trade": "F", "rgb": [122, 92, 62],   "hex": "7A5C3E", "primitive": "by_unit", "primitive_rule": "LINEAR for structural timbers; AREA for open-spaced boarding and battens", "tag": "F-{serial}  {qty} m - cross-section stated, per GP5.2"},
+    {"trade": "G", "rgb": [176, 145, 58],  "hex": "B0913A", "primitive": "area", "primitive_rule": "AREA - sloping areas marked on the roof plan but labelled ON SLOPE", "tag": "G-{serial}  {qty} m2 - a sloping area carries both the plan area and the pitch"},
+    {"trade": "H", "rgb": [63, 158, 140],  "hex": "3F9E8C", "primitive": "tag", "primitive_rule": "TAG - every item in the section is enumerated", "tag": "H-{serial}  {n} nr, with the type reference"},
+    {"trade": "J", "rgb": [46, 125, 91],   "hex": "2E7D5B", "primitive": "by_unit", "primitive_rule": "AREA for finishes; LINEAR for skirtings, coves and dividing strips", "tag": "J-{serial}  {qty} m2 - a suspended ceiling carries the DROP, per J5.1"},
+    {"trade": "K", "rgb": [160, 82, 45],   "hex": "A0522D", "primitive": "by_unit", "primitive_rule": "LINEAR for partitions, rails and trims; TAG for enumerated accessories", "tag": "K-{serial}  {qty} m or {n} nr"},
+    {"trade": "L", "rgb": [217, 119, 43],  "hex": "D9772B", "primitive": "tag", "primitive_rule": "TAG", "tag": "L-{serial}  {n} nr, with the type reference"},
+    {"trade": "M", "rgb": [192, 90, 125],  "hex": "C05A7D", "primitive": "tag", "primitive_rule": "TAG", "tag": "M-{serial}  {n} nr, with the type reference"},
+    {"trade": "N", "rgb": [111, 143, 63],  "hex": "6F8F3F", "primitive": "by_unit", "primitive_rule": "mixed - follows whichever section the work is measured to", "tag": "N-{serial} on the special item; ordinary work carries its own section's code"},
+    {"trade": "P", "rgb": [85, 107, 141],  "hex": "556B8D", "primitive": "tag", "primitive_rule": "TAG for the units; LISTED for the five P2.1 sundry items", "tag": "P-{serial}  {n} nr, with capacity and stops"},
+    {"trade": "Q", "rgb": [192, 57, 43],   "hex": "C0392B", "primitive": "by_unit", "primitive_rule": "LINEAR for pipe and duct runs; TAG for plant and terminals; AREA for insulation and rectangular duct where measured by area", "tag": "Q-{serial}  {qty} m with the size, or {n} nr"},
+    {"trade": "R", "rgb": [212, 160, 23],  "hex": "D4A017", "primitive": "by_unit", "primitive_rule": "LINEAR for cable, conduit and trunking runs; TAG for points, boards and equipment", "tag": "R-{serial}  {qty} m with the size, or {n} nr with the point class"}
+  ],
+  "markup_shade_ladder": {
+    "basis": "the item's ordinal position within the SHEET, in bill order",
+    "steps": [1.0, 0.72, 1.28, 0.55, 1.5, 0.85],
+    "limit": 6,
+    "on_seventh": "SPLIT SHEET - never a reused colour. Two items sharing a colour on one sheet is BS11."
+  },
+  "markup_downgrades": {
+    "tier_T4": "TAG",
+    "schematic_source": "TAG",
+    "schedule_source": "TAG",
+    "note": "a shaded polygon over a raster is a polygon the seat invented"
+  }
+}

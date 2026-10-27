@@ -1,0 +1,30 @@
+{
+ "_stamp": {
+  "sheet_sha1": "1baf3801f89c0b1f336b2378868cfd90eae7160b",
+  "task": "elevation_finishes",
+  "version": "1-204ccbd5"
+ },
+ "_by": "Claude Code session (read off the request tiles)",
+ "reading": {
+  "finishes": [
+   {
+    "label": "F1",
+    "finish": "BRICK CLADDING AS PER SPECIALIST'S DETAILS & SPECS.",
+    "kind": "wall finish",
+    "callouts": [
+     "BRICK CLADDING AS PER SPECIALIST'S DETAILS & SPECS."
+    ]
+   },
+   {
+    "label": "F2",
+    "finish": "Glass: DOUBLE GLAZED ALU.SLIDING DOOR AS PER SPECIFICATION; 1200MM HEIGHT LAMINATED TOUGHENED GLASS RAILING PER CONSULTANT APPROVAL",
+    "kind": "glazing",
+    "callouts": [
+     "DOUBLE GLAZED ALU.SLIDING DOOR AS PER SPECIFICATION",
+     "1200MM HEIGHT LAMINATED TOUGHENED GLASS RAILING PER CONSULTANT APPROVAL"
+    ]
+   }
+  ],
+  "illegible": []
+ }
+}

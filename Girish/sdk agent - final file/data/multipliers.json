@@ -1,0 +1,157 @@
+{
+  "schema": "multipliers/1",
+  "provenance": "reference/title-block-patterns.md - UAE floor multiplier conventions",
+  "rule": "R36 - record the floor scope verbatim and carry the count in the Nr column. NEVER pre-multiply at measurement time.",
+  "read_from": "the subtitle or scope line immediately below the drawing title",
+  "patterns": [
+    {
+      "kind": "range",
+      "regex": "(?:FL|FLOOR|LEVEL|L)S?\\.?\\s*0?(?P<start>[0-9]{1,2})\\s*(?:TO|THRU|THROUGH|[-–])\\s*(?:FL|FLOOR|LEVEL|L)?S?\\.?\\s*0?(?P<end>[0-9]{1,2})",
+      "multiplier": "end - start + 1",
+      "label": "FL{start}-FL{end}",
+      "examples": [
+        "Typical Floor 3 to 9",
+        "TYP. FL. L3 to L9",
+        "FLOOR 3 TO 9 (TYPICAL)",
+        "REPEAT FOR FLOORS 3 TO 9",
+        "FL3 - FL9",
+        "L3 to L9 typ."
+      ],
+      "see_also": "ordinal_range owns the 3RD-9TH form"
+    },
+    {
+      "kind": "typical_bracket",
+      "regex": "\\bTYP(?:ICAL)?\\.?\\s*\\(\\s*0?(?P<start>[0-9]{1,2})\\s*(?:TO|[-\\u2013])\\s*0?(?P<end>[0-9]{1,2})\\s*\\)",
+      "multiplier": "end - start + 1",
+      "label": "FL{start}-FL{end}",
+      "examples": [
+        "TYP ( 4 - 5 ) FLOOR PLAN",
+        "TYPICAL (3-9) FLOOR PLAN"
+      ],
+      "note": "EMSQUARE's form: the floors in brackets after TYP, no FLOOR or LEVEL word. Read as undetermined before, so the 4th/5th floor plan's tags were counted once."
+    },
+    {
+      "kind": "ordinal_range",
+      "regex": "(?P<start>[0-9]{1,2})(?:ST|ND|RD|TH)\\s*[-\\u2013]\\s*(?P<end>[0-9]{1,2})(?:ST|ND|RD|TH)\\s*FLOORS?",
+      "multiplier": "end - start + 1",
+      "label": "FL{start}-FL{end}",
+      "examples": [
+        "TYPICAL 3RD-9TH FLOORS"
+      ]
+    },
+    {
+      "kind": "ordinal_list",
+      "regex": "[0-9]{1,2}\\s*(?:ST|ND|RD|TH)(?:\\s*(?:[,/&]|AND)\\s*[0-9]{1,2}\\s*(?:ST|ND|RD|TH))+",
+      "multiplier": "count of the distinct ordinals captured",
+      "label": "FL{ordinals}",
+      "examples": [
+        "TYPICAL FLOOR PLAN (2ND, 4TH & 6TH)",
+        "2ND AND 4TH FLOOR",
+        "3RD, 5TH, 7TH FLOORS"
+      ],
+      "note": "the form the development package actually uses. Absent from the reference's example list and added from the corpus."
+    },
+    {
+      "kind": "list",
+      "regex": "(?:FL|FLOOR|LEVEL|L)S?\\.?\\s*0?[0-9]{1,2}(?:\\s*[,/&]\\s*(?:FL|FLOOR|LEVEL|L)?\\.?\\s*0?[0-9]{1,2}){1,}",
+      "multiplier": "count of the level numbers captured",
+      "label": "FL{numbers}",
+      "examples": [
+        "FLOORS 3, 5, 7 TYPICAL",
+        "FL 3 / 5 / 7 / 9",
+        "L1, L4, L7"
+      ]
+    },
+    {
+      "kind": "all",
+      "regex": "(?:ALL\\s+(?:TYPICAL\\s+)?(?:FLOORS?|LEVELS?)|GROUND\\s+TO\\s+ROOF|(?:FLOOR\\s+)?PLAN\\s+ALL\\s+LEVELS|FROM\\s+L?0?[0-9]{1,2}\\s+TO\\s+ROOF)",
+      "multiplier": null,
+      "resolve": "derive the total floor count from the section drawing",
+      "on_no_section_drawing": "HALT - record a gap and prompt. Never default to 1.",
+      "label": "ALL_FLOORS",
+      "examples": [
+        "ALL FLOORS",
+        "ALL TYPICAL FLOORS",
+        "GROUND TO ROOF TYPICAL",
+        "FLOOR PLAN ALL LEVELS",
+        "FROM L1 TO ROOF"
+      ]
+    },
+    {
+      "kind": "single",
+      "regex": "(?:FLOOR\\s*0?[0-9]{1,2}|\\bL0?[0-9]{1,2}\\b|\\bGF\\b|\\bFF\\b|\\bMEZZ(?:ANINE)?\\b|\\bROOF\\b|\\bBASEMENT\\s*0?[0-9]?\\b|\\bB[0-9]\\b|\\bPODIUM\\b|\\bPLANT\\s+LEVEL\\b)",
+      "multiplier": 1,
+      "label": "{matched text}",
+      "examples": [
+        "FLOOR 3",
+        "L3",
+        "FF",
+        "GF",
+        "BASEMENT 1",
+        "B1",
+        "PODIUM LEVEL",
+        "MEZZANINE",
+        "ROOF",
+        "PLANT LEVEL"
+      ],
+      "see_also": "a level-less named area such as TYPICAL POOL falls to the default rule and carries NO_LEVEL_TOKEN"
+    },
+    {
+      "kind": "zone",
+      "regex": "(?P<floor>FLOOR\\s*0?[0-9]{1,2}|L0?[0-9]{1,2}|GROUND\\s+FLOOR)\\s*(?:[-\\u2013]|\\()\\s*(?P<zone>ZONE\\s+[A-Z]|[A-Z][A-Z ]{2,24}?)\\s*\\)?$",
+      "multiplier": 1,
+      "per": "zone",
+      "label": "{floor} / {zone}",
+      "note": "each zone produces its own measurement row carrying the zone qualifier",
+      "examples": [
+        "FLOOR 3 - ZONE A",
+        "L3 - PODIUM EAST",
+        "GROUND FLOOR (NORTH WING)"
+      ]
+    }
+  ],
+  "precedence": [
+    "range",
+    "typical_bracket",
+    "ordinal_range",
+    "ordinal_list",
+    "list",
+    "all",
+    "zone",
+    "single"
+  ],
+  "edge_cases": [
+    {
+      "case": "TYP. alone with no range",
+      "action": "HALT and prompt; a fallback of 1 is permitted only with the fallback disclosed on the row"
+    },
+    {
+      "case": "overlapping typical ranges - L3-L9 typical plus an L5 exception",
+      "action": "the explicit non-typical drawing governs for its floor; the range loses that floor from its count"
+    },
+    {
+      "case": "hyphenated or lettered floor names - FL 7A, FL 7B",
+      "action": "treat as separate single floors"
+    },
+    {
+      "case": "mixed numbering - MEZZ + L1 + L2",
+      "action": "multiplier is the count of named levels"
+    }
+  ],
+  "audit": {
+    "section": "AN.TITLE-BLOCK",
+    "requires": "at least five drawings listed with drawing number, title, subtitle, scale, revision, floors covered and multiplier, plus every UNRESOLVED title-block pattern"
+  },
+  "default": {
+    "when": "no pattern matches",
+    "multiplier": 1,
+    "flag": "NO_LEVEL_TOKEN",
+    "note": "the subtitle is recorded verbatim and the row carries the flag. A level-less named area - TYPICAL POOL, PLANT ROOM - reaches the bill as one instance with the flag showing that no level token was read, never as a silent assumption."
+  },
+  "typical_alone": {
+    "when": "the subtitle contains TYPICAL and no pattern above matched",
+    "multiplier": null,
+    "meaning": "undetermined, which is a GAP and never a silent 1",
+    "why": "getting this wrong was measured at a 16 to 58 per cent undercount - the largest single error the pipeline can make"
+  }
+}

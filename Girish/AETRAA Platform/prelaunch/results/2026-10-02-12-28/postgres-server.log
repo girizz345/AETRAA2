@@ -1,0 +1,37 @@
+No email is configured: nothing will be sent — sign-in codes and reports included.
+schema: created
+AETRAA listening on 62097
+  database : postgres://postgres:***@127.0.0.1:62096/postgres
+  files    : the database
+POST /api/login failed after 6ms: error: could not determine data type of parameter $1
+    at /private/var/folders/8x/yh6lkx8x2sb44f9q0bkv97qr0000gn/T/aetraa-prelaunch-gF1hgb/app/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.first (file:///private/var/folders/8x/yh6lkx8x2sb44f9q0bkv97qr0000gn/T/aetraa-prelaunch-gF1hgb/app/src/db-postgres.js:111:21)
+    at async Object.fetch (file:///private/var/folders/8x/yh6lkx8x2sb44f9q0bkv97qr0000gn/T/aetraa-prelaunch-gF1hgb/app/src/index.js:2195:34)
+    at async Object.fetch (file:///private/var/folders/8x/yh6lkx8x2sb44f9q0bkv97qr0000gn/T/aetraa-prelaunch-gF1hgb/app/src/index.js:5438:32)
+    at async Server.<anonymous> (file:///private/var/folders/8x/yh6lkx8x2sb44f9q0bkv97qr0000gn/T/aetraa-prelaunch-gF1hgb/app/server.js:207:17) {
+  length: 124,
+  severity: 'ERROR',
+  code: '42P18',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'postgres.c',
+  line: '842',
+  routine: 'pg_analyze_and_rewrite_varparams'
+}
+POST /api/setup/rules failed: error: column "drawing_rules" of relation "projects" does not exist
+    at /private/var/folders/8x/yh6lkx8x2sb44f9q0bkv97qr0000gn/T/aetraa-prelaunch-gF1hgb/app/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.run (file:///private/var/folders/8x/yh6lkx8x2sb44f9q0bkv97qr0000gn/T/aetraa-prelaunch-gF1hgb/app/src/db-postgres.js:116:21)
+    at async Object.fetch (file:///private/var/folders/8x/yh6lkx8x2sb44f9q0bkv97qr0000gn/T/aetraa-prelaunch-gF1hgb/app/src/index.js:4767:9)
+    at async Object.fetch (file:///private/var/folders/8x/yh6lkx8x2sb44f9q0bkv97qr0000gn/T/aetraa-prelaunch-gF1hgb/app/src/index.js:5438:32)
+    at async Server.<anonymous> (file:///private/var/folders/8x/yh6lkx8x2sb44f9q0bkv97qr0000gn/T/aetraa-prelaunch-gF1hgb/app/server.js:207:17)

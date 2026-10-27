@@ -1,0 +1,14 @@
+
+──────────────────────────────────────────────────────────
+  AETRAA — running on this machine only
+──────────────────────────────────────────────────────────
+  open        http://127.0.0.1:57222/setup
+  intake      http://127.0.0.1:57222/intake
+
+  owner code  local-d2315c7885f7
+  database    /var/folders/8x/yh6lkx8x2sb44f9q0bkv97qr0000gn/T/aetraa-tpl-P8a5ZG/sq/aetraa.db   (new)
+  email       off
+──────────────────────────────────────────────────────────
+  This is separate from your live platform. Nothing syncs.
+  Stop it with Ctrl+C.
+

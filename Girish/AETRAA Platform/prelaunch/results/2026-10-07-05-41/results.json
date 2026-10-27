@@ -1,0 +1,1894 @@
+{
+ "release": "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\claude\\d--Girish-AETRAA\\d0a3008c-494f-4f31-82f9-6b58515032ce\\scratchpad\\release\\Girish\\AETRAA Platform\\work\\test-drive",
+ "when": "2026-10-07T06:18:20.940Z",
+ "results": [
+  {
+   "backend": "all",
+   "id": "A0",
+   "area": "Boot",
+   "name": "release unpacks and installs its packages",
+   "status": "pass",
+   "detail": "test-drive"
+  },
+  {
+   "backend": "sqlite",
+   "id": "A1",
+   "area": "Boot",
+   "name": "release starts (local.mjs)",
+   "status": "pass",
+   "detail": "http://127.0.0.1:59554"
+  },
+  {
+   "backend": "sqlite",
+   "id": "A2",
+   "area": "Boot",
+   "name": "owner code signs in",
+   "status": "pass",
+   "detail": ""
+  },
+  {
+   "backend": "sqlite",
+   "id": "A3",
+   "area": "Boot",
+   "name": "file storage round-trips (/api/storage)",
+   "status": "pass",
+   "detail": "the database"
+  },
+  {
+   "backend": "sqlite",
+   "id": "A4",
+   "area": "Boot",
+   "name": "wrong code is refused",
+   "status": "pass",
+   "detail": ""
+  },
+  {
+   "backend": "sqlite",
+   "id": "B1",
+   "area": "Setup workflow",
+   "name": "onboard company + project, team, programme, BOQ, BOM, registers, HSE log, IPC chain (demo seed)",
+   "status": "pass",
+   "detail": "project residential-tower-g-2p-1"
+  },
+  {
+   "backend": "sqlite",
+   "id": "B2",
+   "area": "Setup workflow",
+   "name": "every seed call accepted (116 calls)",
+   "status": "fail",
+   "detail": "seed POST /api/update → 403 outside your trades: A1090 | seed POST /api/update → 403 outside your trades: A1100 | seed POST /api/update → 403 outside your trades: A2000 | seed POST /api/update → 403 outside your trades: A2010 | seed POST /api/update → 403 outside your trades: A2020 | seed POST /api/update → 403 outside your trades: A2030"
+  },
+  {
+   "backend": "sqlite",
+   "id": "C1",
+   "area": "Sign-in",
+   "name": "seat signs in: Principal",
+   "status": "pass",
+   "detail": ""
+  },
+  {
+   "backend": "sqlite",
+   "id": "C1",
+   "area": "Sign-in",
+   "name": "seat signs in: Project Manager",
+   "status": "pass",
+   "detail": ""
+  },
+  {
+   "backend": "sqlite",
+   "id": "C1",
+   "area": "Sign-in",
+   "name": "seat signs in: Planning Engineer",
+   "status": "pass",
+   "detail": ""
+  },
+  {
+   "backend": "sqlite",
+   "id": "C1",
+   "area": "Sign-in",
+   "name": "seat signs in: Site Engineer — Civil",
+   "status": "pass",
+   "detail": ""
+  },
+  {
+   "backend": "sqlite",
+   "id": "C1",
+   "area": "Sign-in",
+   "name": "seat signs in: Site Engineer — MEP",
+   "status": "pass",
+   "detail": ""
+  },
+  {
+   "backend": "sqlite",
+   "id": "C1",
+   "area": "Sign-in",
+   "name": "seat signs in: Design Manager",
+   "status": "pass",
+   "detail": ""
+  },
+  {
+   "backend": "sqlite",
+   "id": "C1",
+   "area": "Sign-in",
+   "name": "seat signs in: Document Controller",
+   "status": "pass",
+   "detail": ""
+  },
+  {
+   "backend": "sqlite",
+   "id": "C1",
+   "area": "Sign-in",
+   "name": "seat signs in: QA/QC Engineer",
+   "status": "pass",
+   "detail": ""
+  },
+  {
+   "backend": "sqlite",
+   "id": "C1",
+   "area": "Sign-in",
+   "name": "seat signs in: HSE Officer",
+   "status": "pass",
+   "detail": ""
+  },
+  {
+   "backend": "sqlite",
+   "id": "C1",
+   "area": "Sign-in",
+   "name": "seat signs in: Quantity Surveyor",
+   "status": "pass",
+   "detail": ""
+  },
+  {
+   "backend": "sqlite",
+   "id": "C1",
+   "area": "Sign-in",
+   "name": "seat signs in: Consultant (read-only)",
+   "status": "pass",
+   "detail": ""
+  },
+  {
+   "backend": "sqlite",
+   "id": "D1",
+   "area": "Dashboards",
+   "name": "every page answers for AETRAA Admin (owner) (53 open, 1 refused)",
+   "status": "pass",
+   "detail": ""
+  },
+  {
+   "backend": "sqlite",
+   "id": "D1",
+   "area": "Dashboards",
+   "name": "every page answers for Principal (53 open, 1 refused)",
+   "status": "pass",
+   "detail": ""
+  },
+  {
+   "backend": "sqlite",
+   "id": "D1",
+   "area": "Dashboards",
+   "name": "every page answers for Project Manager (53 open, 1 refused)",
+   "status": "pass",
+   "detail": ""
+  },
+  {
+   "backend": "sqlite",
+   "id": "D1",
+   "area": "Dashboards",
+   "name": "every page answers for Planning Engineer (54 open, 0 refused)",
+   "status": "pass",
+   "detail": ""
+  },
+  {
+   "backend": "sqlite",
+   "id": "D1",
+   "area": "Dashboards",
+   "name": "every page answers for Site Engineer — Civil (54 open, 0 refused)",
+   "status": "pass",
+   "detail": ""
+  },
+  {
+   "backend": "sqlite",
+   "id": "D1",
+   "area": "Dashboards",
+   "name": "every page answers for Site Engineer — MEP (54 open, 0 refused)",
+   "status": "pass",
+   "detail": ""
+  },
+  {
+   "backend": "sqlite",
+   "id": "D1",
+   "area": "Dashboards",
+   "name": "every page answers for Design Manager (54 open, 0 refused)",
+   "status": "pass",
+   "detail": ""
+  },
+  {
+   "backend": "sqlite",
+   "id": "D1",
+   "area": "Dashboards",
+   "name": "every page answers for Document Controller (54 open, 0 refused)",
+   "status": "pass",
+   "detail": ""
+  },
+  {
+   "backend": "sqlite",
+   "id": "D1",
+   "area": "Dashboards",
+   "name": "every page answers for QA/QC Engineer (54 open, 0 refused)",
+   "status": "pass",
+   "detail": ""
+  },
+  {
+   "backend": "sqlite",
+   "id": "D1",
+   "area": "Dashboards",
+   "name": "every page answers for HSE Officer (54 open, 0 refused)",
+   "status": "pass",
+   "detail": ""
+  },
+  {
+   "backend": "sqlite",
+   "id": "D1",
+   "area": "Dashboards",
+   "name": "every page answers for Quantity Surveyor (54 open, 0 refused)",
+   "status": "pass",
+   "detail": ""
+  },
+  {
+   "backend": "sqlite",
+   "id": "D1",
+   "area": "Dashboards",
+   "name": "every page answers for Consultant (read-only) (53 open, 1 refused)",
+   "status": "pass",
+   "detail": ""
+  },
+  {
+   "backend": "sqlite",
+   "id": "D2",
+   "area": "Access",
+   "name": "setup console is not usable by a client seat",
+   "status": "pass",
+   "detail": ""
+  },
+  {
+   "backend": "sqlite",
+   "id": "E1",
+   "area": "API",
+   "name": "no GET endpoint crashes for Project Manager (154 endpoints)",
+   "status": "pass",
+   "detail": ""
+  },
+  {
+   "backend": "sqlite",
+   "id": "E1",
+   "area": "API",
+   "name": "no GET endpoint crashes for AETRAA Admin (owner) (154 endpoints)",
+   "status": "pass",
+   "detail": ""
+  },
+  {
+   "backend": "sqlite",
+   "id": "F1",
+   "area": "Reports",
+   "name": "daily report 2026-10-07 as html",
+   "status": "pass",
+   "detail": "39426 bytes"
+  },
+  {
+   "backend": "sqlite",
+   "id": "F1",
+   "area": "Reports",
+   "name": "daily report 2026-10-07 as doc",
+   "status": "pass",
+   "detail": "40024 bytes"
+  },
+  {
+   "backend": "sqlite",
+   "id": "F1",
+   "area": "Reports",
+   "name": "weekly report 2026-10-05 as html",
+   "status": "pass",
+   "detail": "75183 bytes"
+  },
+  {
+   "backend": "sqlite",
+   "id": "F1",
+   "area": "Reports",
+   "name": "weekly report 2026-10-05 as doc",
+   "status": "pass",
+   "detail": "72995 bytes"
+  },
+  {
+   "backend": "sqlite",
+   "id": "F1",
+   "area": "Reports",
+   "name": "monthly report 2026-10 as html",
+   "status": "pass",
+   "detail": "75184 bytes"
+  },
+  {
+   "backend": "sqlite",
+   "id": "F1",
+   "area": "Reports",
+   "name": "monthly report 2026-10 as doc",
+   "status": "pass",
+   "detail": "72984 bytes"
+  },
+  {
+   "backend": "sqlite",
+   "id": "F1",
+   "area": "Reports",
+   "name": "monthly report 2026-09 as html",
+   "status": "pass",
+   "detail": "38582 bytes"
+  },
+  {
+   "backend": "sqlite",
+   "id": "F1",
+   "area": "Reports",
+   "name": "monthly report 2026-09 as doc",
+   "status": "pass",
+   "detail": "36479 bytes"
+  },
+  {
+   "backend": "sqlite",
+   "id": "F1",
+   "area": "Reports",
+   "name": "lookahead report 2026-10-07 as html",
+   "status": "pass",
+   "detail": "10461 bytes"
+  },
+  {
+   "backend": "sqlite",
+   "id": "F1",
+   "area": "Reports",
+   "name": "lookahead report 2026-10-07 as doc",
+   "status": "pass",
+   "detail": "11064 bytes"
+  },
+  {
+   "backend": "sqlite",
+   "id": "F1",
+   "area": "Reports",
+   "name": "programme report 2026-10-07 as html",
+   "status": "pass",
+   "detail": "14874 bytes"
+  },
+  {
+   "backend": "sqlite",
+   "id": "F1",
+   "area": "Reports",
+   "name": "programme report 2026-10-07 as doc",
+   "status": "pass",
+   "detail": "12665 bytes"
+  },
+  {
+   "backend": "sqlite",
+   "id": "F1",
+   "area": "Reports",
+   "name": "hse report 2026-10 as html",
+   "status": "pass",
+   "detail": "36986 bytes"
+  },
+  {
+   "backend": "sqlite",
+   "id": "F1",
+   "area": "Reports",
+   "name": "hse report 2026-10 as doc",
+   "status": "pass",
+   "detail": "37583 bytes"
+  },
+  {
+   "backend": "sqlite",
+   "id": "F2",
+   "area": "Reports",
+   "name": "AI narrative is off without a key and says so",
+   "status": "pass",
+   "detail": "disabled, as expected with no key"
+  },
+  {
+   "backend": "sqlite",
+   "id": "F3",
+   "area": "Registers",
+   "name": "register workbook: submittals",
+   "status": "pass",
+   "detail": "2 sheet(s), 14595 bytes"
+  },
+  {
+   "backend": "sqlite",
+   "id": "F4",
+   "area": "Registers",
+   "name": "schedule workbook: submittals",
+   "status": "pass",
+   "detail": "1 sheet(s), 9408 bytes"
+  },
+  {
+   "backend": "sqlite",
+   "id": "F3",
+   "area": "Registers",
+   "name": "register workbook: rfi",
+   "status": "pass",
+   "detail": "1 sheet(s), 10785 bytes"
+  },
+  {
+   "backend": "sqlite",
+   "id": "F4",
+   "area": "Registers",
+   "name": "schedule workbook: rfi",
+   "status": "pass",
+   "detail": "1 sheet(s), 9413 bytes"
+  },
+  {
+   "backend": "sqlite",
+   "id": "F3",
+   "area": "Registers",
+   "name": "register workbook: matapp",
+   "status": "pass",
+   "detail": "2 sheet(s), 12150 bytes"
+  },
+  {
+   "backend": "sqlite",
+   "id": "F4",
+   "area": "Registers",
+   "name": "schedule workbook: matapp",
+   "status": "pass",
+   "detail": "1 sheet(s), 8577 bytes"
+  },
+  {
+   "backend": "sqlite",
+   "id": "F3",
+   "area": "Registers",
+   "name": "register workbook: authority",
+   "status": "pass",
+   "detail": "2 sheet(s), 14462 bytes"
+  },
+  {
+   "backend": "sqlite",
+   "id": "F4",
+   "area": "Registers",
+   "name": "schedule workbook: authority",
+   "status": "pass",
+   "detail": "1 sheet(s), 9311 bytes"
+  },
+  {
+   "backend": "sqlite",
+   "id": "F3",
+   "area": "Registers",
+   "name": "register workbook: letters",
+   "status": "pass",
+   "detail": "2 sheet(s), 11705 bytes"
+  },
+  {
+   "backend": "sqlite",
+   "id": "F4",
+   "area": "Registers",
+   "name": "schedule workbook: letters",
+   "status": "pass",
+   "detail": "1 sheet(s), 8648 bytes"
+  },
+  {
+   "backend": "sqlite",
+   "id": "F3",
+   "area": "Registers",
+   "name": "register workbook: variations",
+   "status": "pass",
+   "detail": "2 sheet(s), 15317 bytes"
+  },
+  {
+   "backend": "sqlite",
+   "id": "F4",
+   "area": "Registers",
+   "name": "schedule workbook: variations",
+   "status": "pass",
+   "detail": "1 sheet(s), 9367 bytes"
+  },
+  {
+   "backend": "sqlite",
+   "id": "F3",
+   "area": "Registers",
+   "name": "register workbook: inspections",
+   "status": "pass",
+   "detail": "2 sheet(s), 14599 bytes"
+  },
+  {
+   "backend": "sqlite",
+   "id": "F4",
+   "area": "Registers",
+   "name": "schedule workbook: inspections",
+   "status": "pass",
+   "detail": "1 sheet(s), 9483 bytes"
+  },
+  {
+   "backend": "sqlite",
+   "id": "F3",
+   "area": "Registers",
+   "name": "register workbook: ncr",
+   "status": "pass",
+   "detail": "2 sheet(s), 13872 bytes"
+  },
+  {
+   "backend": "sqlite",
+   "id": "F4",
+   "area": "Registers",
+   "name": "schedule workbook: ncr",
+   "status": "pass",
+   "detail": "1 sheet(s), 9037 bytes"
+  },
+  {
+   "backend": "sqlite",
+   "id": "F3",
+   "area": "Registers",
+   "name": "register workbook: permits",
+   "status": "pass",
+   "detail": "2 sheet(s), 14058 bytes"
+  },
+  {
+   "backend": "sqlite",
+   "id": "F4",
+   "area": "Registers",
+   "name": "schedule workbook: permits",
+   "status": "pass",
+   "detail": "1 sheet(s), 9034 bytes"
+  },
+  {
+   "backend": "sqlite",
+   "id": "F3",
+   "area": "Registers",
+   "name": "register workbook: hseobs",
+   "status": "pass",
+   "detail": "2 sheet(s), 15730 bytes"
+  },
+  {
+   "backend": "sqlite",
+   "id": "F4",
+   "area": "Registers",
+   "name": "schedule workbook: hseobs",
+   "status": "pass",
+   "detail": "1 sheet(s), 9446 bytes"
+  },
+  {
+   "backend": "sqlite",
+   "id": "F3",
+   "area": "Registers",
+   "name": "register workbook: mr",
+   "status": "pass",
+   "detail": "2 sheet(s), 14023 bytes"
+  },
+  {
+   "backend": "sqlite",
+   "id": "F4",
+   "area": "Registers",
+   "name": "schedule workbook: mr",
+   "status": "pass",
+   "detail": "1 sheet(s), 9014 bytes"
+  },
+  {
+   "backend": "sqlite",
+   "id": "F3",
+   "area": "Registers",
+   "name": "register workbook: certs",
+   "status": "pass",
+   "detail": "2 sheet(s), 15043 bytes"
+  },
+  {
+   "backend": "sqlite",
+   "id": "F4",
+   "area": "Registers",
+   "name": "schedule workbook: certs",
+   "status": "pass",
+   "detail": "1 sheet(s), 9434 bytes"
+  },
+  {
+   "backend": "sqlite",
+   "id": "F3",
+   "area": "Registers",
+   "name": "register workbook: drawings",
+   "status": "pass",
+   "detail": "1 sheet(s), 8835 bytes"
+  },
+  {
+   "backend": "sqlite",
+   "id": "F3",
+   "area": "Registers",
+   "name": "register workbook: boq",
+   "status": "pass",
+   "detail": "2 sheet(s), 16892 bytes"
+  },
+  {
+   "backend": "sqlite",
+   "id": "F5",
+   "area": "Registers",
+   "name": "CSV export of the programme",
+   "status": "pass",
+   "detail": "32 lines"
+  },
+  {
+   "backend": "sqlite",
+   "id": "F6",
+   "area": "Programme",
+   "name": "P6 progress workbook and review workbook",
+   "status": "pass",
+   "detail": "2 sheet(s), 11159 bytes / 1 sheet(s), 14249 bytes"
+  },
+  {
+   "backend": "sqlite",
+   "id": "F7",
+   "area": "Payment",
+   "name": "interim payment certificate reached \"certified\"",
+   "status": "pass",
+   "detail": "IPA-01 Certified — client to pay net 30627000"
+  },
+  {
+   "backend": "sqlite",
+   "id": "F8",
+   "area": "Payment",
+   "name": "IPC BOQ valuation workbook",
+   "status": "pass",
+   "detail": "6 sheet(s), 40337 bytes"
+  },
+  {
+   "backend": "sqlite",
+   "id": "F9",
+   "area": "Payment",
+   "name": "IPC covering letter (Word)",
+   "status": "pass",
+   "detail": "11628 bytes"
+  },
+  {
+   "backend": "sqlite",
+   "id": "F10",
+   "area": "Payment",
+   "name": "IPC full pack (.zip)",
+   "status": "pass",
+   "detail": "13 files: IPA-01 - Residential Tower — G+2P+12/01 Payment application IPA-01.doc, IPA-01 - Residential Tower — G+2P+12/02 BOQ valuation IPA-01.xlsx, IPA-01 - Residential Tower — G+2P+12/03 Progress report 2026-09-07 to 2026-10-07.doc, IPA-01 - Residential Tower — G+2P+12/04 Photographs/2026-10-07 A1000 Completed — A1000.png, IPA-01 - Residential Tower — G+2P+12/04 Photographs/2026-10-07 A1010 Completed — A1010.png, IPA-01 - Residential Tower — G+2P+12/04 Photographs/2026-10-07 A1020 Completed — A1020.png, IPA-01 - Residential Tower — G+2P+12/04 Photographs/2026-10-07 A1030 Completed — A1030.pn"
+  },
+  {
+   "backend": "sqlite",
+   "id": "F11",
+   "area": "Payment",
+   "name": "a second application while the first is open, or a bad period, is blocked",
+   "status": "pass",
+   "detail": "The period cannot end after today."
+  },
+  {
+   "backend": "sqlite",
+   "id": "G1",
+   "area": "Templates",
+   "name": "Word template upload + RFI filled in the consultant format",
+   "status": "pass",
+   "detail": "1070 bytes"
+  },
+  {
+   "backend": "sqlite",
+   "id": "G2",
+   "area": "Templates",
+   "name": "Excel template upload + WIR filled in the consultant format",
+   "status": "pass",
+   "detail": "1 sheet(s), 1947 bytes"
+  },
+  {
+   "backend": "sqlite",
+   "id": "G3",
+   "area": "Templates",
+   "name": "a record with no template says so, not a crash",
+   "status": "pass",
+   "detail": ""
+  },
+  {
+   "backend": "sqlite",
+   "id": "G4",
+   "area": "Drawings",
+   "name": "Design uploads a sheet, PM approves, drawing register exports",
+   "status": "pass",
+   "detail": "1 sheet(s), 9628 bytes"
+  },
+  {
+   "backend": "sqlite",
+   "id": "G5",
+   "area": "Minutes",
+   "name": "DC drafts minutes, issues them, action is numbered, PM closes it, Word downloads",
+   "status": "pass",
+   "detail": "6110 bytes / 1 sheet(s), 9096 bytes"
+  },
+  {
+   "backend": "sqlite",
+   "id": "G6",
+   "area": "Correspondence",
+   "name": "DC logs an incoming letter; the issued reply closes it",
+   "status": "pass",
+   "detail": "IN-001 → Replied — LTR-002 issued 2026-10-07"
+  },
+  {
+   "backend": "sqlite",
+   "id": "G7",
+   "area": "Site diary",
+   "name": "Document Control saves a diary; the PM submits it; Word and print versions download",
+   "status": "pass",
+   "detail": "49477 bytes / 27744 bytes"
+  },
+  {
+   "backend": "sqlite",
+   "id": "G8",
+   "area": "Issues",
+   "name": "site raises an issue; office issues it; issue notice renders",
+   "status": "pass",
+   "detail": "8673 bytes"
+  },
+  {
+   "backend": "sqlite",
+   "id": "G9",
+   "area": "Workflows",
+   "name": "every register type can be walked to the end of its workflow",
+   "status": "pass",
+   "detail": "14 types moved"
+  },
+  {
+   "backend": "sqlite",
+   "id": "G10",
+   "area": "Access",
+   "name": "consultant (read-only) cannot raise records, payments or drawings",
+   "status": "pass",
+   "detail": ""
+  },
+  {
+   "backend": "sqlite",
+   "id": "G11",
+   "area": "Access",
+   "name": "a site engineer cannot approve payment or drawings",
+   "status": "pass",
+   "detail": ""
+  },
+  {
+   "backend": "sqlite",
+   "id": "G12",
+   "area": "Modules",
+   "name": "switching Commercial off hides and refuses it; on again keeps every record",
+   "status": "pass",
+   "detail": ""
+  },
+  {
+   "backend": "sqlite",
+   "id": "G13",
+   "area": "Programme",
+   "name": "Primavera .xer preview and import",
+   "status": "untestable",
+   "detail": "no --xer file given"
+  },
+  {
+   "backend": "sqlite",
+   "id": "G14",
+   "area": "Intake",
+   "name": "folder intake: open batch, scan files, read back",
+   "status": "pass",
+   "detail": "batch bat_muxoksmwi3ldzk read back"
+  },
+  {
+   "backend": "sqlite",
+   "id": "G15",
+   "area": "Dashboards",
+   "name": "\"Needs my attention\" answers for every seat",
+   "status": "pass",
+   "detail": ""
+  },
+  {
+   "backend": "sqlite",
+   "id": "G16",
+   "area": "Notifications",
+   "name": "DC notifies the team; PM sees it under the bell",
+   "status": "pass",
+   "detail": ""
+  },
+  {
+   "backend": "sqlite",
+   "id": "G17",
+   "area": "Go-live",
+   "name": "AETRAA Admin takes the project live",
+   "status": "pass",
+   "detail": "already live"
+  },
+  {
+   "backend": "sqlite",
+   "id": "G18",
+   "area": "Email",
+   "name": "email is off locally and the platform says so",
+   "status": "pass",
+   "detail": "{\"driver\":\"none\",\"driver_label\":\"not configured\",\"key\":false,\"from\":\"\",\"test_sender\":false,\"sender_set\":false,\"people\":11,\"people_with_email"
+  },
+  {
+   "backend": "sqlite",
+   "id": "H1",
+   "area": "Browser",
+   "name": "AETRAA Admin (owner): 51 pages drawn without errors",
+   "status": "pass",
+   "detail": ""
+  },
+  {
+   "backend": "sqlite",
+   "id": "H1",
+   "area": "Browser",
+   "name": "AETRAA Admin (owner) (phone): 6 pages drawn without errors",
+   "status": "pass",
+   "detail": ""
+  },
+  {
+   "backend": "sqlite",
+   "id": "H1",
+   "area": "Browser",
+   "name": "Principal: 51 pages drawn without errors",
+   "status": "pass",
+   "detail": ""
+  },
+  {
+   "backend": "sqlite",
+   "id": "H1",
+   "area": "Browser",
+   "name": "Project Manager: 51 pages drawn without errors",
+   "status": "pass",
+   "detail": ""
+  },
+  {
+   "backend": "sqlite",
+   "id": "H1",
+   "area": "Browser",
+   "name": "Project Manager (phone): 6 pages drawn without errors",
+   "status": "pass",
+   "detail": ""
+  },
+  {
+   "backend": "sqlite",
+   "id": "H1",
+   "area": "Browser",
+   "name": "Planning Engineer: 51 pages drawn without errors",
+   "status": "pass",
+   "detail": ""
+  },
+  {
+   "backend": "sqlite",
+   "id": "H1",
+   "area": "Browser",
+   "name": "Site Engineer — Civil: 51 pages drawn without errors",
+   "status": "pass",
+   "detail": ""
+  },
+  {
+   "backend": "sqlite",
+   "id": "H1",
+   "area": "Browser",
+   "name": "Site Engineer — Civil (phone): 6 pages drawn without errors",
+   "status": "pass",
+   "detail": ""
+  },
+  {
+   "backend": "sqlite",
+   "id": "H1",
+   "area": "Browser",
+   "name": "Site Engineer — MEP: 51 pages drawn without errors",
+   "status": "pass",
+   "detail": ""
+  },
+  {
+   "backend": "sqlite",
+   "id": "H1",
+   "area": "Browser",
+   "name": "Design Manager: 51 pages drawn without errors",
+   "status": "pass",
+   "detail": ""
+  },
+  {
+   "backend": "sqlite",
+   "id": "H1",
+   "area": "Browser",
+   "name": "Document Controller: 51 pages drawn without errors",
+   "status": "pass",
+   "detail": ""
+  },
+  {
+   "backend": "sqlite",
+   "id": "H1",
+   "area": "Browser",
+   "name": "QA/QC Engineer: 51 pages drawn without errors",
+   "status": "pass",
+   "detail": ""
+  },
+  {
+   "backend": "sqlite",
+   "id": "H1",
+   "area": "Browser",
+   "name": "HSE Officer: 51 pages drawn without errors",
+   "status": "pass",
+   "detail": ""
+  },
+  {
+   "backend": "sqlite",
+   "id": "H1",
+   "area": "Browser",
+   "name": "Quantity Surveyor: 51 pages drawn without errors",
+   "status": "pass",
+   "detail": ""
+  },
+  {
+   "backend": "sqlite",
+   "id": "H1",
+   "area": "Browser",
+   "name": "Consultant (read-only): 51 pages drawn without errors",
+   "status": "pass",
+   "detail": ""
+  },
+  {
+   "backend": "sqlite",
+   "id": "A5",
+   "area": "Boot",
+   "name": "server log has no errors during the run",
+   "status": "pass",
+   "detail": ""
+  },
+  {
+   "backend": "sqlite",
+   "id": "A6",
+   "area": "Boot",
+   "name": "local.mjs restarts on its own database and the projects are still there",
+   "status": "pass",
+   "detail": "1 project(s) kept"
+  },
+  {
+   "backend": "postgres",
+   "id": "A1",
+   "area": "Boot",
+   "name": "release starts (server.js on PostgreSQL)",
+   "status": "pass",
+   "detail": "http://127.0.0.1:51191"
+  },
+  {
+   "backend": "postgres",
+   "id": "A2",
+   "area": "Boot",
+   "name": "owner code signs in",
+   "status": "pass",
+   "detail": ""
+  },
+  {
+   "backend": "postgres",
+   "id": "A3",
+   "area": "Boot",
+   "name": "file storage round-trips (/api/storage)",
+   "status": "pass",
+   "detail": "the database"
+  },
+  {
+   "backend": "postgres",
+   "id": "A4",
+   "area": "Boot",
+   "name": "wrong code is refused",
+   "status": "pass",
+   "detail": ""
+  },
+  {
+   "backend": "postgres",
+   "id": "B1",
+   "area": "Setup workflow",
+   "name": "onboard company + project, team, programme, BOQ, BOM, registers, HSE log, IPC chain (demo seed)",
+   "status": "pass",
+   "detail": "project residential-tower-g-2p-1"
+  },
+  {
+   "backend": "postgres",
+   "id": "B2",
+   "area": "Setup workflow",
+   "name": "every seed call accepted (116 calls)",
+   "status": "fail",
+   "detail": "seed POST /api/update → 403 outside your trades: A1090 | seed POST /api/update → 403 outside your trades: A1100 | seed POST /api/update → 403 outside your trades: A2000 | seed POST /api/update → 403 outside your trades: A2010 | seed POST /api/update → 403 outside your trades: A2020 | seed POST /api/update → 403 outside your trades: A2030"
+  },
+  {
+   "backend": "postgres",
+   "id": "C1",
+   "area": "Sign-in",
+   "name": "seat signs in: Principal",
+   "status": "pass",
+   "detail": ""
+  },
+  {
+   "backend": "postgres",
+   "id": "C1",
+   "area": "Sign-in",
+   "name": "seat signs in: Project Manager",
+   "status": "pass",
+   "detail": ""
+  },
+  {
+   "backend": "postgres",
+   "id": "C1",
+   "area": "Sign-in",
+   "name": "seat signs in: Planning Engineer",
+   "status": "pass",
+   "detail": ""
+  },
+  {
+   "backend": "postgres",
+   "id": "C1",
+   "area": "Sign-in",
+   "name": "seat signs in: Site Engineer — Civil",
+   "status": "pass",
+   "detail": ""
+  },
+  {
+   "backend": "postgres",
+   "id": "C1",
+   "area": "Sign-in",
+   "name": "seat signs in: Site Engineer — MEP",
+   "status": "pass",
+   "detail": ""
+  },
+  {
+   "backend": "postgres",
+   "id": "C1",
+   "area": "Sign-in",
+   "name": "seat signs in: Design Manager",
+   "status": "pass",
+   "detail": ""
+  },
+  {
+   "backend": "postgres",
+   "id": "C1",
+   "area": "Sign-in",
+   "name": "seat signs in: Document Controller",
+   "status": "pass",
+   "detail": ""
+  },
+  {
+   "backend": "postgres",
+   "id": "C1",
+   "area": "Sign-in",
+   "name": "seat signs in: QA/QC Engineer",
+   "status": "pass",
+   "detail": ""
+  },
+  {
+   "backend": "postgres",
+   "id": "C1",
+   "area": "Sign-in",
+   "name": "seat signs in: HSE Officer",
+   "status": "pass",
+   "detail": ""
+  },
+  {
+   "backend": "postgres",
+   "id": "C1",
+   "area": "Sign-in",
+   "name": "seat signs in: Quantity Surveyor",
+   "status": "pass",
+   "detail": ""
+  },
+  {
+   "backend": "postgres",
+   "id": "C1",
+   "area": "Sign-in",
+   "name": "seat signs in: Consultant (read-only)",
+   "status": "pass",
+   "detail": ""
+  },
+  {
+   "backend": "postgres",
+   "id": "D1",
+   "area": "Dashboards",
+   "name": "every page answers for AETRAA Admin (owner) (53 open, 1 refused)",
+   "status": "pass",
+   "detail": ""
+  },
+  {
+   "backend": "postgres",
+   "id": "D1",
+   "area": "Dashboards",
+   "name": "every page answers for Principal (53 open, 1 refused)",
+   "status": "pass",
+   "detail": ""
+  },
+  {
+   "backend": "postgres",
+   "id": "D1",
+   "area": "Dashboards",
+   "name": "every page answers for Project Manager (53 open, 1 refused)",
+   "status": "pass",
+   "detail": ""
+  },
+  {
+   "backend": "postgres",
+   "id": "D1",
+   "area": "Dashboards",
+   "name": "every page answers for Planning Engineer (54 open, 0 refused)",
+   "status": "pass",
+   "detail": ""
+  },
+  {
+   "backend": "postgres",
+   "id": "D1",
+   "area": "Dashboards",
+   "name": "every page answers for Site Engineer — Civil (54 open, 0 refused)",
+   "status": "pass",
+   "detail": ""
+  },
+  {
+   "backend": "postgres",
+   "id": "D1",
+   "area": "Dashboards",
+   "name": "every page answers for Site Engineer — MEP (54 open, 0 refused)",
+   "status": "pass",
+   "detail": ""
+  },
+  {
+   "backend": "postgres",
+   "id": "D1",
+   "area": "Dashboards",
+   "name": "every page answers for Design Manager (54 open, 0 refused)",
+   "status": "pass",
+   "detail": ""
+  },
+  {
+   "backend": "postgres",
+   "id": "D1",
+   "area": "Dashboards",
+   "name": "every page answers for Document Controller (54 open, 0 refused)",
+   "status": "pass",
+   "detail": ""
+  },
+  {
+   "backend": "postgres",
+   "id": "D1",
+   "area": "Dashboards",
+   "name": "every page answers for QA/QC Engineer (54 open, 0 refused)",
+   "status": "pass",
+   "detail": ""
+  },
+  {
+   "backend": "postgres",
+   "id": "D1",
+   "area": "Dashboards",
+   "name": "every page answers for HSE Officer (54 open, 0 refused)",
+   "status": "pass",
+   "detail": ""
+  },
+  {
+   "backend": "postgres",
+   "id": "D1",
+   "area": "Dashboards",
+   "name": "every page answers for Quantity Surveyor (54 open, 0 refused)",
+   "status": "pass",
+   "detail": ""
+  },
+  {
+   "backend": "postgres",
+   "id": "D1",
+   "area": "Dashboards",
+   "name": "every page answers for Consultant (read-only) (53 open, 1 refused)",
+   "status": "pass",
+   "detail": ""
+  },
+  {
+   "backend": "postgres",
+   "id": "D2",
+   "area": "Access",
+   "name": "setup console is not usable by a client seat",
+   "status": "pass",
+   "detail": ""
+  },
+  {
+   "backend": "postgres",
+   "id": "E1",
+   "area": "API",
+   "name": "no GET endpoint crashes for Project Manager (154 endpoints)",
+   "status": "pass",
+   "detail": ""
+  },
+  {
+   "backend": "postgres",
+   "id": "E1",
+   "area": "API",
+   "name": "no GET endpoint crashes for AETRAA Admin (owner) (154 endpoints)",
+   "status": "pass",
+   "detail": ""
+  },
+  {
+   "backend": "postgres",
+   "id": "F1",
+   "area": "Reports",
+   "name": "daily report 2026-10-07 as html",
+   "status": "pass",
+   "detail": "39435 bytes"
+  },
+  {
+   "backend": "postgres",
+   "id": "F1",
+   "area": "Reports",
+   "name": "daily report 2026-10-07 as doc",
+   "status": "pass",
+   "detail": "40033 bytes"
+  },
+  {
+   "backend": "postgres",
+   "id": "F1",
+   "area": "Reports",
+   "name": "weekly report 2026-10-05 as html",
+   "status": "pass",
+   "detail": "75135 bytes"
+  },
+  {
+   "backend": "postgres",
+   "id": "F1",
+   "area": "Reports",
+   "name": "weekly report 2026-10-05 as doc",
+   "status": "pass",
+   "detail": "72947 bytes"
+  },
+  {
+   "backend": "postgres",
+   "id": "F1",
+   "area": "Reports",
+   "name": "monthly report 2026-10 as html",
+   "status": "pass",
+   "detail": "75135 bytes"
+  },
+  {
+   "backend": "postgres",
+   "id": "F1",
+   "area": "Reports",
+   "name": "monthly report 2026-10 as doc",
+   "status": "pass",
+   "detail": "72935 bytes"
+  },
+  {
+   "backend": "postgres",
+   "id": "F1",
+   "area": "Reports",
+   "name": "monthly report 2026-09 as html",
+   "status": "pass",
+   "detail": "38490 bytes"
+  },
+  {
+   "backend": "postgres",
+   "id": "F1",
+   "area": "Reports",
+   "name": "monthly report 2026-09 as doc",
+   "status": "pass",
+   "detail": "36387 bytes"
+  },
+  {
+   "backend": "postgres",
+   "id": "F1",
+   "area": "Reports",
+   "name": "lookahead report 2026-10-07 as html",
+   "status": "pass",
+   "detail": "10461 bytes"
+  },
+  {
+   "backend": "postgres",
+   "id": "F1",
+   "area": "Reports",
+   "name": "lookahead report 2026-10-07 as doc",
+   "status": "pass",
+   "detail": "11064 bytes"
+  },
+  {
+   "backend": "postgres",
+   "id": "F1",
+   "area": "Reports",
+   "name": "programme report 2026-10-07 as html",
+   "status": "pass",
+   "detail": "14874 bytes"
+  },
+  {
+   "backend": "postgres",
+   "id": "F1",
+   "area": "Reports",
+   "name": "programme report 2026-10-07 as doc",
+   "status": "pass",
+   "detail": "12665 bytes"
+  },
+  {
+   "backend": "postgres",
+   "id": "F1",
+   "area": "Reports",
+   "name": "hse report 2026-10 as html",
+   "status": "pass",
+   "detail": "37684 bytes"
+  },
+  {
+   "backend": "postgres",
+   "id": "F1",
+   "area": "Reports",
+   "name": "hse report 2026-10 as doc",
+   "status": "pass",
+   "detail": "38281 bytes"
+  },
+  {
+   "backend": "postgres",
+   "id": "F2",
+   "area": "Reports",
+   "name": "AI narrative is off without a key and says so",
+   "status": "pass",
+   "detail": "disabled, as expected with no key"
+  },
+  {
+   "backend": "postgres",
+   "id": "F3",
+   "area": "Registers",
+   "name": "register workbook: submittals",
+   "status": "pass",
+   "detail": "2 sheet(s), 14595 bytes"
+  },
+  {
+   "backend": "postgres",
+   "id": "F4",
+   "area": "Registers",
+   "name": "schedule workbook: submittals",
+   "status": "pass",
+   "detail": "1 sheet(s), 9408 bytes"
+  },
+  {
+   "backend": "postgres",
+   "id": "F3",
+   "area": "Registers",
+   "name": "register workbook: rfi",
+   "status": "pass",
+   "detail": "1 sheet(s), 10785 bytes"
+  },
+  {
+   "backend": "postgres",
+   "id": "F4",
+   "area": "Registers",
+   "name": "schedule workbook: rfi",
+   "status": "pass",
+   "detail": "1 sheet(s), 9413 bytes"
+  },
+  {
+   "backend": "postgres",
+   "id": "F3",
+   "area": "Registers",
+   "name": "register workbook: matapp",
+   "status": "pass",
+   "detail": "2 sheet(s), 12150 bytes"
+  },
+  {
+   "backend": "postgres",
+   "id": "F4",
+   "area": "Registers",
+   "name": "schedule workbook: matapp",
+   "status": "pass",
+   "detail": "1 sheet(s), 8577 bytes"
+  },
+  {
+   "backend": "postgres",
+   "id": "F3",
+   "area": "Registers",
+   "name": "register workbook: authority",
+   "status": "pass",
+   "detail": "2 sheet(s), 14462 bytes"
+  },
+  {
+   "backend": "postgres",
+   "id": "F4",
+   "area": "Registers",
+   "name": "schedule workbook: authority",
+   "status": "pass",
+   "detail": "1 sheet(s), 9311 bytes"
+  },
+  {
+   "backend": "postgres",
+   "id": "F3",
+   "area": "Registers",
+   "name": "register workbook: letters",
+   "status": "pass",
+   "detail": "2 sheet(s), 11705 bytes"
+  },
+  {
+   "backend": "postgres",
+   "id": "F4",
+   "area": "Registers",
+   "name": "schedule workbook: letters",
+   "status": "pass",
+   "detail": "1 sheet(s), 8648 bytes"
+  },
+  {
+   "backend": "postgres",
+   "id": "F3",
+   "area": "Registers",
+   "name": "register workbook: variations",
+   "status": "pass",
+   "detail": "2 sheet(s), 15317 bytes"
+  },
+  {
+   "backend": "postgres",
+   "id": "F4",
+   "area": "Registers",
+   "name": "schedule workbook: variations",
+   "status": "pass",
+   "detail": "1 sheet(s), 9367 bytes"
+  },
+  {
+   "backend": "postgres",
+   "id": "F3",
+   "area": "Registers",
+   "name": "register workbook: inspections",
+   "status": "pass",
+   "detail": "2 sheet(s), 14599 bytes"
+  },
+  {
+   "backend": "postgres",
+   "id": "F4",
+   "area": "Registers",
+   "name": "schedule workbook: inspections",
+   "status": "pass",
+   "detail": "1 sheet(s), 9483 bytes"
+  },
+  {
+   "backend": "postgres",
+   "id": "F3",
+   "area": "Registers",
+   "name": "register workbook: ncr",
+   "status": "pass",
+   "detail": "2 sheet(s), 13872 bytes"
+  },
+  {
+   "backend": "postgres",
+   "id": "F4",
+   "area": "Registers",
+   "name": "schedule workbook: ncr",
+   "status": "pass",
+   "detail": "1 sheet(s), 9037 bytes"
+  },
+  {
+   "backend": "postgres",
+   "id": "F3",
+   "area": "Registers",
+   "name": "register workbook: permits",
+   "status": "pass",
+   "detail": "2 sheet(s), 14058 bytes"
+  },
+  {
+   "backend": "postgres",
+   "id": "F4",
+   "area": "Registers",
+   "name": "schedule workbook: permits",
+   "status": "pass",
+   "detail": "1 sheet(s), 9034 bytes"
+  },
+  {
+   "backend": "postgres",
+   "id": "F3",
+   "area": "Registers",
+   "name": "register workbook: hseobs",
+   "status": "pass",
+   "detail": "2 sheet(s), 15730 bytes"
+  },
+  {
+   "backend": "postgres",
+   "id": "F4",
+   "area": "Registers",
+   "name": "schedule workbook: hseobs",
+   "status": "pass",
+   "detail": "1 sheet(s), 9446 bytes"
+  },
+  {
+   "backend": "postgres",
+   "id": "F3",
+   "area": "Registers",
+   "name": "register workbook: mr",
+   "status": "pass",
+   "detail": "2 sheet(s), 14023 bytes"
+  },
+  {
+   "backend": "postgres",
+   "id": "F4",
+   "area": "Registers",
+   "name": "schedule workbook: mr",
+   "status": "pass",
+   "detail": "1 sheet(s), 9014 bytes"
+  },
+  {
+   "backend": "postgres",
+   "id": "F3",
+   "area": "Registers",
+   "name": "register workbook: certs",
+   "status": "pass",
+   "detail": "2 sheet(s), 15043 bytes"
+  },
+  {
+   "backend": "postgres",
+   "id": "F4",
+   "area": "Registers",
+   "name": "schedule workbook: certs",
+   "status": "pass",
+   "detail": "1 sheet(s), 9434 bytes"
+  },
+  {
+   "backend": "postgres",
+   "id": "F3",
+   "area": "Registers",
+   "name": "register workbook: drawings",
+   "status": "pass",
+   "detail": "1 sheet(s), 8835 bytes"
+  },
+  {
+   "backend": "postgres",
+   "id": "F3",
+   "area": "Registers",
+   "name": "register workbook: boq",
+   "status": "pass",
+   "detail": "2 sheet(s), 16892 bytes"
+  },
+  {
+   "backend": "postgres",
+   "id": "F5",
+   "area": "Registers",
+   "name": "CSV export of the programme",
+   "status": "pass",
+   "detail": "32 lines"
+  },
+  {
+   "backend": "postgres",
+   "id": "F6",
+   "area": "Programme",
+   "name": "P6 progress workbook and review workbook",
+   "status": "pass",
+   "detail": "2 sheet(s), 11159 bytes / 1 sheet(s), 14249 bytes"
+  },
+  {
+   "backend": "postgres",
+   "id": "F7",
+   "area": "Payment",
+   "name": "interim payment certificate reached \"certified\"",
+   "status": "pass",
+   "detail": "IPA-01 Certified — client to pay net 30627000"
+  },
+  {
+   "backend": "postgres",
+   "id": "F8",
+   "area": "Payment",
+   "name": "IPC BOQ valuation workbook",
+   "status": "pass",
+   "detail": "6 sheet(s), 40337 bytes"
+  },
+  {
+   "backend": "postgres",
+   "id": "F9",
+   "area": "Payment",
+   "name": "IPC covering letter (Word)",
+   "status": "pass",
+   "detail": "11628 bytes"
+  },
+  {
+   "backend": "postgres",
+   "id": "F10",
+   "area": "Payment",
+   "name": "IPC full pack (.zip)",
+   "status": "pass",
+   "detail": "13 files: IPA-01 - Residential Tower — G+2P+12/01 Payment application IPA-01.doc, IPA-01 - Residential Tower — G+2P+12/02 BOQ valuation IPA-01.xlsx, IPA-01 - Residential Tower — G+2P+12/03 Progress report 2026-09-07 to 2026-10-07.doc, IPA-01 - Residential Tower — G+2P+12/04 Photographs/2026-10-07 A1000 Completed — A1000.png, IPA-01 - Residential Tower — G+2P+12/04 Photographs/2026-10-07 A1010 Completed — A1010.png, IPA-01 - Residential Tower — G+2P+12/04 Photographs/2026-10-07 A1020 Completed — A1020.png, IPA-01 - Residential Tower — G+2P+12/04 Photographs/2026-10-07 A1030 Completed — A1030.pn"
+  },
+  {
+   "backend": "postgres",
+   "id": "F11",
+   "area": "Payment",
+   "name": "a second application while the first is open, or a bad period, is blocked",
+   "status": "pass",
+   "detail": "The period cannot end after today."
+  },
+  {
+   "backend": "postgres",
+   "id": "G1",
+   "area": "Templates",
+   "name": "Word template upload + RFI filled in the consultant format",
+   "status": "pass",
+   "detail": "1070 bytes"
+  },
+  {
+   "backend": "postgres",
+   "id": "G2",
+   "area": "Templates",
+   "name": "Excel template upload + WIR filled in the consultant format",
+   "status": "pass",
+   "detail": "1 sheet(s), 1947 bytes"
+  },
+  {
+   "backend": "postgres",
+   "id": "G3",
+   "area": "Templates",
+   "name": "a record with no template says so, not a crash",
+   "status": "pass",
+   "detail": ""
+  },
+  {
+   "backend": "postgres",
+   "id": "G4",
+   "area": "Drawings",
+   "name": "Design uploads a sheet, PM approves, drawing register exports",
+   "status": "pass",
+   "detail": "1 sheet(s), 9628 bytes"
+  },
+  {
+   "backend": "postgres",
+   "id": "G5",
+   "area": "Minutes",
+   "name": "DC drafts minutes, issues them, action is numbered, PM closes it, Word downloads",
+   "status": "pass",
+   "detail": "6110 bytes / 1 sheet(s), 9096 bytes"
+  },
+  {
+   "backend": "postgres",
+   "id": "G6",
+   "area": "Correspondence",
+   "name": "DC logs an incoming letter; the issued reply closes it",
+   "status": "pass",
+   "detail": "IN-001 → Replied — LTR-002 issued 2026-10-07"
+  },
+  {
+   "backend": "postgres",
+   "id": "G7",
+   "area": "Site diary",
+   "name": "Document Control saves a diary; the PM submits it; Word and print versions download",
+   "status": "pass",
+   "detail": "49477 bytes / 27744 bytes"
+  },
+  {
+   "backend": "postgres",
+   "id": "G8",
+   "area": "Issues",
+   "name": "site raises an issue; office issues it; issue notice renders",
+   "status": "pass",
+   "detail": "8673 bytes"
+  },
+  {
+   "backend": "postgres",
+   "id": "G9",
+   "area": "Workflows",
+   "name": "every register type can be walked to the end of its workflow",
+   "status": "pass",
+   "detail": "14 types moved"
+  },
+  {
+   "backend": "postgres",
+   "id": "G10",
+   "area": "Access",
+   "name": "consultant (read-only) cannot raise records, payments or drawings",
+   "status": "pass",
+   "detail": ""
+  },
+  {
+   "backend": "postgres",
+   "id": "G11",
+   "area": "Access",
+   "name": "a site engineer cannot approve payment or drawings",
+   "status": "pass",
+   "detail": ""
+  },
+  {
+   "backend": "postgres",
+   "id": "G12",
+   "area": "Modules",
+   "name": "switching Commercial off hides and refuses it; on again keeps every record",
+   "status": "pass",
+   "detail": ""
+  },
+  {
+   "backend": "postgres",
+   "id": "G13",
+   "area": "Programme",
+   "name": "Primavera .xer preview and import",
+   "status": "untestable",
+   "detail": "no --xer file given"
+  },
+  {
+   "backend": "postgres",
+   "id": "G14",
+   "area": "Intake",
+   "name": "folder intake: open batch, scan files, read back",
+   "status": "pass",
+   "detail": "batch bat_muxp84mrynbxvr read back"
+  },
+  {
+   "backend": "postgres",
+   "id": "G15",
+   "area": "Dashboards",
+   "name": "\"Needs my attention\" answers for every seat",
+   "status": "pass",
+   "detail": ""
+  },
+  {
+   "backend": "postgres",
+   "id": "G16",
+   "area": "Notifications",
+   "name": "DC notifies the team; PM sees it under the bell",
+   "status": "pass",
+   "detail": ""
+  },
+  {
+   "backend": "postgres",
+   "id": "G17",
+   "area": "Go-live",
+   "name": "AETRAA Admin takes the project live",
+   "status": "pass",
+   "detail": "already live"
+  },
+  {
+   "backend": "postgres",
+   "id": "G18",
+   "area": "Email",
+   "name": "email is off locally and the platform says so",
+   "status": "pass",
+   "detail": "{\"driver\":\"none\",\"driver_label\":\"not configured\",\"key\":false,\"from\":\"\",\"test_sender\":false,\"sender_set\":false,\"people\":\"11\",\"people_with_ema"
+  },
+  {
+   "backend": "postgres",
+   "id": "H1",
+   "area": "Browser",
+   "name": "AETRAA Admin (owner): 51 pages drawn without errors",
+   "status": "pass",
+   "detail": ""
+  },
+  {
+   "backend": "postgres",
+   "id": "H1",
+   "area": "Browser",
+   "name": "AETRAA Admin (owner) (phone): 6 pages drawn without errors",
+   "status": "pass",
+   "detail": ""
+  },
+  {
+   "backend": "postgres",
+   "id": "H1",
+   "area": "Browser",
+   "name": "Principal: 51 pages drawn without errors",
+   "status": "pass",
+   "detail": ""
+  },
+  {
+   "backend": "postgres",
+   "id": "H1",
+   "area": "Browser",
+   "name": "Project Manager: 51 pages drawn without errors",
+   "status": "pass",
+   "detail": ""
+  },
+  {
+   "backend": "postgres",
+   "id": "H1",
+   "area": "Browser",
+   "name": "Project Manager (phone): 6 pages drawn without errors",
+   "status": "pass",
+   "detail": ""
+  },
+  {
+   "backend": "postgres",
+   "id": "H1",
+   "area": "Browser",
+   "name": "Planning Engineer: 51 pages drawn without errors",
+   "status": "pass",
+   "detail": ""
+  },
+  {
+   "backend": "postgres",
+   "id": "H1",
+   "area": "Browser",
+   "name": "Site Engineer — Civil: 51 pages drawn without errors",
+   "status": "pass",
+   "detail": ""
+  },
+  {
+   "backend": "postgres",
+   "id": "H1",
+   "area": "Browser",
+   "name": "Site Engineer — Civil (phone): 6 pages drawn without errors",
+   "status": "pass",
+   "detail": ""
+  },
+  {
+   "backend": "postgres",
+   "id": "H1",
+   "area": "Browser",
+   "name": "Site Engineer — MEP: 51 pages drawn without errors",
+   "status": "pass",
+   "detail": ""
+  },
+  {
+   "backend": "postgres",
+   "id": "H1",
+   "area": "Browser",
+   "name": "Design Manager: 51 pages drawn without errors",
+   "status": "pass",
+   "detail": ""
+  },
+  {
+   "backend": "postgres",
+   "id": "H1",
+   "area": "Browser",
+   "name": "Document Controller: 51 pages drawn without errors",
+   "status": "pass",
+   "detail": ""
+  },
+  {
+   "backend": "postgres",
+   "id": "H1",
+   "area": "Browser",
+   "name": "QA/QC Engineer: 51 pages drawn without errors",
+   "status": "pass",
+   "detail": ""
+  },
+  {
+   "backend": "postgres",
+   "id": "H1",
+   "area": "Browser",
+   "name": "HSE Officer: 51 pages drawn without errors",
+   "status": "pass",
+   "detail": ""
+  },
+  {
+   "backend": "postgres",
+   "id": "H1",
+   "area": "Browser",
+   "name": "Quantity Surveyor: 51 pages drawn without errors",
+   "status": "pass",
+   "detail": ""
+  },
+  {
+   "backend": "postgres",
+   "id": "H1",
+   "area": "Browser",
+   "name": "Consultant (read-only): 51 pages drawn without errors",
+   "status": "pass",
+   "detail": ""
+  },
+  {
+   "backend": "postgres",
+   "id": "A5",
+   "area": "Boot",
+   "name": "server log has no errors during the run",
+   "status": "warn",
+   "detail": "POST /api/setup/rules failed: error: column \"drawing_rules\" of relation \"projects\" does not exist"
+  },
+  {
+   "backend": "all",
+   "id": "U1",
+   "area": "Untestable here",
+   "name": "Sign-in codes by email (Azure Communication Services)",
+   "status": "untestable",
+   "detail": "sends real email; needs the live ACS connection string. Check by hand on the live site with one internal address."
+  },
+  {
+   "backend": "all",
+   "id": "U2",
+   "area": "Untestable here",
+   "name": "Scheduled sends: daily 18:00, weekly Mon 07:00, monthly 1st 08:00, 06:00 digest",
+   "status": "untestable",
+   "detail": "driven by the server clock and email; the report bodies they send are covered by F1."
+  },
+  {
+   "backend": "all",
+   "id": "U3",
+   "area": "Untestable here",
+   "name": "AI report narrative with a real key",
+   "status": "untestable",
+   "detail": "needs ANTHROPIC_API_KEY and spends money; only the switched-off path is tested (F2)."
+  },
+  {
+   "backend": "all",
+   "id": "U4",
+   "area": "Untestable here",
+   "name": "Azure object storage for files",
+   "status": "untestable",
+   "detail": "needs the live S3/Blob credentials; locally files go in the database. After deploy, sign in as owner and open /api/storage — it must say working: true."
+  },
+  {
+   "backend": "all",
+   "id": "U5",
+   "area": "Untestable here",
+   "name": "Azure hosting, DNS, TLS for app.aetraa.ae",
+   "status": "untestable",
+   "detail": "infrastructure, not code; use --live-readonly after deploy."
+  },
+  {
+   "backend": "all",
+   "id": "U6",
+   "area": "Untestable here",
+   "name": "Installing as a phone app (PWA)",
+   "status": "untestable",
+   "detail": "needs a real phone over HTTPS."
+  }
+ ]
+}

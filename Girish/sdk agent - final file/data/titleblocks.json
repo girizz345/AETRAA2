@@ -1,0 +1,202 @@
+{
+ "schema": "titleblocks/1",
+ "title_blocks": [
+  {
+   "name": "edmac-tabular-lower-right",
+   "corner": "lower-right",
+   "width_frac": 0.3,
+   "height_frac": 0.4,
+   "patterns": [
+    {
+     "field": "drawing_no",
+     "mode": "below",
+     "regex": "(?P<label>DWG\\s*NO\\.?)\\s*:",
+     "note": "EDMAC: labels on one line, values beneath — PROJECT NO. | DWG NO. | REV NO."
+    },
+    {
+     "field": "revision",
+     "mode": "below",
+     "regex": "(?P<label>REV\\s*NO\\.?)\\s*:",
+     "note": ""
+    },
+    {
+     "field": "title",
+     "mode": "below",
+     "regex": "(?P<label>DWG\\s*NAME)\\s*:",
+     "note": "the SHEET title, not PROJECT TITLE which names the building"
+    },
+    {
+     "field": "scale",
+     "regex": "SCALE\\s*[:\\-]?\\s*(?P<value>(?:1\\s*[:/]\\s*[0-9]{1,5})|NTS|N\\.T\\.S\\.?|AS\\s+SHOWN)",
+     "note": ""
+    },
+    {
+     "field": "subtitle",
+     "regex": "(?P<value>TYPICAL[A-Z0-9 ,&()\\-]*\\([^)]*\\))",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "name": "tabular-labels-over-values",
+   "corner": "right-strip",
+   "width_frac": 0.16,
+   "height_frac": 1.0,
+   "note": "Label rows with the values on the row beneath, spelled out in full: JOB NO : | DRAWING NO. : | REVISION NO. : over ___ | A-07-003 | --, DRAWING TITLE : over GROUND FLOOR PLAN, SCALE : | DATE : over 1:150 | JUN-2025. Seen on the EMSQUARE (UAE) block, full-height strip on the right. The EDMAC spec only knows the abbreviated DWG NO. / DWG NAME.",
+   "patterns": [
+    {
+     "field": "drawing_no",
+     "mode": "below",
+     "regex": "(?P<label>(?:DRAWING|DWG|DRG)\\.?\\s*(?:NO|NUMBER)\\.?)\\s*:",
+     "note": "the value under the DRAWING NO. label",
+     "value_regex": "(?P<value>[A-Z]{1,4}[-_ ]?[0-9]{2}[A-Z0-9\\-_/.]*)"
+    },
+    {
+     "field": "title",
+     "mode": "below",
+     "regex": "(?P<label>(?:DRAWING|DWG)\\s*(?:TITLE|NAME))\\s*:",
+     "note": "the SHEET title - not JOB TITLE, which names the building",
+     "rows": 2
+    },
+    {
+     "field": "revision",
+     "mode": "below",
+     "regex": "(?P<label>REV(?:ISION)?\\.?\\s*(?:NO\\.?)?)\\s*:",
+     "note": "'--' or '___' under it means none issued; value_below strips those to nothing",
+     "value_regex": "^(?P<value>P?[0-9]{1,2}[A-Z]?|[A-Z][0-9]{0,2})$"
+    },
+    {
+     "field": "scale",
+     "mode": "below",
+     "regex": "(?P<label>SCALE)\\s*:",
+     "note": "1:150 under SCALE",
+     "value_regex": "(?P<value>1\\s*[:/]\\s*[0-9]{1,5}|NTS|N\\.T\\.S\\.?|AS\\s+SHOWN)"
+    },
+    {
+     "field": "subtitle",
+     "mode": "below",
+     "regex": "(?P<label>(?:DRAWING|DWG)\\s*(?:TITLE|NAME))\\s*:",
+     "rows": 2,
+     "value_regex": "(?P<value>TYP(?:ICAL)?\\.?[A-Z0-9 ,&\\-]*\\([^)]*\\))",
+     "note": "the floor multiplier, taken from the SHEET TITLE only (TYP ( 4 - 5 ) FLOOR PLAN) - a search of the whole strip also caught a typical-floor note on a detail sheet"
+    }
+   ]
+  },
+  {
+   "name": "uae-lower-right",
+   "corner": "lower-right",
+   "width_frac": 0.26,
+   "height_frac": 0.22,
+   "patterns": [
+    {
+     "field": "drawing_no",
+     "regex": "(?:DRAWING|DWG|DRG)\\.?\\s*(?:No\\.?|NUMBER|#)?\\s*[:\\-]?\\s*(?P<value>(?=[A-Z0-9\\-_/]*[0-9])(?!(?:JAN|FEB|MAR|APR|MAY|JUN|JUL|AUG|SEP|SEPT|OCT|NOV|DEC)[-_][0-9]{2,4}\\b)[A-Z]{1,4}[-_][A-Z0-9][A-Z0-9\\-_/]{1,18})",
+     "note": "prefix-number, the common UAE consultant form"
+    },
+    {
+     "field": "drawing_no",
+     "regex": "^(?P<value>(?=[A-Z0-9\\-_/]*[0-9])[A-Z]{2,4}-[A-Z0-9]{2,6}(?:-[A-Z0-9]{1,6})?)$",
+     "note": "bare code on its own line"
+    },
+    {
+     "field": "title",
+     "regex": "(?<!JOB )(?<!PROJECT )TITLE\\s*[:\\-]?\\s*(?P<value>[A-Z0-9][A-Z0-9 ,.&/()\\-]{3,70})",
+     "note": ""
+    },
+    {
+     "field": "revision",
+     "regex": "(?:REV|REVISION)\\.?\\s*(?:No\\.?)?\\s*[:\\-]?\\s*(?P<value>P?[0-9]{0,2}[A-Z]?[0-9]{0,2})\\b",
+     "note": "C, B, P1, 03"
+    },
+    {
+     "field": "scale",
+     "regex": "SCALE\\s*[:\\-]?\\s*(?P<value>(?:1\\s*[:/]\\s*[0-9]{1,5})|NTS|N\\.T\\.S\\.?|AS\\s+SHOWN)",
+     "note": ""
+    },
+    {
+     "field": "subtitle",
+     "regex": "(?P<value>TYPICAL[A-Z0-9 ,&()\\-]*\\([^)]*\\))",
+     "note": "carries the floor multiplier"
+    },
+    {
+     "field": "subtitle",
+     "regex": "(?P<value>(?:LEVELS?|FLOORS?)\\s*0?[0-9]{1,2}\\s*[-\\u2013]\\s*0?[0-9]{1,2})",
+     "note": "level range"
+    }
+   ]
+  },
+  {
+   "name": "uae-right-strip",
+   "corner": "right-strip",
+   "width_frac": 0.16,
+   "height_frac": 1.0,
+   "patterns": [
+    {
+     "field": "drawing_no",
+     "regex": "(?:DRAWING|DWG|DRG)\\.?\\s*(?:No\\.?)?\\s*[:\\-]?\\s*(?P<value>(?=[A-Z0-9\\-_/]*[0-9])(?!(?:JAN|FEB|MAR|APR|MAY|JUN|JUL|AUG|SEP|SEPT|OCT|NOV|DEC)[-_][0-9]{2,4}\\b)[A-Z]{1,4}[-_][A-Z0-9][A-Z0-9\\-_/]{1,18})",
+     "note": ""
+    },
+    {
+     "field": "title",
+     "regex": "(?<!JOB )(?<!PROJECT )TITLE\\s*[:\\-]?\\s*(?P<value>[A-Z0-9][A-Z0-9 ,.&/()\\-]{3,70})",
+     "note": ""
+    },
+    {
+     "field": "revision",
+     "regex": "(?:REV|REVISION)\\.?\\s*[:\\-]?\\s*(?P<value>P?[0-9]{0,2}[A-Z]?[0-9]{0,2})\\b",
+     "note": ""
+    },
+    {
+     "field": "scale",
+     "regex": "SCALE\\s*[:\\-]?\\s*(?P<value>(?:1\\s*[:/]\\s*[0-9]{1,5})|NTS|AS\\s+SHOWN)",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "name": "generic-labelled",
+   "corner": "lower-right",
+   "width_frac": 0.3,
+   "height_frac": 0.4,
+   "fallback": true,
+   "note": "Read only where no office's own convention found a drawing number. The labels most offices print - SHEET NO., DRAWING NUMBER, DWG REF, SHEET TITLE - with the value beside the label or beneath it, and a drawing number of any common shape (A101, A.101, 2301-A-100, ISO 19650 codes).",
+   "patterns": [
+    {
+     "field": "drawing_no",
+     "regex": "(?:SHEET|DRAWING|DWG|DRG)\\.?[ \\t]*(?:NO|NUMBER|NUM|NR|REF|#)\\.?[ \\t]*[:\\-]?[ \\t]*(?P<value>(?!(?:JAN|FEB|MAR|APR|MAY|JUN|JUL|AUG|SEP|SEPT|OCT|NOV|DEC)\\b)(?![0-9]{1,2}[./-][0-9]{1,2}[./-][0-9]{2,4}\\b)(?![0-9]{1,3}\\s+OF\\b)(?=[A-Z0-9._/-]*[0-9])(?=[A-Z0-9._/-]{3})[A-Z0-9]{1,12}(?:[-_./][A-Z0-9]{1,10}){0,8})",
+     "note": "value beside the label"
+    },
+    {
+     "field": "drawing_no",
+     "mode": "below",
+     "regex": "(?P<label>(?:SHEET|DRAWING|DWG|DRG)\\.?[ \\t]*(?:NO|NUMBER|NUM|NR|REF|#)\\.?)[ \\t]*:?",
+     "value_regex": "^(?P<value>(?!(?:JAN|FEB|MAR|APR|MAY|JUN|JUL|AUG|SEP|SEPT|OCT|NOV|DEC)\\b)(?![0-9]{1,2}[./-][0-9]{1,2}[./-][0-9]{2,4}\\b)(?![0-9]{1,3}\\s+OF\\b)(?=[A-Z0-9._/-]*[0-9])(?=[A-Z0-9._/-]{3})[A-Z0-9]{1,12}(?:[-_./][A-Z0-9]{1,10}){0,8})",
+     "note": "value beneath the label"
+    },
+    {
+     "field": "title",
+     "regex": "(?<!JOB )(?<!PROJECT )(?:SHEET|DRAWING|DWG|DRG)[ \\t]*(?:TITLE|NAME)[ \\t]*[:\\-]?[ \\t]*(?P<value>[A-Z0-9](?:(?![ \\t]+(?:(?:SHEET|DRAWING|DWG|DRG)\\.?[ \\t]*(?:NO|NUMBER|NUM|NR|REF|#|TITLE|NAME)\\b|REV(?:ISION)?\\b|SCALE\\b|DATE\\b|DRAWN\\b|CHECKED\\b|APPROVED\\b|PROJECT\\b|CLIENT\\b|STATUS\\b))[A-Z0-9 ,.&/()\\-]){2,69})",
+     "note": ""
+    },
+    {
+     "field": "title",
+     "mode": "below",
+     "regex": "(?P<label>(?:SHEET|DRAWING|DWG|DRG)[ \\t]*(?:TITLE|NAME))[ \\t]*:?",
+     "rows": 2,
+     "value_regex": "^(?P<value>[A-Z0-9](?:(?![ \\t]+(?:(?:SHEET|DRAWING|DWG|DRG)\\.?[ \\t]*(?:NO|NUMBER|NUM|NR|REF|#|TITLE|NAME)\\b|REV(?:ISION)?\\b|SCALE\\b|DATE\\b|DRAWN\\b|CHECKED\\b|APPROVED\\b|PROJECT\\b|CLIENT\\b|STATUS\\b))[A-Z0-9 ,.&/()\\-]){2,69})",
+     "note": ""
+    },
+    {
+     "field": "revision",
+     "regex": "\\bREV(?:ISION)?\\.?[ \\t]*(?:NO\\.?)?[ \\t]*[:\\-]?[ \\t]*(?P<value>P?[0-9]{1,2}[A-Z]?|[A-Z][0-9]{0,2})\\b",
+     "note": ""
+    },
+    {
+     "field": "scale",
+     "regex": "SCALE[ \\t]*[:\\-]?[ \\t]*(?P<value>(?:1[ \\t]*[:/][ \\t]*[0-9]{1,5})|NTS|N\\.T\\.S\\.?|AS[ \\t]+SHOWN|AS[ \\t]+INDICATED)",
+     "note": ""
+    }
+   ]
+  }
+ ]
+}

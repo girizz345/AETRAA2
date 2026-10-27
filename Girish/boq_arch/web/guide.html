@@ -1,0 +1,142 @@
+<style>
+ .g h2{font-size:20px;margin:0 0 4px} .g h3{font-size:16px;margin:22px 0 6px;color:var(--blue)}
+ .g p,.g li{font-size:14.5px;line-height:1.6} .g ol,.g ul{padding-left:22px;margin:6px 0}
+ .g .step{display:flex;gap:12px;margin:16px 0 4px;align-items:flex-start}
+ .g .step .n{flex:none;width:28px;height:28px;border-radius:50%;background:var(--blue);color:#fff;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:14px}
+ .g .step h3{margin:2px 0 4px}
+ .g table{border-collapse:collapse;width:100%;margin:8px 0;font-size:14px}
+ .g td,.g th{border:1px solid var(--line);padding:6px 9px;text-align:left;vertical-align:top} .g th{background:#f3f6f9}
+ .g kbd{font:12px Consolas,monospace;background:#eef1f4;border:1px solid #d3d9df;border-bottom-width:2px;border-radius:4px;padding:0 5px}
+ .g .ex{background:#f5f9f5;border:1px solid #cfe3cf;border-radius:9px;padding:12px 16px;margin:10px 0}
+ .g .tip{background:var(--warnbg);border:1px solid #f0d9a6;border-radius:9px;padding:9px 14px;margin:10px 0;font-size:14px}
+ .g .big{font-size:15px;background:#fff;border:1px solid var(--line);border-radius:8px;padding:8px 12px;display:inline-block;margin:4px 0}
+</style>
+<div class="g">
+<h2>How to measure on a drawing</h2>
+<p class="mute">Every length, area and count you take here is worked out in metres from the drawing's scale. It is
+listed with its figures and can go into the bill with its own formula. Nine steps, then a worked example.</p>
+
+<div class="step"><div class="n">1</div><div><h3>Pick the drawing</h3>
+<p>Choose a sheet in the list on the left. <b>Plans</b> come first, then other sheets, then any document whose title
+block could not be read, such as a scan. A number beside a sheet means you have already measured that many things on it.</p></div></div>
+
+<div class="step"><div class="n">2</div><div><h3>Check the scale - do this first</h3>
+<p>The box at the top right shows the sheet's scale. <b>Every metre comes from it</b>, so a wrong scale makes every
+measurement on that sheet wrong.</p>
+<ul>
+<li><b>"Scale 1:152 at print · calibrated from the grid"</b> - the platform checked the scale against the grid
+dimensions. It is ready to use.</li>
+<li><b>"No scale yet"</b> - lengths and areas can't be worked out until you set one. Counts and notes don't need a scale.</li>
+</ul>
+<p><b>To set a scale:</b> find a dimension you know on the drawing, such as a grid bay marked 6000. Press <b>Set scale</b>
+(<kbd>K</kbd>), click once on one end of it and once on the other, then type the real distance in <b>millimetres</b>
+(6000). If you trust the printed scale you can instead press <b>Type 1:___</b> and enter, say, 100.</p>
+<div class="tip">Check it: measure another dimension you know with the Length tool. If the readout agrees with the
+figure on the drawing, the scale is right. Sheets are often printed "to fit", so the scale written in the title block
+can be wrong.</div></div></div>
+
+<div class="step"><div class="n">3</div><div><h3>Get close to what you are measuring</h3>
+<ul>
+<li><b>Scroll</b> to zoom in and out. The point under the mouse stays where it is.</li>
+<li><b>Drag</b> with the mouse to move the drawing. This works in every tool, and dragging never places a point.</li>
+<li><kbd>F</kbd> or <b>Fit</b> shows the whole sheet again. The zoom level is shown in the toolbar (100% = whole sheet).</li>
+</ul>
+<p>Zoom in far enough that you can click exactly on corners. Clicks <b>snap</b> to the ends of drawn lines: a pink
+square shows when you are on one. Turn <b>Snap</b> off in the toolbar if it gets in the way.</p></div></div>
+
+<div class="step"><div class="n">4</div><div><h3>Pick a tool and measure</h3>
+<table><tr><th>To measure&hellip;</th><th>Tool</th><th>How</th></tr>
+<tr><td>a wall, skirting, railing, pipe run - anything by <b>length</b></td><td><b>Length</b> <kbd>L</kbd></td>
+<td><b>Double-click</b> where it starts, <b>click</b> at each corner, <b>double-click</b> where it ends.</td></tr>
+<tr><td>a room, floor, ceiling, roof - anything by <b>area</b></td><td><b>Area</b> <kbd>A</kbd></td>
+<td><b>Double-click</b> on the first corner, <b>click</b> each corner going round, <b>double-click</b> on the last corner.
+It closes back to the first corner by itself.</td></tr>
+<tr><td>a square-cornered room or zone</td><td><b>Rectangle</b> <kbd>R</kbd></td>
+<td><b>Double-click</b> one corner, then <b>double-click</b> the opposite corner.</td></tr>
+<tr><td>doors, sockets, columns - anything by <b>number</b></td><td><b>Count</b> <kbd>C</kbd></td>
+<td><b>Click</b> each one; each gets a ring. Click a ring again to take it off. Then <b>Save</b> in the right-hand panel.</td></tr>
+<tr><td>every copy of one symbol or tag</td><td><b>Count similar</b> <kbd>S</kbd></td>
+<td>Click two corners round <b>one</b> of them. Every match on the sheet is ringed. Check the rings, remove any wrong ones, then Save.</td></tr>
+</table>
+<p><b>While you measure</b>, a readout next to the mouse shows the figures as they grow:</p>
+<p><span class="big">Length 14.20 m · last side 3.60 m · double-click to finish</span>
+<span class="big">Area 36.40 m² · Perimeter 24.60 m</span></p>
+<ul>
+<li><kbd>Shift</kbd> keeps the line exactly horizontal or vertical.</li>
+<li><kbd>Ctrl</kbd>+<kbd>Z</kbd> or <kbd>Backspace</kbd> takes back the last point. <kbd>Esc</kbd> abandons the measurement.</li>
+<li>Bring the mouse near an edge of the drawing and it scrolls that way, so you can follow a long wall at high zoom.</li>
+</ul></div></div>
+
+<div class="step"><div class="n">5</div><div><h3>Read the result</h3>
+<p>When you finish, the right-hand panel opens with a <b>Measured</b> box giving the figures in plain units:</p>
+<table><tr><th>You measured</th><th>You get</th></tr>
+<tr><td>a length</td><td><b>Length</b> in metres (L)</td></tr>
+<tr><td>an area or rectangle</td><td><b>Area</b> in m² (A) and its <b>Perimeter</b> in metres (P) - the distance round the edge, used for skirtings and wall finishes</td></tr>
+<tr><td>a count</td><td><b>Count</b> - the number of items (N)</td></tr>
+</table>
+<p>After you save, the figure is also written <b>on the drawing</b> beside the shape (turn this off with <b>Labels</b>
+in the toolbar) and listed under <b>On this sheet</b>.</p></div></div>
+
+<div class="step"><div class="n">6</div><div><h3>Say what it is (to put it in the bill)</h3>
+<p>A measurement on its own is only a figure. To turn it into bill quantities, fill in the panel:</p>
+<ul>
+<li><b>Name</b> - anything that helps you find it later ("Bedroom 2", "Corridor wall grid C").</li>
+<li><b>Assembly</b> - what it is, such as <i>Block wall</i>, <i>Room finishes</i> or <i>Door</i>. Each assembly turns the
+measurement into one or more bill lines using a formula. For example, a block wall gives blockwork = L × H and plaster
+to both faces = 2 × L × H. Leave it on <i>None</i> to keep the measurement without billing it.</li>
+<li><b>Its settings</b> - the boxes the assembly asks for, such as <b>wall height</b> (m) or <b>thickness</b> (mm).</li>
+<li><b>Floor</b> and <b>Times (storeys)</b> - on a "typical floor" plan that stands for several floors, put the number
+of floors in Times and every quantity is multiplied by it.</li>
+<li><b>Deduction</b> - tick it for a void or opening you want taken <i>off</i>, such as a shaft inside a floor area.</li>
+</ul>
+<p>The table in the panel then shows each bill line, its formula and its quantity, for example
+<b>Walls, 200mm thick - L*H - 60.20 m²</b>. Click <b>Save</b>.</p>
+<p>To add or change assemblies and their formulas, open the <b>Formulas</b> tab.</p></div></div>
+
+<div class="step"><div class="n">7</div><div><h3>Check your figures</h3>
+<ul>
+<li><b>On this sheet</b> (right) lists everything measured on the sheet with its figures. Click one to open it again.</li>
+<li><b>Manual take-off, all sheets</b> adds up every bill line you have measured, across all sheets.</li>
+<li>With <b>Pan / select</b> (<kbd>V</kbd>), click a shape on the drawing to open it, change it and save again.</li>
+</ul></div></div>
+
+<div class="step"><div class="n">8</div><div><h3>Fix mistakes</h3>
+<ul>
+<li><b>Undo</b> (<kbd>Ctrl</kbd>+<kbd>Z</kbd>) takes back the last point while measuring, or otherwise the last thing you
+saved, changed, deleted or erased. Hover over the button to see what it will undo.</li>
+<li><b>Eraser</b> (<kbd>E</kbd>): point at a shape (it turns red) and click to erase it. On a count, a click erases one
+mark and <kbd>Shift</kbd>+click the whole count.</li>
+</ul></div></div>
+
+<div class="step"><div class="n">9</div><div><h3>Export to Excel</h3>
+<p><b>Export to Excel</b> (right panel) produces:</p>
+<ul>
+<li>the <b>Take-off</b> and <b>Bill of Quantities</b> again, with your measurements added to the right items. Each of
+your lines is marked <b>MEASURED (MANUAL)</b> and names the drawing, floor and formula;</li>
+<li>a <b>Manual Measurements</b> workbook listing every measurement with its figures (L, A, P or N), times, bill line,
+formula and quantity;</li>
+<li>each drawing you worked on as a <b>marked-up PDF</b> showing your shapes and notes.</li>
+</ul>
+<p>The automatic take-off is not changed. The export sits beside it in a folder called <i>with manual</i>.</p></div></div>
+
+<h3>Worked example - a block wall on the 2nd floor</h3>
+<div class="ex"><ol>
+<li>Open <b>2ND FLOOR PLAN</b> (A-07-005). The scale box says <i>1:152, calibrated from the grid</i>, so the scale is fine.</li>
+<li>Press <kbd>L</kbd> for Length. Zoom in on the wall.</li>
+<li><b>Double-click</b> at the wall's end, <b>click</b> at the corner, <b>double-click</b> at the other end.
+The readout shows <span class="big">Length 18.81 m</span>.</li>
+<li>In the panel: Name <i>Corridor wall</i>; Assembly <i>Block wall (both faces plastered)</i>; thickness <b>200</b>;
+height <b>3.2</b>; Times <b>1</b>.</li>
+<li>The table shows <b>Walls, 200mm thick: L*H = 18.81 × 3.2 = 60.20 m²</b> and <b>plaster to walls:
+2*L*H = 120.40 m²</b>. Click <b>Save</b>.</li>
+<li>The drawing now reads <i>Corridor wall · 18.81 m</i> beside the wall. The totals at the bottom right include the
+two new lines.</li>
+<li><b>Export to Excel</b>. Both lines appear in the bill under Masonry and Finishes, marked MEASURED (MANUAL).</li>
+</ol></div>
+
+<h3>Keys</h3>
+<table><tr><td><kbd>V</kbd> Pan / select</td><td><kbd>L</kbd> Length</td><td><kbd>A</kbd> Area</td><td><kbd>R</kbd> Rectangle</td></tr>
+<tr><td><kbd>C</kbd> Count</td><td><kbd>S</kbd> Count similar</td><td><kbd>K</kbd> Set scale</td><td><kbd>E</kbd> Eraser</td></tr>
+<tr><td><kbd>N</kbd> Note</td><td><kbd>U</kbd> Cloud</td><td><kbd>W</kbd> Arrow</td><td><kbd>H</kbd> Highlight</td></tr>
+<tr><td><kbd>Ctrl</kbd>+<kbd>Z</kbd> Undo</td><td><kbd>Esc</kbd> Cancel</td><td><kbd>F</kbd> Whole sheet</td><td><kbd>Shift</kbd> Straight line</td></tr></table>
+</div>

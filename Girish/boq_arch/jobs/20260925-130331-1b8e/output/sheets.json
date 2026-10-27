@@ -1,0 +1,15 @@
+[
+ {
+  "drawing": "A-07-003",
+  "title": "GROUND FLOOR PLAN",
+  "kind": "plan",
+  "class": "TEXT",
+  "title_block": "STATED",
+  "file": "A-07-003 GROUND FLOOR PLAN.pdf",
+  "path": "D:\\Girish\\AETRAA\\Girish\\boq_arch\\jobs\\20260925-130331-1b8e\\drawings\\A-07-003 GROUND FLOOR PLAN.pdf",
+  "scale": "1:150",
+  "floor": "GF",
+  "mm_per_pt": 55.49132947976879,
+  "basis": "23 grid bays matched by label to dimensions stated on other sheets, spread 0.19%; effective scale 1:157.3 (title block 1:150)"
+ }
+]

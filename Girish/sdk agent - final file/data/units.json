@@ -1,0 +1,223 @@
+{
+ "schema": "units/1",
+ "provenance": "reference/quantity-reconciliation-gates.md G+.31 unit dictionary",
+ "gate": "G+.31",
+ "units": [
+  "m2",
+  "m3",
+  "m",
+  "nr",
+  "set",
+  "item",
+  "kg",
+  "tonne"
+ ],
+ "canonical": {
+  "m²": "m2",
+  "m2": "m2",
+  "sqm": "m2",
+  "sq m": "m2",
+  "sq.m": "m2",
+  "sq. m": "m2",
+  "square metre": "m2",
+  "square meter": "m2",
+  "per m2": "m2",
+  "/m2": "m2",
+  "m³": "m3",
+  "m3": "m3",
+  "cum": "m3",
+  "cu m": "m3",
+  "cu.m": "m3",
+  "cu. m": "m3",
+  "cubic metre": "m3",
+  "cubic meter": "m3",
+  "per m3": "m3",
+  "/m3": "m3",
+  "m": "m",
+  "lm": "m",
+  "l.m": "m",
+  "l.m.": "m",
+  "rm": "m",
+  "r.m": "m",
+  "lin m": "m",
+  "lin.m": "m",
+  "linear metre": "m",
+  "linear meter": "m",
+  "running metre": "m",
+  "metre": "m",
+  "meter": "m",
+  "per m": "m",
+  "/m": "m",
+  "nr": "nr",
+  "no": "nr",
+  "no.": "nr",
+  "nos": "nr",
+  "nos.": "nr",
+  "ea": "nr",
+  "each": "nr",
+  "unit": "nr",
+  "per unit": "nr",
+  "number": "nr",
+  "set": "set",
+  "sets": "set",
+  "item": "item",
+  "ls": "item",
+  "sum": "item",
+  "lump sum": "item",
+  "kg": "kg",
+  "kgs": "kg",
+  "kilogram": "kg",
+  "kilogramme": "kg",
+  "tonne": "tonne",
+  "tonnes": "tonne",
+  "ton": "tonne",
+  "mt": "tonne",
+  "t": "tonne"
+ },
+ "classes": [
+  {
+   "unit": "m2",
+   "item_types": [
+    "slab",
+    "screed",
+    "finish",
+    "plaster",
+    "paint",
+    "tile",
+    "waterproofing",
+    "blockwork",
+    "insulation",
+    "paving",
+    "formwork",
+    "fabric_reinforcement",
+    "boarding"
+   ]
+  },
+  {
+   "unit": "m3",
+   "item_types": [
+    "concrete",
+    "excavation",
+    "backfill",
+    "sand",
+    "aggregate",
+    "hardcore",
+    "disposal",
+    "column",
+    "beam",
+    "wall",
+    "footing",
+    "pile_cap",
+    "stair",
+    "pile",
+    "slab_solid"
+   ]
+  },
+  {
+   "unit": "m",
+   "item_types": [
+    "skirting",
+    "dpc",
+    "handrail",
+    "balustrade",
+    "pipe",
+    "duct_run",
+    "cable",
+    "conduit",
+    "trunking",
+    "line_marking",
+    "joint",
+    "kerb",
+    "coping",
+    "trench",
+    "fencing",
+    "timber_member",
+    "strip_footing"
+   ]
+  },
+  {
+   "unit": "nr",
+   "item_types": [
+    "door",
+    "window",
+    "lintel",
+    "fixture",
+    "equipment",
+    "lift",
+    "fitting",
+    "outlet",
+    "detector",
+    "board",
+    "valve",
+    "terminal",
+    "accessory",
+    "pile_test",
+    "trial_hole"
+   ]
+  },
+  {
+   "unit": "set",
+   "item_types": [
+    "joinery_unit",
+    "kitchen",
+    "wardrobe",
+    "hardware_set",
+    "ironmongery"
+   ]
+  },
+  {
+   "unit": "item",
+   "item_types": [
+    "lump_sum",
+    "provisional",
+    "prelims",
+    "pc_sum",
+    "dayworks"
+   ]
+  },
+  {
+   "unit": "kg",
+   "item_types": [
+    "bar_reinforcement",
+    "structural_steel",
+    "metalwork",
+    "reinforcement"
+   ]
+  },
+  {
+   "unit": "tonne",
+   "item_types": [
+    "bar_reinforcement",
+    "structural_steel"
+   ]
+  }
+ ],
+ "rejections": [
+  {
+   "rule": "unit_not_in_dictionary",
+   "detail": "a unit string outside the units list",
+   "verdict": "FAIL"
+  },
+  {
+   "rule": "unit_type_mismatch",
+   "detail": "the row's unit is not the unit allowed for its item type",
+   "verdict": "FAIL"
+  },
+  {
+   "rule": "qty_zero_with_rate",
+   "detail": "quantity 0 carrying a rate",
+   "verdict": "FAIL"
+  },
+  {
+   "rule": "qty_null",
+   "detail": "quantity absent where the item is measured",
+   "verdict": "FAIL"
+  },
+  {
+   "rule": "qty_negative",
+   "detail": "negative quantity",
+   "verdict": "FAIL"
+  }
+ ],
+ "note": "lm, l.m, rm and linear metre are INPUT spellings of m, not units of their own. The house form on the measurement sheet is m, so they canonicalise to it and cannot pass through unconverted. This table is the single source of unit spellings - bill.market reads it too, so a page quoting 'Sq.M' and a bill row saying 'm2' meet in one place rather than in two tables that can drift apart."
+}

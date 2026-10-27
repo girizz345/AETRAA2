@@ -1,0 +1,725 @@
+{
+ "quantities": 47,
+ "rows": [
+  {
+   "clause": "D2.1",
+   "evidence": [
+    "door:D-1:STAIRCASE:height",
+    "door:D-1:STAIRCASE:width",
+    "door:D-2:APARTMENT ENTRANCE (1ST TO 5TH FLOOR):height",
+    "door:D-2:APARTMENT ENTRANCE (1ST TO 5TH FLOOR):width",
+    "door:D-3:UTILITY ENTRANCE (1ST FLR ,LOWER FLOOR) BEDROOM,WATCHMAN RM (GF,1ST TO 5TH):height",
+    "door:D-3:UTILITY ENTRANCE (1ST FLR ,LOWER FLOOR) BEDROOM,WATCHMAN RM (GF,1ST TO 5TH):width",
+    "door:D-4:TOILET, BATH ROOM (GF,1ST TO 5TH FLOOR):height",
+    "door:D-4:TOILET, BATH ROOM (GF,1ST TO 5TH FLOOR):width",
+    "m00001:A-07-003:GF:H",
+    "m00003:A-07-003:GF:D100:L",
+    "m00012:A-07-004:1F:H",
+    "m00013:A-07-004:1F:D100:L",
+    "m00021:A-07-005:2F:H",
+    "m00022:A-07-005:2F:D100:L",
+    "m00030:A-07-006:3F:H",
+    "m00031:A-07-006:3F:D100:L",
+    "m00039:A-07-007:4F:H",
+    "m00040:A-07-007:4F:D100:L",
+    "m00048:A-07-007:5F:H",
+    "m00049:A-07-007:5F:D100:L",
+    "m00057:A-07-008:LOWER ROOF:H",
+    "m00058:A-07-008:LOWER ROOF:D100:L",
+    "window:DW 03:DINING / LIVING (1ST TO 5TH FLOOR):height",
+    "window:DW 03:DINING / LIVING (1ST TO 5TH FLOOR):width"
+   ],
+   "mark": "Walls 100mm thick",
+   "origin": "measured",
+   "section": "D",
+   "unit": "m2",
+   "value": "5719.6265"
+  },
+  {
+   "clause": "D2.1",
+   "evidence": [
+    "m00001:A-07-003:GF:H",
+    "m00005:A-07-003:GF:D150:L",
+    "m00012:A-07-004:1F:H",
+    "m00014:A-07-004:1F:D150:L",
+    "m00021:A-07-005:2F:H",
+    "m00023:A-07-005:2F:D150:L",
+    "m00030:A-07-006:3F:H",
+    "m00032:A-07-006:3F:D150:L",
+    "m00039:A-07-007:4F:H",
+    "m00041:A-07-007:4F:D150:L",
+    "m00048:A-07-007:5F:H",
+    "m00050:A-07-007:5F:D150:L",
+    "m00057:A-07-008:LOWER ROOF:H",
+    "m00059:A-07-008:LOWER ROOF:D150:L"
+   ],
+   "mark": "Walls 150mm thick",
+   "origin": "measured",
+   "section": "D",
+   "unit": "m2",
+   "value": "303.2580"
+  },
+  {
+   "clause": "D2.1",
+   "evidence": [
+    "door:D-1:STAIRCASE:height",
+    "door:D-1:STAIRCASE:width",
+    "door:D-2:APARTMENT ENTRANCE (1ST TO 5TH FLOOR):height",
+    "door:D-2:APARTMENT ENTRANCE (1ST TO 5TH FLOOR):width",
+    "door:D-3:UTILITY ENTRANCE (1ST FLR ,LOWER FLOOR) BEDROOM,WATCHMAN RM (GF,1ST TO 5TH):height",
+    "door:D-3:UTILITY ENTRANCE (1ST FLR ,LOWER FLOOR) BEDROOM,WATCHMAN RM (GF,1ST TO 5TH):width",
+    "door:D-5:WATER METER RM.,TELE.RM., GARBAGE RM.,ELECT. RM. (1ST TO 5TH FLOOR,LOWER RF):height",
+    "door:D-5:WATER METER RM.,TELE.RM., GARBAGE RM.,ELECT. RM. (1ST TO 5TH FLOOR,LOWER RF):width",
+    "door:D-6:GYM,OUTDOOR DECK,SER.RF (1ST FLR,LOWER FLOOR):height",
+    "door:D-6:GYM,OUTDOOR DECK,SER.RF (1ST FLR,LOWER FLOOR):width",
+    "door:LD-1:SUBSTATION:height",
+    "door:LD-1:SUBSTATION:width",
+    "door:SD-1:LV ROOM,:height",
+    "door:SD-1:LV ROOM,:width",
+    "door:SD-2:TELE.ROOM,GSM RM,POOL PUMP (GF,LOWER ROOF):height",
+    "door:SD-2:TELE.ROOM,GSM RM,POOL PUMP (GF,LOWER ROOF):width",
+    "door:SD-3:GARBAGE ROOM (GROUND FLOOR):height",
+    "door:SD-3:GARBAGE ROOM (GROUND FLOOR):width",
+    "m00001:A-07-003:GF:H",
+    "m00007:A-07-003:GF:D200:L",
+    "m00012:A-07-004:1F:H",
+    "m00015:A-07-004:1F:D200:L",
+    "m00021:A-07-005:2F:H",
+    "m00024:A-07-005:2F:D200:L",
+    "m00030:A-07-006:3F:H",
+    "m00033:A-07-006:3F:D200:L",
+    "m00039:A-07-007:4F:H",
+    "m00042:A-07-007:4F:D200:L",
+    "m00048:A-07-007:5F:H",
+    "m00051:A-07-007:5F:D200:L",
+    "m00057:A-07-008:LOWER ROOF:H",
+    "m00060:A-07-008:LOWER ROOF:D200:L",
+    "window:DW 01:MAIN ENTRANCE:width",
+    "window:DW 03:DINING / LIVING (1ST TO 5TH FLOOR):height",
+    "window:DW 03:DINING / LIVING (1ST TO 5TH FLOOR):width",
+    "window:DW 05:DINING / LIVING (1ST TO 5TH FLOOR):height",
+    "window:DW 05:DINING / LIVING (1ST TO 5TH FLOOR):width",
+    "window:DW 08:DINING / LIVING (2ND TO 5TH FLOOR):height",
+    "window:DW 08:DINING / LIVING (2ND TO 5TH FLOOR):width",
+    "window:DW 18:WATCHMAN /CCTV (GROUND FLOOR):height",
+    "window:DW 18:WATCHMAN /CCTV (GROUND FLOOR):width",
+    "window:DW 19:REAR ENT.LIFT LOBBY (GROUND FLOOR):height",
+    "window:DW 19:REAR ENT.LIFT LOBBY (GROUND FLOOR):width",
+    "window:LW 01:SUBSTATION (GROUND FLR.):height",
+    "window:LW 01:SUBSTATION (GROUND FLR.):width"
+   ],
+   "mark": "Walls 200mm thick",
+   "origin": "measured",
+   "section": "D",
+   "unit": "m2",
+   "value": "10371.2890"
+  },
+  {
+   "clause": "G2.1",
+   "evidence": [
+    "m00010:A-07-003:GF:wet:A",
+    "m00019:A-07-004:1F:wet:A",
+    "m00028:A-07-005:2F:wet:A",
+    "m00037:A-07-006:3F:wet:A",
+    "m00046:A-07-007:4F:wet:A",
+    "m00055:A-07-007:5F:wet:A",
+    "m00064:A-07-008:LOWER ROOF:wet:A"
+   ],
+   "mark": "Floors of wet areas",
+   "origin": "measured",
+   "section": "G",
+   "unit": "m2",
+   "value": "840.78"
+  },
+  {
+   "clause": "G2.1",
+   "evidence": [
+    "m00018:A-07-004:1F:ext:A",
+    "m00027:A-07-005:2F:ext:A",
+    "m00036:A-07-006:3F:ext:A",
+    "m00045:A-07-007:4F:ext:A",
+    "m00054:A-07-007:5F:ext:A",
+    "m00063:A-07-008:LOWER ROOF:ext:A"
+   ],
+   "mark": "Roofs, terraces and balconies",
+   "origin": "measured",
+   "section": "G",
+   "unit": "m2",
+   "value": "2726.16"
+  },
+  {
+   "clause": "H1.1",
+   "evidence": [
+    "door:D-1:STAIRCASE:count"
+   ],
+   "mark": "D-1 @ STAIRCASE",
+   "origin": "transcribed",
+   "section": "H",
+   "unit": "nr",
+   "value": "20"
+  },
+  {
+   "clause": "H1.1",
+   "evidence": [
+    "door:D-2:APARTMENT ENTRANCE (1ST TO 5TH FLOOR):count"
+   ],
+   "mark": "D-2 @ APARTMENT ENTRANCE (1ST TO 5TH FLOOR)",
+   "origin": "transcribed",
+   "section": "H",
+   "unit": "nr",
+   "value": "185"
+  },
+  {
+   "clause": "H1.1",
+   "evidence": [
+    "door:D-3:UTILITY ENTRANCE (1ST FLR ,LOWER FLOOR) BEDROOM,WATCHMAN RM (GF,1ST TO 5TH):count"
+   ],
+   "mark": "D-3 @ UTILITY ENTRANCE (1ST FLR ,LOWER FLOOR) BEDROOM,WATCHMAN RM (GF,1ST TO 5TH)",
+   "origin": "transcribed",
+   "section": "H",
+   "unit": "nr",
+   "value": "28"
+  },
+  {
+   "clause": "H1.1",
+   "evidence": [
+    "door:D-4:TOILET, BATH ROOM (GF,1ST TO 5TH FLOOR):count"
+   ],
+   "mark": "D-4 @ TOILET, BATH ROOM (GF,1ST TO 5TH FLOOR)",
+   "origin": "transcribed",
+   "section": "H",
+   "unit": "nr",
+   "value": "206"
+  },
+  {
+   "clause": "H1.1",
+   "evidence": [
+    "door:D-5:WATER METER RM.,TELE.RM., GARBAGE RM.,ELECT. RM. (1ST TO 5TH FLOOR,LOWER RF):count"
+   ],
+   "mark": "D-5 @ WATER METER RM.,TELE.RM., GARBAGE RM.,ELECT. RM. (1ST TO 5TH FLOOR,LOWER RF)",
+   "origin": "transcribed",
+   "section": "H",
+   "unit": "nr",
+   "value": "28"
+  },
+  {
+   "clause": "H1.1",
+   "evidence": [
+    "door:D-6:GYM,OUTDOOR DECK,SER.RF (1ST FLR,LOWER FLOOR):count"
+   ],
+   "mark": "D-6 @ GYM,OUTDOOR DECK,SER.RF (1ST FLR,LOWER FLOOR)",
+   "origin": "transcribed",
+   "section": "H",
+   "unit": "nr",
+   "value": "5"
+  },
+  {
+   "clause": "H1.1",
+   "evidence": [
+    "door:LD-1:SUBSTATION:count"
+   ],
+   "mark": "LD-1 @ SUBSTATION",
+   "origin": "transcribed",
+   "section": "H",
+   "unit": "nr",
+   "value": "1"
+  },
+  {
+   "clause": "H1.1",
+   "evidence": [
+    "door:LD-2:GENERATOR ROOM (BASEMENT):count"
+   ],
+   "mark": "LD-2 @ GENERATOR ROOM (BASEMENT)",
+   "origin": "transcribed",
+   "section": "H",
+   "unit": "nr",
+   "value": "1"
+  },
+  {
+   "clause": "H1.1",
+   "evidence": [
+    "door:LD-3:ELEC. ELEC. CABIN (BASEMENT):count"
+   ],
+   "mark": "LD-3 @ ELEC. ELEC. CABIN (BASEMENT)",
+   "origin": "transcribed",
+   "section": "H",
+   "unit": "nr",
+   "value": "1"
+  },
+  {
+   "clause": "H1.1",
+   "evidence": [
+    "door:SD-1:LV ROOM,:count"
+   ],
+   "mark": "SD-1 @ LV ROOM,",
+   "origin": "transcribed",
+   "section": "H",
+   "unit": "nr",
+   "value": "1"
+  },
+  {
+   "clause": "H1.1",
+   "evidence": [
+    "door:SD-2:TELE.ROOM,GSM RM,POOL PUMP (GF,LOWER ROOF):count"
+   ],
+   "mark": "SD-2 @ TELE.ROOM,GSM RM,POOL PUMP (GF,LOWER ROOF)",
+   "origin": "transcribed",
+   "section": "H",
+   "unit": "nr",
+   "value": "3"
+  },
+  {
+   "clause": "H1.1",
+   "evidence": [
+    "door:SD-3:GARBAGE ROOM (GROUND FLOOR):count"
+   ],
+   "mark": "SD-3 @ GARBAGE ROOM (GROUND FLOOR)",
+   "origin": "transcribed",
+   "section": "H",
+   "unit": "nr",
+   "value": "1"
+  },
+  {
+   "clause": "H2.1",
+   "evidence": [
+    "window:DW 01:MAIN ENTRANCE:count"
+   ],
+   "mark": "DW 01 @ MAIN ENTRANCE",
+   "origin": "transcribed",
+   "section": "H",
+   "unit": "nr",
+   "value": "1"
+  },
+  {
+   "clause": "H2.1",
+   "evidence": [
+    "window:DW 02:LIFT LOBBY (BASEMENT FLOOR):count"
+   ],
+   "mark": "DW 02 @ LIFT LOBBY (BASEMENT FLOOR)",
+   "origin": "transcribed",
+   "section": "H",
+   "unit": "nr",
+   "value": "1"
+  },
+  {
+   "clause": "H2.1",
+   "evidence": [
+    "window:DW 03:DINING / LIVING (1ST TO 5TH FLOOR):count"
+   ],
+   "mark": "DW 03 @ DINING / LIVING (1ST TO 5TH FLOOR)",
+   "origin": "transcribed",
+   "section": "H",
+   "unit": "nr",
+   "value": "152"
+  },
+  {
+   "clause": "H2.1",
+   "evidence": [
+    "window:DW 04:DINING / LIVING,BEDRM (1ST TO 5TH FLOOR):count"
+   ],
+   "mark": "DW 04 @ DINING / LIVING,BEDRM (1ST TO 5TH FLOOR)",
+   "origin": "transcribed",
+   "section": "H",
+   "unit": "nr",
+   "value": "10"
+  },
+  {
+   "clause": "H2.1",
+   "evidence": [
+    "window:DW 05:DINING / LIVING (1ST TO 5TH FLOOR):count"
+   ],
+   "mark": "DW 05 @ DINING / LIVING (1ST TO 5TH FLOOR)",
+   "origin": "transcribed",
+   "section": "H",
+   "unit": "nr",
+   "value": "5"
+  },
+  {
+   "clause": "H2.1",
+   "evidence": [
+    "window:DW 06:DINING / LIVING,BEDRM (2ND TO 5TH FLOOR):count"
+   ],
+   "mark": "DW 06 @ DINING / LIVING,BEDRM (2ND TO 5TH FLOOR)",
+   "origin": "transcribed",
+   "section": "H",
+   "unit": "nr",
+   "value": "4"
+  },
+  {
+   "clause": "H2.1",
+   "evidence": [
+    "window:DW 07:DINING / LIVING,BEDRM (1ST FLOOR):count"
+   ],
+   "mark": "DW 07 @ DINING / LIVING,BEDRM (1ST FLOOR)",
+   "origin": "transcribed",
+   "section": "H",
+   "unit": "nr",
+   "value": "1"
+  },
+  {
+   "clause": "H2.1",
+   "evidence": [
+    "window:DW 08:DINING / LIVING (2ND TO 5TH FLOOR):count"
+   ],
+   "mark": "DW 08 @ DINING / LIVING (2ND TO 5TH FLOOR)",
+   "origin": "transcribed",
+   "section": "H",
+   "unit": "nr",
+   "value": "8"
+  },
+  {
+   "clause": "H2.1",
+   "evidence": [
+    "window:DW 09:DINING / LIVING,BEDRM (2ND TO 5TH FLOOR):count"
+   ],
+   "mark": "DW 09 @ DINING / LIVING,BEDRM (2ND TO 5TH FLOOR)",
+   "origin": "transcribed",
+   "section": "H",
+   "unit": "nr",
+   "value": "4"
+  },
+  {
+   "clause": "H2.1",
+   "evidence": [
+    "window:DW 10:GYMNASIUM (M) (LOWER ROOF):count"
+   ],
+   "mark": "DW 10 @ GYMNASIUM (M) (LOWER ROOF)",
+   "origin": "transcribed",
+   "section": "H",
+   "unit": "nr",
+   "value": "1"
+  },
+  {
+   "clause": "H2.1",
+   "evidence": [
+    "window:DW 11:GYMNASIUM (M,F) (LOWER ROOF):count"
+   ],
+   "mark": "DW 11 @ GYMNASIUM (M,F) (LOWER ROOF)",
+   "origin": "transcribed",
+   "section": "H",
+   "unit": "nr",
+   "value": "1"
+  },
+  {
+   "clause": "H2.1",
+   "evidence": [
+    "window:DW 12:GYMNASIUM (F) (LOWER ROOF):count"
+   ],
+   "mark": "DW 12 @ GYMNASIUM (F) (LOWER ROOF)",
+   "origin": "transcribed",
+   "section": "H",
+   "unit": "nr",
+   "value": "1"
+  },
+  {
+   "clause": "H2.1",
+   "evidence": [
+    "window:DW 13:GYMNASIUM (F) (LOWER ROOF):count"
+   ],
+   "mark": "DW 13 @ GYMNASIUM (F) (LOWER ROOF)",
+   "origin": "transcribed",
+   "section": "H",
+   "unit": "nr",
+   "value": "1"
+  },
+  {
+   "clause": "H2.1",
+   "evidence": [
+    "window:DW 14:GYMNASIUM (M) (LOWER ROOF):count"
+   ],
+   "mark": "DW 14 @ GYMNASIUM (M) (LOWER ROOF)",
+   "origin": "transcribed",
+   "section": "H",
+   "unit": "nr",
+   "value": "1"
+  },
+  {
+   "clause": "H2.1",
+   "evidence": [
+    "window:DW 15:CORRIDOR (LOWER ROOF):count"
+   ],
+   "mark": "DW 15 @ CORRIDOR (LOWER ROOF)",
+   "origin": "transcribed",
+   "section": "H",
+   "unit": "nr",
+   "value": "1"
+  },
+  {
+   "clause": "H2.1",
+   "evidence": [
+    "window:DW 16:CORRIDOR (LOWER ROOF):count"
+   ],
+   "mark": "DW 16 @ CORRIDOR (LOWER ROOF)",
+   "origin": "transcribed",
+   "section": "H",
+   "unit": "nr",
+   "value": "1"
+  },
+  {
+   "clause": "H2.1",
+   "evidence": [
+    "window:DW 17:DINING / LIVING,BEDRM (1ST FLOOR):count"
+   ],
+   "mark": "DW 17 @ DINING / LIVING,BEDRM (1ST FLOOR)",
+   "origin": "transcribed",
+   "section": "H",
+   "unit": "nr",
+   "value": "1"
+  },
+  {
+   "clause": "H2.1",
+   "evidence": [
+    "window:DW 18:WATCHMAN /CCTV (GROUND FLOOR):count"
+   ],
+   "mark": "DW 18 @ WATCHMAN /CCTV (GROUND FLOOR)",
+   "origin": "transcribed",
+   "section": "H",
+   "unit": "nr",
+   "value": "1"
+  },
+  {
+   "clause": "H2.1",
+   "evidence": [
+    "window:DW 19:REAR ENT.LIFT LOBBY (GROUND FLOOR):count"
+   ],
+   "mark": "DW 19 @ REAR ENT.LIFT LOBBY (GROUND FLOOR)",
+   "origin": "transcribed",
+   "section": "H",
+   "unit": "nr",
+   "value": "1"
+  },
+  {
+   "clause": "H2.1",
+   "evidence": [
+    "window:LW 01:SUBSTATION (GROUND FLR.):count"
+   ],
+   "mark": "LW 01 @ SUBSTATION (GROUND FLR.)",
+   "origin": "transcribed",
+   "section": "H",
+   "unit": "nr",
+   "value": "1"
+  },
+  {
+   "clause": "H2.1",
+   "evidence": [
+    "window:LW 02:POOL PUMP (GROUND FLR.):count"
+   ],
+   "mark": "LW 02 @ POOL PUMP (GROUND FLR.)",
+   "origin": "transcribed",
+   "section": "H",
+   "unit": "nr",
+   "value": "1"
+  },
+  {
+   "clause": "H2.1",
+   "evidence": [
+    "window:LW 03:GENER.ROOM (BASEMENT FLR.):count"
+   ],
+   "mark": "LW 03 @ GENER.ROOM (BASEMENT FLR.)",
+   "origin": "transcribed",
+   "section": "H",
+   "unit": "nr",
+   "value": "1"
+  },
+  {
+   "clause": "J3.1",
+   "evidence": [
+    "m00008:A-07-003:GF:dry:A",
+    "m00016:A-07-004:1F:dry:A",
+    "m00025:A-07-005:2F:dry:A",
+    "m00034:A-07-006:3F:dry:A",
+    "m00043:A-07-007:4F:dry:A",
+    "m00052:A-07-007:5F:dry:A",
+    "m00061:A-07-008:LOWER ROOF:dry:A"
+   ],
+   "mark": "Ceilings, rooms",
+   "origin": "measured",
+   "section": "J",
+   "unit": "m2",
+   "value": "6442.20"
+  },
+  {
+   "clause": "J3.1",
+   "evidence": [
+    "m00010:A-07-003:GF:wet:A",
+    "m00019:A-07-004:1F:wet:A",
+    "m00028:A-07-005:2F:wet:A",
+    "m00037:A-07-006:3F:wet:A",
+    "m00046:A-07-007:4F:wet:A",
+    "m00055:A-07-007:5F:wet:A",
+    "m00064:A-07-008:LOWER ROOF:wet:A"
+   ],
+   "mark": "Ceilings, wet areas",
+   "origin": "measured",
+   "section": "J",
+   "unit": "m2",
+   "value": "840.78"
+  },
+  {
+   "clause": "J3.1",
+   "evidence": [
+    "m00008:A-07-003:GF:dry:A",
+    "m00016:A-07-004:1F:dry:A",
+    "m00025:A-07-005:2F:dry:A",
+    "m00034:A-07-006:3F:dry:A",
+    "m00043:A-07-007:4F:dry:A",
+    "m00052:A-07-007:5F:dry:A",
+    "m00061:A-07-008:LOWER ROOF:dry:A"
+   ],
+   "mark": "Floors, rooms",
+   "origin": "measured",
+   "section": "J",
+   "unit": "m2",
+   "value": "6442.20"
+  },
+  {
+   "clause": "J3.1",
+   "evidence": [
+    "m00010:A-07-003:GF:wet:A",
+    "m00019:A-07-004:1F:wet:A",
+    "m00028:A-07-005:2F:wet:A",
+    "m00037:A-07-006:3F:wet:A",
+    "m00046:A-07-007:4F:wet:A",
+    "m00055:A-07-007:5F:wet:A",
+    "m00064:A-07-008:LOWER ROOF:wet:A"
+   ],
+   "mark": "Floors, wet areas",
+   "origin": "measured",
+   "section": "J",
+   "unit": "m2",
+   "value": "840.78"
+  },
+  {
+   "clause": "J3.1",
+   "evidence": [
+    "door:D-1:STAIRCASE:height",
+    "door:D-1:STAIRCASE:width",
+    "door:D-2:APARTMENT ENTRANCE (1ST TO 5TH FLOOR):height",
+    "door:D-2:APARTMENT ENTRANCE (1ST TO 5TH FLOOR):width",
+    "door:D-3:UTILITY ENTRANCE (1ST FLR ,LOWER FLOOR) BEDROOM,WATCHMAN RM (GF,1ST TO 5TH):height",
+    "door:D-3:UTILITY ENTRANCE (1ST FLR ,LOWER FLOOR) BEDROOM,WATCHMAN RM (GF,1ST TO 5TH):width",
+    "door:D-4:TOILET, BATH ROOM (GF,1ST TO 5TH FLOOR):height",
+    "door:D-4:TOILET, BATH ROOM (GF,1ST TO 5TH FLOOR):width",
+    "door:D-5:WATER METER RM.,TELE.RM., GARBAGE RM.,ELECT. RM. (1ST TO 5TH FLOOR,LOWER RF):height",
+    "door:D-5:WATER METER RM.,TELE.RM., GARBAGE RM.,ELECT. RM. (1ST TO 5TH FLOOR,LOWER RF):width",
+    "door:D-6:GYM,OUTDOOR DECK,SER.RF (1ST FLR,LOWER FLOOR):height",
+    "door:D-6:GYM,OUTDOOR DECK,SER.RF (1ST FLR,LOWER FLOOR):width",
+    "door:LD-1:SUBSTATION:height",
+    "door:LD-1:SUBSTATION:width",
+    "door:SD-2:TELE.ROOM,GSM RM,POOL PUMP (GF,LOWER ROOF):height",
+    "door:SD-2:TELE.ROOM,GSM RM,POOL PUMP (GF,LOWER ROOF):width",
+    "door:SD-3:GARBAGE ROOM (GROUND FLOOR):height",
+    "door:SD-3:GARBAGE ROOM (GROUND FLOOR):width",
+    "m00001:A-07-003:GF:H",
+    "m00009:A-07-003:GF:dry:P",
+    "m00012:A-07-004:1F:H",
+    "m00017:A-07-004:1F:dry:P",
+    "m00021:A-07-005:2F:H",
+    "m00026:A-07-005:2F:dry:P",
+    "m00030:A-07-006:3F:H",
+    "m00035:A-07-006:3F:dry:P",
+    "m00039:A-07-007:4F:H",
+    "m00044:A-07-007:4F:dry:P",
+    "m00048:A-07-007:5F:H",
+    "m00053:A-07-007:5F:dry:P",
+    "m00057:A-07-008:LOWER ROOF:H",
+    "m00062:A-07-008:LOWER ROOF:dry:P",
+    "window:DW 03:DINING / LIVING (1ST TO 5TH FLOOR):height",
+    "window:DW 03:DINING / LIVING (1ST TO 5TH FLOOR):width",
+    "window:DW 05:DINING / LIVING (1ST TO 5TH FLOOR):height",
+    "window:DW 05:DINING / LIVING (1ST TO 5TH FLOOR):width",
+    "window:DW 18:WATCHMAN /CCTV (GROUND FLOOR):height",
+    "window:DW 18:WATCHMAN /CCTV (GROUND FLOOR):width"
+   ],
+   "mark": "Walls, rooms",
+   "origin": "measured",
+   "section": "J",
+   "unit": "m2",
+   "value": "20430.0820"
+  },
+  {
+   "clause": "J3.1",
+   "evidence": [
+    "door:D-2:APARTMENT ENTRANCE (1ST TO 5TH FLOOR):height",
+    "door:D-2:APARTMENT ENTRANCE (1ST TO 5TH FLOOR):width",
+    "door:D-4:TOILET, BATH ROOM (GF,1ST TO 5TH FLOOR):height",
+    "door:D-4:TOILET, BATH ROOM (GF,1ST TO 5TH FLOOR):width",
+    "door:D-6:GYM,OUTDOOR DECK,SER.RF (1ST FLR,LOWER FLOOR):height",
+    "door:D-6:GYM,OUTDOOR DECK,SER.RF (1ST FLR,LOWER FLOOR):width",
+    "m00001:A-07-003:GF:H",
+    "m00011:A-07-003:GF:wet:P",
+    "m00012:A-07-004:1F:H",
+    "m00020:A-07-004:1F:wet:P",
+    "m00021:A-07-005:2F:H",
+    "m00029:A-07-005:2F:wet:P",
+    "m00030:A-07-006:3F:H",
+    "m00038:A-07-006:3F:wet:P",
+    "m00039:A-07-007:4F:H",
+    "m00047:A-07-007:4F:wet:P",
+    "m00048:A-07-007:5F:H",
+    "m00056:A-07-007:5F:wet:P",
+    "m00057:A-07-008:LOWER ROOF:H",
+    "m00065:A-07-008:LOWER ROOF:wet:P"
+   ],
+   "mark": "Walls, wet areas",
+   "origin": "measured",
+   "section": "J",
+   "unit": "m2",
+   "value": "5646.0075"
+  },
+  {
+   "clause": "J3.2",
+   "evidence": [
+    "door:D-1:STAIRCASE:width",
+    "door:D-2:APARTMENT ENTRANCE (1ST TO 5TH FLOOR):width",
+    "door:D-3:UTILITY ENTRANCE (1ST FLR ,LOWER FLOOR) BEDROOM,WATCHMAN RM (GF,1ST TO 5TH):width",
+    "door:D-4:TOILET, BATH ROOM (GF,1ST TO 5TH FLOOR):width",
+    "door:D-5:WATER METER RM.,TELE.RM., GARBAGE RM.,ELECT. RM. (1ST TO 5TH FLOOR,LOWER RF):width",
+    "door:D-6:GYM,OUTDOOR DECK,SER.RF (1ST FLR,LOWER FLOOR):width",
+    "door:LD-1:SUBSTATION:width",
+    "door:SD-2:TELE.ROOM,GSM RM,POOL PUMP (GF,LOWER ROOF):width",
+    "door:SD-3:GARBAGE ROOM (GROUND FLOOR):width",
+    "m00009:A-07-003:GF:dry:P",
+    "m00017:A-07-004:1F:dry:P",
+    "m00026:A-07-005:2F:dry:P",
+    "m00035:A-07-006:3F:dry:P",
+    "m00044:A-07-007:4F:dry:P",
+    "m00053:A-07-007:5F:dry:P",
+    "m00062:A-07-008:LOWER ROOF:dry:P"
+   ],
+   "mark": "Skirtings, rooms",
+   "origin": "measured",
+   "section": "J",
+   "unit": "m",
+   "value": "5560.64"
+  },
+  {
+   "clause": "J3.2",
+   "evidence": [
+    "door:D-2:APARTMENT ENTRANCE (1ST TO 5TH FLOOR):width",
+    "door:D-4:TOILET, BATH ROOM (GF,1ST TO 5TH FLOOR):width",
+    "door:D-6:GYM,OUTDOOR DECK,SER.RF (1ST FLR,LOWER FLOOR):width",
+    "m00011:A-07-003:GF:wet:P",
+    "m00020:A-07-004:1F:wet:P",
+    "m00029:A-07-005:2F:wet:P",
+    "m00038:A-07-006:3F:wet:P",
+    "m00047:A-07-007:4F:wet:P",
+    "m00056:A-07-007:5F:wet:P",
+    "m00065:A-07-008:LOWER ROOF:wet:P"
+   ],
+   "mark": "Skirtings, wet areas",
+   "origin": "measured",
+   "section": "J",
+   "unit": "m",
+   "value": "1501.04"
+  }
+ ],
+ "totals": {
+  "D/D2.1/m2": "16394.1735",
+  "G/G2.1/m2": "3566.94",
+  "H/H1.1/nr": "480",
+  "H/H2.1/nr": "199",
+  "J/J3.1/m2": "40642.0495",
+  "J/J3.2/m": "7061.68"
+ }
+}

@@ -1,0 +1,116 @@
+<style>
+ .fw{display:grid;grid-template-columns:280px minmax(0,1fr);gap:14px;align-items:start} @media(max-width:900px){.fw{grid-template-columns:1fr}}
+ .alist a{display:block;padding:8px 10px;border-radius:7px;text-decoration:none;color:var(--ink);margin-bottom:2px;font-size:14px;cursor:pointer}
+ .alist a:hover{background:var(--soft)} .alist a.on{background:var(--blue);color:#fff} .alist small{display:block;opacity:.75;font-size:12px}
+ .frm label{font-size:12.5px;font-weight:600;margin:10px 0 3px;color:var(--mute);display:block}
+ .frm input,.frm select,.frm textarea{width:100%;padding:6px 8px;border:1px solid var(--line);border-radius:6px;font:13.5px "Segoe UI",Arial}
+ .frm .row{display:flex;gap:10px;flex-wrap:wrap} .frm .row>div{flex:1;min-width:120px}
+ .out{border:1px solid var(--line);border-radius:9px;padding:10px 12px;margin-top:10px;background:#fafbfc}
+ .out h4{margin:0;font-size:14px;display:flex;justify-content:space-between;align-items:center}
+ table.pt{width:100%;border-collapse:collapse} table.pt td{padding:3px 4px} table.pt th{font-size:12px;color:var(--mute);text-align:left;padding:3px 4px}
+ code.v{background:var(--soft);padding:1px 6px;border-radius:4px;font-size:13px}
+ .res{font-size:13px;margin-top:4px}
+</style>
+<h1>Assemblies &amp; formulas</h1>
+<p class="lead">An assembly turns one thing you measure into the bill items it needs - a wall into blockwork and plaster to both
+faces, a room into floor, skirting, walls and ceiling. Each line has a POMI clause (which fixes its unit) and a formula.
+Formulas use what you measured - <code class="v">L</code> length (m) for a line, <code class="v">A</code> area (m&sup2;) and
+<code class="v">P</code> perimeter (m) for an area, <code class="v">N</code> number for a count - plus your own parameters, with
+<code class="v">+ - * / ** ( )</code> and <code class="v">min max round ceil floor abs sqrt</code>.</p>
+<div class="fw">
+ <div class="panel"><div class="alist" id="alist"></div>
+  <div class="acts" style="display:flex;gap:6px;flex-wrap:wrap;margin-top:10px">
+   <button class="btn light sm" onclick="addA()">+ New</button><button class="btn light sm" onclick="dupA()">Duplicate</button>
+   <button class="btn light sm" style="color:var(--bad)" onclick="delA()">Delete</button></div></div>
+ <div class="panel frm" id="ed"></div>
+</div>
+<div class="card" style="margin-top:14px;display:flex;gap:10px;align-items:center;flex-wrap:wrap">
+ <button class="btn" onclick="saveAll()">Save library</button><a class="btn light" id="back" href="#">Back to Measure</a>
+ <span id="msg" class="hint"></span></div>
+<datalist id="clauses"></datalist>
+
+<script>
+const CFG = __CFG__;
+const $ = id => document.getElementById(id);
+const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const VARS = {length:['L'], area:['A', 'P'], count:['N']};
+const SAMPLE = {L:10, A:20, P:18, N:5};
+let LIB = [], cur = 0, UNITS = {}, dirty = false;
+$('back').href = CFG.measure;
+
+async function load() {
+  LIB = (await (await fetch(CFG.lib)).json()).library;
+  const c = (await (await fetch('/api/clauses')).json()).clauses;
+  for (const x of c) UNITS[x.id] = x.unit;
+  $('clauses').innerHTML = c.map(x => `<option value="${esc(x.id)}">${esc(x.unit)} - ${esc(x.text.slice(0, 90))}</option>`).join('');
+  render();
+}
+function unitOf(cl) { return UNITS[cl] || UNITS[(cl || '').split('.').slice(0, 2).join('.')] || '?'; }
+function render() {
+  $('alist').innerHTML = LIB.map((a, i) => `<a class="${i === cur ? 'on' : ''}" onclick="cur=${i};render()">${esc(a.name || '(unnamed)')}
+     <small>${esc(a.measure)} &middot; ${a.outputs.length} bill line(s)</small></a>`).join('');
+  const a = LIB[cur]; if (!a) { $('ed').innerHTML = '<p class="mute">No assemblies. Add one.</p>'; return; }
+  let h = `<div class="row"><div style="flex:2"><label>Name</label><input data-k="name" value="${esc(a.name)}"></div>
+    <div><label>Id (short, unique)</label><input data-k="id" value="${esc(a.id)}"></div>
+    <div><label>You measure</label><select data-k="measure">${['length', 'area', 'count'].map(k => `<option ${a.measure === k ? 'selected' : ''}>${k}</option>`).join('')}</select></div></div>
+    <label>Parameters <span class="mute" style="font-weight:400">- asked for each measurement; use them in formulas and in item wording as {NAME}</span></label>
+    <table class="pt"><tr><th>Name</th><th>Label</th><th>Default</th><th>Type</th><th></th></tr>
+    ${a.params.map((p, i) => `<tr><td><input data-p="${i}" data-f="name" value="${esc(p.name)}" style="width:80px"></td><td><input data-p="${i}" data-f="label" value="${esc(p.label)}"></td>
+      <td><input data-p="${i}" data-f="default" value="${esc(p.default)}" style="width:90px"></td>
+      <td><select data-p="${i}" data-f="type"><option value="number" ${p.type !== 'text' ? 'selected' : ''}>number</option><option value="text" ${p.type === 'text' ? 'selected' : ''}>text</option></select></td>
+      <td><button class="btn light sm" onclick="LIB[cur].params.splice(${i},1);dirty=true;render()">&times;</button></td></tr>`).join('')}</table>
+    <button class="btn light sm" style="margin-top:6px" onclick="LIB[cur].params.push({name:'X',label:'',default:0});dirty=true;render()">+ Parameter</button>
+    <label style="margin-top:14px">Bill lines</label>`;
+  a.outputs.forEach((o, i) => {
+    h += `<div class="out"><h4>Line ${i + 1}<button class="btn light sm" onclick="LIB[cur].outputs.splice(${i},1);dirty=true;render()">Remove</button></h4>
+      <div class="row"><div style="max-width:90px"><label>Section</label><input data-o="${i}" data-f="section" value="${esc(o.section)}"></div>
+      <div style="max-width:130px"><label>POMI clause</label><input data-o="${i}" data-f="clause" list="clauses" value="${esc(o.clause)}"></div>
+      <div style="max-width:70px"><label>Unit</label><input value="${esc(unitOf(o.clause))}" disabled></div>
+      <div><label>Formula</label><input data-o="${i}" data-f="formula" value="${esc(o.formula)}" style="font-family:Consolas,monospace"></div></div>
+      <div class="res" id="res${i}"></div>
+      <div class="row"><div><label>Headings (outermost first, separated by &gt;)</label><input data-o="${i}" data-f="heads" value="${esc((o.heads || []).join(' > '))}"></div>
+      <div><label>Underlined heading</label><input data-o="${i}" data-f="uhead" value="${esc(o.uhead)}"></div></div>
+      <label>Description paragraph</label><textarea data-o="${i}" data-f="desc" rows="2">${esc(o.desc)}</textarea>
+      <div class="row"><div><label>Sub-heading</label><input data-o="${i}" data-f="sub" value="${esc(o.sub)}"></div>
+      <div style="flex:2"><label>Item wording</label><input data-o="${i}" data-f="item" value="${esc(o.item)}"></div></div></div>`;
+  });
+  h += `<button class="btn light sm" style="margin-top:10px" onclick="LIB[cur].outputs.push({section:'J',clause:'J3.1.2',heads:[],uhead:'',desc:'',sub:'',item:'',formula:''});dirty=true;render()">+ Bill line</button>`;
+  $('ed').innerHTML = h;
+  $('ed').querySelectorAll('input,select,textarea').forEach(e => e.addEventListener('input', edit));
+  $('ed').querySelectorAll('select').forEach(e => e.addEventListener('change', edit));
+  tryAll();
+}
+function edit(e) {
+  const t = e.target, a = LIB[cur]; dirty = true;
+  if (t.dataset.k) a[t.dataset.k] = t.value;
+  else if (t.dataset.p !== undefined) { const p = a.params[+t.dataset.p]; p[t.dataset.f] = t.dataset.f === 'default' && p.type !== 'text' && t.value !== '' && !isNaN(+t.value) ? +t.value : t.value; }
+  else if (t.dataset.o !== undefined) { const o = a.outputs[+t.dataset.o]; o[t.dataset.f] = t.dataset.f === 'heads' ? t.value.split('>').map(x => x.trim()).filter(Boolean) : t.value; }
+  if (t.dataset.k === 'measure' || t.dataset.f === 'clause' || t.dataset.f === 'type') { render(); return; }
+  if (t.dataset.k === 'name') $('alist').children[cur].firstChild.textContent = t.value;
+  clearTimeout(edit.t); edit.t = setTimeout(tryAll, 300);
+}
+async function tryAll() {
+  const a = LIB[cur]; if (!a) return;
+  const names = {};
+  for (const v of VARS[a.measure] || []) names[v] = SAMPLE[v];
+  for (const p of a.params) if (p.type !== 'text') names[p.name] = +p.default || 0;
+  for (let i = 0; i < a.outputs.length; i++) {
+    const o = a.outputs[i], el = $('res' + i); if (!el) continue;
+    if (!o.formula) { el.innerHTML = '<span class="mute">Give a formula.</span>'; continue; }
+    const r = await (await fetch('/api/try', {method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify({formula:o.formula, names})})).json();
+    el.innerHTML = r.ok ? `<span class="mute">Try: with ${Object.entries(names).map(([k, v]) => `${k}=${v}`).join(', ')} &rarr;</span> <b>${r.value} ${esc(unitOf(o.clause))}</b>`
+                        : `<span style="color:var(--bad)">${esc(r.error)}</span>`;
+  }
+}
+function addA() { LIB.push({id:'new-' + Date.now().toString(36), name:'New assembly', measure:'length', params:[], outputs:[]}); cur = LIB.length - 1; dirty = true; render(); }
+function dupA() { const a = JSON.parse(JSON.stringify(LIB[cur])); a.id += '-copy'; a.name += ' (copy)'; LIB.push(a); cur = LIB.length - 1; dirty = true; render(); }
+function delA() { if (!LIB[cur] || !confirm(`Delete "${LIB[cur].name}"? Measurements that use it stop being billed.`)) return; LIB.splice(cur, 1); cur = 0; dirty = true; render(); }
+async function saveAll() {
+  const r = await fetch(CFG.lib, {method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify(LIB)});
+  const d = await r.json();
+  if (d.ok) { dirty = false; $('msg').innerHTML = '<span class="pill ok">Saved</span> The Measure workspace uses it straight away.'; }
+  else $('msg').innerHTML = '<span class="pill bad">Not saved</span> ' + d.problems.map(esc).join('; ');
+}
+window.addEventListener('beforeunload', e => { if (dirty) { e.preventDefault(); e.returnValue = ''; } });
+load();
+</script>

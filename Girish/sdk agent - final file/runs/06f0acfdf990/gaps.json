@@ -1,0 +1,83 @@
+{
+ "count": 11,
+ "gaps": [
+  {
+   "detail": "confirm it with the consultant",
+   "doc_id": null,
+   "reason": "the title blocks do not agree on the job title (1 different values on 1 sheets, the commonest on 1); it is left off the bill's heading",
+   "stage": "S1",
+   "subject": "project job title"
+  },
+  {
+   "detail": "'tinyset'",
+   "doc_id": null,
+   "reason": "no job title that the title blocks agree on, so the bill is headed with the folder name",
+   "stage": "S1",
+   "subject": "project name"
+  },
+  {
+   "detail": "confirm it with the consultant",
+   "doc_id": null,
+   "reason": "the title blocks do not agree on the owner (1 different values on 1 sheets, the commonest on 1); it is left off the bill's heading",
+   "stage": "S1",
+   "subject": "project owner"
+  },
+  {
+   "detail": "confirm it with the consultant",
+   "doc_id": null,
+   "reason": "the title blocks do not agree on the plot number (1 different values on 1 sheets, the commonest on 1); it is left off the bill's heading",
+   "stage": "S1",
+   "subject": "project plot number"
+  },
+  {
+   "detail": null,
+   "doc_id": null,
+   "reason": "not written \u2014 bill carries no house_specs \u2014 nothing to render",
+   "stage": "S20",
+   "subject": "bill.xlsx"
+  },
+  {
+   "detail": null,
+   "doc_id": null,
+   "reason": "not written \u2014 bill carries no house_specs \u2014 nothing to render",
+   "stage": "S20",
+   "subject": "bill_unpriced.xlsx"
+  },
+  {
+   "detail": null,
+   "doc_id": null,
+   "reason": "no zip issued \u2014 bill.xlsx was withheld or not produced by this run. No element was built: 0 schedule(s) read, none said what it schedules or every row was refused \u2014 see gaps.json (S6, S9).",
+   "stage": "S21",
+   "subject": "deliverable"
+  },
+  {
+   "detail": null,
+   "doc_id": null,
+   "reason": "24 level figure(s) carry no storey name on their line (model call skipped: --no-ai)",
+   "stage": "S4",
+   "subject": "level names"
+  },
+  {
+   "detail": "a level is [+-]d.dd(d) on the same text band as a storey phrase; storey heights cannot be derived",
+   "doc_id": null,
+   "reason": "no level paired with a storey name on any section, elevation or plan sheet",
+   "stage": "S4",
+   "subject": "level table"
+  },
+  {
+   "detail": null,
+   "doc_id": null,
+   "reason": "no sheet in the package routed as a schedule",
+   "stage": "S6",
+   "subject": "schedules"
+  },
+  {
+   "detail": "only tags in the text layer are counted; an element drawn without a tag is not seen here, so a schedule count is the stronger source",
+   "doc_id": null,
+   "reason": "unlabelled vector symbols are not counted",
+   "stage": "S7",
+   "subject": "symbol clustering"
+  }
+ ],
+ "schema": "gaps/1"
+}

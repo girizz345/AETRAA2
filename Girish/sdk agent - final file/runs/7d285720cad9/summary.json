@@ -1,0 +1,15 @@
+{
+ "agent": "BOQ POMI V1",
+ "deliverable": "D:\\Girish\\AETRAA\\Girish\\Test Drawigs\\Reports\\BOQ_POMI_V1\\5310319 PROPOSED RESIDENTIAL BUILDING (B+G+5+ROOF) - BOQ (PARTIAL) - Rev 00.zip",
+ "drawings": 102,
+ "gaps": 140,
+ "input_set_hash": "7d285720cad9ecea49499f64280257247fa6596ff19c08fc7da28acc0c86ce86",
+ "project": "D:\\Girish\\AETRAA\\Girish\\Test Drawigs",
+ "resume_from": null,
+ "revision": "Rev 00",
+ "run_id": "7d285720cad9",
+ "stages_not_implemented": 0,
+ "stages_ran": 22,
+ "stages_total": 22,
+ "utc": "2026-09-30T12:15:20+00:00"
+}

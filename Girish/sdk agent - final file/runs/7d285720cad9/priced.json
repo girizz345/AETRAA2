@@ -1,0 +1,835 @@
+{
+ "failures": [
+  "G-A: G+.31 item type 'floor_waterproofing' is not in the unit dictionary",
+  "G-B: G+.31 item type 'roof_waterproofing' is not in the unit dictionary",
+  "J-A: G+.31 item type 'ceiling_finish' is not in the unit dictionary",
+  "J-B: G+.31 item type 'ceiling_finish' is not in the unit dictionary",
+  "J-C: G+.31 item type 'floor_finish' is not in the unit dictionary",
+  "J-D: G+.31 item type 'floor_finish' is not in the unit dictionary",
+  "J-E: G+.31 item type 'wall_finish' is not in the unit dictionary",
+  "J-F: G+.31 item type 'wall_finish' is not in the unit dictionary"
+ ],
+ "flags": [
+  "D-A: NO_RATE class is a gap, not a number",
+  "D-B: NO_RATE class is a gap, not a number",
+  "D-C: NO_RATE class is a gap, not a number",
+  "G-A: NO_RATE class is a gap, not a number",
+  "G-B: NO_RATE class is a gap, not a number",
+  "H-A: NO_RATE class is a gap, not a number",
+  "H-B: NO_RATE class is a gap, not a number",
+  "H-C: NO_RATE class is a gap, not a number",
+  "H-D: NO_RATE class is a gap, not a number",
+  "H-E: NO_RATE class is a gap, not a number",
+  "H-F: NO_RATE class is a gap, not a number",
+  "H-G: NO_RATE class is a gap, not a number",
+  "H-H: NO_RATE class is a gap, not a number",
+  "H-J: NO_RATE class is a gap, not a number",
+  "H-K: NO_RATE class is a gap, not a number",
+  "H-L: NO_RATE class is a gap, not a number",
+  "H-M: NO_RATE class is a gap, not a number",
+  "H-N: NO_RATE class is a gap, not a number",
+  "H-P: NO_RATE class is a gap, not a number",
+  "H-Q: NO_RATE class is a gap, not a number",
+  "H-R: NO_RATE class is a gap, not a number",
+  "H-S: NO_RATE class is a gap, not a number",
+  "H-T: NO_RATE class is a gap, not a number",
+  "H-U: NO_RATE class is a gap, not a number",
+  "H-V: NO_RATE class is a gap, not a number",
+  "H-2A: NO_RATE class is a gap, not a number",
+  "H-2B: NO_RATE class is a gap, not a number",
+  "H-2C: NO_RATE class is a gap, not a number",
+  "H-2D: NO_RATE class is a gap, not a number",
+  "H-2E: NO_RATE class is a gap, not a number",
+  "H-2F: NO_RATE class is a gap, not a number",
+  "H-2G: NO_RATE class is a gap, not a number",
+  "H-2H: NO_RATE class is a gap, not a number",
+  "H-2J: NO_RATE class is a gap, not a number",
+  "H-2K: NO_RATE class is a gap, not a number",
+  "H-2L: NO_RATE class is a gap, not a number",
+  "H-2M: NO_RATE class is a gap, not a number",
+  "H-2N: NO_RATE class is a gap, not a number",
+  "H-2P: NO_RATE class is a gap, not a number",
+  "J-A: NO_RATE class is a gap, not a number",
+  "J-B: NO_RATE class is a gap, not a number",
+  "J-C: NO_RATE class is a gap, not a number",
+  "J-D: NO_RATE class is a gap, not a number",
+  "J-E: NO_RATE class is a gap, not a number",
+  "J-F: NO_RATE class is a gap, not a number",
+  "J-G: NO_RATE class is a gap, not a number",
+  "J-H: NO_RATE class is a gap, not a number",
+  "G+.32d 28 of 28 ordinal invariants untested this run (one side unpriced): [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28]",
+  "D-A: UNLISTED_CLASS UNLISTED_CLASS:D.D2.1 \u2014 no listed rate class matches clause D2.1; searched on the clause title",
+  "D-B: UNLISTED_CLASS UNLISTED_CLASS:D.D2.1 \u2014 no listed rate class matches clause D2.1; searched on the clause title",
+  "D-C: UNLISTED_CLASS UNLISTED_CLASS:D.D2.1 \u2014 no listed rate class matches clause D2.1; searched on the clause title",
+  "G-A: UNLISTED_CLASS UNLISTED_CLASS:G.G2.1 \u2014 no listed rate class matches clause G2.1; searched on the clause title",
+  "G-B: UNLISTED_CLASS UNLISTED_CLASS:G.G2.1 \u2014 no listed rate class matches clause G2.1; searched on the clause title",
+  "H-2A: UNLISTED_CLASS UNLISTED_CLASS:H.H2.1 \u2014 no listed rate class matches clause H2.1; searched on the clause title",
+  "H-2B: UNLISTED_CLASS UNLISTED_CLASS:H.H2.1 \u2014 no listed rate class matches clause H2.1; searched on the clause title",
+  "H-2C: UNLISTED_CLASS UNLISTED_CLASS:H.H2.1 \u2014 no listed rate class matches clause H2.1; searched on the clause title",
+  "H-2D: UNLISTED_CLASS UNLISTED_CLASS:H.H2.1 \u2014 no listed rate class matches clause H2.1; searched on the clause title",
+  "H-2E: UNLISTED_CLASS UNLISTED_CLASS:H.H2.1 \u2014 no listed rate class matches clause H2.1; searched on the clause title",
+  "H-2F: UNLISTED_CLASS UNLISTED_CLASS:H.H2.1 \u2014 no listed rate class matches clause H2.1; searched on the clause title",
+  "H-2G: UNLISTED_CLASS UNLISTED_CLASS:H.H2.1 \u2014 no listed rate class matches clause H2.1; searched on the clause title",
+  "H-2H: UNLISTED_CLASS UNLISTED_CLASS:H.H2.1 \u2014 no listed rate class matches clause H2.1; searched on the clause title",
+  "H-2J: UNLISTED_CLASS UNLISTED_CLASS:H.H2.1 \u2014 no listed rate class matches clause H2.1; searched on the clause title",
+  "H-2K: UNLISTED_CLASS UNLISTED_CLASS:H.H2.1 \u2014 no listed rate class matches clause H2.1; searched on the clause title",
+  "H-2L: UNLISTED_CLASS UNLISTED_CLASS:H.H2.1 \u2014 no listed rate class matches clause H2.1; searched on the clause title",
+  "H-2M: UNLISTED_CLASS UNLISTED_CLASS:H.H2.1 \u2014 no listed rate class matches clause H2.1; searched on the clause title",
+  "H-2N: UNLISTED_CLASS UNLISTED_CLASS:H.H2.1 \u2014 no listed rate class matches clause H2.1; searched on the clause title",
+  "H-2P: UNLISTED_CLASS UNLISTED_CLASS:H.H2.1 \u2014 no listed rate class matches clause H2.1; searched on the clause title",
+  "H-A: UNLISTED_CLASS UNLISTED_CLASS:H.H1.1 \u2014 no listed rate class matches clause H1.1; searched on the clause title",
+  "H-B: UNLISTED_CLASS UNLISTED_CLASS:H.H1.1 \u2014 no listed rate class matches clause H1.1; searched on the clause title",
+  "H-C: UNLISTED_CLASS UNLISTED_CLASS:H.H1.1 \u2014 no listed rate class matches clause H1.1; searched on the clause title",
+  "H-D: UNLISTED_CLASS UNLISTED_CLASS:H.H1.1 \u2014 no listed rate class matches clause H1.1; searched on the clause title",
+  "H-E: UNLISTED_CLASS UNLISTED_CLASS:H.H1.1 \u2014 no listed rate class matches clause H1.1; searched on the clause title",
+  "H-F: UNLISTED_CLASS UNLISTED_CLASS:H.H1.1 \u2014 no listed rate class matches clause H1.1; searched on the clause title",
+  "H-G: UNLISTED_CLASS UNLISTED_CLASS:H.H1.1 \u2014 no listed rate class matches clause H1.1; searched on the clause title",
+  "H-H: UNLISTED_CLASS UNLISTED_CLASS:H.H1.1 \u2014 no listed rate class matches clause H1.1; searched on the clause title",
+  "H-J: UNLISTED_CLASS UNLISTED_CLASS:H.H1.1 \u2014 no listed rate class matches clause H1.1; searched on the clause title",
+  "H-K: UNLISTED_CLASS UNLISTED_CLASS:H.H1.1 \u2014 no listed rate class matches clause H1.1; searched on the clause title",
+  "H-L: UNLISTED_CLASS UNLISTED_CLASS:H.H1.1 \u2014 no listed rate class matches clause H1.1; searched on the clause title",
+  "H-M: UNLISTED_CLASS UNLISTED_CLASS:H.H1.1 \u2014 no listed rate class matches clause H1.1; searched on the clause title",
+  "H-N: UNLISTED_CLASS UNLISTED_CLASS:H.H2.1 \u2014 no listed rate class matches clause H2.1; searched on the clause title",
+  "H-P: UNLISTED_CLASS UNLISTED_CLASS:H.H2.1 \u2014 no listed rate class matches clause H2.1; searched on the clause title",
+  "H-Q: UNLISTED_CLASS UNLISTED_CLASS:H.H2.1 \u2014 no listed rate class matches clause H2.1; searched on the clause title",
+  "H-R: UNLISTED_CLASS UNLISTED_CLASS:H.H2.1 \u2014 no listed rate class matches clause H2.1; searched on the clause title",
+  "H-S: UNLISTED_CLASS UNLISTED_CLASS:H.H2.1 \u2014 no listed rate class matches clause H2.1; searched on the clause title",
+  "H-T: UNLISTED_CLASS UNLISTED_CLASS:H.H2.1 \u2014 no listed rate class matches clause H2.1; searched on the clause title",
+  "H-U: UNLISTED_CLASS UNLISTED_CLASS:H.H2.1 \u2014 no listed rate class matches clause H2.1; searched on the clause title",
+  "H-V: UNLISTED_CLASS UNLISTED_CLASS:H.H2.1 \u2014 no listed rate class matches clause H2.1; searched on the clause title",
+  "J-A: UNLISTED_CLASS UNLISTED_CLASS:J.J3.1 \u2014 no listed rate class matches clause J3.1; searched on the clause title",
+  "J-B: UNLISTED_CLASS UNLISTED_CLASS:J.J3.1 \u2014 no listed rate class matches clause J3.1; searched on the clause title",
+  "J-C: UNLISTED_CLASS UNLISTED_CLASS:J.J3.1 \u2014 no listed rate class matches clause J3.1; searched on the clause title",
+  "J-D: UNLISTED_CLASS UNLISTED_CLASS:J.J3.1 \u2014 no listed rate class matches clause J3.1; searched on the clause title",
+  "J-E: UNLISTED_CLASS UNLISTED_CLASS:J.J3.1 \u2014 no listed rate class matches clause J3.1; searched on the clause title",
+  "J-F: UNLISTED_CLASS UNLISTED_CLASS:J.J3.1 \u2014 no listed rate class matches clause J3.1; searched on the clause title",
+  "J-G: UNLISTED_CLASS UNLISTED_CLASS:J.J3.2 \u2014 no listed rate class matches clause J3.2; searched on the clause title",
+  "J-H: UNLISTED_CLASS UNLISTED_CLASS:J.J3.2 \u2014 no listed rate class matches clause J3.2; searched on the clause title"
+ ],
+ "no_ai": true,
+ "rates": {},
+ "rows": [
+  {
+   "amount": null,
+   "citation": null,
+   "failures": [],
+   "flags": [
+    "NO_RATE class is a gap, not a number",
+    "UNLISTED_CLASS UNLISTED_CLASS:D.D2.1 \u2014 no listed rate class matches clause D2.1; searched on the clause title"
+   ],
+   "quantity": "5719.6265",
+   "rate": null,
+   "rate_class": "UNLISTED_CLASS:D.D2.1",
+   "ref": "D-A",
+   "section": "D",
+   "unit": "m2"
+  },
+  {
+   "amount": null,
+   "citation": null,
+   "failures": [],
+   "flags": [
+    "NO_RATE class is a gap, not a number",
+    "UNLISTED_CLASS UNLISTED_CLASS:D.D2.1 \u2014 no listed rate class matches clause D2.1; searched on the clause title"
+   ],
+   "quantity": "303.2580",
+   "rate": null,
+   "rate_class": "UNLISTED_CLASS:D.D2.1",
+   "ref": "D-B",
+   "section": "D",
+   "unit": "m2"
+  },
+  {
+   "amount": null,
+   "citation": null,
+   "failures": [],
+   "flags": [
+    "NO_RATE class is a gap, not a number",
+    "UNLISTED_CLASS UNLISTED_CLASS:D.D2.1 \u2014 no listed rate class matches clause D2.1; searched on the clause title"
+   ],
+   "quantity": "10371.2890",
+   "rate": null,
+   "rate_class": "UNLISTED_CLASS:D.D2.1",
+   "ref": "D-C",
+   "section": "D",
+   "unit": "m2"
+  },
+  {
+   "amount": null,
+   "citation": null,
+   "failures": [
+    "G+.31 item type 'floor_waterproofing' is not in the unit dictionary"
+   ],
+   "flags": [
+    "NO_RATE class is a gap, not a number",
+    "UNLISTED_CLASS UNLISTED_CLASS:G.G2.1 \u2014 no listed rate class matches clause G2.1; searched on the clause title"
+   ],
+   "quantity": "840.78",
+   "rate": null,
+   "rate_class": "UNLISTED_CLASS:G.G2.1",
+   "ref": "G-A",
+   "section": "G",
+   "unit": "m2"
+  },
+  {
+   "amount": null,
+   "citation": null,
+   "failures": [
+    "G+.31 item type 'roof_waterproofing' is not in the unit dictionary"
+   ],
+   "flags": [
+    "NO_RATE class is a gap, not a number",
+    "UNLISTED_CLASS UNLISTED_CLASS:G.G2.1 \u2014 no listed rate class matches clause G2.1; searched on the clause title"
+   ],
+   "quantity": "2726.16",
+   "rate": null,
+   "rate_class": "UNLISTED_CLASS:G.G2.1",
+   "ref": "G-B",
+   "section": "G",
+   "unit": "m2"
+  },
+  {
+   "amount": null,
+   "citation": null,
+   "failures": [],
+   "flags": [
+    "NO_RATE class is a gap, not a number",
+    "UNLISTED_CLASS UNLISTED_CLASS:H.H1.1 \u2014 no listed rate class matches clause H1.1; searched on the clause title"
+   ],
+   "quantity": "20",
+   "rate": null,
+   "rate_class": "UNLISTED_CLASS:H.H1.1",
+   "ref": "H-A",
+   "section": "H",
+   "unit": "nr"
+  },
+  {
+   "amount": null,
+   "citation": null,
+   "failures": [],
+   "flags": [
+    "NO_RATE class is a gap, not a number",
+    "UNLISTED_CLASS UNLISTED_CLASS:H.H1.1 \u2014 no listed rate class matches clause H1.1; searched on the clause title"
+   ],
+   "quantity": "185",
+   "rate": null,
+   "rate_class": "UNLISTED_CLASS:H.H1.1",
+   "ref": "H-B",
+   "section": "H",
+   "unit": "nr"
+  },
+  {
+   "amount": null,
+   "citation": null,
+   "failures": [],
+   "flags": [
+    "NO_RATE class is a gap, not a number",
+    "UNLISTED_CLASS UNLISTED_CLASS:H.H1.1 \u2014 no listed rate class matches clause H1.1; searched on the clause title"
+   ],
+   "quantity": "28",
+   "rate": null,
+   "rate_class": "UNLISTED_CLASS:H.H1.1",
+   "ref": "H-C",
+   "section": "H",
+   "unit": "nr"
+  },
+  {
+   "amount": null,
+   "citation": null,
+   "failures": [],
+   "flags": [
+    "NO_RATE class is a gap, not a number",
+    "UNLISTED_CLASS UNLISTED_CLASS:H.H1.1 \u2014 no listed rate class matches clause H1.1; searched on the clause title"
+   ],
+   "quantity": "206",
+   "rate": null,
+   "rate_class": "UNLISTED_CLASS:H.H1.1",
+   "ref": "H-D",
+   "section": "H",
+   "unit": "nr"
+  },
+  {
+   "amount": null,
+   "citation": null,
+   "failures": [],
+   "flags": [
+    "NO_RATE class is a gap, not a number",
+    "UNLISTED_CLASS UNLISTED_CLASS:H.H1.1 \u2014 no listed rate class matches clause H1.1; searched on the clause title"
+   ],
+   "quantity": "28",
+   "rate": null,
+   "rate_class": "UNLISTED_CLASS:H.H1.1",
+   "ref": "H-E",
+   "section": "H",
+   "unit": "nr"
+  },
+  {
+   "amount": null,
+   "citation": null,
+   "failures": [],
+   "flags": [
+    "NO_RATE class is a gap, not a number",
+    "UNLISTED_CLASS UNLISTED_CLASS:H.H1.1 \u2014 no listed rate class matches clause H1.1; searched on the clause title"
+   ],
+   "quantity": "5",
+   "rate": null,
+   "rate_class": "UNLISTED_CLASS:H.H1.1",
+   "ref": "H-F",
+   "section": "H",
+   "unit": "nr"
+  },
+  {
+   "amount": null,
+   "citation": null,
+   "failures": [],
+   "flags": [
+    "NO_RATE class is a gap, not a number",
+    "UNLISTED_CLASS UNLISTED_CLASS:H.H1.1 \u2014 no listed rate class matches clause H1.1; searched on the clause title"
+   ],
+   "quantity": "1",
+   "rate": null,
+   "rate_class": "UNLISTED_CLASS:H.H1.1",
+   "ref": "H-G",
+   "section": "H",
+   "unit": "nr"
+  },
+  {
+   "amount": null,
+   "citation": null,
+   "failures": [],
+   "flags": [
+    "NO_RATE class is a gap, not a number",
+    "UNLISTED_CLASS UNLISTED_CLASS:H.H1.1 \u2014 no listed rate class matches clause H1.1; searched on the clause title"
+   ],
+   "quantity": "1",
+   "rate": null,
+   "rate_class": "UNLISTED_CLASS:H.H1.1",
+   "ref": "H-H",
+   "section": "H",
+   "unit": "nr"
+  },
+  {
+   "amount": null,
+   "citation": null,
+   "failures": [],
+   "flags": [
+    "NO_RATE class is a gap, not a number",
+    "UNLISTED_CLASS UNLISTED_CLASS:H.H1.1 \u2014 no listed rate class matches clause H1.1; searched on the clause title"
+   ],
+   "quantity": "1",
+   "rate": null,
+   "rate_class": "UNLISTED_CLASS:H.H1.1",
+   "ref": "H-J",
+   "section": "H",
+   "unit": "nr"
+  },
+  {
+   "amount": null,
+   "citation": null,
+   "failures": [],
+   "flags": [
+    "NO_RATE class is a gap, not a number",
+    "UNLISTED_CLASS UNLISTED_CLASS:H.H1.1 \u2014 no listed rate class matches clause H1.1; searched on the clause title"
+   ],
+   "quantity": "1",
+   "rate": null,
+   "rate_class": "UNLISTED_CLASS:H.H1.1",
+   "ref": "H-K",
+   "section": "H",
+   "unit": "nr"
+  },
+  {
+   "amount": null,
+   "citation": null,
+   "failures": [],
+   "flags": [
+    "NO_RATE class is a gap, not a number",
+    "UNLISTED_CLASS UNLISTED_CLASS:H.H1.1 \u2014 no listed rate class matches clause H1.1; searched on the clause title"
+   ],
+   "quantity": "3",
+   "rate": null,
+   "rate_class": "UNLISTED_CLASS:H.H1.1",
+   "ref": "H-L",
+   "section": "H",
+   "unit": "nr"
+  },
+  {
+   "amount": null,
+   "citation": null,
+   "failures": [],
+   "flags": [
+    "NO_RATE class is a gap, not a number",
+    "UNLISTED_CLASS UNLISTED_CLASS:H.H1.1 \u2014 no listed rate class matches clause H1.1; searched on the clause title"
+   ],
+   "quantity": "1",
+   "rate": null,
+   "rate_class": "UNLISTED_CLASS:H.H1.1",
+   "ref": "H-M",
+   "section": "H",
+   "unit": "nr"
+  },
+  {
+   "amount": null,
+   "citation": null,
+   "failures": [],
+   "flags": [
+    "NO_RATE class is a gap, not a number",
+    "UNLISTED_CLASS UNLISTED_CLASS:H.H2.1 \u2014 no listed rate class matches clause H2.1; searched on the clause title"
+   ],
+   "quantity": "1",
+   "rate": null,
+   "rate_class": "UNLISTED_CLASS:H.H2.1",
+   "ref": "H-N",
+   "section": "H",
+   "unit": "nr"
+  },
+  {
+   "amount": null,
+   "citation": null,
+   "failures": [],
+   "flags": [
+    "NO_RATE class is a gap, not a number",
+    "UNLISTED_CLASS UNLISTED_CLASS:H.H2.1 \u2014 no listed rate class matches clause H2.1; searched on the clause title"
+   ],
+   "quantity": "1",
+   "rate": null,
+   "rate_class": "UNLISTED_CLASS:H.H2.1",
+   "ref": "H-P",
+   "section": "H",
+   "unit": "nr"
+  },
+  {
+   "amount": null,
+   "citation": null,
+   "failures": [],
+   "flags": [
+    "NO_RATE class is a gap, not a number",
+    "UNLISTED_CLASS UNLISTED_CLASS:H.H2.1 \u2014 no listed rate class matches clause H2.1; searched on the clause title"
+   ],
+   "quantity": "152",
+   "rate": null,
+   "rate_class": "UNLISTED_CLASS:H.H2.1",
+   "ref": "H-Q",
+   "section": "H",
+   "unit": "nr"
+  },
+  {
+   "amount": null,
+   "citation": null,
+   "failures": [],
+   "flags": [
+    "NO_RATE class is a gap, not a number",
+    "UNLISTED_CLASS UNLISTED_CLASS:H.H2.1 \u2014 no listed rate class matches clause H2.1; searched on the clause title"
+   ],
+   "quantity": "10",
+   "rate": null,
+   "rate_class": "UNLISTED_CLASS:H.H2.1",
+   "ref": "H-R",
+   "section": "H",
+   "unit": "nr"
+  },
+  {
+   "amount": null,
+   "citation": null,
+   "failures": [],
+   "flags": [
+    "NO_RATE class is a gap, not a number",
+    "UNLISTED_CLASS UNLISTED_CLASS:H.H2.1 \u2014 no listed rate class matches clause H2.1; searched on the clause title"
+   ],
+   "quantity": "5",
+   "rate": null,
+   "rate_class": "UNLISTED_CLASS:H.H2.1",
+   "ref": "H-S",
+   "section": "H",
+   "unit": "nr"
+  },
+  {
+   "amount": null,
+   "citation": null,
+   "failures": [],
+   "flags": [
+    "NO_RATE class is a gap, not a number",
+    "UNLISTED_CLASS UNLISTED_CLASS:H.H2.1 \u2014 no listed rate class matches clause H2.1; searched on the clause title"
+   ],
+   "quantity": "4",
+   "rate": null,
+   "rate_class": "UNLISTED_CLASS:H.H2.1",
+   "ref": "H-T",
+   "section": "H",
+   "unit": "nr"
+  },
+  {
+   "amount": null,
+   "citation": null,
+   "failures": [],
+   "flags": [
+    "NO_RATE class is a gap, not a number",
+    "UNLISTED_CLASS UNLISTED_CLASS:H.H2.1 \u2014 no listed rate class matches clause H2.1; searched on the clause title"
+   ],
+   "quantity": "1",
+   "rate": null,
+   "rate_class": "UNLISTED_CLASS:H.H2.1",
+   "ref": "H-U",
+   "section": "H",
+   "unit": "nr"
+  },
+  {
+   "amount": null,
+   "citation": null,
+   "failures": [],
+   "flags": [
+    "NO_RATE class is a gap, not a number",
+    "UNLISTED_CLASS UNLISTED_CLASS:H.H2.1 \u2014 no listed rate class matches clause H2.1; searched on the clause title"
+   ],
+   "quantity": "8",
+   "rate": null,
+   "rate_class": "UNLISTED_CLASS:H.H2.1",
+   "ref": "H-V",
+   "section": "H",
+   "unit": "nr"
+  },
+  {
+   "amount": null,
+   "citation": null,
+   "failures": [],
+   "flags": [
+    "NO_RATE class is a gap, not a number",
+    "UNLISTED_CLASS UNLISTED_CLASS:H.H2.1 \u2014 no listed rate class matches clause H2.1; searched on the clause title"
+   ],
+   "quantity": "4",
+   "rate": null,
+   "rate_class": "UNLISTED_CLASS:H.H2.1",
+   "ref": "H-2A",
+   "section": "H",
+   "unit": "nr"
+  },
+  {
+   "amount": null,
+   "citation": null,
+   "failures": [],
+   "flags": [
+    "NO_RATE class is a gap, not a number",
+    "UNLISTED_CLASS UNLISTED_CLASS:H.H2.1 \u2014 no listed rate class matches clause H2.1; searched on the clause title"
+   ],
+   "quantity": "1",
+   "rate": null,
+   "rate_class": "UNLISTED_CLASS:H.H2.1",
+   "ref": "H-2B",
+   "section": "H",
+   "unit": "nr"
+  },
+  {
+   "amount": null,
+   "citation": null,
+   "failures": [],
+   "flags": [
+    "NO_RATE class is a gap, not a number",
+    "UNLISTED_CLASS UNLISTED_CLASS:H.H2.1 \u2014 no listed rate class matches clause H2.1; searched on the clause title"
+   ],
+   "quantity": "1",
+   "rate": null,
+   "rate_class": "UNLISTED_CLASS:H.H2.1",
+   "ref": "H-2C",
+   "section": "H",
+   "unit": "nr"
+  },
+  {
+   "amount": null,
+   "citation": null,
+   "failures": [],
+   "flags": [
+    "NO_RATE class is a gap, not a number",
+    "UNLISTED_CLASS UNLISTED_CLASS:H.H2.1 \u2014 no listed rate class matches clause H2.1; searched on the clause title"
+   ],
+   "quantity": "1",
+   "rate": null,
+   "rate_class": "UNLISTED_CLASS:H.H2.1",
+   "ref": "H-2D",
+   "section": "H",
+   "unit": "nr"
+  },
+  {
+   "amount": null,
+   "citation": null,
+   "failures": [],
+   "flags": [
+    "NO_RATE class is a gap, not a number",
+    "UNLISTED_CLASS UNLISTED_CLASS:H.H2.1 \u2014 no listed rate class matches clause H2.1; searched on the clause title"
+   ],
+   "quantity": "1",
+   "rate": null,
+   "rate_class": "UNLISTED_CLASS:H.H2.1",
+   "ref": "H-2E",
+   "section": "H",
+   "unit": "nr"
+  },
+  {
+   "amount": null,
+   "citation": null,
+   "failures": [],
+   "flags": [
+    "NO_RATE class is a gap, not a number",
+    "UNLISTED_CLASS UNLISTED_CLASS:H.H2.1 \u2014 no listed rate class matches clause H2.1; searched on the clause title"
+   ],
+   "quantity": "1",
+   "rate": null,
+   "rate_class": "UNLISTED_CLASS:H.H2.1",
+   "ref": "H-2F",
+   "section": "H",
+   "unit": "nr"
+  },
+  {
+   "amount": null,
+   "citation": null,
+   "failures": [],
+   "flags": [
+    "NO_RATE class is a gap, not a number",
+    "UNLISTED_CLASS UNLISTED_CLASS:H.H2.1 \u2014 no listed rate class matches clause H2.1; searched on the clause title"
+   ],
+   "quantity": "1",
+   "rate": null,
+   "rate_class": "UNLISTED_CLASS:H.H2.1",
+   "ref": "H-2G",
+   "section": "H",
+   "unit": "nr"
+  },
+  {
+   "amount": null,
+   "citation": null,
+   "failures": [],
+   "flags": [
+    "NO_RATE class is a gap, not a number",
+    "UNLISTED_CLASS UNLISTED_CLASS:H.H2.1 \u2014 no listed rate class matches clause H2.1; searched on the clause title"
+   ],
+   "quantity": "1",
+   "rate": null,
+   "rate_class": "UNLISTED_CLASS:H.H2.1",
+   "ref": "H-2H",
+   "section": "H",
+   "unit": "nr"
+  },
+  {
+   "amount": null,
+   "citation": null,
+   "failures": [],
+   "flags": [
+    "NO_RATE class is a gap, not a number",
+    "UNLISTED_CLASS UNLISTED_CLASS:H.H2.1 \u2014 no listed rate class matches clause H2.1; searched on the clause title"
+   ],
+   "quantity": "1",
+   "rate": null,
+   "rate_class": "UNLISTED_CLASS:H.H2.1",
+   "ref": "H-2J",
+   "section": "H",
+   "unit": "nr"
+  },
+  {
+   "amount": null,
+   "citation": null,
+   "failures": [],
+   "flags": [
+    "NO_RATE class is a gap, not a number",
+    "UNLISTED_CLASS UNLISTED_CLASS:H.H2.1 \u2014 no listed rate class matches clause H2.1; searched on the clause title"
+   ],
+   "quantity": "1",
+   "rate": null,
+   "rate_class": "UNLISTED_CLASS:H.H2.1",
+   "ref": "H-2K",
+   "section": "H",
+   "unit": "nr"
+  },
+  {
+   "amount": null,
+   "citation": null,
+   "failures": [],
+   "flags": [
+    "NO_RATE class is a gap, not a number",
+    "UNLISTED_CLASS UNLISTED_CLASS:H.H2.1 \u2014 no listed rate class matches clause H2.1; searched on the clause title"
+   ],
+   "quantity": "1",
+   "rate": null,
+   "rate_class": "UNLISTED_CLASS:H.H2.1",
+   "ref": "H-2L",
+   "section": "H",
+   "unit": "nr"
+  },
+  {
+   "amount": null,
+   "citation": null,
+   "failures": [],
+   "flags": [
+    "NO_RATE class is a gap, not a number",
+    "UNLISTED_CLASS UNLISTED_CLASS:H.H2.1 \u2014 no listed rate class matches clause H2.1; searched on the clause title"
+   ],
+   "quantity": "1",
+   "rate": null,
+   "rate_class": "UNLISTED_CLASS:H.H2.1",
+   "ref": "H-2M",
+   "section": "H",
+   "unit": "nr"
+  },
+  {
+   "amount": null,
+   "citation": null,
+   "failures": [],
+   "flags": [
+    "NO_RATE class is a gap, not a number",
+    "UNLISTED_CLASS UNLISTED_CLASS:H.H2.1 \u2014 no listed rate class matches clause H2.1; searched on the clause title"
+   ],
+   "quantity": "1",
+   "rate": null,
+   "rate_class": "UNLISTED_CLASS:H.H2.1",
+   "ref": "H-2N",
+   "section": "H",
+   "unit": "nr"
+  },
+  {
+   "amount": null,
+   "citation": null,
+   "failures": [],
+   "flags": [
+    "NO_RATE class is a gap, not a number",
+    "UNLISTED_CLASS UNLISTED_CLASS:H.H2.1 \u2014 no listed rate class matches clause H2.1; searched on the clause title"
+   ],
+   "quantity": "1",
+   "rate": null,
+   "rate_class": "UNLISTED_CLASS:H.H2.1",
+   "ref": "H-2P",
+   "section": "H",
+   "unit": "nr"
+  },
+  {
+   "amount": null,
+   "citation": null,
+   "failures": [
+    "G+.31 item type 'ceiling_finish' is not in the unit dictionary"
+   ],
+   "flags": [
+    "NO_RATE class is a gap, not a number",
+    "UNLISTED_CLASS UNLISTED_CLASS:J.J3.1 \u2014 no listed rate class matches clause J3.1; searched on the clause title"
+   ],
+   "quantity": "6442.20",
+   "rate": null,
+   "rate_class": "UNLISTED_CLASS:J.J3.1",
+   "ref": "J-A",
+   "section": "J",
+   "unit": "m2"
+  },
+  {
+   "amount": null,
+   "citation": null,
+   "failures": [
+    "G+.31 item type 'ceiling_finish' is not in the unit dictionary"
+   ],
+   "flags": [
+    "NO_RATE class is a gap, not a number",
+    "UNLISTED_CLASS UNLISTED_CLASS:J.J3.1 \u2014 no listed rate class matches clause J3.1; searched on the clause title"
+   ],
+   "quantity": "840.78",
+   "rate": null,
+   "rate_class": "UNLISTED_CLASS:J.J3.1",
+   "ref": "J-B",
+   "section": "J",
+   "unit": "m2"
+  },
+  {
+   "amount": null,
+   "citation": null,
+   "failures": [
+    "G+.31 item type 'floor_finish' is not in the unit dictionary"
+   ],
+   "flags": [
+    "NO_RATE class is a gap, not a number",
+    "UNLISTED_CLASS UNLISTED_CLASS:J.J3.1 \u2014 no listed rate class matches clause J3.1; searched on the clause title"
+   ],
+   "quantity": "6442.20",
+   "rate": null,
+   "rate_class": "UNLISTED_CLASS:J.J3.1",
+   "ref": "J-C",
+   "section": "J",
+   "unit": "m2"
+  },
+  {
+   "amount": null,
+   "citation": null,
+   "failures": [
+    "G+.31 item type 'floor_finish' is not in the unit dictionary"
+   ],
+   "flags": [
+    "NO_RATE class is a gap, not a number",
+    "UNLISTED_CLASS UNLISTED_CLASS:J.J3.1 \u2014 no listed rate class matches clause J3.1; searched on the clause title"
+   ],
+   "quantity": "840.78",
+   "rate": null,
+   "rate_class": "UNLISTED_CLASS:J.J3.1",
+   "ref": "J-D",
+   "section": "J",
+   "unit": "m2"
+  },
+  {
+   "amount": null,
+   "citation": null,
+   "failures": [
+    "G+.31 item type 'wall_finish' is not in the unit dictionary"
+   ],
+   "flags": [
+    "NO_RATE class is a gap, not a number",
+    "UNLISTED_CLASS UNLISTED_CLASS:J.J3.1 \u2014 no listed rate class matches clause J3.1; searched on the clause title"
+   ],
+   "quantity": "20430.0820",
+   "rate": null,
+   "rate_class": "UNLISTED_CLASS:J.J3.1",
+   "ref": "J-E",
+   "section": "J",
+   "unit": "m2"
+  },
+  {
+   "amount": null,
+   "citation": null,
+   "failures": [
+    "G+.31 item type 'wall_finish' is not in the unit dictionary"
+   ],
+   "flags": [
+    "NO_RATE class is a gap, not a number",
+    "UNLISTED_CLASS UNLISTED_CLASS:J.J3.1 \u2014 no listed rate class matches clause J3.1; searched on the clause title"
+   ],
+   "quantity": "5646.0075",
+   "rate": null,
+   "rate_class": "UNLISTED_CLASS:J.J3.1",
+   "ref": "J-F",
+   "section": "J",
+   "unit": "m2"
+  },
+  {
+   "amount": null,
+   "citation": null,
+   "failures": [],
+   "flags": [
+    "NO_RATE class is a gap, not a number",
+    "UNLISTED_CLASS UNLISTED_CLASS:J.J3.2 \u2014 no listed rate class matches clause J3.2; searched on the clause title"
+   ],
+   "quantity": "5560.64",
+   "rate": null,
+   "rate_class": "UNLISTED_CLASS:J.J3.2",
+   "ref": "J-G",
+   "section": "J",
+   "unit": "m"
+  },
+  {
+   "amount": null,
+   "citation": null,
+   "failures": [],
+   "flags": [
+    "NO_RATE class is a gap, not a number",
+    "UNLISTED_CLASS UNLISTED_CLASS:J.J3.2 \u2014 no listed rate class matches clause J3.2; searched on the clause title"
+   ],
+   "quantity": "1501.04",
+   "rate": null,
+   "rate_class": "UNLISTED_CLASS:J.J3.2",
+   "ref": "J-H",
+   "section": "J",
+   "unit": "m"
+  }
+ ],
+ "searched": 0
+}

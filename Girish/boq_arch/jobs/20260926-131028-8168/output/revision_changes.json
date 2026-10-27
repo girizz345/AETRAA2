@@ -1,0 +1,22 @@
+{
+ "from_rev": "00",
+ "to_rev": "00",
+ "sheets": [],
+ "schedule": [],
+ "tags": {},
+ "quantities": [
+  {
+   "section": "J",
+   "item": "To external walls, brick cladding",
+   "change": "added",
+   "now": 592.14,
+   "unit": "m2"
+  }
+ ],
+ "summary": {
+  "sheets": 0,
+  "schedule": 0,
+  "tags": 0,
+  "quantities": 1
+ }
+}

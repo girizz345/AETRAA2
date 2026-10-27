@@ -1,0 +1,119 @@
+{
+ "_stamp": {
+  "sheet_sha1": "fb8e768502763c91687caaff322c2bbc23bca8ab",
+  "task": "grid_dims",
+  "version": "1"
+ },
+ "answer_to": "A-07-005.grid_dims.json",
+ "prompt": "You are reading a construction drawing for a quantity surveyor. Report only what is printed. Copy numbers and text exactly as printed. Do not total, convert, round or infer anything. If a value cannot be read with certainty, leave it out of the rows and list it under 'illegible' with where it is and why. The images are tiles of one sheet with a small overlap - an item that appears in two tiles is ONE item; report it once.\n\nRead the structural grid dimension chains of this plan: the dimension strings between consecutive grid bubbles along the top (numbered grids) and down the side (lettered grids). For each bay give the two grid labels and the dimension in mm exactly as printed. Also give each overall dimension printed over the whole chain.",
+ "schema": {
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+   "x_bays",
+   "y_bays",
+   "overall",
+   "illegible"
+  ],
+  "properties": {
+   "x_bays": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "additionalProperties": false,
+     "required": [
+      "from",
+      "to",
+      "mm"
+     ],
+     "properties": {
+      "from": {
+       "type": "string"
+      },
+      "to": {
+       "type": "string"
+      },
+      "mm": {
+       "type": "integer"
+      }
+     }
+    }
+   },
+   "y_bays": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "additionalProperties": false,
+     "required": [
+      "from",
+      "to",
+      "mm"
+     ],
+     "properties": {
+      "from": {
+       "type": "string"
+      },
+      "to": {
+       "type": "string"
+      },
+      "mm": {
+       "type": "integer"
+      }
+     }
+    }
+   },
+   "overall": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "additionalProperties": false,
+     "required": [
+      "from",
+      "to",
+      "mm"
+     ],
+     "properties": {
+      "from": {
+       "type": "string"
+      },
+      "to": {
+       "type": "string"
+      },
+      "mm": {
+       "type": "integer"
+      }
+     }
+    }
+   },
+   "illegible": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "additionalProperties": false,
+     "required": [
+      "where",
+      "field",
+      "reason"
+     ],
+     "properties": {
+      "where": {
+       "type": "string"
+      },
+      "field": {
+       "type": "string"
+      },
+      "reason": {
+       "type": "string"
+      }
+     }
+    }
+   }
+  }
+ },
+ "tiles": 2,
+ "providers_tried": [
+  "no Anthropic credentials",
+  "no OpenAI credentials",
+  "no Gemini credentials"
+ ]
+}

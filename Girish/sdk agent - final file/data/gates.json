@@ -1,0 +1,329 @@
+{
+  "schema": "gates/1",
+  "provenance": "reference/quantity-reconciliation-gates.md (G+.29 to G+.32) and reference/universal-rules.md (G+.25 to G+.28)",
+  "stage": "3.5 - after derivation, before formatting. An unresolved FAIL blocks output.",
+  "log_to": "AN.RECONCILIATION",
+  "substantive": {
+    "G+.25": {
+      "name": "Fabrication-token scan",
+      "tokens": [
+        "typical",
+        "placeholder",
+        "assumed",
+        "estimated",
+        "approximate",
+        "guess",
+        "standard practice",
+        "UAE typical",
+        "TBC",
+        "ballpark",
+        "rough",
+        "nominal",
+        "generic"
+      ],
+      "exception": "the token sits inside a quoted drawing label",
+      "action": "move the line to AN.SUBSTANTIVE and drop its confidence to LOW"
+    },
+    "G+.26": {
+      "name": "Confidence honesty",
+      "levels": {
+        "HIGH": "verbatim from a schedule, a dimension or a specification",
+        "MED": "explicit derivation citing a drawing or an extraction record, on HIGH base values",
+        "LOW": "anything else"
+      },
+      "action": "downgrade a dishonest tag"
+    },
+    "G+.27": {
+      "name": "Percentage / factor scan",
+      "forbidden": [
+        "bare multiplier uplift",
+        "per-bay rule",
+        "per-N-m2 rule",
+        "factor derivation",
+        "ratio derivation"
+      ],
+      "permitted_contexts": [
+        "wastage",
+        "contingency",
+        "VAT",
+        "fee"
+      ],
+      "action": "measure the real quantity; keep the factor as a memo line",
+      "catches": "a formwork reuse factor entering a quantity - measure contact area, reuse is a memo"
+    },
+    "G+.28": {
+      "name": "Pattern-check omission",
+      "rule": "do not add elements because they are customary - kickers, water stops, weep holes, access hatches",
+      "action": "measure only what the evidence shows; an allowance is raised for the user to decide"
+    }
+  },
+  "completeness": {
+    "gate": "G+.29",
+    "name": "Completeness matrix",
+    "matrix": "evidence source -> BOQ section -> row count",
+    "override": "a FAIL converts to PASS only with a written justification in AN.RECONCILIATION",
+    "rows": [
+      {
+        "evidence": "schedules.doors",
+        "condition": "non-empty",
+        "must_produce": [
+          "H"
+        ],
+        "min_rows": 1,
+        "on_zero": "FAIL",
+        "evidence_kind": "door_schedule",
+        "source": "G+.29"
+      },
+      {
+        "evidence": "schedules.windows",
+        "condition": "non-empty",
+        "must_produce": [
+          "H"
+        ],
+        "min_rows": 1,
+        "on_zero": "FAIL",
+        "evidence_kind": "window_schedule",
+        "source": "G+.29"
+      },
+      {
+        "evidence": "schedules.finishes",
+        "condition": "non-empty",
+        "must_produce": [
+          "J"
+        ],
+        "min_rows": 1,
+        "per": "finish class used by rooms",
+        "on_zero": "FAIL",
+        "evidence_kind": "finish_schedule",
+        "source": "G+.29"
+      },
+      {
+        "evidence": "schedules.fixtures",
+        "condition": "sanitary present",
+        "must_produce": [
+          "Q"
+        ],
+        "min_rows": 1,
+        "on_zero": "FAIL",
+        "evidence_kind": "sanitary_schedule",
+        "source": "G+.29"
+      },
+      {
+        "evidence": "schedules.equipment",
+        "condition": "non-empty",
+        "must_produce": [
+          "Q",
+          "R"
+        ],
+        "min_rows": 1,
+        "any_of": true,
+        "on_zero": "FAIL",
+        "evidence_kind": "equipment_schedule",
+        "source": "G+.29"
+      },
+      {
+        "evidence": "schedules.slabs|columns|beams",
+        "condition": "non-empty",
+        "must_produce": [
+          "C"
+        ],
+        "min_rows": 1,
+        "on_zero": "FAIL",
+        "evidence_kind": "structural_schedule",
+        "source": "G+.29"
+      },
+      {
+        "evidence": "spaces.circulation.stairs",
+        "condition": "present",
+        "must_produce": [
+          "E"
+        ],
+        "min_rows": 1,
+        "detail": "balustrade or handrail",
+        "on_zero": "FAIL",
+        "evidence_kind": "stair",
+        "source": "G+.29"
+      },
+      {
+        "evidence": "spaces.circulation.lifts",
+        "condition": "present",
+        "must_produce": [
+          "P"
+        ],
+        "min_rows": 1,
+        "on_zero": "FAIL",
+        "evidence_kind": "lift",
+        "source": "G+.29"
+      },
+      {
+        "evidence": "spaces.wet_areas",
+        "condition": "is_wet_area true",
+        "must_produce": [
+          "G",
+          "J",
+          "Q"
+        ],
+        "min_rows": 1,
+        "all_of": true,
+        "detail": "waterproofing in G, wall tile in J, floor drains in Q",
+        "on_zero": "FAIL",
+        "evidence_kind": "wet_room",
+        "source": "G+.29"
+      },
+      {
+        "evidence": "spaces.apartment_mix",
+        "condition": "non-empty",
+        "must_produce": [
+          "F",
+          "H"
+        ],
+        "min_rows": 1,
+        "all_of": true,
+        "detail": "joinery in F, entry doors in H",
+        "on_zero": "FAIL",
+        "evidence_kind": "apartment_mix",
+        "source": "G+.29"
+      },
+      {
+        "evidence": "spaces.external",
+        "condition": "present",
+        "must_produce": [
+          "B"
+        ],
+        "min_rows": 1,
+        "on_zero": "FAIL",
+        "evidence_kind": "external_area",
+        "source": "G+.29"
+      },
+      {
+        "evidence_kind": "balustrade",
+        "evidence": "schedules.balustrade",
+        "condition": "present",
+        "must_produce": [
+          "E"
+        ],
+        "min_rows": 1,
+        "on_zero": "FAIL",
+        "source": "carried from the v3.1 gate"
+      },
+      {
+        "evidence_kind": "kitchen_equipment",
+        "evidence": "schedules.kitchen_equipment",
+        "condition": "present",
+        "must_produce": [
+          "L"
+        ],
+        "min_rows": 1,
+        "on_zero": "FAIL",
+        "source": "carried from the v3.1 gate"
+      },
+      {
+        "evidence_kind": "fire_alarm_device",
+        "evidence": "counts.fire_alarm_device",
+        "condition": "present",
+        "must_produce": [
+          "R"
+        ],
+        "min_rows": 1,
+        "on_zero": "FAIL",
+        "source": "carried from the v3.1 gate",
+        "note": "R, not S. There is no POMI section S."
+      },
+      {
+        "evidence_kind": "light_fitting",
+        "evidence": "counts.light_fitting",
+        "condition": "present",
+        "must_produce": [
+          "R"
+        ],
+        "min_rows": 1,
+        "on_zero": "FAIL",
+        "source": "carried from the v3.1 gate"
+      }
+    ]
+  },
+  "mass_balance": {
+    "gate": "G+.30",
+    "record_as": "check # | expected | actual | variance % | PASS/FAIL | action",
+    "checks": [
+      {
+        "n": 1,
+        "check": "sum of floor finish areas in J vs sum of room.area_m2 x floor_count",
+        "tolerance_pct": 10,
+        "on_breach": "re-measure; list rooms with no finish code"
+      },
+      {
+        "n": 2,
+        "check": "RC slab area in C vs sum of geometry.floor_areas GFA",
+        "tolerance_pct": 5,
+        "on_breach": "use structural GFA; slab must be >= sum of net room areas"
+      },
+      {
+        "n": 3,
+        "check": "blockwork m2 vs (sum of wall lengths once x average height - openings)",
+        "tolerance_pct": 10,
+        "on_breach": "check shared-wall double count first"
+      },
+      {
+        "n": 4,
+        "check": "sum of door rows in H vs sum of schedules.doors counts, after the R36 guard",
+        "tolerance_pct": 0,
+        "on_breach": "check double multiplication"
+      },
+      {
+        "n": 5,
+        "check": "sum of window rows in H vs sum of schedules.windows",
+        "tolerance_pct": 0,
+        "on_breach": "check double multiplication"
+      },
+      {
+        "n": 6,
+        "check": "sanitary fixture count vs wet room count",
+        "rule": "each wet room >= 1 fixture",
+        "on_breach": "list orphan wet rooms"
+      },
+      {
+        "n": 7,
+        "check": "plaster/paint m2 <= 2 x blockwork m2 + external wall inner faces",
+        "rule": "upper bound",
+        "on_breach": "faces over-counted"
+      },
+      {
+        "n": 8,
+        "check": "skirting lm vs sum of (room.perimeter - door widths) x floor count",
+        "tolerance_pct": 10,
+        "on_breach": "re-derive"
+      },
+      {
+        "n": 9,
+        "check": "total BOQ slab area vs the measured built-up area",
+        "tolerance_pct": 10,
+        "on_breach": "investigate multiplier errors"
+      },
+      {
+        "n": 10,
+        "check": "any material or system appearing in more than one section - insulation, waterproofing, paint",
+        "rule": "must reconcile to ONE building total across sections",
+        "on_breach": "list rows per section; remove the duplicate billing"
+      },
+      {
+        "n": 11,
+        "check": "CAD blocks representing double-faced or paired devices - EXIT-DOUBLE, EM-DOUBLE",
+        "rule": "count as ONE unit per pair",
+        "on_breach": "re-count from block definitions, not block faces"
+      },
+      {
+        "n": 12,
+        "check": "a fixture count exactly equal to the count of another building element",
+        "rule": "coincidence is a mis-tag suspect",
+        "on_breach": "verify the CAD layer or tag actually represents the fixture before billing"
+      }
+    ]
+  },
+  "rate_sanity": {
+    "gate": "G+.32",
+    "status": "REDESIGNED - see data/rate_classes.json. The stored rate library is withdrawn, so the library min/max envelope no longer exists. The guard is now three market-independent tests: corroboration, spread, and the ordinal invariants.",
+    "withdrawn_reference": "reference/rate-library.md",
+    "recorded_in": "DECISIONS.md decision 9"
+  }
+}

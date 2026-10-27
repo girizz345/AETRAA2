@@ -1,0 +1,2069 @@
+{
+ "project_identity": {
+  "dissent": {
+   "job_title": [
+    {
+     "sheets": [
+      "PLUMBING/WS-00 SETTING OUTPLAN WATER SUPPLY LAYOUT.pdf",
+      "PLUMBING/WS-01 UNDERGROUND PUMP ROOM WATER SUPPLY LAYOUT.pdf",
+      "PLUMBING/WS-02 BASEMENT FLOOR PLAN WATER SUPPLY LAYOUT.pdf",
+      "PLUMBING/WS-03 GROUND FLOOR PLAN WATER SUPPLY LAYOUT.pdf",
+      "PLUMBING/WS-04 FIRST FLOOR PLAN WATER SUPPLY LAYOUT.pdf",
+      "PLUMBING/WS-05 2NDFLOORPLAN WATER SUPPLY LAYOUT.pdf",
+      "PLUMBING/WS-06 TYPICAL(3RD&5TH)FLOORPLAN WATER SUPPLY LAYOUT.pdf",
+      "PLUMBING/WS-07 4TH&6THFLOORPLAN WATER SUPPLY LAYOUT.pdf",
+      "PLUMBING/WS-08 LOWER ROOF FLOOR PLAN WATER SUPPLY LAYOUT.pdf",
+      "PLUMBING/WS-10 SCHEMATIC DIAGRAM WATER SUPPLY LAYOUT.pdf",
+      "PLUMBING/WS-11 TYPICAL DETAILS WATER SUPPLY LAYOUT.pdf"
+     ],
+     "value": "PROPOSED RESIDENTIAL BUILDING (B+G+6+ROOF)"
+    }
+   ],
+   "plot": [
+    {
+     "sheets": [
+      "PLUMBING/WS-01 UNDERGROUND PUMP ROOM WATER SUPPLY LAYOUT.pdf",
+      "PLUMBING/WS-08 LOWER ROOF FLOOR PLAN WATER SUPPLY LAYOUT.pdf",
+      "PLUMBING/WS-09 UPPER ROOF FLOOR PLAN WATER SUPPLY LAYOUT.pdf",
+      "PLUMBING/WS-10 SCHEMATIC DIAGRAM WATER SUPPLY LAYOUT.pdf",
+      "PLUMBING/WS-11 TYPICAL DETAILS WATER SUPPLY LAYOUT.pdf"
+     ],
+     "value": "5310301"
+    }
+   ]
+  },
+  "heading": {
+   "basis": "title blocks",
+   "building": "",
+   "client": "G F S REAL ESTATE L.L.C",
+   "label": "5310319 PROPOSED RESIDENTIAL BUILDING (B+G+5+ROOF)",
+   "package": "PLOT NO. 5310319",
+   "project": "PROPOSED RESIDENTIAL BUILDING (B+G+5+ROOF)"
+  },
+  "job_title": "PROPOSED RESIDENTIAL BUILDING (B+G+5+ROOF)",
+  "owner": "G F S REAL ESTATE L.L.C",
+  "plot": "5310319",
+  "refused": {},
+  "support": {
+   "job_title": [
+    89,
+    102
+   ],
+   "owner": [
+    100,
+    101
+   ],
+   "plot": [
+    88,
+    93
+   ]
+  }
+ },
+ "schema": "register/1",
+ "sheets": [
+  {
+   "discipline": "Architectural",
+   "doc_id": "Architecture/A1/A-00-001 COVERSHEET.pdf",
+   "drawing_no": "A-00-001",
+   "file_sha256": "",
+   "revision": null,
+   "scale": null,
+   "scale_verified": false,
+   "section": "D, F, G, H, J, K, M",
+   "sheet_kind": null,
+   "subtitle": null,
+   "superseded_by": null,
+   "tier": "T2",
+   "title": null
+  },
+  {
+   "discipline": "Architectural",
+   "doc_id": "Architecture/A1/A-01-001 LIST OF DRAWINGS.pdf",
+   "drawing_no": "A-01-001",
+   "file_sha256": "",
+   "revision": null,
+   "scale": "NTS",
+   "scale_verified": false,
+   "section": "D, F, G, H, J, K, M",
+   "sheet_kind": null,
+   "subtitle": null,
+   "superseded_by": null,
+   "tier": "T2",
+   "title": "LIST OF DRAWINGS"
+  },
+  {
+   "discipline": "Architectural",
+   "doc_id": "Architecture/A1/A-03-001.pdf",
+   "drawing_no": "A-03-001",
+   "file_sha256": "",
+   "revision": null,
+   "scale": "NTS",
+   "scale_verified": false,
+   "section": "D, F, G, H, J, K, M",
+   "sheet_kind": null,
+   "subtitle": null,
+   "superseded_by": null,
+   "tier": "T2",
+   "title": "AREA CALCULATION-1"
+  },
+  {
+   "discipline": "Architectural",
+   "doc_id": "Architecture/A1/A-03-001TOA-03-004 AREA CALCULATION-A-00-001.pdf",
+   "drawing_no": "A-03-001TOA-03-004",
+   "file_sha256": "",
+   "revision": null,
+   "scale": null,
+   "scale_verified": false,
+   "section": "D, F, G, H, J, K, M",
+   "sheet_kind": null,
+   "subtitle": null,
+   "superseded_by": null,
+   "tier": "T2",
+   "title": null
+  },
+  {
+   "discipline": "Architectural",
+   "doc_id": "Architecture/A1/A-03-002 AREACALCULATION-2.pdf",
+   "drawing_no": "A-03-002",
+   "file_sha256": "",
+   "revision": null,
+   "scale": "NTS",
+   "scale_verified": false,
+   "section": "D, F, G, H, J, K, M",
+   "sheet_kind": null,
+   "subtitle": null,
+   "superseded_by": null,
+   "tier": "T2",
+   "title": "AREA CALCULATION-2"
+  },
+  {
+   "discipline": "Architectural",
+   "doc_id": "Architecture/A1/A-03-003 22NOS AREACALCULATION-3.pdf",
+   "drawing_no": "A-03-003",
+   "file_sha256": "",
+   "revision": null,
+   "scale": null,
+   "scale_verified": false,
+   "section": "D, F, G, H, J, K, M",
+   "sheet_kind": null,
+   "subtitle": null,
+   "superseded_by": null,
+   "tier": "T2",
+   "title": "AREA CALCULATION-3"
+  },
+  {
+   "discipline": "Architectural",
+   "doc_id": "Architecture/A1/A-03-001TOA-03-004 AREA CALCULATION-A-03-004.pdf",
+   "drawing_no": "A-03-004",
+   "file_sha256": "",
+   "revision": null,
+   "scale": null,
+   "scale_verified": false,
+   "section": "D, F, G, H, J, K, M",
+   "sheet_kind": null,
+   "subtitle": null,
+   "superseded_by": null,
+   "tier": "T2",
+   "title": "AREA CALCULATION-4"
+  },
+  {
+   "discipline": "Architectural",
+   "doc_id": "Architecture/A1/A-06-001 SETTINGOUT LAYOUT-A-100 SETTING OUT PLAN.pdf",
+   "drawing_no": "A-06-001",
+   "file_sha256": "",
+   "revision": null,
+   "scale": "1:100",
+   "scale_verified": false,
+   "section": "D, F, G, H, J, K, M",
+   "sheet_kind": null,
+   "subtitle": null,
+   "superseded_by": null,
+   "tier": "T2",
+   "title": "SETTING OUT PLAN"
+  },
+  {
+   "discipline": "Architectural",
+   "doc_id": "Architecture/A1/A-07-001 UNDER GROUND WATER TANK & PUMP ROOM.pdf",
+   "drawing_no": "A-07-001",
+   "file_sha256": "",
+   "revision": null,
+   "scale": "1:125",
+   "scale_verified": false,
+   "section": "D, F, G, H, J, K, M",
+   "sheet_kind": null,
+   "subtitle": null,
+   "superseded_by": null,
+   "tier": "T2",
+   "title": "UNDER GROUND WATER TANK & PUMP ROOM"
+  },
+  {
+   "discipline": "Architectural",
+   "doc_id": "Architecture/A1/A-07-003 GROUND FLOOR PLAN.pdf",
+   "drawing_no": "A-07-003",
+   "file_sha256": "",
+   "revision": null,
+   "scale": "1:150",
+   "scale_verified": false,
+   "section": "D, F, G, H, J, K, M",
+   "sheet_kind": null,
+   "subtitle": null,
+   "superseded_by": null,
+   "tier": "T2",
+   "title": "GROUND FLOOR PLAN"
+  },
+  {
+   "discipline": "Architectural",
+   "doc_id": "Architecture/A1/A-07-004 FIRST FLOOR PLAN.pdf",
+   "drawing_no": "A-07-004",
+   "file_sha256": "",
+   "revision": null,
+   "scale": "1:150",
+   "scale_verified": false,
+   "section": "D, F, G, H, J, K, M",
+   "sheet_kind": null,
+   "subtitle": null,
+   "superseded_by": null,
+   "tier": "T2",
+   "title": "FIRST FLOOR PLAN"
+  },
+  {
+   "discipline": "Architectural",
+   "doc_id": "Architecture/A1/A-07-005 2ND FLOOR PLAN.pdf",
+   "drawing_no": "A-07-005",
+   "file_sha256": "",
+   "revision": null,
+   "scale": "1:150",
+   "scale_verified": false,
+   "section": "D, F, G, H, J, K, M",
+   "sheet_kind": null,
+   "subtitle": null,
+   "superseded_by": null,
+   "tier": "T2",
+   "title": "2ND FLOOR PLAN"
+  },
+  {
+   "discipline": "Architectural",
+   "doc_id": "Architecture/A1/A-07-006 3RD FLOOR PLAN.pdf",
+   "drawing_no": "A-07-006",
+   "file_sha256": "",
+   "revision": null,
+   "scale": "1:150",
+   "scale_verified": false,
+   "section": "D, F, G, H, J, K, M",
+   "sheet_kind": null,
+   "subtitle": null,
+   "superseded_by": null,
+   "tier": "T2",
+   "title": "3RD FLOOR PLAN"
+  },
+  {
+   "discipline": "Architectural",
+   "doc_id": "Architecture/A1/A-07-007 TYP ( 4 - 5 ) FLOOR PLAN.pdf",
+   "drawing_no": "A-07-007",
+   "file_sha256": "",
+   "revision": null,
+   "scale": "1:150",
+   "scale_verified": false,
+   "section": "D, F, G, H, J, K, M",
+   "sheet_kind": null,
+   "subtitle": "TYP ( 4 - 5 )",
+   "superseded_by": null,
+   "tier": "T2",
+   "title": "TYP ( 4 - 5 ) FLOOR PLAN"
+  },
+  {
+   "discipline": "Architectural",
+   "doc_id": "Architecture/A1/A-07-008 LOWER ROOF PLAN.pdf",
+   "drawing_no": "A-07-008",
+   "file_sha256": "",
+   "revision": null,
+   "scale": "1:150",
+   "scale_verified": false,
+   "section": "D, F, G, H, J, K, M",
+   "sheet_kind": null,
+   "subtitle": null,
+   "superseded_by": null,
+   "tier": "T2",
+   "title": "LOWER ROOF PLAN"
+  },
+  {
+   "discipline": "Architectural",
+   "doc_id": "Architecture/A1/A-07-009 UPPER ROOF PLAN.pdf",
+   "drawing_no": "A-07-009",
+   "file_sha256": "",
+   "revision": null,
+   "scale": "1:150",
+   "scale_verified": false,
+   "section": "D, F, G, H, J, K, M",
+   "sheet_kind": null,
+   "subtitle": null,
+   "superseded_by": null,
+   "tier": "T2",
+   "title": "UPPER ROOF PLAN"
+  },
+  {
+   "discipline": "Architectural",
+   "doc_id": "Architecture/A1/A-07-010 TOPROOFPLAN.pdf",
+   "drawing_no": "A-07-010",
+   "file_sha256": "",
+   "revision": null,
+   "scale": "1:150",
+   "scale_verified": false,
+   "section": "D, F, G, H, J, K, M",
+   "sheet_kind": null,
+   "subtitle": null,
+   "superseded_by": null,
+   "tier": "T2",
+   "title": "TOP ROOF PLAN"
+  },
+  {
+   "discipline": "Architectural",
+   "doc_id": "Architecture/A1/A-08-001 ELEVATION -1.pdf",
+   "drawing_no": "A-08-001",
+   "file_sha256": "",
+   "revision": null,
+   "scale": "1:125",
+   "scale_verified": false,
+   "section": "D, F, G, H, J, K, M",
+   "sheet_kind": null,
+   "subtitle": null,
+   "superseded_by": null,
+   "tier": "T2",
+   "title": "ELEVATION -1"
+  },
+  {
+   "discipline": "Architectural",
+   "doc_id": "Architecture/A1/A-08-002 ELEVATION -2.pdf",
+   "drawing_no": "A-08-002",
+   "file_sha256": "",
+   "revision": null,
+   "scale": "1:125",
+   "scale_verified": false,
+   "section": "D, F, G, H, J, K, M",
+   "sheet_kind": null,
+   "subtitle": null,
+   "superseded_by": null,
+   "tier": "T2",
+   "title": "ELEVATION -2"
+  },
+  {
+   "discipline": "Architectural",
+   "doc_id": "Architecture/A2/A-08-003 ELEVATION-3.pdf",
+   "drawing_no": "A-08-003",
+   "file_sha256": "",
+   "revision": null,
+   "scale": "1:125",
+   "scale_verified": false,
+   "section": "D, F, G, H, J, K, M",
+   "sheet_kind": null,
+   "subtitle": null,
+   "superseded_by": null,
+   "tier": "T2",
+   "title": "ELEVATION -3"
+  },
+  {
+   "discipline": "Architectural",
+   "doc_id": "Architecture/A2/A-08-004 ELEVATION-4.pdf",
+   "drawing_no": "A-08-004",
+   "file_sha256": "",
+   "revision": null,
+   "scale": "1:150",
+   "scale_verified": false,
+   "section": "D, F, G, H, J, K, M",
+   "sheet_kind": null,
+   "subtitle": null,
+   "superseded_by": null,
+   "tier": "T2",
+   "title": "ELEVATION -4"
+  },
+  {
+   "discipline": "Architectural",
+   "doc_id": "Architecture/A2/A-09-001 SECTION -AA.pdf",
+   "drawing_no": "A-09-001",
+   "file_sha256": "",
+   "revision": null,
+   "scale": "1:125",
+   "scale_verified": false,
+   "section": "D, F, G, H, J, K, M",
+   "sheet_kind": null,
+   "subtitle": null,
+   "superseded_by": null,
+   "tier": "T2",
+   "title": "SECTION -AA"
+  },
+  {
+   "discipline": "Architectural",
+   "doc_id": "Architecture/A2/A-09-002 SECTION -BB.pdf",
+   "drawing_no": "A-09-002",
+   "file_sha256": "",
+   "revision": null,
+   "scale": "1:125",
+   "scale_verified": false,
+   "section": "D, F, G, H, J, K, M",
+   "sheet_kind": null,
+   "subtitle": null,
+   "superseded_by": null,
+   "tier": "T2",
+   "title": "SECTION -BB"
+  },
+  {
+   "discipline": "Architectural",
+   "doc_id": "Architecture/A2/A-09-003 WALL SECTION - W1 TO W3.pdf",
+   "drawing_no": "A-09-003",
+   "file_sha256": "",
+   "revision": null,
+   "scale": "1:125",
+   "scale_verified": false,
+   "section": "D, F, G, H, J, K, M",
+   "sheet_kind": null,
+   "subtitle": null,
+   "superseded_by": null,
+   "tier": "T2",
+   "title": "WALL SECTION - W1 TO W3"
+  },
+  {
+   "discipline": "Architectural",
+   "doc_id": "Architecture/A2/A-09-004 WALL SECTION - W4 TO W5.pdf",
+   "drawing_no": "A-09-004",
+   "file_sha256": "",
+   "revision": null,
+   "scale": "1:125",
+   "scale_verified": false,
+   "section": "D, F, G, H, J, K, M",
+   "sheet_kind": null,
+   "subtitle": null,
+   "superseded_by": null,
+   "tier": "T2",
+   "title": "WALL SECTION - W4 TO W5"
+  },
+  {
+   "discipline": "Architectural",
+   "doc_id": "Architecture/A2/A-12-001 STAIRCASE DETAIL-1.pdf",
+   "drawing_no": "A-12-001",
+   "file_sha256": "",
+   "revision": null,
+   "scale": "1:125",
+   "scale_verified": false,
+   "section": "D, F, G, H, J, K, M",
+   "sheet_kind": null,
+   "subtitle": null,
+   "superseded_by": null,
+   "tier": "T2",
+   "title": "STAIRCASE DETAIL-1"
+  },
+  {
+   "discipline": "Architectural",
+   "doc_id": "Architecture/A2/A-12-002 STAIRCASE DETAIL-2.pdf",
+   "drawing_no": "A-12-002",
+   "file_sha256": "",
+   "revision": null,
+   "scale": "1:125",
+   "scale_verified": false,
+   "section": "D, F, G, H, J, K, M",
+   "sheet_kind": null,
+   "subtitle": null,
+   "superseded_by": null,
+   "tier": "T2",
+   "title": "STAIRCASE DETAIL-2"
+  },
+  {
+   "discipline": "Architectural",
+   "doc_id": "Architecture/A2/A-12-003 LIFT DETAILS.pdf",
+   "drawing_no": "A-12-003",
+   "file_sha256": "",
+   "revision": null,
+   "scale": "1:125",
+   "scale_verified": false,
+   "section": "D, F, G, H, J, K, M",
+   "sheet_kind": null,
+   "subtitle": null,
+   "superseded_by": null,
+   "tier": "T2",
+   "title": "LIFT DETAILS"
+  },
+  {
+   "discipline": "Architectural",
+   "doc_id": "Architecture/A2/A-12-004 SUBSTATION & LV ROOM DETAILS.pdf",
+   "drawing_no": "A-12-004",
+   "file_sha256": "",
+   "revision": null,
+   "scale": "1:125",
+   "scale_verified": false,
+   "section": "D, F, G, H, J, K, M",
+   "sheet_kind": null,
+   "subtitle": null,
+   "superseded_by": null,
+   "tier": "T2",
+   "title": "SUBSTATION & LV ROOM DETAILS"
+  },
+  {
+   "discipline": "Architectural",
+   "doc_id": "Architecture/A2/A-12-005 GARBAGE ROOM DETAILS.pdf",
+   "drawing_no": "A-12-005",
+   "file_sha256": "",
+   "revision": null,
+   "scale": "1:125",
+   "scale_verified": false,
+   "section": "D, F, G, H, J, K, M",
+   "sheet_kind": null,
+   "subtitle": null,
+   "superseded_by": null,
+   "tier": "T2",
+   "title": "GARBAGE ROOM DETAILS"
+  },
+  {
+   "discipline": "Architectural",
+   "doc_id": "Architecture/A2/A-12-006 TANK&PUMP ROOM DETAILS.pdf",
+   "drawing_no": "A-12-006",
+   "file_sha256": "",
+   "revision": null,
+   "scale": "1:125",
+   "scale_verified": false,
+   "section": "D, F, G, H, J, K, M",
+   "sheet_kind": null,
+   "subtitle": null,
+   "superseded_by": null,
+   "tier": "T2",
+   "title": "U.GROUND WATER TANK&PUMP ROOM DETAILS"
+  },
+  {
+   "discipline": "Architectural",
+   "doc_id": "Architecture/A2/A-12-007 SWIMMING POOL DETAILS.pdf",
+   "drawing_no": "A-12-007",
+   "file_sha256": "",
+   "revision": null,
+   "scale": "1:125",
+   "scale_verified": false,
+   "section": "D, F, G, H, J, K, M",
+   "sheet_kind": null,
+   "subtitle": null,
+   "superseded_by": null,
+   "tier": "T2",
+   "title": "SWIMMING POOL DETAILS"
+  },
+  {
+   "discipline": "Architectural",
+   "doc_id": "Architecture/A2/A-12-008 RAMP DETAILS.pdf",
+   "drawing_no": "A-12-008",
+   "file_sha256": "",
+   "revision": null,
+   "scale": "1:125",
+   "scale_verified": false,
+   "section": "D, F, G, H, J, K, M",
+   "sheet_kind": null,
+   "subtitle": null,
+   "superseded_by": null,
+   "tier": "T2",
+   "title": "RAMP DETAILS"
+  },
+  {
+   "discipline": "Architectural",
+   "doc_id": "Architecture/A2/A-12-012 WATERPROOFING DETAILS.pdf",
+   "drawing_no": "A-12-012",
+   "file_sha256": "",
+   "revision": null,
+   "scale": "1:75",
+   "scale_verified": false,
+   "section": "D, F, G, H, J, K, M",
+   "sheet_kind": null,
+   "subtitle": null,
+   "superseded_by": null,
+   "tier": "T2",
+   "title": "WATERPROOFING DETAILS"
+  },
+  {
+   "discipline": "Architectural",
+   "doc_id": "Architecture/A2/A-12-013 TYPICAL DETAILS.pdf",
+   "drawing_no": "A-12-013",
+   "file_sha256": "",
+   "revision": null,
+   "scale": "1:75",
+   "scale_verified": false,
+   "section": "D, F, G, H, J, K, M",
+   "sheet_kind": null,
+   "subtitle": null,
+   "superseded_by": null,
+   "tier": "T2",
+   "title": "TYPICAL DETAILS"
+  },
+  {
+   "discipline": "Architectural",
+   "doc_id": "Architecture/A2/A-12-014 SIGNAGE SIGNAGEDETAILS DETAILS DETAILS DETAILS.pdf",
+   "drawing_no": "A-12-014",
+   "file_sha256": "",
+   "revision": null,
+   "scale": "1:75",
+   "scale_verified": false,
+   "section": "D, F, G, H, J, K, M",
+   "sheet_kind": null,
+   "subtitle": null,
+   "superseded_by": null,
+   "tier": "T2",
+   "title": "SIGNAGE SIGNAGE DETAILS DETAILS DETAILS DETAILS"
+  },
+  {
+   "discipline": "Architectural",
+   "doc_id": "Architecture/A2/A-13-001 SCHEDULE OF DOORS.pdf",
+   "drawing_no": "A-13-001",
+   "file_sha256": "",
+   "revision": null,
+   "scale": "1:125",
+   "scale_verified": false,
+   "section": "D, F, G, H, J, K, M",
+   "sheet_kind": null,
+   "subtitle": null,
+   "superseded_by": null,
+   "tier": "T2",
+   "title": "SCHEDULE OF DOORS"
+  },
+  {
+   "discipline": "Architectural",
+   "doc_id": "Architecture/A2/A-13-002 SCHEDULE OF WINDOWS-01.pdf",
+   "drawing_no": "A-13-002",
+   "file_sha256": "",
+   "revision": null,
+   "scale": "1:125",
+   "scale_verified": false,
+   "section": "D, F, G, H, J, K, M",
+   "sheet_kind": null,
+   "subtitle": null,
+   "superseded_by": null,
+   "tier": "T2",
+   "title": "SCHEDULE OF WINDOWS-01"
+  },
+  {
+   "discipline": "Architectural",
+   "doc_id": "Architecture/A2/A-13-003 SCHEDULE OF WINDOWS-02.pdf",
+   "drawing_no": "A-13-003",
+   "file_sha256": "",
+   "revision": null,
+   "scale": "1:125",
+   "scale_verified": false,
+   "section": "D, F, G, H, J, K, M",
+   "sheet_kind": null,
+   "subtitle": null,
+   "superseded_by": null,
+   "tier": "T2",
+   "title": "SCHEDULE OF WINDOWS-02"
+  },
+  {
+   "discipline": "Architectural",
+   "doc_id": "Architecture/A1/A-02-001 PERSPECTIVES-G-102.pdf",
+   "drawing_no": "G-102",
+   "file_sha256": "",
+   "revision": null,
+   "scale": "NTS",
+   "scale_verified": false,
+   "section": "D, F, G, H, J, K, M",
+   "sheet_kind": null,
+   "subtitle": null,
+   "superseded_by": null,
+   "tier": "T2",
+   "title": "PERSPECTIVES"
+  },
+  {
+   "discipline": "Landscape",
+   "doc_id": "Structure/STRUCTURE Sheet 01.pdf",
+   "drawing_no": "L-01_1",
+   "file_sha256": "",
+   "revision": null,
+   "scale": "1:100",
+   "scale_verified": false,
+   "section": "B",
+   "sheet_kind": null,
+   "subtitle": null,
+   "superseded_by": null,
+   "tier": "T2",
+   "title": "LOADING SCHEDULE"
+  },
+  {
+   "discipline": "Landscape",
+   "doc_id": "Structure/STRUCTURE Sheet 10.pdf",
+   "drawing_no": "L-01_10",
+   "file_sha256": "",
+   "revision": null,
+   "scale": "1:150",
+   "scale_verified": false,
+   "section": "B",
+   "sheet_kind": null,
+   "subtitle": null,
+   "superseded_by": null,
+   "tier": "T2",
+   "title": "TOP ROOF FLOOR LOADING LAYOUT"
+  },
+  {
+   "discipline": "Landscape",
+   "doc_id": "Structure/STRUCTURE Sheet 02.pdf",
+   "drawing_no": "L-01_2",
+   "file_sha256": "",
+   "revision": null,
+   "scale": "1:150",
+   "scale_verified": false,
+   "section": "B",
+   "sheet_kind": null,
+   "subtitle": null,
+   "superseded_by": null,
+   "tier": "T2",
+   "title": "BASEMENT FLOOR LOADING LAYOUT"
+  },
+  {
+   "discipline": "Landscape",
+   "doc_id": "Structure/STRUCTURE Sheet 03.pdf",
+   "drawing_no": "L-01_3",
+   "file_sha256": "",
+   "revision": null,
+   "scale": "1:150",
+   "scale_verified": false,
+   "section": "B",
+   "sheet_kind": null,
+   "subtitle": null,
+   "superseded_by": null,
+   "tier": "T2",
+   "title": "GROUND FLOOR LOADING LAYOUT"
+  },
+  {
+   "discipline": "Landscape",
+   "doc_id": "Structure/STRUCTURE Sheet 04.pdf",
+   "drawing_no": "L-01_4",
+   "file_sha256": "",
+   "revision": null,
+   "scale": "1:150",
+   "scale_verified": false,
+   "section": "B",
+   "sheet_kind": null,
+   "subtitle": null,
+   "superseded_by": null,
+   "tier": "T2",
+   "title": "FIRST FLOOR LOADING LAYOUT"
+  },
+  {
+   "discipline": "Landscape",
+   "doc_id": "Structure/STRUCTURE Sheet 05.pdf",
+   "drawing_no": "L-01_5",
+   "file_sha256": "",
+   "revision": null,
+   "scale": "1:150",
+   "scale_verified": false,
+   "section": "B",
+   "sheet_kind": null,
+   "subtitle": null,
+   "superseded_by": null,
+   "tier": "T2",
+   "title": "SECOND FLOOR LOADING LAYOUT"
+  },
+  {
+   "discipline": "Landscape",
+   "doc_id": "Structure/STRUCTURE Sheet 06.pdf",
+   "drawing_no": "L-01_6",
+   "file_sha256": "",
+   "revision": null,
+   "scale": "1:150",
+   "scale_verified": false,
+   "section": "B",
+   "sheet_kind": null,
+   "subtitle": null,
+   "superseded_by": null,
+   "tier": "T2",
+   "title": "THIRD FLOOR LOADING LAYOUT"
+  },
+  {
+   "discipline": "Landscape",
+   "doc_id": "Structure/STRUCTURE Sheet 07.pdf",
+   "drawing_no": "L-01_7",
+   "file_sha256": "",
+   "revision": null,
+   "scale": "1:150",
+   "scale_verified": false,
+   "section": "B",
+   "sheet_kind": null,
+   "subtitle": null,
+   "superseded_by": null,
+   "tier": "T2",
+   "title": "FOURTH & FIFTH FLOOR LOADING LAYOUT"
+  },
+  {
+   "discipline": "Landscape",
+   "doc_id": "Structure/STRUCTURE Sheet 08.pdf",
+   "drawing_no": "L-01_8",
+   "file_sha256": "",
+   "revision": null,
+   "scale": "1:150",
+   "scale_verified": false,
+   "section": "B",
+   "sheet_kind": null,
+   "subtitle": null,
+   "superseded_by": null,
+   "tier": "T2",
+   "title": "LOWER ROOF FLOOR LOADING LAYOUT"
+  },
+  {
+   "discipline": "Landscape",
+   "doc_id": "Structure/STRUCTURE Sheet 09.pdf",
+   "drawing_no": "L-01_9",
+   "file_sha256": "",
+   "revision": null,
+   "scale": "1:150",
+   "scale_verified": false,
+   "section": "B",
+   "sheet_kind": null,
+   "subtitle": null,
+   "superseded_by": null,
+   "tier": "T2",
+   "title": "UPPER ROOF FLOOR LOADING LAYOUT"
+  },
+  {
+   "discipline": "Structural",
+   "doc_id": "Structure/STRUCTURE Sheet 11.pdf",
+   "drawing_no": "S-001",
+   "file_sha256": "",
+   "revision": null,
+   "scale": "NTS",
+   "scale_verified": false,
+   "section": "B, C, E",
+   "sheet_kind": null,
+   "subtitle": null,
+   "superseded_by": null,
+   "tier": "T2",
+   "title": "LIST OF DRAWINGS"
+  },
+  {
+   "discipline": "Structural",
+   "doc_id": "Structure/STRUCTURE Sheet 12.pdf",
+   "drawing_no": "S-00_2",
+   "file_sha256": "",
+   "revision": null,
+   "scale": null,
+   "scale_verified": false,
+   "section": "B, C, E",
+   "sheet_kind": null,
+   "subtitle": null,
+   "superseded_by": null,
+   "tier": "T2",
+   "title": "STR. GENERAL NOTES"
+  },
+  {
+   "discipline": "Structural",
+   "doc_id": "Structure/STRUCTURE Sheet 13.pdf",
+   "drawing_no": "S-01_1",
+   "file_sha256": "",
+   "revision": null,
+   "scale": null,
+   "scale_verified": false,
+   "section": "B, C, E",
+   "sheet_kind": null,
+   "subtitle": null,
+   "superseded_by": null,
+   "tier": "T2",
+   "title": "STANDARD DETAILS - SHEET-1"
+  },
+  {
+   "discipline": "Structural",
+   "doc_id": "Structure/STRUCTURE Sheet 14.pdf",
+   "drawing_no": "S-01_2",
+   "file_sha256": "",
+   "revision": null,
+   "scale": null,
+   "scale_verified": false,
+   "section": "B, C, E",
+   "sheet_kind": null,
+   "subtitle": null,
+   "superseded_by": null,
+   "tier": "T2",
+   "title": "STANDARD DETAILS - SHEET-2"
+  },
+  {
+   "discipline": "Structural",
+   "doc_id": "Structure/STRUCTURE Sheet 15.pdf",
+   "drawing_no": "S-01_3",
+   "file_sha256": "",
+   "revision": null,
+   "scale": "NTS",
+   "scale_verified": false,
+   "section": "B, C, E",
+   "sheet_kind": null,
+   "subtitle": null,
+   "superseded_by": null,
+   "tier": "T2",
+   "title": "STANDARD DETAILS - SHEET-3"
+  },
+  {
+   "discipline": "Structural",
+   "doc_id": "Structure/STRUCTURE Sheet 16.pdf",
+   "drawing_no": "S-01_4",
+   "file_sha256": "",
+   "revision": null,
+   "scale": "NTS",
+   "scale_verified": false,
+   "section": "B, C, E",
+   "sheet_kind": null,
+   "subtitle": null,
+   "superseded_by": null,
+   "tier": "T2",
+   "title": "STANDARD DETAILS - SHEET-4"
+  },
+  {
+   "discipline": "Structural",
+   "doc_id": "Structure/STRUCTURE Sheet 17.pdf",
+   "drawing_no": "S-01_5",
+   "file_sha256": "",
+   "revision": null,
+   "scale": "NTS",
+   "scale_verified": false,
+   "section": "B, C, E",
+   "sheet_kind": null,
+   "subtitle": null,
+   "superseded_by": null,
+   "tier": "T2",
+   "title": "STANDARD WATER PROOFING DETAILS"
+  },
+  {
+   "discipline": "Structural",
+   "doc_id": "Structure/STRUCTURE Sheet 18.pdf",
+   "drawing_no": "S-01_6",
+   "file_sha256": "",
+   "revision": null,
+   "scale": "NTS",
+   "scale_verified": false,
+   "section": "B, C, E",
+   "sheet_kind": null,
+   "subtitle": null,
+   "superseded_by": null,
+   "tier": "T2",
+   "title": "STANDARD POST TENSION DETAILS"
+  },
+  {
+   "discipline": "Structural",
+   "doc_id": "Structure/STRUCTURE Sheet 19.pdf",
+   "drawing_no": "S-02_1",
+   "file_sha256": "",
+   "revision": null,
+   "scale": "1:150",
+   "scale_verified": false,
+   "section": "B, C, E",
+   "sheet_kind": null,
+   "subtitle": null,
+   "superseded_by": null,
+   "tier": "T2",
+   "title": "U/G WATER TANK FOUNDATION LAYOUT"
+  },
+  {
+   "discipline": "Structural",
+   "doc_id": "Structure/STRUCTURE Sheet 20.pdf",
+   "drawing_no": "S-02_2",
+   "file_sha256": "",
+   "revision": null,
+   "scale": "1:25",
+   "scale_verified": false,
+   "section": "B, C, E",
+   "sheet_kind": null,
+   "subtitle": null,
+   "superseded_by": null,
+   "tier": "T2",
+   "title": "WATER TANK SECTION"
+  },
+  {
+   "discipline": "Structural",
+   "doc_id": "Structure/STRUCTURE Sheet 21.pdf",
+   "drawing_no": "S-02_3",
+   "file_sha256": "",
+   "revision": null,
+   "scale": "1:150",
+   "scale_verified": false,
+   "section": "B, C, E",
+   "sheet_kind": null,
+   "subtitle": null,
+   "superseded_by": null,
+   "tier": "T2",
+   "title": "RAFT FOUNDATION LAYOUT"
+  },
+  {
+   "discipline": "Structural",
+   "doc_id": "Structure/STRUCTURE Sheet 22.pdf",
+   "drawing_no": "S-02_4",
+   "file_sha256": "",
+   "revision": null,
+   "scale": "1:30",
+   "scale_verified": false,
+   "section": "B, C, E",
+   "sheet_kind": null,
+   "subtitle": null,
+   "superseded_by": "Structure/STRUCTURE Sheet 23.pdf",
+   "tier": "T2",
+   "title": "RAFT FOUNDATION SECTION DETAILS"
+  },
+  {
+   "discipline": "Structural",
+   "doc_id": "Structure/STRUCTURE Sheet 23.pdf",
+   "drawing_no": "S-02_4",
+   "file_sha256": "",
+   "revision": null,
+   "scale": "1:40",
+   "scale_verified": false,
+   "section": "B, C, E",
+   "sheet_kind": null,
+   "subtitle": null,
+   "superseded_by": null,
+   "tier": "T2",
+   "title": "RAMP SECTION DETAILS"
+  },
+  {
+   "discipline": "Structural",
+   "doc_id": "Structure/STRUCTURE Sheet 24.pdf",
+   "drawing_no": "S-02_6",
+   "file_sha256": "",
+   "revision": null,
+   "scale": "1:150",
+   "scale_verified": false,
+   "section": "B, C, E",
+   "sheet_kind": null,
+   "subtitle": null,
+   "superseded_by": null,
+   "tier": "T2",
+   "title": "BOUNDARY WALL LAYOUT"
+  },
+  {
+   "discipline": "Structural",
+   "doc_id": "Structure/STRUCTURE Sheet 25.pdf",
+   "drawing_no": "S-02_7",
+   "file_sha256": "",
+   "revision": null,
+   "scale": null,
+   "scale_verified": false,
+   "section": "B, C, E",
+   "sheet_kind": null,
+   "subtitle": null,
+   "superseded_by": null,
+   "tier": "T2",
+   "title": "BOUNDARY WALL SECTION DETAIL"
+  },
+  {
+   "discipline": "Structural",
+   "doc_id": "Structure/STRUCTURE Sheet 26.pdf",
+   "drawing_no": "S-02_8",
+   "file_sha256": "",
+   "revision": null,
+   "scale": "1:150",
+   "scale_verified": false,
+   "section": "B, C, E",
+   "sheet_kind": null,
+   "subtitle": null,
+   "superseded_by": null,
+   "tier": "T2",
+   "title": "FOUNDATION SHEAR LINK LAYOUT"
+  },
+  {
+   "discipline": "Structural",
+   "doc_id": "Structure/STRUCTURE Sheet 27.pdf",
+   "drawing_no": "S-02_9",
+   "file_sha256": "",
+   "revision": null,
+   "scale": "1:150",
+   "scale_verified": false,
+   "section": "B, C, E",
+   "sheet_kind": null,
+   "subtitle": null,
+   "superseded_by": null,
+   "tier": "T2",
+   "title": "COLUMN AND WALLS REACTION SERVICE LOADS"
+  },
+  {
+   "discipline": "Structural",
+   "doc_id": "Structure/STRUCTURE Sheet 28.pdf",
+   "drawing_no": "S-03_1",
+   "file_sha256": "",
+   "revision": null,
+   "scale": "1:150",
+   "scale_verified": false,
+   "section": "B, C, E",
+   "sheet_kind": null,
+   "subtitle": null,
+   "superseded_by": null,
+   "tier": "T2",
+   "title": "GROUND FLOOR SLAB & BEAM LAYOUT"
+  },
+  {
+   "discipline": "Structural",
+   "doc_id": "Structure/STRUCTURE Sheet 29.pdf",
+   "drawing_no": "S-03_2",
+   "file_sha256": "",
+   "revision": null,
+   "scale": "1:150",
+   "scale_verified": false,
+   "section": "B, C, E",
+   "sheet_kind": null,
+   "subtitle": null,
+   "superseded_by": null,
+   "tier": "T2",
+   "title": "FIRST FLOOR SLAB & BEAM LAYOUT"
+  },
+  {
+   "discipline": "Structural",
+   "doc_id": "Structure/STRUCTURE Sheet 30.pdf",
+   "drawing_no": "S-03_2A",
+   "file_sha256": "",
+   "revision": null,
+   "scale": "1:25",
+   "scale_verified": false,
+   "section": "B, C, E",
+   "sheet_kind": null,
+   "subtitle": null,
+   "superseded_by": null,
+   "tier": "T2",
+   "title": "FIRST FLOOR SECTION DETAILS"
+  },
+  {
+   "discipline": "Structural",
+   "doc_id": "Structure/STRUCTURE Sheet 31.pdf",
+   "drawing_no": "S-03_3",
+   "file_sha256": "",
+   "revision": null,
+   "scale": "1:150",
+   "scale_verified": false,
+   "section": "B, C, E",
+   "sheet_kind": null,
+   "subtitle": null,
+   "superseded_by": null,
+   "tier": "T2",
+   "title": "SECOND FLOOR SLAB & BEAM LAYOUT"
+  },
+  {
+   "discipline": "Structural",
+   "doc_id": "Structure/STRUCTURE Sheet 32.pdf",
+   "drawing_no": "S-03_4",
+   "file_sha256": "",
+   "revision": null,
+   "scale": "1:150",
+   "scale_verified": false,
+   "section": "B, C, E",
+   "sheet_kind": null,
+   "subtitle": null,
+   "superseded_by": null,
+   "tier": "T2",
+   "title": "THIRD FLOOR SLAB & BEAM LAYOUT"
+  },
+  {
+   "discipline": "Structural",
+   "doc_id": "Structure/STRUCTURE Sheet 33.pdf",
+   "drawing_no": "S-03_5",
+   "file_sha256": "",
+   "revision": null,
+   "scale": "1:150",
+   "scale_verified": false,
+   "section": "B, C, E",
+   "sheet_kind": null,
+   "subtitle": null,
+   "superseded_by": null,
+   "tier": "T2",
+   "title": "4th & Lower Roof FLOOR SLAB & BEAM LAYOUT"
+  },
+  {
+   "discipline": "Structural",
+   "doc_id": "Structure/STRUCTURE Sheet 34.pdf",
+   "drawing_no": "S-03_6",
+   "file_sha256": "",
+   "revision": null,
+   "scale": "1:150",
+   "scale_verified": false,
+   "section": "B, C, E",
+   "sheet_kind": null,
+   "subtitle": null,
+   "superseded_by": null,
+   "tier": "T2",
+   "title": "LOWER ROOF TO UPPER SLAB & BEAM LAYOUT"
+  },
+  {
+   "discipline": "Structural",
+   "doc_id": "Structure/STRUCTURE Sheet 35.pdf",
+   "drawing_no": "S-03_7",
+   "file_sha256": "",
+   "revision": null,
+   "scale": "1:150",
+   "scale_verified": false,
+   "section": "B, C, E",
+   "sheet_kind": null,
+   "subtitle": null,
+   "superseded_by": null,
+   "tier": "T2",
+   "title": "UPPER ROOF TO TOP ROOF SLAB & BEAM LAYOUT"
+  },
+  {
+   "discipline": "Structural",
+   "doc_id": "Structure/STRUCTURE Sheet 36.pdf",
+   "drawing_no": "S-03_8",
+   "file_sha256": "",
+   "revision": null,
+   "scale": "1:150",
+   "scale_verified": false,
+   "section": "B, C, E",
+   "sheet_kind": null,
+   "subtitle": null,
+   "superseded_by": null,
+   "tier": "T2",
+   "title": "TOP ROOF FLOOR SLAB & BEAM LAYOUT"
+  },
+  {
+   "discipline": "Structural",
+   "doc_id": "Structure/STRUCTURE Sheet 37.pdf",
+   "drawing_no": "S-03_9",
+   "file_sha256": "",
+   "revision": null,
+   "scale": "1:40",
+   "scale_verified": false,
+   "section": "B, C, E",
+   "sheet_kind": null,
+   "subtitle": null,
+   "superseded_by": null,
+   "tier": "T2",
+   "title": "WALL SECTION DETAILS"
+  },
+  {
+   "discipline": "Structural",
+   "doc_id": "Structure/STRUCTURE Sheet 38.pdf",
+   "drawing_no": "S-04_1",
+   "file_sha256": "",
+   "revision": null,
+   "scale": "1:25",
+   "scale_verified": false,
+   "section": "B, C, E",
+   "sheet_kind": null,
+   "subtitle": null,
+   "superseded_by": null,
+   "tier": "T2",
+   "title": "COLUMN DETAILS 1"
+  },
+  {
+   "discipline": "Structural",
+   "doc_id": "Structure/STRUCTURE Sheet 47.pdf",
+   "drawing_no": "S-04_10",
+   "file_sha256": "",
+   "revision": null,
+   "scale": "1:150",
+   "scale_verified": false,
+   "section": "B, C, E",
+   "sheet_kind": null,
+   "subtitle": null,
+   "superseded_by": null,
+   "tier": "T2",
+   "title": "LOWER ROOF TO UPPER ROOF COLUMN / WALL LAYOUT"
+  },
+  {
+   "discipline": "Structural",
+   "doc_id": "Structure/STRUCTURE Sheet 48.pdf",
+   "drawing_no": "S-04_11",
+   "file_sha256": "",
+   "revision": null,
+   "scale": "1:150",
+   "scale_verified": false,
+   "section": "B, C, E",
+   "sheet_kind": null,
+   "subtitle": null,
+   "superseded_by": null,
+   "tier": "T2",
+   "title": "UPPER ROOF COLUMN / WALL LAYOUT"
+  },
+  {
+   "discipline": "Structural",
+   "doc_id": "Structure/STRUCTURE Sheet 39.pdf",
+   "drawing_no": "S-04_2",
+   "file_sha256": "",
+   "revision": null,
+   "scale": "1:25",
+   "scale_verified": false,
+   "section": "B, C, E",
+   "sheet_kind": null,
+   "subtitle": null,
+   "superseded_by": null,
+   "tier": "T2",
+   "title": "COLUMN DETAILS 2"
+  },
+  {
+   "discipline": "Structural",
+   "doc_id": "Structure/STRUCTURE Sheet 40.pdf",
+   "drawing_no": "S-04_3",
+   "file_sha256": "",
+   "revision": null,
+   "scale": "1:50",
+   "scale_verified": false,
+   "section": "B, C, E",
+   "sheet_kind": null,
+   "subtitle": null,
+   "superseded_by": null,
+   "tier": "T2",
+   "title": "CORE WALL DETAILS"
+  },
+  {
+   "discipline": "Structural",
+   "doc_id": "Structure/STRUCTURE Sheet 41.pdf",
+   "drawing_no": "S-04_4",
+   "file_sha256": "",
+   "revision": null,
+   "scale": "1:150",
+   "scale_verified": false,
+   "section": "B, C, E",
+   "sheet_kind": null,
+   "subtitle": null,
+   "superseded_by": null,
+   "tier": "T2",
+   "title": "U/G WATER TANK COLUMN / WALL LAYOUT"
+  },
+  {
+   "discipline": "Structural",
+   "doc_id": "Structure/STRUCTURE Sheet 42.pdf",
+   "drawing_no": "S-04_5",
+   "file_sha256": "",
+   "revision": null,
+   "scale": "1:150",
+   "scale_verified": false,
+   "section": "B, C, E",
+   "sheet_kind": null,
+   "subtitle": null,
+   "superseded_by": null,
+   "tier": "T2",
+   "title": "BASEMENT FLOOR COLUMN / WALL LAYOUT"
+  },
+  {
+   "discipline": "Structural",
+   "doc_id": "Structure/STRUCTURE Sheet 43.pdf",
+   "drawing_no": "S-04_6",
+   "file_sha256": "",
+   "revision": null,
+   "scale": "1:150",
+   "scale_verified": false,
+   "section": "B, C, E",
+   "sheet_kind": null,
+   "subtitle": null,
+   "superseded_by": null,
+   "tier": "T2",
+   "title": "GROUND FLOOR COLUMN / WALL LAYOUT"
+  },
+  {
+   "discipline": "Structural",
+   "doc_id": "Structure/STRUCTURE Sheet 44.pdf",
+   "drawing_no": "S-04_7",
+   "file_sha256": "",
+   "revision": null,
+   "scale": "1:150",
+   "scale_verified": false,
+   "section": "B, C, E",
+   "sheet_kind": null,
+   "subtitle": null,
+   "superseded_by": null,
+   "tier": "T2",
+   "title": "FIRST FLOOR COLUMN / WALL LAYOUT"
+  },
+  {
+   "discipline": "Structural",
+   "doc_id": "Structure/STRUCTURE Sheet 45.pdf",
+   "drawing_no": "S-04_8",
+   "file_sha256": "",
+   "revision": null,
+   "scale": "1:150",
+   "scale_verified": false,
+   "section": "B, C, E",
+   "sheet_kind": null,
+   "subtitle": null,
+   "superseded_by": null,
+   "tier": "T2",
+   "title": "2nd to 4th FLOOR COLUMN / WALL LAYOUT"
+  },
+  {
+   "discipline": "Structural",
+   "doc_id": "Structure/STRUCTURE Sheet 46.pdf",
+   "drawing_no": "S-04_9",
+   "file_sha256": "",
+   "revision": null,
+   "scale": "1:150",
+   "scale_verified": false,
+   "section": "B, C, E",
+   "sheet_kind": null,
+   "subtitle": null,
+   "superseded_by": null,
+   "tier": "T2",
+   "title": "4th to Lower Roof FLOOR COLUMN / WALL LAYOUT"
+  },
+  {
+   "discipline": "Structural",
+   "doc_id": "Structure/STRUCTURE Sheet 49.pdf",
+   "drawing_no": "S-05_1",
+   "file_sha256": "",
+   "revision": null,
+   "scale": "1:50",
+   "scale_verified": false,
+   "section": "B, C, E",
+   "sheet_kind": null,
+   "subtitle": null,
+   "superseded_by": null,
+   "tier": "T2",
+   "title": "STAIRCASE DETAILS 1"
+  },
+  {
+   "discipline": "Structural",
+   "doc_id": "Structure/STRUCTURE Sheet 50.pdf",
+   "drawing_no": "S-05_2",
+   "file_sha256": "",
+   "revision": null,
+   "scale": "1:50",
+   "scale_verified": false,
+   "section": "B, C, E",
+   "sheet_kind": null,
+   "subtitle": null,
+   "superseded_by": null,
+   "tier": "T2",
+   "title": "STAIRCASE DETAILS 2"
+  },
+  {
+   "discipline": "Plumbing",
+   "doc_id": "PLUMBING/WS-00 SETTING OUTPLAN WATER SUPPLY LAYOUT.pdf",
+   "drawing_no": "WS-00",
+   "file_sha256": "",
+   "revision": null,
+   "scale": "1:150",
+   "scale_verified": false,
+   "section": "Q",
+   "sheet_kind": null,
+   "subtitle": null,
+   "superseded_by": null,
+   "tier": "T2",
+   "title": "SETTING OUT PLAN WATER SUPPLY LAYOUT"
+  },
+  {
+   "discipline": "Plumbing",
+   "doc_id": "PLUMBING/WS-01 UNDERGROUND PUMP ROOM WATER SUPPLY LAYOUT.pdf",
+   "drawing_no": "WS-01",
+   "file_sha256": "",
+   "revision": null,
+   "scale": "1:150",
+   "scale_verified": false,
+   "section": "Q",
+   "sheet_kind": null,
+   "subtitle": null,
+   "superseded_by": null,
+   "tier": "T2",
+   "title": "UNDER GROUND PUMP ROOM WATER SUPPLY LAYOUT"
+  },
+  {
+   "discipline": "Plumbing",
+   "doc_id": "PLUMBING/WS-02 BASEMENT FLOOR PLAN WATER SUPPLY LAYOUT.pdf",
+   "drawing_no": "WS-02",
+   "file_sha256": "",
+   "revision": null,
+   "scale": "1:150",
+   "scale_verified": false,
+   "section": "Q",
+   "sheet_kind": null,
+   "subtitle": null,
+   "superseded_by": null,
+   "tier": "T2",
+   "title": "BASEMENT FLOOR PLAN WATER SUPPLY LAYOUT"
+  },
+  {
+   "discipline": "Plumbing",
+   "doc_id": "PLUMBING/WS-03 GROUND FLOOR PLAN WATER SUPPLY LAYOUT.pdf",
+   "drawing_no": "WS-03",
+   "file_sha256": "",
+   "revision": null,
+   "scale": "1:150",
+   "scale_verified": false,
+   "section": "Q",
+   "sheet_kind": null,
+   "subtitle": null,
+   "superseded_by": null,
+   "tier": "T2",
+   "title": "GROUND FLOOR PLAN WATER SUPPLY LAYOUT"
+  },
+  {
+   "discipline": "Plumbing",
+   "doc_id": "PLUMBING/WS-04 FIRST FLOOR PLAN WATER SUPPLY LAYOUT.pdf",
+   "drawing_no": "WS-04",
+   "file_sha256": "",
+   "revision": null,
+   "scale": "1:150",
+   "scale_verified": false,
+   "section": "Q",
+   "sheet_kind": null,
+   "subtitle": null,
+   "superseded_by": null,
+   "tier": "T2",
+   "title": "FIRST FLOOR PLAN WATER SUPPLY LAYOUT"
+  },
+  {
+   "discipline": "Plumbing",
+   "doc_id": "PLUMBING/WS-05 2NDFLOORPLAN WATER SUPPLY LAYOUT.pdf",
+   "drawing_no": "WS-05",
+   "file_sha256": "",
+   "revision": null,
+   "scale": "1:150",
+   "scale_verified": false,
+   "section": "Q",
+   "sheet_kind": null,
+   "subtitle": null,
+   "superseded_by": null,
+   "tier": "T2",
+   "title": "2ND FLOOR PLAN WATER SUPPLY LAYOUT"
+  },
+  {
+   "discipline": "Plumbing",
+   "doc_id": "PLUMBING/WS-06 TYPICAL(3RD&5TH)FLOORPLAN WATER SUPPLY LAYOUT.pdf",
+   "drawing_no": "WS-06",
+   "file_sha256": "",
+   "revision": null,
+   "scale": "1:150",
+   "scale_verified": false,
+   "section": "Q",
+   "sheet_kind": null,
+   "subtitle": "TYPICAL (3RD & 5TH)",
+   "superseded_by": null,
+   "tier": "T2",
+   "title": "TYPICAL (3RD & 5TH) FLOOR PLAN WATER SUPPLY LAYOUT"
+  },
+  {
+   "discipline": "Plumbing",
+   "doc_id": "PLUMBING/WS-07 4TH&6THFLOORPLAN WATER SUPPLY LAYOUT.pdf",
+   "drawing_no": "WS-07",
+   "file_sha256": "",
+   "revision": null,
+   "scale": "1:150",
+   "scale_verified": false,
+   "section": "Q",
+   "sheet_kind": null,
+   "subtitle": null,
+   "superseded_by": null,
+   "tier": "T2",
+   "title": "4TH & 6TH FLOOR PLAN WATER SUPPLY LAYOUT"
+  },
+  {
+   "discipline": "Plumbing",
+   "doc_id": "PLUMBING/WS-08 LOWER ROOF FLOOR PLAN WATER SUPPLY LAYOUT.pdf",
+   "drawing_no": "WS-08",
+   "file_sha256": "",
+   "revision": null,
+   "scale": "1:150",
+   "scale_verified": false,
+   "section": "Q",
+   "sheet_kind": null,
+   "subtitle": null,
+   "superseded_by": null,
+   "tier": "T2",
+   "title": "LOWER ROOF FLOOR PLAN WATER SUPPLY LAYOUT"
+  },
+  {
+   "discipline": "Plumbing",
+   "doc_id": "PLUMBING/WS-09 UPPER ROOF FLOOR PLAN WATER SUPPLY LAYOUT.pdf",
+   "drawing_no": "WS-09",
+   "file_sha256": "",
+   "revision": null,
+   "scale": "1:150",
+   "scale_verified": false,
+   "section": "Q",
+   "sheet_kind": null,
+   "subtitle": null,
+   "superseded_by": null,
+   "tier": "T2",
+   "title": "UPPER ROOF FLOOR PLAN WATER SUPPLY LAYOUT"
+  },
+  {
+   "discipline": "Plumbing",
+   "doc_id": "PLUMBING/WS-10 SCHEMATIC DIAGRAM WATER SUPPLY LAYOUT.pdf",
+   "drawing_no": "WS-10",
+   "file_sha256": "",
+   "revision": null,
+   "scale": "NTS",
+   "scale_verified": false,
+   "section": "Q",
+   "sheet_kind": null,
+   "subtitle": null,
+   "superseded_by": null,
+   "tier": "T2",
+   "title": "SCHEMATIC DIAGRAM WATER SUPPLY LAYOUT"
+  },
+  {
+   "discipline": "Plumbing",
+   "doc_id": "PLUMBING/WS-11 TYPICAL DETAILS WATER SUPPLY LAYOUT.pdf",
+   "drawing_no": "WS-11",
+   "file_sha256": "",
+   "revision": null,
+   "scale": "NTS",
+   "scale_verified": false,
+   "section": "Q",
+   "sheet_kind": null,
+   "subtitle": null,
+   "superseded_by": null,
+   "tier": "T2",
+   "title": "TYPICAL DETAILS WATER SUPPLY LAYOUT"
+  }
+ ],
+ "transcribed_title_blocks": [
+  {
+   "basis": "saved reading (Claude Code (visual reading, this session) - via boq_arch/readings; A-03-001.title_block.json)",
+   "doc_id": "Architecture/A1/A-03-001.pdf",
+   "fields": {
+    "drawing_no": "A-03-001",
+    "scale": "NTS",
+    "title": "AREA CALCULATION-1"
+   }
+  },
+  {
+   "basis": "saved reading (Claude Code (visual reading, this session) - via boq_arch/readings; A-03-001TOA-03-004 AREA CALCULATION-A-03-004.title_block.json)",
+   "doc_id": "Architecture/A1/A-03-001TOA-03-004 AREA CALCULATION-A-03-004.pdf",
+   "fields": {
+    "drawing_no": "A-03-004",
+    "title": "AREA CALCULATION-4"
+   }
+  },
+  {
+   "basis": "saved reading (Claude Code (visual reading, this session) - via boq_arch/readings; A-06-001 SETTINGOUT LAYOUT-A-100 SETTING OUT PLAN.title_block.json)",
+   "doc_id": "Architecture/A1/A-06-001 SETTINGOUT LAYOUT-A-100 SETTING OUT PLAN.pdf",
+   "fields": {
+    "drawing_no": "A-06-001",
+    "scale": "1:100",
+    "title": "SETTING OUT PLAN"
+   }
+  },
+  {
+   "basis": "saved reading (Claude Code (visual reading, this session); STRUCTURE Sheet 01.title_block.json)",
+   "doc_id": "Structure/STRUCTURE Sheet 01.pdf",
+   "fields": {
+    "drawing_no": "L-01_1",
+    "scale": "1:100",
+    "title": "LOADING SCHEDULE"
+   }
+  },
+  {
+   "basis": "saved reading (Claude Code (visual reading, this session); STRUCTURE Sheet 02.title_block.json)",
+   "doc_id": "Structure/STRUCTURE Sheet 02.pdf",
+   "fields": {
+    "drawing_no": "L-01_2",
+    "scale": "1:150",
+    "title": "BASEMENT FLOOR LOADING LAYOUT"
+   }
+  },
+  {
+   "basis": "saved reading (Claude Code (visual reading, this session); STRUCTURE Sheet 03.title_block.json)",
+   "doc_id": "Structure/STRUCTURE Sheet 03.pdf",
+   "fields": {
+    "drawing_no": "L-01_3",
+    "scale": "1:150",
+    "title": "GROUND FLOOR LOADING LAYOUT"
+   }
+  },
+  {
+   "basis": "saved reading (Claude Code (visual reading, this session); STRUCTURE Sheet 04.title_block.json)",
+   "doc_id": "Structure/STRUCTURE Sheet 04.pdf",
+   "fields": {
+    "drawing_no": "L-01_4",
+    "scale": "1:150",
+    "title": "FIRST FLOOR LOADING LAYOUT"
+   }
+  },
+  {
+   "basis": "saved reading (Claude Code (visual reading, this session); STRUCTURE Sheet 05.title_block.json)",
+   "doc_id": "Structure/STRUCTURE Sheet 05.pdf",
+   "fields": {
+    "drawing_no": "L-01_5",
+    "scale": "1:150",
+    "title": "SECOND FLOOR LOADING LAYOUT"
+   }
+  },
+  {
+   "basis": "saved reading (Claude Code (visual reading, this session); STRUCTURE Sheet 06.title_block.json)",
+   "doc_id": "Structure/STRUCTURE Sheet 06.pdf",
+   "fields": {
+    "drawing_no": "L-01_6",
+    "scale": "1:150",
+    "title": "THIRD FLOOR LOADING LAYOUT"
+   }
+  },
+  {
+   "basis": "saved reading (Claude Code (visual reading, this session); STRUCTURE Sheet 07.title_block.json)",
+   "doc_id": "Structure/STRUCTURE Sheet 07.pdf",
+   "fields": {
+    "drawing_no": "L-01_7",
+    "scale": "1:150",
+    "title": "FOURTH & FIFTH FLOOR LOADING LAYOUT"
+   }
+  },
+  {
+   "basis": "saved reading (Claude Code (visual reading, this session); STRUCTURE Sheet 08.title_block.json)",
+   "doc_id": "Structure/STRUCTURE Sheet 08.pdf",
+   "fields": {
+    "drawing_no": "L-01_8",
+    "scale": "1:150",
+    "title": "LOWER ROOF FLOOR LOADING LAYOUT"
+   }
+  },
+  {
+   "basis": "saved reading (Claude Code (visual reading, this session); STRUCTURE Sheet 09.title_block.json)",
+   "doc_id": "Structure/STRUCTURE Sheet 09.pdf",
+   "fields": {
+    "drawing_no": "L-01_9",
+    "scale": "1:150",
+    "title": "UPPER ROOF FLOOR LOADING LAYOUT"
+   }
+  },
+  {
+   "basis": "saved reading (Claude Code (visual reading, this session); STRUCTURE Sheet 10.title_block.json)",
+   "doc_id": "Structure/STRUCTURE Sheet 10.pdf",
+   "fields": {
+    "drawing_no": "L-01_10",
+    "scale": "1:150",
+    "title": "TOP ROOF FLOOR LOADING LAYOUT"
+   }
+  },
+  {
+   "basis": "saved reading (Claude Code (visual reading, this session); STRUCTURE Sheet 11.title_block.json)",
+   "doc_id": "Structure/STRUCTURE Sheet 11.pdf",
+   "fields": {
+    "drawing_no": "S-001",
+    "scale": "NTS",
+    "title": "LIST OF DRAWINGS"
+   }
+  },
+  {
+   "basis": "saved reading (Claude Code (visual reading, this session); STRUCTURE Sheet 12.title_block.json)",
+   "doc_id": "Structure/STRUCTURE Sheet 12.pdf",
+   "fields": {
+    "drawing_no": "S-00_2",
+    "title": "STR. GENERAL NOTES"
+   }
+  },
+  {
+   "basis": "saved reading (Claude Code (visual reading, this session); STRUCTURE Sheet 13.title_block.json)",
+   "doc_id": "Structure/STRUCTURE Sheet 13.pdf",
+   "fields": {
+    "drawing_no": "S-01_1",
+    "title": "STANDARD DETAILS - SHEET-1"
+   }
+  },
+  {
+   "basis": "saved reading (Claude Code (visual reading, this session); STRUCTURE Sheet 14.title_block.json)",
+   "doc_id": "Structure/STRUCTURE Sheet 14.pdf",
+   "fields": {
+    "drawing_no": "S-01_2",
+    "title": "STANDARD DETAILS - SHEET-2"
+   }
+  },
+  {
+   "basis": "saved reading (Claude Code (visual reading, this session); STRUCTURE Sheet 15.title_block.json)",
+   "doc_id": "Structure/STRUCTURE Sheet 15.pdf",
+   "fields": {
+    "drawing_no": "S-01_3",
+    "scale": "NTS",
+    "title": "STANDARD DETAILS - SHEET-3"
+   }
+  },
+  {
+   "basis": "saved reading (Claude Code (visual reading, this session); STRUCTURE Sheet 16.title_block.json)",
+   "doc_id": "Structure/STRUCTURE Sheet 16.pdf",
+   "fields": {
+    "drawing_no": "S-01_4",
+    "scale": "NTS",
+    "title": "STANDARD DETAILS - SHEET-4"
+   }
+  },
+  {
+   "basis": "saved reading (Claude Code (visual reading, this session); STRUCTURE Sheet 17.title_block.json)",
+   "doc_id": "Structure/STRUCTURE Sheet 17.pdf",
+   "fields": {
+    "drawing_no": "S-01_5",
+    "scale": "NTS",
+    "title": "STANDARD WATER PROOFING DETAILS"
+   }
+  },
+  {
+   "basis": "saved reading (Claude Code (visual reading, this session); STRUCTURE Sheet 18.title_block.json)",
+   "doc_id": "Structure/STRUCTURE Sheet 18.pdf",
+   "fields": {
+    "drawing_no": "S-01_6",
+    "scale": "NTS",
+    "title": "STANDARD POST TENSION DETAILS"
+   }
+  },
+  {
+   "basis": "saved reading (Claude Code (visual reading, this session); STRUCTURE Sheet 19.title_block.json)",
+   "doc_id": "Structure/STRUCTURE Sheet 19.pdf",
+   "fields": {
+    "drawing_no": "S-02_1",
+    "scale": "1:150",
+    "title": "U/G WATER TANK FOUNDATION LAYOUT"
+   }
+  },
+  {
+   "basis": "saved reading (Claude Code (visual reading, this session); STRUCTURE Sheet 20.title_block.json)",
+   "doc_id": "Structure/STRUCTURE Sheet 20.pdf",
+   "fields": {
+    "drawing_no": "S-02_2",
+    "scale": "1:25",
+    "title": "WATER TANK SECTION"
+   }
+  },
+  {
+   "basis": "saved reading (Claude Code (visual reading, this session); STRUCTURE Sheet 21.title_block.json)",
+   "doc_id": "Structure/STRUCTURE Sheet 21.pdf",
+   "fields": {
+    "drawing_no": "S-02_3",
+    "scale": "1:150",
+    "title": "RAFT FOUNDATION LAYOUT"
+   }
+  },
+  {
+   "basis": "saved reading (Claude Code (visual reading, this session); STRUCTURE Sheet 22.title_block.json)",
+   "doc_id": "Structure/STRUCTURE Sheet 22.pdf",
+   "fields": {
+    "drawing_no": "S-02_4",
+    "scale": "1:30",
+    "title": "RAFT FOUNDATION SECTION DETAILS"
+   }
+  },
+  {
+   "basis": "saved reading (Claude Code (visual reading, this session); STRUCTURE Sheet 23.title_block.json)",
+   "doc_id": "Structure/STRUCTURE Sheet 23.pdf",
+   "fields": {
+    "drawing_no": "S-02_4",
+    "scale": "1:40",
+    "title": "RAMP SECTION DETAILS"
+   }
+  },
+  {
+   "basis": "saved reading (Claude Code (visual reading, this session); STRUCTURE Sheet 24.title_block.json)",
+   "doc_id": "Structure/STRUCTURE Sheet 24.pdf",
+   "fields": {
+    "drawing_no": "S-02_6",
+    "scale": "1:150",
+    "title": "BOUNDARY WALL LAYOUT"
+   }
+  },
+  {
+   "basis": "saved reading (Claude Code (visual reading, this session); STRUCTURE Sheet 25.title_block.json)",
+   "doc_id": "Structure/STRUCTURE Sheet 25.pdf",
+   "fields": {
+    "drawing_no": "S-02_7",
+    "title": "BOUNDARY WALL SECTION DETAIL"
+   }
+  },
+  {
+   "basis": "saved reading (Claude Code (visual reading, this session); STRUCTURE Sheet 26.title_block.json)",
+   "doc_id": "Structure/STRUCTURE Sheet 26.pdf",
+   "fields": {
+    "drawing_no": "S-02_8",
+    "scale": "1:150",
+    "title": "FOUNDATION SHEAR LINK LAYOUT"
+   }
+  },
+  {
+   "basis": "saved reading (Claude Code (visual reading, this session); STRUCTURE Sheet 27.title_block.json)",
+   "doc_id": "Structure/STRUCTURE Sheet 27.pdf",
+   "fields": {
+    "drawing_no": "S-02_9",
+    "scale": "1:150",
+    "title": "COLUMN AND WALLS REACTION SERVICE LOADS"
+   }
+  },
+  {
+   "basis": "saved reading (Claude Code (visual reading, this session); STRUCTURE Sheet 28.title_block.json)",
+   "doc_id": "Structure/STRUCTURE Sheet 28.pdf",
+   "fields": {
+    "drawing_no": "S-03_1",
+    "scale": "1:150",
+    "title": "GROUND FLOOR SLAB & BEAM LAYOUT"
+   }
+  },
+  {
+   "basis": "saved reading (Claude Code (visual reading, this session); STRUCTURE Sheet 29.title_block.json)",
+   "doc_id": "Structure/STRUCTURE Sheet 29.pdf",
+   "fields": {
+    "drawing_no": "S-03_2",
+    "scale": "1:150",
+    "title": "FIRST FLOOR SLAB & BEAM LAYOUT"
+   }
+  },
+  {
+   "basis": "saved reading (Claude Code (visual reading, this session); STRUCTURE Sheet 30.title_block.json)",
+   "doc_id": "Structure/STRUCTURE Sheet 30.pdf",
+   "fields": {
+    "drawing_no": "S-03_2A",
+    "scale": "1:25",
+    "title": "FIRST FLOOR SECTION DETAILS"
+   }
+  },
+  {
+   "basis": "saved reading (Claude Code (visual reading, this session); STRUCTURE Sheet 31.title_block.json)",
+   "doc_id": "Structure/STRUCTURE Sheet 31.pdf",
+   "fields": {
+    "drawing_no": "S-03_3",
+    "scale": "1:150",
+    "title": "SECOND FLOOR SLAB & BEAM LAYOUT"
+   }
+  },
+  {
+   "basis": "saved reading (Claude Code (visual reading, this session); STRUCTURE Sheet 32.title_block.json)",
+   "doc_id": "Structure/STRUCTURE Sheet 32.pdf",
+   "fields": {
+    "drawing_no": "S-03_4",
+    "scale": "1:150",
+    "title": "THIRD FLOOR SLAB & BEAM LAYOUT"
+   }
+  },
+  {
+   "basis": "saved reading (Claude Code (visual reading, this session); STRUCTURE Sheet 33.title_block.json)",
+   "doc_id": "Structure/STRUCTURE Sheet 33.pdf",
+   "fields": {
+    "drawing_no": "S-03_5",
+    "scale": "1:150",
+    "title": "4th & Lower Roof FLOOR SLAB & BEAM LAYOUT"
+   }
+  },
+  {
+   "basis": "saved reading (Claude Code (visual reading, this session); STRUCTURE Sheet 34.title_block.json)",
+   "doc_id": "Structure/STRUCTURE Sheet 34.pdf",
+   "fields": {
+    "drawing_no": "S-03_6",
+    "scale": "1:150",
+    "title": "LOWER ROOF TO UPPER SLAB & BEAM LAYOUT"
+   }
+  },
+  {
+   "basis": "saved reading (Claude Code (visual reading, this session); STRUCTURE Sheet 35.title_block.json)",
+   "doc_id": "Structure/STRUCTURE Sheet 35.pdf",
+   "fields": {
+    "drawing_no": "S-03_7",
+    "scale": "1:150",
+    "title": "UPPER ROOF TO TOP ROOF SLAB & BEAM LAYOUT"
+   }
+  },
+  {
+   "basis": "saved reading (Claude Code (visual reading, this session); STRUCTURE Sheet 36.title_block.json)",
+   "doc_id": "Structure/STRUCTURE Sheet 36.pdf",
+   "fields": {
+    "drawing_no": "S-03_8",
+    "scale": "1:150",
+    "title": "TOP ROOF FLOOR SLAB & BEAM LAYOUT"
+   }
+  },
+  {
+   "basis": "saved reading (Claude Code (visual reading, this session); STRUCTURE Sheet 37.title_block.json)",
+   "doc_id": "Structure/STRUCTURE Sheet 37.pdf",
+   "fields": {
+    "drawing_no": "S-03_9",
+    "scale": "1:40",
+    "title": "WALL SECTION DETAILS"
+   }
+  },
+  {
+   "basis": "saved reading (Claude Code (visual reading, this session); STRUCTURE Sheet 38.title_block.json)",
+   "doc_id": "Structure/STRUCTURE Sheet 38.pdf",
+   "fields": {
+    "drawing_no": "S-04_1",
+    "scale": "1:25",
+    "title": "COLUMN DETAILS 1"
+   }
+  },
+  {
+   "basis": "saved reading (Claude Code (visual reading, this session); STRUCTURE Sheet 39.title_block.json)",
+   "doc_id": "Structure/STRUCTURE Sheet 39.pdf",
+   "fields": {
+    "drawing_no": "S-04_2",
+    "scale": "1:25",
+    "title": "COLUMN DETAILS 2"
+   }
+  },
+  {
+   "basis": "saved reading (Claude Code (visual reading, this session); STRUCTURE Sheet 40.title_block.json)",
+   "doc_id": "Structure/STRUCTURE Sheet 40.pdf",
+   "fields": {
+    "drawing_no": "S-04_3",
+    "scale": "1:50",
+    "title": "CORE WALL DETAILS"
+   }
+  },
+  {
+   "basis": "saved reading (Claude Code (visual reading, this session); STRUCTURE Sheet 41.title_block.json)",
+   "doc_id": "Structure/STRUCTURE Sheet 41.pdf",
+   "fields": {
+    "drawing_no": "S-04_4",
+    "scale": "1:150",
+    "title": "U/G WATER TANK COLUMN / WALL LAYOUT"
+   }
+  },
+  {
+   "basis": "saved reading (Claude Code (visual reading, this session); STRUCTURE Sheet 42.title_block.json)",
+   "doc_id": "Structure/STRUCTURE Sheet 42.pdf",
+   "fields": {
+    "drawing_no": "S-04_5",
+    "scale": "1:150",
+    "title": "BASEMENT FLOOR COLUMN / WALL LAYOUT"
+   }
+  },
+  {
+   "basis": "saved reading (Claude Code (visual reading, this session); STRUCTURE Sheet 43.title_block.json)",
+   "doc_id": "Structure/STRUCTURE Sheet 43.pdf",
+   "fields": {
+    "drawing_no": "S-04_6",
+    "scale": "1:150",
+    "title": "GROUND FLOOR COLUMN / WALL LAYOUT"
+   }
+  },
+  {
+   "basis": "saved reading (Claude Code (visual reading, this session); STRUCTURE Sheet 44.title_block.json)",
+   "doc_id": "Structure/STRUCTURE Sheet 44.pdf",
+   "fields": {
+    "drawing_no": "S-04_7",
+    "scale": "1:150",
+    "title": "FIRST FLOOR COLUMN / WALL LAYOUT"
+   }
+  },
+  {
+   "basis": "saved reading (Claude Code (visual reading, this session); STRUCTURE Sheet 45.title_block.json)",
+   "doc_id": "Structure/STRUCTURE Sheet 45.pdf",
+   "fields": {
+    "drawing_no": "S-04_8",
+    "scale": "1:150",
+    "title": "2nd to 4th FLOOR COLUMN / WALL LAYOUT"
+   }
+  },
+  {
+   "basis": "saved reading (Claude Code (visual reading, this session); STRUCTURE Sheet 46.title_block.json)",
+   "doc_id": "Structure/STRUCTURE Sheet 46.pdf",
+   "fields": {
+    "drawing_no": "S-04_9",
+    "scale": "1:150",
+    "title": "4th to Lower Roof FLOOR COLUMN / WALL LAYOUT"
+   }
+  },
+  {
+   "basis": "saved reading (Claude Code (visual reading, this session); STRUCTURE Sheet 47.title_block.json)",
+   "doc_id": "Structure/STRUCTURE Sheet 47.pdf",
+   "fields": {
+    "drawing_no": "S-04_10",
+    "scale": "1:150",
+    "title": "LOWER ROOF TO UPPER ROOF COLUMN / WALL LAYOUT"
+   }
+  },
+  {
+   "basis": "saved reading (Claude Code (visual reading, this session); STRUCTURE Sheet 48.title_block.json)",
+   "doc_id": "Structure/STRUCTURE Sheet 48.pdf",
+   "fields": {
+    "drawing_no": "S-04_11",
+    "scale": "1:150",
+    "title": "UPPER ROOF COLUMN / WALL LAYOUT"
+   }
+  },
+  {
+   "basis": "saved reading (Claude Code (visual reading, this session); STRUCTURE Sheet 49.title_block.json)",
+   "doc_id": "Structure/STRUCTURE Sheet 49.pdf",
+   "fields": {
+    "drawing_no": "S-05_1",
+    "scale": "1:50",
+    "title": "STAIRCASE DETAILS 1"
+   }
+  },
+  {
+   "basis": "saved reading (Claude Code (visual reading, this session); STRUCTURE Sheet 50.title_block.json)",
+   "doc_id": "Structure/STRUCTURE Sheet 50.pdf",
+   "fields": {
+    "drawing_no": "S-05_2",
+    "scale": "1:50",
+    "title": "STAIRCASE DETAILS 2"
+   }
+  }
+ ]
+}

@@ -1,0 +1,514 @@
+{"level":"info","time":"2026-09-28T10:33:29Z","message":"Thank you for trying Cloudflare Tunnel. Doing so, without a Cloudflare account, is a quick way to experiment and try it out. However, be aware that these account-less Tunnels have no uptime guarantee, are subject to the Cloudflare Online Services Terms of Use (https://www.cloudflare.com/website-terms/), and Cloudflare reserves the right to investigate your use of Tunnels for violations of such terms. If you intend to use Tunnels in production you should use a pre-created named tunnel by following: https://developers.cloudflare.com/cloudflare-one/connections/connect-apps"}
+{"level":"info","time":"2026-09-28T10:33:29Z","message":"Requesting new quick Tunnel on trycloudflare.com..."}
+{"level":"info","time":"2026-09-28T10:33:36Z","message":"+--------------------------------------------------------------------------------------------+"}
+{"level":"info","time":"2026-09-28T10:33:36Z","message":"|  Your quick Tunnel has been created! Visit it at (it may take some time to be reachable):  |"}
+{"level":"info","time":"2026-09-28T10:33:36Z","message":"|  https://clicks-compound-burns-off.trycloudflare.com                                       |"}
+{"level":"info","time":"2026-09-28T10:33:36Z","message":"+--------------------------------------------------------------------------------------------+"}
+{"level":"info","time":"2026-09-28T10:33:36Z","message":"Cannot determine default configuration path. No file [config.yml config.yaml] in [~/.cloudflared ~/.cloudflare-warp ~/cloudflare-warp]"}
+{"level":"info","time":"2026-09-28T10:33:36Z","message":"Version 2026.9.3 (Checksum f096265ec2fcbe9bb6e2d64268db167ced3fcbb83d894bdb9e2fcdb26f2ea7e2)"}
+{"level":"info","time":"2026-09-28T10:33:36Z","message":"GOOS: windows, GOVersion: go1.26.8, GoArch: amd64"}
+{"level":"info","time":"2026-09-28T10:33:36Z","message":"Settings: map[ha-connections:1 logfile:tunnel.log no-autoupdate:true protocol:quic url:http://127.0.0.1:5000]"}
+{"level":"info","time":"2026-09-28T10:33:36Z","message":"cloudflared will not automatically update on Windows systems."}
+{"level":"info","time":"2026-09-28T10:33:36Z","message":"Generated Connector ID: 2a87f98b-9a85-48f4-a366-5fa4aba2b727"}
+{"level":"info","time":"2026-09-28T10:33:36Z","message":"Initial protocol quic"}
+{"level":"info","time":"2026-09-28T10:33:36Z","message":"ICMP proxy will use 172.20.10.7 as source for IPv4"}
+{"level":"info","time":"2026-09-28T10:33:36Z","message":"ICMP proxy will use 2401:4900:67ba:6895:fa6d:621c:1f1e:f95d in zone Wi-Fi 2 as source for IPv6"}
+{"level":"info","time":"2026-09-28T10:33:38Z","message":"cloudflared does not support loading the system root certificate pool on Windows. Please use --origin-ca-pool <PATH> to specify the path to the certificate pool"}
+{"level":"info","time":"2026-09-28T10:33:38Z","message":"ICMP proxy will use 172.20.10.7 as source for IPv4"}
+{"level":"info","event":0,"ip":"2606:4700:a0::10","connIndex":0,"time":"2026-09-28T10:33:38Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"info","time":"2026-09-28T10:33:38Z","message":"ICMP proxy will use 2401:4900:67ba:6895:fa6d:621c:1f1e:f95d in zone Wi-Fi 2 as source for IPv6"}
+{"level":"info","time":"2026-09-28T10:33:38Z","message":"Starting metrics server on 127.0.0.1:20241/metrics"}
+{"level":"info","time":"2026-09-28T10:33:39Z","message":"+-------------------------------------------------------------------------------------+"}
+{"level":"info","time":"2026-09-28T10:33:39Z","message":"|                               CONNECTIVITY PRE-CHECKS                               |"}
+{"level":"info","time":"2026-09-28T10:33:39Z","message":"+-------------------------------------------------------------------------------------+"}
+{"level":"info","time":"2026-09-28T10:33:39Z","message":"|  COMPONENT         TARGET                     STATUS  DETAILS                       |"}
+{"level":"info","time":"2026-09-28T10:33:39Z","message":"|  DNS Resolution    region1.v2.argotunnel.com  PASS    DNS Resolved successfully     |"}
+{"level":"info","time":"2026-09-28T10:33:39Z","message":"|  DNS Resolution    region2.v2.argotunnel.com  PASS    DNS Resolved successfully     |"}
+{"level":"info","time":"2026-09-28T10:33:39Z","message":"|  UDP Connectivity  region1.v2.argotunnel.com  PASS    QUIC connection successful    |"}
+{"level":"info","time":"2026-09-28T10:33:39Z","message":"|  UDP Connectivity  region2.v2.argotunnel.com  PASS    QUIC connection successful    |"}
+{"level":"info","time":"2026-09-28T10:33:39Z","message":"|  TCP Connectivity  region1.v2.argotunnel.com  PASS    HTTP/2 connection successful  |"}
+{"level":"info","time":"2026-09-28T10:33:39Z","message":"|  TCP Connectivity  region2.v2.argotunnel.com  PASS    HTTP/2 connection successful  |"}
+{"level":"info","time":"2026-09-28T10:33:39Z","message":"|  Cloudflare API    api.cloudflare.com:443     PASS    API is reachable              |"}
+{"level":"info","time":"2026-09-28T10:33:39Z","message":"|                                                                                     |"}
+{"level":"info","time":"2026-09-28T10:33:39Z","message":"|  SUMMARY: Environment is healthy. cloudflared will use 'quic' as primary protocol.  |"}
+{"level":"info","time":"2026-09-28T10:33:39Z","message":"+-------------------------------------------------------------------------------------+"}
+{"level":"info","run_id":"5fc38e60-4d2a-4ef4-beb7-a94cea0c8da9","component":"DNS Resolution","target":"region1.v2.argotunnel.com","status":"pass","details":"DNS Resolved successfully","time":"2026-09-28T10:33:39Z","message":"precheck"}
+{"level":"info","run_id":"5fc38e60-4d2a-4ef4-beb7-a94cea0c8da9","component":"DNS Resolution","target":"region2.v2.argotunnel.com","status":"pass","details":"DNS Resolved successfully","time":"2026-09-28T10:33:39Z","message":"precheck"}
+{"level":"info","run_id":"5fc38e60-4d2a-4ef4-beb7-a94cea0c8da9","component":"UDP Connectivity","target":"region1.v2.argotunnel.com","status":"pass","details":"QUIC connection successful","time":"2026-09-28T10:33:39Z","message":"precheck"}
+{"level":"info","run_id":"5fc38e60-4d2a-4ef4-beb7-a94cea0c8da9","component":"UDP Connectivity","target":"region2.v2.argotunnel.com","status":"pass","details":"QUIC connection successful","time":"2026-09-28T10:33:39Z","message":"precheck"}
+{"level":"info","run_id":"5fc38e60-4d2a-4ef4-beb7-a94cea0c8da9","component":"TCP Connectivity","target":"region1.v2.argotunnel.com","status":"pass","details":"HTTP/2 connection successful","time":"2026-09-28T10:33:39Z","message":"precheck"}
+{"level":"info","run_id":"5fc38e60-4d2a-4ef4-beb7-a94cea0c8da9","component":"TCP Connectivity","target":"region2.v2.argotunnel.com","status":"pass","details":"HTTP/2 connection successful","time":"2026-09-28T10:33:39Z","message":"precheck"}
+{"level":"info","run_id":"5fc38e60-4d2a-4ef4-beb7-a94cea0c8da9","component":"Cloudflare API","target":"api.cloudflare.com:443","status":"pass","details":"API is reachable","time":"2026-09-28T10:33:39Z","message":"precheck"}
+{"level":"info","run_id":"5fc38e60-4d2a-4ef4-beb7-a94cea0c8da9","hard_fail":false,"suggested_protocol":"quic","time":"2026-09-28T10:33:39Z","message":"precheck complete"}
+{"level":"info","event":0,"connection":"96852def-b82f-4406-aebb-ebf43d3c08a8","connIndex":0,"location":"maa01","ip":"2606:4700:a0::10","protocol":"quic","time":"2026-09-28T10:33:39Z","message":"Registered tunnel connection"}
+{"level":"error","event":0,"ip":"2606:4700:a0::10","connIndex":0,"error":"accept stream listener error: failed to accept QUIC stream: timeout: no recent network activity","time":"2026-09-28T10:42:07Z","message":"Serve tunnel error"}
+{"level":"info","event":0,"ip":"2606:4700:a0::10","connIndex":0,"time":"2026-09-28T10:42:07Z","message":"Retrying connection in up to 2s"}
+{"level":"info","event":0,"ip":"198.41.192.7","connIndex":0,"time":"2026-09-28T10:42:08Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"198.41.192.7","connIndex":0,"error":"failed to dial to edge with quic: timeout: no recent network activity","time":"2026-09-28T10:42:13Z","message":"Failed to dial a quic connection"}
+{"level":"info","event":0,"ip":"198.41.192.7","connIndex":0,"time":"2026-09-28T10:42:13Z","message":"Retrying connection in up to 4s"}
+{"level":"info","event":0,"ip":"2606:4700:a0::1","connIndex":0,"time":"2026-09-28T10:42:14Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a0::1","connIndex":0,"error":"failed to dial to edge with quic: timeout: no recent network activity","time":"2026-09-28T10:42:19Z","message":"Failed to dial a quic connection"}
+{"level":"info","event":0,"ip":"2606:4700:a0::1","connIndex":0,"time":"2026-09-28T10:42:19Z","message":"Retrying connection in up to 8s"}
+{"level":"info","event":0,"ip":"2606:4700:a8::7","connIndex":0,"time":"2026-09-28T10:42:22Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a8::7","connIndex":0,"error":"failed to dial to edge with quic: timeout: no recent network activity","time":"2026-09-28T10:42:27Z","message":"Failed to dial a quic connection"}
+{"level":"info","event":0,"ip":"2606:4700:a8::7","connIndex":0,"time":"2026-09-28T10:42:27Z","message":"Retrying connection in up to 16s"}
+{"level":"info","event":0,"ip":"198.41.200.73","connIndex":0,"time":"2026-09-28T10:42:38Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"198.41.200.73","connIndex":0,"error":"failed to dial to edge with quic: timeout: no recent network activity","time":"2026-09-28T10:42:43Z","message":"Failed to dial a quic connection"}
+{"level":"info","event":0,"ip":"198.41.200.73","connIndex":0,"time":"2026-09-28T10:42:43Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"198.41.192.107","connIndex":0,"time":"2026-09-28T10:43:11Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"198.41.192.107","connIndex":0,"error":"failed to dial to edge with quic: timeout: no recent network activity","time":"2026-09-28T10:43:16Z","message":"Failed to dial a quic connection"}
+{"level":"info","event":0,"ip":"198.41.192.107","connIndex":0,"time":"2026-09-28T10:43:16Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a0::4","connIndex":0,"time":"2026-09-28T10:43:17Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a0::4","connIndex":0,"error":"failed to dial to edge with quic: timeout: no recent network activity","time":"2026-09-28T10:43:22Z","message":"Failed to dial a quic connection"}
+{"level":"info","event":0,"ip":"2606:4700:a0::4","connIndex":0,"time":"2026-09-28T10:43:22Z","message":"Retrying connection in up to 32s"}
+{"level":"error","error":"lookup region1.v2.argotunnel.com: i/o timeout","time":"2026-09-28T10:43:43Z","message":"Failed to refresh DNS local resolver"}
+{"level":"info","event":0,"ip":"2606:4700:a8::6","connIndex":0,"time":"2026-09-28T10:43:45Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a8::6","connIndex":0,"error":"failed to dial to edge with quic: timeout: no recent network activity","time":"2026-09-28T10:43:50Z","message":"Failed to dial a quic connection"}
+{"level":"info","event":0,"ip":"2606:4700:a8::6","connIndex":0,"time":"2026-09-28T10:43:50Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"198.41.192.7","connIndex":0,"time":"2026-09-28T10:44:01Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"198.41.192.7","connIndex":0,"error":"failed to dial to edge with quic: timeout: no recent network activity","time":"2026-09-28T10:44:06Z","message":"Failed to dial a quic connection"}
+{"level":"info","event":0,"ip":"198.41.192.7","connIndex":0,"time":"2026-09-28T10:44:06Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a0::8","connIndex":0,"time":"2026-09-28T10:44:30Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a0::8","connIndex":0,"error":"failed to dial to edge with quic: timeout: no recent network activity","time":"2026-09-28T10:44:35Z","message":"Failed to dial a quic connection"}
+{"level":"info","event":0,"ip":"2606:4700:a0::8","connIndex":0,"time":"2026-09-28T10:44:35Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"198.41.192.27","connIndex":0,"time":"2026-09-28T10:44:54Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"198.41.192.27","connIndex":0,"error":"failed to dial to edge with quic: timeout: no recent network activity","time":"2026-09-28T10:44:59Z","message":"Failed to dial a quic connection"}
+{"level":"info","event":0,"ip":"198.41.192.27","connIndex":0,"time":"2026-09-28T10:44:59Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a0::8","connIndex":0,"time":"2026-09-28T10:45:00Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a0::8","connIndex":0,"error":"failed to dial to edge with quic: timeout: no recent network activity","time":"2026-09-28T10:45:05Z","message":"Failed to dial a quic connection"}
+{"level":"info","event":0,"ip":"2606:4700:a0::8","connIndex":0,"time":"2026-09-28T10:45:05Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"198.41.192.227","connIndex":0,"time":"2026-09-28T10:45:23Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"198.41.192.227","connIndex":0,"error":"failed to dial to edge with quic: timeout: no recent network activity","time":"2026-09-28T10:45:28Z","message":"Failed to dial a quic connection"}
+{"level":"info","event":0,"ip":"198.41.192.227","connIndex":0,"time":"2026-09-28T10:45:28Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"198.41.200.13","connIndex":0,"time":"2026-09-28T10:45:55Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"198.41.200.13","connIndex":0,"error":"failed to dial to edge with quic: timeout: no recent network activity","time":"2026-09-28T10:46:00Z","message":"Failed to dial a quic connection"}
+{"level":"info","event":0,"ip":"198.41.200.13","connIndex":0,"time":"2026-09-28T10:46:00Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a0::7","connIndex":0,"time":"2026-09-28T10:46:11Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a0::7","connIndex":0,"error":"failed to dial to edge with quic: timeout: no recent network activity","time":"2026-09-28T10:46:16Z","message":"Failed to dial a quic connection"}
+{"level":"info","event":0,"ip":"2606:4700:a0::7","connIndex":0,"time":"2026-09-28T10:46:16Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"198.41.192.227","connIndex":0,"time":"2026-09-28T10:46:30Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"198.41.192.227","connIndex":0,"error":"failed to dial to edge with quic: timeout: no recent network activity","time":"2026-09-28T10:46:35Z","message":"Failed to dial a quic connection"}
+{"level":"info","event":0,"ip":"198.41.192.227","connIndex":0,"time":"2026-09-28T10:46:35Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a8::10","connIndex":0,"time":"2026-09-28T10:47:05Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a8::10","connIndex":0,"error":"failed to dial to edge with quic: timeout: no recent network activity","time":"2026-09-28T10:47:10Z","message":"Failed to dial a quic connection"}
+{"level":"info","event":0,"ip":"2606:4700:a8::10","connIndex":0,"time":"2026-09-28T10:47:10Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"198.41.200.43","connIndex":0,"time":"2026-09-28T10:47:17Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"198.41.200.43","connIndex":0,"error":"failed to dial to edge with quic: timeout: no recent network activity","time":"2026-09-28T10:47:22Z","message":"Failed to dial a quic connection"}
+{"level":"info","event":0,"ip":"198.41.200.43","connIndex":0,"time":"2026-09-28T10:47:22Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a0::1","connIndex":0,"time":"2026-09-28T10:47:30Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a0::1","connIndex":0,"error":"failed to dial to edge with quic: timeout: no recent network activity","time":"2026-09-28T10:47:35Z","message":"Failed to dial a quic connection"}
+{"level":"info","event":0,"ip":"2606:4700:a0::1","connIndex":0,"time":"2026-09-28T10:47:35Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a8::9","connIndex":0,"time":"2026-09-28T10:47:49Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a8::9","connIndex":0,"error":"failed to dial to edge with quic: timeout: no recent network activity","time":"2026-09-28T10:47:54Z","message":"Failed to dial a quic connection"}
+{"level":"info","event":0,"ip":"2606:4700:a8::9","connIndex":0,"time":"2026-09-28T10:47:54Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"198.41.192.67","connIndex":0,"time":"2026-09-28T10:48:05Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"198.41.192.67","connIndex":0,"error":"failed to dial to edge with quic: timeout: no recent network activity","time":"2026-09-28T10:48:10Z","message":"Failed to dial a quic connection"}
+{"level":"info","event":0,"ip":"198.41.192.67","connIndex":0,"time":"2026-09-28T10:48:10Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a0::7","connIndex":0,"time":"2026-09-28T10:48:14Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a0::7","connIndex":0,"error":"failed to dial to edge with quic: timeout: no recent network activity","time":"2026-09-28T10:48:19Z","message":"Failed to dial a quic connection"}
+{"level":"info","event":0,"ip":"2606:4700:a0::7","connIndex":0,"time":"2026-09-28T10:48:19Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"198.41.192.37","connIndex":0,"time":"2026-09-28T10:48:23Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"198.41.192.37","connIndex":0,"error":"failed to dial to edge with quic: timeout: no recent network activity","time":"2026-09-28T10:48:28Z","message":"Failed to dial a quic connection"}
+{"level":"info","event":0,"ip":"198.41.192.37","connIndex":0,"time":"2026-09-28T10:48:28Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a0::1","connIndex":0,"time":"2026-09-28T10:48:48Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","error":"lookup region1.v2.argotunnel.com: i/o timeout","time":"2026-09-28T10:48:48Z","message":"Failed to refresh DNS local resolver"}
+{"level":"error","event":0,"ip":"2606:4700:a0::1","connIndex":0,"error":"failed to dial to edge with quic: timeout: no recent network activity","time":"2026-09-28T10:48:53Z","message":"Failed to dial a quic connection"}
+{"level":"info","event":0,"ip":"2606:4700:a0::1","connIndex":0,"time":"2026-09-28T10:48:53Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"198.41.192.7","connIndex":0,"time":"2026-09-28T10:49:01Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"198.41.192.7","connIndex":0,"error":"failed to dial to edge with quic: timeout: no recent network activity","time":"2026-09-28T10:49:06Z","message":"Failed to dial a quic connection"}
+{"level":"info","event":0,"ip":"198.41.192.7","connIndex":0,"time":"2026-09-28T10:49:06Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"198.41.200.13","connIndex":0,"time":"2026-09-28T10:49:26Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"198.41.200.13","connIndex":0,"error":"failed to dial to edge with quic: timeout: no recent network activity","time":"2026-09-28T10:49:31Z","message":"Failed to dial a quic connection"}
+{"level":"info","event":0,"ip":"198.41.200.13","connIndex":0,"time":"2026-09-28T10:49:31Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a8::4","connIndex":0,"time":"2026-09-28T10:49:44Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a8::4","connIndex":0,"error":"failed to dial to edge with quic: timeout: no recent network activity","time":"2026-09-28T10:49:49Z","message":"Failed to dial a quic connection"}
+{"level":"info","event":0,"ip":"2606:4700:a8::4","connIndex":0,"time":"2026-09-28T10:49:49Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"198.41.200.23","connIndex":0,"time":"2026-09-28T10:50:02Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"198.41.200.23","connIndex":0,"error":"failed to dial to edge with quic: timeout: no recent network activity","time":"2026-09-28T10:50:07Z","message":"Failed to dial a quic connection"}
+{"level":"info","event":0,"ip":"198.41.200.23","connIndex":0,"time":"2026-09-28T10:50:07Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a0::3","connIndex":0,"time":"2026-09-28T10:50:33Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a0::3","connIndex":0,"error":"failed to dial to edge with quic: timeout: no recent network activity","time":"2026-09-28T10:50:38Z","message":"Failed to dial a quic connection"}
+{"level":"info","event":0,"ip":"2606:4700:a0::3","connIndex":0,"time":"2026-09-28T10:50:38Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a8::1","connIndex":0,"time":"2026-09-28T10:51:07Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a8::1","connIndex":0,"error":"failed to dial to edge with quic: timeout: no recent network activity","time":"2026-09-28T10:51:12Z","message":"Failed to dial a quic connection"}
+{"level":"info","event":0,"ip":"2606:4700:a8::1","connIndex":0,"time":"2026-09-28T10:51:12Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"198.41.192.7","connIndex":0,"time":"2026-09-28T10:51:28Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"198.41.192.7","connIndex":0,"error":"failed to dial to edge with quic: timeout: no recent network activity","time":"2026-09-28T10:51:33Z","message":"Failed to dial a quic connection"}
+{"level":"info","event":0,"ip":"198.41.192.7","connIndex":0,"time":"2026-09-28T10:51:33Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a0::1","connIndex":0,"time":"2026-09-28T10:51:34Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a0::1","connIndex":0,"error":"failed to dial to edge with quic: timeout: no recent network activity","time":"2026-09-28T10:51:39Z","message":"Failed to dial a quic connection"}
+{"level":"info","event":0,"ip":"2606:4700:a0::1","connIndex":0,"time":"2026-09-28T10:51:39Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"198.41.192.7","connIndex":0,"time":"2026-09-28T10:52:07Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"198.41.192.7","connIndex":0,"error":"failed to dial to edge with quic: timeout: no recent network activity","time":"2026-09-28T10:52:12Z","message":"Failed to dial a quic connection"}
+{"level":"info","event":0,"ip":"198.41.192.7","connIndex":0,"time":"2026-09-28T10:52:12Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a0::8","connIndex":0,"time":"2026-09-28T10:52:40Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a0::8","connIndex":0,"error":"failed to dial to edge with quic: timeout: no recent network activity","time":"2026-09-28T10:52:45Z","message":"Failed to dial a quic connection"}
+{"level":"info","event":0,"ip":"2606:4700:a0::8","connIndex":0,"time":"2026-09-28T10:52:45Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"198.41.192.227","connIndex":0,"time":"2026-09-28T10:52:46Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"198.41.192.227","connIndex":0,"error":"failed to dial to edge with quic: timeout: no recent network activity","time":"2026-09-28T10:52:51Z","message":"Failed to dial a quic connection"}
+{"level":"info","event":0,"ip":"198.41.192.227","connIndex":0,"time":"2026-09-28T10:52:51Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"198.41.200.33","connIndex":0,"time":"2026-09-28T10:52:57Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"198.41.200.33","connIndex":0,"error":"failed to dial to edge with quic: timeout: no recent network activity","time":"2026-09-28T10:53:02Z","message":"Failed to dial a quic connection"}
+{"level":"info","event":0,"ip":"198.41.200.33","connIndex":0,"time":"2026-09-28T10:53:02Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a8::7","connIndex":0,"time":"2026-09-28T10:53:09Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a8::7","connIndex":0,"error":"failed to dial to edge with quic: timeout: no recent network activity","time":"2026-09-28T10:53:14Z","message":"Failed to dial a quic connection"}
+{"level":"info","event":0,"ip":"2606:4700:a8::7","connIndex":0,"time":"2026-09-28T10:53:14Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"198.41.200.43","connIndex":0,"time":"2026-09-28T10:53:26Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"198.41.200.43","connIndex":0,"error":"failed to dial to edge with quic: timeout: no recent network activity","time":"2026-09-28T10:53:31Z","message":"Failed to dial a quic connection"}
+{"level":"info","event":0,"ip":"198.41.200.43","connIndex":0,"time":"2026-09-28T10:53:31Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a0::4","connIndex":0,"time":"2026-09-28T10:53:40Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a0::4","connIndex":0,"error":"failed to dial to edge with quic: timeout: no recent network activity","time":"2026-09-28T10:53:45Z","message":"Failed to dial a quic connection"}
+{"level":"info","event":0,"ip":"2606:4700:a0::4","connIndex":0,"time":"2026-09-28T10:53:45Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"198.41.192.7","connIndex":0,"time":"2026-09-28T10:53:51Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","error":"lookup region1.v2.argotunnel.com: i/o timeout","time":"2026-09-28T10:53:53Z","message":"Failed to refresh DNS local resolver"}
+{"level":"error","event":0,"ip":"198.41.192.7","connIndex":0,"error":"failed to dial to edge with quic: timeout: no recent network activity","time":"2026-09-28T10:53:56Z","message":"Failed to dial a quic connection"}
+{"level":"info","event":0,"ip":"198.41.192.7","connIndex":0,"time":"2026-09-28T10:53:56Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a8::4","connIndex":0,"time":"2026-09-28T10:53:56Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a8::4","connIndex":0,"error":"failed to dial to edge with quic: timeout: no recent network activity","time":"2026-09-28T10:54:01Z","message":"Failed to dial a quic connection"}
+{"level":"info","event":0,"ip":"2606:4700:a8::4","connIndex":0,"time":"2026-09-28T10:54:01Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a0::7","connIndex":0,"time":"2026-09-28T10:54:13Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a0::7","connIndex":0,"error":"failed to dial to edge with quic: timeout: no recent network activity","time":"2026-09-28T10:54:18Z","message":"Failed to dial a quic connection"}
+{"level":"info","event":0,"ip":"2606:4700:a0::7","connIndex":0,"time":"2026-09-28T10:54:18Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"198.41.192.227","connIndex":0,"time":"2026-09-28T10:54:26Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"198.41.192.227","connIndex":0,"error":"failed to dial to edge with quic: timeout: no recent network activity","time":"2026-09-28T10:54:31Z","message":"Failed to dial a quic connection"}
+{"level":"info","event":0,"ip":"198.41.192.227","connIndex":0,"time":"2026-09-28T10:54:31Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"198.41.200.43","connIndex":0,"time":"2026-09-28T10:54:32Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"198.41.200.43","connIndex":0,"error":"failed to dial to edge with quic: timeout: no recent network activity","time":"2026-09-28T10:54:37Z","message":"Failed to dial a quic connection"}
+{"level":"info","event":0,"ip":"198.41.200.43","connIndex":0,"time":"2026-09-28T10:54:37Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a0::7","connIndex":0,"time":"2026-09-28T10:55:06Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a0::7","connIndex":0,"error":"failed to dial to edge with quic: timeout: no recent network activity","time":"2026-09-28T10:55:11Z","message":"Failed to dial a quic connection"}
+{"level":"info","event":0,"ip":"2606:4700:a0::7","connIndex":0,"time":"2026-09-28T10:55:11Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"198.41.192.27","connIndex":0,"time":"2026-09-28T10:55:26Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"198.41.192.27","connIndex":0,"error":"failed to dial to edge with quic: timeout: no recent network activity","time":"2026-09-28T10:55:31Z","message":"Failed to dial a quic connection"}
+{"level":"info","event":0,"ip":"198.41.192.27","connIndex":0,"time":"2026-09-28T10:55:31Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a0::7","connIndex":0,"time":"2026-09-28T10:55:56Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a0::7","connIndex":0,"error":"failed to dial to edge with quic: timeout: no recent network activity","time":"2026-09-28T10:56:01Z","message":"Failed to dial a quic connection"}
+{"level":"info","event":0,"ip":"2606:4700:a0::7","connIndex":0,"time":"2026-09-28T10:56:01Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"198.41.192.27","connIndex":0,"time":"2026-09-28T10:56:07Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"198.41.192.27","connIndex":0,"error":"failed to dial to edge with quic: timeout: no recent network activity","time":"2026-09-28T10:56:12Z","message":"Failed to dial a quic connection"}
+{"level":"info","event":0,"ip":"198.41.192.27","connIndex":0,"time":"2026-09-28T10:56:12Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a0::10","connIndex":0,"time":"2026-09-28T10:56:21Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a0::10","connIndex":0,"error":"failed to dial to edge with quic: timeout: no recent network activity","time":"2026-09-28T10:56:26Z","message":"Failed to dial a quic connection"}
+{"level":"info","event":0,"ip":"2606:4700:a0::10","connIndex":0,"time":"2026-09-28T10:56:26Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"198.41.192.77","connIndex":0,"time":"2026-09-28T10:56:32Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"198.41.192.77","connIndex":0,"error":"failed to dial to edge with quic: timeout: no recent network activity","time":"2026-09-28T10:56:37Z","message":"Failed to dial a quic connection"}
+{"level":"info","event":0,"ip":"198.41.192.77","connIndex":0,"time":"2026-09-28T10:56:37Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a0::7","connIndex":0,"time":"2026-09-28T10:56:56Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a0::7","connIndex":0,"error":"failed to dial to edge with quic: timeout: no recent network activity","time":"2026-09-28T10:57:01Z","message":"Failed to dial a quic connection"}
+{"level":"info","event":0,"ip":"2606:4700:a0::7","connIndex":0,"time":"2026-09-28T10:57:01Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"198.41.192.167","connIndex":0,"time":"2026-09-28T10:57:18Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"198.41.192.167","connIndex":0,"error":"failed to dial to edge with quic: timeout: no recent network activity","time":"2026-09-28T10:57:23Z","message":"Failed to dial a quic connection"}
+{"level":"info","event":0,"ip":"198.41.192.167","connIndex":0,"time":"2026-09-28T10:57:23Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a0::8","connIndex":0,"time":"2026-09-28T10:57:47Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a0::8","connIndex":0,"error":"failed to dial to edge with quic: timeout: no recent network activity","time":"2026-09-28T10:57:52Z","message":"Failed to dial a quic connection"}
+{"level":"info","event":0,"ip":"2606:4700:a0::8","connIndex":0,"time":"2026-09-28T10:57:52Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"198.41.192.227","connIndex":0,"time":"2026-09-28T10:57:55Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"198.41.192.227","connIndex":0,"error":"failed to dial to edge with quic: timeout: no recent network activity","time":"2026-09-28T10:58:00Z","message":"Failed to dial a quic connection"}
+{"level":"info","event":0,"ip":"198.41.192.227","connIndex":0,"time":"2026-09-28T10:58:00Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a8::5","connIndex":0,"time":"2026-09-28T10:58:23Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a8::5","connIndex":0,"error":"failed to dial to edge with quic: timeout: no recent network activity","time":"2026-09-28T10:58:28Z","message":"Failed to dial a quic connection"}
+{"level":"info","event":0,"ip":"2606:4700:a8::5","connIndex":0,"time":"2026-09-28T10:58:28Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"198.41.200.233","connIndex":0,"time":"2026-09-28T10:58:52Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"198.41.200.233","connIndex":0,"error":"failed to dial to edge with quic: timeout: no recent network activity","time":"2026-09-28T10:58:57Z","message":"Failed to dial a quic connection"}
+{"level":"info","event":0,"ip":"198.41.200.233","connIndex":0,"time":"2026-09-28T10:58:57Z","message":"Retrying connection in up to 32s"}
+{"level":"error","error":"lookup region1.v2.argotunnel.com: i/o timeout","time":"2026-09-28T10:58:58Z","message":"Failed to refresh DNS local resolver"}
+{"level":"info","event":0,"ip":"2606:4700:a8::8","connIndex":0,"time":"2026-09-28T10:59:26Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a8::8","connIndex":0,"error":"failed to dial to edge with quic: timeout: no recent network activity","time":"2026-09-28T10:59:31Z","message":"Failed to dial a quic connection"}
+{"level":"info","event":0,"ip":"2606:4700:a8::8","connIndex":0,"time":"2026-09-28T10:59:31Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a0::7","connIndex":0,"time":"2026-09-28T10:59:59Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a0::7","connIndex":0,"error":"failed to dial to edge with quic: timeout: no recent network activity","time":"2026-09-28T11:00:04Z","message":"Failed to dial a quic connection"}
+{"level":"info","event":0,"ip":"2606:4700:a0::7","connIndex":0,"time":"2026-09-28T11:00:04Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"198.41.192.107","connIndex":0,"time":"2026-09-28T11:00:22Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"198.41.192.107","connIndex":0,"error":"failed to dial to edge with quic: timeout: no recent network activity","time":"2026-09-28T11:00:27Z","message":"Failed to dial a quic connection"}
+{"level":"info","event":0,"ip":"198.41.192.107","connIndex":0,"time":"2026-09-28T11:00:27Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"198.41.200.233","connIndex":0,"time":"2026-09-28T11:00:30Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"198.41.200.233","connIndex":0,"error":"failed to dial to edge with quic: timeout: no recent network activity","time":"2026-09-28T11:00:35Z","message":"Failed to dial a quic connection"}
+{"level":"info","event":0,"ip":"198.41.200.233","connIndex":0,"time":"2026-09-28T11:00:35Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a8::6","connIndex":0,"time":"2026-09-28T11:01:02Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a8::6","connIndex":0,"error":"failed to dial to edge with quic: timeout: no recent network activity","time":"2026-09-28T11:01:07Z","message":"Failed to dial a quic connection"}
+{"level":"info","event":0,"ip":"2606:4700:a8::6","connIndex":0,"time":"2026-09-28T11:01:07Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:01:23Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a0::5","connIndex":0,"error":"Unauthorized: Tunnel not found","time":"2026-09-28T11:01:25Z","message":"Register tunnel error from server side"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:01:25Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:01:40Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a0::5","connIndex":0,"error":"Unauthorized: Tunnel not found","time":"2026-09-28T11:01:40Z","message":"Register tunnel error from server side"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:01:40Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:01:45Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a0::5","connIndex":0,"error":"Unauthorized: Tunnel not found","time":"2026-09-28T11:01:45Z","message":"Register tunnel error from server side"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:01:45Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:01:53Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a0::5","connIndex":0,"error":"Unauthorized: Tunnel not found","time":"2026-09-28T11:01:53Z","message":"Register tunnel error from server side"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:01:53Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:01:54Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a0::5","connIndex":0,"error":"Unauthorized: Tunnel not found","time":"2026-09-28T11:01:54Z","message":"Register tunnel error from server side"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:01:54Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:01:59Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a0::5","connIndex":0,"error":"Unauthorized: Tunnel not found","time":"2026-09-28T11:01:59Z","message":"Register tunnel error from server side"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:01:59Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:02:30Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a0::5","connIndex":0,"error":"Unauthorized: Tunnel not found","time":"2026-09-28T11:02:30Z","message":"Register tunnel error from server side"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:02:30Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:02:40Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a0::5","connIndex":0,"error":"Unauthorized: Tunnel not found","time":"2026-09-28T11:02:40Z","message":"Register tunnel error from server side"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:02:40Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:03:08Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a0::5","connIndex":0,"error":"Unauthorized: Tunnel not found","time":"2026-09-28T11:03:09Z","message":"Register tunnel error from server side"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:03:09Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:03:25Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a0::5","connIndex":0,"error":"Unauthorized: Tunnel not found","time":"2026-09-28T11:03:25Z","message":"Register tunnel error from server side"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:03:25Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:03:53Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a0::5","connIndex":0,"error":"Unauthorized: Tunnel not found","time":"2026-09-28T11:03:53Z","message":"Register tunnel error from server side"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:03:53Z","message":"Retrying connection in up to 32s"}
+{"level":"error","error":"lookup region1.v2.argotunnel.com: i/o timeout","time":"2026-09-28T11:04:03Z","message":"Failed to refresh DNS local resolver"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:04:12Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a0::5","connIndex":0,"error":"Unauthorized: Tunnel not found","time":"2026-09-28T11:04:12Z","message":"Register tunnel error from server side"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:04:12Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:04:23Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a0::5","connIndex":0,"error":"Unauthorized: Tunnel not found","time":"2026-09-28T11:04:23Z","message":"Register tunnel error from server side"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:04:23Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:04:34Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a0::5","connIndex":0,"error":"Unauthorized: Tunnel not found","time":"2026-09-28T11:04:34Z","message":"Register tunnel error from server side"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:04:34Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:04:55Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a0::5","connIndex":0,"error":"Unauthorized: Tunnel not found","time":"2026-09-28T11:04:56Z","message":"Register tunnel error from server side"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:04:56Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:05:01Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a0::5","connIndex":0,"error":"Unauthorized: Tunnel not found","time":"2026-09-28T11:05:01Z","message":"Register tunnel error from server side"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:05:01Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:05:03Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a0::5","connIndex":0,"error":"Unauthorized: Tunnel not found","time":"2026-09-28T11:05:03Z","message":"Register tunnel error from server side"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:05:03Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:05:33Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a0::5","connIndex":0,"error":"Unauthorized: Tunnel not found","time":"2026-09-28T11:05:33Z","message":"Register tunnel error from server side"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:05:33Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:06:02Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a0::5","connIndex":0,"error":"Unauthorized: Tunnel not found","time":"2026-09-28T11:06:02Z","message":"Register tunnel error from server side"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:06:02Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:06:20Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a0::5","connIndex":0,"error":"Unauthorized: Tunnel not found","time":"2026-09-28T11:06:20Z","message":"Register tunnel error from server side"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:06:20Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:06:50Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a0::5","connIndex":0,"error":"Unauthorized: Tunnel not found","time":"2026-09-28T11:06:50Z","message":"Register tunnel error from server side"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:06:50Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:07:15Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a0::5","connIndex":0,"error":"Unauthorized: Tunnel not found","time":"2026-09-28T11:07:15Z","message":"Register tunnel error from server side"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:07:15Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:07:24Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a0::5","connIndex":0,"error":"Unauthorized: Tunnel not found","time":"2026-09-28T11:07:24Z","message":"Register tunnel error from server side"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:07:24Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:07:50Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a0::5","connIndex":0,"error":"Unauthorized: Tunnel not found","time":"2026-09-28T11:07:50Z","message":"Register tunnel error from server side"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:07:50Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:08:16Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a0::5","connIndex":0,"error":"Unauthorized: Tunnel not found","time":"2026-09-28T11:08:16Z","message":"Register tunnel error from server side"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:08:16Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:08:45Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a0::5","connIndex":0,"error":"Unauthorized: Tunnel not found","time":"2026-09-28T11:08:45Z","message":"Register tunnel error from server side"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:08:45Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:09:03Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a0::5","connIndex":0,"error":"Unauthorized: Tunnel not found","time":"2026-09-28T11:09:03Z","message":"Register tunnel error from server side"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:09:03Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:09:30Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a0::5","connIndex":0,"error":"Unauthorized: Tunnel not found","time":"2026-09-28T11:09:30Z","message":"Register tunnel error from server side"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:09:30Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:09:46Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a0::5","connIndex":0,"error":"Unauthorized: Tunnel not found","time":"2026-09-28T11:09:46Z","message":"Register tunnel error from server side"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:09:46Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:09:57Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a0::5","connIndex":0,"error":"Unauthorized: Tunnel not found","time":"2026-09-28T11:09:57Z","message":"Register tunnel error from server side"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:09:57Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:09:59Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a0::5","connIndex":0,"error":"Unauthorized: Tunnel not found","time":"2026-09-28T11:09:59Z","message":"Register tunnel error from server side"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:09:59Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:10:15Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a0::5","connIndex":0,"error":"Unauthorized: Tunnel not found","time":"2026-09-28T11:10:15Z","message":"Register tunnel error from server side"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:10:15Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:10:28Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a0::5","connIndex":0,"error":"Unauthorized: Tunnel not found","time":"2026-09-28T11:10:28Z","message":"Register tunnel error from server side"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:10:28Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:10:34Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a0::5","connIndex":0,"error":"Unauthorized: Tunnel not found","time":"2026-09-28T11:10:34Z","message":"Register tunnel error from server side"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:10:34Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:10:56Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a0::5","connIndex":0,"error":"Unauthorized: Tunnel not found","time":"2026-09-28T11:10:56Z","message":"Register tunnel error from server side"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:10:56Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:10:56Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a0::5","connIndex":0,"error":"Unauthorized: Tunnel not found","time":"2026-09-28T11:10:56Z","message":"Register tunnel error from server side"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:10:56Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:10:56Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a0::5","connIndex":0,"error":"Unauthorized: Tunnel not found","time":"2026-09-28T11:10:57Z","message":"Register tunnel error from server side"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:10:57Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:10:59Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a0::5","connIndex":0,"error":"Unauthorized: Tunnel not found","time":"2026-09-28T11:10:59Z","message":"Register tunnel error from server side"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:10:59Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:11:18Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a0::5","connIndex":0,"error":"Unauthorized: Tunnel not found","time":"2026-09-28T11:11:18Z","message":"Register tunnel error from server side"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:11:18Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:11:33Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a0::5","connIndex":0,"error":"Unauthorized: Tunnel not found","time":"2026-09-28T11:11:33Z","message":"Register tunnel error from server side"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:11:33Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:11:49Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a0::5","connIndex":0,"error":"Unauthorized: Tunnel not found","time":"2026-09-28T11:11:49Z","message":"Register tunnel error from server side"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:11:49Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:12:20Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a0::5","connIndex":0,"error":"Unauthorized: Tunnel not found","time":"2026-09-28T11:12:20Z","message":"Register tunnel error from server side"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:12:20Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:12:43Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a0::5","connIndex":0,"error":"Unauthorized: Tunnel not found","time":"2026-09-28T11:12:44Z","message":"Register tunnel error from server side"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:12:44Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:13:01Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a0::5","connIndex":0,"error":"Unauthorized: Tunnel not found","time":"2026-09-28T11:13:01Z","message":"Register tunnel error from server side"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:13:01Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:13:30Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a0::5","connIndex":0,"error":"Unauthorized: Tunnel not found","time":"2026-09-28T11:13:30Z","message":"Register tunnel error from server side"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:13:30Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:13:45Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a0::5","connIndex":0,"error":"Unauthorized: Tunnel not found","time":"2026-09-28T11:13:46Z","message":"Register tunnel error from server side"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:13:46Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:13:47Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a0::5","connIndex":0,"error":"Unauthorized: Tunnel not found","time":"2026-09-28T11:13:47Z","message":"Register tunnel error from server side"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:13:47Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:13:51Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a0::5","connIndex":0,"error":"Unauthorized: Tunnel not found","time":"2026-09-28T11:13:51Z","message":"Register tunnel error from server side"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:13:51Z","message":"Retrying connection in up to 32s"}
+{"level":"error","error":"lookup region1.v2.argotunnel.com: i/o timeout","time":"2026-09-28T11:14:08Z","message":"Failed to refresh DNS local resolver"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:14:20Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a0::5","connIndex":0,"error":"Unauthorized: Tunnel not found","time":"2026-09-28T11:14:20Z","message":"Register tunnel error from server side"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:14:20Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:14:20Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a0::5","connIndex":0,"error":"Unauthorized: Tunnel not found","time":"2026-09-28T11:14:20Z","message":"Register tunnel error from server side"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:14:20Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:14:40Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a0::5","connIndex":0,"error":"Unauthorized: Tunnel not found","time":"2026-09-28T11:14:40Z","message":"Register tunnel error from server side"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:14:40Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:14:50Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a0::5","connIndex":0,"error":"Unauthorized: Tunnel not found","time":"2026-09-28T11:14:50Z","message":"Register tunnel error from server side"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:14:50Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:14:57Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a0::5","connIndex":0,"error":"Unauthorized: Tunnel not found","time":"2026-09-28T11:14:58Z","message":"Register tunnel error from server side"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:14:58Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:15:00Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a0::5","connIndex":0,"error":"Unauthorized: Tunnel not found","time":"2026-09-28T11:15:00Z","message":"Register tunnel error from server side"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:15:00Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:15:18Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a0::5","connIndex":0,"error":"Unauthorized: Tunnel not found","time":"2026-09-28T11:15:18Z","message":"Register tunnel error from server side"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:15:18Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:15:19Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a0::5","connIndex":0,"error":"Unauthorized: Tunnel not found","time":"2026-09-28T11:15:19Z","message":"Register tunnel error from server side"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:15:19Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:15:44Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a0::5","connIndex":0,"error":"Unauthorized: Tunnel not found","time":"2026-09-28T11:15:44Z","message":"Register tunnel error from server side"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:15:44Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:15:58Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a0::5","connIndex":0,"error":"Unauthorized: Tunnel not found","time":"2026-09-28T11:15:58Z","message":"Register tunnel error from server side"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:15:58Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:16:13Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a0::5","connIndex":0,"error":"Unauthorized: Tunnel not found","time":"2026-09-28T11:16:13Z","message":"Register tunnel error from server side"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:16:13Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:16:43Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a0::5","connIndex":0,"error":"Unauthorized: Tunnel not found","time":"2026-09-28T11:16:43Z","message":"Register tunnel error from server side"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:16:43Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:16:59Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a0::5","connIndex":0,"error":"Unauthorized: Tunnel not found","time":"2026-09-28T11:16:59Z","message":"Register tunnel error from server side"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:16:59Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:17:07Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a0::5","connIndex":0,"error":"Unauthorized: Tunnel not found","time":"2026-09-28T11:17:07Z","message":"Register tunnel error from server side"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:17:07Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:17:29Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a0::5","connIndex":0,"error":"Unauthorized: Tunnel not found","time":"2026-09-28T11:17:29Z","message":"Register tunnel error from server side"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:17:29Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:17:43Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a0::5","connIndex":0,"error":"Unauthorized: Tunnel not found","time":"2026-09-28T11:17:43Z","message":"Register tunnel error from server side"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:17:43Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:18:10Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a0::5","connIndex":0,"error":"Unauthorized: Tunnel not found","time":"2026-09-28T11:18:10Z","message":"Register tunnel error from server side"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:18:10Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:18:26Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a0::5","connIndex":0,"error":"Unauthorized: Tunnel not found","time":"2026-09-28T11:18:26Z","message":"Register tunnel error from server side"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:18:26Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:18:42Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a0::5","connIndex":0,"error":"Unauthorized: Tunnel not found","time":"2026-09-28T11:18:42Z","message":"Register tunnel error from server side"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:18:42Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:19:01Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a0::5","connIndex":0,"error":"Unauthorized: Tunnel not found","time":"2026-09-28T11:19:01Z","message":"Register tunnel error from server side"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:19:01Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:19:30Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a0::5","connIndex":0,"error":"Unauthorized: Tunnel not found","time":"2026-09-28T11:19:30Z","message":"Register tunnel error from server side"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:19:30Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:19:49Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a0::5","connIndex":0,"error":"Unauthorized: Tunnel not found","time":"2026-09-28T11:19:49Z","message":"Register tunnel error from server side"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:19:49Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:20:10Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a0::5","connIndex":0,"error":"Unauthorized: Tunnel not found","time":"2026-09-28T11:20:11Z","message":"Register tunnel error from server side"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:20:11Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:40:23Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a0::5","connIndex":0,"error":"failed to dial to edge with quic: write udp [::]:56437->[2606:4700:a0::5]:7844: wsasendto: A socket operation was attempted to an unreachable network.","time":"2026-09-28T11:40:23Z","message":"Failed to dial a quic connection"}
+{"level":"info","event":0,"ip":"2606:4700:a0::5","connIndex":0,"time":"2026-09-28T11:40:23Z","message":"Retrying connection in up to 32s"}
+{"level":"error","error":"lookup cfd-features.argotunnel.com: dnsquery: No DNS servers configured for local system.","time":"2026-09-28T11:40:23Z","message":"Failed to refresh feature selector"}
+{"level":"error","error":"lookup region1.v2.argotunnel.com: i/o timeout","time":"2026-09-28T11:40:28Z","message":"Failed to refresh DNS local resolver"}
+{"level":"info","event":0,"ip":"198.41.192.37","connIndex":0,"time":"2026-09-28T15:35:47Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"198.41.192.37","connIndex":0,"error":"failed to dial to edge with quic: write udp [::]:56437->198.41.192.37:7844: wsasendto: A socket operation was attempted to an unreachable network.","time":"2026-09-28T15:35:47Z","message":"Failed to dial a quic connection"}
+{"level":"info","event":0,"ip":"198.41.192.37","connIndex":0,"time":"2026-09-28T15:35:47Z","message":"Retrying connection in up to 32s"}
+{"level":"error","error":"lookup cfd-features.argotunnel.com: dnsquery: No DNS servers configured for local system.","time":"2026-09-28T15:35:47Z","message":"Failed to refresh feature selector"}
+{"level":"error","error":"lookup region1.v2.argotunnel.com: i/o timeout","time":"2026-09-28T17:03:14Z","message":"Failed to refresh DNS local resolver"}
+{"level":"info","event":0,"ip":"198.41.200.23","connIndex":0,"time":"2026-09-28T17:03:14Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","error":"lookup cfd-features.argotunnel.com: dnsquery: A socket operation was attempted to an unreachable network.","time":"2026-09-28T17:03:14Z","message":"Failed to refresh feature selector"}
+{"level":"error","event":0,"ip":"198.41.200.23","connIndex":0,"error":"failed to dial to edge with quic: write udp [::]:56437->198.41.200.23:7844: wsasendto: A socket operation was attempted to an unreachable network.","time":"2026-09-28T17:03:14Z","message":"Failed to dial a quic connection"}
+{"level":"info","event":0,"ip":"198.41.200.23","connIndex":0,"time":"2026-09-28T17:03:14Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a8::1","connIndex":0,"time":"2026-09-28T17:03:28Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a8::1","connIndex":0,"error":"Unauthorized: Tunnel not found","time":"2026-09-28T17:03:28Z","message":"Register tunnel error from server side"}
+{"level":"info","event":0,"ip":"2606:4700:a8::1","connIndex":0,"time":"2026-09-28T17:03:28Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a8::1","connIndex":0,"time":"2026-09-28T17:03:38Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a8::1","connIndex":0,"error":"Unauthorized: Tunnel not found","time":"2026-09-28T17:03:40Z","message":"Register tunnel error from server side"}
+{"level":"info","event":0,"ip":"2606:4700:a8::1","connIndex":0,"time":"2026-09-28T17:03:40Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a8::1","connIndex":0,"time":"2026-09-28T17:04:06Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a8::1","connIndex":0,"error":"Unauthorized: Tunnel not found","time":"2026-09-28T17:04:06Z","message":"Register tunnel error from server side"}
+{"level":"info","event":0,"ip":"2606:4700:a8::1","connIndex":0,"time":"2026-09-28T17:04:06Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a8::1","connIndex":0,"time":"2026-09-28T17:04:15Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a8::1","connIndex":0,"error":"Unauthorized: Tunnel not found","time":"2026-09-28T17:04:15Z","message":"Register tunnel error from server side"}
+{"level":"info","event":0,"ip":"2606:4700:a8::1","connIndex":0,"time":"2026-09-28T17:04:15Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a8::1","connIndex":0,"time":"2026-09-28T17:04:33Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a8::1","connIndex":0,"error":"Unauthorized: Tunnel not found","time":"2026-09-28T17:04:33Z","message":"Register tunnel error from server side"}
+{"level":"info","event":0,"ip":"2606:4700:a8::1","connIndex":0,"time":"2026-09-28T17:04:33Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a8::1","connIndex":0,"time":"2026-09-28T17:04:59Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a8::1","connIndex":0,"error":"Unauthorized: Tunnel not found","time":"2026-09-28T17:04:59Z","message":"Register tunnel error from server side"}
+{"level":"info","event":0,"ip":"2606:4700:a8::1","connIndex":0,"time":"2026-09-28T17:04:59Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a8::1","connIndex":0,"time":"2026-09-28T17:05:05Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a8::1","connIndex":0,"error":"Unauthorized: Tunnel not found","time":"2026-09-28T17:05:05Z","message":"Register tunnel error from server side"}
+{"level":"info","event":0,"ip":"2606:4700:a8::1","connIndex":0,"time":"2026-09-28T17:05:05Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a8::1","connIndex":0,"time":"2026-09-28T17:05:17Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a8::1","connIndex":0,"error":"Unauthorized: Tunnel not found","time":"2026-09-28T17:05:17Z","message":"Register tunnel error from server side"}
+{"level":"info","event":0,"ip":"2606:4700:a8::1","connIndex":0,"time":"2026-09-28T17:05:17Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a8::1","connIndex":0,"time":"2026-09-28T17:05:48Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a8::1","connIndex":0,"error":"Unauthorized: Tunnel not found","time":"2026-09-28T17:05:48Z","message":"Register tunnel error from server side"}
+{"level":"info","event":0,"ip":"2606:4700:a8::1","connIndex":0,"time":"2026-09-28T17:05:48Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a8::1","connIndex":0,"time":"2026-09-28T17:05:55Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a8::1","connIndex":0,"error":"Unauthorized: Tunnel not found","time":"2026-09-28T17:05:55Z","message":"Register tunnel error from server side"}
+{"level":"info","event":0,"ip":"2606:4700:a8::1","connIndex":0,"time":"2026-09-28T17:05:55Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a8::1","connIndex":0,"time":"2026-09-28T17:05:57Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a8::1","connIndex":0,"error":"Unauthorized: Tunnel not found","time":"2026-09-28T17:05:57Z","message":"Register tunnel error from server side"}
+{"level":"info","event":0,"ip":"2606:4700:a8::1","connIndex":0,"time":"2026-09-28T17:05:57Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a8::1","connIndex":0,"time":"2026-09-28T17:06:22Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a8::1","connIndex":0,"error":"Unauthorized: Tunnel not found","time":"2026-09-28T17:06:22Z","message":"Register tunnel error from server side"}
+{"level":"info","event":0,"ip":"2606:4700:a8::1","connIndex":0,"time":"2026-09-28T17:06:22Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a8::1","connIndex":0,"time":"2026-09-28T17:06:54Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a8::1","connIndex":0,"error":"Unauthorized: Tunnel not found","time":"2026-09-28T17:06:54Z","message":"Register tunnel error from server side"}
+{"level":"info","event":0,"ip":"2606:4700:a8::1","connIndex":0,"time":"2026-09-28T17:06:54Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a8::1","connIndex":0,"time":"2026-09-28T17:07:03Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a8::1","connIndex":0,"error":"Unauthorized: Tunnel not found","time":"2026-09-28T17:07:03Z","message":"Register tunnel error from server side"}
+{"level":"info","event":0,"ip":"2606:4700:a8::1","connIndex":0,"time":"2026-09-28T17:07:03Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a8::1","connIndex":0,"time":"2026-09-28T17:07:15Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a8::1","connIndex":0,"error":"Unauthorized: Tunnel not found","time":"2026-09-28T17:07:15Z","message":"Register tunnel error from server side"}
+{"level":"info","event":0,"ip":"2606:4700:a8::1","connIndex":0,"time":"2026-09-28T17:07:15Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a8::1","connIndex":0,"time":"2026-09-28T17:07:44Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a8::1","connIndex":0,"error":"Unauthorized: Tunnel not found","time":"2026-09-28T17:07:44Z","message":"Register tunnel error from server side"}
+{"level":"info","event":0,"ip":"2606:4700:a8::1","connIndex":0,"time":"2026-09-28T17:07:44Z","message":"Retrying connection in up to 32s"}
+{"level":"info","event":0,"ip":"2606:4700:a8::1","connIndex":0,"time":"2026-09-28T17:07:59Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256]"}
+{"level":"error","event":0,"ip":"2606:4700:a8::1","connIndex":0,"error":"Unauthorized: Tunnel not found","time":"2026-09-28T17:07:59Z","message":"Register tunnel error from server side"}
+{"level":"info","event":0,"ip":"2606:4700:a8::1","connIndex":0,"time":"2026-09-28T17:07:59Z","message":"Retrying connection in up to 32s"}
+{"level":"info","time":"2026-09-28T17:08:02Z","message":"Initiating graceful shutdown due to signal terminated ..."}
+{"level":"error","connIndex":0,"time":"2026-09-28T17:08:02Z","message":"Connection terminated"}
+{"level":"error","time":"2026-09-28T17:08:02Z","message":"no more connections active and exiting"}
+{"level":"info","time":"2026-09-28T17:08:02Z","message":"Tunnel server stopped"}
+{"level":"info","time":"2026-09-28T17:08:02Z","message":"Metrics server stopped"}

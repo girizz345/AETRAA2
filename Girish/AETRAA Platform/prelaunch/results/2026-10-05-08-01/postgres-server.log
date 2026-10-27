@@ -1,0 +1,30 @@
+No email is configured: nothing will be sent — sign-in codes and reports included.
+schema: created
+AETRAA listening on 60994
+  database : postgres://postgres:***@127.0.0.1:60993/postgres
+  files    : the database
+POST /api/login failed after 2ms: error: could not determine data type of parameter $1
+    at /private/var/folders/8x/yh6lkx8x2sb44f9q0bkv97qr0000gn/T/aetraa-prelaunch-WJRwwh/app/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.first (file:///private/var/folders/8x/yh6lkx8x2sb44f9q0bkv97qr0000gn/T/aetraa-prelaunch-WJRwwh/app/src/db-postgres.js:111:21)
+    at async Object.fetch (file:///private/var/folders/8x/yh6lkx8x2sb44f9q0bkv97qr0000gn/T/aetraa-prelaunch-WJRwwh/app/src/index.js:2252:34)
+    at async Object.fetch (file:///private/var/folders/8x/yh6lkx8x2sb44f9q0bkv97qr0000gn/T/aetraa-prelaunch-WJRwwh/app/src/index.js:5636:32)
+    at async Server.<anonymous> (file:///private/var/folders/8x/yh6lkx8x2sb44f9q0bkv97qr0000gn/T/aetraa-prelaunch-WJRwwh/app/server.js:207:17) {
+  length: 124,
+  severity: 'ERROR',
+  code: '42P18',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'postgres.c',
+  line: '842',
+  routine: 'pg_analyze_and_rewrite_varparams'
+}

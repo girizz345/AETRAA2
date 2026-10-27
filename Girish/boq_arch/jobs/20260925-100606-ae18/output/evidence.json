@@ -1,0 +1,19 @@
+{
+ "schema": "evidence/1",
+ "rev": "00",
+ "project": {
+  "plot": "5310319",
+  "job_title": "PROPOSED RESIDENTIAL BUILDING (B+G+5+ROOF)",
+  "owner": "G F S REAL ESTATE L.L.C"
+ },
+ "sheets": {
+  "A-03-001": {
+   "title": "AREA CALCULATION-1",
+   "sha1": "7ec524b1c674d54b78a1e7665c4b4b7ff508752e",
+   "file": "A-03-001.pdf"
+  }
+ },
+ "schedule": {},
+ "tags": {},
+ "items": {}
+}

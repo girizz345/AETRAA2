@@ -1,0 +1,27 @@
+{
+ "_stamp": {
+  "sheet_sha1": "77704f8f4d217f58f303ab0af9d725759a531afd",
+  "task": "elevation_finishes",
+  "version": "1-cbf650e7"
+ },
+ "_by": "Claude Code session (read off the request tiles)",
+ "reading": {
+  "finishes": [
+   {
+    "label": "F1",
+    "finish": "",
+    "kind": "unknown",
+    "callouts": []
+   },
+   {
+    "label": "F2",
+    "finish": "Glass: 1200MM HEIGHT LAMINATED TOUGHENED GLASS RAILING PER CONSULTANT APPROVAL",
+    "kind": "glazing",
+    "callouts": [
+     "1200MM HEIGHT LAMINATED TOUGHENED GLASS RAILING PER CONSULTANT APPROVAL"
+    ]
+   }
+  ],
+  "illegible": []
+ }
+}

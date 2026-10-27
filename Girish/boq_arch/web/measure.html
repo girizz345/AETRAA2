@@ -1,0 +1,1316 @@
+<style>
+ main{max-width:none;padding:14px 18px 24px}
+ .mw{display:grid;grid-template-columns:230px minmax(0,1fr) 340px;gap:12px;align-items:start}
+ @media(max-width:1150px){.mw{grid-template-columns:1fr}}
+ .mside{max-height:calc(100vh - 170px);overflow:auto}
+ .slist a{display:block;padding:7px 9px;border-radius:7px;text-decoration:none;color:var(--ink);margin-bottom:2px;font-size:13.5px;cursor:pointer}
+ .slist a:hover{background:var(--soft)} .slist a.on{background:var(--blue);color:#fff}
+ .slist small{display:block;opacity:.75;font-size:11.5px} .slist h4{margin:10px 4px 5px;font-size:11.5px;color:var(--mute);text-transform:uppercase;letter-spacing:.5px}
+ .slist .n{float:right;background:#fff3;border-radius:9px;padding:0 7px;font-size:11.5px;font-weight:700}
+ .slist a:not(.on) .n{background:var(--soft);color:var(--blue)}
+ .mtools{display:flex;flex-wrap:wrap;gap:4px;align-items:center;margin-bottom:8px}
+ .mtools .grp{display:flex;gap:3px;padding-right:8px;margin-right:4px;border-right:1px solid var(--line)}
+ .tb{border:1px solid var(--line);background:#fff;border-radius:6px;padding:5px 9px;font:13px "Segoe UI",Arial;cursor:pointer;color:var(--ink)}
+ .tb:hover{border-color:var(--blue2)} .tb.on{background:var(--blue);color:#fff;border-color:var(--blue)}
+ .tb kbd{font:10.5px Consolas,monospace;opacity:.6;margin-left:4px}
+ .mview{position:relative;height:calc(100vh - 230px);min-height:420px;overflow:hidden;background:#e9edf1;border:1px solid var(--line);border-radius:10px;user-select:none}
+ #stage{position:absolute;left:0;top:0;transform-origin:0 0}
+ #stage img{display:block;background:#fff;box-shadow:0 1px 6px #0003}
+ #sv{position:absolute;left:0;top:0;overflow:visible}
+ .mview.t-pan{cursor:grab} .mview.panning{cursor:grabbing} .mview.t-draw{cursor:crosshair}
+ #hud{position:absolute;pointer-events:none;background:#17212bdd;color:#fff;font:12px Consolas,monospace;padding:3px 7px;border-radius:5px;white-space:nowrap;display:none;z-index:3}
+ #loading{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;color:var(--mute);font-size:15px}
+ .mstatus{font-size:12.5px;color:var(--mute);margin-top:6px;display:flex;gap:14px;flex-wrap:wrap}
+ .mstatus b{color:var(--ink)}
+ .box{border:1px solid var(--line);border-radius:9px;padding:10px 12px;margin-bottom:10px;background:#fff}
+ .box h3{margin:0 0 6px;font-size:14px}
+ .frm label{font-size:12.5px;font-weight:600;margin:8px 0 3px;color:var(--mute)}
+ .frm input[type=text],.frm input[type=number],.frm select,.frm textarea{width:100%;padding:6px 8px;border:1px solid var(--line);border-radius:6px;font:13.5px "Segoe UI",Arial}
+ .frm .row{display:flex;gap:8px} .frm .row>div{flex:1}
+ .acts{display:flex;gap:6px;flex-wrap:wrap;margin-top:10px}
+ table.q{width:100%;border-collapse:collapse;font-size:12.5px;margin-top:6px} table.q td,table.q th{padding:4px 5px;border-bottom:1px solid #eef0f2;text-align:left;vertical-align:top}
+ table.q th{color:var(--mute);font-weight:600} table.q td.n{text-align:right;white-space:nowrap}
+ .mi{display:flex;gap:8px;align-items:flex-start;padding:6px 4px;border-bottom:1px solid #f0f2f4;cursor:pointer;font-size:13px}
+ .mi:hover{background:#f7f9fb} .mi.on{background:var(--soft)}
+ .mi .sw{width:12px;height:12px;border-radius:3px;margin-top:3px;flex:none}
+ .mi small{display:block;color:var(--mute)} .warn{color:var(--warn)} .bad{color:var(--bad)}
+ .banner{background:var(--soft);border:1px solid #c9d9ea;border-radius:9px;padding:10px 14px;margin-bottom:10px;display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+ .modal{position:fixed;inset:0;background:#0006;display:none;align-items:center;justify-content:center;z-index:50}
+ .modal .card{max-width:640px;width:92%;max-height:86vh;overflow:auto;margin:0}
+ .modal.on{display:flex}
+ .modal .card.wide{max-width:900px}
+ .result{background:#f3f8f3;border:1px solid #cfe3cf;border-radius:8px;padding:8px 12px;margin:4px 0 8px}
+ .result .rl{font-size:12px;font-weight:700;color:var(--ok);text-transform:uppercase;letter-spacing:.4px}
+ .result .rv{font-size:15px;margin-top:2px} .result .rv b{font-size:19px}
+ .result .rh{font-size:12.5px;color:var(--mute);margin-top:3px}
+ .legendc span{display:inline-block;width:10px;height:10px;border-radius:2px;margin:0 4px 0 10px;vertical-align:middle}
+ #ga,#gs{pointer-events:none}
+ .alist{max-height:36vh;overflow:auto;margin:0 -4px}
+</style>
+
+<div id="banner"></div>
+<div class="mw">
+ <aside class="panel mside slist" id="sheets"><p class="mute">Loading&hellip;</p></aside>
+ <section>
+  <div class="mtools" id="tools"></div>
+  <div class="mview t-pan" id="vp">
+   <div id="stage"><img id="im" alt="drawing" draggable="false"><svg id="sv" xmlns="http://www.w3.org/2000/svg"><g id="ga"></g><g id="gs"></g><g id="gm"></g><g id="gd"></g></svg></div>
+   <div id="hud"></div><div id="loading">Loading the drawing&hellip;</div>
+  </div>
+  <div class="mstatus" id="status"></div>
+ </section>
+ <aside class="mside" id="right">
+  <div class="box" id="scalebox"></div>
+  <div class="box" id="edit" style="display:none"></div>
+  <div class="box" id="fixbox" style="display:none"></div>
+  <div class="box" id="autobox"></div>
+  <div class="box"><h3>Measured by hand on this sheet</h3><div id="list"></div></div>
+  <div class="box"><h3>Manual take-off, all sheets</h3><div id="totals"></div>
+   <div class="acts"><button class="btn sm" onclick="doExport()">Export to Excel</button>
+   <a class="btn light sm" href="#" id="fmlink">Edit assemblies &amp; formulas</a></div>
+   <p class="hint">Export re-issues the take-off, bill and gaps with these measurements added (marked
+   <b>MEASURED (MANUAL)</b>) and your corrections made (<b>MEASURED (CORRECTED)</b>), plus a list of every measurement and
+   correction and the marked-up drawings. The automatic run stays as it is.</p></div>
+ </aside>
+</div>
+<div class="modal" id="modal"><div class="card" id="mbody"></div></div>
+
+<script>
+const CFG = __CFG__;
+const $ = id => document.getElementById(id);
+const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const TOOLS = [
+ ['pan','Pan / select','V','nav'],['erase','Eraser','E','nav'],
+ ['length','Length','L','measure'],['area','Area','A','measure'],['rect','Rectangle','R','measure'],
+ ['count','Count','C','measure'],['similar','Count similar','S','measure'],
+ ['scale','Set scale','K','scale'],
+ ['addtag','Add tag','T','fix'],['addroom','Add room','O','fix'],
+ ['note','Note','N','mark'],['cloud','Cloud','U','mark'],['arrow','Arrow','W','mark'],['highlight','Highlight','H','mark']];
+const TWO = {rect:1, similar:1, scale:1, cloud:1, arrow:1, highlight:1};
+const DBL = {length:1, area:1, rect:1, addroom:1};      // drawing tools: double-click to start, double-click to finish
+let eraseHover = null, labelsOn = localGet('ws.labels') !== '0';
+let fitS = 1, suppressClick = false, drawQueued = false, startedAt = 0;
+const COLOR = {length:'#C0703A', area:'#3F9E8C', rect:'#3F9E8C', count:'#2E7D5B', note:'#d62728', cloud:'#d62728', arrow:'#d62728', highlight:'#f2c200',
+               addtag:'#3F9E8C', addroom:'#2E7D5B'};
+const KNAME = {length:'Length', area:'Area', rect:'Area (rectangle)', count:'Count', note:'Note', cloud:'Cloud', arrow:'Arrow', highlight:'Highlight'};
+const HELP = {
+ erase:'Point at a measurement or mark-up and click to erase it. On a count, a click erases one mark and Shift+click the whole count. Undo brings it back.',
+ pan:'Drag to move around, scroll to zoom, double-click to zoom in. Click a measurement, or a wall, room or tag of the automatic take-off, to select it.',
+ addtag:'Click where a door or window tag is missing, then pick its mark. The count is checked against the schedule again.',
+ addroom:'For a room the automatic take-off could not measure: double-click to start, click round the room, double-click to close it, then name it.',
+ length:'Double-click to start, click at each corner, double-click to finish. Shift keeps it straight; Backspace undoes a point; Esc cancels.',
+ area:'Double-click to start, click round the area, double-click to close it. Esc cancels.',
+ rect:'Double-click on one corner, then double-click on the opposite corner. Esc cancels.',
+ count:'Click each item. Click a ring again to remove it. Enter to finish.',
+ similar:'Click two corners round ONE symbol or tag - every match on the sheet is found and ringed for you to check.',
+ scale:'Click two points a known distance apart (e.g. two grid lines), then type the real distance.',
+ note:'Click where the note goes.', cloud:'Click two corners of the area to cloud.', arrow:'Click the tail, then the head.',
+ highlight:'Click two corners of the area to highlight.'};
+
+let D = null, cur = null, tool = 'pan', s = 1, tx = 0, ty = 0, pts = [], mouse = null, snapOn = true;
+let grid = null, sel = null, draft = null, compareWith = '', panning = null, spaceDown = false, loadingSnap = false;
+const vp = $('vp'), stage = $('stage'), im = $('im'), sv = $('sv');
+$('fmlink').href = CFG.formulas;
+
+// ------------------------------------------------------------ data
+async function j(url, opt) {
+  const r = await fetch(url, opt);
+  const t = await r.text();
+  let d; try { d = JSON.parse(t); } catch (e) { throw new Error(t.replace(/<[^>]+>/g, ' ').trim().slice(0, 300)); }
+  if (!r.ok && !d.problems) throw new Error(d.error || t);
+  return d;
+}
+const post = (url, body) => j(url, {method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify(body)});
+
+async function load() {
+  D = await j(CFG.api);
+  const want = CFG.sheet || (cur && cur.key) || (localGet('ws.sheet'));
+  renderBanner();
+  const first = D.sheets.find(x => x.key === want) || D.sheets.find(x => x.kind === 'plan') || D.sheets[0];
+  if (first) openSheet(first.key); else $('sheets').innerHTML = '<p class="mute">No drawings in this run.</p>';
+}
+function localGet(k) { try { return localStorage.getItem(k); } catch (e) { return null; } }
+function localSet(k, v) { try { localStorage.setItem(k, v); } catch (e) {} }
+
+function renderBanner() {
+  const c = D.carry;
+  $('banner').innerHTML = c ? `<div class="banner"><span>The run of <b>${esc(c.when)}</b> (rev ${esc(c.rev || '-')}) has
+    <b>${c.measures}</b> manual measurement(s) and <b>${c.corrections}</b> correction(s). Bring them into this run? Sheets that have changed are flagged so you can check them with the overlay.</span>
+    <button class="btn sm" onclick="carry('${c.id}')">Bring them over</button></div>` : '';
+}
+async function carry(id) {
+  const r = await post(CFG.base + '/api/carry', {from:id});
+  alert(`${r.carried} measurement(s) and ${r.corrected} correction(s) brought over.` + (r.changed.length ? `\n\nThese sheets changed since - check the measurements on them with "Overlay": ${r.changed.join(', ')}` : '') +
+        (r.lost.length ? `\n\nNot in this run, so left behind: ${r.lost.join(', ')}` : '') +
+        (r.not_placed.length ? `\n\nCorrections that could not be placed:\n${r.not_placed.join('\n')}` : ''));
+  load();
+}
+
+// ------------------------------------------------------------ sheets
+function sheetList() {
+  const groups = [['Plans', x => x.registered && (x.kind === 'plan' || x.kind === 'roof')],
+                  ['Other sheets', x => x.registered && !(x.kind === 'plan' || x.kind === 'roof')],
+                  ['Other documents', x => !x.registered]];
+  let h = '';
+  for (const [name, f] of groups) {
+    const rows = D.sheets.filter(f);
+    if (!rows.length) continue;
+    h += `<h4>${name}</h4>`;
+    for (const x of rows) {
+      const n = D.measures.filter(m => m.sheet === x.key).length + ((D.fixes || {})[x.key] || 0);
+      h += `<a class="${cur && x.key === cur.key ? 'on' : ''}" onclick="openSheet('${x.key}')">${n ? `<span class="n">${n}</span>` : ''}${esc(x.title)}
+        <small>${esc(x.drawing)}${x.floor ? ' &middot; ' + esc(x.floor) : ''}${x.mm_per_pt ? '' : ' &middot; no scale'}</small></a>`;
+    }
+  }
+  $('sheets').innerHTML = h;
+}
+
+function openSheet(key) {
+  cur = D.sheets.find(x => x.key === key);
+  localSet('ws.sheet', key);
+  pts = []; draft = null; sel = null; grid = null; compareWith = ''; imgReady = false;
+  $('edit').style.display = 'none';
+  sheetList(); toolbar(); scaleBox(); list(); totals();
+  $('loading').style.display = 'flex';
+  im.onload = () => { $('loading').style.display = 'none'; fit(); imgReady = true; if (hiItem && A) zoomToItem(hiItem); };
+  im.style.width = cur.w + 'px'; im.style.height = cur.h + 'px';
+  sv.setAttribute('width', cur.w); sv.setAttribute('height', cur.h); sv.setAttribute('viewBox', `0 0 ${cur.w} ${cur.h}`);
+  im.src = `${CFG.base}/raw/${key}.png`;
+  loadSnap(key);
+  loadAuto(key);
+  draw();
+}
+
+async function loadSnap(key) {
+  loadingSnap = true; status();
+  const r = await j(`${CFG.base}/api/snap/${key}`);
+  if (!cur || cur.key !== key) return;
+  const g = new Map(), p = r.pts;
+  for (let i = 0; i < p.length; i += 2) {
+    const x = p[i] / 10, y = p[i + 1] / 10, k = ((x / 8) | 0) + ',' + ((y / 8) | 0);
+    let a = g.get(k); if (!a) g.set(k, a = []); a.push(x, y);
+  }
+  grid = g; loadingSnap = false; status();
+}
+
+// ------------------------------------------------------------ view
+function apply() {
+  // the sheet can be moved until one of its edges reaches the middle of the view, never further, so it cannot be
+  // lost off-screen. Zooming in about a point on the drawing never trips this, so that point stays under the pointer
+  if (cur) {
+    const W = vp.clientWidth, H = vp.clientHeight, sw = cur.w * s, sh = cur.h * s;
+    tx = Math.min(W / 2, Math.max(W / 2 - sw, tx));
+    ty = Math.min(H / 2, Math.max(H / 2 - sh, ty));
+  }
+  stage.style.transform = `translate(${tx}px,${ty}px) scale(${s})`; zoomLabel();
+}
+function fit() {
+  const W = vp.clientWidth, H = vp.clientHeight;
+  s = fitS = Math.min(W / cur.w, H / cur.h) * 0.97; tx = (W - cur.w * s) / 2; ty = (H - cur.h * s) / 2;
+  apply(); draw();
+}
+function zoomAt(k, cx, cy) {
+  const ns = Math.min(fitS * 60, Math.max(fitS, s * k));
+  if (ns <= fitS * 1.0001) {                // zoomed right out: the whole sheet, centred
+    s = fitS; tx = (vp.clientWidth - cur.w * s) / 2; ty = (vp.clientHeight - cur.h * s) / 2;
+  } else {                                  // otherwise the point under the pointer stays under the pointer
+    tx = cx - (cx - tx) * ns / s; ty = cy - (cy - ty) * ns / s; s = ns;
+  }
+  apply();
+  if (!drawQueued) { drawQueued = true; requestAnimationFrame(() => { drawQueued = false; draw(); }); }
+}
+function zoomLabel() { const z = $('zl'); if (z) z.textContent = Math.round(s / fitS * 100) + '%'; }
+function toSheet(e) { const r = vp.getBoundingClientRect(); return [(e.clientX - r.left - tx) / s, (e.clientY - r.top - ty) / s]; }
+
+function snap(p, e) {
+  let [x, y] = p;
+  if (e && e.shiftKey && pts.length && tool !== 'count') {
+    const [lx, ly] = pts[pts.length - 1];
+    if (Math.abs(x - lx) > Math.abs(y - ly)) y = ly; else x = lx;
+    return {p:[x, y], snapped:false};
+  }
+  if (!snapOn || tool === 'pan') return {p:[x, y], snapped:false};
+  const R = 9 / s; let best = null, bd = R * R;
+  const test = (qx, qy) => { const d = (qx - x) ** 2 + (qy - y) ** 2; if (d < bd) { bd = d; best = [qx, qy]; } };
+  if (grid) {
+    const n = Math.ceil(R / 8), bx = (x / 8) | 0, by = (y / 8) | 0;
+    for (let i = bx - n; i <= bx + n; i++) for (let k = by - n; k <= by + n; k++) {
+      const a = grid.get(i + ',' + k); if (a) for (let m = 0; m < a.length; m += 2) test(a[m], a[m + 1]);
+    }
+  }
+  for (const m of D.measures) if (m.sheet === cur.key && m.kind !== 'count') for (const q of m.points) test(q[0], q[1]);
+  for (const q of pts) test(q[0], q[1]);
+  return best ? {p:best, snapped:true} : {p:[x, y], snapped:false};
+}
+
+// ------------------------------------------------------------ geometry (display only; the server's figures are the ones billed)
+const dist = (a, b) => Math.hypot(a[0] - b[0], a[1] - b[1]);
+function corners(p) { if (p.length !== 2) return p; const [[a, b], [c, d]] = p; return [[a, b], [c, b], [c, d], [a, d]]; }
+function rawQ(kind, p) {
+  const k = (cur.mm_per_pt || 0) / 1000;
+  if (kind === 'count') return `${p.length} counted`;
+  if (!k) return kind === 'scale' && p.length === 2 ? `${dist(p[0], p[1]).toFixed(1)} pt` : 'no scale';
+  if (kind === 'length' || kind === 'arrow' || kind === 'scale') {
+    let L = 0; for (let i = 1; i < p.length; i++) L += dist(p[i - 1], p[i]);
+    const last = p.length > 2 ? `  \u00b7  last side ${(dist(p[p.length - 2], p[p.length - 1]) * k).toFixed(2)} m` : '';
+    return `Length ${(L * k).toFixed(2)} m${last}`;
+  }
+  if (kind === 'area' || kind === 'rect' || kind === 'similar' || kind === 'cloud' || kind === 'highlight') {
+    const q = kind === 'area' ? p : corners(p); if (q.length < 3) return '';
+    let a = 0, P = 0; for (let i = 0; i < q.length; i++) { const u = q[i], v = q[(i + 1) % q.length]; a += u[0] * v[1] - v[0] * u[1]; P += dist(u, v); }
+    const last = kind === 'area' && p.length > 1 ? `  \u00b7  last side ${(dist(p[p.length - 2], p[p.length - 1]) * k).toFixed(2)} m` : '';
+    return `Area ${(Math.abs(a) / 2 * k * k).toFixed(2)} m\u00b2  \u00b7  Perimeter ${(P * k).toFixed(2)} m${last}`;
+  }
+  return '';
+}
+
+// ------------------------------------------------------------ drawing
+const NS = 'http://www.w3.org/2000/svg';
+function el(tag, attrs, parent) { const e = document.createElementNS(NS, tag); for (const k in attrs) e.setAttribute(k, attrs[k]); if (parent) parent.appendChild(e); return e; }
+function cloudPath(p) {
+  const q = corners(p); const w = Math.abs(q[2][0] - q[0][0]), h = Math.abs(q[2][1] - q[0][1]);
+  const r = Math.max(3, Math.min(w, h) / 8); let d = `M${q[0][0]},${q[0][1]}`;
+  for (let i = 0; i < 4; i++) {
+    const a = q[i], b = q[(i + 1) % 4], L = dist(a, b), n = Math.max(1, Math.round(L / (2 * r)));
+    for (let k = 1; k <= n; k++) { const x = a[0] + (b[0] - a[0]) * k / n, y = a[1] + (b[1] - a[1]) * k / n; d += ` A${L / n / 2},${L / n / 2} 0 0 1 ${x},${y}`; }
+  }
+  return d + 'Z';
+}
+function shape(m, g, on) {
+  const c = m.color || COLOR[m.kind] || '#d62728', w = (on ? 4 : 2.2) / s, p = m.points;
+  const G = el('g', {'data-id': m.id || ''}, g);
+  const dash = m.deduct ? `${8 / s},${5 / s}` : 'none';
+  if (m.kind === 'length' && p.length) el('polyline', {points:p.map(q => q.join(',')).join(' '), fill:'none', stroke:c, 'stroke-width':w * 1.4, 'stroke-dasharray':dash, 'stroke-linejoin':'round', 'stroke-linecap':'round'}, G);
+  else if (m.kind === 'area' || m.kind === 'rect') el('polygon', {points:(m.kind === 'rect' ? corners(p) : p).map(q => q.join(',')).join(' '), fill:c, 'fill-opacity':m.deduct ? .12 : .28, stroke:c, 'stroke-width':w, 'stroke-dasharray':dash}, G);
+  else if (m.kind === 'highlight' && p.length === 2) el('polygon', {points:corners(p).map(q => q.join(',')).join(' '), fill:c, 'fill-opacity':.35, stroke:'none'}, G);
+  else if (m.kind === 'cloud' && p.length === 2) el('path', {d:cloudPath(p), fill:'none', stroke:c, 'stroke-width':w}, G);
+  else if (m.kind === 'arrow' && p.length === 2) {
+    const [a, b] = p, L = dist(a, b) || 1, ux = (b[0] - a[0]) / L, uy = (b[1] - a[1]) / L, h = 14 / s;
+    el('line', {x1:a[0], y1:a[1], x2:b[0], y2:b[1], stroke:c, 'stroke-width':w}, G);
+    el('polygon', {points:`${b[0]},${b[1]} ${b[0] - ux * h - uy * h / 2},${b[1] - uy * h + ux * h / 2} ${b[0] - ux * h + uy * h / 2},${b[1] - uy * h - ux * h / 2}`, fill:c}, G);
+  } else if (m.kind === 'note' && p.length) {
+    el('circle', {cx:p[0][0], cy:p[0][1], r:7 / s, fill:c, stroke:'#fff', 'stroke-width':1.5 / s}, G);
+    const t = el('text', {x:p[0][0] + 10 / s, y:p[0][1] + 4 / s, 'font-size':12 / s, fill:c, 'font-family':'Segoe UI,Arial', 'font-weight':600, 'paint-order':'stroke', stroke:'#fff', 'stroke-width':3 / s}, G);
+    t.textContent = (m.text || '').slice(0, 60);
+  } else if (m.kind === 'count') for (const q of p) el('circle', {cx:q[0], cy:q[1], r:(on ? 9 : 7) / s, fill:c, 'fill-opacity':.25, stroke:c, 'stroke-width':w}, G);
+  if (on && m.kind !== 'count') for (const q of p) el('rect', {x:q[0] - 3 / s, y:q[1] - 3 / s, width:6 / s, height:6 / s, fill:'#fff', stroke:c, 'stroke-width':1.5 / s}, G);
+  return G;
+}
+function draw() {
+  if (!cur) return;
+  const gm = $('gm'); gm.innerHTML = '';
+  for (const m of D.measures) if (m.sheet === cur.key && !(draft && draft.id && draft.id === m.id)) shape(m, gm, sel === m.id);
+  if (labelsOn) for (const m of D.measures) if (m.sheet === cur.key && !(draft && draft.id === m.id)) label(m, gm);
+  drawDraft();
+}
+function figures(raw, nr) {
+  const f = [];
+  if (raw.L !== undefined) f.push(`${fig('L', raw.L)} m`);
+  if (raw.A !== undefined) f.push(`${fig('A', raw.A)} m\u00b2`);
+  if (raw.N !== undefined) f.push(`${raw.N} nr`);
+  return f.join(' \u00b7 ') + (nr > 1 && f.length ? ` \u00d7${nr}` : '');
+}
+function label(m, g) {
+  if (!['length', 'area', 'rect', 'count'].includes(m.kind) || !m.points.length) return;
+  const val = m.calc && Object.keys(m.calc.raw).length ? figures(m.calc.raw, m.nr) : 'no scale';
+  const txt = (m.name ? m.name + ' \u00b7 ' : '') + val;
+  let x, y, p = m.points;
+  if (m.kind === 'length') {                       // the middle of its longest side
+    let best = 1; for (let i = 2; i < p.length; i++) if (dist(p[i - 1], p[i]) > dist(p[best - 1], p[best])) best = i;
+    x = (p[best - 1][0] + p[best][0]) / 2; y = (p[best - 1][1] + p[best][1]) / 2 - 8 / s;
+  } else if (m.kind === 'count') { x = p[0][0] + 12 / s; y = p[0][1] - 10 / s; }
+  else { const q = m.kind === 'rect' ? corners(p) : p; x = q.reduce((a, c) => a + c[0], 0) / q.length; y = q.reduce((a, c) => a + c[1], 0) / q.length; }
+  const t = el('text', {x, y, 'font-size':12.5 / s, 'font-family':'Segoe UI,Arial', 'font-weight':700, fill:'#17212b',
+    'text-anchor':m.kind === 'count' ? 'start' : 'middle', 'paint-order':'stroke', stroke:'#fff', 'stroke-width':4 / s,
+    'stroke-linejoin':'round', 'pointer-events':'none'}, g);
+  t.textContent = txt;
+}
+function drawDraft() {
+  updateUndo();
+  const gd = $('gd'); gd.innerHTML = '';
+  if (draft) shape(draft, gd, true);
+  if (tool === 'erase' && eraseHover) {
+    const m = D.measures.find(x => x.id === eraseHover.id);
+    if (m && m.kind === 'count' && eraseHover.idx !== undefined) {
+      const [x, y] = m.points[eraseHover.idx], r = 10 / s;
+      el('circle', {cx:x, cy:y, r, fill:'#e0001b', 'fill-opacity':.2, stroke:'#e0001b', 'stroke-width':2.5 / s}, gd);
+      el('path', {d:`M${x - r * .6},${y - r * .6}L${x + r * .6},${y + r * .6}M${x + r * .6},${y - r * .6}L${x - r * .6},${y + r * .6}`, stroke:'#e0001b', 'stroke-width':2.5 / s}, gd);
+    } else if (m) shape(Object.assign({}, m, {color:'#e0001b'}), gd, true);
+  }
+  if (!pts.length && !mouse) return;
+  const live = mouse ? pts.concat([mouse.p]) : pts;
+  const c = COLOR[tool] || '#1F4E78', w = 2 / s;
+  if (tool === 'count') {
+    /* the count draft itself is drawn above */
+  } else if (TWO[tool] && live.length === 2 && tool !== 'scale' && tool !== 'arrow') {
+    el('polygon', {points:corners(live).map(q => q.join(',')).join(' '), fill:c, 'fill-opacity':tool === 'similar' ? .08 : .18, stroke:c, 'stroke-width':w, 'stroke-dasharray':tool === 'similar' ? `${6 / s},${4 / s}` : 'none'}, gd);
+  } else if (live.length > 1) {
+    const poly = tool === 'area' || tool === 'addroom';
+    el(poly ? 'polygon' : 'polyline', {points:live.map(q => q.join(',')).join(' '), fill:poly ? c : 'none', 'fill-opacity':.18, stroke:c, 'stroke-width':w * 1.3}, gd);
+  }
+  for (const q of pts) if (tool !== 'count') el('circle', {cx:q[0], cy:q[1], r:3 / s, fill:c}, gd);
+  if (mouse && mouse.snapped) el('rect', {x:mouse.p[0] - 5 / s, y:mouse.p[1] - 5 / s, width:10 / s, height:10 / s, fill:'none', stroke:'#e6007e', 'stroke-width':2 / s}, gd);
+}
+
+// ------------------------------------------------------------ toolbar, status
+function toolbar() {
+  let h = '', grp = '';
+  for (const [k, name, key, g] of TOOLS) {
+    if (g !== grp) { if (grp) h += '</div>'; h += '<div class="grp">'; grp = g; }
+    h += `<button class="tb ${tool === k ? 'on' : ''}" onclick="setTool('${k}')" title="${esc(HELP[k])}">${name}<kbd>${key}</kbd></button>`;
+  }
+  h += '</div><div class="grp">';
+  h += `<button class="tb" id="undoBtn" onclick="undo()">&#8630; Undo<kbd>Ctrl+Z</kbd></button></div><div class="grp">`;
+  h += `<button class="tb ${snapOn ? 'on' : ''}" onclick="snapOn=!snapOn;toolbar();status()" title="Snap clicks to the ends of drawn lines">Snap</button>`;
+  h += `<button class="tb ${labelsOn ? 'on' : ''}" onclick="labelsOn=!labelsOn;localSet('ws.labels',labelsOn?'1':'0');toolbar();draw()" title="Write each measurement's figures on the drawing">Labels</button>`;
+  h += `<button class="tb" title="Zoom out" onclick="zoomAt(1/1.4,vp.clientWidth/2,vp.clientHeight/2)">&minus;</button>
+        <span class="tb" id="zl" title="Zoom (100% = whole sheet)" style="min-width:58px;text-align:center;cursor:default">${Math.round(s / fitS * 100)}%</span>
+        <button class="tb" title="Zoom in" onclick="zoomAt(1.4,vp.clientWidth/2,vp.clientHeight/2)">+</button>
+        <button class="tb" onclick="fit()" title="Whole sheet">Fit<kbd>F</kbd></button></div>`;
+  const runs = cur ? D.runs.filter(r => r.drawings.includes(cur.drawing)) : [];
+  h += `<select class="tb" onchange="setCompare(this.value)" title="Overlay this drawing on the same drawing from another run: grey unchanged, red removed, green added">
+        <option value="">Overlay: off</option>${runs.map(r => `<option value="${r.id}" ${compareWith === r.id ? 'selected' : ''}>Overlay rev ${esc(r.rev || '-')} &middot; ${esc(r.when)}</option>`).join('')}</select>`;
+  if (compareWith) h += `<span class="legendc" style="font-size:12px"><span style="background:#b9b9b9"></span>same<span style="background:#dc2828"></span>removed<span style="background:#14a028"></span>added</span>`;
+  h += `<button class="tb" style="margin-left:auto;background:var(--soft);color:var(--blue);font-weight:600" onclick="guide()" title="Step-by-step: how to measure and read the figures">? How to measure</button>`;
+  $('tools').innerHTML = h;
+  updateUndo();
+  vp.className = 'mview ' + (tool === 'pan' ? 't-pan' : 't-draw'); vp.style.cursor = '';
+}
+function setCompare(id) {
+  compareWith = id;
+  $('loading').style.display = 'flex';
+  im.src = id ? `${CFG.base}/compare/${cur.key}.png?with=${id}` : `${CFG.base}/raw/${cur.key}.png`;
+  im.onload = () => { $('loading').style.display = 'none'; };
+  toolbar();
+}
+function setTool(k) {
+  if ((k === 'addtag' || k === 'addroom') && !autoSheet()) return flash('Only on a plan the automatic take-off measured');
+  tool = k; pts = []; mouse = null; eraseHover = null;
+  if (k !== 'pan' && asel) { asel = null; drawSel(); $('edit').style.display = 'none'; }
+  if (k === 'erase' && draft) { draft = null; sel = null; $('edit').style.display = 'none'; draw(); list(); }
+  if (k !== 'count' || !(draft && draft.kind === 'count')) { if (draft && !draft.id && k !== 'pan') { draft = null; $('edit').style.display = 'none'; } }
+  toolbar(); status(); drawDraft();
+}
+function status() {
+  const sc = cur && cur.mm_per_pt ? `1:${Math.round(cur.mm_per_pt * 72 / 25.4)} at print (${cur.mm_per_pt.toFixed(2)} mm per point)` : 'not set';
+  $('status').innerHTML = `<span><b>${esc(TOOLS.find(t => t[0] === tool)[1])}:</b> ${esc(HELP[tool])}</span>
+    <span><b>Scale</b> ${sc}</span><span><b>Snap</b> ${snapOn ? (loadingSnap ? 'loading line ends&hellip;' : 'on') : 'off'}</span>`;
+}
+function scaleBox() {
+  const ok = !!cur.mm_per_pt;
+  $('scalebox').innerHTML = `<h3>${esc(cur.drawing)} &middot; ${esc(cur.title)}</h3>
+   <div style="font-size:13px">${ok ? `Scale <b>1:${Math.round(cur.mm_per_pt * 72 / 25.4)}</b> at print <span class="mute">&middot; ${esc(cur.basis || '')}</span>`
+        : `<span class="bad"><b>No scale yet.</b></span> Lengths and areas need one - counts and notes do not.`}
+   ${cur.scale ? `<br><span class="mute">Title block says ${esc(cur.scale)} (sheets are often plotted to fit, so check it against a grid dimension)</span>` : ''}</div>
+   <div class="acts"><button class="btn light sm" onclick="setTool('scale')">Set by two points</button>
+   <button class="btn light sm" onclick="typeRatio()">Type 1:___</button>
+   ${D.measures && ok && cur.basis && cur.basis.startsWith('set by hand') ? `<button class="btn light sm" onclick="clearScale()">Use automatic</button>` : ''}</div>`;
+}
+async function typeRatio() {
+  const v = prompt('Scale at the printed size, e.g. 100 for 1:100', cur.scale ? cur.scale.replace('1:', '') : '100');
+  if (!v || !(+v > 0)) return;
+  await setScale({key:cur.key, ratio:+v});
+}
+async function clearScale() { await setScale({key:cur.key, clear:true}); }
+async function setScale(body) {
+  const sh = D.sheets.find(x => x.key === body.key);
+  const was = sh.basis && sh.basis.startsWith('set by hand') ? {mm_per_pt:sh.mm_per_pt, basis:sh.basis} : null;
+  scaleSaved(await post(CFG.base + '/api/scale', body));
+  pushUndo(`scale change on ${sh.drawing}`, async () => {
+    if (!cur || cur.key !== body.key) openSheet(body.key);
+    scaleSaved(await post(CFG.base + '/api/scale', {key:body.key, restore:was}));
+  });
+}
+function scaleSaved(r) {
+  const i = D.sheets.findIndex(x => x.key === r.sheet.key); D.sheets[i] = r.sheet; cur = r.sheet; D.measures = r.measures;
+  scaleBox(); status(); list(); totals(); sheetList(); draw();
+}
+
+// ------------------------------------------------------------ mouse
+// scroll zooms round the pointer, in proportion to how far the wheel turns (smooth on a touchpad, ~20% a notch)
+vp.addEventListener('wheel', e => {
+  e.preventDefault();
+  const r = vp.getBoundingClientRect(), d = e.deltaMode === 1 ? e.deltaY * 33 : e.deltaY;
+  zoomAt(Math.exp(-Math.max(-250, Math.min(250, d)) * 0.0018), e.clientX - r.left, e.clientY - r.top);
+}, {passive:false});
+// any button drags the drawing: left in every tool (a click still places a point), middle and right as well
+vp.addEventListener('contextmenu', e => e.preventDefault());
+vp.addEventListener('mousedown', e => {
+  if (e.button > 2) return;
+  suppressClick = false;
+  if (e.button !== 0) e.preventDefault();
+  panning = {x:e.clientX, y:e.clientY, tx, ty, moved:false, target:e.target, free:e.button !== 0 || tool === 'pan' || spaceDown};
+});
+window.addEventListener('mousemove', e => {
+  if (panning) {
+    const dx = e.clientX - panning.x, dy = e.clientY - panning.y;
+    if (!panning.moved && Math.abs(dx) + Math.abs(dy) > 4) { panning.moved = true; vp.classList.add('panning'); $('hud').style.display = 'none'; }
+    if (panning.moved) { tx = panning.tx + dx; ty = panning.ty + dy; apply(); return; }
+    if (panning.free) return;
+  }
+  lastPtr = {x:e.clientX, y:e.clientY, shiftKey:e.shiftKey};
+  if (edgeNear()) startEdge();                  // near an edge while measuring: the sheet scrolls along
+  if (!cur || e.target.closest && !e.target.closest('#vp')) { if (!edgeLoop) $('hud').style.display = 'none'; return; }
+  if (tool === 'pan') return autoHover();
+  hover();
+});
+// the pointer's sheet point, the live preview and the readout beside the pointer
+function hover() {
+  if (!lastPtr || !cur) return;
+  const r = vp.getBoundingClientRect();
+  if (tool === 'erase') {
+    eraseHover = hitTest([(lastPtr.x - r.left - tx) / s, (lastPtr.y - r.top - ty) / s]);
+    vp.style.cursor = eraseHover ? 'pointer' : 'default';
+    drawDraft();
+    const m = eraseHover && D.measures.find(x => x.id === eraseHover.id), hud = $('hud');
+    const txt = !m ? '' : m.kind === 'count' && m.points.length > 1 ? `Click: erase this mark of "${nameOf(m)}"  \u00b7  Shift+click: all ${m.points.length}`
+                                                                       : `Click to erase "${nameOf(m)}"`;
+    hud.style.display = txt ? 'block' : 'none'; hud.textContent = txt;
+    hud.style.left = (lastPtr.x - r.left + 16) + 'px'; hud.style.top = (lastPtr.y - r.top + 14) + 'px';
+    return;
+  }
+  mouse = snap([(lastPtr.x - r.left - tx) / s, (lastPtr.y - r.top - ty) / s], lastPtr);
+  drawDraft();
+  const live = pts.concat([mouse.p]), k = tool === 'similar' || tool === 'cloud' || tool === 'highlight' ? 'rect' : tool === 'addroom' ? 'area' : tool;
+  const txt = tool === 'count' ? `${pts.length} counted`
+    : DBL[tool] ? (pts.length ? `${rawQ(k, live)}  \u00b7  double-click to finish` : 'Double-click to start')
+    : pts.length ? rawQ(k, live) : '';
+  const hud = $('hud');
+  hud.style.display = txt ? 'block' : 'none'; hud.textContent = txt;
+  hud.style.left = Math.min(r.width - 10, Math.max(0, lastPtr.x - r.left + 16)) + 'px';
+  hud.style.top = Math.min(r.height - 10, Math.max(0, lastPtr.y - r.top + 14)) + 'px';
+}
+// edge scrolling while a measurement is under way: within EDGE px of a side (or just past it) the view moves
+// that way, faster the closer the pointer gets, so a long wall can be followed at high zoom without letting go
+const EDGE = 70, EDGE_SPEED = 22;
+let lastPtr = null, edgeLoop = null;
+function edgeVel() {
+  if (!lastPtr || panning || !cur || !pts.length || tool === 'pan' || tool === 'count') return [0, 0];
+  const r = vp.getBoundingClientRect(), x = lastPtr.x - r.left, y = lastPtr.y - r.top;
+  if (x < -60 || y < -60 || x > r.width + 60 || y > r.height + 60) return [0, 0];     // well outside: stop
+  const v = d => d >= EDGE ? 0 : EDGE_SPEED * Math.min(1.5, (EDGE - d) / EDGE);
+  return [v(x) - v(r.width - x), v(y) - v(r.height - y)];
+}
+function edgeNear() { const [vx, vy] = edgeVel(); return vx !== 0 || vy !== 0; }
+function startEdge() { if (!edgeLoop) edgeLoop = requestAnimationFrame(edgeStep); }
+function edgeStep() {
+  const [vx, vy] = edgeVel();
+  if (!vx && !vy) { edgeLoop = null; return; }
+  tx += vx; ty += vy; apply(); hover();
+  edgeLoop = requestAnimationFrame(edgeStep);
+}
+document.addEventListener('mouseleave', () => { lastPtr = null; });
+window.addEventListener('mouseup', e => {
+  if (!panning) return;
+  const p = panning; panning = null; vp.classList.remove('panning');
+  if (p.moved) { suppressClick = true; return; }        // the click that ends a drag is not a point
+  if (tool === 'pan' && e.button === 0) {
+    const g = p.target.closest && p.target.closest('[data-id]');
+    if (g && g.getAttribute('data-id')) select(g.getAttribute('data-id'));
+    else { const h = autoHit(toSheet(e)); if (h) autoForm(h); else if (asel) cancelEdit(); }
+  }
+});
+vp.addEventListener('click', e => {
+  if (suppressClick || tool === 'pan' || spaceDown || !cur) return;
+  if (tool === 'erase') return eraseAt(toSheet(e), e.shiftKey);
+  const p = snap(toSheet(e), e).p;
+  if (DBL[tool]) {                        // measuring tools: clicks only add corners once a double-click has started
+    if (!pts.length || tool === 'rect') return;
+    if (dist(pts[pts.length - 1], p) < 4 / s) return;
+    pts.push(p); drawDraft(); return;
+  }
+  if (tool === 'count') {
+    const i = pts.findIndex(q => dist(q, p) < 9 / s);
+    if (i >= 0) pts.splice(i, 1); else pts.push(p);
+    countDraft(); return;
+  }
+  if (pts.length && dist(pts[pts.length - 1], p) < 0.01) return;        // the second click of a double-click
+  pts.push(p);
+  if (tool === 'note' || tool === 'addtag') return finish();
+  if (TWO[tool] && pts.length === 2) return finish();
+  drawDraft();
+});
+vp.addEventListener('dblclick', e => {
+  if (suppressClick || !cur) return;
+  const r = vp.getBoundingClientRect();
+  if (tool === 'pan') return zoomAt(2, e.clientX - r.left, e.clientY - r.top);
+  if (!DBL[tool]) return;
+  const p = snap(toSheet(e), e).p;
+  if (!pts.length) { pts = [p]; startedAt = performance.now(); drawDraft(); return; }   // double-click starts measuring
+  if (e.detail > 2 || performance.now() - startedAt < 450) return;     // a triple-click is not start-and-stop
+  const q = tool === 'rect' ? [pts[0], p] : dist(pts[pts.length - 1], p) >= 4 / s ? pts.concat([p]) : pts.slice();
+  if (q.length < (tool === 'area' || tool === 'addroom' ? 3 : 2) || (tool === 'rect' && dist(q[0], q[1]) < 4 / s)) return;   // too few points: keep measuring
+  pts = q;
+  finish();                                                         // ...and double-click finishes it
+});
+
+document.addEventListener('keydown', e => {
+  if (/INPUT|TEXTAREA|SELECT/.test(document.activeElement.tagName)) { if (e.key === 'Escape') document.activeElement.blur(); return; }
+  if (e.key === ' ') { spaceDown = true; vp.className = 'mview t-pan'; e.preventDefault(); return; }
+  if (e.key === 'Escape') { if (pts.length) { pts = []; drawDraft(); } else cancelEdit(); return; }
+  if (e.key === 'Enter') { if (tool === 'count') countDraft(true); else finish(); return; }
+  if ((e.ctrlKey || e.metaKey) && (e.key === 'z' || e.key === 'Z')) { e.preventDefault(); undo(); return; }
+  if (e.key === 'Backspace') { e.preventDefault(); pts.pop(); if (tool === 'count') countDraft(); else drawDraft(); return; }
+  if (e.key === 'Delete' && sel) { remove(sel); return; }
+  if (e.key === 'Delete' && asel) { selectedExclude(); return; }
+  if (e.key === 'f' || e.key === 'F') return fit();
+  if (e.key === '+' || e.key === '=') return zoomAt(1.25, vp.clientWidth / 2, vp.clientHeight / 2);
+  if (e.key === '-') return zoomAt(0.8, vp.clientWidth / 2, vp.clientHeight / 2);
+  const t = TOOLS.find(t => t[2].toLowerCase() === e.key.toLowerCase());
+  if (t && !e.ctrlKey && !e.metaKey) setTool(t[0]);
+});
+document.addEventListener('keyup', e => { if (e.key === ' ') { spaceDown = false; toolbar(); } });
+
+// ------------------------------------------------------------ finishing a shape
+function floorsOf(sh) { return sh.floor ? sh.floor.split(',').filter(x => x.trim()).length : 1; }
+function newDraft(kind, points) {
+  return {kind, points, sheet:cur.key, name:'', color:COLOR[kind], floor:cur.floor || '', nr:floorsOf(cur), params:{}, assembly:'', deduct:false, text:''};
+}
+function countDraft(done) {
+  if (!draft || draft.kind !== 'count') draft = newDraft('count', []);
+  draft.points = pts.slice();
+  draw();
+  if (done || $('edit').style.display === 'none') form(); else preview();
+}
+async function finish() {
+  if (!pts.length) return;
+  const p = pts.slice(); pts = []; mouse = null;
+  if (tool === 'length' && p.length < 2) return drawDraft();
+  if ((tool === 'area' || tool === 'addroom') && p.length < 3) return drawDraft();
+  if (tool === 'addroom' || tool === 'addtag') { $('hud').style.display = 'none'; return fixForm(tool === 'addroom' ? 'add_room' : 'add_tag', p); }
+  if (TWO[tool] && p.length < 2) return drawDraft();
+  if (tool === 'scale') {
+    const L = dist(p[0], p[1]);
+    const v = prompt(`Real distance between the two points, in millimetres\n(${L.toFixed(1)} points apart on the sheet)`, '');
+    drawDraft();
+    if (!v || !(+v > 0)) return;
+    await setScale({key:cur.key, p1:p[0], p2:p[1], mm:+v});
+    setTool('pan'); return;
+  }
+  if (tool === 'similar') {
+    const x0 = Math.min(p[0][0], p[1][0]), x1 = Math.max(p[0][0], p[1][0]), y0 = Math.min(p[0][1], p[1][1]), y1 = Math.max(p[0][1], p[1][1]);
+    $('hud').style.display = 'none';
+    return similar([x0, y0, x1, y1], 0.62);
+  }
+  const kind = tool;
+  draft = newDraft(kind, p);
+  if (kind === 'note') draft.text = '';
+  sel = null; draw(); form();
+}
+async function similar(box, th) {
+  $('status').innerHTML = '<b>Looking for every match on the sheet&hellip;</b>';
+  const r = await post(CFG.base + '/api/similar', {key:cur.key, box, threshold:th});
+  draft = newDraft('count', r.points.map(q => [q[0], q[1]]));
+  draft.name = r.label ? `Tag ${r.label}` : 'Symbol';
+  draft.found = {method:r.method, label:r.label, box, th, n:r.points.length};
+  if (/^(L?D|L?W|DW)/i.test(r.label || '')) {            // a door or window tag: offer the matching count assembly
+    const want = /W/i.test(r.label) ? /window/i : /door/i;
+    const a = D.library.find(a => a.measure === 'count' && want.test(a.name));
+    if (a) { draft.assembly = a.id; draft.params = {mark:r.label}; draft.name = `${/W/i.test(r.label) ? 'Window' : 'Door'} ${r.label}`; }
+  }
+  tool = 'count'; pts = draft.points.slice(); toolbar(); status(); draw(); form();
+}
+
+// ------------------------------------------------------------ the form
+const TAKEOFF = {length:1, area:1, rect:1, count:1};
+function asmFor(kind) { const k = kind === 'rect' ? 'area' : kind; return D.library.filter(a => a.measure === k); }
+function form() {
+  const m = draft; if (!m) return;
+  const box = $('edit'); box.style.display = 'block';
+  let h = `<h3>${m.id ? 'Edit' : 'New'} ${esc(KNAME[m.kind])}</h3>${TAKEOFF[m.kind] ? '<div id="pv"></div>' : ''}<div class="frm">`;
+  if (m.found) h += `<p class="hint" style="margin:0 0 6px">${m.found.method === 'text' ? `Found <b>${m.found.n}</b> tags reading "<b>${esc(m.found.label)}</b>" on the sheet's text - exact.`
+      : `Found <b>${m.found.n}</b> look-alikes by image. Check them: click a ring to remove it, click to add a missed one.
+         <br>Match strictness <input type="range" min="0.5" max="0.85" step="0.01" value="${m.found.th}" onchange="similar(draft.found.box, +this.value)" style="vertical-align:middle;width:120px"> ${m.found.th}`}</p>`;
+  if (TAKEOFF[m.kind]) {
+    const as = asmFor(m.kind);
+    h += `<label>Name</label><input type="text" id="f_name" value="${esc(m.name)}" placeholder="e.g. Bedroom 2, corridor wall">`;
+    h += `<label>Assembly (what it bills)</label><select id="f_asm"><option value="">None - measure only, not billed</option>
+          ${as.map(a => `<option value="${a.id}" ${a.id === m.assembly ? 'selected' : ''}>${esc(a.name)}</option>`).join('')}</select>`;
+    const a = D.library.find(a => a.id === m.assembly);
+    if (a && a.params.length) h += '<div class="row" style="flex-wrap:wrap">' + a.params.map(p => `<div style="min-width:120px"><label>${esc(p.label || p.name)} <span class="mute">(${esc(p.name)})</span></label>
+       <input type="${p.type === 'text' ? 'text' : 'number'}" step="any" data-p="${esc(p.name)}" value="${esc(m.params[p.name] ?? p.default ?? '')}"></div>`).join('') + '</div>';
+    h += `<div class="row"><div><label>Floor</label><input type="text" id="f_floor" value="${esc(m.floor)}"></div>
+          <div><label>Times (storeys)</label><input type="number" id="f_nr" min="1" step="1" value="${m.nr || 1}"></div></div>`;
+    if (m.kind !== 'count') h += `<label>Slope <span class="mute">(optional - measured on plan over a slope: ramp, pitched roof)</span></label>
+          <input type="text" id="f_slope" value="${esc(m.slope || '')}" placeholder="flat - or 15, 1:12, 8%">`;
+    if (m.kind !== 'count') h += `<label style="font-weight:500;color:var(--ink);margin-top:8px"><input type="checkbox" id="f_ded" ${m.deduct ? 'checked' : ''}> Deduction (a void or opening to take off)</label>`;
+  } else {
+    h += `<label>${m.kind === 'note' ? 'Note' : 'Comment'}</label><textarea id="f_text" rows="3">${esc(m.text)}</textarea>`;
+  }
+  h += `<div class="row"><div><label>Colour</label><input type="color" id="f_col" value="${m.color || COLOR[m.kind]}" style="width:60px;height:30px;border:0;padding:0"></div></div>`;
+  h += `<div class="acts"><button class="btn sm" onclick="save()">Save</button><button class="btn light sm" onclick="cancelEdit()">Cancel</button>`;
+  if (m.id) h += `${m.kind === 'count' ? `<button class="btn light sm" onclick="editCount()">Add / remove points</button>` : ''}<button class="btn light sm" style="color:var(--bad)" onclick="remove('${m.id}')">Delete</button>`;
+  h += '</div></div>';
+  if (m.sheet_changed) h = `<p class="note" style="font-size:13px">This measurement came from an earlier run and the drawing has changed since. Check it with the Overlay.</p>` + h;
+  box.innerHTML = h;
+  box.querySelectorAll('input,select,textarea').forEach(i => i.addEventListener(i.type === 'range' ? 'x' : 'input', readForm));
+  const fa = $('f_asm'); if (fa) fa.addEventListener('change', () => { readForm(); form(); });
+  preview();
+}
+function readForm() {
+  const m = draft; if (!m) return;
+  const v = id => $(id) ? $(id).value : undefined;
+  if ($('f_name')) m.name = v('f_name');
+  if ($('f_asm')) m.assembly = v('f_asm');
+  if ($('f_floor') !== null) m.floor = v('f_floor') ?? m.floor;
+  if ($('f_nr')) m.nr = Math.max(1, parseInt(v('f_nr')) || 1);
+  if ($('f_ded')) m.deduct = $('f_ded').checked;
+  if ($('f_slope')) m.slope = $('f_slope').value.trim();
+  if ($('f_text')) m.text = v('f_text');
+  if ($('f_col')) m.color = v('f_col');
+  document.querySelectorAll('#edit [data-p]').forEach(i => { m.params[i.dataset.p] = i.type === 'number' ? (i.value === '' ? '' : +i.value) : i.value; });
+  draw(); clearTimeout(readForm.t); readForm.t = setTimeout(preview, 250);
+}
+async function preview() {
+  const m = draft; if (!m || !TAKEOFF[m.kind]) { if ($('pv')) $('pv').innerHTML = ''; return; }
+  const c = await post(CFG.base + '/api/preview', m);
+  if (draft !== m || !$('pv')) return;
+  $('pv').innerHTML = calcHtml(c);
+}
+const WORD = {L:['Length', 'm'], A:['Area', 'm\u00b2'], P:['Perimeter', 'm'], N:['Count', 'nr'],
+              Ap:['Area on plan', 'm\u00b2'], Lp:['Length on plan', 'm'], F:['Slope factor', '']};
+const word = k => (WORD[k] || [k])[0], unitW = k => (WORD[k] || [k, ''])[1];
+// shown to the centimetre (the bill keeps 3 places); a count as it is, a slope factor to 3 places
+const fig = (k, v) => k === 'N' ? String(v) : k === 'F' ? (+v).toFixed(3) : (+v).toFixed(2);
+function calcHtml(c) {
+  let h = '';
+  if (Object.keys(c.raw).length) {
+    const nr = draft && draft.nr > 1 ? draft.nr : 1;
+    h += `<div class="result"><div class="rl">Measured</div><div class="rv">${Object.entries(c.raw).map(([k, v]) =>
+      `${word(k)} <b>${fig(k, v)}</b> ${unitW(k)}`).join(' &nbsp;&middot;&nbsp; ')}</div>
+      ${nr > 1 ? `<div class="rh">on this drawing, once - the bill lines below are multiplied by Times (${nr})</div>` : ''}
+      ${c.outs.length ? '' : '<div class="rh">Choose an assembly below to turn this into bill quantities, or Save it as a plain measurement.</div>'}</div>`;
+  }
+  if (c.problem) h += `<p class="bad" style="font-size:13px;margin:6px 0 0">${esc(c.problem)}</p>`;
+  if (c.outs.length) h += `<table class="q"><tr><th>Bill item</th><th>Formula</th><th class="n">Qty</th></tr>${c.outs.map(o =>
+      `<tr><td>${esc(o.section)} &middot; ${esc(o.item)}<br><small class="mute">POMI ${esc(o.clause)}</small></td><td><code>${esc(o.formula)}</code></td><td class="n"><b>${o.total}</b> ${esc(o.unit)}</td></tr>`).join('')}</table>`;
+  return h;
+}
+async function save() {
+  readForm();
+  const m = Object.assign({}, draft); delete m.calc; delete m.found;
+  if (m.kind === 'count' && !m.points.length) return alert('Nothing counted yet.');
+  const before = m.id ? D.measures.find(x => x.id === m.id) : null;
+  const r = await post(CFG.base + '/api/measure', m);
+  const i = D.measures.findIndex(x => x.id === r.id);
+  if (i >= 0) D.measures[i] = r; else D.measures.push(r);
+  const nm = r.name || r.text || KNAME[r.kind];
+  if (before) pushUndo(`change to "${nm}"`, () => putBack(before));
+  else pushUndo(`new ${KNAME[r.kind].toLowerCase()} "${nm}"`, () => remove(r.id, true));
+  draft = null; pts = []; sel = r.id; $('edit').style.display = 'none';
+  if (tool === 'count' || tool === 'similar') tool = 'pan';
+  toolbar(); status(); draw(); list(); totals(); sheetList();
+  flash(`Saved: ${nm}${Object.keys(r.calc.raw).length ? ' \u00b7 ' + figures(r.calc.raw, r.nr) : ''}`);
+}
+function cancelEdit() { draft = null; pts = []; sel = null; asel = null; drawSel(); $('edit').style.display = 'none'; if (tool === 'count') setTool('count'); draw(); list(); }
+async function remove(id, undoing) {
+  const m = D.measures.find(x => x.id === id); if (!m) return;
+  if (!undoing && !confirm(`Delete "${m.name || m.text || KNAME[m.kind]}"?`)) return;
+  await j(`${CFG.base}/api/measure/${id}`, {method:'DELETE'});
+  D.measures = D.measures.filter(x => x.id !== id); draft = null; sel = null; $('edit').style.display = 'none';
+  if (!undoing) pushUndo(`delete of "${m.name || m.text || KNAME[m.kind]}"`, () => putBack(m));
+  draw(); list(); totals(); sheetList();
+}
+// ------------------------------------------------------------ eraser
+const nameOf = m => m.name || m.text || KNAME[m.kind];
+function segDist(p, a, b) {
+  const dx = b[0] - a[0], dy = b[1] - a[1], L2 = dx * dx + dy * dy || 1e-9;
+  const t = Math.max(0, Math.min(1, ((p[0] - a[0]) * dx + (p[1] - a[1]) * dy) / L2));
+  return Math.hypot(a[0] + t * dx - p[0], a[1] + t * dy - p[1]);
+}
+function inPoly(p, q) {
+  let inside = false;
+  for (let i = 0, k = q.length - 1; i < q.length; k = i++)
+    if ((q[i][1] > p[1]) !== (q[k][1] > p[1]) && p[0] < (q[k][0] - q[i][0]) * (p[1] - q[i][1]) / (q[k][1] - q[i][1]) + q[i][0]) inside = !inside;
+  return inside;
+}
+// what is under the pointer on this sheet: the nearest line, edge or mark within a few screen pixels; the inside
+// of an area counts too, but anything drawn on top of it (a mark, a line) wins
+function hitTest(p) {
+  const tol = 8 / s; let best = null;
+  const take = (m, d, idx) => { if (d <= tol && (!best || d <= best.d)) best = {id:m.id, idx, d}; };
+  for (const m of D.measures) {
+    if (m.sheet !== cur.key || !m.points.length) continue;
+    const q = m.points;
+    if (m.kind === 'count') q.forEach((c, i) => take(m, Math.max(0, dist(c, p) - 7 / s), i));
+    else if (m.kind === 'note') take(m, Math.max(0, dist(q[0], p) - 7 / s));
+    else if (m.kind === 'length' || m.kind === 'arrow') { for (let i = 1; i < q.length; i++) take(m, segDist(p, q[i - 1], q[i])); }
+    else {
+      const poly = m.kind === 'area' ? q : corners(q); let d = Infinity;
+      for (let i = 0; i < poly.length; i++) d = Math.min(d, segDist(p, poly[i], poly[(i + 1) % poly.length]));
+      if (poly.length > 2 && inPoly(p, poly)) d = Math.min(d, tol * 0.9);
+      take(m, d);
+    }
+  }
+  return best;
+}
+async function eraseAt(p, all) {
+  const h = hitTest(p);
+  if (!h) return flash('Nothing here to erase');
+  const m = D.measures.find(x => x.id === h.id), nm = nameOf(m);
+  if (m.kind === 'count' && h.idx !== undefined && !all && m.points.length > 1) {
+    const before = JSON.parse(JSON.stringify(m));
+    const upd = Object.assign({}, m, {points:m.points.filter((_, i) => i !== h.idx)}); delete upd.calc;
+    const r = await post(CFG.base + '/api/measure', upd);
+    D.measures[D.measures.findIndex(x => x.id === r.id)] = r;
+    pushUndo(`erase of one mark from "${nm}"`, () => putBack(before));
+  } else {
+    await remove(m.id, true);
+    pushUndo(`erase of "${nm}"`, () => putBack(m));
+  }
+  draw(); list(); totals(); sheetList(); hover();
+}
+
+// ------------------------------------------------------------ undo
+// While a shape is being drawn, Undo takes back its last point (or count mark). Otherwise it takes back the last
+// saved change - a new measurement, an edit, a delete or a scale - most recent first, on whichever sheet it was.
+const UNDO = [];
+function pushUndo(what, fn) { UNDO.push({what, fn}); if (UNDO.length > 100) UNDO.shift(); updateUndo(); }
+function undoWhat() {
+  if (pts.length) return tool === 'count' ? 'the last count mark' : pts.length === 1 ? 'the start of this measurement' : 'the last point';
+  return UNDO.length ? UNDO[UNDO.length - 1].what : '';
+}
+function updateUndo() {
+  const b = $('undoBtn'); if (!b) return;
+  const w = undoWhat(); b.disabled = !w; b.style.opacity = w ? 1 : .45;
+  b.title = w ? `Undo ${w} (Ctrl+Z)` : 'Nothing to undo';
+}
+async function undo() {
+  if (pts.length) {
+    pts.pop();
+    if (tool === 'count') countDraft(); else { drawDraft(); hover(); }
+    return;
+  }
+  const u = UNDO.pop(); if (!u) return;
+  try { await u.fn(); } catch (e) { alert('Could not undo: ' + e.message); }
+  flash(`Undone: ${u.what}`);
+  updateUndo();
+}
+async function putBack(m) {
+  const back = Object.assign({}, m); delete back.calc;
+  const r = await post(CFG.base + '/api/measure', back);
+  const i = D.measures.findIndex(x => x.id === r.id);
+  if (i >= 0) D.measures[i] = r; else D.measures.push(r);
+  if (!cur || cur.key !== r.sheet) openSheet(r.sheet);
+  draft = null; sel = r.id; $('edit').style.display = 'none';
+  draw(); list(); totals(); sheetList();
+}
+function flash(t) {
+  const hud = $('hud'); hud.textContent = t; hud.style.display = 'block';
+  hud.style.left = '12px'; hud.style.top = '12px';
+  clearTimeout(flash.t); flash.t = setTimeout(() => { if (hud.textContent === t) hud.style.display = 'none'; }, 1800);
+}
+function select(id) {
+  const m = D.measures.find(x => x.id === id); if (!m) return;
+  tool = 'pan'; pts = []; asel = null; drawSel(); toolbar(); status();
+  sel = id; draft = JSON.parse(JSON.stringify(m)); delete draft.calc; draft.params = draft.params || {};
+  draw(); list(); form();
+}
+function editCount() { tool = 'count'; pts = draft.points.slice(); toolbar(); status(); draw(); drawDraft(); }
+
+
+// ------------------------------------------------------------ the automatic take-off: what each bill line was measured from
+// Every wall piece, room and tag the automatic take-off measured on this plan is drawn in its trade colour. Pointing at
+// one names the bill items it feeds; clicking it opens it to correct: a wall given its thickness or excluded, a room
+// renamed or excluded, a tag excluded. Add tag / Add room put in what the drawing leaves out. The server measures again
+// by the same rules after every correction and sends this plan back.
+const TRADE = {D:[192, 112, 58], G:[176, 145, 58], H:[63, 158, 140], J:[46, 125, 91]}, LADDER = [1, .72, 1.28, .55, 1.5, .85];
+const RED = '#e0001b', GREY = '#8d949b', PIN = '#e67e00', SEL = '#e6007e', NSS = 'non-scaling-stroke';
+function trade(sec, n) {
+  const b = TRADE[sec] || [127, 127, 127], k = LADDER[(n || 0) % 6];
+  return '#' + b.map(v => Math.round(Math.min(255, v * k)).toString(16).padStart(2, '0')).join('');
+}
+let A = null, AX = null, autoOn = localGet('ws.auto') !== 'off', hiItem = CFG.item || '', asel = null, fixName = '', fixMark = '';
+let imgReady = false;
+const pairs = f => { const o = []; for (let i = 0; i < f.length; i += 2) o.push([f[i], f[i + 1]]); return o; };
+const ringsPath = r => r.pts.map(q => 'M' + q.map(p => p.join(',')).join('L') + 'Z').join('');
+const fmt = v => (+v || 0).toLocaleString(undefined, {maximumFractionDigits:2});
+const short = t => t.length > 50 ? t.slice(0, 48) + '\u2026' : t;
+const itemName = it => (it.uhead ? it.uhead + ': ' : '') + it.description;
+const autoSheet = () => A && A.available && A.sheet && A.sheet.overlay ? A.sheet : null;
+
+async function loadAuto(key) {
+  A = null; AX = null; asel = null; drawAuto(); drawSel(); autoBox(); fixBox();
+  let r;
+  try { r = await j(`${CFG.base}/api/auto/${encodeURIComponent(key)}`); } catch (e) { r = {available:false, reason:e.message}; }
+  if (!cur || cur.key !== key) return;
+  setAuto(r);
+  if (hiItem && imgReady) zoomToItem(hiItem);
+}
+function setAuto(r) {
+  A = r; AX = {walls:new Map(), rooms:new Map(), tags:new Map(), zones:new Map(), classes:new Map(), feeds:new Map()};
+  const S = A.available && A.sheet;
+  if (S) {
+    S.walls.forEach(w => AX.walls.set(w[0], w));
+    S.rooms.forEach(x => { x.pts = x.poly.map(pairs); AX.rooms.set(x.id, x); });
+    S.tags.forEach(t => AX.tags.set(t[0], t));
+    S.zones.forEach(z => { z.pts = z.poly.map(pairs); AX.zones.set(z.id, z); });
+    S.classes.forEach(c => AX.classes.set(c.id, c));
+    S.ghosts.rooms.forEach(x => { x.pts = x.poly.map(pairs); });
+    S.ghosts.zones.forEach(z => { z.pts = z.poly.map(pairs); });
+  }
+  const shade = {};
+  for (const it of A.items || []) {
+    it.ids = new Set(); it.lines.forEach(l => l.shapes.forEach(x => it.ids.add(x)));
+    if (!it.ids.size && !it.here) continue;
+    shade[it.section] = (shade[it.section] ?? -1) + 1;
+    it.colour = it.section === 'H' ? (it.open ? RED : trade('H')) : trade(it.section, shade[it.section]);
+    for (const x of it.ids) { if (!AX.feeds.has(x)) AX.feeds.set(x, []); AX.feeds.get(x).push(it); }
+  }
+  drawAuto(); drawSel(); autoBox(); fixBox();
+}
+const feedsOf = id => (AX && AX.feeds.get(id)) || [];
+function colourOf(id, sec) { const f = feedsOf(id), it = f.find(i => i.section === sec) || f[0]; return it ? it.colour : GREY; }
+const itemOf = key => key && A && A.items ? A.items.find(i => i.key === key) : null;
+const corrById = cid => (A && A.corrections || []).find(c => c.id === cid) || {};
+const markOf = k => ((A && A.marks || []).find(m => m.key === k) || {mark:k}).mark;
+function hiSet() {
+  const S = autoSheet(); if (!hiItem || !S) return null;
+  if (hiItem === '__unbilled') return new Set(S.walls.filter(w => !feedsOf(w[0]).length).map(w => w[0]));
+  const it = itemOf(hiItem); return it ? it.ids : new Set();
+}
+
+function drawAuto() {
+  const g = $('ga'); g.innerHTML = '';
+  const S = autoSheet(); if (!autoOn || !S) return;
+  const hs = hiSet(), k = S.mm_per_pt, dim = id => hs && !hs.has(id);
+  for (const z of S.zones) {
+    const c = AX.classes.get(z.cls), col = c ? c.colour : GREY, off = dim(z.id), billed = feedsOf(z.id).length;
+    el('path', {d:ringsPath(z), fill:col, 'fill-opacity':off ? .05 : hs ? .55 : .3, stroke:billed ? '#1b2733' : col,
+      'stroke-opacity':off ? .15 : .9, 'stroke-width':hs && !off ? 2.2 : 1.2, 'vector-effect':NSS,
+      'stroke-dasharray':billed ? 'none' : '5,3'}, g);
+  }
+  for (const r of S.rooms) {
+    const c = colourOf(r.id, 'J'), off = dim(r.id);
+    el('path', {d:ringsPath(r), fill:c, 'fill-opacity':off ? .03 : hs ? .4 : .15, stroke:c, 'stroke-opacity':off ? .12 : .75,
+      'stroke-width':hs && !off ? 2 : 1, 'vector-effect':NSS, 'stroke-dasharray':r.hand === 'drawn' ? '6,3' : 'none'}, g);
+  }
+  for (const w of S.walls) {
+    const unbilled = !feedsOf(w[0]).length;
+    el('line', {x1:w[1], y1:w[2], x2:w[3], y2:w[4], stroke:unbilled ? GREY : colourOf(w[0], 'D'),
+      'stroke-width':Math.max(2, (w[6] || 100) / k), 'stroke-opacity':dim(w[0]) ? .08 : unbilled ? .95 : .72,
+      'stroke-dasharray':unbilled ? '4,2' : 'none'}, g);
+  }
+  for (const t of S.tags) {
+    const c = colourOf(t[0], 'H'), off = dim(t[0]);
+    el('circle', {cx:t[2], cy:t[3], r:7, fill:c, 'fill-opacity':off ? 0 : .12, stroke:c, 'stroke-opacity':off ? .15 : 1,
+      'stroke-width':hs && !off ? 3 : 1.6, 'vector-effect':NSS, 'stroke-dasharray':t[4] ? '4,2' : 'none'}, g);
+  }
+  // what a correction took out, in faint red so it can be put back; and the room labels the take-off could not measure
+  const G = S.ghosts;
+  for (const w of G.walls) el('line', {x1:w[1], y1:w[2], x2:w[3], y2:w[4], stroke:RED, 'stroke-width':1.5, 'vector-effect':NSS, 'stroke-dasharray':'4,3'}, g);
+  for (const r of G.rooms) el('path', {d:ringsPath(r), fill:'none', stroke:RED, 'stroke-width':1.5, 'vector-effect':NSS, 'stroke-dasharray':'5,3'}, g);
+  for (const t of G.tags) el('path', {d:`M${t[2] - 6},${t[3] - 6}L${t[2] + 6},${t[3] + 6}M${t[2] + 6},${t[3] - 6}L${t[2] - 6},${t[3] + 6}`, stroke:RED, 'stroke-width':2, 'vector-effect':NSS}, g);
+  for (const z of G.zones) el('path', {d:ringsPath(z), fill:'none', stroke:RED, 'stroke-width':1.5, 'vector-effect':NSS, 'stroke-dasharray':'5,3'}, g);
+  for (const [, labels] of S.problems) for (const [, x, y] of labels) {
+    el('circle', {cx:x, cy:y, r:9, fill:PIN, 'fill-opacity':.22, stroke:PIN, 'stroke-width':2, 'vector-effect':NSS}, g);
+    el('text', {x, y:y + 3.8, 'text-anchor':'middle', 'font-size':11, 'font-weight':700, fill:PIN, 'font-family':'Segoe UI,Arial'}, g).textContent = '?';
+  }
+}
+function ghostOf(h) {
+  const G = A.sheet.ghosts;
+  if (h.kind === 'gwall') { const w = G.walls.find(x => x[0] === h.id); return w && {cid:w[8]}; }
+  if (h.kind === 'groom') { const r = G.rooms.find(x => x.id === h.id); return r && {cid:r.cid}; }
+  if (h.kind === 'gzone') { const z = G.zones.find(x => x.id === h.id); return z && {cid:z.cid}; }
+  const t = G.tags.find(x => x[0] === h.id); return t && {cid:t[4]};
+}
+function drawSel() {
+  const g = $('gs'); g.innerHTML = '';
+  const S = autoSheet(); if (!asel || !S) return;
+  const h = asel, G = S.ghosts;
+  const w = h.kind === 'wall' ? AX.walls.get(h.id) : h.kind === 'gwall' ? G.walls.find(x => x[0] === h.id) : null;
+  const r = h.kind === 'room' ? AX.rooms.get(h.id) : h.kind === 'groom' ? G.rooms.find(x => x.id === h.id) : null;
+  const t = h.kind === 'tag' ? AX.tags.get(h.id) : h.kind === 'gtag' ? G.tags.find(x => x[0] === h.id) : null;
+  const z = h.kind === 'zone' ? AX.zones.get(h.id) : h.kind === 'gzone' ? G.zones.find(x => x.id === h.id) : null;
+  if (z) el('path', {d:ringsPath(z), fill:SEL, 'fill-opacity':.15, stroke:SEL, 'stroke-width':3, 'vector-effect':NSS}, g);
+  if (w) el('line', {x1:w[1], y1:w[2], x2:w[3], y2:w[4], stroke:SEL, 'stroke-width':5, 'stroke-opacity':.8, 'vector-effect':NSS}, g);
+  if (r) el('path', {d:ringsPath(r), fill:SEL, 'fill-opacity':.12, stroke:SEL, 'stroke-width':3, 'vector-effect':NSS}, g);
+  if (t) el('circle', {cx:t[2], cy:t[3], r:10, fill:'none', stroke:SEL, 'stroke-width':3, 'vector-effect':NSS}, g);
+  if (h.kind === 'problem') el('circle', {cx:h.x, cy:h.y, r:13, fill:'none', stroke:SEL, 'stroke-width':3, 'vector-effect':NSS}, g);
+}
+
+// what the pointer is over: a "not measured" label, then tags, then walls, then the smallest room around it
+function autoHit(p) {
+  const S = autoOn && autoSheet(); if (!S) return null;
+  const tol = 6 / s;
+  for (const [text, labels] of S.problems) for (const [name, x, y] of labels) if (dist([x, y], p) <= 9 + tol) return {kind:'problem', text, name, x, y};
+  let best = null, bd = Infinity;
+  const take = (h, d, lim) => { if (d <= lim && d < bd) { best = h; bd = d; } };
+  for (const t of S.tags) take({kind:'tag', id:t[0]}, dist([t[2], t[3]], p), 7 + tol);
+  for (const t of S.ghosts.tags) take({kind:'gtag', id:t[0]}, dist([t[2], t[3]], p), 7 + tol);
+  if (best) return best;
+  for (const w of S.walls) take({kind:'wall', id:w[0]}, segDist(p, [w[1], w[2]], [w[3], w[4]]), (w[6] || 100) / S.mm_per_pt / 2 + tol);
+  for (const w of S.ghosts.walls) take({kind:'gwall', id:w[0]}, segDist(p, [w[1], w[2]], [w[3], w[4]]), tol);
+  if (best) return best;
+  let area = Infinity;
+  for (const r of S.rooms) if (r.area < area && r.pts.some(q => inPoly(p, q))) { best = {kind:'room', id:r.id}; area = r.area; }
+  for (const r of S.ghosts.rooms) if (r.area < area && r.pts.some(q => inPoly(p, q))) { best = {kind:'groom', id:r.id}; area = r.area; }
+  for (const z of S.zones) if (z.area < area && z.pts.some(q => inPoly(p, q))) { best = {kind:'zone', id:z.id}; area = z.area; }
+  for (const z of S.ghosts.zones) if (z.area < area && z.pts.some(q => inPoly(p, q))) { best = {kind:'gzone', id:z.id}; area = z.area; }
+  return best;
+}
+function autoLabel(h) {
+  if (!h) return '';
+  const codes = id => feedsOf(id).map(i => i.code).join(', ') || 'not billed';
+  if (h.kind === 'problem') return `${h.name}: not measured - click to draw it`;
+  if (h.kind === 'wall') { const w = AX.walls.get(h.id); return `Wall ${w[5] ? w[5] + ' mm' : '(no block size)'} \u00b7 ${w[7].toFixed(2)} m \u00b7 ${codes(h.id)}`; }
+  if (h.kind === 'room') { const r = AX.rooms.get(h.id); return `${r.name}${r.slope ? ' (sloping ' + r.slope + ')' : ''} \u00b7 ${r.area.toFixed(2)} m\u00b2 \u00b7 ${codes(h.id)}`; }
+  if (h.kind === 'zone') { const z = AX.zones.get(h.id), c = AX.classes.get(z.cls); return `${c.label} ${finishName(c)} \u00b7 ${z.area.toFixed(2)} m\u00b2 \u00b7 ${feedsOf(h.id).length ? codes(h.id) : 'not billed'}`; }
+  if (h.kind === 'tag') { const t = AX.tags.get(h.id), c = A.counts[t[1]]; return `Tag ${markOf(t[1])}${c ? ' \u00b7 count ' + c.status : ''} \u00b7 ${codes(h.id)}`; }
+  return 'Excluded by hand - click to put it back';
+}
+function autoHover() {
+  const hud = $('hud');
+  if (!lastPtr || spaceDown || !cur) { hud.style.display = 'none'; return; }
+  const r = vp.getBoundingClientRect(), h = autoHit([(lastPtr.x - r.left - tx) / s, (lastPtr.y - r.top - ty) / s]), t = autoLabel(h);
+  vp.style.cursor = h ? 'pointer' : '';
+  hud.style.display = t ? 'block' : 'none'; hud.textContent = t;
+  hud.style.left = Math.min(r.width - 10, Math.max(0, lastPtr.x - r.left + 16)) + 'px';
+  hud.style.top = Math.min(r.height - 10, Math.max(0, lastPtr.y - r.top + 14)) + 'px';
+}
+
+// ---- the panel for a selected shape: what it feeds, and how to correct it
+function feedsHtml(id) {
+  const f = feedsOf(id);
+  if (!f.length) return '<p class="warn" style="font-size:13px;margin:6px 0">Not in the bill.</p>';
+  return `<table class="q"><tr><th>In the bill</th><th class="n">This sheet</th></tr>${f.map(it => `<tr><td><a href="#" onclick="hilite('${esc(it.key)}');return false"><b>${esc(it.code)}</b></a> ${esc(short(itemName(it)))}${it.open ? ' <span class="bad">OPEN</span>' : ''}
+    ${it.lines.filter(l => l.shapes.includes(id)).slice(0, 2).map(l => `<br><small class="mute">${esc(l.level)} ${esc(l.desc.slice(0, 80))}</small>`).join('')}</td>
+    <td class="n">${it.section === 'H' ? it.ids.size + ' tag(s)' : fmt(it.here) + ' ' + esc(it.unit)}</td></tr>`).join('')}</table>`;
+}
+function corrNote(cid) {
+  const c = corrById(cid);
+  return c.id ? `<p class="note" style="font-size:13px;margin:8px 0">Corrected by hand: ${esc(c.detail)}${c.note ? ` (${esc(c.note)})` : ''}
+    <br><a href="#" onclick="uncorrect('${c.id}');return false">Undo this correction</a></p>` : '';
+}
+function countHtml(key) {
+  const c = A.counts[key]; if (!c) return '';
+  return `<p style="font-size:13px;margin:0">Schedule ${c.schedule ?? '-'} &middot; plans ${c.plan_total} &middot; <b class="${c.status === 'OPEN' ? 'bad' : ''}">${c.status}</b>
+    <br><small class="mute">${esc(c.where)}</small></p>`;
+}
+const WHY = `<div class="frm"><label>Reason (optional)</label><input type="text" id="f_why" placeholder="e.g. drafting overlap, duplicate tag"></div>`;
+function autoForm(h) {
+  asel = h; draft = null; sel = null; pts = [];
+  draw(); list(); drawSel();
+  const box = $('edit'); box.style.display = 'block';
+  let html = '';
+  if (h.kind === 'wall') {
+    const w = AX.walls.get(h.id);
+    html = `<h3>Wall piece <span class="mute" style="font-weight:500">${esc(w[0])}</span></h3>
+      <p style="font-size:13px;margin:0">${w[7].toFixed(2)} m long, ${w[6]} mm thick on the drawing - ${w[5] ? `billed as <b>${w[5]} mm</b>` : '<b class="warn">no block size, so not billed</b>'}</p>
+      ${feedsHtml(w[0])}${corrNote(w[8])}
+      <label style="font-size:12.5px;font-weight:600;color:var(--mute)">Bill it as</label>
+      <div class="acts" style="margin-top:3px">${A.blocks.map(b => `<button class="btn ${w[5] === b ? '' : 'light'} sm" onclick="correct({action:'thickness',shape:'${w[0]}',value:${b}})">${b} mm</button>`).join('')}
+      <button class="btn light sm" style="color:var(--bad)" onclick="correct({action:'exclude',shape:'${w[0]}'})">Not a wall - exclude</button></div>${WHY}`;
+  } else if (h.kind === 'room') {
+    const r = AX.rooms.get(h.id);
+    html = `<h3>${esc(r.name)}</h3><p style="font-size:13px;margin:0">${r.area.toFixed(2)} m\u00b2, perimeter ${r.per.toFixed(2)} m${r.hand ? ` <span class="mute">(${esc(r.hand === 'drawn' ? 'drawn by hand' : r.hand)})</span>` : ''}</p>${feedsHtml(r.id)}`;
+    if (r.hand === 'drawn') html += `<div class="acts"><button class="btn light sm" style="color:var(--bad)" onclick="uncorrect('${r.cid}')">Remove this room</button></div>`;
+    html += slopeHtml(r);
+    if (r.hand !== 'drawn') html += `${corrNote(r.cid)}<div class="frm"><label>Rename it (it moves to that room's finishes)</label><div class="row"><div><select id="f_rn">${A.room_types.map(n => `<option ${n === r.name ? 'selected' : ''}>${esc(n)}</option>`).join('')}</select></div>
+      <div style="flex:none"><button class="btn sm" onclick="correct({action:'rename',shape:'${r.id}',value:$('f_rn').value})">Rename</button></div></div></div>
+      <div class="acts"><button class="btn light sm" style="color:var(--bad)" onclick="correct({action:'exclude',shape:'${r.id}'})">Not a room - exclude</button></div>${WHY}`;
+  } else if (h.kind === 'tag') {
+    const t = AX.tags.get(h.id);
+    html = `<h3>Tag ${esc(markOf(t[1]))}</h3>${countHtml(t[1])}${feedsHtml(t[0])}`;
+    html += t[4] ? `<p class="hint">Added by hand.</p><div class="acts"><button class="btn light sm" style="color:var(--bad)" onclick="uncorrect('${t[4]}')">Remove this tag</button></div>`
+      : `<div class="acts"><button class="btn light sm" style="color:var(--bad)" onclick="correct({action:'exclude',shape:'${t[0]}'})">Exclude - a duplicate, or not an opening</button></div>${WHY}`;
+  } else if (h.kind === 'zone') {
+    const z = AX.zones.get(h.id), c = AX.classes.get(z.cls);
+    html = `<h3><span class="sw" style="display:inline-block;width:12px;height:12px;border-radius:3px;background:${c.colour};vertical-align:-1px"></span>
+      ${esc(c.label)} &middot; ${esc(finishName(c))}</h3>
+      <p style="font-size:13px;margin:0">This area ${z.area.toFixed(2)} m\u00b2 &middot; the colour in all ${c.n} area(s) ${fmt(c.area)} m\u00b2 on this elevation.
+      <br><span class="mute">${c.kind === 'glazing' ? 'Glazing: doors and windows are billed from the schedules, not here.' : c.kind === 'unknown' ? 'No callout names this colour, so it is not billed.' : c.kind === 'other' ? 'Not a wall finish, so not billed.' : 'Measured as drawn - a projected area.'}
+      ${c.source && c.kind !== 'unknown' ? ` Named ${c.source === 'READ (VISUAL)' ? 'from the callouts (read visually)' : 'by hand'}.` : c.source ? ' The callouts were read; none points into this colour.' : ''}</span></p>${feedsHtml(z.id)}${corrNote(c.cid)}
+      <div class="frm"><label>What this colour is ${c.kind === 'unknown' ? '<span class="bad">(not named)</span>' : ''}</label>
+      <div class="row"><div style="flex:none;min-width:120px"><select id="f_fk">${['wall finish', 'glazing', 'other'].map(k => `<option ${k === c.kind ? 'selected' : ''}>${k}</option>`).join('')}</select></div>
+      <div><input type="text" id="f_fn" value="${esc(c.finish)}" placeholder="e.g. brick cladding as per specialist's details"></div></div>
+      <div class="acts"><button class="btn sm" onclick="correct({action:'finish',shape:'${c.id}',value:{kind:$('f_fk').value,finish:$('f_fn').value}})">Name the colour</button>
+      <button class="btn light sm" style="color:var(--bad)" onclick="correct({action:'exclude',shape:'${z.id}'})">Not a finish - exclude this area</button></div></div>${WHY}`;
+  } else if (h.kind === 'problem') {
+    html = `<h3>${esc(h.name)} - not measured</h3><p style="font-size:13px;margin:0 0 6px">${esc(h.text)}</p>
+      <p class="hint">Draw round the room to measure it by hand. The gap closes once every label it is about has a room drawn round it.</p>
+      <div class="acts"><button class="btn sm" onclick="startRoom('${esc(h.name)}')">Draw the ${esc(h.name.toLowerCase())}</button></div>`;
+  } else {
+    const c = corrById((ghostOf(h) || {}).cid);
+    html = `<h3>Excluded by hand</h3><p style="font-size:13px;margin:0">${esc(c.detail || '')}</p>${c.note ? `<p class="hint">${esc(c.note)}</p>` : ''}
+      <div class="acts"><button class="btn sm" onclick="uncorrect('${c.id}')">Put it back</button></div>`;
+  }
+  box.innerHTML = html + `<div class="acts"><button class="btn light sm" onclick="cancelEdit()">Close</button></div>`;
+}
+
+// ---- making and undoing corrections (each one goes on the Undo list)
+async function correct(body) {
+  body.sheet = cur.key;
+  if (body.note === undefined) body.note = ($('f_why') && $('f_why').value) || '';
+  const r = await post(CFG.base + '/api/correct', body);
+  if (!r.ok) return alert('Not corrected: ' + (r.problems || []).join('; '));
+  const c = r.correction;
+  pushUndo(`correction: ${c.detail}`, () => uncorrect(c.id, true));
+  afterFix(r, c.sheet);
+  flash(`Corrected: ${c.detail}`);
+}
+async function uncorrect(cid, undoing) {
+  const r = await j(`${CFG.base}/api/correct/${cid}`, {method:'DELETE'});
+  if (!undoing) pushUndo(`removal of a correction (${r.removed.detail})`, () => recorrect(r.removed));
+  afterFix(r, r.removed.sheet);
+}
+async function recorrect(c) {
+  const r = await post(CFG.base + '/api/correct', Object.assign({}, c));
+  if (!r.ok) throw new Error((r.problems || []).join('; '));
+  afterFix(r, c.sheet);
+}
+function afterFix(r, key) {
+  D.fixes = D.fixes || {};
+  D.fixes[key] = (r.corrections || []).filter(x => x.sheet === key).length;
+  if (!cur || cur.key !== key) { openSheet(key); return; }
+  const was = asel;
+  setAuto(r);
+  const h = was && refind(was);
+  if (h) autoForm(h); else if (was) cancelEdit();
+  sheetList();
+}
+function refind(h) {
+  const S = autoSheet(); if (!S) return null;
+  const G = S.ghosts, base = h.kind.replace(/^g/, '');
+  if (base === 'wall') return AX.walls.has(h.id) ? {kind:'wall', id:h.id} : G.walls.some(x => x[0] === h.id) ? {kind:'gwall', id:h.id} : null;
+  if (base === 'room') return AX.rooms.has(h.id) ? {kind:'room', id:h.id} : G.rooms.some(x => x.id === h.id) ? {kind:'groom', id:h.id} : null;
+  if (base === 'tag') return AX.tags.has(h.id) ? {kind:'tag', id:h.id} : G.tags.some(x => x[0] === h.id) ? {kind:'gtag', id:h.id} : null;
+  if (base === 'zone') return AX.zones.has(h.id) ? {kind:'zone', id:h.id} : G.zones.some(x => x.id === h.id) ? {kind:'gzone', id:h.id} : null;
+  return null;
+}
+function selectedExclude() {           // Delete: exclude the selected shape, or take away one added by hand
+  const h = asel;
+  if (h.kind !== 'wall' && h.kind !== 'room' && h.kind !== 'tag' && h.kind !== 'zone') return;
+  const r = h.kind === 'room' && AX.rooms.get(h.id);
+  const added = r ? (r.hand === 'drawn' ? r.cid : '') : h.kind === 'tag' ? AX.tags.get(h.id)[4] : '';
+  return added ? uncorrect(added) : correct({action:'exclude', shape:h.id});
+}
+
+function finishName(c) {
+  return c.kind === 'wall finish' ? (c.finish || 'wall finish') : c.kind === 'glazing' ? 'glazing' : c.kind === 'other' ? (c.finish || 'other') : 'not named';
+}
+function slopeHtml(r) {
+  const c = corrById(r.scid);
+  return `<div class="frm"><label>Slope (a ramp or pitched roof: floor finish and waterproofing are measured on the slope)</label>
+    <div class="row"><div><input type="text" id="f_sl" value="${esc(c.value || '')}" placeholder="flat - or 15, 1:12, 8%"></div>
+    <div style="flex:none"><button class="btn light sm" onclick="setSlope('${r.id}')">Set slope</button></div></div>
+    ${r.slope ? `<p class="hint" style="margin:4px 0 0">Sloping ${esc(r.slope)}: measured ${(r.area * r.slope_f).toFixed(2)} m\u00b2 on the slope (${r.area.toFixed(2)} on plan \u00d7 ${r.slope_f.toFixed(4)}).
+      <a href="#" onclick="uncorrect('${r.scid}');return false">Make it flat</a></p>` : ''}</div>`;
+}
+function setSlope(id) {
+  const v = $('f_sl').value.trim(), r = AX.rooms.get(id);
+  if (!v) return r.scid ? uncorrect(r.scid) : null;
+  return correct({action:'slope', shape:id, value:v});
+}
+
+// ---- Add tag / Add room: what the drawing leaves out
+function startRoom(name) { fixName = name; setTool('addroom'); flash(`Double-click to start the ${name.toLowerCase()}, click at each corner, double-click to finish`); }
+function fixForm(action, p) {
+  asel = null; drawSel();
+  draft = {kind:action === 'add_room' ? 'area' : 'count', points:p, color:COLOR[action === 'add_room' ? 'addroom' : 'addtag'], sheet:cur.key, fix:action};
+  draw();
+  const box = $('edit'); box.style.display = 'block';
+  box.innerHTML = action === 'add_room'
+    ? `<h3>Room drawn by hand</h3><p style="font-size:13px;margin:0">${rawQ('area', p)}</p><div class="frm"><label>Which room is it?</label>
+       <select id="f_fix">${A.room_types.map(n => `<option ${n === fixName ? 'selected' : ''}>${esc(n)}</option>`).join('')}</select></div>
+       <div class="acts"><button class="btn sm" onclick="saveFix()">Save</button><button class="btn light sm" onclick="cancelEdit()">Cancel</button></div>
+       <p class="hint">Billed as MEASURED (MANUAL) under that room's finishes, beside the rooms the take-off measured.</p>`
+    : `<h3>Tag added by hand</h3><div class="frm"><label>Which mark?</label><select id="f_fix">${A.marks.map(m => `<option value="${esc(m.key)}" ${m.key === fixMark ? 'selected' : ''}>${esc(m.mark)}${A.counts[m.key] && A.counts[m.key].status === 'OPEN' ? ' - count open' : ''}</option>`).join('')}</select></div>
+       <div class="acts"><button class="btn sm" onclick="saveFix()">Save</button><button class="btn light sm" onclick="cancelEdit()">Cancel</button></div>
+       <p class="hint">The count is checked against the schedule again.</p>`;
+}
+async function saveFix() {
+  const d = draft; if (!d || !d.fix) return;
+  const value = $('f_fix').value;
+  if (d.fix === 'add_room') fixName = value; else fixMark = value;
+  draft = null; $('edit').style.display = 'none'; draw();
+  await correct({action:d.fix, points:d.points, value, note:''});
+}
+
+// ---- following an item: its shapes lit, the rest faded, the view on them
+function hilite(key) { hiItem = hiItem === key ? '' : key; drawAuto(); autoBox(); if (hiItem) zoomToItem(hiItem); }
+function zoomToItem(key) {
+  const S = autoSheet(), set = S && (key === '__unbilled' ? hiSet() : (itemOf(key) || {}).ids);
+  if (!set || !set.size) return;
+  let x0 = Infinity, y0 = Infinity, x1 = -Infinity, y1 = -Infinity;
+  const add = (x, y) => { x0 = Math.min(x0, x); y0 = Math.min(y0, y); x1 = Math.max(x1, x); y1 = Math.max(y1, y); };
+  for (const id of set) {
+    const w = AX.walls.get(id), r = AX.rooms.get(id) || AX.zones.get(id), t = AX.tags.get(id);
+    if (w) { add(w[1], w[2]); add(w[3], w[4]); } else if (r) r.pts.forEach(q => q.forEach(pt => add(pt[0], pt[1]))); else if (t) add(t[2], t[3]);
+  }
+  if (x0 < Infinity) zoomBox(x0, y0, x1, y1);
+}
+function zoomBox(x0, y0, x1, y1) {
+  const W = vp.clientWidth, H = vp.clientHeight, pad = 50;
+  s = Math.min(fitS * 60, Math.max(fitS, Math.min((W - 2 * pad) / Math.max(x1 - x0, 30), (H - 2 * pad) / Math.max(y1 - y0, 30))));
+  tx = W / 2 - (x0 + x1) / 2 * s; ty = H / 2 - (y0 + y1) / 2 * s;
+  apply(); draw();
+}
+function toggleAuto(on) { autoOn = on; localSet('ws.auto', on ? 'on' : 'off'); drawAuto(); drawSel(); }
+function showFix(cid) {
+  const c = corrById(cid), S = autoSheet(); if (!c.id || !S) return;
+  const h = c.action === 'add_room' ? {kind:'room', id:'h' + c.id}
+    : c.action === 'add_tag' ? {kind:'tag', id:(S.tags.find(t => t[4] === c.id) || [])[0]}
+    : refind({kind:(c.geom || {}).kind || 'wall', id:c.shape});
+  const got = h && refind(h);
+  if (!got) return;
+  autoForm(got);
+  const g = c.geom || {};
+  if (c.points) { const xs = c.points.map(q => q[0]), ys = c.points.map(q => q[1]); zoomBox(Math.min(...xs) - 60, Math.min(...ys) - 60, Math.max(...xs) + 60, Math.max(...ys) + 60); }
+  else if (g.kind === 'wall') zoomBox(Math.min(g.a[0], g.b[0]) - 80, Math.min(g.a[1], g.b[1]) - 80, Math.max(g.a[0], g.b[0]) + 80, Math.max(g.a[1], g.b[1]) + 80);
+  else if (g.kind === 'tag') zoomBox(g.x - 90, g.y - 90, g.x + 90, g.y + 90);
+  else if (g.kind === 'room') zoomBox(g.seed[0] - 150, g.seed[1] - 150, g.seed[0] + 150, g.seed[1] + 150);
+}
+function showProblem(i) {
+  const S = autoSheet(); if (!S) return;
+  const [text, labels] = S.problems[i], xs = labels.map(q => q[1]), ys = labels.map(q => q[2]);
+  zoomBox(Math.min(...xs) - 80, Math.min(...ys) - 80, Math.max(...xs) + 80, Math.max(...ys) + 80);
+  const [name, x, y] = labels[0];
+  autoForm({kind:'problem', text, name, x, y});
+}
+function showMark(key) {
+  fixMark = key;
+  const c = A.counts[key], it = c && A.items.find(i => i.section === 'H' && i.description.includes(`type ${c.mark}`));
+  if (it) { hiItem = ''; hilite(it.key); }
+}
+
+// ---- the right-hand boxes
+function autoBox() {
+  const b = $('autobox'), title = '<h3>Automatic take-off</h3>';
+  if (!cur) return;
+  if (!A) { b.innerHTML = title + '<p class="mute" style="font-size:13px">Loading&hellip;</p>'; return; }
+  if (!A.available) { b.innerHTML = title + `<p class="mute" style="font-size:13px">${esc(A.reason)}</p>`; return; }
+  if (!A.sheet) { b.innerHTML = title + '<p class="mute" style="font-size:13px">Nothing is measured automatically on this sheet - only plans are.</p>' + changesHtml(); return; }
+  if (!A.sheet.overlay) { b.innerHTML = title + '<p class="mute" style="font-size:13px">This plan was measured from its CAD file, whose shapes do not sit on this PDF.</p>' + changesHtml(); return; }
+  const S = A.sheet, its = A.items.filter(it => it.colour);
+  const unbilled = S.walls.filter(w => !feedsOf(w[0]).length), unbilledL = unbilled.reduce((a, w) => a + w[7], 0);
+  let h = `<h3 style="display:flex;justify-content:space-between;align-items:center;gap:8px">Automatic take-off
+    <label style="font-size:12px;font-weight:500;color:var(--mute);white-space:nowrap"><input type="checkbox" ${autoOn ? 'checked' : ''} onchange="toggleAuto(this.checked)"> on the drawing</label></h3>
+    <p class="hint" style="margin:0 0 6px">${S.kind === 'elevation'
+      ? 'Each colour on this elevation is one finish, measured by area. Click a coloured area to see which bill line it feeds, and to name or exclude it.'
+      : 'Click an item to see what it was measured from. Click a wall, room or tag on the drawing to see which bill line it feeds, and to correct it.'}</p><div class="alist">`;
+  for (const it of its) {
+    const ch = A.changes.find(c => c.key === it.key);
+    const was = ch ? (ch.was ? ` <span class="warn">(was ${ch.was.open ? 'OPEN' : fmt(ch.was.bill)})</span>` : ' <span class="warn">(new)</span>') : '';
+    h += `<div class="mi ${hiItem === it.key ? 'on' : ''}" onclick="hilite('${esc(it.key)}')"><span class="sw" style="background:${it.colour}"></span>
+      <div><b>${esc(it.code)}</b> ${esc(short(itemName(it)))}<small>${it.section === 'H' ? `${it.ids.size} tag(s) here` : `${fmt(it.here)} ${esc(it.unit)} here`}
+      &middot; bill ${it.open ? '<span class="bad">OPEN</span>' : `${fmt(it.bill)} ${esc(it.unit)}`}${was}</small></div></div>`;
+  }
+  if (S.classes.length) {
+    h += `<h3 style="margin-top:10px">Finish colours on this elevation</h3>`;
+    for (const c of S.classes) {
+      const z = S.zones.filter(z => z.cls === c.id).sort((a, b) => b.area - a.area)[0];
+      h += `<div class="mi" onclick="${z ? `pickZone('${z.id}')` : ''}"><span class="sw" style="background:${c.colour}"></span>
+        <div><b>${esc(c.label)}</b> ${esc(short(finishName(c)))}<small>${fmt(c.area)} m\u00b2 in ${c.n} area(s) &middot;
+        ${c.kind === 'wall finish' ? 'billed' : c.kind === 'unknown' ? '<span class="bad">not named - click to name it</span>' : 'not billed (' + c.kind + ')'}
+        ${c.source === 'named by hand' ? ' &middot; named by hand' : ''}</small></div></div>`;
+    }
+  }
+  if (unbilled.length) h += `<div class="mi ${hiItem === '__unbilled' ? 'on' : ''}" onclick="hilite('__unbilled')"><span class="sw" style="background:${GREY}"></span>
+    <div><b>Not billed:</b> ${unbilled.length} wall piece(s) of no block size<small>${fmt(unbilledL)} m - click one on the drawing to give it its thickness</small></div></div>`;
+  h += '</div>';
+  const hi = itemOf(hiItem);
+  if (hi && hi.sheets && hi.sheets.some(x => x !== cur.key))
+    h += `<p class="hint" style="margin:6px 0 0">${esc(hi.code)} is also measured on ${hi.sheets.filter(x => x !== cur.key).map(x => `<a href="#" onclick="openSheet('${esc(x)}');return false">${esc(x)}</a>`).join(', ')}</p>`;
+  b.innerHTML = h + changesHtml();
+}
+function changesHtml() {
+  const all = (A && A.corrections) || [], mine = all.filter(c => c.sheet === cur.key);
+  if (!all.length) return '';
+  const col = c => c.action === 'exclude' ? RED : c.action === 'add_room' || c.action === 'rename' ? trade('J') : c.action === 'add_tag' ? trade('H') : trade('D');
+  let h = `<h3 style="margin-top:12px">Corrections <span class="mute" style="font-weight:500">(${mine.length} here, ${all.length} in all)</span></h3>`;
+  h += mine.map(c => `<div class="mi" onclick="showFix('${c.id}')"><span class="sw" style="background:${col(c)}"></span>
+    <div style="flex:1">${esc(c.detail)}${c.note ? `<small>${esc(c.note)}</small>` : ''}${c.sheet_changed ? '<small class="warn">from an earlier run; the drawing has changed since</small>' : ''}</div>
+    <button class="tb" title="Undo this correction" onclick="event.stopPropagation();uncorrect('${c.id}')">&#8630;</button></div>`).join('');
+  if (A.changes.length) h += `<table class="q"><tr><th>Bill changes</th><th class="n">Was</th><th class="n">Now</th></tr>${A.changes.map(c => `<tr>
+    <td>${esc(c.code)} ${esc(short(itemName(c)))}</td><td class="n">${c.was ? (c.was.open ? 'OPEN' : fmt(c.was.bill)) : '-'}</td>
+    <td class="n"><b>${c.now ? (c.now.open ? 'OPEN' : fmt(c.now.bill)) : '-'}</b> ${esc(c.unit)}</td></tr>`).join('')}</table>`;
+  return h;
+}
+function pickZone(id) {
+  const z = AX.zones.get(id); if (!z) return;
+  const xs = z.pts.flat().map(q => q[0]), ys = z.pts.flat().map(q => q[1]);
+  zoomBox(Math.min(...xs) - 60, Math.min(...ys) - 60, Math.max(...xs) + 60, Math.max(...ys) + 60);
+  autoForm({kind:'zone', id});
+}
+function fixBox() {
+  const b = $('fixbox'), S = autoSheet();
+  const open = S ? Object.entries(A.counts).filter(([k, c]) => c.status === 'OPEN' && (c.plan[cur.key] !== undefined || c.outside[cur.key] !== undefined)) : [];
+  const unnamed = S ? S.classes.filter(c => c.kind === 'unknown') : [];
+  if (!S || (!S.problems.length && !open.length && !unnamed.length)) { b.style.display = 'none'; return; }
+  b.style.display = 'block';
+  let h = '<h3>To check on this sheet</h3>';
+  for (const c of unnamed) {
+    const z = S.zones.filter(z => z.cls === c.id).sort((a, b) => b.area - a.area)[0];
+    h += `<div class="mi" onclick="${z ? `pickZone('${z.id}')` : ''}"><span class="sw" style="background:${c.colour}"></span><div><b>${esc(c.label)}</b> not named: ${fmt(c.area)} m\u00b2
+      <small>no callout names this colour, so it is not billed - click to say what it is</small></div></div>`;
+  }
+  S.problems.forEach(([text, labels], i) => {
+    const m = text.match(/^(.*?)(?: label at \(|: )/), name = m ? m[1] : text;
+    h += `<div class="mi" onclick="showProblem(${i})"><span class="sw" style="background:${PIN}"></span><div><b>Not measured:</b> ${esc(name)}
+      <small>${esc(text.slice(name.length).replace(/^[: ]+/, '').slice(0, 110))} &middot; ${labels.length} label(s), marked ? on the drawing</small></div></div>`;
+  });
+  for (const [k, c] of open) h += `<div class="mi" onclick="showMark('${esc(k)}')"><span class="sw" style="background:${RED}"></span>
+    <div><b>${esc(c.mark)}</b> count open: schedule ${c.schedule ?? '-'}, plans ${c.plan_total}
+    <small>${c.plan[cur.key] ?? 0} here &middot; add a missing tag (Add tag) or exclude a duplicate</small></div></div>`;
+  b.innerHTML = h;
+}
+
+// ------------------------------------------------------------ lists
+function list() {
+  const ms = D.measures.filter(m => m.sheet === cur.key);
+  $('list').innerHTML = ms.length ? ms.map(m => {
+    const c = m.calc || {raw:{}, outs:[]};
+    const meas = Object.entries(c.raw).map(([k, v]) => `${word(k)} ${fig(k, v)} ${unitW(k)}`).join(', ');
+    const q = meas + (c.outs.length ? ' &rarr; ' + c.outs.map(o => `${o.total} ${o.unit}`).join(' &middot; ') : '');
+    return `<div class="mi ${sel === m.id ? 'on' : ''}" onclick="select('${m.id}')"><span class="sw" style="background:${esc(m.color || COLOR[m.kind])}"></span>
+      <div><b>${esc(m.name || m.text || KNAME[m.kind])}</b>${m.deduct ? ' <span class="mute">(deduct)</span>' : ''}
+      <small>${q || esc(KNAME[m.kind])}${m.nr > 1 ? ` &middot; x${m.nr}` : ''}${m.slope ? ` &middot; sloping ${esc(m.slope)}` : ''}</small>
+      ${c.problem ? `<small class="bad">${esc(c.problem)}</small>` : ''}${TAKEOFF[m.kind] && !m.assembly ? '<small class="warn">not billed - no assembly</small>' : ''}
+      ${m.sheet_changed ? '<small class="warn">drawing changed since this was measured</small>' : ''}</div></div>`;
+  }).join('') : '<p class="mute" style="font-size:13px">Nothing measured here yet. Pick a tool above and click on the drawing.</p>';
+}
+function totals() {
+  const t = new Map();
+  for (const m of D.measures) for (const o of (m.calc && m.calc.outs) || []) {
+    const k = `${o.section}|${o.uhead ? o.uhead + ': ' : ''}${o.item}|${o.unit}`; t.set(k, (t.get(k) || 0) + o.total);
+  }
+  $('totals').innerHTML = t.size ? `<table class="q"><tr><th>Item</th><th class="n">Total</th></tr>${[...t].sort().map(([k, v]) => {
+    const [sct, it, u] = k.split('|'); return `<tr><td>${esc(sct)} &middot; ${esc(it)}</td><td class="n"><b>${Math.round(v * 100) / 100}</b> ${esc(u)}</td></tr>`; }).join('')}</table>`
+    : '<p class="mute" style="font-size:13px">No billed manual measurements yet.</p>';
+}
+
+// ------------------------------------------------------------ export
+async function doExport() {
+  const mb = $('mbody'); $('modal').classList.add('on');
+  mb.innerHTML = '<h2>Exporting&hellip;</h2><p class="hint">Re-issuing the take-off and bill with your measurements and checking them.</p>';
+  try {
+    const r = await post(CFG.base + '/api/export', {});
+    if (!r.ok) { mb.innerHTML = `<h2>Could not export</h2><p>${esc(r.problems.join('; '))}</p><div class="acts"><button class="btn light sm" onclick="closeModal()">Close</button></div>`; return; }
+    mb.innerHTML = `<h2>Exported</h2>
+      <p>${r.verify_ok ? '<span class="pill ok">Checks passed</span>' : '<span class="pill bad">Check failed</span>'} <span class="hint">${esc(r.verify.join(' '))}</span></p>
+      ${r.problems.length ? `<p class="note">Not exported:<br>${r.problems.map(esc).join('<br>')}</p>` : ''}
+      <table class="list">${r.files.map(f => `<tr><td style="font-size:13.5px">${esc(f.name)}</td><td style="white-space:nowrap;text-align:right">
+        <a class="btn light sm" target="_blank" href="${f.view}">Open</a> <a class="btn light sm" href="${f.download}">Download</a>
+        ${f.bundle ? `<a class="btn light sm" href="${f.bundle}" title="The workbook and the drawings its links open, in one zip">With drawings (.zip)</a>` : ''}</td></tr>`).join('')}</table>
+      <div class="acts"><button class="btn light sm" onclick="closeModal()">Close</button></div>`;
+  } catch (e) { mb.innerHTML = `<h2>Export failed</h2><pre class="log">${esc(e.message)}</pre><div class="acts"><button class="btn light sm" onclick="closeModal()">Close</button></div>`; }
+}
+function closeModal() { $('modal').classList.remove('on'); }
+$('modal').addEventListener('click', e => { if (e.target.id === 'modal') closeModal(); });
+window.addEventListener('resize', () => cur && draw());
+
+async function guide() {
+  const mb = $('mbody'); mb.classList.add('wide'); $('modal').classList.add('on');
+  mb.innerHTML = '<p class="mute">Loading&hellip;</p>';
+  const html = await (await fetch('/measure/guide')).text();
+  mb.innerHTML = `<div style="display:flex;justify-content:flex-end;position:sticky;top:-20px;background:#fff;padding-top:4px">
+    <button class="btn light sm" onclick="closeModal()">Close &times;</button></div>` + html;
+  localSet('ws.guideSeen', '1');
+}
+const _close = closeModal;
+closeModal = function () { $('mbody').classList.remove('wide'); _close(); };
+if (!localGet('ws.guideSeen')) setTimeout(guide, 600);
+
+load().catch(e => { $('sheets').innerHTML = `<p class="bad">${esc(e.message)}</p>`; });
+</script>

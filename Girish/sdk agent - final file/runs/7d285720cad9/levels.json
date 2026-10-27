@@ -1,0 +1,53 @@
+{
+ "candidates": {
+  "BASEMENT 1": [
+   "0.00"
+  ],
+  "ROOF": [
+   "2.79"
+  ]
+ },
+ "conflicts": [],
+ "levels": {
+  "BASEMENT 1": {
+   "citations": [
+    [
+     "Architecture/A1/A-00-001 COVERSHEET.pdf",
+     "0.00"
+    ],
+    [
+     "Architecture/A1/A-03-001TOA-03-004 AREA CALCULATION-A-00-001.pdf",
+     "0.00"
+    ]
+   ],
+   "value": "0.00",
+   "votes": 2
+  },
+  "ROOF": {
+   "citations": [
+    [
+     "Architecture/A1/A-03-001.pdf",
+     "2.79"
+    ],
+    [
+     "Architecture/A1/A-03-001TOA-03-004 AREA CALCULATION-A-03-004.pdf",
+     "2.79"
+    ],
+    [
+     "Architecture/A1/A-07-008 LOWER ROOF PLAN.pdf",
+     "2.79"
+    ],
+    [
+     "Architecture/A1/A-07-009 UPPER ROOF PLAN.pdf",
+     "2.79"
+    ],
+    [
+     "Architecture/A1/A-07-010 TOPROOFPLAN.pdf",
+     "2.79"
+    ]
+   ],
+   "value": "2.79",
+   "votes": 9
+  }
+ }
+}

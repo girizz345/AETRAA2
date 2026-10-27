@@ -1,0 +1,169 @@
+[
+ {
+  "clause": "D2.1",
+  "unit": "m2",
+  "formula": "area",
+  "formula_text": "A = \u03a3 (L \u00d7 H) \u2212 voids per GP3.2/GP3.3",
+  "deduct": 1.0,
+  "describe": [
+   "thickness"
+  ],
+  "items": [
+   "D-A Walls, 150mm thick",
+   "D-B Walls, 200mm thick",
+   "D-C Walls, 200mm thick, balcony partition, 1.8m high",
+   "D-D Walls, 100mm thick"
+  ]
+ },
+ {
+  "clause": "G2.1",
+  "unit": "m2",
+  "formula": "area",
+  "formula_text": "flat: A = L \u00d7 W",
+  "deduct": null,
+  "describe": [
+   "class: flat / sloping / vertical"
+  ],
+  "items": [
+   "G-A To horizontal surfaces, roofs and terraces",
+   "G-B To horizontal surfaces, balconies",
+   "G-D Horizontal surfaces"
+  ]
+ },
+ {
+  "clause": "G3.1",
+  "unit": "m",
+  "formula": "length",
+  "formula_text": "Len = \u03a3 L",
+  "deduct": null,
+  "describe": [],
+  "items": [
+   "G-C To walls"
+  ]
+ },
+ {
+  "clause": "H1.1",
+  "unit": "nr",
+  "formula": "count",
+  "formula_text": "N = count",
+  "deduct": null,
+  "describe": [
+   "size",
+   "type reference"
+  ],
+  "items": [
+   "H-A Swing door, size 1200mm x 2200mm, type D-6, with weather strips",
+   "H-B Hinged, size 3050mm x 2750mm, type LD-1",
+   "H-C Hinged, size 1800mm x 2200mm, type LD-2",
+   "H-D Hinged, size 3500mm x 2750mm, type LD-3, with label",
+   "H-E Hinged, size 1500mm x 2200mm, type SD-1",
+   "H-F Hinged, size 1015mm x 2200mm, type SD-2",
+   "H-G Hinged, size 1800mm x 2200mm, type SD-3",
+   "H-H Hinged door, size 1200mm x 2200mm, type D-1, with push plates on egress side and door knob on the other side, with self door closer",
+   "H-J Hinged door, size 1100mm x 2200mm, type D-2, with weather strips",
+   "H-K Hinged door, size 1015mm x 2200mm, type D-5",
+   "H-L Hinged door, size 1015mm x 2200mm, type D-3",
+   "H-M Hinged door, size 915mm x 2200mm, type D-4",
+   "H-N Partly fixed partly sliding door, size 15600mm x 8350mm, type DW 01, with weather strips",
+   "H-P Partly fixed partly sliding door, size 3700mm x 2700mm, type DW 02, with weather strips",
+   "H-Q Partly fixed partly sliding door, size 3750mm x 3200mm, type DW 03, with weather strips",
+   "H-R Partly fixed partly sliding door, size 7300mm + 2950mm x 3200mm, L-shaped, type DW 04, with weather strips",
+   "H-S Partly fixed partly sliding door, size 3300mm x 3200mm, type DW 05, with weather strips",
+   "H-T Partly fixed partly sliding door, size 7300mm + 4000mm x 3200mm, L-shaped, type DW 06, with weather strips",
+   "H-U Partly fixed partly sliding door, size 4000mm + 7300mm x 3200mm, L-shaped, type DW 07, with weather strips",
+   "H-V Partly fixed partly sliding door, size 3650mm x 3200mm, type DW 08, with weather strips",
+   "H-W Partly fixed partly sliding door, size 4000mm + 7300mm x 3200mm, L-shaped, type DW 09, with weather strips",
+   "H-X Partly fixed partly sliding door, size 5800mm + 8000mm x 3200mm, L-shaped, type DW 10, with weather strips",
+   "H-Y Partly fixed partly sliding door, size 28170mm + 6300mm x 3200mm, L-shaped, type DW 11, with weather strips",
+   "H-Z Partly fixed partly sliding door, size 25400mm x 3200mm, type DW 12, with weather strips",
+   "H-AA Partly fixed partly hinged door, size 10800mm x 3200mm, type DW 13, with weather strips",
+   "H-BB Partly fixed partly hinged door, size 11400mm x 3200mm, type DW 14, with weather strips",
+   "H-CC Partly fixed partly hinged door, size 11350mm x 3200mm, type DW 15, with weather strips",
+   "H-DD Partly fixed partly hinged door, size 10800mm x 3200mm, type DW 16, with weather strips",
+   "H-EE Partly fixed partly hinged door, size 7300mm + 4000mm x 3200mm, L-shaped, type DW 17, with weather strips",
+   "H-FF Hinged window, size 1200mm x 1400mm, type DW 18, with weather strips",
+   "H-GG Sliding door, size 1200mm x 2400mm, type DW 19, with weather strips"
+  ]
+ },
+ {
+  "clause": "H2.1",
+  "unit": "nr",
+  "formula": "count",
+  "formula_text": "N = count (window INCLUDING its own frame)",
+  "deduct": null,
+  "describe": [
+   "size",
+   "type reference"
+  ],
+  "items": [
+   "H-HH Fixed, size 2900mm x 2000mm, type LW 01",
+   "H-JJ Fixed, size 2400mm x 2000mm, type LW 02",
+   "H-KK Fixed, size 2000mm x 2000mm, type LW 03"
+  ]
+ },
+ {
+  "clause": "J3.1.1",
+  "unit": "m2",
+  "formula": "area",
+  "formula_text": "A = \u03a3 (L \u00d7 H) \u2212 voids + reveals + columns",
+  "deduct": 1.0,
+  "describe": [
+   "class: floors"
+  ],
+  "items": [
+   "J-A To floors, bathrooms and toilets, ground floor",
+   "J-B To floors, service rooms, ground floor",
+   "J-C To floors, bathrooms and toilets",
+   "J-D To floors, apartments",
+   "J-E To floors, corridors and lobbies",
+   "J-F To floors, service rooms"
+  ]
+ },
+ {
+  "clause": "J3.1.2",
+  "unit": "m2",
+  "formula": "area",
+  "formula_text": "A = \u03a3 (L \u00d7 H) \u2212 voids + reveals + columns",
+  "deduct": 1.0,
+  "describe": [
+   "class: walls"
+  ],
+  "items": [
+   "J-L To walls, bathrooms and toilets",
+   "J-M To walls, apartments",
+   "J-N To walls, corridors and lobbies",
+   "J-P To walls, service rooms",
+   "J-U To external walls, brick cladding"
+  ]
+ },
+ {
+  "clause": "J3.1.3",
+  "unit": "m2",
+  "formula": "area",
+  "formula_text": "A = \u03a3 (L \u00d7 H) \u2212 voids + reveals + columns",
+  "deduct": 1.0,
+  "describe": [
+   "class: ceilings"
+  ],
+  "items": [
+   "J-Q To ceilings, bathrooms and toilets",
+   "J-R To ceilings, apartments",
+   "J-S To ceilings, corridors and lobbies",
+   "J-T To ceilings, service rooms"
+  ]
+ },
+ {
+  "clause": "J3.2",
+  "unit": "m",
+  "formula": "length",
+  "formula_text": "L = \u03a3 L",
+  "deduct": null,
+  "describe": [],
+  "items": [
+   "J-G To walls, bathrooms and toilets",
+   "J-H To walls, apartments",
+   "J-J To walls, corridors and lobbies",
+   "J-K To walls, service rooms"
+  ]
+ }
+]

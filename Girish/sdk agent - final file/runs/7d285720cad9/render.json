@@ -1,0 +1,100 @@
+{
+ "blocked": true,
+ "gates": {
+  "bill": {
+   "gates": {
+    "problems": [
+     "bill.xlsx: draft \u2014 not recalculated, DO NOT ISSUE \u2014 LibreOffice (soffice) not found"
+    ],
+    "recalculate": "skipped \u2014 draft \u2014 not recalculated, DO NOT ISSUE (LibreOffice not found)",
+    "recalculated": false,
+    "verify": "ok \u2014 47 quantities stated across 4 section sheet(s)",
+    "verify_sections": {
+     "output": "POMI standard read from D:\\Girish\\AETRAA\\Girish\\sdk agent - final file\\render\\references\\pomi-verbatim.md: 16 sections, A B C D E F G H J K L M N P Q R\n\n  PASS  D  Masonry\n  PASS  G  Thermal and Moisture Protection\n  PASS  H  Doors and Windows\n  PASS  J  Finishes\n\n  note: POMI sections not used by this bill: A B C E F K L M N P Q R\n        Not a failure \u2014 a project need not contain every section \u2014\n        but a section that exists in the works and not in the bill\n        is a coverage question for K2.\n\nSection gate passed: 4 house sections, all present in POMI with matching titles.",
+     "returncode": 0,
+     "rules": "pomi-verbatim.md"
+    },
+    "verify_template": {
+     "output": "[Summary] is a summary/preamble sheet \u2014 bill-page profile not applicable, skipped\nChecked 5 sheet(s): Summary, Section D, Section G, Section H, Section J\nFormat gate passed: the workbook is the house format.",
+     "returncode": 0
+    }
+   },
+   "pages": 6,
+   "partial": true,
+   "sheets": [
+    "Summary",
+    "Section D",
+    "Section G",
+    "Section H",
+    "Section J"
+   ]
+  },
+  "bill_unpriced": {
+   "gates": {
+    "problems": [
+     "bill.xlsx: draft \u2014 not recalculated, DO NOT ISSUE \u2014 LibreOffice (soffice) not found"
+    ],
+    "recalculate": "skipped \u2014 draft \u2014 not recalculated, DO NOT ISSUE (LibreOffice not found)",
+    "recalculated": false,
+    "verify": "ok \u2014 47 quantities stated across 4 section sheet(s)",
+    "verify_sections": {
+     "output": "POMI standard read from D:\\Girish\\AETRAA\\Girish\\sdk agent - final file\\render\\references\\pomi-verbatim.md: 16 sections, A B C D E F G H J K L M N P Q R\n\n  PASS  D  Masonry\n  PASS  G  Thermal and Moisture Protection\n  PASS  H  Doors and Windows\n  PASS  J  Finishes\n\n  note: POMI sections not used by this bill: A B C E F K L M N P Q R\n        Not a failure \u2014 a project need not contain every section \u2014\n        but a section that exists in the works and not in the bill\n        is a coverage question for K2.\n\nSection gate passed: 4 house sections, all present in POMI with matching titles.",
+     "returncode": 0,
+     "rules": "pomi-verbatim.md"
+    },
+    "verify_template": {
+     "output": "[Summary] is a summary/preamble sheet \u2014 bill-page profile not applicable, skipped\nChecked 5 sheet(s): Summary, Section D, Section G, Section H, Section J\nFormat gate passed: the workbook is the house format.",
+     "returncode": 0
+    }
+   },
+   "pages": 6,
+   "partial": true,
+   "sheets": [
+    "Summary",
+    "Section D",
+    "Section G",
+    "Section H",
+    "Section J"
+   ]
+  },
+  "markups": {
+   "derotated": [
+    "1. A-07-003.pdf (/Rotate 270)",
+    "2. A-07-004.pdf (/Rotate 270)",
+    "3. A-07-005.pdf (/Rotate 270)",
+    "4. A-07-006.pdf (/Rotate 270)",
+    "5. A-07-007.pdf (/Rotate 270)",
+    "6. A-07-008.pdf (/Rotate 270)"
+   ],
+   "items": 77,
+   "sheets": 6
+  },
+  "provenance": {
+   "rows": 47,
+   "untraced": 0
+  },
+  "takeoff": {
+   "audit_tabs": 0,
+   "items": 47,
+   "renamed_tabs": 1,
+   "rows": 355,
+   "sections": 4
+  }
+ },
+ "partial": true,
+ "recalculated": false,
+ "written": [
+  "bill.xlsx",
+  "bill_unpriced.xlsx",
+  "coverage.txt",
+  "markup/00-LEGEND-INDEX.pdf",
+  "markup/1. A-07-003.pdf",
+  "markup/2. A-07-004.pdf",
+  "markup/3. A-07-005.pdf",
+  "markup/4. A-07-006.pdf",
+  "markup/5. A-07-007.pdf",
+  "markup/6. A-07-008.pdf",
+  "provenance.xlsx",
+  "takeoff.xlsx"
+ ]
+}

@@ -1,0 +1,184 @@
+{
+ "blocked": true,
+ "coverage": {
+  "billed": {
+   "D": 3,
+   "G": 2,
+   "H": 34,
+   "J": 8
+  },
+  "complete": false,
+  "missing": [
+   {
+    "detail": "212 wet_room in the drawings, no rows in section Q",
+    "evidence": "wet_room",
+    "evidence_count": 212,
+    "section": "Q",
+    "why": "evidence present, nothing billed"
+   }
+  ]
+ },
+ "evidence_counts": {
+  "door_schedule": 12,
+  "wet_room": 212,
+  "window_schedule": 22
+ },
+ "findings": [
+  {
+   "evidence_count": 12,
+   "evidence_kind": "door_schedule",
+   "justification": null,
+   "output_rows": 34,
+   "section": "H",
+   "status": "PASS"
+  },
+  {
+   "evidence_count": 212,
+   "evidence_kind": "wet_room",
+   "justification": null,
+   "output_rows": 2,
+   "section": "G",
+   "status": "PASS"
+  },
+  {
+   "evidence_count": 212,
+   "evidence_kind": "wet_room",
+   "justification": null,
+   "output_rows": 8,
+   "section": "J",
+   "status": "PASS"
+  },
+  {
+   "evidence_count": 212,
+   "evidence_kind": "wet_room",
+   "justification": null,
+   "output_rows": 0,
+   "section": "Q",
+   "status": "FAIL"
+  },
+  {
+   "evidence_count": 22,
+   "evidence_kind": "window_schedule",
+   "justification": null,
+   "output_rows": 34,
+   "section": "H",
+   "status": "PASS"
+  }
+ ],
+ "mass_balance": [
+  {
+   "actual": "7282.98",
+   "check": "sum of floor finish areas in J vs sum of room.area_m2 x floor_count",
+   "expected": "7282.98",
+   "n": 1,
+   "note": "",
+   "status": "PASS",
+   "variance_pct": "0.0"
+  },
+  {
+   "actual": null,
+   "check": "RC slab area in C vs sum of geometry.floor_areas GFA",
+   "expected": null,
+   "n": 2,
+   "note": "slab area is not measured from the plans by this version",
+   "status": "NOT RUN",
+   "variance_pct": null
+  },
+  {
+   "actual": "16394.1735",
+   "check": "blockwork m2 vs (sum of wall lengths once x average height - openings)",
+   "expected": "15598.3690",
+   "n": 3,
+   "note": "expected: wall lengths once x clear height, before openings; the variance is the openings' net effect",
+   "status": "PASS",
+   "variance_pct": "5.1"
+  },
+  {
+   "actual": "480",
+   "check": "sum of door rows in H vs sum of schedules.doors counts, after the R36 guard",
+   "expected": "480",
+   "n": 4,
+   "note": "",
+   "status": "PASS",
+   "variance_pct": "0.0"
+  },
+  {
+   "actual": "199",
+   "check": "sum of window rows in H vs sum of schedules.windows",
+   "expected": "199",
+   "n": 5,
+   "note": "",
+   "status": "PASS",
+   "variance_pct": "0.0"
+  },
+  {
+   "actual": null,
+   "check": "sanitary fixture count vs wet room count",
+   "expected": null,
+   "n": 6,
+   "note": "no sanitary fixture schedule was read",
+   "status": "NOT RUN",
+   "variance_pct": null
+  },
+  {
+   "actual": "26076.0895",
+   "check": "plaster/paint m2 <= 2 x blockwork m2 + external wall inner faces",
+   "expected": "<= 32788.3470",
+   "n": 7,
+   "note": "external wall inner faces are not added to the bound",
+   "status": "PASS",
+   "variance_pct": null
+  },
+  {
+   "actual": "7061.68",
+   "check": "skirting lm vs sum of (room.perimeter - door widths) x floor count",
+   "expected": "7851.05",
+   "n": 8,
+   "note": "expected: room perimeters before door widths",
+   "status": "FLAG",
+   "variance_pct": "10.1"
+  },
+  {
+   "actual": null,
+   "check": "total BOQ slab area vs the measured built-up area",
+   "expected": null,
+   "n": 9,
+   "note": "slab area is not measured from the plans by this version",
+   "status": "NOT RUN",
+   "variance_pct": null
+  },
+  {
+   "actual": null,
+   "check": "any material or system appearing in more than one section - insulation, waterproofing, paint",
+   "expected": null,
+   "n": 10,
+   "note": "no register of systems across sections is kept by this version",
+   "status": "NOT RUN",
+   "variance_pct": null
+  },
+  {
+   "actual": null,
+   "check": "CAD blocks representing double-faced or paired devices - EXIT-DOUBLE, EM-DOUBLE",
+   "expected": null,
+   "n": 11,
+   "note": "CAD blocks are not counted by this version",
+   "status": "NOT RUN",
+   "variance_pct": null
+  },
+  {
+   "actual": null,
+   "check": "a fixture count exactly equal to the count of another building element",
+   "expected": null,
+   "n": 12,
+   "note": "no fixture count to compare",
+   "status": "NOT RUN",
+   "variance_pct": null
+  }
+ ],
+ "rows_by_section": {
+  "D": 3,
+  "G": 2,
+  "H": 34,
+  "J": 8
+ }
+}

@@ -1,0 +1,32 @@
+[
+ {
+  "file": "A-07-003 marked up.pdf",
+  "drawing": "A-07-003",
+  "title": "GROUND FLOOR PLAN",
+  "kind": "plan",
+  "method": "TEXT",
+  "legend": [
+   {
+    "colour": "#B0913A",
+    "text": "G-A  2.22 m2  Horizontal surfaces"
+   },
+   {
+    "colour": "#2E7D5B",
+    "text": "J-A  2.22 m2  To floors, bathrooms and toilets, ground"
+   },
+   {
+    "colour": "#215941",
+    "text": "J-B  92.26 m2  To floors, service rooms, ground floor"
+   },
+   {
+    "colour": "#3AA074",
+    "text": "J-C  2.22 m2  To ceilings, bathrooms and toilets"
+   },
+   {
+    "colour": "#194432",
+    "text": "J-D  92.26 m2  To ceilings, service rooms"
+   }
+  ],
+  "changes": {}
+ }
+]

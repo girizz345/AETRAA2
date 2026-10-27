@@ -1,0 +1,43 @@
+{
+ "clauses": 314,
+ "clauses_computable": 166,
+ "clauses_contaminated": 12,
+ "clauses_unexpressible": 27,
+ "conventions": {
+  "trades": 16
+ },
+ "disciplines": {
+  "collisions": 1,
+  "corrections_applied": 2,
+  "prefixes": 35,
+  "tag_patterns": 35
+ },
+ "formula_shapes": 18,
+ "gates": {
+  "completeness_rows": 15,
+  "fabrication_tokens": 13,
+  "mass_balance": 12
+ },
+ "house_template": {
+  "columns": 8,
+  "money_column_width": 14.711
+ },
+ "multipliers": {
+  "patterns": 8
+ },
+ "rate_classes": {
+  "classes": 92,
+  "min_sources": 2,
+  "ordinal_invariants": 28,
+  "prices_held": 0
+ },
+ "sections": 16,
+ "titleblocks": {
+  "patterns": 27,
+  "specs": 5
+ },
+ "units": {
+  "item_types": 74,
+  "rejections": 5
+ }
+}

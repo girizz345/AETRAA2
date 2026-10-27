@@ -1,0 +1,19 @@
+# Installed again from package.json / requirements; never committed.
+node_modules/
+__pycache__/
+*.pyc
+.wrangler/
+
+# Local databases and each local copy's own owner code and signing secret.
+local-data/
+*.db
+*.db-shm
+*.db-wal
+.dev.vars
+.env
+.env.*
+
+# Built release archives.
+*.tgz
+releases/
+Girish/AETRAA Platform/prelaunch/sandbox-data/

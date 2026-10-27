@@ -1,0 +1,47 @@
+{
+ "schema": "evidence/1",
+ "rev": "00",
+ "project": {
+  "plot": "5310319",
+  "job_title": "PROPOSED RESIDENTIAL BUILDING (B+G+5+ROOF)",
+  "owner": "G F S REAL ESTATE L.L.C"
+ },
+ "sheets": {
+  "A-07-003": {
+   "title": "GROUND FLOOR PLAN",
+   "sha1": "e4a7aa34680b0abdccda2005238a0faa98a0d685",
+   "file": "A-07-003 GROUND FLOOR PLAN.pdf"
+  }
+ },
+ "schedule": {},
+ "tags": {
+  "A-07-003": []
+ },
+ "items": {
+  "G|Horizontal surfaces": {
+   "code": "G-A",
+   "unit": "m2",
+   "qty": 2.22
+  },
+  "J|To floors, bathrooms and toilets, ground floor": {
+   "code": "J-A",
+   "unit": "m2",
+   "qty": 2.22
+  },
+  "J|To floors, service rooms, ground floor": {
+   "code": "J-B",
+   "unit": "m2",
+   "qty": 92.26
+  },
+  "J|To ceilings, bathrooms and toilets": {
+   "code": "J-C",
+   "unit": "m2",
+   "qty": 2.22
+  },
+  "J|To ceilings, service rooms": {
+   "code": "J-D",
+   "unit": "m2",
+   "qty": 92.26
+  }
+ }
+}

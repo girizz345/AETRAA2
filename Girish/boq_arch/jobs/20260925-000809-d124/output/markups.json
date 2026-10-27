@@ -1,0 +1,1016 @@
+[
+ {
+  "file": "A-07-001 marked up.pdf",
+  "drawing": "A-07-001",
+  "title": "UNDER GROUND WATER TANK & PUMP ROOM",
+  "kind": "plan",
+  "method": "MIXED",
+  "legend": [
+   {
+    "colour": "#D81919",
+    "text": "H-H  D-1: 1 tag(s) here - count OPEN"
+   }
+  ],
+  "changes": {}
+ },
+ {
+  "file": "A-07-003 marked up.pdf",
+  "drawing": "A-07-003",
+  "title": "GROUND FLOOR PLAN",
+  "kind": "plan",
+  "method": "TEXT",
+  "legend": [
+   {
+    "colour": "#C0703A",
+    "text": "D-A  7.90 m2  Walls, 150mm thick"
+   },
+   {
+    "colour": "#8A5029",
+    "text": "D-B  1,000.25 m2  Walls, 200mm thick"
+   },
+   {
+    "colour": "#F58F4A",
+    "text": "D-D  112.77 m2  Walls, 100mm thick"
+   },
+   {
+    "colour": "#B0913A",
+    "text": "G-C  213.96 m  To walls"
+   },
+   {
+    "colour": "#7E6829",
+    "text": "G-D  2.22 m2  Horizontal surfaces"
+   },
+   {
+    "colour": "#3F9E8C",
+    "text": "H-B  LD-1: 1 tag(s) here - count CLOSED"
+   },
+   {
+    "colour": "#3F9E8C",
+    "text": "H-E  SD-1: 1 tag(s) here - count CLOSED"
+   },
+   {
+    "colour": "#3F9E8C",
+    "text": "H-F  SD-2: 2 tag(s) here - count CLOSED"
+   },
+   {
+    "colour": "#3F9E8C",
+    "text": "H-G  SD-3: 1 tag(s) here - count CLOSED"
+   },
+   {
+    "colour": "#D81919",
+    "text": "H-H  D-1: 4 tag(s) here - count OPEN"
+   },
+   {
+    "colour": "#3F9E8C",
+    "text": "H-L  D-3: 1 tag(s) here - count CLOSED"
+   },
+   {
+    "colour": "#3F9E8C",
+    "text": "H-M  D-4: 1 tag(s) here - count CLOSED"
+   },
+   {
+    "colour": "#D81919",
+    "text": "H-N  DW 01: 1 tag(s) here - count OPEN"
+   },
+   {
+    "colour": "#3F9E8C",
+    "text": "H-FF  DW 18: 1 tag(s) here - count CLOSED"
+   },
+   {
+    "colour": "#3F9E8C",
+    "text": "H-GG  DW 19: 1 tag(s) here - count CLOSED"
+   },
+   {
+    "colour": "#3F9E8C",
+    "text": "H-HH  LW 01: 1 tag(s) here - count CLOSED"
+   },
+   {
+    "colour": "#3F9E8C",
+    "text": "H-JJ  LW 02: 1 tag(s) here - count CLOSED"
+   },
+   {
+    "colour": "#2E7D5B",
+    "text": "J-A  2.22 m2  To floors, bathrooms and toilets, ground"
+   },
+   {
+    "colour": "#215941",
+    "text": "J-B  92.26 m2  To floors, service rooms, ground floor"
+   },
+   {
+    "colour": "#3AA074",
+    "text": "J-G  6.93 m  To walls, bathrooms and toilets"
+   },
+   {
+    "colour": "#194432",
+    "text": "J-K  64.36 m  To walls, service rooms"
+   },
+   {
+    "colour": "#45BB88",
+    "text": "J-L  37.19 m2  To walls, bathrooms and toilets"
+   },
+   {
+    "colour": "#276A4D",
+    "text": "J-P  340.56 m2  To walls, service rooms"
+   },
+   {
+    "colour": "#2E7D5B",
+    "text": "J-Q  2.22 m2  To ceilings, bathrooms and toilets"
+   },
+   {
+    "colour": "#215941",
+    "text": "J-T  92.26 m2  To ceilings, service rooms"
+   }
+  ],
+  "changes": {}
+ },
+ {
+  "file": "A-07-004 marked up.pdf",
+  "drawing": "A-07-004",
+  "title": "FIRST FLOOR PLAN",
+  "kind": "plan",
+  "method": "MIXED",
+  "legend": [
+   {
+    "colour": "#C0703A",
+    "text": "D-A  166.64 m2  Walls, 150mm thick"
+   },
+   {
+    "colour": "#8A5029",
+    "text": "D-B  2,472.34 m2  Walls, 200mm thick"
+   },
+   {
+    "colour": "#F58F4A",
+    "text": "D-C  2.70 m2  Walls, 200mm thick, balcony partition, 1"
+   },
+   {
+    "colour": "#693D1F",
+    "text": "D-D  1,149.07 m2  Walls, 100mm thick"
+   },
+   {
+    "colour": "#B0913A",
+    "text": "G-A  1,194.17 m2  To horizontal surfaces, roofs and terrac"
+   },
+   {
+    "colour": "#7E6829",
+    "text": "G-B  19.51 m2  To horizontal surfaces, balconies"
+   },
+   {
+    "colour": "#E1B94A",
+    "text": "G-D  129.12 m2  Horizontal surfaces"
+   },
+   {
+    "colour": "#3F9E8C",
+    "text": "H-A  D-6: 2 tag(s) here - count CLOSED"
+   },
+   {
+    "colour": "#D81919",
+    "text": "H-H  D-1: 3 tag(s) here - count OPEN"
+   },
+   {
+    "colour": "#3F9E8C",
+    "text": "H-J  D-2: 33 tag(s) here - count CLOSED"
+   },
+   {
+    "colour": "#3F9E8C",
+    "text": "H-K  D-5: 5 tag(s) here - count CLOSED"
+   },
+   {
+    "colour": "#3F9E8C",
+    "text": "H-L  D-3: 7 tag(s) here - count CLOSED"
+   },
+   {
+    "colour": "#3F9E8C",
+    "text": "H-M  D-4: 37 tag(s) here - count CLOSED"
+   },
+   {
+    "colour": "#D81919",
+    "text": "H-N  DW 01: 1 tag(s) here - count OPEN"
+   },
+   {
+    "colour": "#3F9E8C",
+    "text": "H-Q  DW 03: 28 tag(s) here - count CLOSED"
+   },
+   {
+    "colour": "#3F9E8C",
+    "text": "H-R  DW 04: 4 tag(s) here - count CLOSED"
+   },
+   {
+    "colour": "#3F9E8C",
+    "text": "H-S  DW 05: 1 tag(s) here - count CLOSED"
+   },
+   {
+    "colour": "#3F9E8C",
+    "text": "H-U  DW 07: 2 tag(s) here - count CLOSED"
+   },
+   {
+    "colour": "#3F9E8C",
+    "text": "H-EE  DW 17: 2 tag(s) here - count CLOSED"
+   },
+   {
+    "colour": "#2E7D5B",
+    "text": "J-C  129.12 m2  To floors, bathrooms and toilets"
+   },
+   {
+    "colour": "#215941",
+    "text": "J-D  809.72 m2  To floors, apartments"
+   },
+   {
+    "colour": "#3AA074",
+    "text": "J-E  168.69 m2  To floors, corridors and lobbies"
+   },
+   {
+    "colour": "#194432",
+    "text": "J-F  18.09 m2  To floors, service rooms"
+   },
+   {
+    "colour": "#45BB88",
+    "text": "J-G  334.83 m  To walls, bathrooms and toilets"
+   },
+   {
+    "colour": "#276A4D",
+    "text": "J-H  1,058.49 m  To walls, apartments"
+   },
+   {
+    "colour": "#2E7D5B",
+    "text": "J-J  240.74 m  To walls, corridors and lobbies"
+   },
+   {
+    "colour": "#215941",
+    "text": "J-K  32.27 m  To walls, service rooms"
+   },
+   {
+    "colour": "#3AA074",
+    "text": "J-L  1,242.39 m2  To walls, bathrooms and toilets"
+   },
+   {
+    "colour": "#194432",
+    "text": "J-M  3,865.20 m2  To walls, apartments"
+   },
+   {
+    "colour": "#45BB88",
+    "text": "J-N  878.16 m2  To walls, corridors and lobbies"
+   },
+   {
+    "colour": "#276A4D",
+    "text": "J-P  121.39 m2  To walls, service rooms"
+   },
+   {
+    "colour": "#2E7D5B",
+    "text": "J-Q  129.12 m2  To ceilings, bathrooms and toilets"
+   },
+   {
+    "colour": "#215941",
+    "text": "J-R  809.72 m2  To ceilings, apartments"
+   },
+   {
+    "colour": "#3AA074",
+    "text": "J-S  168.69 m2  To ceilings, corridors and lobbies"
+   },
+   {
+    "colour": "#194432",
+    "text": "J-T  18.09 m2  To ceilings, service rooms"
+   }
+  ],
+  "changes": {}
+ },
+ {
+  "file": "A-07-005 marked up.pdf",
+  "drawing": "A-07-005",
+  "title": "2ND FLOOR PLAN",
+  "kind": "plan",
+  "method": "TEXT",
+  "legend": [
+   {
+    "colour": "#C0703A",
+    "text": "D-A  25.52 m2  Walls, 150mm thick"
+   },
+   {
+    "colour": "#8A5029",
+    "text": "D-B  1,597.43 m2  Walls, 200mm thick"
+   },
+   {
+    "colour": "#F58F4A",
+    "text": "D-C  2.70 m2  Walls, 200mm thick, balcony partition, 1"
+   },
+   {
+    "colour": "#693D1F",
+    "text": "D-D  1,029.51 m2  Walls, 100mm thick"
+   },
+   {
+    "colour": "#B0913A",
+    "text": "G-B  115.13 m2  To horizontal surfaces, balconies"
+   },
+   {
+    "colour": "#7E6829",
+    "text": "G-D  142.39 m2  Horizontal surfaces"
+   },
+   {
+    "colour": "#D81919",
+    "text": "H-H  D-1: 2 tag(s) here - count OPEN"
+   },
+   {
+    "colour": "#3F9E8C",
+    "text": "H-J  D-2: 38 tag(s) here - count CLOSED"
+   },
+   {
+    "colour": "#3F9E8C",
+    "text": "H-K  D-5: 5 tag(s) here - count CLOSED"
+   },
+   {
+    "colour": "#3F9E8C",
+    "text": "H-L  D-3: 4 tag(s) here - count CLOSED"
+   },
+   {
+    "colour": "#3F9E8C",
+    "text": "H-M  D-4: 42 tag(s) here - count CLOSED"
+   },
+   {
+    "colour": "#3F9E8C",
+    "text": "H-Q  DW 03: 31 tag(s) here - count CLOSED"
+   },
+   {
+    "colour": "#3F9E8C",
+    "text": "H-R  DW 04: 4 tag(s) here - count CLOSED"
+   },
+   {
+    "colour": "#3F9E8C",
+    "text": "H-S  DW 05: 1 tag(s) here - count CLOSED"
+   },
+   {
+    "colour": "#3F9E8C",
+    "text": "H-T  DW 06: 2 tag(s) here - count CLOSED"
+   },
+   {
+    "colour": "#3F9E8C",
+    "text": "H-V  DW 08: 2 tag(s) here - count CLOSED"
+   },
+   {
+    "colour": "#3F9E8C",
+    "text": "H-W  DW 09: 2 tag(s) here - count CLOSED"
+   },
+   {
+    "colour": "#2E7D5B",
+    "text": "J-C  142.39 m2  To floors, bathrooms and toilets"
+   },
+   {
+    "colour": "#215941",
+    "text": "J-D  911.68 m2  To floors, apartments"
+   },
+   {
+    "colour": "#3AA074",
+    "text": "J-E  168.41 m2  To floors, corridors and lobbies"
+   },
+   {
+    "colour": "#194432",
+    "text": "J-F  19.48 m2  To floors, service rooms"
+   },
+   {
+    "colour": "#45BB88",
+    "text": "J-G  353.28 m  To walls, bathrooms and toilets"
+   },
+   {
+    "colour": "#276A4D",
+    "text": "J-H  1,282.08 m  To walls, apartments"
+   },
+   {
+    "colour": "#2E7D5B",
+    "text": "J-J  224.51 m  To walls, corridors and lobbies"
+   },
+   {
+    "colour": "#215941",
+    "text": "J-K  36.11 m  To walls, service rooms"
+   },
+   {
+    "colour": "#3AA074",
+    "text": "J-L  1,318.40 m2  To walls, bathrooms and toilets"
+   },
+   {
+    "colour": "#194432",
+    "text": "J-M  4,660.94 m2  To walls, apartments"
+   },
+   {
+    "colour": "#45BB88",
+    "text": "J-N  822.03 m2  To walls, corridors and lobbies"
+   },
+   {
+    "colour": "#276A4D",
+    "text": "J-P  135.02 m2  To walls, service rooms"
+   },
+   {
+    "colour": "#2E7D5B",
+    "text": "J-Q  142.39 m2  To ceilings, bathrooms and toilets"
+   },
+   {
+    "colour": "#215941",
+    "text": "J-R  911.68 m2  To ceilings, apartments"
+   },
+   {
+    "colour": "#3AA074",
+    "text": "J-S  168.41 m2  To ceilings, corridors and lobbies"
+   },
+   {
+    "colour": "#194432",
+    "text": "J-T  19.48 m2  To ceilings, service rooms"
+   }
+  ],
+  "changes": {}
+ },
+ {
+  "file": "A-07-006 marked up.pdf",
+  "drawing": "A-07-006",
+  "title": "3RD FLOOR PLAN",
+  "kind": "plan",
+  "method": "TEXT",
+  "legend": [
+   {
+    "colour": "#C0703A",
+    "text": "D-A  25.52 m2  Walls, 150mm thick"
+   },
+   {
+    "colour": "#8A5029",
+    "text": "D-B  1,560.47 m2  Walls, 200mm thick"
+   },
+   {
+    "colour": "#F58F4A",
+    "text": "D-C  34.58 m2  Walls, 200mm thick, balcony partition, 1"
+   },
+   {
+    "colour": "#693D1F",
+    "text": "D-D  1,024.22 m2  Walls, 100mm thick"
+   },
+   {
+    "colour": "#B0913A",
+    "text": "G-B  176.69 m2  To horizontal surfaces, balconies"
+   },
+   {
+    "colour": "#7E6829",
+    "text": "G-D  142.39 m2  Horizontal surfaces"
+   },
+   {
+    "colour": "#D81919",
+    "text": "H-H  D-1: 2 tag(s) here - count OPEN"
+   },
+   {
+    "colour": "#3F9E8C",
+    "text": "H-J  D-2: 38 tag(s) here - count CLOSED"
+   },
+   {
+    "colour": "#3F9E8C",
+    "text": "H-K  D-5: 5 tag(s) here - count CLOSED"
+   },
+   {
+    "colour": "#3F9E8C",
+    "text": "H-L  D-3: 4 tag(s) here - count CLOSED"
+   },
+   {
+    "colour": "#3F9E8C",
+    "text": "H-M  D-4: 42 tag(s) here - count CLOSED"
+   },
+   {
+    "colour": "#3F9E8C",
+    "text": "H-Q  DW 03: 31 tag(s) here - count CLOSED"
+   },
+   {
+    "colour": "#3F9E8C",
+    "text": "H-R  DW 04: 4 tag(s) here - count CLOSED"
+   },
+   {
+    "colour": "#3F9E8C",
+    "text": "H-S  DW 05: 1 tag(s) here - count CLOSED"
+   },
+   {
+    "colour": "#3F9E8C",
+    "text": "H-T  DW 06: 2 tag(s) here - count CLOSED"
+   },
+   {
+    "colour": "#3F9E8C",
+    "text": "H-V  DW 08: 2 tag(s) here - count CLOSED"
+   },
+   {
+    "colour": "#3F9E8C",
+    "text": "H-W  DW 09: 2 tag(s) here - count CLOSED"
+   },
+   {
+    "colour": "#2E7D5B",
+    "text": "J-C  142.39 m2  To floors, bathrooms and toilets"
+   },
+   {
+    "colour": "#215941",
+    "text": "J-D  925.00 m2  To floors, apartments"
+   },
+   {
+    "colour": "#3AA074",
+    "text": "J-E  168.41 m2  To floors, corridors and lobbies"
+   },
+   {
+    "colour": "#194432",
+    "text": "J-F  19.48 m2  To floors, service rooms"
+   },
+   {
+    "colour": "#45BB88",
+    "text": "J-G  353.28 m  To walls, bathrooms and toilets"
+   },
+   {
+    "colour": "#276A4D",
+    "text": "J-H  1,291.23 m  To walls, apartments"
+   },
+   {
+    "colour": "#2E7D5B",
+    "text": "J-J  224.51 m  To walls, corridors and lobbies"
+   },
+   {
+    "colour": "#215941",
+    "text": "J-K  36.11 m  To walls, service rooms"
+   },
+   {
+    "colour": "#3AA074",
+    "text": "J-L  1,318.40 m2  To walls, bathrooms and toilets"
+   },
+   {
+    "colour": "#194432",
+    "text": "J-M  4,696.02 m2  To walls, apartments"
+   },
+   {
+    "colour": "#45BB88",
+    "text": "J-N  822.03 m2  To walls, corridors and lobbies"
+   },
+   {
+    "colour": "#276A4D",
+    "text": "J-P  135.02 m2  To walls, service rooms"
+   },
+   {
+    "colour": "#2E7D5B",
+    "text": "J-Q  142.39 m2  To ceilings, bathrooms and toilets"
+   },
+   {
+    "colour": "#215941",
+    "text": "J-R  925.00 m2  To ceilings, apartments"
+   },
+   {
+    "colour": "#3AA074",
+    "text": "J-S  168.41 m2  To ceilings, corridors and lobbies"
+   },
+   {
+    "colour": "#194432",
+    "text": "J-T  19.48 m2  To ceilings, service rooms"
+   }
+  ],
+  "changes": {}
+ },
+ {
+  "file": "A-07-007 marked up.pdf",
+  "drawing": "A-07-007",
+  "title": "TYP ( 4 - 5 ) FLOOR PLAN",
+  "kind": "plan",
+  "method": "TEXT",
+  "legend": [
+   {
+    "colour": "#C0703A",
+    "text": "D-A  48.63 m2  Walls, 150mm thick"
+   },
+   {
+    "colour": "#8A5029",
+    "text": "D-B  3,244.69 m2  Walls, 200mm thick"
+   },
+   {
+    "colour": "#F58F4A",
+    "text": "D-C  5.22 m2  Walls, 200mm thick, balcony partition, 1"
+   },
+   {
+    "colour": "#693D1F",
+    "text": "D-D  2,016.38 m2  Walls, 100mm thick"
+   },
+   {
+    "colour": "#B0913A",
+    "text": "G-B  217.00 m2  To horizontal surfaces, balconies"
+   },
+   {
+    "colour": "#7E6829",
+    "text": "G-D  285.04 m2  Horizontal surfaces"
+   },
+   {
+    "colour": "#D81919",
+    "text": "H-H  D-1: 2 tag(s) here - count OPEN"
+   },
+   {
+    "colour": "#3F9E8C",
+    "text": "H-J  D-2: 38 tag(s) here - count CLOSED"
+   },
+   {
+    "colour": "#3F9E8C",
+    "text": "H-K  D-5: 5 tag(s) here - count CLOSED"
+   },
+   {
+    "colour": "#3F9E8C",
+    "text": "H-L  D-3: 4 tag(s) here - count CLOSED"
+   },
+   {
+    "colour": "#3F9E8C",
+    "text": "H-M  D-4: 42 tag(s) here - count CLOSED"
+   },
+   {
+    "colour": "#3F9E8C",
+    "text": "H-Q  DW 03: 31 tag(s) here - count CLOSED"
+   },
+   {
+    "colour": "#3F9E8C",
+    "text": "H-R  DW 04: 4 tag(s) here - count CLOSED"
+   },
+   {
+    "colour": "#3F9E8C",
+    "text": "H-S  DW 05: 1 tag(s) here - count CLOSED"
+   },
+   {
+    "colour": "#3F9E8C",
+    "text": "H-T  DW 06: 2 tag(s) here - count CLOSED"
+   },
+   {
+    "colour": "#3F9E8C",
+    "text": "H-V  DW 08: 2 tag(s) here - count CLOSED"
+   },
+   {
+    "colour": "#3F9E8C",
+    "text": "H-W  DW 09: 2 tag(s) here - count CLOSED"
+   },
+   {
+    "colour": "#2E7D5B",
+    "text": "J-C  285.04 m2  To floors, bathrooms and toilets"
+   },
+   {
+    "colour": "#215941",
+    "text": "J-D  1,825.56 m2  To floors, apartments"
+   },
+   {
+    "colour": "#3AA074",
+    "text": "J-E  336.86 m2  To floors, corridors and lobbies"
+   },
+   {
+    "colour": "#194432",
+    "text": "J-F  38.18 m2  To floors, service rooms"
+   },
+   {
+    "colour": "#45BB88",
+    "text": "J-G  706.56 m  To walls, bathrooms and toilets"
+   },
+   {
+    "colour": "#276A4D",
+    "text": "J-H  2,442.54 m  To walls, apartments"
+   },
+   {
+    "colour": "#2E7D5B",
+    "text": "J-J  446.60 m  To walls, corridors and lobbies"
+   },
+   {
+    "colour": "#215941",
+    "text": "J-K  68.48 m  To walls, service rooms"
+   },
+   {
+    "colour": "#3AA074",
+    "text": "J-L  2,636.81 m2  To walls, bathrooms and toilets"
+   },
+   {
+    "colour": "#194432",
+    "text": "J-M  8,890.12 m2  To walls, apartments"
+   },
+   {
+    "colour": "#45BB88",
+    "text": "J-N  1,638.44 m2  To walls, corridors and lobbies"
+   },
+   {
+    "colour": "#276A4D",
+    "text": "J-P  256.76 m2  To walls, service rooms"
+   },
+   {
+    "colour": "#2E7D5B",
+    "text": "J-Q  285.04 m2  To ceilings, bathrooms and toilets"
+   },
+   {
+    "colour": "#215941",
+    "text": "J-R  1,825.56 m2  To ceilings, apartments"
+   },
+   {
+    "colour": "#3AA074",
+    "text": "J-S  336.86 m2  To ceilings, corridors and lobbies"
+   },
+   {
+    "colour": "#194432",
+    "text": "J-T  38.18 m2  To ceilings, service rooms"
+   }
+  ],
+  "changes": {}
+ },
+ {
+  "file": "A-07-008 marked up.pdf",
+  "drawing": "A-07-008",
+  "title": "LOWER ROOF PLAN",
+  "kind": "plan",
+  "method": "TEXT",
+  "legend": [
+   {
+    "colour": "#C0703A",
+    "text": "D-A  20.10 m2  Walls, 150mm thick"
+   },
+   {
+    "colour": "#8A5029",
+    "text": "D-B  428.56 m2  Walls, 200mm thick"
+   },
+   {
+    "colour": "#F58F4A",
+    "text": "D-D  114.84 m2  Walls, 100mm thick"
+   },
+   {
+    "colour": "#B0913A",
+    "text": "G-A  857.51 m2  To horizontal surfaces, roofs and terrac"
+   },
+   {
+    "colour": "#7E6829",
+    "text": "G-D  15.04 m2  Horizontal surfaces"
+   },
+   {
+    "colour": "#3F9E8C",
+    "text": "H-A  D-6: 3 tag(s) here - count CLOSED"
+   },
+   {
+    "colour": "#3F9E8C",
+    "text": "H-F  SD-2: 1 tag(s) here - count CLOSED"
+   },
+   {
+    "colour": "#D81919",
+    "text": "H-H  D-1: 2 tag(s) here - count OPEN"
+   },
+   {
+    "colour": "#3F9E8C",
+    "text": "H-K  D-5: 3 tag(s) here - count CLOSED"
+   },
+   {
+    "colour": "#3F9E8C",
+    "text": "H-L  D-3: 4 tag(s) here - count CLOSED"
+   },
+   {
+    "colour": "#3F9E8C",
+    "text": "H-X  DW 10: 2 tag(s) here - count CLOSED"
+   },
+   {
+    "colour": "#3F9E8C",
+    "text": "H-Y  DW 11: 4 tag(s) here - count CLOSED"
+   },
+   {
+    "colour": "#3F9E8C",
+    "text": "H-Z  DW 12: 2 tag(s) here - count CLOSED"
+   },
+   {
+    "colour": "#3F9E8C",
+    "text": "H-AA  DW 13: 1 tag(s) here - count CLOSED"
+   },
+   {
+    "colour": "#3F9E8C",
+    "text": "H-BB  DW 14: 1 tag(s) here - count CLOSED"
+   },
+   {
+    "colour": "#3F9E8C",
+    "text": "H-CC  DW 15: 1 tag(s) here - count CLOSED"
+   },
+   {
+    "colour": "#3F9E8C",
+    "text": "H-DD  DW 16: 1 tag(s) here - count CLOSED"
+   },
+   {
+    "colour": "#2E7D5B",
+    "text": "J-C  15.04 m2  To floors, bathrooms and toilets"
+   },
+   {
+    "colour": "#215941",
+    "text": "J-E  473.76 m2  To floors, corridors and lobbies"
+   },
+   {
+    "colour": "#3AA074",
+    "text": "J-F  21.22 m2  To floors, service rooms"
+   },
+   {
+    "colour": "#194432",
+    "text": "J-G  30.57 m  To walls, bathrooms and toilets"
+   },
+   {
+    "colour": "#45BB88",
+    "text": "J-J  398.37 m  To walls, corridors and lobbies"
+   },
+   {
+    "colour": "#276A4D",
+    "text": "J-K  30.42 m  To walls, service rooms"
+   },
+   {
+    "colour": "#2E7D5B",
+    "text": "J-L  102.41 m2  To walls, bathrooms and toilets"
+   },
+   {
+    "colour": "#215941",
+    "text": "J-N  1,344.70 m2  To walls, corridors and lobbies"
+   },
+   {
+    "colour": "#3AA074",
+    "text": "J-P  106.54 m2  To walls, service rooms"
+   },
+   {
+    "colour": "#194432",
+    "text": "J-Q  15.04 m2  To ceilings, bathrooms and toilets"
+   },
+   {
+    "colour": "#45BB88",
+    "text": "J-S  473.76 m2  To ceilings, corridors and lobbies"
+   },
+   {
+    "colour": "#276A4D",
+    "text": "J-T  21.22 m2  To ceilings, service rooms"
+   }
+  ],
+  "changes": {}
+ },
+ {
+  "file": "A-07-009 marked up.pdf",
+  "drawing": "A-07-009",
+  "title": "UPPER ROOF PLAN",
+  "kind": "plan",
+  "method": "MIXED",
+  "legend": [
+   {
+    "colour": "#D81919",
+    "text": "H-H  D-1: 1 tag(s) here - count OPEN"
+   },
+   {
+    "colour": "#3F9E8C",
+    "text": "H-Y  DW 11: 3 tag(s) here - count CLOSED"
+   },
+   {
+    "colour": "#3F9E8C",
+    "text": "H-Z  DW 12: 1 tag(s) here - count CLOSED"
+   }
+  ],
+  "changes": {}
+ },
+ {
+  "file": "A-13-001 marked up.pdf",
+  "drawing": "A-13-001",
+  "title": "SCHEDULE OF DOORS",
+  "kind": "schedule",
+  "method": "MIXED",
+  "legend": [
+   {
+    "colour": "#D81919",
+    "text": "D-1: NO. 20 read - plans 19 - OPEN"
+   },
+   {
+    "colour": "#3F9E8C",
+    "text": "D-2: NO. 185 read - plans 185 - CLOSED"
+   },
+   {
+    "colour": "#3F9E8C",
+    "text": "D-3: NO. 28 read - plans 28 - CLOSED"
+   },
+   {
+    "colour": "#3F9E8C",
+    "text": "D-4: NO. 206 read - plans 206 - CLOSED"
+   },
+   {
+    "colour": "#3F9E8C",
+    "text": "D-5: NO. 28 read - plans 28 - CLOSED"
+   },
+   {
+    "colour": "#3F9E8C",
+    "text": "D-6: NO. 5 read - plans 5 - CLOSED"
+   },
+   {
+    "colour": "#3F9E8C",
+    "text": "LD-1: NO. 1 read - plans 1 - CLOSED"
+   },
+   {
+    "colour": "#D81919",
+    "text": "LD-2: NO. 1 read - plans 0 - OPEN"
+   },
+   {
+    "colour": "#D81919",
+    "text": "LD-3: NO. 1 read - plans 0 - OPEN"
+   },
+   {
+    "colour": "#3F9E8C",
+    "text": "SD-1: NO. 1 read - plans 1 - CLOSED"
+   },
+   {
+    "colour": "#3F9E8C",
+    "text": "SD-2: NO. 3 read - plans 3 - CLOSED"
+   },
+   {
+    "colour": "#3F9E8C",
+    "text": "SD-3: NO. 1 read - plans 1 - CLOSED"
+   }
+  ],
+  "changes": {}
+ },
+ {
+  "file": "A-13-002 marked up.pdf",
+  "drawing": "A-13-002",
+  "title": "SCHEDULE OF WINDOWS-01",
+  "kind": "schedule",
+  "method": "MIXED",
+  "legend": [
+   {
+    "colour": "#D81919",
+    "text": "DW 01: NO. 1 read - plans 2 - OPEN"
+   },
+   {
+    "colour": "#D81919",
+    "text": "DW 02: NO. 1 read - plans 0 - OPEN"
+   },
+   {
+    "colour": "#3F9E8C",
+    "text": "DW 03: NO. 152 read - plans 152 - CLOSED"
+   },
+   {
+    "colour": "#3F9E8C",
+    "text": "DW 04: NO. 10 read - plans 10 - CLOSED"
+   },
+   {
+    "colour": "#3F9E8C",
+    "text": "DW 05: NO. 5 read - plans 5 - CLOSED"
+   },
+   {
+    "colour": "#3F9E8C",
+    "text": "DW 06: NO. 4 read - plans 4 - CLOSED"
+   },
+   {
+    "colour": "#3F9E8C",
+    "text": "DW 07: NO. 1 read - plans 1 - CLOSED"
+   },
+   {
+    "colour": "#3F9E8C",
+    "text": "DW 08: NO. 8 read - plans 8 - CLOSED"
+   },
+   {
+    "colour": "#3F9E8C",
+    "text": "DW 09: NO. 4 read - plans 4 - CLOSED"
+   },
+   {
+    "colour": "#3F9E8C",
+    "text": "DW 10: NO. 1 read - plans 1 - CLOSED"
+   },
+   {
+    "colour": "#3F9E8C",
+    "text": "DW 12: NO. 1 read - plans 1 - CLOSED"
+   }
+  ],
+  "changes": {}
+ },
+ {
+  "file": "A-13-003 marked up.pdf",
+  "drawing": "A-13-003",
+  "title": "SCHEDULE OF WINDOWS-02",
+  "kind": "schedule",
+  "method": "MIXED",
+  "legend": [
+   {
+    "colour": "#3F9E8C",
+    "text": "DW 11: NO. 1 read - plans 1 - CLOSED"
+   },
+   {
+    "colour": "#3F9E8C",
+    "text": "DW 13: NO. 1 read - plans 1 - CLOSED"
+   },
+   {
+    "colour": "#3F9E8C",
+    "text": "DW 14: NO. 1 read - plans 1 - CLOSED"
+   },
+   {
+    "colour": "#3F9E8C",
+    "text": "DW 15: NO. 1 read - plans 1 - CLOSED"
+   },
+   {
+    "colour": "#3F9E8C",
+    "text": "DW 16: NO. 1 read - plans 1 - CLOSED"
+   },
+   {
+    "colour": "#3F9E8C",
+    "text": "DW 17: NO. 1 read - plans 1 - CLOSED"
+   },
+   {
+    "colour": "#3F9E8C",
+    "text": "DW 18: NO. 1 read - plans 1 - CLOSED"
+   },
+   {
+    "colour": "#3F9E8C",
+    "text": "DW 19: NO. 1 read - plans 1 - CLOSED"
+   },
+   {
+    "colour": "#3F9E8C",
+    "text": "LW 01: NO. 1 read - plans 1 - CLOSED"
+   },
+   {
+    "colour": "#3F9E8C",
+    "text": "LW 02: NO. 1 read - plans 1 - CLOSED"
+   },
+   {
+    "colour": "#D81919",
+    "text": "LW 03: NO. 1 read - plans 0 - OPEN"
+   }
+  ],
+  "changes": {}
+ }
+]

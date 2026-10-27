@@ -1,0 +1,41 @@
+# AETRAA Delivery Engine — every installed agent's Python dependencies.
+#
+# One line per package, with the agent that needs it and what breaks without it.
+# A package that will not install does NOT abort the installer; it is reported
+# by name, and the agent that needs it says so at its own preflight.
+
+# ── read and write the drawing and the workbook (every agent) ──────────────
+PyMuPDF>=1.24.0          # PDF read, vector geometry, markup
+openpyxl>=3.1.0          # workbook build
+Pillow>=10.0.0           # rasterise, 600 dpi greyscale
+pdfplumber>=0.11.0       # PDF text and table read
+python-docx>=1.1.0       # report and TQ documents
+
+# ── native CAD ─────────────────────────────────────────────────────────────
+ezdxf>=1.1               # DXF tier — schedule counts and MEP sizes
+
+# ── vector geometry ────────────────────────────────────────────────────────
+shapely>=2.0             # pomi_takeoff: region assembly.
+                         # WITHOUT IT extract_geometry RETURNS NOTHING and the
+                         # run still completes — a silent empty take-off.
+                         # doctor.py rates this FAIL, not WARN, for that reason.
+
+# ── OCR, raster-tier drawing sets only ─────────────────────────────────────
+pytesseract>=0.3.10      # needs the tesseract binary too (brew install tesseract)
+
+# ── macOS text recognition, used ahead of tesseract where present ──────────
+pyobjc-framework-Vision>=10.0 ; sys_platform == "darwin"
+pyobjc-framework-Quartz>=10.0 ; sys_platform == "darwin"
+
+# ── the model calls (Deep Dive) ────────────────────────────────────────────
+# Optional. Every agent's script half runs without it; only the reading and
+# judging seats need it. Listed last because it is the one most likely to fail
+# to build, and nothing else should be lost when it does.
+claude-agent-sdk>=0.1.0
+
+# ── NOT pip-installable — install these separately ─────────────────────────
+#   LibreOffice   REQUIRED by pomi_takeoff. Without it the build gate fails:
+#                 the workbook's totals would ship blank.
+#                 macOS:  brew install --cask libreoffice
+#   tesseract     Raster-tier drawing sets only. Vector sets do not need it.
+#                 macOS:  brew install tesseract

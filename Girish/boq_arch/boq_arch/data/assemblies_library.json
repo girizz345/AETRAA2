@@ -1,0 +1,409 @@
+[
+ {
+  "id": "block-wall",
+  "name": "Block wall (both faces plastered)",
+  "measure": "length",
+  "params": [
+   {
+    "name": "T",
+    "label": "Wall thickness (mm)",
+    "default": 200
+   },
+   {
+    "name": "H",
+    "label": "Wall height (m)",
+    "default": 3.55
+   }
+  ],
+  "outputs": [
+   {
+    "section": "D",
+    "clause": "D2.1",
+    "heads": [
+     "Walls"
+    ],
+    "desc": "Concrete block, bedded and jointed in cement mortar complete in accordance with the Specifications and Drawings",
+    "sub": "Block Walls",
+    "item": "Walls, {T}mm thick",
+    "formula": "L*H"
+   },
+   {
+    "section": "J",
+    "clause": "J3.1.2",
+    "heads": [
+     "Internal Finishes",
+     "Finishing"
+    ],
+    "uhead": "Walls",
+    "desc": "20mm thick cement mortar plaster complete in accordance with the Specifications and Drawings",
+    "item": "To walls, as measured",
+    "formula": "2*L*H"
+   }
+  ]
+ },
+ {
+  "id": "block-wall-external",
+  "name": "External block wall (inner face plastered)",
+  "measure": "length",
+  "params": [
+   {
+    "name": "T",
+    "label": "Wall thickness (mm)",
+    "default": 200
+   },
+   {
+    "name": "H",
+    "label": "Wall height (m)",
+    "default": 3.55
+   }
+  ],
+  "outputs": [
+   {
+    "section": "D",
+    "clause": "D2.1",
+    "heads": [
+     "Walls"
+    ],
+    "desc": "Concrete block, bedded and jointed in cement mortar complete in accordance with the Specifications and Drawings",
+    "sub": "Block Walls",
+    "item": "Walls, {T}mm thick",
+    "formula": "L*H"
+   },
+   {
+    "section": "J",
+    "clause": "J3.1.2",
+    "heads": [
+     "Internal Finishes",
+     "Finishing"
+    ],
+    "uhead": "Walls",
+    "desc": "20mm thick cement mortar plaster complete in accordance with the Specifications and Drawings",
+    "item": "To walls, as measured",
+    "formula": "L*H"
+   }
+  ]
+ },
+ {
+  "id": "room-finishes",
+  "name": "Room finishes (floor, skirting, walls, ceiling)",
+  "measure": "area",
+  "params": [
+   {
+    "name": "H",
+    "label": "Floor to ceiling (m)",
+    "default": 3.55
+   },
+   {
+    "name": "D",
+    "label": "Door widths to deduct from skirting (m)",
+    "default": 0
+   }
+  ],
+  "outputs": [
+   {
+    "section": "J",
+    "clause": "J3.1.1",
+    "heads": [
+     "Internal Finishes",
+     "Finishing"
+    ],
+    "uhead": "Floors",
+    "desc": "Floor finish complete in accordance with the Specifications and Drawings",
+    "item": "To floors, as measured",
+    "formula": "A"
+   },
+   {
+    "section": "J",
+    "clause": "J3.2",
+    "heads": [
+     "Internal Finishes",
+     "Finishing"
+    ],
+    "uhead": "Skirtings",
+    "desc": "Skirting complete in accordance with the Specifications and Drawings",
+    "item": "To walls, as measured",
+    "formula": "max(P - D, 0)"
+   },
+   {
+    "section": "J",
+    "clause": "J3.1.2",
+    "heads": [
+     "Internal Finishes",
+     "Finishing"
+    ],
+    "uhead": "Walls",
+    "desc": "20mm thick cement mortar plaster complete in accordance with the Specifications and Drawings",
+    "item": "To walls, as measured",
+    "formula": "P*H"
+   },
+   {
+    "section": "J",
+    "clause": "J3.1.3",
+    "heads": [
+     "Internal Finishes",
+     "Finishing"
+    ],
+    "uhead": "Ceilings",
+    "desc": "Ceiling finish complete in accordance with the Specifications and Drawings",
+    "item": "To ceilings, as measured",
+    "formula": "A"
+   }
+  ]
+ },
+ {
+  "id": "wet-area",
+  "name": "Wet area floor (waterproofing + tiles, 300mm upturn)",
+  "measure": "area",
+  "params": [
+   {
+    "name": "U",
+    "label": "Waterproofing upturn (m)",
+    "default": 0.3
+   }
+  ],
+  "outputs": [
+   {
+    "section": "G",
+    "clause": "G2.1",
+    "heads": [
+     "Damp-proof Courses",
+     "Superstructure Waterproofing System"
+    ],
+    "desc": "Superstructure waterproofing system including background complete in accordance with the Specifications and Drawings",
+    "sub": "To Internal Wet Areas;",
+    "item": "Horizontal surfaces",
+    "formula": "A"
+   },
+   {
+    "section": "G",
+    "clause": "G2.1",
+    "heads": [
+     "Damp-proof Courses",
+     "Superstructure Waterproofing System"
+    ],
+    "desc": "Superstructure waterproofing system including background complete in accordance with the Specifications and Drawings",
+    "sub": "To Internal Wet Areas;",
+    "item": "Vertical surfaces",
+    "formula": "P*U"
+   }
+  ]
+ },
+ {
+  "id": "roof",
+  "name": "Roof waterproofing (flat)",
+  "measure": "area",
+  "params": [],
+  "outputs": [
+   {
+    "section": "G",
+    "clause": "G2.1",
+    "heads": [
+     "Roof Coverings"
+    ],
+    "uhead": "Waterproofing",
+    "desc": "Roof waterproofing system complete in accordance with the Specifications and Drawings",
+    "item": "To horizontal surfaces, as measured",
+    "formula": "A"
+   }
+  ]
+ },
+ {
+  "id": "roof-sloping",
+  "name": "Roof covering (sloping - give the slope)",
+  "measure": "area",
+  "params": [],
+  "outputs": [
+   {
+    "section": "G",
+    "clause": "G2.1",
+    "heads": [
+     "Roof Coverings"
+    ],
+    "uhead": "Waterproofing",
+    "desc": "Roof waterproofing system complete in accordance with the Specifications and Drawings",
+    "item": "To sloping surfaces, as measured",
+    "formula": "A"
+   }
+  ]
+ },
+ {
+  "id": "ramp",
+  "name": "Ramp / sloping floor finish (give the slope)",
+  "measure": "area",
+  "params": [],
+  "outputs": [
+   {
+    "section": "J",
+    "clause": "J3.1.1",
+    "heads": [
+     "Internal Finishes",
+     "Finishing"
+    ],
+    "uhead": "Floors",
+    "desc": "Floor finish complete in accordance with the Specifications and Drawings",
+    "item": "To floors, sloping, as measured",
+    "formula": "A"
+   }
+  ]
+ },
+ {
+  "id": "external-finish",
+  "name": "External wall finish (measure on an elevation)",
+  "measure": "area",
+  "params": [
+   {
+    "name": "finish",
+    "label": "Finish",
+    "type": "text",
+    "default": "paint"
+   }
+  ],
+  "outputs": [
+   {
+    "section": "J",
+    "clause": "J3.1.2",
+    "heads": [
+     "External Finishes",
+     "Finishing"
+    ],
+    "uhead": "Walls",
+    "desc": "External wall finish complete in accordance with the Specifications and Drawings",
+    "item": "To external walls, {finish}",
+    "formula": "A"
+   }
+  ]
+ },
+ {
+  "id": "external-paint",
+  "name": "External paint (measure on an elevation)",
+  "measure": "area",
+  "params": [],
+  "outputs": [
+   {
+    "section": "J",
+    "clause": "J6.3",
+    "heads": [
+     "External Finishes",
+     "Decoration"
+    ],
+    "uhead": "Walls",
+    "desc": "Emulsion paint system to external walls complete in accordance with the Specifications and Drawings",
+    "item": "Decoration to external walls, as measured",
+    "formula": "A"
+   }
+  ]
+ },
+ {
+  "id": "skirting",
+  "name": "Skirting run",
+  "measure": "length",
+  "params": [],
+  "outputs": [
+   {
+    "section": "J",
+    "clause": "J3.2",
+    "heads": [
+     "Internal Finishes",
+     "Finishing"
+    ],
+    "uhead": "Skirtings",
+    "desc": "Skirting complete in accordance with the Specifications and Drawings",
+    "item": "To walls, as measured",
+    "formula": "L"
+   }
+  ]
+ },
+ {
+  "id": "dpc",
+  "name": "Damp proof course",
+  "measure": "length",
+  "params": [],
+  "outputs": [
+   {
+    "section": "G",
+    "clause": "G3.1",
+    "heads": [
+     "Damp-proof Courses"
+    ],
+    "uhead": "Damp Proof Course",
+    "desc": "Damp proof course complete in accordance with the Specifications and Drawings",
+    "item": "To walls",
+    "formula": "L"
+   }
+  ]
+ },
+ {
+  "id": "railing",
+  "name": "Balustrade / railing",
+  "measure": "length",
+  "params": [
+   {
+    "name": "Ht",
+    "label": "Height (mm)",
+    "default": 1200
+   }
+  ],
+  "outputs": [
+   {
+    "section": "E",
+    "clause": "E3.2",
+    "heads": [
+     "Balustrades"
+    ],
+    "desc": "Balustrade complete in accordance with the Specifications and Drawings",
+    "item": "Balustrade, {Ht}mm high",
+    "formula": "L"
+   }
+  ]
+ },
+ {
+  "id": "door",
+  "name": "Door (count)",
+  "measure": "count",
+  "params": [
+   {
+    "name": "mark",
+    "label": "Door type / mark",
+    "type": "text",
+    "default": "D-1"
+   }
+  ],
+  "outputs": [
+   {
+    "section": "H",
+    "clause": "H1.1",
+    "heads": [
+     "Doors"
+    ],
+    "desc": "Doors complete in accordance with the Specifications, Schedule and Drawings",
+    "item": "Door, type {mark}",
+    "formula": "N"
+   }
+  ]
+ },
+ {
+  "id": "window",
+  "name": "Window (count)",
+  "measure": "count",
+  "params": [
+   {
+    "name": "mark",
+    "label": "Window type / mark",
+    "type": "text",
+    "default": "W-1"
+   }
+  ],
+  "outputs": [
+   {
+    "section": "H",
+    "clause": "H2.1",
+    "heads": [
+     "Windows"
+    ],
+    "desc": "Windows complete with frames in accordance with the Specifications, Schedule and Drawings",
+    "item": "Window, type {mark}",
+    "formula": "N"
+   }
+  ]
+ }
+]

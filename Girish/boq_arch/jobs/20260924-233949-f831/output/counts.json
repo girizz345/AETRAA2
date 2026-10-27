@@ -1,0 +1,481 @@
+{
+ "D1": {
+  "mark": "D-1",
+  "schedule": 20,
+  "schedule_sheet": "A-13-001",
+  "location": "STAIRCASE",
+  "plan": {
+   "A-07-001": 1,
+   "A-07-003": 4,
+   "A-07-004": 3,
+   "A-07-005": 2,
+   "A-07-006": 2,
+   "A-07-007": 4,
+   "A-07-008": 2,
+   "A-07-009": 1
+  },
+  "outside": {},
+  "plan_total": 19,
+  "status": "OPEN",
+  "note": ""
+ },
+ "D2": {
+  "mark": "D-2",
+  "schedule": 185,
+  "schedule_sheet": "A-13-001",
+  "location": "APARTMENT ENTRANCE (1ST TO 5TH FLOOR)",
+  "plan": {
+   "A-07-004": 33,
+   "A-07-005": 38,
+   "A-07-006": 38,
+   "A-07-007": 76
+  },
+  "outside": {},
+  "plan_total": 185,
+  "status": "CLOSED",
+  "note": ""
+ },
+ "D3": {
+  "mark": "D-3",
+  "schedule": 28,
+  "schedule_sheet": "A-13-001",
+  "location": "UTILITY ENTRANCE (1ST FLR ,LOWER FLOOR) BEDROOM,WATCHMAN RM (GF,1ST TO 5TH)",
+  "plan": {
+   "A-07-003": 1,
+   "A-07-004": 7,
+   "A-07-005": 4,
+   "A-07-006": 4,
+   "A-07-007": 8,
+   "A-07-008": 4
+  },
+  "outside": {},
+  "plan_total": 28,
+  "status": "CLOSED",
+  "note": ""
+ },
+ "D4": {
+  "mark": "D-4",
+  "schedule": 206,
+  "schedule_sheet": "A-13-001",
+  "location": "TOILET, BATH ROOM (GF,1ST TO 5TH FLOOR)",
+  "plan": {
+   "A-07-003": 1,
+   "A-07-004": 37,
+   "A-07-005": 42,
+   "A-07-006": 42,
+   "A-07-007": 84
+  },
+  "outside": {},
+  "plan_total": 206,
+  "status": "CLOSED",
+  "note": ""
+ },
+ "D5": {
+  "mark": "D-5",
+  "schedule": 28,
+  "schedule_sheet": "A-13-001",
+  "location": "WATER METER RM.,TELE.RM., GARBAGE RM.,ELECT. RM. (1ST TO 5TH FLOOR,LOWER RF)",
+  "plan": {
+   "A-07-004": 5,
+   "A-07-005": 5,
+   "A-07-006": 5,
+   "A-07-007": 10,
+   "A-07-008": 3
+  },
+  "outside": {},
+  "plan_total": 28,
+  "status": "CLOSED",
+  "note": ""
+ },
+ "D6": {
+  "mark": "D-6",
+  "schedule": 5,
+  "schedule_sheet": "A-13-001",
+  "location": "GYM,OUTDOOR DECK,SER.RF (1ST FLR,LOWER FLOOR)",
+  "plan": {
+   "A-07-004": 2,
+   "A-07-008": 3
+  },
+  "outside": {},
+  "plan_total": 5,
+  "status": "CLOSED",
+  "note": ""
+ },
+ "DW1": {
+  "mark": "DW 01",
+  "schedule": 1,
+  "schedule_sheet": "A-13-002",
+  "location": "MAIN ENTRANCE",
+  "plan": {
+   "A-07-003": 1,
+   "A-07-004": 1
+  },
+  "outside": {},
+  "plan_total": 2,
+  "status": "OPEN",
+  "note": ""
+ },
+ "DW10": {
+  "mark": "DW 10",
+  "schedule": 1,
+  "schedule_sheet": "A-13-002",
+  "location": "GYMNASIUM (M) (LOWER ROOF)",
+  "plan": {
+   "A-07-008": 1
+  },
+  "outside": {},
+  "plan_total": 1,
+  "status": "CLOSED",
+  "note": ""
+ },
+ "DW11": {
+  "mark": "DW 11",
+  "schedule": 1,
+  "schedule_sheet": "A-13-003",
+  "location": "GYMNASIUM (M,F) (LOWER ROOF)",
+  "plan": {
+   "A-07-008": 1
+  },
+  "outside": {
+   "A-07-009": 1
+  },
+  "plan_total": 1,
+  "status": "CLOSED",
+  "note": ""
+ },
+ "DW12": {
+  "mark": "DW 12",
+  "schedule": 1,
+  "schedule_sheet": "A-13-002",
+  "location": "GYMNASIUM (F) (LOWER ROOF)",
+  "plan": {
+   "A-07-008": 1
+  },
+  "outside": {
+   "A-07-009": 1
+  },
+  "plan_total": 1,
+  "status": "CLOSED",
+  "note": ""
+ },
+ "DW13": {
+  "mark": "DW 13",
+  "schedule": 1,
+  "schedule_sheet": "A-13-003",
+  "location": "GYMNASIUM (F) (LOWER ROOF)",
+  "plan": {
+   "A-07-008": 1
+  },
+  "outside": {},
+  "plan_total": 1,
+  "status": "CLOSED",
+  "note": ""
+ },
+ "DW14": {
+  "mark": "DW 14",
+  "schedule": 1,
+  "schedule_sheet": "A-13-003",
+  "location": "GYMNASIUM (M) (LOWER ROOF)",
+  "plan": {
+   "A-07-008": 1
+  },
+  "outside": {},
+  "plan_total": 1,
+  "status": "CLOSED",
+  "note": ""
+ },
+ "DW15": {
+  "mark": "DW 15",
+  "schedule": 1,
+  "schedule_sheet": "A-13-003",
+  "location": "CORRIDOR (LOWER ROOF)",
+  "plan": {
+   "A-07-008": 1
+  },
+  "outside": {},
+  "plan_total": 1,
+  "status": "CLOSED",
+  "note": ""
+ },
+ "DW16": {
+  "mark": "DW 16",
+  "schedule": 1,
+  "schedule_sheet": "A-13-003",
+  "location": "CORRIDOR (LOWER ROOF)",
+  "plan": {
+   "A-07-008": 1
+  },
+  "outside": {},
+  "plan_total": 1,
+  "status": "CLOSED",
+  "note": ""
+ },
+ "DW17": {
+  "mark": "DW 17",
+  "schedule": 1,
+  "schedule_sheet": "A-13-003",
+  "location": "DINING / LIVING,BEDRM (1ST FLOOR)",
+  "plan": {
+   "A-07-004": 1
+  },
+  "outside": {},
+  "plan_total": 1,
+  "status": "CLOSED",
+  "note": ""
+ },
+ "DW18": {
+  "mark": "DW 18",
+  "schedule": 1,
+  "schedule_sheet": "A-13-003",
+  "location": "WATCHMAN /CCTV (GROUND FLOOR)",
+  "plan": {
+   "A-07-003": 1
+  },
+  "outside": {},
+  "plan_total": 1,
+  "status": "CLOSED",
+  "note": ""
+ },
+ "DW19": {
+  "mark": "DW 19",
+  "schedule": 1,
+  "schedule_sheet": "A-13-003",
+  "location": "REAR ENT.LIFT LOBBY (GROUND FLOOR)",
+  "plan": {
+   "A-07-003": 1
+  },
+  "outside": {},
+  "plan_total": 1,
+  "status": "CLOSED",
+  "note": ""
+ },
+ "DW2": {
+  "mark": "DW 02",
+  "schedule": 1,
+  "schedule_sheet": "A-13-002",
+  "location": "LIFT LOBBY (BASEMENT FLOOR)",
+  "plan": {},
+  "outside": {},
+  "plan_total": 0,
+  "status": "OPEN",
+  "note": "its location is on B1, which has no plan in the set"
+ },
+ "DW3": {
+  "mark": "DW 03",
+  "schedule": 152,
+  "schedule_sheet": "A-13-002",
+  "location": "DINING / LIVING (1ST TO 5TH FLOOR)",
+  "plan": {
+   "A-07-004": 28,
+   "A-07-005": 31,
+   "A-07-006": 31,
+   "A-07-007": 62
+  },
+  "outside": {},
+  "plan_total": 152,
+  "status": "CLOSED",
+  "note": ""
+ },
+ "DW4": {
+  "mark": "DW 04",
+  "schedule": 10,
+  "schedule_sheet": "A-13-002",
+  "location": "DINING / LIVING,BEDRM (1ST TO 5TH FLOOR)",
+  "plan": {
+   "A-07-004": 2,
+   "A-07-005": 2,
+   "A-07-006": 2,
+   "A-07-007": 4
+  },
+  "outside": {},
+  "plan_total": 10,
+  "status": "CLOSED",
+  "note": ""
+ },
+ "DW5": {
+  "mark": "DW 05",
+  "schedule": 5,
+  "schedule_sheet": "A-13-002",
+  "location": "DINING / LIVING (1ST TO 5TH FLOOR)",
+  "plan": {
+   "A-07-004": 1,
+   "A-07-005": 1,
+   "A-07-006": 1,
+   "A-07-007": 2
+  },
+  "outside": {},
+  "plan_total": 5,
+  "status": "CLOSED",
+  "note": ""
+ },
+ "DW6": {
+  "mark": "DW 06",
+  "schedule": 4,
+  "schedule_sheet": "A-13-002",
+  "location": "DINING / LIVING,BEDRM (2ND TO 5TH FLOOR)",
+  "plan": {
+   "A-07-005": 1,
+   "A-07-006": 1,
+   "A-07-007": 2
+  },
+  "outside": {},
+  "plan_total": 4,
+  "status": "CLOSED",
+  "note": ""
+ },
+ "DW7": {
+  "mark": "DW 07",
+  "schedule": 1,
+  "schedule_sheet": "A-13-002",
+  "location": "DINING / LIVING,BEDRM (1ST FLOOR)",
+  "plan": {
+   "A-07-004": 1
+  },
+  "outside": {},
+  "plan_total": 1,
+  "status": "CLOSED",
+  "note": ""
+ },
+ "DW8": {
+  "mark": "DW 08",
+  "schedule": 8,
+  "schedule_sheet": "A-13-002",
+  "location": "DINING / LIVING (2ND TO 5TH FLOOR)",
+  "plan": {
+   "A-07-005": 2,
+   "A-07-006": 2,
+   "A-07-007": 4
+  },
+  "outside": {},
+  "plan_total": 8,
+  "status": "CLOSED",
+  "note": ""
+ },
+ "DW9": {
+  "mark": "DW 09",
+  "schedule": 4,
+  "schedule_sheet": "A-13-002",
+  "location": "DINING / LIVING,BEDRM (2ND TO 5TH FLOOR)",
+  "plan": {
+   "A-07-005": 1,
+   "A-07-006": 1,
+   "A-07-007": 2
+  },
+  "outside": {},
+  "plan_total": 4,
+  "status": "CLOSED",
+  "note": ""
+ },
+ "LD1": {
+  "mark": "LD-1",
+  "schedule": 1,
+  "schedule_sheet": "A-13-001",
+  "location": "SUBSTATION",
+  "plan": {
+   "A-07-003": 1
+  },
+  "outside": {},
+  "plan_total": 1,
+  "status": "CLOSED",
+  "note": ""
+ },
+ "LD2": {
+  "mark": "LD-2",
+  "schedule": 1,
+  "schedule_sheet": "A-13-001",
+  "location": "GENERATOR ROOM (BASEMENT)",
+  "plan": {},
+  "outside": {},
+  "plan_total": 0,
+  "status": "OPEN",
+  "note": "its location is on B1, which has no plan in the set"
+ },
+ "LD3": {
+  "mark": "LD-3",
+  "schedule": 1,
+  "schedule_sheet": "A-13-001",
+  "location": "ELEC. ELEC. CABIN (BASEMENT)",
+  "plan": {},
+  "outside": {},
+  "plan_total": 0,
+  "status": "OPEN",
+  "note": "its location is on B1, which has no plan in the set"
+ },
+ "LW1": {
+  "mark": "LW 01",
+  "schedule": 1,
+  "schedule_sheet": "A-13-003",
+  "location": "SUBSTATION (GROUND FLR.)",
+  "plan": {
+   "A-07-003": 1
+  },
+  "outside": {},
+  "plan_total": 1,
+  "status": "CLOSED",
+  "note": ""
+ },
+ "LW2": {
+  "mark": "LW 02",
+  "schedule": 1,
+  "schedule_sheet": "A-13-003",
+  "location": "POOL PUMP (GROUND FLR.)",
+  "plan": {
+   "A-07-003": 1
+  },
+  "outside": {},
+  "plan_total": 1,
+  "status": "CLOSED",
+  "note": ""
+ },
+ "LW3": {
+  "mark": "LW 03",
+  "schedule": 1,
+  "schedule_sheet": "A-13-003",
+  "location": "GENER.ROOM (BASEMENT FLR.)",
+  "plan": {},
+  "outside": {},
+  "plan_total": 0,
+  "status": "OPEN",
+  "note": "its location is on B1, which has no plan in the set"
+ },
+ "SD1": {
+  "mark": "SD-1",
+  "schedule": 1,
+  "schedule_sheet": "A-13-001",
+  "location": "LV ROOM,",
+  "plan": {
+   "A-07-003": 1
+  },
+  "outside": {},
+  "plan_total": 1,
+  "status": "CLOSED",
+  "note": ""
+ },
+ "SD2": {
+  "mark": "SD-2",
+  "schedule": 3,
+  "schedule_sheet": "A-13-001",
+  "location": "TELE.ROOM,GSM RM,POOL PUMP (GF,LOWER ROOF)",
+  "plan": {
+   "A-07-003": 2,
+   "A-07-008": 1
+  },
+  "outside": {},
+  "plan_total": 3,
+  "status": "CLOSED",
+  "note": ""
+ },
+ "SD3": {
+  "mark": "SD-3",
+  "schedule": 1,
+  "schedule_sheet": "A-13-001",
+  "location": "GARBAGE ROOM (GROUND FLOOR)",
+  "plan": {
+   "A-07-003": 1
+  },
+  "outside": {},
+  "plan_total": 1,
+  "status": "CLOSED",
+  "note": ""
+ }
+}

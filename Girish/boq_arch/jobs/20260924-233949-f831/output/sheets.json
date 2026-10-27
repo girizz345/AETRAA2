@@ -1,0 +1,306 @@
+[
+ {
+  "drawing": "A-01-001",
+  "title": "LIST OF DRAWINGS",
+  "kind": "general",
+  "class": "TEXT",
+  "title_block": "STATED",
+  "file": "A-01-001 LIST OF DRAWINGS.pdf"
+ },
+ {
+  "drawing": "G-102",
+  "title": "PERSPECTIVES",
+  "kind": "general",
+  "class": "MIXED",
+  "title_block": "STATED",
+  "file": "A-02-001 PERSPECTIVES-G-102.pdf"
+ },
+ {
+  "drawing": "A-03-001",
+  "title": "AREA CALCULATION-1",
+  "kind": "area",
+  "class": "TEXT",
+  "title_block": "READ (VISUAL)",
+  "file": "A-03-001.pdf"
+ },
+ {
+  "drawing": "A-03-004",
+  "title": "AREA CALCULATION-4",
+  "kind": "area",
+  "class": "MIXED",
+  "title_block": "READ (VISUAL)",
+  "file": "A-03-001TOA-03-004 AREA CALCULATION-A-03-004.pdf"
+ },
+ {
+  "drawing": "A-03-002",
+  "title": "AREA CALCULATION-2",
+  "kind": "area",
+  "class": "MIXED",
+  "title_block": "STATED",
+  "file": "A-03-002 AREACALCULATION-2.pdf"
+ },
+ {
+  "drawing": "A-03-003",
+  "title": "AREA CALCULATION-3",
+  "kind": "area",
+  "class": "MIXED",
+  "title_block": "STATED",
+  "file": "A-03-003 22NOS AREACALCULATION-3.pdf"
+ },
+ {
+  "drawing": "A-06-001",
+  "title": "SETTING OUT PLAN",
+  "kind": "general",
+  "class": "MIXED",
+  "title_block": "READ (VISUAL)",
+  "file": "A-06-001 SETTINGOUT LAYOUT-A-100 SETTING OUT PLAN.pdf"
+ },
+ {
+  "drawing": "A-07-001",
+  "title": "UNDER GROUND WATER TANK & PUMP ROOM",
+  "kind": "plan",
+  "class": "MIXED",
+  "title_block": "STATED",
+  "file": "A-07-001 UNDER GROUND WATER TANK & PUMP ROOM.pdf"
+ },
+ {
+  "drawing": "A-07-003",
+  "title": "GROUND FLOOR PLAN",
+  "kind": "plan",
+  "class": "TEXT",
+  "title_block": "STATED",
+  "file": "A-07-003 GROUND FLOOR PLAN.pdf"
+ },
+ {
+  "drawing": "A-07-004",
+  "title": "FIRST FLOOR PLAN",
+  "kind": "plan",
+  "class": "MIXED",
+  "title_block": "STATED",
+  "file": "A-07-004 FIRST FLOOR PLAN.pdf"
+ },
+ {
+  "drawing": "A-07-005",
+  "title": "2ND FLOOR PLAN",
+  "kind": "plan",
+  "class": "TEXT",
+  "title_block": "STATED",
+  "file": "A-07-005 2ND FLOOR PLAN.pdf"
+ },
+ {
+  "drawing": "A-07-006",
+  "title": "3RD FLOOR PLAN",
+  "kind": "plan",
+  "class": "MIXED",
+  "title_block": "STATED",
+  "file": "A-07-006 3RD FLOOR PLAN.pdf"
+ },
+ {
+  "drawing": "A-07-007",
+  "title": "TYP ( 4 - 5 ) FLOOR PLAN",
+  "kind": "plan",
+  "class": "TEXT",
+  "title_block": "STATED",
+  "file": "A-07-007 TYP ( 4 - 5 ) FLOOR PLAN.pdf"
+ },
+ {
+  "drawing": "A-07-008",
+  "title": "LOWER ROOF PLAN",
+  "kind": "roof",
+  "class": "TEXT",
+  "title_block": "STATED",
+  "file": "A-07-008 LOWER ROOF PLAN.pdf"
+ },
+ {
+  "drawing": "A-07-009",
+  "title": "UPPER ROOF PLAN",
+  "kind": "roof",
+  "class": "MIXED",
+  "title_block": "STATED",
+  "file": "A-07-009 UPPER ROOF PLAN.pdf"
+ },
+ {
+  "drawing": "A-07-010",
+  "title": "TOP ROOF PLAN",
+  "kind": "roof",
+  "class": "MIXED",
+  "title_block": "STATED",
+  "file": "A-07-010 TOPROOFPLAN.pdf"
+ },
+ {
+  "drawing": "A-08-001",
+  "title": "ELEVATION",
+  "kind": "elevation",
+  "class": "MIXED",
+  "title_block": "STATED",
+  "file": "A-08-001 ELEVATION -1.pdf"
+ },
+ {
+  "drawing": "A-08-002",
+  "title": "ELEVATION",
+  "kind": "elevation",
+  "class": "MIXED",
+  "title_block": "STATED",
+  "file": "A-08-002 ELEVATION -2.pdf"
+ },
+ {
+  "drawing": "A-08-003",
+  "title": "ELEVATION",
+  "kind": "elevation",
+  "class": "MIXED",
+  "title_block": "STATED",
+  "file": "A-08-003 ELEVATION-3.pdf"
+ },
+ {
+  "drawing": "A-08-004",
+  "title": "ELEVATION",
+  "kind": "elevation",
+  "class": "MIXED",
+  "title_block": "STATED",
+  "file": "A-08-004 ELEVATION-4.pdf"
+ },
+ {
+  "drawing": "A-09-001",
+  "title": "SECTION -AA",
+  "kind": "section",
+  "class": "MIXED",
+  "title_block": "STATED",
+  "file": "A-09-001 SECTION -AA.pdf"
+ },
+ {
+  "drawing": "A-09-002",
+  "title": "SECTION -BB",
+  "kind": "section",
+  "class": "MIXED",
+  "title_block": "STATED",
+  "file": "A-09-002 SECTION -BB.pdf"
+ },
+ {
+  "drawing": "A-09-003",
+  "title": "WALL SECTION - W1 TO W3",
+  "kind": "section",
+  "class": "MIXED",
+  "title_block": "STATED",
+  "file": "A-09-003 WALL SECTION - W1 TO W3.pdf"
+ },
+ {
+  "drawing": "A-09-004",
+  "title": "WALL SECTION - W4 TO W5",
+  "kind": "section",
+  "class": "MIXED",
+  "title_block": "STATED",
+  "file": "A-09-004 WALL SECTION - W4 TO W5.pdf"
+ },
+ {
+  "drawing": "A-12-001",
+  "title": "STAIRCASE DETAIL-1",
+  "kind": "detail",
+  "class": "MIXED",
+  "title_block": "STATED",
+  "file": "A-12-001 STAIRCASE DETAIL-1.pdf"
+ },
+ {
+  "drawing": "A-12-002",
+  "title": "STAIRCASE DETAIL-2",
+  "kind": "detail",
+  "class": "MIXED",
+  "title_block": "STATED",
+  "file": "A-12-002 STAIRCASE DETAIL-2.pdf"
+ },
+ {
+  "drawing": "A-12-003",
+  "title": "LIFT DETAILS",
+  "kind": "detail",
+  "class": "MIXED",
+  "title_block": "STATED",
+  "file": "A-12-003 LIFT DETAILS.pdf"
+ },
+ {
+  "drawing": "A-12-004",
+  "title": "SUBSTATION & LV ROOM DETAILS",
+  "kind": "detail",
+  "class": "MIXED",
+  "title_block": "STATED",
+  "file": "A-12-004 SUBSTATION & LV ROOM DETAILS.pdf"
+ },
+ {
+  "drawing": "A-12-005",
+  "title": "GARBAGE ROOM DETAILS",
+  "kind": "detail",
+  "class": "MIXED",
+  "title_block": "STATED",
+  "file": "A-12-005 GARBAGE ROOM DETAILS.pdf"
+ },
+ {
+  "drawing": "A-12-006",
+  "title": "TANK&PUMP ROOM DETAILS",
+  "kind": "plan",
+  "class": "MIXED",
+  "title_block": "STATED",
+  "file": "A-12-006 TANK&PUMP ROOM DETAILS.pdf"
+ },
+ {
+  "drawing": "A-12-007",
+  "title": "SWIMMING POOL DETAILS",
+  "kind": "detail",
+  "class": "MIXED",
+  "title_block": "STATED",
+  "file": "A-12-007 SWIMMING POOL DETAILS.pdf"
+ },
+ {
+  "drawing": "A-12-008",
+  "title": "RAMP DETAILS",
+  "kind": "detail",
+  "class": "MIXED",
+  "title_block": "STATED",
+  "file": "A-12-008 RAMP DETAILS.pdf"
+ },
+ {
+  "drawing": "A-12-012",
+  "title": "WATERPROOFING DETAILS",
+  "kind": "detail",
+  "class": "MIXED",
+  "title_block": "STATED",
+  "file": "A-12-012 WATERPROOFING DETAILS.pdf"
+ },
+ {
+  "drawing": "A-12-013",
+  "title": "TYPICAL DETAILS",
+  "kind": "detail",
+  "class": "MIXED",
+  "title_block": "STATED",
+  "file": "A-12-013 TYPICAL DETAILS.pdf"
+ },
+ {
+  "drawing": "A-12-014",
+  "title": "SIGNAGE SIGNAGE DETAILS DETAILS DETAILS DETAILS",
+  "kind": "detail",
+  "class": "MIXED",
+  "title_block": "STATED",
+  "file": "A-12-014 SIGNAGE SIGNAGEDETAILS DETAILS DETAILS DETAILS.pdf"
+ },
+ {
+  "drawing": "A-13-001",
+  "title": "SCHEDULE OF DOORS",
+  "kind": "schedule",
+  "class": "MIXED",
+  "title_block": "STATED",
+  "file": "A-13-001 SCHEDULE OF DOORS.pdf"
+ },
+ {
+  "drawing": "A-13-002",
+  "title": "SCHEDULE OF WINDOWS-01",
+  "kind": "schedule",
+  "class": "MIXED",
+  "title_block": "STATED",
+  "file": "A-13-002 SCHEDULE OF WINDOWS-01.pdf"
+ },
+ {
+  "drawing": "A-13-003",
+  "title": "SCHEDULE OF WINDOWS-02",
+  "kind": "schedule",
+  "class": "MIXED",
+  "title_block": "STATED",
+  "file": "A-13-003 SCHEDULE OF WINDOWS-02.pdf"
+ }
+]

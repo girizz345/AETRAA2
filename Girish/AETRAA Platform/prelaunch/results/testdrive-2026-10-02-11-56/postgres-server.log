@@ -1,0 +1,5 @@
+No email is configured: nothing will be sent — sign-in codes and reports included.
+schema: created
+AETRAA listening on 58730
+  database : postgres://postgres:***@127.0.0.1:58731/postgres
+  files    : the database
